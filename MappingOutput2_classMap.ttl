@@ -1,0 +1,50 @@
+<Match 1>  <found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                              <http://purl.org/dc/terms/Dataset> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                              <https://w3id.org/deer/matchesWith> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                              <http://www.contextdatacloud.org/cmo/ontology/Dataset> ;
+                      <https://w3id.org/deer/confidenceValue>
+                              "0.505"
+                    ] ;
+        <found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                   <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                           <http://www.w3.org/ns/dcat#Dataset> ;
+                   <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                           <https://w3id.org/deer/matchesWith> ;
+                   <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                           <http://www.contextdatacloud.org/cmo/ontology/Dataset> ;
+                   <https://w3id.org/deer/confidenceValue>
+                           "0.7030000000000001"
+                 ] ;
+        <found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                   <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                           <http://rdfs.org/ns/void#Dataset> ;
+                   <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                           <https://w3id.org/deer/matchesWith> ;
+                   <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                           <http://www.contextdatacloud.org/cmo/ontology/Dataset> ;
+                   <https://w3id.org/deer/confidenceValue>
+                           "0.505"
+                 ] ;
+        <found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                   <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                           <http://www.w3.org/2000/01/rdf-schema#Container> ;
+                   <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                           <https://w3id.org/deer/matchesWith> ;
+                   <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                           <http://www.contextdatacloud.org/cmo/ontology/Container> ;
+                   <https://w3id.org/deer/confidenceValue>
+                           "0.7030000000000001"
+                 ] ;
+        <found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                   <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                           <http://www.w3.org/2000/01/rdf-schema#Class> ;
+                   <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                           <https://w3id.org/deer/matchesWith> ;
+                   <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                           <http://www.w3.org/2002/07/owl#Class> ;
+                   <https://w3id.org/deer/confidenceValue>
+                           "0.7030000000000001"
+                 ] .

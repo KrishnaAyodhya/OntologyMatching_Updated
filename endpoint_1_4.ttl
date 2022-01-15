@@ -1,0 +1,1586 @@
+@prefix ns6:   <http://localhost:8890/> .
+@prefix sd:    <http://www.w3.org/ns/sparql-service-description#> .
+@prefix ns8:   <http://www.w3.org/2002/07/> .
+@prefix rdfdf: <http://www.openlinksw.com/virtrdf-data-formats#> .
+@prefix apt:   <http://id.eaufrance.fr/ddd/APT/2.1/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dwct:  <http://rs.tdwg.org/dwc/terms/> .
+
+rdfdf:sinv-iid  a  virtrdf:QuadMapFormat .
+
+rdfdf:sql-nvarchar-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/1193>
+        a       skos:Concept , apt:AppelTaxon , dwct:Taxon .
+
+<http://id.eaufrance.fr/apt/10119>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+rdfdf:zeropart-literal-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultServiceMap-O-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+owl:TransitiveProperty
+        a       rdfs:Class .
+
+virtrdf:DefaultServiceMap-S-col-S
+        a       virtrdf:QuadMapColumn .
+
+rdfdf:sql-varchar-dt-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-doubleprecision
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-varchar-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/13726>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/10120>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+virtrdf:DefaultQuadMap-P-col-P
+        a       virtrdf:QuadMapColumn .
+
+owl:equivalentClass  a  rdf:Property .
+
+<http://id.eaufrance.fr/apt/12303>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/1103>
+        a       skos:Concept , dwct:Taxon , apt:AppelTaxon .
+
+rdfdf:sinv-nullable  a  virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/13798>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+rdfdf:sql-nvarchar-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/10765>
+        a       skos:Concept , dwct:Taxon , apt:AppelTaxon .
+
+<http://id.eaufrance.fr/apt/11289>
+        a       skos:Concept , dwct:Taxon , apt:AppelTaxon .
+
+rdfdf:sql-varchar-dt-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+owl:cardinality  a  rdf:Property .
+
+<http://id.eaufrance.fr/apt/14136>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/13316>
+        a       skos:Concept , dwct:Taxon , apt:AppelTaxon .
+
+<http://id.eaufrance.fr/apt/10102>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/10596>
+        a       skos:Concept , dwct:Taxon , apt:AppelTaxon .
+
+rdfdf:multipart-uri-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+owl:Restriction  a  rdfs:Class .
+
+<http://id.eaufrance.fr/apt/11863>
+        a       skos:Concept , dwct:Taxon , apt:AppelTaxon .
+
+<http://id.eaufrance.fr/apt/10355>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+rdfdf:sql-numeric-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-doubleprecision-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:zeropart-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-varchar  a  virtrdf:QuadMapFormat .
+
+virtrdf:DefaultServiceMap-pquad
+        a       virtrdf:QuadMapATable .
+
+<http://id.eaufrance.fr/apt/14571>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/14118>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/10029>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/13696>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+rdfdf:sql-longvarchar-fixedlang-x-any-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:default-iid-nonblank-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/12092>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+virtrdf:DefaultQuadMap-O-col-O
+        a       virtrdf:QuadMapColumn .
+
+<http://id.eaufrance.fr/apt/1465>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/10060>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+rdfdf:sql-varchar-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/10367>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/11368>
+        a       skos:Concept , apt:AppelTaxon , dwct:Taxon .
+
+rdfdf:sql-varchar-fixedlang-x-any
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:zeropart-uri-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+owl:FunctionalProperty
+        a       rdfs:Class .
+
+rdfdf:sql-nvarchar-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/14426>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/10790>
+        a       skos:Concept , apt:AppelTaxon , dwct:Taxon .
+
+virtrdf:DefaultQuadMap-G-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+rdfdf:sql-longnvarchar-lang
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:zeropart-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/1109>
+        a       skos:Concept , apt:AppelTaxon , dwct:Taxon .
+
+rdfdf:sql-date-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/14764>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/13678>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/11199>
+        a       skos:Concept , dwct:Taxon , apt:AppelTaxon .
+
+<http://id.eaufrance.fr/apt/13944>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/10856>
+        a       skos:Concept , apt:AppelTaxon , dwct:Taxon .
+
+rdfdf:sql-longnvarchar-fixedlang-x-any-nullable
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:DefaultQuadMap-S-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+rdfdf:multipart-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/15132>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/1110>
+        a       skos:Concept , dwct:Taxon , apt:AppelTaxon .
+
+rdfdf:sql-datetime-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/10138>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+rdfdf:sql-numeric-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/11984>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+rdfdf:sql-integer-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+owl:priorVersion  a  owl:OntologyProperty , rdf:Property .
+
+<http://id.eaufrance.fr/apt/11170>
+        a       skos:Concept , apt:AppelTaxon , dwct:Taxon .
+
+<http://id.eaufrance.fr/apt/1097>
+        a       skos:Concept , dwct:Taxon , apt:AppelTaxon .
+
+<http://id.eaufrance.fr/apt/10350>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+rdfdf:sql-longvarchar-dt-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+owl:differentFrom  a  rdf:Property .
+
+owl:disjointWith  a  rdf:Property .
+
+rdfdf:sql-time-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/13745>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/64553>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+rdfdf:sql-doubleprecision-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/11055>
+        a       skos:Concept , dwct:Taxon , apt:AppelTaxon .
+
+rdfdf:zeropart-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:DefaultQuadStorage
+        a       virtrdf:QuadStorage .
+
+<http://id.eaufrance.fr/apt/13504>
+        a       skos:Concept , apt:AppelTaxon , dwct:Taxon .
+
+<http://id.eaufrance.fr/apt/10808>
+        a       skos:Concept , apt:AppelTaxon , dwct:Taxon .
+
+<http://id.eaufrance.fr/apt/13027>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+rdfdf:sql-longvarchar-dt
+        a       virtrdf:QuadMapFormat .
+
+xsd:date  a     rdfs:Datatype .
+
+<http://id.eaufrance.fr/apt/14185>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/14451>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/14843>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+rdfdf:sql-longnvarchar-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-integer-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultQuadMap-G
+        a       virtrdf:QuadMapValue .
+
+rdfdf:sql-numeric-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/10247>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+virtrdf:DefaultServiceMap-G
+        a       virtrdf:QuadMapValue .
+
+<http://id.eaufrance.fr/apt/1104>
+        a       skos:Concept , dwct:Taxon , apt:AppelTaxon .
+
+rdfdf:sql-longnvarchar-fixedlang-x-any
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:singlepart-uri-fn-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-numeric-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/13251>
+        a       skos:Concept , dwct:Taxon , apt:AppelTaxon .
+
+<http://id.eaufrance.fr/apt/14041>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/15042>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+rdfdf:sql-numeric-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/12919>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/13981>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/13709>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+virtrdf:DefaultServiceMap-P-col-P
+        a       virtrdf:QuadMapColumn .
+
+<http://id.eaufrance.fr/apt/13293>
+        a       skos:Concept , dwct:Taxon , apt:AppelTaxon .
+
+<http://id.eaufrance.fr/apt/11019>
+        a       skos:Concept , apt:AppelTaxon , dwct:Taxon .
+
+rdfdf:sql-longnvarchar-lang-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-numeric-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/14445>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+ns6:sparql  a   sd:Service .
+
+rdfdf:sql-time-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-nvarchar-nullable
+        a       virtrdf:QuadMapFormat .
+
+owl:Ontology  a  rdfs:Class .
+
+rdfdf:default-iid  a  virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/1309>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+rdfdf:sql-longnvarchar-fixedlang-x-any-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/11961>
+        a       skos:Concept , apt:AppelTaxon , dwct:Taxon .
+
+<http://id.eaufrance.fr/apt/14095>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+rdfdf:sql-integer-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns8:owl  a      owl:Ontology .
+
+rdfdf:sql-longnvarchar-dt-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/1466>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/14542>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+rdfdf:zeropart-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/13456>
+        a       skos:Concept , dwct:Taxon , apt:AppelTaxon .
+
+virtrdf:DefaultQuadStorage-UserMaps
+        a       virtrdf:array-of-QuadMap .
+
+rdfdf:sql-time-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:default-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-longvarbinary
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-varchar-fixedlang-x-any-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+owl:versionInfo  a  owl:AnnotationProperty , rdf:Property .
+
+<http://id.eaufrance.fr/apt/10338>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/14427>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+rdfdf:sql-date-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/10127>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/10001>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+rdfdf:default-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-doubleprecision-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/14976>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/10676>
+        a       skos:Concept , apt:AppelTaxon , dwct:Taxon .
+
+<http://id.eaufrance.fr/apt/10073>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/14524>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/1448>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+virtrdf:DefaultServiceMap-O-col-O
+        a       virtrdf:QuadMapColumn .
+
+rdfdf:zeropart-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-datetime-literal
+        a       virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/1322>
+        a       skos:Concept , dwct:Taxon , apt:AppelTaxon .
+
+<http://id.eaufrance.fr/apt/11913>
+        a       skos:Concept , apt:AppelTaxon , dwct:Taxon .
+
+virtrdf:DefaultServiceMap-P-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+owl:hasValue  a  rdf:Property .
+
+rdfdf:multipart-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/1503>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/1111>
+        a       skos:Concept , dwct:Taxon , apt:AppelTaxon .
+
+<http://id.eaufrance.fr/apt/10616>
+        a       skos:Concept , apt:AppelTaxon , dwct:Taxon .
+
+owl:AllDifferent  a  rdfs:Class .
+
+<http://id.eaufrance.fr/apt/10381>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+rdfs:isDefinedBy  a  owl:AnnotationProperty .
+
+<http://id.eaufrance.fr/apt/1153>
+        a       skos:Concept , dwct:Taxon , apt:AppelTaxon .
+
+<http://id.eaufrance.fr/apt/64554>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+rdfdf:multipart-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+owl:onProperty  a  rdf:Property .
+
+<http://id.eaufrance.fr/apt/14802>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/1123>
+        a       skos:Concept , dwct:Taxon , apt:AppelTaxon .
+
+<http://id.eaufrance.fr/apt/13716>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+rdfdf:sql-date  a  virtrdf:QuadMapFormat .
+
+rdfdf:sql-date-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/12395>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+owl:oneOf  a    rdf:Property .
+
+rdfdf:sql-time-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/12661>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+rdfdf:sql-nvarchar-lang
+        a       virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/14452>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+owl:OntologyProperty  a  rdfs:Class .
+
+<http://id.eaufrance.fr/apt/13843>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/1165>
+        a       skos:Concept , apt:AppelTaxon , dwct:Taxon .
+
+<http://id.eaufrance.fr/apt/13758>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/10544>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+owl:Thing  a    owl:Class .
+
+virtrdf:DefaultQuadMap-atables
+        a       virtrdf:array-of-QuadMapATable .
+
+<http://id.eaufrance.fr/apt/12727>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+virtrdf:DefaultQuadMap-O-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+<http://id.eaufrance.fr/apt/1135>
+        a       skos:Concept , apt:AppelTaxon , dwct:Taxon .
+
+<http://id.eaufrance.fr/apt/10248>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+rdfdf:sql-nvarchar-lang-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultServiceMap-ft-conds
+        a       virtrdf:array-of-string .
+
+<http://id.eaufrance.fr/apt/1316>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/10037>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+virtrdf:DefaultQuadMap-S
+        a       virtrdf:QuadMapValue .
+
+owl:maxCardinality  a  rdf:Property .
+
+<http://id.eaufrance.fr/apt/1105>
+        a       skos:Concept , dwct:Taxon , apt:AppelTaxon .
+
+<http://id.eaufrance.fr/apt/10586>
+        a       skos:Concept , dwct:Taxon , apt:AppelTaxon .
+
+virtrdf:DefaultServiceMap-S
+        a       virtrdf:QuadMapValue .
+
+rdfdf:sql-datetime-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/10978>
+        a       skos:Concept , dwct:Taxon , apt:AppelTaxon .
+
+<http://id.eaufrance.fr/apt/10852>
+        a       skos:Concept , apt:AppelTaxon , dwct:Taxon .
+
+<http://id.eaufrance.fr/apt/13463>
+        a       skos:Concept , dwct:Taxon , apt:AppelTaxon .
+
+rdfdf:sql-longvarchar-dt-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultServiceStorage-UserMaps
+        a       virtrdf:array-of-QuadMap .
+
+rdfdf:sql-longvarbinary-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-varchar-dt-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-varchar-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:SyncToQuads  a  virtrdf:QuadStorage .
+
+rdfdf:sql-numeric-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/13529>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/13403>
+        a       skos:Concept , apt:AppelTaxon , dwct:Taxon .
+
+rdfdf:default-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longnvarchar
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-nvarchar-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longvarbinary-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/13475>
+        a       skos:Concept , apt:AppelTaxon , dwct:Taxon .
+
+rdfdf:sql-time-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/14742>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+rdfs:comment  a  owl:AnnotationProperty .
+
+<http://id.eaufrance.fr/apt/14923>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/15055>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/11147>
+        a       skos:Concept , apt:AppelTaxon , dwct:Taxon .
+
+rdfdf:sql-longnvarchar-dt-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/14501>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/12022>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+rdfdf:sql-doubleprecision-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-nvarchar-dt-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/12782>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+rdfdf:sql-varchar-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultQuadMap-G-col-G
+        a       virtrdf:QuadMapColumn .
+
+rdfdf:singlepart-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/13542>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/14066>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+rdfs:seeAlso  a  owl:AnnotationProperty .
+
+rdfdf:sql-longvarchar-lang-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/1130>
+        a       skos:Concept , dwct:Taxon , apt:AppelTaxon .
+
+<http://id.eaufrance.fr/apt/1100>
+        a       skos:Concept , dwct:Taxon , apt:AppelTaxon .
+
+rdfdf:sql-varchar-lang-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/12679>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+owl:Class  a    rdfs:Class .
+
+virtrdf:DefaultServiceMap-geo-conds
+        a       virtrdf:array-of-string .
+
+virtrdf:DefaultServiceMap-G-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+<http://id.eaufrance.fr/apt/10255>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+virtrdf:DefaultServiceMap-ft
+        a       virtrdf:QuadMapFText .
+
+<http://id.eaufrance.fr/apt/13524>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/10310>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/1112>
+        a       skos:Concept , dwct:Taxon , apt:AppelTaxon .
+
+rdfdf:singlepart-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/14229>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+rdfdf:sql-longnvarchar-dt-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/1208>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+owl:ObjectProperty  a  rdfs:Class .
+
+<http://id.eaufrance.fr/apt/1099>
+        a       skos:Concept , dwct:Taxon , apt:AppelTaxon .
+
+<http://id.eaufrance.fr/apt/64555>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+rdfdf:sql-nvarchar-fixedlang-x-any-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:default-iid-nonblank-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/11926>
+        a       skos:Concept , apt:AppelTaxon , dwct:Taxon .
+
+rdfdf:sinv  a   virtrdf:QuadMapFormat .
+
+rdfdf:sql-nvarchar-uri
+        a       virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/13410>
+        a       skos:Concept , apt:AppelTaxon , dwct:Taxon .
+
+rdfdf:sinv-iid-nonblank-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:zeropart-literal
+        a       virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/12324>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/13717>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+rdfdf:sql-varchar-literal
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:multipart-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/12505>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+owl:intersectionOf  a  rdf:Property .
+
+owl:allValuesFrom  a  rdf:Property .
+
+<http://id.eaufrance.fr/apt/1009>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/14453>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+rdfdf:sinv-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-doubleprecision-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/14061>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+owl:backwardCompatibleWith
+        a       rdf:Property , owl:OntologyProperty .
+
+<http://id.eaufrance.fr/apt/11757>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+rdfdf:sql-varchar-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/1166>
+        a       skos:Concept , apt:AppelTaxon , dwct:Taxon .
+
+rdfdf:default-iid-nonblank-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultServiceStorage
+        a       virtrdf:QuadStorage .
+
+rdfdf:sql-longvarchar-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/11601>
+        a       skos:Concept , dwct:Taxon , apt:AppelTaxon .
+
+rdfdf:singlepart-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sinv-iid-nonblank-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/11492>
+        a       skos:Concept , dwct:Taxon , apt:AppelTaxon .
+
+<http://id.eaufrance.fr/apt/1106>
+        a       skos:Concept , apt:AppelTaxon , dwct:Taxon .
+
+rdfdf:sql-time-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-date-literal
+        a       virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/13675>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/14731>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+rdfdf:sql-nvarchar-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/13464>
+        a       skos:Concept , apt:AppelTaxon , dwct:Taxon .
+
+<http://id.eaufrance.fr/apt/11769>
+        a       skos:Concept , dwct:Taxon , apt:AppelTaxon .
+
+rdfdf:sql-date-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-date-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/1052>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+rdfdf:sql-varchar-fixedlang-x-any-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-time-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfs:label  a   owl:AnnotationProperty .
+
+<http://id.eaufrance.fr/apt/12137>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+virtrdf:DefaultServiceMap-atables
+        a       virtrdf:array-of-QuadMapATable .
+
+rdfdf:sql-datetime-nullable
+        a       virtrdf:QuadMapFormat .
+
+owl:SymmetricProperty
+        a       rdfs:Class .
+
+rdfdf:sql-integer-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-nvarchar-fixedlang-x-any
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:default  a  virtrdf:QuadMapFormat .
+
+rdfdf:sql-varchar-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/12741>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+rdfdf:default-iid-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-varchar-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+owl:someValuesFrom  a  rdf:Property .
+
+rdfdf:sql-time-nullable
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:SyncToQuads-UserMaps
+        a       virtrdf:array-of-QuadMap .
+
+virtrdf:DefaultQuadMap-geo
+        a       virtrdf:QuadMapFText .
+
+rdfdf:sinv-iid-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sinv-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-nvarchar-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-integer-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:singlepart-literal-fn-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/12119>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/12572>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/10485>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/1161>
+        a       skos:Concept , apt:AppelTaxon , dwct:Taxon .
+
+<http://id.eaufrance.fr/apt/12668>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+rdfdf:sql-time  a  virtrdf:QuadMapFormat .
+
+rdfdf:sql-nvarchar-literal
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-varchar-lang-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/13639>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+rdfdf:sql-numeric-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:DefaultQuadMap-O
+        a       virtrdf:QuadMapValue .
+
+rdfdf:zeropart-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/1101>
+        a       skos:Concept , apt:AppelTaxon , dwct:Taxon .
+
+<http://id.eaufrance.fr/apt/10214>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+owl:unionOf  a  rdf:Property .
+
+rdfdf:sql-integer-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/10129>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+rdfdf:singlepart-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:DefaultServiceMap-O
+        a       virtrdf:QuadMapValue .
+
+owl:minCardinality  a  rdf:Property .
+
+rdfdf:sql-time-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-datetime-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-date-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-numeric-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:default-iid-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/1354>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/1269>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/1143>
+        a       skos:Concept , apt:AppelTaxon , dwct:Taxon .
+
+virtrdf:DefaultQuadMap-ft
+        a       virtrdf:QuadMapFText .
+
+rdfdf:sql-datetime-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+owl:complementOf  a  rdf:Property .
+
+virtrdf:DefaultServiceMap-G-col-G
+        a       virtrdf:QuadMapColumn .
+
+<http://id.eaufrance.fr/apt/14049>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/11704>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+rdfdf:multipart-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-varchar-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/1113>
+        a       skos:Concept , dwct:Taxon , apt:AppelTaxon .
+
+rdfdf:sql-varchar-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-integer-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:multipart-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-varchar-lang
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:DefaultQuadMap-P-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+<http://id.eaufrance.fr/apt/13471>
+        a       skos:Concept , apt:AppelTaxon , dwct:Taxon .
+
+<http://id.eaufrance.fr/apt/1209>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+owl:inverseOf  a  rdf:Property .
+
+rdfdf:multipart-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-numeric-uri
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-nvarchar-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-longvarchar-dt-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:multipart-literal
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:default-iid-nonblank
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:multipart-literal-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/14568>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/12089>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+rdfdf:sql-doubleprecision-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longnvarchar-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/10353>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+rdfdf:multipart-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-nvarchar-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/15021>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+rdfdf:sinv-iid-nonblank
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-datetime-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultQuadMap
+        a       virtrdf:QuadMap .
+
+rdfdf:zeropart-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-numeric-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-datetime-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sinv-iid-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/13694>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+rdfdf:sql-date-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longvarchar-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-varchar-fixedlang-x-any-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-datetime-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/13875>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/10450>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+rdfdf:sql-nvarchar-dt
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-datetime  a  virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/15189>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+rdfdf:default-iid-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-varchar-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:DefaultQuadMap-pquad
+        a       virtrdf:QuadMapATable .
+
+rdfdf:sql-doubleprecision-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/13423>
+        a       skos:Concept , apt:AppelTaxon , dwct:Taxon .
+
+rdfdf:sql-numeric-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sinv-iid-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/1107>
+        a       skos:Concept , apt:AppelTaxon , dwct:Taxon .
+
+rdfdf:singlepart-uri-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/14677>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+virtrdf:DefaultServiceMap-S-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+rdfdf:sql-longnvarchar-lang-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultServiceMap-geo
+        a       virtrdf:QuadMapFText .
+
+<http://id.eaufrance.fr/apt/13857>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/10251>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/12645>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+rdfdf:sql-datetime-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/1053>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/14436>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/12700>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+rdfdf:sql-nvarchar-lang-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longvarchar
+        a       virtrdf:QuadMapFormat .
+
+owl:AnnotationProperty
+        a       rdfs:Class .
+
+rdfdf:sql-longvarchar-lang
+        a       virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/1204>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+rdfdf:sql-integer-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://localhost:8890/DAV//temp/73677843626534185747.vad>
+        a       <http://www.openlinksw.com/schemas/VAD#> .
+
+rdfdf:sql-nvarchar-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+owl:DatatypeProperty  a  rdfs:Class .
+
+virtrdf:DefaultQuadMap-S-col-S
+        a       virtrdf:QuadMapColumn .
+
+<http://id.eaufrance.fr/apt/15172>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/10474>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+rdfdf:sql-doubleprecision-literal
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-datetime-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/64551>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+rdfdf:sql-nvarchar-lang-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/1457>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+rdfdf:sql-integer-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/13447>
+        a       skos:Concept , dwct:Taxon , apt:AppelTaxon .
+
+<http://id.eaufrance.fr/apt/1512>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/14714>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/11500>
+        a       skos:Concept , dwct:Taxon , apt:AppelTaxon .
+
+<http://id.eaufrance.fr/apt/11023>
+        a       skos:Concept , apt:AppelTaxon , dwct:Taxon .
+
+rdfdf:sql-longvarchar-lang-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/10782>
+        a       skos:Concept , dwct:Taxon , apt:AppelTaxon .
+
+<http://id.eaufrance.fr/apt/11180>
+        a       skos:Concept , apt:AppelTaxon , dwct:Taxon .
+
+rdfdf:sql-doubleprecision-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-numeric-literal
+        a       virtrdf:QuadMapFormat .
+
+owl:DeprecatedClass  a  rdfs:Class .
+
+owl:DeprecatedProperty
+        a       rdfs:Class .
+
+<http://id.eaufrance.fr/apt/1162>
+        a       skos:Concept , apt:AppelTaxon , dwct:Taxon .
+
+owl:equivalentProperty
+        a       rdf:Property .
+
+<http://id.eaufrance.fr/apt/14068>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/12639>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+rdfdf:sql-nvarchar-dt-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-integer-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longnvarchar-fixedlang-x-any-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultQuadMap-P
+        a       virtrdf:QuadMapValue .
+
+rdfdf:sql-varchar-uri
+        a       virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/1102>
+        a       skos:Concept , apt:AppelTaxon , dwct:Taxon .
+
+virtrdf:DefaultServiceMap-P
+        a       virtrdf:QuadMapValue .
+
+rdfdf:sql-date-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/13460>
+        a       skos:Concept , dwct:Taxon , apt:AppelTaxon .
+
+<http://id.eaufrance.fr/apt/10372>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+rdfdf:sql-integer-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-date-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/10679>
+        a       skos:Concept , dwct:Taxon , apt:AppelTaxon .
+
+rdfdf:sinv-iid-nonblank-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-nvarchar-fixedlang-x-any-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-longvarchar-fixedlang-x-any
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-numeric  a  virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/10257>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+rdfdf:multipart-uri  a  virtrdf:QuadMapFormat .
+
+rdfdf:sql-longnvarchar-dt
+        a       virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/13134>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+rdfdf:sql-nvarchar-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/13894>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/1114>
+        a       skos:Concept , apt:AppelTaxon , dwct:Taxon .
+
+<http://id.eaufrance.fr/apt/10619>
+        a       skos:Concept , apt:AppelTaxon , dwct:Taxon .
+
+rdfdf:sql-longnvarchar-lang-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-integer-literal
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-nvarchar  a  virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/14081>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+rdfdf:zeropart-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-longvarchar-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/13387>
+        a       skos:Concept , apt:AppelTaxon , dwct:Taxon .
+
+rdfdf:sql-time-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/1452>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+rdfdf:sql-nvarchar-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/12356>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+owl:sameAs  a   rdf:Property .
+
+rdfdf:sql-nvarchar-fixedlang-x-any-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/1030>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+owl:distinctMembers  a  rdf:Property .
+
+rdfdf:sql-longvarchar-fixedlang-x-any-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-doubleprecision-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-integer-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-nvarchar-dt-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-longvarbinary-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/1494>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/10788>
+        a       skos:Concept , dwct:Taxon , apt:AppelTaxon .
+
+rdfdf:sql-date-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/10662>
+        a       skos:Concept , apt:AppelTaxon , dwct:Taxon .
+
+<http://id.eaufrance.fr/apt/1253>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+rdfdf:sql-varchar-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-varchar-lang-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-integer-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-integer-uri
+        a       virtrdf:QuadMapFormat .
+
+<http://localhost:8890/DAV//temp/83709617577415385921.vad>
+        a       <http://www.openlinksw.com/schemas/VAD#> .
+
+rdfdf:sql-longvarchar-lang-nullable
+        a       virtrdf:QuadMapFormat .
+
+owl:Nothing  a  owl:Class .
+
+rdfdf:sql-numeric-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:zeropart-uri  a  virtrdf:QuadMapFormat .
+
+rdfdf:sql-time-literal
+        a       virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/1108>
+        a       skos:Concept , apt:AppelTaxon , dwct:Taxon .
+
+rdfdf:sql-numeric-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+owl:imports  a  owl:OntologyProperty , rdf:Property .
+
+<http://id.eaufrance.fr/apt/10589>
+        a       skos:Concept , dwct:Taxon , apt:AppelTaxon .
+
+<http://id.eaufrance.fr/apt/15076>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+rdfdf:sql-varchar-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-varchar-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-doubleprecision-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultServiceMap
+        a       virtrdf:QuadMap .
+
+<http://id.eaufrance.fr/apt/14703>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+rdfdf:sql-varchar-dt  a  virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/10590>
+        a       skos:Concept , dwct:Taxon , apt:AppelTaxon .
+
+rdfdf:sql-nvarchar-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/1392>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/11319>
+        a       skos:Concept , apt:AppelTaxon , dwct:Taxon .
+
+owl:InverseFunctionalProperty
+        a       rdfs:Class .
+
+rdfdf:sql-integer  a  virtrdf:QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/14564>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+owl:incompatibleWith  a  rdf:Property , owl:OntologyProperty .
+
+<http://id.eaufrance.fr/apt/64552>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+rdfdf:singlepart-literal-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://id.eaufrance.fr/apt/1458>
+        a       dwct:Taxon , apt:AppelTaxon , skos:Concept .
+
+<http://id.eaufrance.fr/apt/15143>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+owl:DataRange  a  rdfs:Class .
+
+<http://id.eaufrance.fr/apt/13056>
+        a       apt:AppelTaxon , dwct:Taxon , skos:Concept .
+
+rdfdf:sql-longnvarchar-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-longvarchar-fixedlang-x-any-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .

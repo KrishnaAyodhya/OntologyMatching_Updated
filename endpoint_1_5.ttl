@@ -1,0 +1,2926 @@
+@prefix ns5:   <http://localhost:8899/> .
+@prefix sd:    <http://www.w3.org/ns/sparql-service-description#> .
+@prefix ns8:   <http://www.w3.org/2002/07/> .
+@prefix rdfdf: <http://www.openlinksw.com/virtrdf-data-formats#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix dbnary: <http://kaiko.getalp.org/dbnary#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_възобновяване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_видоизменяване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-nvarchar-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_гледище__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_докато__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_агентство__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_далече__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_възбуждение__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_въведение__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+owl:allValuesFrom  a  rdf:Property .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_боне__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_вече__Наречие__1>
+        a       ontolex:Form .
+
+dct:modified  a  rdf:Property , owl:AnnotationProperty .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_амбалирам__Глагол__1>
+        a       ontolex:Form .
+
+owl:disjointWith  a  rdf:Property .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_вариете__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бележа__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безволие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_вричане__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_губене__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_брътвя__Глагол__1>
+        a       ontolex:Form .
+
+virtrdf:DefaultQuadMap-O
+        a       virtrdf:QuadMapValue .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_доколкото__Наречие__1>
+        a       ontolex:Form .
+
+rdfdf:sql-nvarchar-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_дере__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_буботене__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_вкупом__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_благочестие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_дезертиране__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-doubleprecision-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безрезервно__Наречие__1>
+        a       ontolex:Form .
+
+owl:equivalentProperty
+        a       rdf:Property .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_гърло__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бърборене__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безсистемно__Наречие__1>
+        a       ontolex:Form .
+
+virtrdf:DefaultServiceMap-G-col-G
+        a       virtrdf:QuadMapColumn .
+
+rdfdf:sql-varchar-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-datetime-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безсмислие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-date-literal
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безпристрастие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_будалкам__Глагол__1>
+        a       ontolex:Form .
+
+rdfdf:sinv-iid-nonblank-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_видело__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_додето__Предлог__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_гостолюбие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-nvarchar-dt
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:DefaultQuadStorage
+        a       virtrdf:QuadStorage .
+
+rdfdf:sql-varchar-fixedlang-x-any-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-varchar-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_джезве__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_доникъде__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_деликатно__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_дирижиране__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-numeric-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:singlepart-literal-fn-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_възпоминание__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_великолепно__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_благоденствие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безделнича__Глагол__1>
+        a       ontolex:Form .
+
+rdfdf:zeropart-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_възпиране__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_главозамайване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_водачество__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безумие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_блокиране__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_видоизменение__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-longvarchar-dt
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_ашладисвам__Глагол__1>
+        a       ontolex:Form .
+
+rdfdf:sql-longvarchar
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_довчера__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_диригентство__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_дворянство__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+owl:AnnotationProperty
+        a       rdfs:Class .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_блаженство__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_боравя__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бозая__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_анализирам__Глагол__1>
+        a       ontolex:Form .
+
+rdfdf:sinv-nullable  a  virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_без__Предлог__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_върху__Предлог__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безчестя__Глагол__1>
+        a       ontolex:Form .
+
+rdfdf:sql-date-nullable
+        a       virtrdf:QuadMapFormat .
+
+owl:Class  a    rdfs:Class .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_вникване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_гниене__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_възстановяване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_джиросване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бордеро__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_дознание__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_буйствувам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_баберка__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_встъпление__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_блудствувам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_деформиране__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_грехопадение__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-date-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-numeric-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-integer-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sinv-iid-nonblank-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бактисвам__Глагол__1>
+        a       ontolex:Form .
+
+virtrdf:SyncToQuads  a  virtrdf:QuadStorage .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_добродушие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:default-iid  a  virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_гадже__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_благоволение__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+owl:equivalentClass  a  rdf:Property .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_беседвам__Глагол__1>
+        a       ontolex:Form .
+
+rdfdf:sql-longnvarchar-fixedlang-x-any
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_афоресвам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_внушение__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_вероучение__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-longvarbinary-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_вървене__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_буйстване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_дезертьорство__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_даром__Наречие__1>
+        a       ontolex:Form .
+
+rdfdf:sql-nvarchar-lang
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безумствам__Глагол__1>
+        a       ontolex:Form .
+
+rdfdf:zeropart-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longnvarchar-lang
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_всмукване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бухам__Глагол__1>
+        a       ontolex:Form .
+
+rdfdf:sql-numeric-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безпрекословно__Наречие__1>
+        a       ontolex:Form .
+
+virtrdf:DefaultServiceMap-ft-conds
+        a       virtrdf:array-of-string .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_баялдисвам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безучастие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_вярване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_анкетиране__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_възнаграждение__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_алъш-вериш__Наречие__1>
+        a       ontolex:Form .
+
+rdfdf:sql-longvarbinary
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__bg_gloss_WqSecg--_колело__Съществително_нарицателно_име__1>
+        a       dbnary:Gloss .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_блокирам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__bg_gloss_XFl3EQ--_вълнение__Съществително_нарицателно_име__1>
+        a       dbnary:Gloss .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_акостирам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_възхваление__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безчинство__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:singlepart-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:DefaultServiceMap-ft
+        a       virtrdf:QuadMapFText .
+
+<http://kaiko.getalp.org/dbnary/bul/__bg_gloss_WqSecg--_антре__Съществително_нарицателно_име__1>
+        a       dbnary:Gloss .
+
+rdfdf:sql-varchar-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-varchar-dt-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-integer-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бледнея__Глагол__1>
+        a       ontolex:Form .
+
+rdfdf:sql-datetime-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_гърчене__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-varchar-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бодвам__Глагол__1>
+        a       ontolex:Form .
+
+rdfdf:sql-date-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бликане__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_де__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_деградиране__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_доближаване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_вилнеене__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-datetime-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_вечно__Наречие__1>
+        a       ontolex:Form .
+
+rdfdf:sql-time  a  virtrdf:QuadMapFormat .
+
+rdfdf:sql-longnvarchar-dt-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_владичество__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_вкратце__Наречие__1>
+        a       ontolex:Form .
+
+rdfdf:sql-time-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_благоразположение__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+owl:SymmetricProperty
+        a       rdfs:Class .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_апостериори__Наречие__1>
+        a       ontolex:Form .
+
+rdfdf:sql-time-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бушувам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бабувам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_деморализиране__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_вретено__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:zeropart-uri-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_богословие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_документално__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_главоболие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-varchar-fixedlang-x-any-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__bg_gloss_WqSecg--_анулирам__Глагол__1>
+        a       dbnary:Gloss .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_джавкане__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+ns5:sparql  a   sd:Service .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_боядисвам__Глагол__1>
+        a       ontolex:Form .
+
+rdfdf:sql-numeric-literal
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:DefaultQuadMap-S-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_детенце__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_волю-неволю__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_двуличие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бръсване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_блясвам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_времетраене__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+virtrdf:DefaultServiceMap-geo
+        a       virtrdf:QuadMapFText .
+
+<http://kaiko.getalp.org/dbnary/bul/__bg_gloss_R-hFcg--_въобще__Наречие__1>
+        a       dbnary:Gloss .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_деди__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_венче__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-doubleprecision-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:singlepart-uri-fn-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_диктуване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_асимилиране__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_ведно__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_добавъчно__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бучене__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+virtrdf:DefaultQuadMap-O-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_вгъване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:default  a  virtrdf:QuadMapFormat .
+
+rdfdf:sql-longnvarchar-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_боричкане__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_глазиране__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sinv-iid  a  virtrdf:QuadMapFormat .
+
+rdfdf:sql-nvarchar-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-integer-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-numeric-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:DefaultServiceMap-P
+        a       virtrdf:QuadMapValue .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_благоустрояване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-varchar-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_възвишение__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_доказателство__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_възмездие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-integer-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_благоухание__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-varchar-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-numeric-uri
+        a       virtrdf:QuadMapFormat .
+
+owl:unionOf  a  rdf:Property .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безпокойство__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_въпреки__Предлог__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безрезултатно__Наречие__1>
+        a       ontolex:Form .
+
+rdfs:seeAlso  a  owl:AnnotationProperty .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_величие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безводие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-nvarchar-uri
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_благоприятствам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_блазня__Глагол__1>
+        a       ontolex:Form .
+
+rdfdf:sql-doubleprecision-literal
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безвластие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_всемогъщество__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-datetime-literal
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__bg_gloss_XFl3EQ--_анулирам__Глагол__1>
+        a       dbnary:Gloss .
+
+rdfdf:sql-date-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_глезене__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безпокоене__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бранене__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_врещене__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-datetime  a  virtrdf:QuadMapFormat .
+
+virtrdf:DefaultQuadMap-pquad
+        a       virtrdf:QuadMapATable .
+
+rdfdf:sql-datetime-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_възвание__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-nvarchar-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_вдън__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_втурване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-longvarchar-lang-nullable
+        a       virtrdf:QuadMapFormat .
+
+owl:priorVersion  a  owl:OntologyProperty , rdf:Property .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_готованство__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бракувам__Глагол__1>
+        a       ontolex:Form .
+
+rdfdf:singlepart-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_деклариране__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безсрамие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_даване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_декламиране__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_барабар__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_варене__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__bg_gloss_WqSecg--_принцеса__Съществително_нарицателно_име__1>
+        a       dbnary:Gloss .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_въздействие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfs:isDefinedBy  a  owl:AnnotationProperty .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_въз__Предлог__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_въвличане__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_било__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_дарение__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-nvarchar-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:zeropart-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_въдичарство__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+virtrdf:DefaultServiceMap-pquad
+        a       virtrdf:QuadMapATable .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_внимание__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_втълпяване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:default-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_вършене__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_благосъстояние__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бутвам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_докрай__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_въжеиграчество__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_аргументирам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_въстание__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_дважди__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безобразие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_втрисане__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_башка__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бърдо__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_близане__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бельо__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-varchar-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_анатемосвам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бара__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-date  a  virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_домочадие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_вдъхновение__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безсмъртие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__bg_gloss_XFl3EQ--_ангажирам__Глагол__1>
+        a       dbnary:Gloss .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_блъскане__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+owl:imports  a  rdf:Property , owl:OntologyProperty .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бедствувам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_втръсване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_боготворя__Глагол__1>
+        a       ontolex:Form .
+
+rdfdf:sql-nvarchar-literal
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_войнолюбие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:multipart-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_докосване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+virtrdf:DefaultQuadMap-G
+        a       virtrdf:QuadMapValue .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_вря__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_благоусмотрение__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:default-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_гостуване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_гнездо__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_доброжелание__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_гаргара__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__bg_gloss_XFl3EQ--_бюро__Съществително_нарицателно_име__1>
+        a       dbnary:Gloss .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_буйствам__Глагол__1>
+        a       ontolex:Form .
+
+rdfdf:zeropart-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безчестие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_басиране__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_ближа__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_благоприличие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_гризане__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-date-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бръсвам__Глагол__1>
+        a       ontolex:Form .
+
+rdfdf:sql-varchar-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_доброволно__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бездействие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+owl:Ontology  a  rdfs:Class .
+
+rdfdf:sql-varchar-literal
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_дарование__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_витло__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_атакувам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бреме__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_глътване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-varchar-dt-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-numeric-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_борене__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+owl:Nothing  a  owl:Class .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_вред__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_гърбом__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_въздържание__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_високомерие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-time-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_брожение__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безличие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_благополучно__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_връщане__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безразсъдствувам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_владеене__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:multipart-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_гърмене__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-nvarchar-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-numeric-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_благоустройство__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_дисидентство__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_вибриране__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_двери__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_благоговеене__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_амбицирам__Глагол__1>
+        a       ontolex:Form .
+
+rdfdf:multipart-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_ама__Частица__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_ароматизирам__Глагол__1>
+        a       ontolex:Form .
+
+owl:differentFrom  a  rdf:Property .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_боцкам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_баламосвам__Глагол__1>
+        a       ontolex:Form .
+
+rdfdf:sql-date-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-date-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_действително__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_авеню__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_влагалище__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бдение__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_вихром__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_браня__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_адоптирам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безмълвие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_ведомство__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-numeric-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_акордирам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бушуване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+virtrdf:DefaultQuadMap-S
+        a       virtrdf:QuadMapValue .
+
+rdfdf:sql-longnvarchar
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longvarchar-lang
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_буйство__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_братство__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_възхищение__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_вълшебство__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бодилче__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безразсъдно__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_вредителство__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__bg_gloss_WqSecg--_бюро__Съществително_нарицателно_име__1>
+        a       dbnary:Gloss .
+
+rdfdf:sql-varchar-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_докачение__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-longnvarchar-dt-nullable
+        a       virtrdf:QuadMapFormat .
+
+owl:DeprecatedProperty
+        a       rdfs:Class .
+
+rdfdf:sql-varchar-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-nvarchar  a  virtrdf:QuadMapFormat .
+
+virtrdf:DefaultServiceMap-P-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_вероятно__Наречие__1>
+        a       ontolex:Form .
+
+rdfdf:sql-longvarchar-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_всякак__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_възпитание__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-integer-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_абсолютизирам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_боледувам__Глагол__1>
+        a       ontolex:Form .
+
+rdfdf:sql-doubleprecision-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_блъсвам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бичувам__Глагол__1>
+        a       ontolex:Form .
+
+rdfdf:sql-nvarchar-fixedlang-x-any-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+owl:TransitiveProperty
+        a       rdfs:Class .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бухтя__Глагол__1>
+        a       ontolex:Form .
+
+rdfdf:sql-integer-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_действие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_въртене__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_биене__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_баталясвам__Глагол__1>
+        a       ontolex:Form .
+
+rdfdf:sql-datetime-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_броене__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_долавяне__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_ателие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бастисвам__Глагол__1>
+        a       ontolex:Form .
+
+rdfdf:sql-numeric-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безгрижие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+owl:InverseFunctionalProperty
+        a       rdfs:Class .
+
+virtrdf:DefaultQuadMap-ft
+        a       virtrdf:QuadMapFText .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_възражение__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бълнуване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безплодие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-varchar-lang-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sinv-iid-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_добруване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_групиране__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_гадание__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-time-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-doubleprecision-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бойко__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безчет__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бракосъчетание__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бездъждие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_благопожелание__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бързешката__Наречие__1>
+        a       ontolex:Form .
+
+virtrdf:DefaultQuadMap-atables
+        a       virtrdf:array-of-QuadMapATable .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_върховенство__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-longvarchar-fixedlang-x-any-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:default-iid-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:multipart-uri  a  virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_верую__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_анджак__Частица__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безпричинно__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безусловно__Наречие__1>
+        a       ontolex:Form .
+
+rdfdf:sql-integer-uri
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_апликирам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_влакно__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бибикане__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-longvarchar-fixedlang-x-any
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-date-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-integer-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_блеене__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-longvarbinary-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бърборя__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_всъде__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_благородство__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бутане__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безсърдечие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+virtrdf:DefaultQuadMap-S-col-S
+        a       virtrdf:QuadMapColumn .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_горе__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_внезапно__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_адмирирам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_венцехваление__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__bg_gloss_Xg5PsA--_анулирам__Глагол__1>
+        a       dbnary:Gloss .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_буквоедство__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_блестя__Глагол__1>
+        a       ontolex:Form .
+
+rdfdf:sql-date-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:zeropart-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-varchar-fixedlang-x-any
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бухвам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_възпаление__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+owl:intersectionOf  a  rdf:Property .
+
+rdfdf:sql-longvarchar-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_гориво__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безделие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__bg_gloss_XFl3EQ--_антре__Съществително_нарицателно_име__1>
+        a       dbnary:Gloss .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_джиро__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-longnvarchar-fixedlang-x-any-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безначалие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_благодушие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-nvarchar-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_вещество__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__bg_gloss_WqSecg--_ангажирам__Глагол__1>
+        a       dbnary:Gloss .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_въжделение__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_абонирам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бликване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_възкресение__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безверие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бляскане__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_върша__Глагол__1>
+        a       ontolex:Form .
+
+rdfdf:sql-numeric-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_данни__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_дело__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-doubleprecision
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_връз__Предлог__1>
+        a       ontolex:Form .
+
+rdfdf:sql-nvarchar-fixedlang-x-any-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безчинствам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_великолепие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_депо__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_дебнешком__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_вдигане__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+owl:Restriction  a  rdfs:Class .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безочие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-integer  a  virtrdf:QuadMapFormat .
+
+rdfdf:sql-datetime-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_викане__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_домакинство__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_възпитаване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_въздържане__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_дете__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_възцаряване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-longvarchar-dt-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_въплъщение__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-integer-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_акомпанирам__Глагол__1>
+        a       ontolex:Form .
+
+rdfdf:sinv-iid-nonblank
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-time-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_водолечение__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_довечера__Наречие__1>
+        a       ontolex:Form .
+
+owl:DataRange  a  rdfs:Class .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_дебелоочие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_влечуго__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_аха__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_вероизповедание__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_възмущение__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_агонизирам__Глагол__1>
+        a       ontolex:Form .
+
+rdfdf:sql-varchar-dt-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:default-iid-nonblank-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sinv-iid-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__bg_gloss_WqSecg--_вълнение__Съществително_нарицателно_име__1>
+        a       dbnary:Gloss .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_ангажирам__Глагол__1>
+        a       ontolex:Form .
+
+rdfdf:sql-numeric  a  virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_вместилище__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_взаимодействие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_внимателно__Наречие__1>
+        a       ontolex:Form .
+
+owl:AllDifferent  a  rdfs:Class .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бърша__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_денди__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_вълнение__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+owl:minCardinality  a  rdf:Property .
+
+rdfdf:default-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-varchar-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_гребло__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-longvarchar-dt-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:multipart-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longnvarchar-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_диване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_дежурство__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-datetime-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_далеко__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бълбукам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_байцвам__Глагол__1>
+        a       ontolex:Form .
+
+rdfs:label  a   owl:AnnotationProperty .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_благонравие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_дзънкане__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_аха__Частица__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_афиширам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_божество__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_влакънце__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-doubleprecision-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_възраждане__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-doubleprecision-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_благоденствувам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_дередже__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-numeric-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_апелирам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_артисвам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безцарствие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безкритично__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_демонтиране__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бягане__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бунтувам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_антре__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_всред__Предлог__1>
+        a       ontolex:Form .
+
+rdfdf:singlepart-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_блуждая__Глагол__1>
+        a       ontolex:Form .
+
+rdfdf:sql-nvarchar-dt-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_гръмване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бръщолевя__Глагол__1>
+        a       ontolex:Form .
+
+virtrdf:DefaultQuadMap-P
+        a       virtrdf:QuadMapValue .
+
+owl:maxCardinality  a  rdf:Property .
+
+rdfdf:sql-nvarchar-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-varchar-uri
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_възклицание__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бакърджийство__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_дечурлига__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бебе__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-integer-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бодване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-longnvarchar-lang-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-time-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_буча__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_впримчване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-datetime-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_благоговея__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_гланциране__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+virtrdf:DefaultQuadMap
+        a       virtrdf:QuadMap .
+
+virtrdf:DefaultServiceMap-O
+        a       virtrdf:QuadMapValue .
+
+rdfdf:default-iid-nonblank-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бозайниче__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безспирно__Наречие__1>
+        a       ontolex:Form .
+
+rdfdf:sql-integer-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_вир-вода__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безстрастие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_боготворене__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_абсорбирам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_аплодирам__Глагол__1>
+        a       ontolex:Form .
+
+owl:oneOf  a    rdf:Property .
+
+rdfdf:default-iid-nonblank
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_доколко__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_апретиране__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_доволство__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-time-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_аспирирам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_анулирам__Глагол__1>
+        a       ontolex:Form .
+
+rdfdf:default-iid-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+owl:incompatibleWith  a  owl:OntologyProperty , rdf:Property .
+
+owl:DeprecatedClass  a  rdfs:Class .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_богатство__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-nvarchar-lang-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бумтене__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_демек__Наречие__1>
+        a       ontolex:Form .
+
+owl:versionInfo  a  owl:AnnotationProperty , rdf:Property .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_всеослушание__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:default-iid-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_блъскам__Глагол__1>
+        a       ontolex:Form .
+
+rdfdf:sql-longvarchar-fixedlang-x-any-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultQuadMap-P-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_ангажиране__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-nvarchar-dt-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-varchar-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_внедряване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_блато__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:multipart-literal
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_възприемане__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_делегиране__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_гостоприемство__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_възхваляване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-time-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_владение__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_банализирам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_будувам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бибикам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__bg_gloss_X8MoTw--_анулирам__Глагол__1>
+        a       dbnary:Gloss .
+
+rdfdf:sql-integer-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-numeric-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultQuadMap-P-col-P
+        a       virtrdf:QuadMapColumn .
+
+virtrdf:DefaultServiceStorage
+        a       virtrdf:QuadStorage .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_богохулство__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:multipart-uri-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultQuadMap-G-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_беснея__Глагол__1>
+        a       ontolex:Form .
+
+rdfdf:sql-longnvarchar-lang-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_белея__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_добиче__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_вряскане__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бръщолевене__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_всякога__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_джудже__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_анблок__Наречие__1>
+        a       ontolex:Form .
+
+rdfdf:sql-numeric-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безстрашие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:multipart-literal-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-varchar-lang-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_активизирам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_веднага__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бутване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бюро__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+virtrdf:DefaultServiceMap-atables
+        a       virtrdf:array-of-QuadMapATable .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_влачене__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_благожелателно__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_възможно__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_всякъде__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_великодушие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бивам__Глагол__1>
+        a       ontolex:Form .
+
+rdfdf:sql-nvarchar-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_веднъж__Наречие__1>
+        a       ontolex:Form .
+
+rdfdf:sql-longvarchar-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_влияние__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_барикадирам__Глагол__1>
+        a       ontolex:Form .
+
+rdfdf:sql-longnvarchar-fixedlang-x-any-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бликам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_ахвам__Глагол__1>
+        a       ontolex:Form .
+
+virtrdf:DefaultServiceMap-S-col-S
+        a       virtrdf:QuadMapColumn .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бездушие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_буренясвам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_възбуждане__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_доволно__Наречие__1>
+        a       ontolex:Form .
+
+rdfdf:zeropart-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_възпрепятствие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+ns8:owl  a      owl:Ontology .
+
+rdfdf:sql-longvarchar-fixedlang-x-any-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:singlepart-uri-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_виене__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-varchar-fixedlang-x-any-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+owl:distinctMembers  a  rdf:Property .
+
+dct:created  a  rdf:Property .
+
+rdfdf:sql-varchar-dt  a  virtrdf:QuadMapFormat .
+
+rdfdf:sql-longvarchar-lang-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-time-literal
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_беззаконие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_алиби__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+virtrdf:DefaultQuadMap-O-col-O
+        a       virtrdf:QuadMapColumn .
+
+<http://kaiko.getalp.org/dbnary/bul/__bg_gloss_1bTpWg--_темане__Съществително_нарицателно_име__1>
+        a       dbnary:Gloss .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_гледжосване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_в__Предлог__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_докъде__Наречие__1>
+        a       ontolex:Form .
+
+rdfdf:sql-varchar  a  virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_всеотдайност__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бавя__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_встрани__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__bg_gloss_l4FSsw--_чунким__Частица__1>
+        a       dbnary:Gloss .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_блещукане__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_асимилирам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_а__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_гъмжило__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_въодушевление__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_абсурдно__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_възкръсване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_давление__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бутам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бърникам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бъбря__Глагол__1>
+        a       ontolex:Form .
+
+rdfdf:multipart-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-datetime-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_газене__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_апострофирам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безплатно__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_видение__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_акламирам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безспорно__Наречие__1>
+        a       ontolex:Form .
+
+rdfdf:sql-nvarchar-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бездействувам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_геройство__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безпокойствие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бунище__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бистря__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_гласуване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_воюване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бедствие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_взаимоотношение__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_багря__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_горчило__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бумтя__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_ба__Частица__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_втвърдяване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бръмча__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бълнувам__Глагол__1>
+        a       ontolex:Form .
+
+owl:complementOf  a  rdf:Property .
+
+rdfdf:sql-longnvarchar-dt-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_горе-долу__Наречие__1>
+        a       ontolex:Form .
+
+rdfdf:sql-nvarchar-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_въже__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бродя__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_директорство__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__bg_gloss_XFl3EQ--_блюдо__Съществително_нарицателно_име__1>
+        a       dbnary:Gloss .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_днес__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безсрамно__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_алармирам__Глагол__1>
+        a       ontolex:Form .
+
+rdfdf:sql-date-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_дефиле__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+owl:OntologyProperty  a  rdfs:Class .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_барабаня__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_администрирам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бленувам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_гримиране__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:zeropart-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безполезно__Наречие__1>
+        a       ontolex:Form .
+
+rdfdf:sinv-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultQuadMap-G-col-G
+        a       virtrdf:QuadMapColumn .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_деление__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безредие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_боботя__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безразборно__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бъркам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бъхтя__Глагол__1>
+        a       ontolex:Form .
+
+rdfdf:sql-integer-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_будя__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безпаричие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_грубиянство__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-integer-literal
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бомбардирам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_благовоние__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бунтарство__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_деяние__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-datetime-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_вплитане__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_базирам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безотговорно__Наречие__1>
+        a       ontolex:Form .
+
+rdfdf:sql-longnvarchar-fixedlang-x-any-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_дано__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_вътре__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_болшинство__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_вироглавство__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_вдъхване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_благоразумие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:zeropart-uri  a  virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_благозвучие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безделничество__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_близо__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_двоумение__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:multipart-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_дебелоглавие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_домогване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_възникване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_възнасяне__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_баш__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_барам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_въображение__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-longnvarchar-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бруся__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_всъщност__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__bg_gloss_WqSecg--_блюдо__Съществително_нарицателно_име__1>
+        a       dbnary:Gloss .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_вложение__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бърже__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_благовъзпитание__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+dct:extent  a   rdf:Property .
+
+owl:someValuesFrom  a  rdf:Property .
+
+rdfdf:sinv-iid-nonblank-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безследно__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_внушаване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бликвам__Глагол__1>
+        a       ontolex:Form .
+
+rdfdf:zeropart-literal-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_благодеяние__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_впечатление__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безвъзмездно__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_вкопчване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бълникам__Глагол__1>
+        a       ontolex:Form .
+
+virtrdf:DefaultServiceMap-geo-conds
+        a       virtrdf:array-of-string .
+
+owl:inverseOf  a  rdf:Property .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безветрие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_възлагане__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бранище__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+owl:backwardCompatibleWith
+        a       owl:OntologyProperty , rdf:Property .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_войнство__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+virtrdf:DefaultServiceMap
+        a       virtrdf:QuadMap .
+
+rdfdf:zeropart-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безразличие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_вариране__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+owl:DatatypeProperty  a  rdfs:Class .
+
+owl:Thing  a    owl:Class .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бедя__Глагол__1>
+        a       ontolex:Form .
+
+rdfdf:default-iid-nonblank-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безправие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-nvarchar-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-longnvarchar-lang-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_денем__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_богатея__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бламирам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_адресирам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_вмъкване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+owl:cardinality  a  rdf:Property .
+
+rdfdf:sinv-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бързам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__bg_gloss_XFl3EQ--_колело__Съществително_нарицателно_име__1>
+        a       dbnary:Gloss .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_денонощно__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_въженце__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_въобще__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_браздя__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_блюдо__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_впоследствие__Наречие__1>
+        a       ontolex:Form .
+
+rdfdf:sql-nvarchar-fixedlang-x-any
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-nvarchar-lang-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_блудство__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+owl:FunctionalProperty
+        a       rdfs:Class .
+
+rdfdf:sql-doubleprecision-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_вмешателство__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бъдеще__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безспир__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безвъзвратно__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_абдикирам__Глагол__1>
+        a       ontolex:Form .
+
+virtrdf:DefaultServiceMap-P-col-P
+        a       virtrdf:QuadMapColumn .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_въздухоплаване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_блещукам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_всячески__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_вдишване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бижу__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_ама__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_движение__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_гонене__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безсилие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+owl:ObjectProperty  a  rdfs:Class .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_амнистирам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бракосъчетавам__Глагол__1>
+        a       ontolex:Form .
+
+virtrdf:DefaultServiceMap-G
+        a       virtrdf:QuadMapValue .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безпокоя__Глагол__1>
+        a       ontolex:Form .
+
+rdfdf:sql-numeric-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_вписване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безсъние__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-varchar-lang-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_вместо__Предлог__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_господство__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_въвеждане__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_варварство__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бъкам__Глагол__1>
+        a       ontolex:Form .
+
+rdfdf:sql-varchar-lang
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sinv  a   virtrdf:QuadMapFormat .
+
+virtrdf:DefaultServiceMap-S-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+rdfdf:sql-time-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_длето__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-doubleprecision-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_влошаване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-longvarbinary-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultServiceStorage-UserMaps
+        a       virtrdf:array-of-QuadMap .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бая__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_вероломство__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-time-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-varchar-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безропотно__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_впръскване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_довършване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_анонсирам__Глагол__1>
+        a       ontolex:Form .
+
+rdfdf:singlepart-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_валцоване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безбожие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+virtrdf:DefaultServiceMap-O-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+rdfdf:sinv-iid-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_включително__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_битие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_веселие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-nvarchar-dt-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-longnvarchar-dt
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_балансирам__Глагол__1>
+        a       ontolex:Form .
+
+rdfdf:sql-nvarchar-fixedlang-x-any-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_големство__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-doubleprecision-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_благоутробие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_благославям__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_арестувам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__bg_gloss_Xg5PsA--_ангажирам__Глагол__1>
+        a       dbnary:Gloss .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_възваряване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-doubleprecision-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultServiceMap-O-col-O
+        a       virtrdf:QuadMapColumn .
+
+rdfdf:sql-integer-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_анулиране__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бруля__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бегом__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_антрефиле__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_всезнание__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_виря__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бъбрене__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_благополучие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_вето__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безстрашно__Наречие__1>
+        a       ontolex:Form .
+
+rdfdf:sql-nvarchar-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+owl:sameAs  a   rdf:Property .
+
+rdfdf:multipart-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_вредом__Наречие__1>
+        a       ontolex:Form .
+
+rdfdf:sql-nvarchar-lang-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultQuadMap-geo
+        a       virtrdf:QuadMapFText .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бодърствувам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_безсъзнание__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+owl:onProperty  a  rdf:Property .
+
+rdfs:comment  a  owl:AnnotationProperty .
+
+virtrdf:DefaultServiceMap-S
+        a       virtrdf:QuadMapValue .
+
+rdfdf:zeropart-literal
+        a       virtrdf:QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бръскам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_бълвам__Глагол__1>
+        a       ontolex:Form .
+
+rdfdf:multipart-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_гевезе__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_добиване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_дихание__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_делене__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_блуждаене__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+virtrdf:DefaultQuadStorage-UserMaps
+        a       virtrdf:array-of-QuadMap .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_дали__Наречие__1>
+        a       ontolex:Form .
+
+rdfdf:singlepart-literal-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+owl:hasValue  a  rdf:Property .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_влечение__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfs:Class  a   owl:Class .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_акцентувам__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_гласоподаване__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_водене__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+virtrdf:SyncToQuads-UserMaps
+        a       virtrdf:array-of-QuadMap .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_гаснене__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_гърне__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_грабителство__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+virtrdf:DefaultServiceMap-G-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_вървешком__Наречие__1>
+        a       ontolex:Form .
+
+rdfdf:sql-longvarchar-lang-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_вървешката__Наречие__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_дирене__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_влагане__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_буботя__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_до__Предлог__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_гонение__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_доверие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_благоволя__Глагол__1>
+        a       ontolex:Form .
+
+<http://kaiko.getalp.org/dbnary/bul/__cf_всекидневие__Съществително_нарицателно_име__1>
+        a       ontolex:Form .
+
+rdfdf:sql-longvarchar-dt-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .

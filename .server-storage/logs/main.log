@@ -1,0 +1,9 @@
+2022-01-10T20:05:57,060 [main] INFO org.aksw.deer.DeerController 211 - Trying to read DEER configuration from file D:\Workspaces\KGFusion-OntologyMatching-UpdatedOntoMatch\KGFusion-OntologyMatching-UpdatedOntoMatch\src\test\resources\configuration.ttl...
+2022-01-10T20:05:57,930 [main] INFO org.aksw.deer.DeerController 216 - Loading D:\Workspaces\KGFusion-OntologyMatching-UpdatedOntoMatch\KGFusion-OntologyMatching-UpdatedOntoMatch\src\test\resources\configuration.ttl is done in 790ms.
+2022-01-10T20:05:57,930 [main] INFO org.aksw.faraday_cage.engine.FaradayCageContext 130 - Starting Faraday-Cage engine... runId: a82826ab-3823-4fe0-893b-04073ddb844c
+2022-01-10T20:05:57,930 [main] INFO org.aksw.faraday_cage.engine.FaradayCageContext 131 - Building execution model...
+2022-01-10T20:05:58,850 [main] INFO org.aksw.faraday_cage.engine.FaradayCageContext 137 - Configuration shape validated using SHACL after 917ms.
+2022-01-10T20:05:58,880 [main] INFO org.aksw.faraday_cage.engine.AdjacencyMatrix 95 - 
+urn:example:plugin-demo/reader 0 0
+
+2022-01-10T20:05:58,885 [main] INFO org.aksw.faraday_cage.engine.FaradayCageContext 145 - Execution graph built after 948ms.

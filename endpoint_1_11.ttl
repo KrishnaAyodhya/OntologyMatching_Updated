@@ -1,0 +1,1835 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn:    <http://www.w3.org/2005/xpath-functions#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+
+<http://eagle-i.org/ont/repo/1.0/NGType_Workspace>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/NamedGraphType> ;
+        rdf:value     "workspace" ;
+        rdfs:comment  "Data objects meant to be invisible to the public" ;
+        rdfs:label    "Workspace" .
+
+<http://hunter-cuny.eagle-i.net/i/00000143-0245-4e22-b9b0-07b180000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000071> ;
+        rdfs:label  "Nikon Elements Imaging software" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "NIS Elements provides cutting edges tools for image manipulation, image analysis and data management." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000143-0210-04ec-b9b0-07b180000000> , <http://hunter-cuny.eagle-i.net/i/00000136-833b-6ebc-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc7d-59ea-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000070>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8336-80a6-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0001312> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-f147-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2013-12-17T14:38:02.406-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8315-8e51-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2015-06-23T09:07:45.657-05:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/repo/1.0/isImplicit>
+        a             owl:DatatypeProperty ;
+        rdfs:comment  "When true the role is implicit, that is, automatically assigned to the relevant users, invisible to admins." ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/Person> ;
+        rdfs:label    "is an implicit role" .
+
+<http://hunter-cuny.eagle-i.net/i/00000139-92b9-35a3-5492-bbe780000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000463> ;
+        rdfs:label  "AFM Agilent 5500" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "AFM equipped with a Mac Mode III module (tapping and contact mode). This state-of-the-art AFM can also perform MFM, KFM, and STM." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7eb6-5da7-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0001719>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7eb6-5da7-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7eb5-5555-949b-425080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-f147-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-09-04T14:24:35.690-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7ea8-6486-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2015-07-06T09:49:57.137-05:00"^^xsd:dateTime .
+
+<http://hunter-cuny.eagle-i.net/i/00000139-11fb-2ea1-bc54-fec580000000>
+        a       <http://purl.obolibrary.org/obo/ERO_0000156> ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "Provide accessibility to network resources, video conference end points and main tool for bioinformatic related coursework." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-834b-f13e-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8335-b386-949b-425080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-7a78-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8366-965d-949b-425080000000> .
+
+<http://purl.obolibrary.org/obo/ero.owl>
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/0000015a-8f54-6a5d-537a-199d80000000> ;
+        <http://purl.org/dc/terms/created>
+                "2017-03-02T08:04:01.154-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/0000015a-8f54-6a5d-537a-199d80000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2017-03-02T08:04:01.154-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/source>
+                [ <http://purl.org/dc/terms/identifier>
+                          "file:/usr/share/tomcat7/webapps/sparqler/WEB-INF/lib/eagle-i-model-owl-2.0.3.1.jar" ;
+                  <http://purl.org/dc/terms/modified>
+                          "2015-10-26T12:00:40.000-05:00"^^xsd:dateTime
+                ] .
+
+<http://eagle-i.org/ont/repo/1.0/WFS_New>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/WorkflowState> ;
+        rdfs:comment  "New instance in the process of creation" ;
+        rdfs:label    "New" ;
+        <http://eagle-i.org/ont/repo/1.0/order>
+                10 .
+
+<http://eagle-i.org/ont/repo/1.0/hasEditToken>
+        a             owl:ObjectProperty ;
+        rdfs:comment  "Relates eagle-i Resource Instance to a URI marking an update in progress with associated metadata." ;
+        rdfs:label    "Edit Token" .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-8346-f32d-949b-425080000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000005> ;
+        rdfs:label  "Video Conference Facility" ;
+        <http://eagle-i.org/ont/app/1.0/feeforservice>
+                "false" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "◦Videotaping Presentations \r\n◦Post-production PowerPoint services with voice enabled slides\r\n◦Live streaming events with multicasting capabilities\r\n◦Bridging services upto 4 nodes at 256 Kbps\r\n◦ISDN communication at 384 Kbps\r\n◦Telecommunication services mixed with Videoconference.\r\n◦H.239 Capability for duo video presentations" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-834b-f13e-949b-425080000000> , <http://hunter-cuny.eagle-i.net/i/00000136-8345-1059-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8335-b386-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://internet2.hunter.cuny.edu" ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-f147-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-05T11:15:27.049-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8317-6414-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2015-07-06T09:51:59.328-05:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/repo/1.0/action>
+        a             owl:DatatypeProperty ;
+        rdfs:comment  "fully qualified class name of Java class implementing action" ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/WorkflowTransition> ;
+        rdfs:label    "action" .
+
+<http://eagle-i.org/ont/repo/1.0/NG_Published>
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/0000015a-8f54-6a5d-537a-199d80000000> ;
+        <http://purl.org/dc/terms/created>
+                "2021-11-24T17:39:24.000-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/0000015a-8f54-6a5d-537a-199d80000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2021-11-24T17:39:24.000-06:00"^^xsd:dateTime .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-a2fc-ed47-949b-425080000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000071> ;
+        rdfs:label  "Imaris" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"Imaris is Bitplane’s core scientific software module that delivers all the necessary functionality for data visualization, analysis, segmentation and interpretation of 3D and 4D microscopy datasets. Combining speed, precision and ease-of-use, Imaris provides a complete set of features for working with three- and four-dimensional multi-channel images of any size, from a few megabytes to multiple gigabytes in size. Conveniently load, process and visualize data and images acquired from almost any confocal and wide field microscope to gain new and groundbreaking insight from your image data.\"" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8346-4cdf-949b-425080000000> , <http://hunter-cuny.eagle-i.net/i/00000136-833b-6ebc-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc6b-ba01-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000070>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8336-80a6-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000078>
+                <http://purl.obolibrary.org/obo/ERO_0100030> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://www.bitplane.com/go/products/imaris" ;
+        <http://purl.obolibrary.org/obo/ERO_0001824>
+                <http://www.ebi.ac.uk/swo/license/SWO_1000002> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-7a78-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-11T15:01:11.513-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8315-8e51-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2013-01-31T06:57:48.364-06:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/repo/1.0/NGType_Published>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/NamedGraphType> ;
+        rdf:value     "published" ;
+        rdfs:comment  "Data objects meant to be visible to the public" ;
+        rdfs:label    "Published resource instances" .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-79b4-406a-949b-425080000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000004> ;
+        rdfs:label  "Bruker 400" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"The Bruker 400, our newest instrument,  is primarily used for NMR of metal nuclei with relaxation properties that favor low field: e.g. 31P and 183W. It has full variable temperature and multinuclear capabilities. We have a full range of probes, 5mm as well as 10mm broadband probes, broadband and inverse detect, as well as a 10mm low frequency probe.\"" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-79a3-a38b-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc6c-6a30-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "AvanceIII 400MHz" ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "www.bruker-biospin.com" ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://hunter-cuny.eagle-i.net/i/00000136-79a2-306f-949b-425080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-f147-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-03T14:38:51.394-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7998-468f-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-04T12:09:19.324-05:00"^^xsd:dateTime .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-7e3d-3359-949b-425080000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0400115> ;
+        rdfs:label  "Thermo Scientific NanoDrop 1000 Spectrophotometer" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "NanoDrop 1000 Spectrophotometer is a full spectrum (220nm-750nm) spectrophotometer which utilizes a patented sample retention technology that employs surface tension alone to hold the sample in place.  This eliminates the need for cumbersome cuvettes and other sample containment devices and allows for clean up in seconds.  It is able to measure 1 l samples with high accuracy and reproducibility." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7e39-656c-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7e34-9f73-949b-425080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-f147-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-04T11:44:44.794-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7e05-fb04-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-04T12:07:53.334-05:00"^^xsd:dateTime .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-7e45-3a79-949b-425080000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000264> ;
+        rdfs:label  "Perkin-Elmer 650-10S Fluorescence Spectrophotometer" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "For measuring fluorescence in liquid samples." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7e39-656c-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7e34-9f73-949b-425080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-f147-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-04T11:53:08.423-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7e05-fb04-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-04T12:07:52.950-05:00"^^xsd:dateTime .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-a317-68ad-949b-425080000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000071> ;
+        rdfs:label  "SoftMax Pro" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"SoftMax® Pro Data Acquisition & Analysis Software serves as the user interface to the popular EMax®, VMax™, Gemini™, FilterMax™ and SpectraMax® Microplate Readers. Users are able to customize reader settings through the software to take advantage of unique reader technologies that improve the quality of assay data as well as do complex data analysis. Over 140 built in protocols along with protocol sharing community reduce the set up time for common applications.\"" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8346-4cdf-949b-425080000000> , <http://hunter-cuny.eagle-i.net/i/00000136-833b-6ebc-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc7b-dd37-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000070>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8336-80a6-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000073>
+                "Windows" ;
+        <http://purl.obolibrary.org/obo/ERO_0000078>
+                <http://purl.obolibrary.org/obo/ERO_0100036> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://www.moleculardevices.com/Products/Software/SoftMax-Pro.html" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/OBI_0200000> ;
+        <http://purl.obolibrary.org/obo/ERO_0001824>
+                <http://www.ebi.ac.uk/swo/license/SWO_1000002> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-7a78-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-11T15:30:44.057-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8315-8e51-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2013-01-31T06:58:56.179-06:00"^^xsd:dateTime .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-8894-15c0-949b-425080000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0001031> ;
+        rdfs:label  "PowerWave HT Microplate Spectrophotometer" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"PowerWave HT is a multi-channel reader for maximum speed in both 96- and 384-well plate formats. The PowerWave HT provides flexibility for multiple applications, including endpoint, kinetic and spectral scanning mode. Powerful Gen5™ PC-based software is used for system control and data analysis.\"" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8346-4cdf-949b-425080000000> , <http://hunter-cuny.eagle-i.net/i/00000136-833b-6ebc-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc6b-9832-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "PowerWave HT" ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://biology.hunter.cuny.edu/index.php?option=com_content&view=article&id=44&Itemid=62" ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8336-80a6-949b-425080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-f147-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-06T11:57:03.450-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8315-8e51-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-10T14:38:23.935-05:00"^^xsd:dateTime .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-79a2-306f-949b-425080000000>
+        a           <http://vivoweb.org/ontology/core#CoreLaboratory> ;
+        rdfs:label  "NMR Spectroscopy Facility" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "The NMR Facility at Hunter was established in 1983 and has recently undergone major renovations. At present, the facility consists of four  NMR instruments: a Bruker Avance III 400, a Varian Inova 500, a Bruker Avance 500 equipped with a 13C-1H cryoprobe, and a Bruker Avance III 600 MHz spectrometer equipped with a cryoprobe. These spectrometers are utilized by scientists from Hunter College, as well as from the entire CUNY community. The large variety of available probes allows detection of virtually any MR-active nuclide. Data analysis is performed either at the spectrometer workstation with vendor software or off-line with third party software packages. The Facility gets extensive use from researchers for the analysis of organic and inorganic compounds, for the identification of natural products, and for the determination of three-dimensional structures of macromolecules." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-79a3-a38b-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000022>
+                <http://hunter-cuny.eagle-i.net/i/00000136-79a4-961c-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000066>
+                <http://hunter-cuny.eagle-i.net/i/00000135-e468-2f1a-7abc-a52580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000397>
+                <http://purl.obolibrary.org/obo/ERO_0001239> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://ctbr.hunter.cuny.edu/facilities/nuclear-magnetic-resonance-nmr-facility" , "http://www.hunter.cuny.edu/chemistry/facilities/nmr/home" ;
+        <http://purl.obolibrary.org/obo/ERO_0000596>
+                <http://hunter-cuny.eagle-i.net/i/00000136-79a3-a38b-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0001279>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7eba-6785-949b-425080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7968-8511-949b-425080000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-03T14:22:01.695-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7998-468f-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2015-06-25T15:12:12.833-05:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/app/1.0/Person>
+        rdfs:subClassOf  owl:Thing .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-79ac-3e90-949b-425080000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000004> ;
+        rdfs:label  "Bruker 500" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"This is our workhorse instrument, used by numerous researchers every day. Unique among our instruments is the carbon-proton cryoprobe of this spectrometer. This probe gives a sensitivity enhancement of a factor of four over conventional probes, for both carbon and proton observe experiments. The instrument boasts signal-to-noise ratios of ~2300:1 for proton and 1500:1 for 13C. All researchers have access to the ultra-high sensitivity which this probe provides. This probe provides the ability to perform 13C experiments in a short time frame, as well as 2D experiments on sample quantities which are too small to analyze on conventional probes.\"" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-79a3-a38b-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc6c-6a30-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "DRX-500" ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "www.bruker-biospin.com" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0001239> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://hunter-cuny.eagle-i.net/i/00000136-79a2-306f-949b-425080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-f147-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-03T14:29:13.499-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7998-468f-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-04T12:09:19.709-05:00"^^xsd:dateTime .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-8345-1059-949b-425080000000>
+        a           <http://xmlns.com/foaf/0.1/Person> ;
+        rdfs:label  "Morales, Raúl" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "Internet2 Facility Manager Assistant" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000042>
+                "Raúl" ;
+        <http://purl.obolibrary.org/obo/ERO_0000049>
+                "Morales" ;
+        <http://purl.obolibrary.org/obo/ERO_0000052>
+                "Internet2 Facility" ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-7a78-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-05T11:10:15.746-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8317-6414-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2013-01-31T07:02:48.150-06:00"^^xsd:dateTime .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-79a3-a38b-949b-425080000000>
+        a           <http://xmlns.com/foaf/0.1/Person> ;
+        rdfs:label  "Devany, Matthew, Ph.D." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000042>
+                "Matthew" ;
+        <http://purl.obolibrary.org/obo/ERO_0000049>
+                "Devany" ;
+        <http://purl.obolibrary.org/obo/ERO_0000052>
+                "Director, Hunter NMR Spectroscopy Lab" ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-7a78-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-03T14:22:00.640-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7998-468f-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-09-27T08:54:50.518-05:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/repo/1.0/WorkflowTransition>
+        a                owl:Class ;
+        rdfs:comment     "Describes one of the possible transitions from one workflow state to another" ;
+        rdfs:label       "Workflow Transition" ;
+        rdfs:subClassOf  owl:Thing .
+
+<http://eagle-i.org/ont/repo/1.0/WFS_Published>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/WorkflowState> ;
+        rdfs:comment  "Finished and available to the public" ;
+        rdfs:label    "Published" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWriter>
+                <http://eagle-i.org/ont/repo/1.0/Role_Curator> ;
+        <http://eagle-i.org/ont/repo/1.0/order>
+                40 .
+
+<http://eagle-i.org/ont/repo/1.0/hasWorkflowOwner>
+        a             owl:ObjectProperty ;
+        rdfs:comment  "Current owner (claimant) of the workflow state of this instance" ;
+        rdfs:label    "workflow owner" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/Agent> .
+
+<http://eagle-i.org/ont/repo/1.0/NG_Internal>
+        <http://purl.org/dc/terms/created>
+                "2017-03-02T08:02:20.572-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://eagle-i.org/ont/repo/1.0/Role_Superuser> ;
+        <http://purl.org/dc/terms/source>
+                [ <http://purl.org/dc/terms/identifier>
+                          <file:///usr/share/tomcat7/webapps/sparqler/WEB-INF/classes/repository-internal.n3> ;
+                  <http://purl.org/dc/terms/modified>
+                          "2017-02-03T18:12:12.000-06:00"^^xsd:dateTime
+                ] .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-888f-1cd6-949b-425080000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0001126> ;
+        rdfs:label  "Perkin Elmer UltraView ERS Spinning Disk Microscope" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"The Ultraview is a spinning disk confocal microscope equipped with six laser lines, which allow visualization of GFP, RFP, CY5, DAPI, CFP and YFP, etc. The UltraVIEW ERS system allows for high-speed, multiple-probe, time-lapse experiments; fully automated image capture; time-lapse morphometric measurements; fast sequential image capture of multiple probes; and fast z-stack acquisition. UltraVIEW ERS Imaging Suite software and Volocity are used for fast image display, image acquisition and comprehensive image analysis. The system is supported by a Nikon Eclipse TE2000 inverted fluorescence microscope with environmental incubator which is ideal for live cell applications.\"" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8346-4cdf-949b-425080000000> , <http://hunter-cuny.eagle-i.net/i/00000136-833b-6ebc-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc7f-3ca1-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "UltraView ERS" ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8336-80a6-949b-425080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-f147-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-06T11:51:51.978-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8315-8e51-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-10T14:36:17.648-05:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/repo/1.0/WFS_Curation>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/WorkflowState> ;
+        rdfs:comment  "Awaiting approval by a curator and possible editing" ;
+        rdfs:label    "In Curation" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWriter>
+                <http://eagle-i.org/ont/repo/1.0/Role_Curator> ;
+        <http://eagle-i.org/ont/repo/1.0/order>
+                30 .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-a2fa-59db-949b-425080000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000071> ;
+        rdfs:label  "Volocity" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "Volocity® 3D Image Analysis Software is a solution that provides all the tools you need to visualize, analyze and validate 3D fluorescence images from a wide range of confocal microscopy, widefield and high content screening systems and is fully integrated for a seamless user experience" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-833b-6ebc-949b-425080000000> , <http://hunter-cuny.eagle-i.net/i/00000136-8346-4cdf-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc7f-3ca1-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000070>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8336-80a6-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000072>
+                "6.0" ;
+        <http://purl.obolibrary.org/obo/ERO_0000078>
+                <http://purl.obolibrary.org/obo/ERO_0100030> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://www.perkinelmer.com/pages/020/cellularimaging/products/volocity.xhtml" ;
+        <http://purl.obolibrary.org/obo/ERO_0001824>
+                <http://www.ebi.ac.uk/swo/license/SWO_1000002> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-7a78-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-11T14:58:54.804-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8315-8e51-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2013-01-31T06:56:57.459-06:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/repo/1.0/Role>
+        a                owl:Class ;
+        rdfs:comment     "Represents an access-control role granted to an Agent" ;
+        rdfs:label       "Role" ;
+        rdfs:subClassOf  owl:Thing , <http://eagle-i.org/ont/app/1.0/Agent> , <http://purl.org/dc/terms/Agent> , <http://xmlns.com/foaf/0.1/Agent> , <http://eagle-i.org/ont/repo/1.0/Agent> .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-a310-d3e6-949b-425080000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000071> ;
+        rdfs:label  "Gen 5" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"Gen5™ Data Analysis Software incorporates over 30 years of experience and user feedback into outstanding microplate reader software. Gen5 is a unique combination of power and ease-of-use that drives productivity and saves time. Use Gen5 to control BioTek’s readers and export data, or as a fully integrated processing tool.\"" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8346-4cdf-949b-425080000000> , <http://hunter-cuny.eagle-i.net/i/00000136-833b-6ebc-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc6b-9832-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000070>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8336-80a6-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000072>
+                "1.08" ;
+        <http://purl.obolibrary.org/obo/ERO_0000073>
+                "Windows" ;
+        <http://purl.obolibrary.org/obo/ERO_0000078>
+                <http://purl.obolibrary.org/obo/ERO_0100036> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://www.biotek.com/products/microplate_software/gen5_data_analysis_software.html" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/OBI_0200000> ;
+        <http://purl.obolibrary.org/obo/ERO_0001824>
+                <http://www.ebi.ac.uk/swo/license/SWO_1000002> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-7a78-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-11T15:23:59.030-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8315-8e51-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2013-01-31T06:59:24.829-06:00"^^xsd:dateTime .
+
+<http://purl.org/dc/terms/Agent>
+        rdfs:subClassOf  owl:Thing .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-7e44-342b-949b-425080000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0400115> ;
+        rdfs:label  "Perkin-Elmer UV/Visible Spectrophotometer Lambda 40" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "For measuring protein and DNA concentrations in liquid samples (measured in quartz cuvettes).  Single sample measurements." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowOwner>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-f147-7abc-a52580000000> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7e39-656c-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7e34-9f73-949b-425080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-f147-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-04T11:51:56.672-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7e05-fb04-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-04T12:07:50.649-05:00"^^xsd:dateTime .
+
+<http://hunter-cuny.eagle-i.net/i/00000143-020e-5d72-b9b0-07b180000000>
+        a           <http://xmlns.com/foaf/0.1/Person> ;
+        rdfs:label  "Lloyd Williams" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7968-8511-949b-425080000000> ;
+        <http://purl.org/dc/terms/created>
+                "2013-12-17T13:37:51.142-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8315-8e51-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2015-06-23T09:34:53.664-05:00"^^xsd:dateTime .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-8358-b338-949b-425080000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0001126> ;
+        rdfs:label  "Compix Color Image Analysis System" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"The Compix Imaging system consists of a Nikon Optiphot 2 upright microscope, and Nikon DXM 1200F high resolution (3,840 x 3,072 pixels) color video camera. The microscope is equipped for fluorescence, and has phase contrast and Nomarski optics. The system is interfaced to a 1.4Ghz PC which utilizes Compix Simple PCI image analysis software. The system also has Adobe Photoshop installed for image acquisition and manipulation.\"" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-833b-6ebc-949b-425080000000> , <http://hunter-cuny.eagle-i.net/i/00000136-8346-4cdf-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc7d-59ea-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "Nikon DXM 1200F" , "Nikon Optiphot 2" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0001268> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8336-80a6-949b-425080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-f147-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-05T11:38:15.487-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8315-8e51-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-10T14:16:15.314-05:00"^^xsd:dateTime .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-79c2-c39e-949b-425080000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000005> ;
+        rdfs:label  "Training" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "Training by NMR staff is required by all users in order to have access to any spectrometer in the facility. See website for details." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-79a3-a38b-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://hunter-cuny.eagle-i.net/i/00000136-79a2-306f-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://www.hunter.cuny.edu/chemistry/research%20facilities/Matthew/nmr-spectroscopy-facilty" ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-f147-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-03T14:51:52.344-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7998-468f-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-04T12:09:18.410-05:00"^^xsd:dateTime .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-7e22-25b0-949b-425080000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0400099> ;
+        rdfs:label  "FACSVantage" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "FACS Vantage is a sorter consisting of Helium-Neon (HeNe) air-cooled laser emitting at 633 nm and an Enterprise II water-cooled laser emitting at both 488 nm and Ultra Violet (UV). It can provide analyses up to 7 parameters and up to 5-colors." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7e0a-b810-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc6a-1489-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7e06-6aac-949b-425080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-f147-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-04T11:14:49.707-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7e05-fb04-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-04T12:05:00.222-05:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/repo/1.0/WorkflowState>
+        a                owl:Class ;
+        rdfs:comment     "Controlled vocabulary describing workflow state." ;
+        rdfs:label       "Workflow State" ;
+        rdfs:subClassOf  owl:Thing .
+
+<http://eagle-i.org/ont/repo/1.0/WFS_Withdrawn>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/WorkflowState> ;
+        rdfs:comment  "Withdrawn from public access" ;
+        rdfs:label    "Withdrawn" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWriter>
+                <http://eagle-i.org/ont/repo/1.0/Role_Curator> ;
+        <http://eagle-i.org/ont/repo/1.0/order>
+                50 .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-7e49-a13e-949b-425080000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000393> ;
+        rdfs:label  "Genomic Lab Instrument Training" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "Provide training for operation of instrument and maintenance." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7e39-656c-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7e34-9f73-949b-425080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-f147-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-04T11:58:27.468-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7e05-fb04-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-04T12:07:51.568-05:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/repo/1.0/final>
+        a             owl:FunctionalProperty , owl:ObjectProperty ;
+        rdfs:comment  "Final (Ending) workflow state" ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/WorkflowTransition> ;
+        rdfs:label    "Final Workflow State" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/WorkflowState> .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-8350-1360-949b-425080000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0001262> ;
+        rdfs:label  "Bio-Imaging data analysis service" ;
+        <http://eagle-i.org/ont/app/1.0/feeforservice>
+                "true" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "Image data analysis" ;
+        <http://eagle-i.org/ont/app/1.0/servicefeeURL>
+                "http://biology.hunter.cuny.edu/index.php?option=com_content&view=article&id=44&Itemid=62" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8346-4cdf-949b-425080000000> , <http://hunter-cuny.eagle-i.net/i/00000136-833b-6ebc-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8336-80a6-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://biology.hunter.cuny.edu/index.php?option=com_content&view=article&id=44&Itemid=62" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0001312> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-f147-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-05T11:23:11.147-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8315-8e51-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-10T14:44:28.218-05:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/repo/1.0/NamedGraph>
+        a                owl:Class ;
+        rdfs:comment     "Collection of metadata about named graph in the repository." ;
+        rdfs:label       "Named Graph" ;
+        rdfs:subClassOf  owl:Thing .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-a30d-b33a-949b-425080000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000071> ;
+        rdfs:label  "MetaMorph" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"MetaMorph® Microscopy Automation & Image Analysis Software is the industry standard for automated microscope acquisition, device control, and image analysis, bringing microscopists greater understanding of cell morphology, function, and behavior for over 25 years.\"" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-833b-6ebc-949b-425080000000> , <http://hunter-cuny.eagle-i.net/i/00000136-8346-4cdf-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc7b-dd37-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000070>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8336-80a6-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000073>
+                "Windows" ;
+        <http://purl.obolibrary.org/obo/ERO_0000078>
+                <http://purl.obolibrary.org/obo/ERO_0100030> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://www.moleculardevices.com/Products/Software/Meta-Imaging-Series/MetaMorph.html" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0001312> ;
+        <http://purl.obolibrary.org/obo/ERO_0001824>
+                <http://www.ebi.ac.uk/swo/license/SWO_1000002> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-7a78-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-11T15:20:40.629-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8315-8e51-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2013-01-31T06:58:21.769-06:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/repo/1.0/hasAdminAccess>
+        a                   owl:ObjectProperty ;
+        rdfs:comment        "Grants administrative access on subject resource to a principal" ;
+        rdfs:label          "has administrative access" ;
+        rdfs:range          <http://eagle-i.org/ont/repo/1.0/Agent> ;
+        rdfs:subPropertyOf  <http://eagle-i.org/ont/repo/1.0/hasAnyAccess> .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-a79c-d1d0-949b-425080000000>
+        a       <http://purl.obolibrary.org/obo/ERO_0000004> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc6c-6a30-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://genecenter.hunter.cuny.edu/index.php/facilities/x-ray-diffraction-facility" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0001312> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://hunter-cuny.eagle-i.net/i/00000136-a791-3ad9-949b-425080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-f147-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-f147-7abc-a52580000000> .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-7e2c-a106-949b-425080000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000393> ;
+        rdfs:label  "Instrument Training" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "Training of faculty and students in instrument training/maintenance." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7e0a-b810-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7e06-6aac-949b-425080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-f147-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-04T11:26:52.526-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7e05-fb04-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-04T12:05:21.905-05:00"^^xsd:dateTime .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-7e34-9f73-949b-425080000000>
+        a           <http://vivoweb.org/ontology/core#CoreLaboratory> ;
+        rdfs:label  "Genomic Facility" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"The Genomics Facility houses a group of shared instruments used to analyze DNA, RNA, protein, and radio-labeled substances.  All instruments are user-operated, but all users must first receive instruction on each instrument from the facility manager.\"" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7e0a-b810-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000066>
+                <http://hunter-cuny.eagle-i.net/i/00000135-e468-2f1a-7abc-a52580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://biology.hunter.cuny.edu/index.php?option=com_content&view=article&id=138&Itemid=117" ;
+        <http://purl.obolibrary.org/obo/ERO_0001279>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7e17-8f5f-949b-425080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7968-8511-949b-425080000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-04T11:36:28.896-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7e05-fb04-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2015-06-23T12:02:36.338-05:00"^^xsd:dateTime .
+
+<http://hunter-cuny.eagle-i.net/i/00000139-11fa-4abc-bc54-fec580000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000004> ;
+        rdfs:label  "VidyoRoom HD220 Codec" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "Data Sharing\n•\t Participants can toggle between other users’ shared windows (everyone can share\n\t concurrently)\n•\t Laptop screen sharing through the optional VGA input device\n•\t Auto Share mode begins immediately when PC content is detected\nAudio Controls\n•\t Speakers volume adjustment and mute/unmute\n•\t Microphone gain adjustment and mute/unmute\nCamera Control\n•\t Video privacy mode\n•\t Local camera pan, tilt, zoom via remote control\n•\t Advanced Far-End-Camera-Control during a conference\nSecurity & Network\n•\t Media Encryption: Optional 128bit AES\n•\t Optional HTTPS signaling encryption\n•\t Signal Encryption: Optional HTTPS\n•\t SNMP (MIB II) enabled elements\nAdministration & Maintenance\n•\t Web-based administration for remote access and configuration\n•\t Automatic software updates, downloadable from VidyoPortal\n•\t Conference moderation via VidyoPortal" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-834b-f13e-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc88-4d48-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "HD220" ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8335-b386-949b-425080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-7a78-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-08-10T14:20:32.602-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8366-965d-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2013-01-31T06:55:29.699-06:00"^^xsd:dateTime .
+
+<http://hunter-cuny.eagle-i.net/i/00000143-0201-8760-b9b0-07b180000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0400168> ;
+        rdfs:label  "Leica CM 3050S Cryostat" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "The Leica CM 3050S Cryostat features motorized sectioning and programmable defrost cycles. The cryostat can cut sections in the range  0.5 to 300 mm. The max specimen size is 55 X 70 mm, and can cool samples down to - 50°C." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000143-0210-04ec-b9b0-07b180000000> , <http://hunter-cuny.eagle-i.net/i/00000143-020e-5d72-b9b0-07b180000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc78-e037-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0001707> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8336-80a6-949b-425080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-f147-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2013-12-17T13:37:53.000-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8315-8e51-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2015-06-23T09:07:44.588-05:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/repo/1.0/initial>
+        a             owl:FunctionalProperty , owl:ObjectProperty ;
+        rdfs:comment  "Initial (Starting) workflow state" ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/WorkflowTransition> ;
+        rdfs:label    "Initial Workflow state" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/WorkflowState> .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-a791-3ad9-949b-425080000000>
+        a           <http://vivoweb.org/ontology/core#CoreLaboratory> ;
+        rdfs:label  "X-ray Diffraction Facility" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"The mission of the CUNY X-ray Diffraction (X-ray) Facility is to perform single-crystal analyses for the structure determination of molecules, which make up a crystal. This technique is called single-crystal X-ray crystallography. It is the ultimate method for definitive determination of molecular structures at the atomic level for both organic and inorganic compounds. Its uses range from simple identification of compounds to various exotic configuration and conformational studies.\"" ;
+        <http://eagle-i.org/ont/app/1.0/synonym>
+                "CUNY X-ray Diffraction (X-ray) Facility" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000066>
+                <http://hunter-cuny.eagle-i.net/i/00000135-e468-2f1a-7abc-a52580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://genecenter.hunter.cuny.edu/" , "http://genecenter.hunter.cuny.edu/index.php/facilities/x-ray-diffraction-facility" ;
+        <http://purl.obolibrary.org/obo/ERO_0001279>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7eba-6785-949b-425080000000> , <http://hunter-cuny.eagle-i.net/i/00000136-7e17-8f5f-949b-425080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7968-8511-949b-425080000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-12T12:31:47.348-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-f147-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2015-06-23T12:04:59.761-05:00"^^xsd:dateTime .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-8336-80a6-949b-425080000000>
+        a           <http://vivoweb.org/ontology/core#CoreLaboratory> ;
+        rdfs:label  "Bio-Imaging Facility" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "The Bio-Imaging facility currently provides optical and video microscopy services. The facility is equipped with Nikon TIRF-SIM super-resolution microscope, a Leica TCS SP2 confocal microscope, and a Perkin Elmer UltraVIEW ERS Spinning Disk system. In addition to confocal microscopy the facility is also equipped for bright field, phase contrast, modulation contrast and epi fluorescence microscopy. The facility has three separate wide field image analysis stations: a Nikon Optiphot upright microscope equipped with a color video system, a Nikon Eclipse TE200 inverted microscope with calcium ratio imaging capability, and a Nikon Eclipse Ti inverted system for ultra-fast imaging.  The facility has recently expanded with the acquisition of a JEOL JEM-100C/CX Transmission Electron Microscope. The facility is also equipped with a Typhoon 9410 scanner for the quantitation and localization of sub cellular fluorescent and radioactive molecules, and an odyssey system for west-blotting imaging. In addition, Imaris, Volocity and Nikon Elements microscopy software are available for users." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8346-4cdf-949b-425080000000> , <http://hunter-cuny.eagle-i.net/i/00000136-833b-6ebc-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000066>
+                <http://hunter-cuny.eagle-i.net/i/00000135-e468-2f1a-7abc-a52580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000397>
+                <http://purl.obolibrary.org/obo/ERO_0001312> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://biology.hunter.cuny.edu/index.php?option=com_content&view=article&id=44&Itemid=62" ;
+        <http://purl.obolibrary.org/obo/ERO_0000596>
+                <http://hunter-cuny.eagle-i.net/i/00000136-833b-6ebc-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0001279>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7e17-8f5f-949b-425080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7968-8511-949b-425080000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-05T11:11:57.929-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8315-8e51-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2015-06-23T14:42:54.062-05:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/repo/1.0/workspace>
+        a             owl:ObjectProperty ;
+        rdfs:comment  "Home workspace of resources capable of using this transition" ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/WorkflowTransition> ;
+        rdfs:label    "Workspace" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/NamedGraph> .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-7e37-a19f-949b-425080000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0001110> ;
+        rdfs:label  "Applied BioSystems 7500 Real-Time PCR System" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "7500 Real-Time PCR System is an integrated and versatile platform for the detection and quantification of nucleic acid sequences.  Real-Time PCR combines thermal cycling, fluorescence detection, and application-specific software to measure the cycle-by-cycle accumulation of PCR products in a single-tube homogeneous reaction.  Its five-color detection provides the flexibility to perform a variety of applications including gene expression analysis, pathogen quantitation, SNP genotyping, and plus/minus assays that utilize internal positive controls." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7e39-656c-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7e34-9f73-949b-425080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-f147-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-04T11:39:42.104-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7e05-fb04-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-04T12:07:51.161-05:00"^^xsd:dateTime .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-8896-ce6f-949b-425080000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0001126> ;
+        rdfs:label  "Calcium Ratio & Micro Injection Inverted Microscope" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "The calcium ratio imaging system consists of: a Nikon Eclipse TE 200 inverted epifluorescence microscope, sutter lambda 10-2 optical filter system, and Molecular Devices imaging software Metafluor. The system also is equipped with a Narishige micromanipulator system" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8346-4cdf-949b-425080000000> , <http://hunter-cuny.eagle-i.net/i/00000136-833b-6ebc-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc7d-59ea-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "Nikon Eclipse TE 200" ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://biology.hunter.cuny.edu/index.php?option=com_content&view=article&id=44&Itemid=62" ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8336-80a6-949b-425080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-f147-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-06T11:59:13.078-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8315-8e51-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-10T14:11:50.929-05:00"^^xsd:dateTime .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-7eb5-5555-949b-425080000000>
+        a       <http://vivoweb.org/ontology/core#CoreLaboratory> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7eb6-5da7-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000066>
+                <http://hunter-cuny.eagle-i.net/i/00000135-e468-2f1a-7abc-a52580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000397>
+                <http://purl.obolibrary.org/obo/ERO_0001312> ;
+        <http://purl.obolibrary.org/obo/ERO_0000596>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7eb7-105e-949b-425080000000> , <http://hunter-cuny.eagle-i.net/i/00000136-7ec1-c1cf-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0001279>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7eba-6785-949b-425080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7968-8511-949b-425080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7ea8-6486-949b-425080000000> .
+
+<http://eagle-i.org/ont/repo/1.0/hasRole>
+        a             owl:ObjectProperty ;
+        rdfs:comment  "Subject is entitled to the access privilegs of this role" ;
+        rdfs:label    "has role" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/Role> .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-a314-d10f-949b-425080000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000071> ;
+        rdfs:label  "ImageQuant TL" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "ImageQuant™ TL is the most automatic and easy-to-use general image analysis software. It offers four separate functional areas within one product:\r\n\r\n1-D electrophoresis gels.\r\n\r\nDot blots, microplates, and basic arrays.\r\n\r\nColony counting and measurement of 2-D spots and other image features.\r\n\r\nToolbox to analyze gels with user-defined objects." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8346-4cdf-949b-425080000000> , <http://hunter-cuny.eagle-i.net/i/00000136-833b-6ebc-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000070>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8336-80a6-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000072>
+                "TL 7.0" ;
+        <http://purl.obolibrary.org/obo/ERO_0000078>
+                <http://purl.obolibrary.org/obo/ERO_0100030> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://www.gelifesciences.com/aptrix/upp01077.nsf/content/Products?OpenDocument&moduleid=165605" ;
+        <http://purl.obolibrary.org/obo/ERO_0001824>
+                <http://www.ebi.ac.uk/swo/license/SWO_1000002> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-7a78-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-11T15:26:46.352-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8315-8e51-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2013-01-31T06:56:48.213-06:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/repo/1.0/Role_Curator>
+        a       owl:Thing .
+
+<http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+        a             owl:ObjectProperty ;
+        rdfs:comment  "Current workflow state of this instance" ;
+        rdfs:label    "workflow state" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/WorkflowState> .
+
+<http://eagle-i.org/ont/repo/1.0/NG_Query>
+        <http://purl.org/dc/terms/created>
+                "2017-03-02T08:02:12.736-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://eagle-i.org/ont/repo/1.0/Role_Superuser> ;
+        <http://purl.org/dc/terms/source>
+                [ <http://purl.org/dc/terms/identifier>
+                          <file:///usr/share/tomcat7/webapps/sparqler/WEB-INF/classes/query-macros.n3> ;
+                  <http://purl.org/dc/terms/modified>
+                          "2017-02-03T18:12:12.000-06:00"^^xsd:dateTime
+                ] .
+
+<http://hunter-cuny.eagle-i.net/i/00000135-e468-2f1a-7abc-a52580000000>
+        a           <http://vivoweb.org/ontology/core#Center> ;
+        rdfs:label  "Center for Translational and Basic Research" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "The RCMI-funded Center for Translational and Basic Research (CTBR) at Hunter College of the City University of New York (CUNY) enhances the institution’s research infrastructure to support basic, translational/clinical and community engagement research to address health disparities and improve health outcomes. Our approach is to enhance our capacity to conduct targeted research in the following core areas: Cancer, Neuro/Behavior, Bioinformatics, and Disease Prevention. Our programs support investigators so they become more successful in obtaining extramural support in biomedical/behavioral research, particularly on diseases that disproportionately affect minority populations, and foster professional development in the biomedical sciences especially in our core research areas." ;
+        <http://eagle-i.org/ont/app/1.0/synonym>
+                "CTBR" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "ctbr.hunter.cuny.edu" ;
+        <http://purl.obolibrary.org/obo/ERO_0000596>
+                <http://hunter-cuny.eagle-i.net/i/00000136-838b-7408-949b-425080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7968-8511-949b-425080000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-03-05T13:49:36.200-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d12-8e8b-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2015-06-23T12:20:40.676-05:00"^^xsd:dateTime .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-a7a4-c4b9-949b-425080000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000395> ;
+        rdfs:label  "Single-crystal X-ray analysis" ;
+        <http://eagle-i.org/ont/app/1.0/feeforservice>
+                "true" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"Rules of Operation\r\n 1. The sample is examined under the microscope to see if it is suitable for single-crystal X-ray analysis.A person submits a sample and fills the CUNY X-ray Facility Submission form with identification of the researcher, affiliation, chemical information, crystallization solvents and methods, a preliminary chemical structure, optical activity, chemical nomenclature of the compound, molecular numbering system, synthetic schemes, etc. The form also asks if the sample should be returned or destroyed after the X-ray analysis.\r\n2. The sample is examined under the microscope to see if it is suitable for single-crystal X-ray analysis.\r\n3. The sample is either accepted for X-ray analysis or rejected as judged from the microscopic information. Many times it is accepted on a conditional basis. The condition is usually that attempts will be made to collect data but nothing is assured that a crystal from the sample will produce a molecular structure. If a sample is accepted, data is collected and then reduced to obtain structure factors, which are used to solve and refine the molecular structure. The final products of the single-crystal X-ray analysis are ORTEP drawing(s) and a CIF file of the molecular structure, which can be used for publication.\"" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://hunter-cuny.eagle-i.net/i/00000136-a791-3ad9-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://genecenter.hunter.cuny.edu/index.php/facilities/x-ray-diffraction-facility" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0001312> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-f147-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-12T12:44:42.117-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-f147-7abc-a52580000000> .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-8892-389c-949b-425080000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000248> ;
+        rdfs:label  "JEOL JEM-100C/CX Transmission Electron Microscope" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"JEOL JEM-100CX II transmission electron microscope is an advanced high performance electron microscope with stable and excellent imaging capabilities at low to high magnifications (90X to 800, 000X). A 10M-pixel HAMAMASTU C4742-95 digital camera is integrated to the system for high-resolution image acquisition.\"" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8346-4cdf-949b-425080000000> , <http://hunter-cuny.eagle-i.net/i/00000136-833b-6ebc-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc77-5da0-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "JEM-100C/CX" ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://biology.hunter.cuny.edu/index.php?option=com_content&view=article&id=44&Itemid=62" ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8336-80a6-949b-425080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-f147-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-06T11:54:21.575-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8315-8e51-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-10T14:30:45.387-05:00"^^xsd:dateTime .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-8346-4cdf-949b-425080000000>
+        a           <http://xmlns.com/foaf/0.1/Person> ;
+        rdfs:label  "Zhong Wang" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000042>
+                "Zhong" ;
+        <http://purl.obolibrary.org/obo/ERO_0000049>
+                "Wang" ;
+        <http://purl.obolibrary.org/obo/ERO_0000052>
+                "Facility Assistant" ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://ctbr.hunter.cuny.edu" ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000151-596d-6d3e-6f16-aeae80000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-05T11:11:57.363-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8315-8e51-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2015-11-30T11:58:40.955-06:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/repo/1.0/WFS_Draft>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/WorkflowState> ;
+        rdfs:comment  "Data collection and preparation" ;
+        rdfs:label    "Draft" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWriter>
+                <http://eagle-i.org/ont/repo/1.0/Role_Curator> , <http://eagle-i.org/ont/repo/1.0/Role_RNAV> ;
+        <http://eagle-i.org/ont/repo/1.0/order>
+                20 .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-834c-9767-949b-425080000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000005> ;
+        rdfs:label  "Bio-imaging instrumentation training" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "Training : life science instruments, including microscopes, plate readers, gel imagers." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-833b-6ebc-949b-425080000000> , <http://hunter-cuny.eagle-i.net/i/00000136-8346-4cdf-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8336-80a6-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://biology.hunter.cuny.edu/index.php?option=com_content&view=article&id=44&Itemid=62http://biology.hunter.cuny.edu/index.php?option=com_content&view=article&id=44&Itemid=62" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0001312> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-f147-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-05T11:21:52.572-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8315-8e51-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-10T14:41:42.519-05:00"^^xsd:dateTime .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-8898-a06d-949b-425080000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0001078> ;
+        rdfs:label  "Odyssey Infrared Imager" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"The Odyssey  replaces the tradition methods of analysing western blots,  chemiluminescence and fluorescence detection, with near infrared (NIR)   fluorescence detection.  This allows you to quantitate proteins over a much wider linear dynamic range than chemiluminescence can. This feature can enable strong and weak bands on the same blot to be acurately quantified with out the need for multiple exposures.  In addition the Odyssey is uniquely equipped with two infrared channels 700 nm and 800 nm, and can thus probe two different targets in the same experiment.\"" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8346-4cdf-949b-425080000000> , <http://hunter-cuny.eagle-i.net/i/00000136-833b-6ebc-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc79-0391-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "9120" ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://biology.hunter.cuny.edu/index.php?option=com_content&view=article&id=44&Itemid=62" ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8336-80a6-949b-425080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d0d-0e55-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-06T12:00:53.949-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8315-8e51-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-05-07T20:15:05.673-05:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/repo/1.0/Person>
+        a                owl:Class ;
+        rdfs:comment     "Represents a person acting as an authenticated user of the repository" ;
+        rdfs:label       "Person" ;
+        rdfs:subClassOf  owl:Thing , <http://eagle-i.org/ont/app/1.0/Person> , <http://xmlns.com/foaf/0.1/Person> , <http://eagle-i.org/ont/repo/1.0/Agent> , <http://eagle-i.org/ont/app/1.0/Agent> , <http://xmlns.com/foaf/0.1/Agent> , <http://purl.org/dc/terms/Agent> .
+
+<http://eagle-i.org/ont/repo/1.0/ngType>
+        a             owl:FunctionalProperty ;
+        rdfs:comment  "Describes type of contents and purpose of this named graph" ;
+        rdfs:label    "named graph type" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/NamedGraphType> .
+
+<http://eagle-i.org/ont/repo/1.0/Agent>
+        a                owl:Class ;
+        rdfs:comment     "Represents a person, role, or other principal to be granted access control rights" ;
+        rdfs:label       "Agent" ;
+        rdfs:subClassOf  owl:Thing , <http://eagle-i.org/ont/app/1.0/Agent> , <http://purl.org/dc/terms/Agent> , <http://xmlns.com/foaf/0.1/Agent> .
+
+<http://eagle-i.org/ont/repo/1.0/>
+        a                owl:Ontology ;
+        <http://purl.org/dc/terms/created>
+                "2017-03-02T08:02:17.100-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://eagle-i.org/ont/repo/1.0/Role_Superuser> ;
+        <http://purl.org/dc/terms/source>
+                [ <http://purl.org/dc/terms/identifier>
+                          <file:///usr/share/tomcat7/webapps/sparqler/WEB-INF/classes/repository-ont.n3> ;
+                  <http://purl.org/dc/terms/modified>
+                          "2017-02-03T18:12:12.000-06:00"^^xsd:dateTime
+                ] ;
+        owl:versionInfo  "$Id: repository-ont.n3 19120 2015-04-30 05:13:28Z scheng $" .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-7e1d-41e6-949b-425080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7e0a-b810-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc6a-1489-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7e06-6aac-949b-425080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d0d-0e55-7abc-a52580000000> , <http://hunter-cuny.eagle-i.net/i/00000135-8d10-f147-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7e05-fb04-949b-425080000000> .
+
+<http://hunter-cuny.eagle-i.net/i/00000139-11f7-ba03-bc54-fec580000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000004> ;
+        rdfs:label  "SRA-120 Power Amplifier" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "The SRA 120 amplifier delivers 60 watts per channel into 4 ohms stereo; 45 watts per channel into 8 ohms stereo; or 120 watts total into 8 ohms mono-bridged. The SRA-120 allows to select between two choices of input sensitivity, stereo or mono operation, or normal or bridged mode." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-834b-f13e-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://www.ashly.com/retired/product/r-sra-120.htm" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000756> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8335-b386-949b-425080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-7a78-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-08-10T14:18:29.841-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8366-965d-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2013-01-31T06:40:01.426-06:00"^^xsd:dateTime .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-8335-b386-949b-425080000000>
+        a           <http://vivoweb.org/ontology/core#CoreLaboratory> ;
+        rdfs:label  "Internet2 Facility" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "Hunter College of the City University of New York was linked to the  NYSERNet  ring which helps to connects east coast institutions (private and educational)  to the fast fiber optic Abilene Network of the Internet2 consortium.  Through a grant  from the Research Centers in Minority Institutions (RCMI) Program of the National Institute of Minority Health and Health Disparities (NIMHD) of the National Institutes of Health (NIH) and matching funds from the City University of New York, our Internet2 and Video Collaboratoration Facility was built.  We are now directly connected to the Abilene, Internet2 backbone,  directly through CUNY’s main gateway, thus facilitating communication with other Internet2 based institutions at much higher speeds." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowOwner>
+                <http://hunter-cuny.eagle-i.net/i/00000151-596d-6d3e-6f16-aeae80000000> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000066>
+                <http://hunter-cuny.eagle-i.net/i/00000135-e468-2f1a-7abc-a52580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "ctbr.hunter.cuny.edu" ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7968-8511-949b-425080000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-05T11:06:48.046-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8317-6414-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2015-06-23T12:03:21.048-05:00"^^xsd:dateTime .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-7e3e-886c-949b-425080000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0001070> ;
+        rdfs:label  "Wallac 1409 Liquid Scintillation Counter" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "Liquid scintillation counter with moving rack, designed to measure low-energy beta-emissions (e.g. 32P)." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7e39-656c-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7e34-9f73-949b-425080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-f147-7abc-a52580000000> , <http://hunter-cuny.eagle-i.net/i/00000135-8d0d-0e55-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-04T11:50:51.060-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7e05-fb04-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-05-07T20:03:44.807-05:00"^^xsd:dateTime .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-8351-37a6-949b-425080000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0001079> ;
+        rdfs:label  "Leica Confocal Microscope TCS SP2" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"The TCS SP2 Laser Scanning Spectral Confocal Microscope can do measurements of transmitted light, fluorescence and laser scanning fluorescence imaging. It has a z-stage with rotation capabilities, with z-resolution of 40 nm. The system has high quality X10, X40, X63 and X100 objectives, and 6 excitation laser lines at wavelenghts of 458nm - 638 nm.\"" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8346-4cdf-949b-425080000000> , <http://hunter-cuny.eagle-i.net/i/00000136-833b-6ebc-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc78-e037-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "Leica TCS SP2" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0001268> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8336-80a6-949b-425080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-f147-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-05T11:31:13.905-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8315-8e51-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-10T14:27:14.590-05:00"^^xsd:dateTime .
+
+<http://xmlns.com/foaf/0.1/Agent>
+        rdfs:subClassOf  owl:Thing .
+
+<http://hunter-cuny.eagle-i.net/i/00000143-0210-04ec-b9b0-07b180000000>
+        a           <http://xmlns.com/foaf/0.1/Person> ;
+        rdfs:label  "Zhong Wang" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7968-8511-949b-425080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8315-8e51-949b-425080000000> .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-a6fb-5081-949b-425080000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0001261> ;
+        rdfs:label  "TEM Analysis Service" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "Transmission electron microscopy nanoparticle analysis" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7ec1-c1cf-949b-425080000000> , <http://hunter-cuny.eagle-i.net/i/00000136-7eb7-105e-949b-425080000000> , <http://hunter-cuny.eagle-i.net/i/00000136-7eb6-5da7-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7eb5-5555-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0001312> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-f147-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-12T11:12:11.167-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-f147-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-12T11:12:18.543-05:00"^^xsd:dateTime .
+
+<http://hunter-cuny.eagle-i.net/i/00000139-11f9-eaca-bc54-fec580000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0001048> ;
+        rdfs:label  "CameraMan 3-CCD Presenter" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "This is a robotic camera that supports web streaming video as well as many other applications. Its automated tracking system allows the presenter to easily walk during a conference while the camera follows in a close up session." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-834b-f13e-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8335-b386-949b-425080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-7a78-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-08-10T14:19:25.266-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8366-965d-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2013-01-31T06:49:38.397-06:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/repo/1.0/NamedGraphType>
+        a                owl:Class ;
+        rdfs:comment     "Purpose of a NamedGraph, indicates whether it should be included in certain query datasets" ;
+        rdfs:label       "Named Graph Type" ;
+        rdfs:subClassOf  owl:Thing .
+
+<http://hunter-cuny.eagle-i.net/i/00000139-11fb-e72d-bc54-fec580000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000156> ;
+        rdfs:label  "10 Dell Notebook Computers" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "Provide accessibility to network resources, video conference end points and main tool for bioinformatic related coursework." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-834b-f13e-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8335-b386-949b-425080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-7a78-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-08-10T14:21:46.790-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8366-965d-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2013-01-31T06:36:38.074-06:00"^^xsd:dateTime .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-9dc9-4f17-949b-425080000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0001261> ;
+        rdfs:label  "Remote instrumentation service" ;
+        <http://eagle-i.org/ont/app/1.0/feeforservice>
+                "true" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"Now a new service is ready for our remote users to get remote access to our advanced confocal microscopes for their own imaging purpose. \r\n Our service includes:\r\n(i) Leica SP2 confocal microscope: it is ideal for regular 2D & 3D scanning for fixed slide samples.  Please check the following link for  Leica SP2  system:  Leica SP2 operational guide; \r\n(ii) Perkin Elmer spinning disk microscope:  besides the regular 2D & 3D fixed slide scanning, it is also equipped with an environment chamber for live cell imaging. Also, this type of microscope system has fast scanning speed, it is ideal for cellular dynamic studies.  Please check the following link for  Perkin Elmer spinning disk microscope system:  Spinning disk operational guide; \r\n(iii)  Microscope remote control: Webex is used to setup the remote desktop sharing for microscope control. Please check the following link for  Webex-based remote control operations:  Webex remote control  guide; \r\n(iv) PVX video conferencing for real-time consultation: during imaging experiment,   PVX video conferencing system is used for real-time conversations between microscope operator and remote users to solve on-site experimental issues. Please check the following link for PVX real-time conferencing:  PVX video conferencing operational guide.\r\n(v) Cell staining protocol:  a simple cell staining protocol is posted here as an example: Sample staining protocol.\r\n \r\nFor scheduling the above remote instrumentation service, please check the following guidelines:  \r\n(1)     Contact us by email for scheduling a remote microscopic imaging experiment, including: a short description of your experiment, time schedule, sample type, etc.  \r\n          Contact emails:\r\n                                    Zhong Wang :         zwang@genectr.hunter.cuny.edu\r\n                                    Dr. Lloyd Williams: Williams@genectr.hunter.cuny.edu\r\n \r\n(2)     Ship the sample slide or living samples with proper package.\r\n(3)     A confirmation email will be sent before the experiment date.  A webex meeting link will be included in this email for remote connection.\r\n \"" ;
+        <http://eagle-i.org/ont/app/1.0/servicefeeURL>
+                "http://biology.hunter.cuny.edu/index.php?option=com_content&view=article&id=44&Itemid=62" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8346-4cdf-949b-425080000000> , <http://hunter-cuny.eagle-i.net/i/00000136-833b-6ebc-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8336-80a6-949b-425080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-f147-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-10T14:46:28.041-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-f147-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-10T15:55:33.052-05:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/repo/1.0/hasRemoveAccess>
+        a                   owl:ObjectProperty ;
+        rdfs:comment        "Grants remove access on subject resource to a principal" ;
+        rdfs:label          "has remove access" ;
+        rdfs:range          <http://eagle-i.org/ont/repo/1.0/Agent> ;
+        rdfs:subPropertyOf  <http://eagle-i.org/ont/repo/1.0/hasAnyAccess> .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-889b-9591-949b-425080000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000004> ;
+        rdfs:label  "GloMax®-96 Microplate Luminometer" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"The GloMax®-96 Microplate Luminometer is a state-of-the-art microplate luminometer with a high sensitivity and broad dynamic range that is necessary for chemiluminescent and bioluminescent applications. The GloMax uses an advanced photon-counting photomultiplier tube (PMT), with a dynamic range of greater than nine logs. This range covers virtually all chemiluminescent and bioluminescent assays, eliminating the need to dilute samples or manage detector-driven gain changes.\"" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-833b-6ebc-949b-425080000000> , <http://hunter-cuny.eagle-i.net/i/00000136-8346-4cdf-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc80-517a-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "Glomax-96" ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://biology.hunter.cuny.edu/index.php?option=com_content&view=article&id=44&Itemid=62" ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8336-80a6-949b-425080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-f147-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-06T12:04:29.081-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8315-8e51-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-10T14:23:34.525-05:00"^^xsd:dateTime .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-8889-1197-949b-425080000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0001081> ;
+        rdfs:label  "Typhoon Imager 9410" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"Typhoon™ is a highly sensitive variable-mode gel imager. The Typhoon 9410 unites the ability to detect an extensive variety of fluors, with proven storage phosphor autoradiography technology and direct imaging of chemiluminescence. The typhoon can also be used to analyze micro-arrays.\"" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-833b-6ebc-949b-425080000000> , <http://hunter-cuny.eagle-i.net/i/00000136-8346-4cdf-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc73-a1b8-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "Typhoon 9410" ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://biology.hunter.cuny.edu/index.php?option=com_content&view=article&id=44&Itemid=62" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0001312> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8336-80a6-949b-425080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d0d-0e55-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-06T11:48:31.417-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8315-8e51-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-05-07T20:13:19.159-05:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/repo/1.0/MatchAnything>
+        rdfs:comment  "Wildcard URI for delete statements request, matches any predicate and/or object" .
+
+<http://eagle-i.org/ont/repo/1.0/NGType_Metadata>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/NamedGraphType> ;
+        rdf:value     "metadata" ;
+        rdfs:comment  "Administrative Metadata for the repository" ;
+        rdfs:label    "Administrative Metadata " .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-7e06-6aac-949b-425080000000>
+        a           <http://vivoweb.org/ontology/core#CoreLaboratory> ;
+        rdfs:label  "Flow Cytometry Facility" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"The Flow-Cytometry (FACS) facility is located on the ninth floor of the Hunter North building. This facility provides analyses of up to 7 parameters in eukaryotic cell populations and sorts cells under sterile conditions. These analyses can be used to identify and isolate rare cell populations, determine chromosome ploidy in individual cells, study apoptosis, and study cell-signaling among other applications.\"" ;
+        <http://eagle-i.org/ont/app/1.0/synonym>
+                "Gene Center Flow Cytometry Facility" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7e0a-b810-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000066>
+                <http://hunter-cuny.eagle-i.net/i/00000135-e468-2f1a-7abc-a52580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://genecenter.hunter.cuny.edu/index.php/facilities/flow-cytometry" , "http://biology.hunter.cuny.edu/index.php?option=com_content&view=article&id=48&Itemid=65" ;
+        <http://purl.obolibrary.org/obo/ERO_0001279>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7e17-8f5f-949b-425080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7968-8511-949b-425080000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-04T11:02:52.061-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7e05-fb04-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2015-06-23T12:00:54.128-05:00"^^xsd:dateTime .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-8880-536f-949b-425080000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0001031> ;
+        rdfs:label  "Gemini EM microplate spectrofluorometer" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"The Molecular Devices SpectraMax Gemini EM microplate spectrofluorometer features top and bottom reading optics, dual monochromators, wavelength scanning, well scanning, auto PMT gain and is driven by Softmax Pro software on a Windows-based controller.\"" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8346-4cdf-949b-425080000000> , <http://hunter-cuny.eagle-i.net/i/00000136-833b-6ebc-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc7b-dd37-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "Gemini EM" ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://biology.hunter.cuny.edu/index.php?option=com_content&view=article&id=44&Itemid=62" ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8336-80a6-949b-425080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d0d-0e55-7abc-a52580000000> , <http://hunter-cuny.eagle-i.net/i/00000135-8d10-f147-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-06T11:38:14.346-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8315-8e51-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-05-07T20:05:36.268-05:00"^^xsd:dateTime .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-833b-6ebc-949b-425080000000>
+        a           <http://xmlns.com/foaf/0.1/Person> ;
+        rdfs:label  "Lloyd Williams, PhD" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7968-8511-949b-425080000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-05T11:11:56.589-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8315-8e51-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2015-06-23T09:35:12.221-05:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/repo/1.0/actionParameter>
+        a             owl:DatatypeProperty ;
+        rdfs:comment  "Transition-specific parameter to give action method" ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/WorkflowTransition> ;
+        rdfs:label    "action parameter" .
+
+<http://xmlns.com/foaf/0.1/Person>
+        rdfs:subClassOf  owl:Thing .
+
+<http://eagle-i.org/ont/app/1.0/Agent>
+        rdfs:subClassOf  owl:Thing .
+
+<http://eagle-i.org/ont/repo/1.0/Role_RNAV>
+        a       owl:Thing .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-7e3c-29fb-949b-425080000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0000989> ;
+        rdfs:label  "Applied BioSystems 2720 Thermo Cycler" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "2720 Thermo Cycler is a small, 96 well platform model.  It is a basic PCR instrument and new users need only minimal instruction to operate the instrument." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7e39-656c-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7e34-9f73-949b-425080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-f147-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-04T11:43:13.104-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7e05-fb04-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-04T12:07:52.390-05:00"^^xsd:dateTime .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-79aa-53c4-949b-425080000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0000487> ;
+        rdfs:label  "Bruker 600" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"The 600 MHz Bruker Avance III instrument is the newest addition to our NMR facility. This 1H cryoprobe-equipped four channel spectrometer is a state-of-the-art ultra-shielded magnet with an impressively small stray field, yielding increased lab safety and field homogeneity. The 1H signal-to-noise specification is ~5000:1 for this instrument. Currently, this instrument is reserved almost exclusively for the laboratory of Dr. Nancy Greenbaum for structural biology studies of macromolecules.\"" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-79a3-a38b-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0001239> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://hunter-cuny.eagle-i.net/i/00000136-79a2-306f-949b-425080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-f147-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-03T14:26:17.508-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7998-468f-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-04T12:09:20.240-05:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/repo/1.0/hasReadAccess>
+        a                   owl:ObjectProperty ;
+        rdfs:comment        "Grants read and query access on subject resource to a principal" ;
+        rdfs:label          "has read access" ;
+        rdfs:range          <http://eagle-i.org/ont/repo/1.0/Agent> ;
+        rdfs:subPropertyOf  <http://eagle-i.org/ont/repo/1.0/hasAnyAccess> .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-7e0a-b810-949b-425080000000>
+        a           <http://xmlns.com/foaf/0.1/Person> ;
+        rdfs:label  "Joon-Yup Kim" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000042>
+                "Joon-Yup" ;
+        <http://purl.obolibrary.org/obo/ERO_0000049>
+                "Kim" ;
+        <http://purl.obolibrary.org/obo/ERO_0000052>
+                "Facility Manager" ;
+        <http://purl.obolibrary.org/obo/ERO_0000397>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://genecenter.hunter.cuny.edu/index.php/facilities/flow-cytometry" ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-7a78-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-04T11:02:51.040-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7e05-fb04-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-09-27T08:48:29.947-05:00"^^xsd:dateTime .
+
+<http://hunter-cuny.eagle-i.net/i/00000143-0240-e2b1-b9b0-07b180000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0400169> ;
+        rdfs:label  "Nikon TIRF/SIM Microscope" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "The Nikon TIRF SIM microscope allows the users to do both Total Internal Reflection Microscopy and SIM super resolution microscopy. The acquisition software is Nikon elements." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000143-0210-04ec-b9b0-07b180000000> , <http://hunter-cuny.eagle-i.net/i/00000136-833b-6ebc-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc7d-59ea-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0001312> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8336-80a6-949b-425080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-f147-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2013-12-17T14:33:12.036-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-8315-8e51-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2015-06-23T09:07:46.706-05:00"^^xsd:dateTime .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-7ebc-8da4-949b-425080000000>
+        a       <http://purl.obolibrary.org/obo/ERO_0000248> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7eb6-5da7-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7eb5-5555-949b-425080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-f147-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7ea8-6486-949b-425080000000> .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-7e46-7428-949b-425080000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000994> ;
+        rdfs:label  "Konica Minolta SRX-101A X-ray film Developer" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "This instrument is housed in a darkroom on the 9th floor, Hunter North, behind the elevators.  The Processor is designed to process medical x-ray sheet film." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7e39-656c-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7e34-9f73-949b-425080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-f147-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-04T11:54:05.017-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7e05-fb04-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-04T12:07:52.037-05:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/repo/1.0/hasAnyAccess>
+        a             owl:ObjectProperty ;
+        rdfs:comment  "has*Access superproperty" ;
+        rdfs:label    "has*Access superproperty" .
+
+<http://eagle-i.org/ont/repo/1.0/hasPrincipalName>
+        a             owl:DatatypeProperty ;
+        rdfs:comment  "Indicates the authenticated login principal bound to this Person or Agent" ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/Person> ;
+        rdfs:label    "login principal" .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-a2de-f3cd-949b-425080000000>
+        a       <http://purl.obolibrary.org/obo/ERO_0000393> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7eb7-105e-949b-425080000000> , <http://hunter-cuny.eagle-i.net/i/00000136-7ec1-c1cf-949b-425080000000> , <http://hunter-cuny.eagle-i.net/i/00000136-7eb6-5da7-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7eb5-5555-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0001312> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-f147-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-f147-7abc-a52580000000> .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-79a4-961c-949b-425080000000>
+        a           <http://xmlns.com/foaf/0.1/Person> ;
+        rdfs:label  "Jesus Angulo, PhD" ;
+        <http://eagle-i.org/ont/app/1.0/Profilesurl>
+                "http://connect.rtrn.net/profileswebroot/ProfileDetails.aspx?From=SE&Person=3320&PersonSource=Hunter%20College,%20CUNY" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "Program Director/Principal Investigator, CTBR" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000042>
+                "Jesus" ;
+        <http://purl.obolibrary.org/obo/ERO_0000049>
+                "Angulo" ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://ctbr.hunter.cuny.edu/" ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-f147-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-03T14:22:01.109-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7998-468f-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2015-11-30T12:19:13.702-06:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/repo/1.0/NGType_Ontology>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/NamedGraphType> ;
+        rdf:value     "ontology" ;
+        rdfs:comment  "Contains Ontology applicable to data objects" ;
+        rdfs:label    "Ontology" .
+
+<http://hunter-cuny.eagle-i.net/i/00000136-79af-c66a-949b-425080000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000004> ;
+        rdfs:label  "Varian Inova 500" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"The Inova is our most versatile instrument, capable of NMR on both liquids and solids. It is equipped with Z-axis pulsed field gradients, a variety of probes, and high power amplifiers. It has been utilized for the characterization of solids, variable temperature experiments on a variety of nuclides such as 1H, 13C, 19F, and 99Tc, and also for the structure determination of peptides and proteins, making use of 1D, 2D, and 3D experiments. For comparison with our cryoprobe-equipped instruments, typical probes on this instrument achieve signal-to-noise ratios from 100:1 to 300:1 depending on the nucleus of interest.\"" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://hunter-cuny.eagle-i.net/i/00000136-79a3-a38b-949b-425080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc67-5972-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "Inova 500" ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "www.agilent.com/" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0001239> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://hunter-cuny.eagle-i.net/i/00000136-79a2-306f-949b-425080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://hunter-cuny.eagle-i.net/i/00000135-8d10-f147-7abc-a52580000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-03T14:32:41.240-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://hunter-cuny.eagle-i.net/i/00000136-7998-468f-949b-425080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-04T12:09:18.864-05:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/repo/1.0/hasAddAccess>
+        a                   owl:ObjectProperty ;
+        rdfs:comment        "Grants ADD access on subject resource to a principal" ;
+        rdfs:label          "has add access" ;
+        rdfs:range          <http://eagle-i.org/ont/repo/1.0/Agent> ;
+        rdfs:subPropertyOf  <http://eagle-i.org/ont/repo/1.0/hasAnyAccess> .
+
+<http://eagle-i.org/ont/repo/1.0/NGType_Internal>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/NamedGraphType> ;
+        rdf:value     "internal" ;
+        rdfs:comment  "Contains data that is only to be used internally by repository, such as administrative metadata" ;
+        rdfs:label    "Internal Use Only" .

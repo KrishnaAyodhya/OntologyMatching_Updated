@@ -1,0 +1,2802 @@
+@prefix rdfdf: <http://www.openlinksw.com/virtrdf-data-formats#> .
+@prefix dbpedia-owl: <http://dbpedia.org/ontology/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+
+dbpedia-owl:runwaySurface
+        a       rdf:Property .
+
+rdfdf:sql-nvarchar-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:hgncid  a  rdf:Property .
+
+owl:allValuesFrom  a  rdf:Property .
+
+dbpedia-owl:doctoralStudent
+        a       rdf:Property .
+
+owl:disjointWith  a  rdf:Property .
+
+dbpedia-owl:course  a  rdf:Property .
+
+dbpedia-owl:debut  a  rdf:Property .
+
+dbpedia-owl:networth  a  rdf:Property .
+
+dbpedia-owl:currentRecord
+        a       rdf:Property .
+
+dbpedia-owl:coExecutiveProducer
+        a       rdf:Property .
+
+dbpedia-owl:projectEndDate
+        a       rdf:Property .
+
+virtrdf:DefaultQuadMap-O
+        a       virtrdf:QuadMapValue .
+
+rdfdf:sql-nvarchar-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:finalPublicationYear
+        a       rdf:Property .
+
+rdfdf:sql-doubleprecision-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:parish  a  rdf:Property .
+
+owl:equivalentProperty
+        a       rdf:Property .
+
+dbpedia-owl:populationMetroDensity
+        a       rdf:Property .
+
+dbpedia-owl:rocketFunction
+        a       rdf:Property .
+
+dbpedia-owl:geologicPeriod
+        a       rdf:Property .
+
+virtrdf:DefaultServiceMap-G-col-G
+        a       virtrdf:QuadMapColumn .
+
+rdfdf:sql-varchar-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-integer-literal-fn-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-datetime-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:issn  a  rdf:Property .
+
+dbpedia-owl:vicePresident
+        a       rdf:Property .
+
+dbpedia-owl:iftaAward
+        a       rdf:Property .
+
+dbpedia-owl:numberOfVisitors
+        a       rdf:Property .
+
+rdfdf:sinv-iid-nonblank-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:fundedBy  a  rdf:Property .
+
+dbpedia-owl:cinematography
+        a       rdf:Property .
+
+rdfdf:sql-nvarchar-dt
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:DefaultQuadStorage
+        a       virtrdf:QuadStorage .
+
+dbpedia-owl:notableWork
+        a       rdf:Property .
+
+dbpedia-owl:previousEditor
+        a       rdf:Property .
+
+rdfdf:sql-varchar-uri-fn-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:dcc  a  rdf:Property .
+
+dbpedia-owl:populationTotalRanking
+        a       rdf:Property .
+
+dbpedia-owl:seatingCapacity
+        a       rdf:Property .
+
+dbpedia-owl:wikiPageID
+        a       rdf:Property .
+
+rdfdf:sql-varchar-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:minimumDischarge
+        a       rdf:Property .
+
+dbpedia-owl:league  a  rdf:Property .
+
+dbpedia-owl:finalPublicationDate
+        a       rdf:Property .
+
+rdfdf:sql-numeric-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:leader  a  rdf:Property .
+
+dbpedia-owl:productionStartDate
+        a       rdf:Property .
+
+dbpedia-owl:birthName
+        a       rdf:Property .
+
+dbpedia-owl:projectReferenceID
+        a       rdf:Property .
+
+rdfdf:zeropart-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:booster  a  rdf:Property .
+
+dbpedia-owl:latestReleaseDate
+        a       rdf:Property .
+
+dbpedia-owl:omim  a  rdf:Property .
+
+dbpedia-owl:distanceToCapital
+        a       rdf:Property .
+
+rdfdf:sql-longvarchar-dt
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longvarchar
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:stationEvaDuration
+        a       rdf:Property .
+
+dbpedia-owl:firstAppearance
+        a       rdf:Property .
+
+dbpedia-owl:editorTitle
+        a       rdf:Property .
+
+dbpedia-owl:deathPlace
+        a       rdf:Property .
+
+dbpedia-owl:namedAfter
+        a       rdf:Property .
+
+dbpedia-owl:city  a  rdf:Property .
+
+dbpedia-owl:firstWin  a  rdf:Property .
+
+dbpedia-owl:office  a  rdf:Property .
+
+dbpedia-owl:modelStartYear
+        a       rdf:Property .
+
+rdfdf:sinv-nullable  a  virtrdf:QuadMapFormat .
+
+rdfdf:sql-date-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:tvComId  a  rdf:Property .
+
+dbpedia-owl:chairLabel
+        a       rdf:Property .
+
+dbpedia-owl:owner  a  rdf:Property .
+
+dbpedia-owl:dissolved
+        a       rdf:Property .
+
+dbpedia-owl:parentOrganisation
+        a       rdf:Property .
+
+dbpedia-owl:hsvCoordinateSaturation
+        a       rdf:Property .
+
+dbpedia-owl:splitFromParty
+        a       rdf:Property .
+
+dbpedia-owl:regionType
+        a       rdf:Property .
+
+dbpedia-owl:graySubject
+        a       rdf:Property .
+
+dbpedia-owl:discharge
+        a       rdf:Property .
+
+dbpedia-owl:assetUnderManagement
+        a       rdf:Property .
+
+dbpedia-owl:oversight
+        a       rdf:Property .
+
+rdfdf:sql-date-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-integer-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sinv-iid-nonblank-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:club  a  rdf:Property .
+
+rdfdf:sql-numeric-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:SyncToQuads  a  virtrdf:QuadStorage .
+
+dbpedia-owl:floorArea
+        a       rdf:Property .
+
+dbpedia-owl:areaMetro
+        a       rdf:Property .
+
+rdfdf:default-iid  a  virtrdf:QuadMapFormat .
+
+dbpedia-owl:arrondissement
+        a       rdf:Property .
+
+dbpedia-owl:otherParty
+        a       rdf:Property .
+
+owl:equivalentClass  a  rdf:Property .
+
+dbpedia-owl:lieutenant
+        a       rdf:Property .
+
+dbpedia-owl:secretaryGeneral
+        a       rdf:Property .
+
+rdfdf:sql-longvarbinary-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:modelStartDate
+        a       rdf:Property .
+
+dbpedia-owl:symbol  a  rdf:Property .
+
+dbpedia-owl:buildingEndYear
+        a       rdf:Property .
+
+dbpedia-owl:areaLand  a  rdf:Property .
+
+dbpedia-owl:retired  a  rdf:Property .
+
+dbpedia-owl:pastor  a  rdf:Property .
+
+rdfdf:sql-nvarchar-lang
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:zeropart-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longnvarchar-lang
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-numeric-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultServiceMap-ft-conds
+        a       virtrdf:array-of-string .
+
+dbpedia-owl:headquarter
+        a       rdf:Property .
+
+dbpedia-owl:aircraftHelicopterTransport
+        a       rdf:Property .
+
+dbpedia-owl:usedInWar
+        a       rdf:Property .
+
+dbpedia-owl:poleDriver
+        a       rdf:Property .
+
+dbpedia-owl:secondDriver
+        a       rdf:Property .
+
+dbpedia-owl:wikiPageRedirects
+        a       rdf:Property .
+
+dbpedia-owl:pubchem  a  rdf:Property .
+
+dbpedia-owl:firstPublicationYear
+        a       rdf:Property .
+
+dbpedia-owl:podiums  a  rdf:Property .
+
+dbpedia-owl:purpose  a  rdf:Property .
+
+rdfdf:sql-longvarbinary
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:meanTemperature
+        a       rdf:Property .
+
+dbpedia-owl:postalCode
+        a       rdf:Property .
+
+dbpedia-owl:humanDevelopmentIndexRankingCategory
+        a       rdf:Property .
+
+virtrdf:DefaultServiceMap-ft
+        a       virtrdf:QuadMapFText .
+
+dbpedia-owl:electionDateLeader
+        a       rdf:Property .
+
+dbpedia-owl:field  a  rdf:Property .
+
+dbpedia-owl:albedo  a  rdf:Property .
+
+dbpedia-owl:currentPartner
+        a       rdf:Property .
+
+dbpedia-owl:pseudonym
+        a       rdf:Property .
+
+rdfdf:sql-varchar-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-varchar-dt-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:numberOfCounties
+        a       rdf:Property .
+
+rdfdf:sql-integer-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:storyEditor
+        a       rdf:Property .
+
+dbpedia-owl:keyPerson
+        a       rdf:Property .
+
+dbpedia-owl:unitedStatesNationalBridgeId
+        a       rdf:Property .
+
+rdfdf:sql-varchar-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-date-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:demolitionYear
+        a       rdf:Property .
+
+dbpedia-owl:source  a  rdf:Property .
+
+dbpedia-owl:gross  a  rdf:Property .
+
+dbpedia-owl:teachingStaff
+        a       rdf:Property .
+
+dbpedia-owl:wins  a  rdf:Property .
+
+dbpedia-owl:administrativeDistrict
+        a       rdf:Property .
+
+dbpedia-owl:veneratedIn
+        a       rdf:Property .
+
+dbpedia-owl:minorityFloorLeader
+        a       rdf:Property .
+
+rdfdf:sql-time  a  virtrdf:QuadMapFormat .
+
+rdfdf:sql-longnvarchar-dt-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-time-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:officialLanguage
+        a       rdf:Property .
+
+dbpedia-owl:numberOfMunicipalities
+        a       rdf:Property .
+
+dbpedia-owl:powerType
+        a       rdf:Property .
+
+dbpedia-owl:significantProject
+        a       rdf:Property .
+
+rdfdf:sql-time-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:icdo  a  rdf:Property .
+
+dbpedia-owl:campusSize
+        a       rdf:Property .
+
+dbpedia-owl:aircraftHelicopterMultirole
+        a       rdf:Property .
+
+dbpedia-owl:co2Emission
+        a       rdf:Property .
+
+dbpedia-owl:product  a  rdf:Property .
+
+rdfdf:zeropart-uri-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:lowest  a  rdf:Property .
+
+dbpedia-owl:dean  a  rdf:Property .
+
+dbpedia-owl:distributor
+        a       rdf:Property .
+
+dbpedia-owl:provost  a  rdf:Property .
+
+dbpedia-owl:saint  a  rdf:Property .
+
+dbpedia-owl:archipelago
+        a       rdf:Property .
+
+dbpedia-owl:cmpEvaDuration
+        a       rdf:Property .
+
+dbpedia-owl:associatedMusicalArtist
+        a       rdf:Property .
+
+dbpedia-owl:distanceTraveled
+        a       rdf:Property .
+
+dbpedia-owl:rgbCoordinateBlue
+        a       rdf:Property .
+
+rdfdf:sql-numeric-literal
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:DefaultQuadMap-S-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+dbpedia-owl:premierePlace
+        a       rdf:Property .
+
+dbpedia-owl:virtualChannel
+        a       rdf:Property .
+
+dbpedia-owl:intercommunality
+        a       rdf:Property .
+
+dbpedia-owl:lastRace  a  rdf:Property .
+
+dbpedia-owl:anniversary
+        a       rdf:Property .
+
+dbpedia-owl:distance  a  rdf:Property .
+
+dbpedia-owl:rocket  a  rdf:Property .
+
+dbpedia-owl:casSupplemental
+        a       rdf:Property .
+
+dbpedia-owl:setupTime
+        a       rdf:Property .
+
+dbpedia-owl:animal  a  rdf:Property .
+
+dbpedia-owl:shareDate
+        a       rdf:Property .
+
+dbpedia-owl:numberOfIslands
+        a       rdf:Property .
+
+dbpedia-owl:startPoint
+        a       rdf:Property .
+
+dbpedia-owl:yearOfConstruction
+        a       rdf:Property .
+
+virtrdf:DefaultQuadMap-O-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+dbpedia-owl:europeanAffiliation
+        a       rdf:Property .
+
+rdfdf:default  a  virtrdf:QuadMapFormat .
+
+dbpedia-owl:district  a  rdf:Property .
+
+dbpedia-owl:firstFlight
+        a       rdf:Property .
+
+rdfdf:sql-longnvarchar-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-integer-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sinv-iid  a  virtrdf:QuadMapFormat .
+
+rdfdf:sql-nvarchar-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:frequency
+        a       rdf:Property .
+
+rdfdf:sql-numeric-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:capitalMountain
+        a       rdf:Property .
+
+virtrdf:DefaultServiceMap-P
+        a       virtrdf:QuadMapValue .
+
+dbpedia-owl:criteria  a  rdf:Property .
+
+dbpedia-owl:launchVehicle
+        a       rdf:Property .
+
+dbpedia-owl:periapsis
+        a       rdf:Property .
+
+dbpedia-owl:shipDraft
+        a       rdf:Property .
+
+rdfdf:sql-varchar-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:dorlandsPrefix
+        a       rdf:Property .
+
+rdfdf:sql-integer-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-varchar-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:speaker  a  rdf:Property .
+
+dbpedia-owl:computingInput
+        a       rdf:Property .
+
+rdfdf:sql-numeric-uri
+        a       virtrdf:QuadMapFormat .
+
+owl:unionOf  a  rdf:Property .
+
+dbpedia-owl:highestMountain
+        a       rdf:Property .
+
+dbpedia-owl:ceo  a  rdf:Property .
+
+dbpedia-owl:poleDriverCountry
+        a       rdf:Property .
+
+rdfdf:sql-nvarchar-uri
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:settingOfPlay
+        a       rdf:Property .
+
+dbpedia-owl:winsAtSun
+        a       rdf:Property .
+
+dbpedia-owl:maximumTemperature
+        a       rdf:Property .
+
+dbpedia-owl:followingEvent
+        a       rdf:Property .
+
+dbpedia-owl:currentRank
+        a       rdf:Property .
+
+dbpedia-owl:orbitalInclination
+        a       rdf:Property .
+
+dbpedia-owl:meetingRoad
+        a       rdf:Property .
+
+dbpedia-owl:religiousHead
+        a       rdf:Property .
+
+dbpedia-owl:engineType
+        a       rdf:Property .
+
+dbpedia-owl:state  a  rdf:Property .
+
+dbpedia-owl:functionEndYear
+        a       rdf:Property .
+
+dbpedia-owl:populationRural
+        a       rdf:Property .
+
+rdfdf:sql-datetime  a  virtrdf:QuadMapFormat .
+
+virtrdf:DefaultQuadMap-pquad
+        a       virtrdf:QuadMapATable .
+
+dbpedia-owl:eTeatrId  a  rdf:Property .
+
+dbpedia-owl:pistonStroke
+        a       rdf:Property .
+
+rdfdf:sql-nvarchar-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:apparentMagnitude
+        a       rdf:Property .
+
+dbpedia-owl:lineLength
+        a       rdf:Property .
+
+dbpedia-owl:voiceType
+        a       rdf:Property .
+
+dbpedia-owl:visitorsPerDay
+        a       rdf:Property .
+
+rdfdf:sql-longvarchar-lang-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:iso6392Code
+        a       rdf:Property .
+
+dbpedia-owl:servingRailwayLine
+        a       rdf:Property .
+
+owl:priorVersion  a  rdf:Property .
+
+dbpedia-owl:popularVote
+        a       rdf:Property .
+
+dbpedia-owl:routeStartLocation
+        a       rdf:Property .
+
+dbpedia-owl:totalTravellers
+        a       rdf:Property .
+
+dbpedia-owl:access  a  rdf:Property .
+
+dbpedia-owl:chancellor
+        a       rdf:Property .
+
+dbpedia-owl:coolingSystem
+        a       rdf:Property .
+
+dbpedia-owl:architect
+        a       rdf:Property .
+
+dbpedia-owl:lastElectionDate
+        a       rdf:Property .
+
+dbpedia-owl:grossDomesticProductAsOf
+        a       rdf:Property .
+
+dbpedia-owl:lowestPosition
+        a       rdf:Property .
+
+dbpedia-owl:result  a  rdf:Property .
+
+dbpedia-owl:trackLength
+        a       rdf:Property .
+
+dbpedia-owl:nutsCode  a  rdf:Property .
+
+dbpedia-owl:projectBudgetFunding
+        a       rdf:Property .
+
+dbpedia-owl:apoapsis  a  rdf:Property .
+
+dbpedia-owl:functionEndDate
+        a       rdf:Property .
+
+dbpedia-owl:governorGeneral
+        a       rdf:Property .
+
+dbpedia-owl:innervates
+        a       rdf:Property .
+
+dbpedia-owl:schoolCode
+        a       rdf:Property .
+
+rdfdf:sql-nvarchar-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:functionStartYear
+        a       rdf:Property .
+
+dbpedia-owl:childOrganisation
+        a       rdf:Property .
+
+rdfdf:zeropart-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:footedness
+        a       rdf:Property .
+
+virtrdf:DefaultServiceMap-pquad
+        a       virtrdf:QuadMapATable .
+
+rdfdf:default-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:order  a  rdf:Property .
+
+dbpedia-owl:goldenCalfAward
+        a       rdf:Property .
+
+dbpedia-owl:sheading  a  rdf:Property .
+
+dbpedia-owl:iucnCategory
+        a       rdf:Property .
+
+dbpedia-owl:notes  a  rdf:Property .
+
+dbpedia-owl:numberOfSilverMedalsWon
+        a       rdf:Property .
+
+dbpedia-owl:distanceToDublin
+        a       rdf:Property .
+
+dbpedia-owl:drainsFrom
+        a       rdf:Property .
+
+dbpedia-owl:aircraftHelicopterObservation
+        a       rdf:Property .
+
+dbpedia-owl:temperature
+        a       rdf:Property .
+
+dbpedia-owl:distributingLabel
+        a       rdf:Property .
+
+dbpedia-owl:date  a  rdf:Property .
+
+dbpedia-owl:administrator
+        a       rdf:Property .
+
+rdfdf:sql-varchar-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:highestPosition
+        a       rdf:Property .
+
+dbpedia-owl:management
+        a       rdf:Property .
+
+rdfdf:sql-date  a  virtrdf:QuadMapFormat .
+
+dbpedia-owl:functionStartDate
+        a       rdf:Property .
+
+dbpedia-owl:dischargeAverage
+        a       rdf:Property .
+
+dbpedia-owl:topSpeed  a  rdf:Property .
+
+owl:imports  a  rdf:Property .
+
+dbpedia-owl:piercing  a  rdf:Property .
+
+dbpedia-owl:mouthState
+        a       rdf:Property .
+
+dbpedia-owl:landingDate
+        a       rdf:Property .
+
+dbpedia-owl:formerBandMember
+        a       rdf:Property .
+
+rdfdf:sql-nvarchar-literal
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:availableSmartCard
+        a       rdf:Property .
+
+dbpedia-owl:rankInFinalMedalCount
+        a       rdf:Property .
+
+rdfdf:multipart-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:domain  a  rdf:Property .
+
+dbpedia-owl:icaoLocationIdentifier
+        a       rdf:Property .
+
+dbpedia-owl:aircraftAttack
+        a       rdf:Property .
+
+dbpedia-owl:weddingParentsDate
+        a       rdf:Property .
+
+virtrdf:DefaultQuadMap-G
+        a       virtrdf:QuadMapValue .
+
+dbpedia-owl:railwayPlatforms
+        a       rdf:Property .
+
+dbpedia-owl:watershed
+        a       rdf:Property .
+
+dbpedia-owl:battingSide
+        a       rdf:Property .
+
+rdfdf:default-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:hasJunctionWith
+        a       rdf:Property .
+
+dbpedia-owl:voltageOfElectrification
+        a       rdf:Property .
+
+dbpedia-owl:related  a  rdf:Property .
+
+dbpedia-owl:debutTeam
+        a       rdf:Property .
+
+dbpedia-owl:marketCapitalisation
+        a       rdf:Property .
+
+dbpedia-owl:abstract  a  rdf:Property .
+
+rdfdf:zeropart-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:manufacturer
+        a       rdf:Property .
+
+dbpedia-owl:iso6393Code
+        a       rdf:Property .
+
+dbpedia-owl:winsAtMajors
+        a       rdf:Property .
+
+dbpedia-owl:similar  a  rdf:Property .
+
+rdfdf:sql-varchar-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:poleDriverTeam
+        a       rdf:Property .
+
+dbpedia-owl:numberOfPostgraduateStudents
+        a       rdf:Property .
+
+dbpedia-owl:numberOfParticipatingNations
+        a       rdf:Property .
+
+rdfdf:sql-varchar-literal
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:decommissioningDate
+        a       rdf:Property .
+
+dbpedia-owl:longtype  a  rdf:Property .
+
+dbpedia-owl:broadcastNetwork
+        a       rdf:Property .
+
+rdfdf:sql-varchar-dt-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-numeric-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:icd9  a  rdf:Property .
+
+dbpedia-owl:membership
+        a       rdf:Property .
+
+dbpedia-owl:previousEvent
+        a       rdf:Property .
+
+dbpedia-owl:orderInOffice
+        a       rdf:Property .
+
+dbpedia-owl:routeDirection
+        a       rdf:Property .
+
+dbpedia-owl:productionEndYear
+        a       rdf:Property .
+
+dbpedia-owl:championships
+        a       rdf:Property .
+
+dbpedia-owl:endDate  a  rdf:Property .
+
+dbpedia-owl:county  a  rdf:Property .
+
+dbpedia-owl:numberOfLanes
+        a       rdf:Property .
+
+dbpedia-owl:chairperson
+        a       rdf:Property .
+
+dbpedia-owl:homeArena
+        a       rdf:Property .
+
+dbpedia-owl:aircraftHelicopterUtility
+        a       rdf:Property .
+
+rdfdf:multipart-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:launchSite
+        a       rdf:Property .
+
+rdfdf:sql-nvarchar-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:totalMass
+        a       rdf:Property .
+
+rdfdf:sql-numeric-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:launch  a  rdf:Property .
+
+dbpedia-owl:accessDate
+        a       rdf:Property .
+
+dbpedia-owl:serviceStartYear
+        a       rdf:Property .
+
+dbpedia-owl:offeredClasses
+        a       rdf:Property .
+
+dbpedia-owl:educationSystem
+        a       rdf:Property .
+
+dbpedia-owl:tournamentRecord
+        a       rdf:Property .
+
+rdfdf:multipart-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:inseeCode
+        a       rdf:Property .
+
+dbpedia-owl:relative  a  rdf:Property .
+
+dbpedia-owl:senator  a  rdf:Property .
+
+dbpedia-owl:timeshiftChannel
+        a       rdf:Property .
+
+dbpedia-owl:digitalSubChannel
+        a       rdf:Property .
+
+dbpedia-owl:waistSize
+        a       rdf:Property .
+
+dbpedia-owl:productionEndDate
+        a       rdf:Property .
+
+owl:differentFrom  a  rdf:Property .
+
+dbpedia-owl:movement  a  rdf:Property .
+
+dbpedia-owl:frozen  a  rdf:Property .
+
+dbpedia-owl:instrument
+        a       rdf:Property .
+
+dbpedia-owl:recordedIn
+        a       rdf:Property .
+
+dbpedia-owl:distanceToCardiff
+        a       rdf:Property .
+
+dbpedia-owl:cmykCoordinateBlack
+        a       rdf:Property .
+
+dbpedia-owl:lunarRover
+        a       rdf:Property .
+
+dbpedia-owl:chiefEditor
+        a       rdf:Property .
+
+dbpedia-owl:patron  a  rdf:Property .
+
+dbpedia-owl:slogan  a  rdf:Property .
+
+dbpedia-owl:recentWinner
+        a       rdf:Property .
+
+dbpedia-owl:closingYear
+        a       rdf:Property .
+
+dbpedia-owl:vehiclesPerDay
+        a       rdf:Property .
+
+dbpedia-owl:restingPlacePosition
+        a       rdf:Property .
+
+rdfdf:sql-numeric-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:demographicsAsOf
+        a       rdf:Property .
+
+rdfdf:sql-longnvarchar
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:DefaultQuadMap-S
+        a       virtrdf:QuadMapValue .
+
+dbpedia-owl:genre  a  rdf:Property .
+
+rdfdf:sql-longvarchar-lang
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:show  a  rdf:Property .
+
+dbpedia-owl:wineProduced
+        a       rdf:Property .
+
+dbpedia-owl:lengthReference
+        a       rdf:Property .
+
+dbpedia-owl:totalLaunches
+        a       rdf:Property .
+
+dbpedia-owl:cylinderBore
+        a       rdf:Property .
+
+dbpedia-owl:afdbId  a  rdf:Property .
+
+dbpedia-owl:wineRegion
+        a       rdf:Property .
+
+rdfdf:sql-varchar-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:hometown  a  rdf:Property .
+
+dbpedia-owl:governmentMountain
+        a       rdf:Property .
+
+rdfdf:sql-longnvarchar-dt-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:atcSuffix
+        a       rdf:Property .
+
+rdfdf:sql-varchar-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:originalLanguage
+        a       rdf:Property .
+
+rdfdf:sql-integer-literal-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:numberOfPiersInWater
+        a       rdf:Property .
+
+rdfdf:sql-nvarchar  a  virtrdf:QuadMapFormat .
+
+virtrdf:DefaultServiceMap-P-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+rdfdf:sql-longvarchar-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:leftTributary
+        a       rdf:Property .
+
+rdfdf:sql-numeric-literal-fn-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:closingDate
+        a       rdf:Property .
+
+dbpedia-owl:titleDate
+        a       rdf:Property .
+
+rdfdf:sql-integer-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:originalMaximumBoatLength
+        a       rdf:Property .
+
+dbpedia-owl:recordDate
+        a       rdf:Property .
+
+dbpedia-owl:closingFilm
+        a       rdf:Property .
+
+dbpedia-owl:fastestDriverTeam
+        a       rdf:Property .
+
+dbpedia-owl:isbn  a  rdf:Property .
+
+dbpedia-owl:issDockings
+        a       rdf:Property .
+
+dbpedia-owl:designer  a  rdf:Property .
+
+dbpedia-owl:emmyAward
+        a       rdf:Property .
+
+dbpedia-owl:serviceEndYear
+        a       rdf:Property .
+
+dbpedia-owl:municipalityCode
+        a       rdf:Property .
+
+dbpedia-owl:sourcePlace
+        a       rdf:Property .
+
+dbpedia-owl:escapeVelocity
+        a       rdf:Property .
+
+dbpedia-owl:gameArtist
+        a       rdf:Property .
+
+rdfdf:sql-integer-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:developer
+        a       rdf:Property .
+
+dbpedia-owl:geology  a  rdf:Property .
+
+dbpedia-owl:numberOfTracks
+        a       rdf:Property .
+
+dbpedia-owl:currentProduction
+        a       rdf:Property .
+
+dbpedia-owl:afiAward  a  rdf:Property .
+
+dbpedia-owl:locationIdentifier
+        a       rdf:Property .
+
+dbpedia-owl:trainer  a  rdf:Property .
+
+rdfdf:sql-numeric-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:rocketStages
+        a       rdf:Property .
+
+dbpedia-owl:commandModule
+        a       rdf:Property .
+
+dbpedia-owl:gender  a  rdf:Property .
+
+dbpedia-owl:march  a  rdf:Property .
+
+virtrdf:DefaultQuadMap-ft
+        a       virtrdf:QuadMapFText .
+
+dbpedia-owl:highwaySystem
+        a       rdf:Property .
+
+dbpedia-owl:voice  a  rdf:Property .
+
+dbpedia-owl:winterTemperature
+        a       rdf:Property .
+
+dbpedia-owl:highestBreak
+        a       rdf:Property .
+
+dbpedia-owl:influenced
+        a       rdf:Property .
+
+dbpedia-owl:highestState
+        a       rdf:Property .
+
+dbpedia-owl:routeNumber
+        a       rdf:Property .
+
+rdfdf:sql-varchar-lang-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sinv-iid-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:draftTeam
+        a       rdf:Property .
+
+dbpedia-owl:dissolutionYear
+        a       rdf:Property .
+
+dbpedia-owl:spacewalkBegin
+        a       rdf:Property .
+
+dbpedia-owl:foundingYear
+        a       rdf:Property .
+
+dbpedia-owl:otherWins
+        a       rdf:Property .
+
+dbpedia-owl:dorlandsSuffix
+        a       rdf:Property .
+
+dbpedia-owl:mergedIntoParty
+        a       rdf:Property .
+
+dbpedia-owl:canonizedBy
+        a       rdf:Property .
+
+dbpedia-owl:nssdcId  a  rdf:Property .
+
+dbpedia-owl:thirdTeam
+        a       rdf:Property .
+
+dbpedia-owl:races  a  rdf:Property .
+
+dbpedia-owl:locatedInArea
+        a       rdf:Property .
+
+dbpedia-owl:latestReleaseVersion
+        a       rdf:Property .
+
+virtrdf:DefaultQuadMap-atables
+        a       virtrdf:array-of-QuadMapATable .
+
+dbpedia-owl:routeJunction
+        a       rdf:Property .
+
+dbpedia-owl:governmentPosition
+        a       rdf:Property .
+
+dbpedia-owl:associate
+        a       rdf:Property .
+
+rdfdf:default-iid-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:multipart-uri  a  virtrdf:QuadMapFormat .
+
+dbpedia-owl:hipSize  a  rdf:Property .
+
+dbpedia-owl:cost  a  rdf:Property .
+
+dbpedia-owl:nrhpType  a  rdf:Property .
+
+dbpedia-owl:place  a  rdf:Property .
+
+dbpedia-owl:projectParticipant
+        a       rdf:Property .
+
+dbpedia-owl:deathCause
+        a       rdf:Property .
+
+rdfdf:sql-integer-uri
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:majorityFloorLeader
+        a       rdf:Property .
+
+dbpedia-owl:ibdbId  a  rdf:Property .
+
+dbpedia-owl:numberOfFederalDeputies
+        a       rdf:Property .
+
+rdfdf:sql-integer-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:originalEndPoint
+        a       rdf:Property .
+
+rdfdf:sql-longvarbinary-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:dissolutionDate
+        a       rdf:Property .
+
+dbpedia-owl:giniCoefficient
+        a       rdf:Property .
+
+dbpedia-owl:distanceToEdinburgh
+        a       rdf:Property .
+
+dbpedia-owl:partialFailedLaunches
+        a       rdf:Property .
+
+dbpedia-owl:numberOfEntrances
+        a       rdf:Property .
+
+dbpedia-owl:architectualBureau
+        a       rdf:Property .
+
+dbpedia-owl:destination
+        a       rdf:Property .
+
+dbpedia-owl:electionDate
+        a       rdf:Property .
+
+dbpedia-owl:careerPoints
+        a       rdf:Property .
+
+dbpedia-owl:thirdDriver
+        a       rdf:Property .
+
+virtrdf:DefaultQuadMap-S-col-S
+        a       virtrdf:QuadMapColumn .
+
+dbpedia-owl:governor  a  rdf:Property .
+
+dbpedia-owl:river  a  rdf:Property .
+
+dbpedia-owl:aircraftBomber
+        a       rdf:Property .
+
+dbpedia-owl:actScore  a  rdf:Property .
+
+dbpedia-owl:structuralSystem
+        a       rdf:Property .
+
+dbpedia-owl:numberOfStateDeputies
+        a       rdf:Property .
+
+dbpedia-owl:discovered
+        a       rdf:Property .
+
+dbpedia-owl:analogChannel
+        a       rdf:Property .
+
+rdfdf:zeropart-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+owl:intersectionOf  a  rdf:Property .
+
+rdfdf:sql-longvarchar-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:maximumBoatLength
+        a       rdf:Property .
+
+rdfdf:sql-nvarchar-uri-fn-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:americanComedyAward
+        a       rdf:Property .
+
+dbpedia-owl:freeFlightTime
+        a       rdf:Property .
+
+dbpedia-owl:nationality
+        a       rdf:Property .
+
+dbpedia-owl:numberOfPlatformLevels
+        a       rdf:Property .
+
+rdfdf:sql-nvarchar-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:dateCompleted
+        a       rdf:Property .
+
+dbpedia-owl:cylinderCount
+        a       rdf:Property .
+
+dbpedia-owl:whaDraftTeam
+        a       rdf:Property .
+
+dbpedia-owl:locusSupplementaryData
+        a       rdf:Property .
+
+dbpedia-owl:unitCost  a  rdf:Property .
+
+rdfdf:sql-numeric-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-doubleprecision
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:fcRuns  a  rdf:Property .
+
+dbpedia-owl:coverArtist
+        a       rdf:Property .
+
+dbpedia-owl:academicAdvisor
+        a       rdf:Property .
+
+dbpedia-owl:picture  a  rdf:Property .
+
+dbpedia-owl:musicBy  a  rdf:Property .
+
+dbpedia-owl:anthem  a  rdf:Property .
+
+rdfdf:sql-integer  a  virtrdf:QuadMapFormat .
+
+dbpedia-owl:executiveHeadteacher
+        a       rdf:Property .
+
+dbpedia-owl:meltingPoint
+        a       rdf:Property .
+
+dbpedia-owl:commandStructure
+        a       rdf:Property .
+
+dbpedia-owl:coachedTeam
+        a       rdf:Property .
+
+dbpedia-owl:notableIdea
+        a       rdf:Property .
+
+rdfdf:sql-longvarchar-dt-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:lcc  a  rdf:Property .
+
+rdfdf:sql-integer-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:sexualOrientation
+        a       rdf:Property .
+
+rdfdf:sinv-iid-nonblank
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:range  a  rdf:Property .
+
+dbpedia-owl:riverMouth
+        a       rdf:Property .
+
+dbpedia-owl:destructionDate
+        a       rdf:Property .
+
+dbpedia-owl:billed  a  rdf:Property .
+
+dbpedia-owl:canBaggageChecked
+        a       rdf:Property .
+
+dbpedia-owl:aspectRatio
+        a       rdf:Property .
+
+dbpedia-owl:highschool
+        a       rdf:Property .
+
+dbpedia-owl:localAuthority
+        a       rdf:Property .
+
+dbpedia-owl:secondPopularVote
+        a       rdf:Property .
+
+rdfdf:sql-varchar-dt-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:suborbitalFlights
+        a       rdf:Property .
+
+rdfdf:default-iid-nonblank-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:musicFusionGenre
+        a       rdf:Property .
+
+rdfdf:sinv-iid-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:europeanParliamentGroup
+        a       rdf:Property .
+
+dbpedia-owl:minimumTemperature
+        a       rdf:Property .
+
+rdfdf:sql-numeric  a  virtrdf:QuadMapFormat .
+
+dbpedia-owl:battleHonours
+        a       rdf:Property .
+
+dbpedia-owl:alumni  a  rdf:Property .
+
+dbpedia-owl:netIncome
+        a       rdf:Property .
+
+dbpedia-owl:firstFlightEndDate
+        a       rdf:Property .
+
+owl:minCardinality  a  rdf:Property .
+
+rdfdf:default-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:numberOfStations
+        a       rdf:Property .
+
+rdfdf:sql-varchar-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:bedCount  a  rdf:Property .
+
+dbpedia-owl:sessionNumber
+        a       rdf:Property .
+
+rdfdf:sql-longvarchar-dt-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-numeric-uri-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:multipart-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:spurType  a  rdf:Property .
+
+dbpedia-owl:notableStudent
+        a       rdf:Property .
+
+dbpedia-owl:crownDependency
+        a       rdf:Property .
+
+rdfdf:sql-longnvarchar-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:oldcode  a  rdf:Property .
+
+dbpedia-owl:numberOfParkingSpaces
+        a       rdf:Property .
+
+dbpedia-owl:numberOfOffices
+        a       rdf:Property .
+
+dbpedia-owl:utcOffset
+        a       rdf:Property .
+
+dbpedia-owl:landingSite
+        a       rdf:Property .
+
+rdfdf:sql-datetime-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:numberOfSeasons
+        a       rdf:Property .
+
+dbpedia-owl:kingdom  a  rdf:Property .
+
+dbpedia-owl:managerTitle
+        a       rdf:Property .
+
+rdfdf:sql-varchar-uri-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:beatifiedPlace
+        a       rdf:Property .
+
+dbpedia-owl:originalMaximumBoatBeam
+        a       rdf:Property .
+
+dbpedia-owl:supplementalDraftYear
+        a       rdf:Property .
+
+rdfdf:sql-doubleprecision-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:acceleration
+        a       rdf:Property .
+
+dbpedia-owl:draftPick
+        a       rdf:Property .
+
+rdfdf:sql-numeric-literal-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:dateExtended
+        a       rdf:Property .
+
+dbpedia-owl:taoiseach
+        a       rdf:Property .
+
+dbpedia-owl:hasSurfaceForm
+        a       rdf:Property .
+
+dbpedia-owl:orbits  a  rdf:Property .
+
+dbpedia-owl:isHandicappedAccessible
+        a       rdf:Property .
+
+rdfdf:sql-numeric-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:filmFareAward
+        a       rdf:Property .
+
+dbpedia-owl:iso6391Code
+        a       rdf:Property .
+
+rdfdf:sql-numeric-uri-fn-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:capitalElevation
+        a       rdf:Property .
+
+dbpedia-owl:secondCommander
+        a       rdf:Property .
+
+dbpedia-owl:birthYear
+        a       rdf:Property .
+
+dbpedia-owl:allegiance
+        a       rdf:Property .
+
+dbpedia-owl:populationTotalReference
+        a       rdf:Property .
+
+dbpedia-owl:sourceConfluenceState
+        a       rdf:Property .
+
+dbpedia-owl:wikiPageExternalLink
+        a       rdf:Property .
+
+dbpedia-owl:latestPreviewDate
+        a       rdf:Property .
+
+dbpedia-owl:originalStartPoint
+        a       rdf:Property .
+
+dbpedia-owl:militaryRank
+        a       rdf:Property .
+
+dbpedia-owl:beatifiedBy
+        a       rdf:Property .
+
+dbpedia-owl:openingTheme
+        a       rdf:Property .
+
+rdfdf:sql-nvarchar-dt-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:brainInfoNumber
+        a       rdf:Property .
+
+virtrdf:DefaultQuadMap-P
+        a       virtrdf:QuadMapValue .
+
+owl:maxCardinality  a  rdf:Property .
+
+rdfdf:sql-nvarchar-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-varchar-uri
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:dateOfAbandonment
+        a       rdf:Property .
+
+dbpedia-owl:countryWithFirstSatellite
+        a       rdf:Property .
+
+dbpedia-owl:routeEndDirection
+        a       rdf:Property .
+
+dbpedia-owl:perCapitaIncome
+        a       rdf:Property .
+
+dbpedia-owl:associateEditor
+        a       rdf:Property .
+
+dbpedia-owl:buildingStartDate
+        a       rdf:Property .
+
+rdfdf:sql-integer-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:publicationDate
+        a       rdf:Property .
+
+rdfdf:sql-longnvarchar-lang-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:toll  a  rdf:Property .
+
+dbpedia-owl:musicians
+        a       rdf:Property .
+
+rdfdf:sql-nvarchar-literal-fn-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultQuadMap
+        a       virtrdf:QuadMap .
+
+virtrdf:DefaultServiceMap-O
+        a       virtrdf:QuadMapValue .
+
+dbpedia-owl:language  a  rdf:Property .
+
+rdfdf:default-iid-nonblank-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:sublimationPoint
+        a       rdf:Property .
+
+rdfdf:sql-integer-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:secondLeader
+        a       rdf:Property .
+
+dbpedia-owl:cargoWater
+        a       rdf:Property .
+
+dbpedia-owl:amgid  a  rdf:Property .
+
+dbpedia-owl:countryOrigin
+        a       rdf:Property .
+
+dbpedia-owl:leaderParty
+        a       rdf:Property .
+
+dbpedia-owl:oclc  a  rdf:Property .
+
+dbpedia-owl:numberOfParticipatingAthletes
+        a       rdf:Property .
+
+dbpedia-owl:jointCommunity
+        a       rdf:Property .
+
+dbpedia-owl:areaRural
+        a       rdf:Property .
+
+rdfdf:default-iid-nonblank
+        a       virtrdf:QuadMapFormat .
+
+owl:oneOf  a    rdf:Property .
+
+dbpedia-owl:sportGoverningBody
+        a       rdf:Property .
+
+rdfdf:sql-nvarchar-literal-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:religiousHeadLabel
+        a       rdf:Property .
+
+dbpedia-owl:hsvCoordinateValue
+        a       rdf:Property .
+
+dbpedia-owl:mayor  a  rdf:Property .
+
+dbpedia-owl:winsAtJapan
+        a       rdf:Property .
+
+dbpedia-owl:latestPreviewVersion
+        a       rdf:Property .
+
+dbpedia-owl:assembly  a  rdf:Property .
+
+dbpedia-owl:dateUse  a  rdf:Property .
+
+dbpedia-owl:approximateCalories
+        a       rdf:Property .
+
+dbpedia-owl:custodian
+        a       rdf:Property .
+
+dbpedia-owl:cargoGas  a  rdf:Property .
+
+rdfdf:default-iid-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+owl:incompatibleWith  a  rdf:Property .
+
+dbpedia-owl:secondTeam
+        a       rdf:Property .
+
+rdfdf:sql-nvarchar-lang-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:surfaceArea
+        a       rdf:Property .
+
+dbpedia-owl:programmeFormat
+        a       rdf:Property .
+
+dbpedia-owl:redline  a  rdf:Property .
+
+owl:versionInfo  a  rdf:Property .
+
+dbpedia-owl:mouthCountry
+        a       rdf:Property .
+
+rdfdf:default-iid-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:numberOfCompetitors
+        a       rdf:Property .
+
+virtrdf:DefaultQuadMap-P-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+rdfdf:sql-nvarchar-dt-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-varchar-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:selection
+        a       rdf:Property .
+
+rdfdf:multipart-literal
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:specialist
+        a       rdf:Property .
+
+dbpedia-owl:lastFlightEndDate
+        a       rdf:Property .
+
+dbpedia-owl:openAccessContent
+        a       rdf:Property .
+
+dbpedia-owl:production
+        a       rdf:Property .
+
+rdfdf:sql-integer-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-numeric-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultServiceStorage
+        a       virtrdf:QuadStorage .
+
+virtrdf:DefaultQuadMap-P-col-P
+        a       virtrdf:QuadMapColumn .
+
+dbpedia-owl:heir  a  rdf:Property .
+
+rdfdf:multipart-uri-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultQuadMap-G-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+dbpedia-owl:nearestCity
+        a       rdf:Property .
+
+dbpedia-owl:runtime  a  rdf:Property .
+
+dbpedia-owl:nextMission
+        a       rdf:Property .
+
+rdfdf:sql-longnvarchar-lang-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:honours  a  rdf:Property .
+
+dbpedia-owl:memberOfParliament
+        a       rdf:Property .
+
+dbpedia-owl:winsAtAlpg
+        a       rdf:Property .
+
+dbpedia-owl:militaryUnit
+        a       rdf:Property .
+
+dbpedia-owl:house  a  rdf:Property .
+
+rdfdf:sql-numeric-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:multipart-literal-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-varchar-lang-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:hallOfFame
+        a       rdf:Property .
+
+dbpedia-owl:generalManager
+        a       rdf:Property .
+
+virtrdf:DefaultServiceMap-atables
+        a       virtrdf:array-of-QuadMapATable .
+
+dbpedia-owl:requirement
+        a       rdf:Property .
+
+dbpedia-owl:photographer
+        a       rdf:Property .
+
+dbpedia-owl:orogeny  a  rdf:Property .
+
+dbpedia-owl:numberOfLines
+        a       rdf:Property .
+
+dbpedia-owl:runningMate
+        a       rdf:Property .
+
+dbpedia-owl:otherAppearances
+        a       rdf:Property .
+
+dbpedia-owl:languageCode
+        a       rdf:Property .
+
+dbpedia-owl:humanDevelopmentIndex
+        a       rdf:Property .
+
+dbpedia-owl:impactFactor
+        a       rdf:Property .
+
+dbpedia-owl:games  a  rdf:Property .
+
+dbpedia-owl:artery  a  rdf:Property .
+
+dbpedia-owl:person  a  rdf:Property .
+
+dbpedia-owl:distanceToBelfast
+        a       rdf:Property .
+
+rdfdf:sql-nvarchar-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longvarchar-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:mountainRange
+        a       rdf:Property .
+
+dbpedia-owl:tuition  a  rdf:Property .
+
+dbpedia-owl:promotion
+        a       rdf:Property .
+
+dbpedia-owl:meshNumber
+        a       rdf:Property .
+
+dbpedia-owl:winsAtAsia
+        a       rdf:Property .
+
+dbpedia-owl:populationMetro
+        a       rdf:Property .
+
+dbpedia-owl:isPartOfMilitaryConflict
+        a       rdf:Property .
+
+dbpedia-owl:thirdDriverCountry
+        a       rdf:Property .
+
+dbpedia-owl:firstFlightStartDate
+        a       rdf:Property .
+
+dbpedia-owl:restoreDate
+        a       rdf:Property .
+
+dbpedia-owl:numberOfStaff
+        a       rdf:Property .
+
+dbpedia-owl:editing  a  rdf:Property .
+
+virtrdf:DefaultServiceMap-S-col-S
+        a       virtrdf:QuadMapColumn .
+
+dbpedia-owl:currency  a  rdf:Property .
+
+rdfdf:zeropart-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:airportUsing
+        a       rdf:Property .
+
+dbpedia-owl:passengersPerDay
+        a       rdf:Property .
+
+dbpedia-owl:education
+        a       rdf:Property .
+
+dbpedia-owl:careerPrizeMoney
+        a       rdf:Property .
+
+dbpedia-owl:lastLaunchDate
+        a       rdf:Property .
+
+dbpedia-owl:spacecraft
+        a       rdf:Property .
+
+dbpedia-owl:displacement
+        a       rdf:Property .
+
+owl:distinctMembers  a  rdf:Property .
+
+rdfdf:sql-integer-uri-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:deathYear
+        a       rdf:Property .
+
+dbpedia-owl:crew  a  rdf:Property .
+
+rdfdf:sql-longvarchar-lang-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-varchar-dt  a  virtrdf:QuadMapFormat .
+
+virtrdf:DefaultQuadMap-O-col-O
+        a       virtrdf:QuadMapColumn .
+
+dbpedia-owl:registration
+        a       rdf:Property .
+
+dbpedia-owl:height  a  rdf:Property .
+
+dbpedia-owl:ceremonialCounty
+        a       rdf:Property .
+
+dbpedia-owl:municipality
+        a       rdf:Property .
+
+dbpedia-owl:philosophicalSchool
+        a       rdf:Property .
+
+rdfdf:sql-varchar  a  virtrdf:QuadMapFormat .
+
+dbpedia-owl:assistantPrincipal
+        a       rdf:Property .
+
+dbpedia-owl:peabodyAward
+        a       rdf:Property .
+
+dbpedia-owl:productionYears
+        a       rdf:Property .
+
+dbpedia-owl:discoverer
+        a       rdf:Property .
+
+dbpedia-owl:citizenship
+        a       rdf:Property .
+
+dbpedia-owl:growingGrape
+        a       rdf:Property .
+
+dbpedia-owl:firstAirDate
+        a       rdf:Property .
+
+dbpedia-owl:reopeningYear
+        a       rdf:Property .
+
+dbpedia-owl:episodeNumber
+        a       rdf:Property .
+
+dbpedia-owl:iobdbId  a  rdf:Property .
+
+dbpedia-owl:viceLeader
+        a       rdf:Property .
+
+dbpedia-owl:years  a  rdf:Property .
+
+dbpedia-owl:capacity  a  rdf:Property .
+
+dbpedia-owl:managerYears
+        a       rdf:Property .
+
+dbpedia-owl:barPassRate
+        a       rdf:Property .
+
+dbpedia-owl:rightChild
+        a       rdf:Property .
+
+dbpedia-owl:characterInPlay
+        a       rdf:Property .
+
+dbpedia-owl:twinCountry
+        a       rdf:Property .
+
+dbpedia-owl:artist  a  rdf:Property .
+
+dbpedia-owl:clubsRecordGoalscorer
+        a       rdf:Property .
+
+dbpedia-owl:sourceConfluence
+        a       rdf:Property .
+
+rdfdf:multipart-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-datetime-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:sportCountry
+        a       rdf:Property .
+
+dbpedia-owl:dateClosed
+        a       rdf:Property .
+
+dbpedia-owl:depth  a  rdf:Property .
+
+dbpedia-owl:boilerPressure
+        a       rdf:Property .
+
+dbpedia-owl:goalsInLeague
+        a       rdf:Property .
+
+rdfdf:sql-nvarchar-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:firstLeader
+        a       rdf:Property .
+
+dbpedia-owl:managementCountry
+        a       rdf:Property .
+
+dbpedia-owl:countryWithFirstAstronaut
+        a       rdf:Property .
+
+dbpedia-owl:reopeningDate
+        a       rdf:Property .
+
+dbpedia-owl:managementMountain
+        a       rdf:Property .
+
+dbpedia-owl:building  a  rdf:Property .
+
+dbpedia-owl:combatant
+        a       rdf:Property .
+
+dbpedia-owl:abbreviation
+        a       rdf:Property .
+
+owl:complementOf  a  rdf:Property .
+
+rdfdf:sql-longnvarchar-dt-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:discontinued
+        a       rdf:Property .
+
+rdfdf:sql-nvarchar-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:lowerAge  a  rdf:Property .
+
+dbpedia-owl:waterwayThroughTunnel
+        a       rdf:Property .
+
+dbpedia-owl:nationalYears
+        a       rdf:Property .
+
+dbpedia-owl:olivierAward
+        a       rdf:Property .
+
+dbpedia-owl:publisher
+        a       rdf:Property .
+
+dbpedia-owl:numberOfMembersAsOf
+        a       rdf:Property .
+
+dbpedia-owl:fourthCommander
+        a       rdf:Property .
+
+dbpedia-owl:inchi  a  rdf:Property .
+
+dbpedia-owl:winsAtLET
+        a       rdf:Property .
+
+rdfdf:zeropart-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:electionMajority
+        a       rdf:Property .
+
+dbpedia-owl:extinctionDate
+        a       rdf:Property .
+
+rdfdf:sinv-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:rebuilder
+        a       rdf:Property .
+
+dbpedia-owl:officialSchoolColour
+        a       rdf:Property .
+
+dbpedia-owl:award  a  rdf:Property .
+
+dbpedia-owl:meshName  a  rdf:Property .
+
+dbpedia-owl:headLabel
+        a       rdf:Property .
+
+virtrdf:DefaultQuadMap-G-col-G
+        a       virtrdf:QuadMapColumn .
+
+dbpedia-owl:municipalityType
+        a       rdf:Property .
+
+dbpedia-owl:coachingRecord
+        a       rdf:Property .
+
+dbpedia-owl:almaMater
+        a       rdf:Property .
+
+dbpedia-owl:notableWine
+        a       rdf:Property .
+
+dbpedia-owl:stateDelegate
+        a       rdf:Property .
+
+dbpedia-owl:railwayRollingStock
+        a       rdf:Property .
+
+dbpedia-owl:placeOfBurial
+        a       rdf:Property .
+
+dbpedia-owl:schoolBoard
+        a       rdf:Property .
+
+dbpedia-owl:testaverage
+        a       rdf:Property .
+
+dbpedia-owl:summerAppearances
+        a       rdf:Property .
+
+rdfdf:sql-integer-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:class  a  rdf:Property .
+
+dbpedia-owl:mainInterest
+        a       rdf:Property .
+
+dbpedia-owl:sourceConfluenceElevation
+        a       rdf:Property .
+
+rdfdf:sql-integer-literal
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:canonizedPlace
+        a       rdf:Property .
+
+dbpedia-owl:wikiPageWikiLink
+        a       rdf:Property .
+
+dbpedia-owl:vicePrincipal
+        a       rdf:Property .
+
+dbpedia-owl:ranking  a  rdf:Property .
+
+dbpedia-owl:associatedRocket
+        a       rdf:Property .
+
+dbpedia-owl:numberOfPeopleAttending
+        a       rdf:Property .
+
+dbpedia-owl:numberOfVineyards
+        a       rdf:Property .
+
+dbpedia-owl:orbitalPeriod
+        a       rdf:Property .
+
+dbpedia-owl:dressCode
+        a       rdf:Property .
+
+dbpedia-owl:impactFactorAsOf
+        a       rdf:Property .
+
+dbpedia-owl:missionDuration
+        a       rdf:Property .
+
+dbpedia-owl:languageRegulator
+        a       rdf:Property .
+
+dbpedia-owl:formerCallsign
+        a       rdf:Property .
+
+rdfdf:zeropart-uri  a  virtrdf:QuadMapFormat .
+
+dbpedia-owl:lastAppearance
+        a       rdf:Property .
+
+dbpedia-owl:numberOfCountries
+        a       rdf:Property .
+
+dbpedia-owl:satellitesDeployed
+        a       rdf:Property .
+
+dbpedia-owl:teamSize  a  rdf:Property .
+
+dbpedia-owl:cosparId  a  rdf:Property .
+
+dbpedia-owl:academyAward
+        a       rdf:Property .
+
+rdfdf:multipart-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:visitorStatisticsAsOf
+        a       rdf:Property .
+
+dbpedia-owl:fareZone  a  rdf:Property .
+
+dbpedia-owl:eruptionYear
+        a       rdf:Property .
+
+dbpedia-owl:numberOfRooms
+        a       rdf:Property .
+
+dbpedia-owl:firstDriver
+        a       rdf:Property .
+
+dbpedia-owl:wikiPageDisambiguates
+        a       rdf:Property .
+
+rdfdf:sql-longnvarchar-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:executiveProducer
+        a       rdf:Property .
+
+dbpedia-owl:bustSize  a  rdf:Property .
+
+dbpedia-owl:managementPosition
+        a       rdf:Property .
+
+dbpedia-owl:predecessor
+        a       rdf:Property .
+
+dbpedia-owl:draftYear
+        a       rdf:Property .
+
+dbpedia-owl:conservationStatus
+        a       rdf:Property .
+
+dbpedia-owl:government
+        a       rdf:Property .
+
+dbpedia-owl:fuelConsumption
+        a       rdf:Property .
+
+owl:someValuesFrom  a  rdf:Property .
+
+dbpedia-owl:introductionDate
+        a       rdf:Property .
+
+rdfdf:sinv-iid-nonblank-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:majorIsland
+        a       rdf:Property .
+
+dbpedia-owl:formerHighschool
+        a       rdf:Property .
+
+dbpedia-owl:formationDate
+        a       rdf:Property .
+
+rdfdf:zeropart-literal-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:author  a  rdf:Property .
+
+dbpedia-owl:incumbent
+        a       rdf:Property .
+
+owl:inverseOf  a  rdf:Property .
+
+dbpedia-owl:garrison  a  rdf:Property .
+
+dbpedia-owl:guest  a  rdf:Property .
+
+dbpedia-owl:status  a  rdf:Property .
+
+dbpedia-owl:timeInSpace
+        a       rdf:Property .
+
+owl:backwardCompatibleWith
+        a       rdf:Property .
+
+dbpedia-owl:parentCompany
+        a       rdf:Property .
+
+dbpedia-owl:areaOfCatchment
+        a       rdf:Property .
+
+virtrdf:DefaultServiceMap
+        a       virtrdf:QuadMap .
+
+rdfdf:zeropart-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:background
+        a       rdf:Property .
+
+dbpedia-owl:salary  a  rdf:Property .
+
+dbpedia-owl:flagBearer
+        a       rdf:Property .
+
+dbpedia-owl:comparable
+        a       rdf:Property .
+
+rdfdf:default-iid-nonblank-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:startDate
+        a       rdf:Property .
+
+rdfdf:sql-nvarchar-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-longnvarchar-lang-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:party  a  rdf:Property .
+
+dbpedia-owl:numberOfMinistries
+        a       rdf:Property .
+
+dbpedia-owl:owningOrganisation
+        a       rdf:Property .
+
+owl:cardinality  a  rdf:Property .
+
+dbpedia-owl:sixthFormStudents
+        a       rdf:Property .
+
+rdfdf:sinv-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:mission  a  rdf:Property .
+
+dbpedia-owl:runwayDesignation
+        a       rdf:Property .
+
+dbpedia-owl:centuryBreaks
+        a       rdf:Property .
+
+dbpedia-owl:winsAtPGA
+        a       rdf:Property .
+
+dbpedia-owl:jurisdiction
+        a       rdf:Property .
+
+dbpedia-owl:orderDate
+        a       rdf:Property .
+
+rdfdf:sql-nvarchar-lang-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:rankingWins
+        a       rdf:Property .
+
+dbpedia-owl:filmPolskiId
+        a       rdf:Property .
+
+dbpedia-owl:component
+        a       rdf:Property .
+
+dbpedia-owl:hasVariant
+        a       rdf:Property .
+
+dbpedia-owl:visitorsTotal
+        a       rdf:Property .
+
+virtrdf:DefaultServiceMap-P-col-P
+        a       virtrdf:QuadMapColumn .
+
+dbpedia-owl:derivative
+        a       rdf:Property .
+
+dbpedia-owl:dateOfBurial
+        a       rdf:Property .
+
+dbpedia-owl:fastestLap
+        a       rdf:Property .
+
+dbpedia-owl:speedLimit
+        a       rdf:Property .
+
+virtrdf:DefaultServiceMap-G
+        a       virtrdf:QuadMapValue .
+
+dbpedia-owl:whaDraftYear
+        a       rdf:Property .
+
+rdfdf:sql-numeric-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:basedOn  a  rdf:Property .
+
+rdfdf:sql-varchar-lang-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:brand  a  rdf:Property .
+
+dbpedia-owl:manager  a  rdf:Property .
+
+dbpedia-owl:hairColor
+        a       rdf:Property .
+
+dbpedia-owl:numberOfLawyers
+        a       rdf:Property .
+
+dbpedia-owl:nationalTeam
+        a       rdf:Property .
+
+dbpedia-owl:christeningDate
+        a       rdf:Property .
+
+dbpedia-owl:causalties
+        a       rdf:Property .
+
+rdfdf:sql-varchar-literal-fn-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:whaDraft  a  rdf:Property .
+
+rdfdf:sql-varchar-lang
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sinv  a   virtrdf:QuadMapFormat .
+
+virtrdf:DefaultServiceMap-S-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+rdfdf:sql-time-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-integer-uri-fn-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:authority
+        a       rdf:Property .
+
+rdfdf:sql-longvarbinary-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultServiceStorage-UserMaps
+        a       virtrdf:array-of-QuadMap .
+
+rdfdf:sql-nvarchar-uri-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:species  a  rdf:Property .
+
+dbpedia-owl:sourceMountain
+        a       rdf:Property .
+
+dbpedia-owl:phylum  a  rdf:Property .
+
+dbpedia-owl:mediaType
+        a       rdf:Property .
+
+dbpedia-owl:lastLaunch
+        a       rdf:Property .
+
+dbpedia-owl:distributingCompany
+        a       rdf:Property .
+
+rdfdf:sql-varchar-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:appearancesInLeague
+        a       rdf:Property .
+
+dbpedia-owl:type  a  rdf:Property .
+
+dbpedia-owl:formerName
+        a       rdf:Property .
+
+dbpedia-owl:lymph  a  rdf:Property .
+
+dbpedia-owl:teamName  a  rdf:Property .
+
+dbpedia-owl:birthPlace
+        a       rdf:Property .
+
+dbpedia-owl:literaryGenre
+        a       rdf:Property .
+
+virtrdf:DefaultServiceMap-O-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+rdfdf:sinv-iid-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:publiclyAccessible
+        a       rdf:Property .
+
+dbpedia-owl:gridReference
+        a       rdf:Property .
+
+dbpedia-owl:coronationDate
+        a       rdf:Property .
+
+dbpedia-owl:mouthDistrict
+        a       rdf:Property .
+
+rdfdf:sql-nvarchar-dt-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:undraftedYear
+        a       rdf:Property .
+
+dbpedia-owl:programmingLanguage
+        a       rdf:Property .
+
+dbpedia-owl:largestMetro
+        a       rdf:Property .
+
+rdfdf:sql-longnvarchar-dt
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:rebuildingDate
+        a       rdf:Property .
+
+dbpedia-owl:supplementalDraftRound
+        a       rdf:Property .
+
+dbpedia-owl:cargoFuel
+        a       rdf:Property .
+
+dbpedia-owl:councilArea
+        a       rdf:Property .
+
+dbpedia-owl:restingPlace
+        a       rdf:Property .
+
+dbpedia-owl:vicePrimeMinister
+        a       rdf:Property .
+
+dbpedia-owl:decay  a  rdf:Property .
+
+rdfdf:sql-doubleprecision-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultServiceMap-O-col-O
+        a       virtrdf:QuadMapColumn .
+
+rdfdf:sql-integer-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:governingBody
+        a       rdf:Property .
+
+dbpedia-owl:numberOfVisitorsAsOf
+        a       rdf:Property .
+
+rdfdf:sql-varchar-literal-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:committee
+        a       rdf:Property .
+
+dbpedia-owl:numberOfOrbits
+        a       rdf:Property .
+
+dbpedia-owl:censusYear
+        a       rdf:Property .
+
+dbpedia-owl:averageClassSize
+        a       rdf:Property .
+
+dbpedia-owl:lyrics  a  rdf:Property .
+
+dbpedia-owl:complexion
+        a       rdf:Property .
+
+rdfdf:sql-nvarchar-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:lunarSampleMass
+        a       rdf:Property .
+
+owl:sameAs  a   rdf:Property .
+
+dbpedia-owl:brainInfoType
+        a       rdf:Property .
+
+dbpedia-owl:frazioni  a  rdf:Property .
+
+rdfdf:multipart-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:eurobabeIndexId
+        a       rdf:Property .
+
+rdfdf:sql-nvarchar-lang-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultQuadMap-geo
+        a       virtrdf:QuadMapFText .
+
+owl:onProperty  a  rdf:Property .
+
+dbpedia-owl:currentMember
+        a       rdf:Property .
+
+dbpedia-owl:projectStartDate
+        a       rdf:Property .
+
+dbpedia-owl:projectKeyword
+        a       rdf:Property .
+
+virtrdf:DefaultServiceMap-S
+        a       virtrdf:QuadMapValue .
+
+rdfdf:zeropart-literal
+        a       virtrdf:QuadMapFormat .
+
+dbpedia-owl:foundationPlace
+        a       rdf:Property .
+
+rdfdf:multipart-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:frequentlyUpdated
+        a       rdf:Property .
+
+virtrdf:DefaultQuadStorage-UserMaps
+        a       virtrdf:array-of-QuadMap .
+
+dbpedia-owl:satScore  a  rdf:Property .
+
+owl:hasValue  a  rdf:Property .
+
+dbpedia-owl:endowment
+        a       rdf:Property .
+
+virtrdf:SyncToQuads-UserMaps
+        a       virtrdf:array-of-QuadMap .
+
+dbpedia-owl:iataLocationIdentifier
+        a       rdf:Property .
+
+virtrdf:DefaultServiceMap-G-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+rdfdf:sql-longvarchar-lang-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:athletics
+        a       rdf:Property .
+
+dbpedia-owl:goyaAward
+        a       rdf:Property .
+
+dbpedia-owl:modelEndDate
+        a       rdf:Property .
+
+dbpedia-owl:sourcePosition
+        a       rdf:Property .
+
+dbpedia-owl:maximumElevation
+        a       rdf:Property .
+
+dbpedia-owl:bandMember
+        a       rdf:Property .
+
+dbpedia-owl:overallRecord
+        a       rdf:Property .
+
+dbpedia-owl:majorityLeader
+        a       rdf:Property .
+
+dbpedia-owl:suppreddedDate
+        a       rdf:Property .
+
+rdfdf:sql-longvarchar-dt-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbpedia-owl:governmentRegion
+        a       rdf:Property .
+
+dbpedia-owl:numberOfGoldMedalsWon
+        a       rdf:Property .
+
+dbpedia-owl:callSign  a  rdf:Property .
+
+dbpedia-owl:aircraftTransport
+        a       rdf:Property .
+
+dbpedia-owl:numberOfOfficials
+        a       rdf:Property .

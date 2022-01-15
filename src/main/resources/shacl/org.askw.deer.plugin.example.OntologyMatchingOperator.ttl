@@ -1,0 +1,25 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix deer: <https://w3id.org/deer/> .
+@prefix fcage: <https://w3id.org/fcage/> .
+
+# Node OntologyMatchingOperator
+
+deer:OntologyMatchingOperatorShape
+  a sh:NodeShape ;
+  sh:targetClass deer:OntologyMatchingOperator ;
+  sh:property deer:OntologyMatchingOperatorShape_name ;
+  fcage:minInPorts 1 ;
+  fcage:maxInPorts 1 ;
+  fcage:minOutPorts 1 ;
+  fcage:maxOutPorts 1 ;
+.
+
+deer:OntologyMatchingOperatorShape_name
+  sh:path deer:fromPath ;
+  sh:minCount 1 ;
+  sh:maxCount 1 ;
+  sh:datatype xsd:string ;
+.

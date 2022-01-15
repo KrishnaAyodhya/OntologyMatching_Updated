@@ -1,0 +1,2326 @@
+@prefix rdfdf: <http://www.openlinksw.com/virtrdf-data-formats#> .
+@prefix oplgp: <http://www.openlinksw.com/schemas/googleplus#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix sd:    <http://www.w3.org/ns/sparql-service-description#> .
+@prefix ns13:  <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns9:   <http://open.vocab.org/terms/> .
+@prefix ns12:  <http://linkedopencommerce.com/schemas/icecat/v1/> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix awol:  <http://bblfish.net/work/atom-owl/2006-06-06/#> .
+@prefix opl-xbrl: <http://www.openlinksw.com/schemas/xbrl/> .
+@prefix sioc:  <http://rdfs.org/sioc/ns#> .
+
+rdfdf:sql-nvarchar-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+skos:relatedMatch  a  owl:SymmetricProperty .
+
+opl-xbrl:additionsLandValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:descriptionOfLiabilityOrOtherItemPledgedAgainstIdentifiableIntangibleAsset
+        a       owl:FunctionalProperty .
+
+opl-xbrl:explanationOfMethodsUsedByManagementForAssessingOtherMarketRisksValue
+        a       owl:FunctionalProperty .
+
+virtrdf:DefaultQuadMap-O
+        a       virtrdf:QuadMapValue .
+
+opl-xbrl:warrantReservesValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-nvarchar-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:codeOfClassOfFloatingRateFinancialAssetsExposedToInterestRateRiskValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:transfersToNonCurrentAssetsAndDisposalGroupsHeldForSalePlantAndEquipmentValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-doubleprecision-nullable
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:assetsHeldAsCollateralByLenderValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:futureDefinedBenefitIncreasesValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:nameOfRelatedParty
+        a       owl:FunctionalProperty .
+
+opl-xbrl:gainsLossesOnFinancialInstrumentsDueToFairValueAdjustmentsInHedgeAccountingFairValueAdjustmentsToHedgedItemValue
+        a       owl:FunctionalProperty .
+
+foaf:gender  a  owl:FunctionalProperty .
+
+rdfdf:sql-varchar-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultServiceMap-G-col-G
+        a       virtrdf:QuadMapColumn .
+
+opl-xbrl:amountOfSignificantNonCashTransactionValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-datetime-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:amountOfSignificantCashBalancesUnavailableValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-date-literal
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:dividendIncomeToReconcileToProfitLossFromOperationsValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sinv-iid-nonblank-nullable
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:minimumLeasePaymentsReceivableInterestFinanceLeasesTotalValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:discontinuedOperationsDisclosuresValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:fixturesAndFittingsUnderFinanceLeasesNetValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:receiptsFromTradingActivitiesNetValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-nvarchar-dt
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:descriptionOfIdentifiableIntangibleAssetPledgedAsSecurityOrWithRestrictedTitle
+        a       owl:FunctionalProperty .
+
+virtrdf:DefaultQuadStorage
+        a       virtrdf:QuadStorage .
+
+opl-xbrl:issuanceOfOptionsForConsiderationOtherReservesValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:minimumLeasePaymentsPayableInterestFinanceLeaseObligationsTotalValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-varchar-fixedlang-x-any-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-varchar-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:hedgingLiabilitiesNonDerivativesTotalValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:issuanceOfPreferenceSharesShareCapitalPreferenceSharesValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-numeric-nullable
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:acquisitionsThroughBusinessCombinationsSoftwareValue
+        a       owl:FunctionalProperty .
+
+rdfdf:singlepart-literal-fn-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:otherLongTermBenefitsByNatureValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:revenueForSecondaryBusinessSegmentValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:tradePayablesPolicyValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:issuanceOfNonCashDividendsTotalValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:revaluationIncreaseDecreaseRecognisedInIncomeStatementMotorVehiclesValue
+        a       owl:FunctionalProperty .
+
+rdfdf:zeropart-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:minimumLeasePaymentsReceivableLaterThanFiveYearsPresentValueFinanceLeasesValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:chargesRecognisedDirectlyThroughEquityDefinedBenefitPlanObligationValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:unguaranteedResidualValuesAccruingToBenefitOfLessorValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-longvarchar-dt
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longvarchar
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:changesInSubscribedCapitalValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:natureOfInitialDisclosureOfDiscontinuanceEventValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:hedgingDisclosuresValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sinv-nullable  a  virtrdf:QuadMapFormat .
+
+opl-xbrl:periodType  a  owl:FunctionalProperty .
+
+rdfdf:sql-date-nullable
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:changesInFixturesAndFittingsNetTotalValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:accumulatedAmortisationAndImpairmentOtherIdentifiableIntangibleAssetsValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:hedgingLiabilitiesOtherDerivativesCurrentValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-date-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:otherDeferredIncomeCurrentValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-integer-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sinv-iid-nonblank-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-numeric-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:SyncToQuads  a  virtrdf:QuadStorage .
+
+rdfdf:default-iid  a  virtrdf:QuadMapFormat .
+
+rdfdf:sql-longnvarchar-fixedlang-x-any
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:paymentsToAcquireSubsidiariesNetOfCashAcquiredValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:explanationOfWhetherComparativesRestatedForChangesInAccountingForSegmentReportingValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-longvarbinary-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:treatmentOfRegularWayPurchasesAndSalesFinancialAssetsHeldForTradingPolicyValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:amountOfNetProfitLossOfAssociateNotEquityAccountedValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:natureAndExtentOfObligationsToProvideOrRightsToExpectProvisionOfServicesUnderServiceConcessionArrangementValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:amountOfDividendNetOfTaxPreferenceSharesValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:fairValueOfClassOfFinancialLiabilityValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:existenceAndTermsOfRenewalOrPurchaseOptionsAndEscalationClausesOperatingLeaseArrangementsValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-nvarchar-lang
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:zeropart-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longnvarchar-lang
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:detailOfPriorPeriodErrorsValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-numeric-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultServiceMap-ft-conds
+        a       virtrdf:array-of-string .
+
+opl-xbrl:explanationOfRemainingAmortisationPeriodOfSignificantIndividualIdentifiableIntangibleAssetValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:leaseholdImprovementsNetValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:compoundFinancialInstrumentsWithMultipleEmbeddedDerivativesDisclosuresValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:renderingOrReceivingOfServicesCodeValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-longvarbinary
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:hedgingLiabilitiesCurrentValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:changesInPropertyPlantAndEquipmentNetPresentationValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:foreignCurrencyExchangeIncreaseDecreaseBuildingsValue
+        a       owl:FunctionalProperty .
+
+rdfdf:singlepart-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:DefaultServiceMap-ft
+        a       virtrdf:QuadMapFText .
+
+opl-xbrl:issuanceOfWarrantsForConsiderationWarrantReservesValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:plantAndEquipmentNetValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:minimumLeasePaymentsReceivablePresentValueFinanceLeasesPresentationValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-varchar-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-varchar-dt-nullable
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:retirementsIdentifiableIntangibleAssetsNetValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-integer-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:basisForDeterminingContingentRentPaymentsValue
+        a       owl:FunctionalProperty .
+
+ns9:canonicalInformationResource
+        a       owl:InverseFunctionalProperty .
+
+rdfdf:sql-datetime-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-varchar-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-date-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:priorPeriodAdjustmentsCapitalRedemptionReservesValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:aggregateAmountOfDividendsPreferenceSharesGrossValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-datetime-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-time  a  virtrdf:QuadMapFormat .
+
+rdfdf:sql-longnvarchar-dt-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:classesOfInterestIncomeFinancialInstitutionsPresentationValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:entityContextSegmentIdentifierForPrimarySegmentValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-time-nullable
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:explanationOfRiskManagementPracticesForManagingAndControllingLiquidityRiskValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:hedgingAssetsCurrencyDerivativesTotalValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:profitLossBeforeTaxValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-time-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:changesInHedgingReservesValue
+        a       owl:FunctionalProperty .
+
+awol:xhtml  a   owl:InverseFunctionalProperty .
+
+rdfdf:zeropart-uri-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns13:associatedWith  a  owl:SymmetricProperty .
+
+opl-xbrl:impairmentReversalRecognisedInIncomeStatementOtherIdentifiableIntangibleAssetsValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:revenueRecognitionPolicyForInterestIncomeValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-varchar-fixedlang-x-any-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns13:overlaps  a  owl:SymmetricProperty .
+
+rdfdf:sql-numeric-literal
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:DefaultQuadMap-S-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+opl-xbrl:cashAndBalancesWithCentralBanksValue
+        a       owl:FunctionalProperty .
+
+virtrdf:DefaultServiceMap-geo
+        a       virtrdf:QuadMapFText .
+
+opl-xbrl:detailOfShareBasedPaymentArrangementsValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-doubleprecision-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:explanationOfNumberOfEmployeesValue
+        a       owl:FunctionalProperty .
+
+rdfdf:singlepart-uri-fn-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:increaseDecreaseInDebenturesAndDebtCertificatesValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:descriptionOfSignificantIndividualIdentifiableIntangibleAssetValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:statementOfChangesInEquityPresentationValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:amountOfDifferenceBetweenCarryingAmountAndAmountToPayAtMaturityValue
+        a       owl:FunctionalProperty .
+
+[ a       owl:InverseFunctionalProperty ] .
+
+opl-xbrl:codeOfClassOfPreferenceShareCapitalValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:carryingAmountOfLiabilitiesFromShareBasedPaymentTransactionsValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:priorPeriodAdjustmentsRetainedEarningsAccumulatedLossesValue
+        a       owl:FunctionalProperty .
+
+virtrdf:DefaultQuadMap-O-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+opl-xbrl:financialLiabilitiesHeldForTradingRepurchaseAgreementsValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:fiduciaryActivityDisclosuresValue
+        a       owl:FunctionalProperty .
+
+rdfdf:default  a  virtrdf:QuadMapFormat .
+
+opl-xbrl:increaseDecreaseInLoansAndReceivablesNetValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-longnvarchar-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:hedgingLiabilitiesEquityDerivativesTotalValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-nvarchar-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:basisForDeterminingValueOfSignificantNonCashTransactionValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sinv-iid  a  virtrdf:QuadMapFormat .
+
+opl-xbrl:effectOfExchangeRateChangesOnCashAndCashEquivalentsValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-integer-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-numeric-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:reversalOfImpairmentInvestmentsInAssociatesValue
+        a       owl:FunctionalProperty .
+
+virtrdf:DefaultServiceMap-P
+        a       virtrdf:QuadMapValue .
+
+opl-xbrl:otherIncreasesDecreasesAllowanceForImpairmentOfLoansAndAdvancesValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:impairmentReversalRecognisedInEquityPropertyPlantAndEquipmentNetValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:changeInAccountingPolicyAffectingEquityProposedDividendReservesValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:exchangeRateAtPeriodEndValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-varchar-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns9:twitter-id  a  owl:InverseFunctionalProperty .
+
+opl-xbrl:revenueForSecondaryGeographicSegmentBasedOnCustomerLocationValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-integer-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-varchar-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:aggregateGainLossFromChangeInNetFairValueOfBiologicalAssetsValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:foreignCurrencyExchangeIncreaseDecreaseGoodwillValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-numeric-uri
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:explanationOfEstimatedFinancialEffectOfCapitalCommitmentValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:distributionCostsByFunctionValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:locationOfGeographicSegmentValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:restructuringChargesPolicyValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-nvarchar-uri
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:foreignCurrencyExchangeIncreaseDecreaseDeferredTaxLiabilitiesValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-doubleprecision-literal
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:depreciationExpenseInvestmentPropertyCostModelValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:deferredTaxAssetsRelatingToPostEmploymentBenefitObligationValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:codeOfClassOfProvisionValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-datetime-literal
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:paymentsForInterestCapitalisedOnConstructionOfAssetsValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-date-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:financialAssetsDesignatedAsFairValueThroughProfitOrLossTotalValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-datetime  a  virtrdf:QuadMapFormat .
+
+virtrdf:DefaultQuadMap-pquad
+        a       virtrdf:QuadMapATable .
+
+rdfdf:sql-datetime-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-nvarchar-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:numberOfShareOptionsGrantedDuringPeriodValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-longvarchar-lang-nullable
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:biologicalAssetsWhereFairValueCannotBeMeasuredValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:assetsPoliciesPresentationValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:plantAndEquipmentGrossValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:impairmentLossRecognisedInIncomeStatementFixturesAndFittingsValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:revaluationBasisOfClassOfPropertyPlantAndEquipmentRevaluedValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:paymentsForResearchAndDevelopmentExpendituresValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:locationOfJointVentureValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:minimumAggregateFinancialStatementDisclosuresRelatingToDiscontinuedOperationsValue
+        a       owl:FunctionalProperty .
+
+rdfdf:singlepart-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:consolidatedFinancialInformationValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:descriptionOfReconcilingItemOfNetProfitLossValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-nvarchar-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:zeropart-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns9:canonicalUri  a  owl:InverseFunctionalProperty .
+
+opl-xbrl:inventoryMeasurementPolicyValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:otherIncreaseDecreaseInEquityTreasurySharesValue
+        a       owl:FunctionalProperty .
+
+virtrdf:DefaultServiceMap-pquad
+        a       virtrdf:QuadMapATable .
+
+opl-xbrl:barterTransactionsRevenueValue
+        a       owl:FunctionalProperty .
+
+rdfdf:default-nullable
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:disclosuresIfPrimarySegmentsAreGeographicAndBasedOnAssetLocationValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:impairmentReversalRecognisedInIncomeStatementFixturesAndFittingsValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:interestRateRiskDisclosuresValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:amountOfReconcilingItemOfEquityValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:revaluationReservesValue
+        a       owl:FunctionalProperty .
+
+skos:closeMatch  a  owl:SymmetricProperty .
+
+opl-xbrl:amountOfCompensationFromThirdPartiesPropertyPlantAndEquipmentImpairedLostOrGivenUpIncludedInProfitOrLossValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:costOfInvestmentInJointVentureValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-varchar-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+foaf:homepage  a  owl:InverseFunctionalProperty .
+
+rdfdf:sql-date  a  virtrdf:QuadMapFormat .
+
+opl-xbrl:codeOfFinancialAssetPastDueButNotImpairedValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:paymentsToAcquireBiologicalAssetsValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:minimumLifeOrRateForInvestmentPropertyValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-nvarchar-literal
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:multipart-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:explanationOfTransitionToIFRSsValue
+        a       owl:FunctionalProperty .
+
+virtrdf:DefaultQuadMap-G
+        a       virtrdf:QuadMapValue .
+
+foaf:aimChatID  a  owl:InverseFunctionalProperty .
+
+opl-xbrl:assetRecognisedForFairValueChangesOfHedgedItemInPortfolioHedgeOfInterestRateRiskValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:otherResultComponentForPrimarySegmentValue
+        a       owl:FunctionalProperty .
+
+rdfdf:default-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:changesInBiologicalAssetsWhereFairValueCannotBeMeasuredTotalValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:assetsPledgedAsCollateralSubjectToSaleOrRepledgingNonCurrentValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:reversalOfUnusedProvisionsValue
+        a       owl:FunctionalProperty .
+
+foaf:msnChatID  a  owl:InverseFunctionalProperty .
+
+opl-xbrl:codeOfSignificantIndividualIdentifiableIntangibleAssetValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:researchAndDevelopmentCostsPolicyValue
+        a       owl:FunctionalProperty .
+
+rdfdf:zeropart-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-date-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:bodyThatAuthorisedIssueOfFinancialStatementsValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:governmentGrantsRelatingToAgriculturalActivityValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:basicEarningsLossPerShareFromContinuingOperationsValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-varchar-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:changesInAccountingEstimatesValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:taxLossCarryforwardExpirationPeriodsRecognisedTotalValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-varchar-literal
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:descriptionOfStandardAdoptedBeforeEffectiveDateValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:equityIncreaseDecreaseResultingFromBusinessCombinationHedgingReservesValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-varchar-dt-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-numeric-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:deferredTaxAssetsUnrecognisedValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:natureOfAdjustmentsToAmountsPreviouslyPresentedInDiscontinuedOperationsValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:interSegmentRevenueEliminationsValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:equityCompensationBenefitsToKeyManagementPersonnelCodeValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:transfersToNonCurrentAssetsAndDisposalGroupsHeldForSaleConstructionInProgressValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:aggregateNumberOfSharesIssuedAsDividendsOrdinarySharesValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:amountOfUnusualAndInfrequentItemOfIncomeExpense
+        a       owl:FunctionalProperty .
+
+opl-xbrl:changesInRetainedEarningsAccumulatedLossesTotalValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:acquisitionsThroughBusinessCombinationsDeferredTaxLiabilitiesValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:increaseDecreaseInOtherAssetsValue
+        a       owl:FunctionalProperty .
+
+foaf:weblog  a  owl:InverseFunctionalProperty .
+
+rdfdf:sql-time-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:deferredTaxAssetsRelatingToRevaluationsOfPropertyPlantAndEquipmentValue
+        a       owl:FunctionalProperty .
+
+rdfdf:multipart-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-nvarchar-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-numeric-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:precision  a  owl:FunctionalProperty .
+
+opl-xbrl:amountOfBarterTransactionRevenueIncludedInSaleOfGoodsValue
+        a       owl:FunctionalProperty .
+
+rdfdf:multipart-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:reportablePrimarySegmentToWhichIndividualAssetImpairedBelongsValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:reasonPublishedPriceOfListedEquityInstrumentsIssuedIsNotFairValueValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:hedgingLiabilitiesCreditDerivativesCurrentValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-date-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-date-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:wageAndSalariesByNatureValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:miscellaneousOtherOperatingExpensesByFunctionValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:managementContractsCodeValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:securitisationDisclosuresValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:paymentsToThirdPartiesOnShareOptionsValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:costOfSalesByFunctionValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:revaluationIncreaseDecreaseRecognisedInIncomeStatementLandValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:otherAssetsTotalValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-numeric-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultQuadMap-S
+        a       virtrdf:QuadMapValue .
+
+rdfdf:sql-longnvarchar
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longvarchar-lang
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:descriptionOfClassOfFinancialAssetsAndLiabilitiesExposedToInterestRateRisk
+        a       owl:FunctionalProperty .
+
+opl-xbrl:amountOfTotalPurchaseConsiderationPaidByMeansOfCashAndCashEquivalentsValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:methodToDetermineStageOfCompletionOfConstructionContractsValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:disposalsInvestmentPropertyAtCostFairValueInformationUnreliableFairValueModelValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:subordinatedLiabilitiesPolicyValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:liabilitiesNonCurrentTotalValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-varchar-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-longnvarchar-dt-nullable
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:codeOfChangeInAccountingPolicyValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-varchar-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-nvarchar  a  virtrdf:QuadMapFormat .
+
+virtrdf:DefaultServiceMap-P-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+rdfdf:sql-longvarchar-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:financialAssetsHeldForTradingOtherDebtInstrumentsExcludingRepurchaseAgreementsValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:basisOfPresentationOfFinancialStatementsValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:detailOfFinancialAssetsWherePresumptionThatFairValueCanBeReliablyMeasuredHasBeenOvercomeValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-integer-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:otherPoliciesPresentationValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:temporaryDifferencesUnusedTaxLossesAndUnusedTaxCreditsValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:concentrationsOfCreditRiskAndCreditRiskExposureNarrativeValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:proFormaDevelopmentCostsNetAtCostValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:explanationOfRangeOfEstimatedFairValuesValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-doubleprecision-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:historicalCounterpartyDefaultRateValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-nvarchar-fixedlang-x-any-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-integer-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:gainsLossesOnFinancialInstrumentsOtherValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:changeInAccountingPolicyAffectingEquityReservesForGeneralBankingRisksValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-datetime-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:methodsAdoptedInDeterminingFairValuesOfClassOfFinancialLiabilityValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:amountDueFromCustomersUnderConstructionContractsTotalValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:deferredTaxAssetsUnrecognisedPresentationValue
+        a       owl:FunctionalProperty .
+
+foaf:icqChatID  a  owl:InverseFunctionalProperty .
+
+opl-xbrl:increaseDecreaseInDeferredIncomeNetValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-numeric-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:netAndGrossPortionsOfInvestmentPropertyPresentationValue
+        a       owl:FunctionalProperty .
+
+virtrdf:DefaultQuadMap-ft
+        a       virtrdf:QuadMapFText .
+
+opl-xbrl:effectiveDateOfFirstIFRSFinancialStatementsValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:taxExpenseIncomeForDiscontinuedOperationsPresentationValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:fairValuesDeterminedOnProvisionalBasisForAcquisitionValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:weightedAverageFairValueAtMeasurementDateForShareOptionsGrantedDuringPeriodValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:impairmentLossRecognisedInIncomeStatementPatentsTrademarksAndOtherRightsValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:grossProfitByFunctionPresentationValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-varchar-lang-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sinv-iid-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:explanationOrCrossReferencesToInterimFinancialStatementDisclosuresForFirstTimeAdopterValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:inventoriesValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-time-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-doubleprecision-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:proFormaOtherPropertyPlantAndEquipmentNetAtCostValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:fairValueOfCollateralAcceptedForWhichResellingOrRepledgingIsNotAllowedValue
+        a       owl:FunctionalProperty .
+
+foaf:logo  a    owl:InverseFunctionalProperty .
+
+opl-xbrl:tradeAndOtherReceivablesNetNonCurrentValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:aggregateAmountOfNonCurrentAssetsOfJointVenturesValue
+        a       owl:FunctionalProperty .
+
+virtrdf:DefaultQuadMap-atables
+        a       virtrdf:array-of-QuadMapATable .
+
+opl-xbrl:disposalsThroughBusinessDivestiturePlantAndEquipmentValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:shareOfProfitLossFromEquityAccountedInvestmentsForPrimarySegmentValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:disposalsInvestmentsInAssociatesValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:retirementsOtherIdentifiableIntangibleAssetsValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-longvarchar-fixedlang-x-any-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:amountOfClassOfLiabilityExposedToRepricingScaleMaturingFromFourYearsToFiveYearsValue
+        a       owl:FunctionalProperty .
+
+rdfdf:default-iid-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:multipart-uri  a  virtrdf:QuadMapFormat .
+
+opl-xbrl:consolidatedOtherResultComponentValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-integer-uri
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longvarchar-fixedlang-x-any
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-date-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-integer-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:descriptionOfEventsCausingSignificantChangesInAmountOrTimingOfCashFlowsRelatingToAssetsOrLiabilitiesDisposedValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:landGrossValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:incomeStatementDisclosuresPresentationValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-longvarbinary-nullable
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:detailOfTransactionsWithRelatedPartyValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:increaseDecreaseFromChangeInDiscountRateOtherProvisionsValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:impairmentReversalsFinancialInstrumentsAvailableForSaleFinancialAssetsMonetaryItemsValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:amortisationOtherIdentifiableIntangibleAssetsValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:natureAndRestrictionsOnMergerReservesValue
+        a       owl:FunctionalProperty .
+
+virtrdf:DefaultQuadMap-S-col-S
+        a       virtrdf:QuadMapColumn .
+
+opl-xbrl:carryingAmountOfPartOfAssetThatEntityContinuesToRecogniseAssetsToExtentOfContinuingInvolvementValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:disposalsBuildingsValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-date-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:zeropart-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-varchar-fixedlang-x-any
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:restructuringProvisionTotalValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:descriptionOfComponentsOfCostOfCombinationValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-longvarchar-nullable
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:aggregateAmountOfCashConsiderationReceivedInDisposalOfEntitiesTotalValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:descriptionOfShareBasedPaymentArrangementValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-longnvarchar-fixedlang-x-any-nullable
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:descriptionOfHedgingInstrument
+        a       owl:FunctionalProperty .
+
+opl-xbrl:basisUsedForDeterminingFairValueValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-nvarchar-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+sd:defaultDataset  a  owl:InverseFunctionalProperty .
+
+opl-xbrl:unusedAmountsOfProvisionReversedRestructuringProvisionValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-numeric-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:transfersToNonCurrentAssetsAndDisposalGroupsHeldForSaleLandValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:allowancesForTradeAndOtherReceivablesCurrentValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-doubleprecision
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-nvarchar-fixedlang-x-any-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:deferredTaxLiabilitiesRelatingToRevaluationsOfIntangibleAssetsValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:classesOfInterestBearingBorrowingsPresentationValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:quantityOfBiologicalAssetsOnHandForGroupOfBiologicalAssetsValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:summarisedFinancialInformationOfSubsidiaryValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:reconciliationOfTaxExpenseUsingStatutoryRateToTaxExpenseUsingEffectiveRateValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:retirementsSoftwareValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-integer  a  virtrdf:QuadMapFormat .
+
+rdfdf:sql-datetime-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:maximumLifeOrRateForMotorVehiclesValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:otherFinancialLiabilitiesCurrentValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-longvarchar-dt-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:cashOnHandValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-integer-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:deferredTaxExpenseNetDomesticValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sinv-iid-nonblank
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-time-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:propertyRentalIncomeByNatureValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:transfersOfFairValueReserveValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:explanationOfHowFairValueDirectlyMeasuredForGoodsAndServicesReceivedValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:codeOfDefinedBenefitPlanValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:codeOfClassOfFinancialInstrumentsMeasuredAtCostRatherThanFairValueValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:taxLiabilitiesTotalValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-varchar-dt-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:default-iid-nonblank-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sinv-iid-nullable
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:amountOfClassOfAssetExposedToRepricingScaleMaturingFromFourYearsToFiveYearsValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-numeric  a  virtrdf:QuadMapFormat .
+
+opl-xbrl:equityIncreaseDecreaseResultingFromBusinessCombinationTotalValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:otherIncreaseDecreaseInEquityMinorityInterestValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:exerciseOfOptionsRightsOrWarrantsSharePremiumOrdinarySharesValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:changesInInvestmentPropertyCostModelTotalValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:equityUnderPreviousGAAPValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:foreignCurrencyExchangeIncreaseDecreaseDevelopmentCostsValue
+        a       owl:FunctionalProperty .
+
+skos:exactMatch  a  owl:SymmetricProperty .
+
+opl-xbrl:descriptionOfInvestmentPropertyDisposedCarriedAtCostFairValueModelValue
+        a       owl:FunctionalProperty .
+
+rdfdf:default-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:aggregateAmountOfNetProfitLossOfSubsidiariesValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-varchar-nullable
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:noFixedMaturityInvestmentsPolicyValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:detailOfClassesOfFloatingRateFinancialAssetsExposedToInterestRateRiskValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-longvarchar-dt-nullable
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:tradeReceivablesNetNonCurrentValue
+        a       owl:FunctionalProperty .
+
+rdfdf:multipart-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:changesInSharePremiumOrdinarySharesValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:explanationOfSubsequentAdjustmentsToProvisionalFairValuesValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-longnvarchar-nullable
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:interestEarnedOnLoansValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:detailOfDividendsProposedOrDeclaredButNotPaidPreferenceSharesValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:descriptionOfFinancialAssetWherePresumptionThatFairValueCanBeReliablyMeasuredHasBeenOvercome
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-datetime-nullable
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:amountOfClassOfAssetExposedToRepricingScaleMaturingFromOneYearToTwoYearsValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-doubleprecision-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:impairmentLossesReversalsPropertyPlantAndEquipmentNetValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:netCashFlowsFromUsedInFinancingActivitiesPresentationValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:bankOverdraftsCurrentValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-doubleprecision-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:otherSignificantAccountingPoliciesValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:amountOfExpenditureOnAccountOfPropertyPlantAndEquipmentInCourseOfConstructionValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:propertyPlantAndEquipmentDisclosuresValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-numeric-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:aggregateCarryingAmountOfProvisionsRecordedForTerminatingOrReducingActivitiesOfAnAcquireeValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:numberOfTreasurySharesReissuedPreferenceSharesValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:aggregateAmountOfTotalLiabilitiesOfAssociatesNotEquityAccountedValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:proceedsFromCashAdvancesFromRelatedPartiesValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:identifiableIntangibleAssetsDisclosuresValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:descriptionOfCurrencyValue
+        a       owl:FunctionalProperty .
+
+rdfdf:singlepart-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:unsecuredDebenturesNonCurrentValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:deferredTaxLiabilitiesRelatingToPostEmploymentBenefitObligationValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:generalInformationRelatingToLiquidityRiskValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-nvarchar-dt-nullable
+        a       virtrdf:QuadMapFormat .
+
+awol:html  a    owl:InverseFunctionalProperty .
+
+opl-xbrl:explanationOfFactsAndCircumstancesLeadingToChangeInPlansToSellNonCurrentAssetOrDisposalGroupHeldForSaleValue
+        a       owl:FunctionalProperty .
+
+virtrdf:DefaultQuadMap-P
+        a       virtrdf:QuadMapValue .
+
+rdfdf:sql-nvarchar-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:otherInventoriesValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-varchar-uri
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:detailOfClassesOfAssetsOfEntityAcquiredValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:equityIncreaseDecreaseResultingFromBusinessCombinationShareCapitalOrdinarySharesValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:descriptionOfUnusualAndInfrequentItemOfIncomeExpense
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-integer-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longnvarchar-lang-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-time-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+oplgp:activity_replied_to_id
+        a       owl:InverseFunctionalProperty .
+
+rdfdf:sql-datetime-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:disposalsThroughBusinessDivestitureInvestmentPropertyCostModelValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:minimumLeasePaymentsUnderOperatingLeasesValue
+        a       owl:FunctionalProperty .
+
+virtrdf:DefaultQuadMap
+        a       virtrdf:QuadMap .
+
+virtrdf:DefaultServiceMap-O
+        a       virtrdf:QuadMapValue .
+
+rdfdf:default-iid-nonblank-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:dividendIncomeJointVenturesValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:agencyArrangementsCodeValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:landUnderFinanceLeasesNetValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:gainLossOnDisposalOfNonCurrentAssetsNotHeldForSaleTotalValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-integer-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:transfersToOwnerOccupiedPropertyInvestmentPropertyAtCostFairValueInformationUnreliableFairValueModelValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:netCashFlowsFromUsedInInvestingActivitiesFromDiscontinuedOperationsValue
+        a       owl:FunctionalProperty .
+
+rdfdf:default-iid-nonblank
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:retirementsLeaseholdImprovementsValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:acquisitionsThroughBusinessCombinationsOtherPropertyPlantAndEquipmentValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:amountOfExcessOfNetFairValueOverCostRelatingToAcquisitionValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:financialAssetsPledgedAsCollateralValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-time-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:constructionInProgressNetValue
+        a       owl:FunctionalProperty .
+
+rdfdf:default-iid-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:revaluationIncreaseDecreaseRecognisedInEquityDevelopmentCostsValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-nvarchar-lang-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:default-iid-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns9:skypeID  a  owl:InverseFunctionalProperty .
+
+opl-xbrl:amountOfPreviousCarryingValueOfFinancialAssetRedesignatedAsFairValueThroughProfitAndLoss
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-longvarchar-fixedlang-x-any-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:amountOfFairValueOnAdoptionOfIFRSsOfFinancialAssetRedesignatedAsFairValueThroughProfitAndLoss
+        a       owl:FunctionalProperty .
+
+opl-xbrl:otherIncreaseDecreaseBiologicalAssetsWhereFairValueCannotBeMeasuredValue
+        a       owl:FunctionalProperty .
+
+virtrdf:DefaultQuadMap-P-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+opl-xbrl:dividendsReceivedInvestmentsInAssociatesValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:descriptionOfFinancialAssetRedesignatedAsFairValueThroughProfitAndLoss
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-varchar-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-nvarchar-dt-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+oplgp:id  a     owl:InverseFunctionalProperty .
+
+opl-xbrl:codeOfIdentifiableIntangibleAssetAcquiredThroughGovernmentGrantValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:merchandiseValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:entityContextSegmentIdentifierForBusinessSegmentValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:amountOfAvailableForSaleFinancialAssetsFairValueRemovedFromEquityAndReportedInNetProfitOrLossForPeriodValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:descriptionOfBiologicalAssetWhereFairValueCanNowBeReliablyMeasuredValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:postEmploymentBenefitForKeyManagementPersonnelCodeValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:effectOfDepreciationAndAmortisationDifferencesOnFairValueAdjustmentsValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:disposalsThroughBusinessDivestitureMotorVehiclesValue
+        a       owl:FunctionalProperty .
+
+rdfdf:multipart-literal
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:accountingForForeignCurrencyTransactionsValue
+        a       owl:FunctionalProperty .
+
+ns13:sameSettingAs  a  owl:SymmetricProperty .
+
+opl-xbrl:otherIncreaseDecreaseInEquityReservesForGeneralBankingRisksValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-time-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:detailOfUnusualAndInfrequentItemsOfIncomeExpenseValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:rangeOfEstimatesWithinWhichFairValueIsHighlyLikelyToLieWherePresumptionThatFairValueCanBeReliablyMeasuredHasBeenOvercome
+        a       owl:FunctionalProperty .
+
+opl-xbrl:descriptionOfEquityPriceRiskValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-integer-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-numeric-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultQuadMap-P-col-P
+        a       virtrdf:QuadMapColumn .
+
+virtrdf:DefaultServiceStorage
+        a       virtrdf:QuadStorage .
+
+rdfdf:multipart-uri-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultQuadMap-G-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+opl-xbrl:grossCarryingAmountOfAnyFullyDepreciatedPropertyPlantAndEquipmentStillInUseValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-longnvarchar-lang-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:dividendPerSharePreferenceSharesValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:carryingAmountOfFinancialAssetImpairedAndPastDueValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:changesInRevaluationReservesTotalValue
+        a       owl:FunctionalProperty .
+
+sioc:sibling  a  owl:SymmetricProperty .
+
+opl-xbrl:additionsITEquipmentValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-numeric-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:keyManagementPersonnelCompensationPostEmploymentBenefitsValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:gainsLossesOnFinancialInstrumentsNetValue
+        a       owl:FunctionalProperty .
+
+rdfdf:multipart-literal-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-varchar-lang-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+awol:text  a    owl:InverseFunctionalProperty .
+
+virtrdf:DefaultServiceMap-atables
+        a       virtrdf:array-of-QuadMapATable .
+
+opl-xbrl:advancesFromOtherPartiesPolicyValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:financialImpactOfDepartureOnProfitAndLossValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:moneyMarketPlacementsWithBanksValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-nvarchar-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns13:farFrom  a  owl:SymmetricProperty .
+
+rdfdf:sql-longvarchar-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:prepaymentsNonCurrentValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:repaymentOfFinanceLeaseLiabilitiesValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:saleOfGoodsByNatureValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:reasonSufficientInformationIsNotAvailableToAccountForMultiEmployerPlanAsDefinedBenefitPlanValue
+        a       owl:FunctionalProperty .
+
+sd:endpoint  a  owl:InverseFunctionalProperty .
+
+ns13:isRelatedToDescription
+        a       owl:SymmetricProperty .
+
+opl-xbrl:financialAssetsDesignatedAsFairValueThroughProfitOrLossNonCurrentValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:detailOfSignificantNonCashTransactionsValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:measurementBasisForIdentifiableIntangibleAssetAcquiredThroughGovernmentGrantValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:explanationOfMaximumCreditRiskExposureValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:deferredGainsAndLossesValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-longnvarchar-fixedlang-x-any-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultServiceMap-S-col-S
+        a       virtrdf:QuadMapColumn .
+
+ns13:isRelatedToConcept
+        a       owl:SymmetricProperty .
+
+opl-xbrl:heldToMaturityInvestmentsNonCurrentValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:postEmploymentBenefitObligationDisclosuresValue
+        a       owl:FunctionalProperty .
+
+rdfdf:zeropart-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:changesInLegalAndStatutoryReservesTotalValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:maximumLifeOrRateForPatentsTrademarksAndOtherRightsValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-longvarchar-fixedlang-x-any-nullable
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:transfersFromSharePremiumSharePremiumPreferenceSharesValue
+        a       owl:FunctionalProperty .
+
+rdfdf:singlepart-uri-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:hedgingLiabilitiesFairValueHedgeOfInterestRateRiskValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:interestIncomeToReconcileToProfitLossFromOperationsValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:otherIncreaseDecreaseInEquityTranslationReservesValue
+        a       owl:FunctionalProperty .
+
+ns13:hasCommonBoundary
+        a       owl:SymmetricProperty .
+
+rdfdf:sql-varchar-fixedlang-x-any-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:aggregateCurrentTaxationRelatingToItemsChargedToEquityValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-longvarchar-lang-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:explanationOfSignificantConcentrationsOfCreditRiskValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:currentAndNonCurrentPortionOfOtherFinancialAssetsPresentationValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:cashFlowHedgeGainsLossesHedgingReservesValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:otherAccruedLiabilitiesTotalValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-varchar-dt  a  virtrdf:QuadMapFormat .
+
+rdfdf:sql-time-literal
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:DefaultQuadMap-O-col-O
+        a       virtrdf:QuadMapColumn .
+
+opl-xbrl:netGainsLossesNotRecognisedInIncomeStatementTotalValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:otherIncreaseDecreaseBuildingsValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:existenceAndTermsOfRenewalOrPurchaseOptionsAndEscalationClausesFinanceLeasingArrangementsValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:proceedsFromDisposalOfOtherAssetsValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:otherIncreaseDecreaseDefinedBenefitPlanObligationValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-varchar  a  virtrdf:QuadMapFormat .
+
+opl-xbrl:depositsFromBanksExcludingRepurchaseAgreementsValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:descriptionOfPropertyPlantAndEquipmentPledgedAsSecurityValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:movementsInOtherProvisionsValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:carryingAmountOfIdentifiableIntangibleAssetPledgedAsSecurityOrWithRestrictedTitle
+        a       owl:FunctionalProperty .
+
+opl-xbrl:nameOfBusinessSegmentValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:miscellaneousOtherOperatingIncomeByFunctionValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:otherCashFlowsFromUsedInFinancingActivitiesValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:explanationOfChangesInApplicableTaxRateValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:nameOfGeographicSegmentValue
+        a       owl:FunctionalProperty .
+
+ns13:nearTo  a  owl:SymmetricProperty .
+
+rdfdf:multipart-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-datetime-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:detailOfTypesOfUnusedTaxLossesValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:descriptionOfClassOfFinancialLiability
+        a       owl:FunctionalProperty .
+
+foaf:mbox  a    owl:InverseFunctionalProperty .
+
+rdfdf:sql-nvarchar-nullable
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:profitLossReportedUnderIFRSValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:amountOfCommitmentsForAcquisitionOfPropertyPlantAndEquipmentValue
+        a       owl:FunctionalProperty .
+
+foaf:mbox_sha1sum  a  owl:InverseFunctionalProperty .
+
+opl-xbrl:hedgingAssetsMicroHedgeFairValueHedgeValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-longnvarchar-dt-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:disposalsSoftwareValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-nvarchar-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:amortisationMethodsForIdentifiableIntangibleAssetsValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:increaseDecreaseInFinancialAssetsHeldForTradingNetValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:minimumLifeOrRateForOtherIdentifiableIntangibleAssetsValue
+        a       owl:FunctionalProperty .
+
+foaf:isPrimaryTopicOf
+        a       owl:InverseFunctionalProperty .
+
+opl-xbrl:changesInCumulativeIncomeExpenseRelatingToNonCurrentAssetsAndDisposalGroupsHeldForSaleTotalValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:componentsOfExpenseRecognisedInIncomeStatementForDefinedBenefitPlanValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-date-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:significantConcentrationsOfInvestmentsValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:minimumLifeOrRateForSoftwareValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:changesInOperatingAssetsAndLiabilitiesNetValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:bankOverdraftPolicyValue
+        a       owl:FunctionalProperty .
+
+foaf:birthday  a  owl:FunctionalProperty .
+
+awol:xml  a     owl:InverseFunctionalProperty .
+
+rdfdf:zeropart-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sinv-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:amountOfClassOfAssetExposedToLiquidityRiskMaturingFromFiveYearsAndOverValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:increasesThroughBusinessCombinationsDefinedBenefitPlanObligationValue
+        a       owl:FunctionalProperty .
+
+virtrdf:DefaultQuadMap-G-col-G
+        a       virtrdf:QuadMapColumn .
+
+opl-xbrl:investmentsInSubsidiariesAtCostValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:priorPeriodAdjustmentsTreasurySharesValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:natureOfChangeInAnAccountingEstimateValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:provisionsTotalValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:renderingOfServicesByNatureValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:contingentLiabilitiesIncurredByVenturerInRelationToInterestsInJointVenturesValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-integer-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:conversionOfDebtToEquityHedgingReservesValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:incomeTaxExpenseIncomeValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:nonCancellableFutureMinimumLeasePaymentsLesseesTotalValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-integer-literal
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-datetime-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns12:hasProductId  a  owl:InverseFunctionalProperty .
+
+opl-xbrl:changesInShareOptionsInShareBasedPaymentArrangementTotalValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:changeInAccountingPolicyAffectingEquityMinorityInterestValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-longnvarchar-fixedlang-x-any-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:amountOfNonCurrentAssetsOfAssociateNotEquityAccountedValue
+        a       owl:FunctionalProperty .
+
+rdfdf:zeropart-uri  a  virtrdf:QuadMapFormat .
+
+opl-xbrl:revaluationIncreaseDecreaseRecognisedInEquityBuildingsValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:acquisitionsThroughBusinessCombinationsBiologicalAssetsWhereFairValueCannotBeMeasuredValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:receiptsFromInterestIncomeAndOtherSimilarReceiptsValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:availableForSaleFinancialAssetsCurrentValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:increaseDecreaseInNonCurrentAssetsAndDisposalGroupsHeldForSaleValue
+        a       owl:FunctionalProperty .
+
+rdfdf:multipart-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns13:coparticipatesWith
+        a       owl:SymmetricProperty .
+
+opl-xbrl:cashFlowHedgeGainsLossesTransferredToNonFinancialLiabilitiesHedgingReservesValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:movementsInProvisionsTotalValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:hedgingLiabilitiesInterestRateDerivativesNonCurrentValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-longnvarchar-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sinv-iid-nonblank-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:amountOfClassOfLiabilityExposedToRepricingScaleTotalValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:impairmentReversalRecognisedInIncomeStatementPropertyPlantAndEquipmentNetValue
+        a       owl:FunctionalProperty .
+
+rdfdf:zeropart-literal-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:carryingAmountOfFinancialAssetWherePresumptionThatFairValueCanBeReliablyMeasuredHasBeenOvercome
+        a       owl:FunctionalProperty .
+
+virtrdf:DefaultServiceMap-geo-conds
+        a       virtrdf:array-of-string .
+
+opl-xbrl:gainOnForeignCurrencyExchangeFromBorrowingsRelatingToInterestCostsValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:amountOfClassOfLiabilityExposedToContractualMaturitiesMaturingUpToOneMonthValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:explanationOfWhyFairValueCannotBeReliablyMeasuredWherePresumptionThatFairValueCanBeReliablyMeasuredHasBeenOvercome
+        a       owl:FunctionalProperty .
+
+opl-xbrl:descriptionOfClassOfFixedRateFinancialLiabilitiesExposedToInterestRateRiskValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:purchaseOfTreasurySharesTotalValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:transfersOfTreasurySharesTotalValue
+        a       owl:FunctionalProperty .
+
+foaf:openid  a  owl:InverseFunctionalProperty .
+
+virtrdf:DefaultServiceMap
+        a       virtrdf:QuadMap .
+
+opl-xbrl:deferredTaxAdjustmentRevaluationReservesValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:otherFinancialAssetsNonCurrentValue
+        a       owl:FunctionalProperty .
+
+rdfdf:zeropart-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:explanationOfCovenantsForFinancialInstrumentValue
+        a       owl:FunctionalProperty .
+
+rdfdf:default-iid-nonblank-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-nvarchar-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-longnvarchar-lang-nullable
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:retirementsInvestmentPropertyAtCostFairValueInformationUnreliableFairValueModelValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:depreciationMethodForOtherPropertyPlantAndEquipmentValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:changesInOptionReservesValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:amountOfEffectOfChangeInPlansToSellNonCurrentAssetOrDisposalGroupHeldForSaleOnResultsOfOperationsForPriorPeriodValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sinv-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:descriptionOrNatureOfDepartureFromIFRSValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:revaluationDeficitTransferredToIncomePropertyPlantAndEquipmentValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:lifeOrRateForOtherIdentifiableIntangibleAssetsValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:descriptionOfDiscontinuedOperationValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:interestIncomeFinancialAssetsDesignatedAsFairValueThroughProfitOrLossValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:additionsSoftwareValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-nvarchar-fixedlang-x-any
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:detailOfElementsReclassifiedValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-nvarchar-lang-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:amountDueFromToCustomersUnderConstructionContractsNetTotalValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:otherAssetsNonCurrentValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:amortisationMethodForSoftwareValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:deferredTaxAssetsPresentationValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:deferredTaxAdjustmentHedgingReservesValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-doubleprecision-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:DefaultServiceMap-P-col-P
+        a       virtrdf:QuadMapColumn .
+
+opl-xbrl:capitalReductionCapitalRedemptionReservesValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:classesOfFeesAndCommissionIncomePresentationValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:consolidatedLiabilitiesValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:cashFlowHedgeGainsLossesTransferredToNonFinancialLiabilitiesTotalValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:impairmentReversalsBiologicalAssetsWhereFairValueCannotBeMeasuredValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:equityReportedUnderIFRSValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:changesInTranslationReservesPresentationValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:presentValueOfMinimumLeasePaymentsFinanceLeasesPresentationValue
+        a       owl:FunctionalProperty .
+
+virtrdf:DefaultServiceMap-G
+        a       virtrdf:QuadMapValue .
+
+rdfdf:sql-numeric-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:descriptionOfTypeOfTemporaryDifferenceValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:equityIncreaseDecreaseResultingFromBusinessCombinationOptionReservesValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-varchar-lang-nullable
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:movementsInProvisionsPresentationValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-varchar-lang
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sinv  a   virtrdf:QuadMapFormat .
+
+virtrdf:DefaultServiceMap-S-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+rdfdf:sql-time-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:otherIncreaseDecreasePropertyPlantAndEquipmentNetValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-doubleprecision-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:natureOfRelatedPartyRelationship
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-longvarbinary-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultServiceStorage-UserMaps
+        a       virtrdf:array-of-QuadMap .
+
+opl-xbrl:balance  a  owl:FunctionalProperty .
+
+opl-xbrl:increaseFromTimeValueOfMoneyAdjustmentRestructuringProvisionValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:amountOfRecognisedLiabilityForTerminationBenefitsNonCurrentValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:fiduciaryActivityPolicyValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-time-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-varchar-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:descriptionOfChangeInReportingPeriodValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:nameOfUltimateParentEntityOfGroupValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:otherBorrowingsTotalValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:reclassificationOfFinancialInstrumentsFromEquityToLiabilitySharePremiumOrdinarySharesValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:amountOfClassOfAssetExposedToRepricingScaleMaturingFromThreeYearsToFourYearsValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:paymentsForCapitalisedDevelopmentCostsValue
+        a       owl:FunctionalProperty .
+
+rdfdf:singlepart-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:reclassificationOfFinancialInstrumentsFromEquityToLiabilityShareCapitalPreferenceSharesValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:financialLiabilitiesDesignatedAsFairValueThroughProfitOrLossNonCurrentValue
+        a       owl:FunctionalProperty .
+
+virtrdf:DefaultServiceMap-O-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+rdfdf:sinv-iid-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:detailsOfDefaultsAndBreachesValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-nvarchar-dt-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:deferredTaxLiabilitiesPresentationValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-longnvarchar-dt
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:decimals  a  owl:FunctionalProperty .
+
+opl-xbrl:changesInCapitalRedemptionReservesPresentationValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-nvarchar-fixedlang-x-any-nullable
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:currentAndNonCurrentPortionOfDeferredIncomePresentationValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-doubleprecision-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-doubleprecision-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultServiceMap-O-col-O
+        a       virtrdf:QuadMapColumn .
+
+rdfdf:sql-integer-nullable
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:saleOfTreasurySharesShareCapitalOrdinarySharesValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:purchaseOfTreasurySharesSharePremiumOrdinarySharesValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:softwareGrossValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:adjustmentsFromSubsequentRecognitionOfDeferredTaxAssetsGoodwillValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:classOfAssetsImpairedValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:classesOfDividendIncomePresentationValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-nvarchar-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:multipart-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:codeOfChangeInPlansToSellNonCurrentAssetOrDisposalGroupHeldForSaleValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:minorityInterestValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-nvarchar-lang-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultQuadMap-geo
+        a       virtrdf:QuadMapFText .
+
+opl-xbrl:nonCancellableFutureMinimumLeasePaymentsNotLaterThanOneYearLesseesValue
+        a       owl:FunctionalProperty .
+
+virtrdf:DefaultServiceMap-S
+        a       virtrdf:QuadMapValue .
+
+opl-xbrl:aggregateAmountOfItemsToReconcileEquityReportedUnderIFRSToOtherGAAPValue
+        a       owl:FunctionalProperty .
+
+rdfdf:zeropart-literal
+        a       virtrdf:QuadMapFormat .
+
+opl-xbrl:concentrationsOfOffBalanceSheetItemsByTypeOfIndustryValue
+        a       owl:FunctionalProperty .
+
+skos:related  a  owl:SymmetricProperty .
+
+rdfdf:multipart-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:detailOfDividendsInArrearsPreferenceSharesValue
+        a       owl:FunctionalProperty .
+
+virtrdf:DefaultQuadStorage-UserMaps
+        a       virtrdf:array-of-QuadMap .
+
+rdfdf:singlepart-literal-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+foaf:yahooChatID  a  owl:InverseFunctionalProperty .
+
+opl-xbrl:netAndGrossPortionsOfTradeAndOtherReceivablesPresentationValue
+        a       owl:FunctionalProperty .
+
+virtrdf:SyncToQuads-UserMaps
+        a       virtrdf:array-of-QuadMap .
+
+opl-xbrl:dateOfRecordForDividendProposedOrDeclaredButNotPaidOrdinarySharesValue
+        a       owl:FunctionalProperty .
+
+foaf:jabberID  a  owl:InverseFunctionalProperty .
+
+virtrdf:DefaultServiceMap-G-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+opl-xbrl:proportionOfItemsToWhichDifferentAccountingPoliciesAppliedValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-longvarchar-lang-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:explanationOfExistenceAndDetailsOfConversionOptionsOfFinancialInstrumentValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:methodsAndSignificantAssumptionsAppliedInDeterminingFairValueOfAgriculturalProduceValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:creditRiskDisclosuresValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:classesOfEmployeeExpensesPresentationValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:detailOfAcquisitionsValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:paymentsForOtherCapitalisedCostsValue
+        a       owl:FunctionalProperty .
+
+opl-xbrl:unallocatedCorporateExpensesValue
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-longvarchar-dt-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+opl-xbrl:minimumLeasePaymentsPayableLaterThanOneYearButLessThanFiveYearsInterestFinanceLeaseObligationsValue
+        a       owl:FunctionalProperty .

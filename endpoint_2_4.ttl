@@ -1,0 +1,2397 @@
+@prefix ns5:   <http://purl.obolibrary.org/obo/> .
+@prefix dwc:   <http://rs.tdwg.org/dwc/terms/> .
+@prefix rdfdf: <http://www.openlinksw.com/virtrdf-data-formats#> .
+@prefix ns7:   <http://linkedopencommerce.com/schemas/icecat/v1/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns9:   <http://aims.fao.org/aos/agrontology#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix ns11:  <http://rs.tdwg.org/ontology/voc/GeographicRegion#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix oplweb: <http://www.openlinksw.com/schemas/oplweb#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+ns5:VTO_0043106  a  owl:Class .
+
+rdfdf:sql-nvarchar-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+oplweb:ComponentArchiveResName
+        a       rdf:Property .
+
+ns5:VTO_0043152  a  owl:Class .
+
+owl:allValuesFrom  a  rdf:Property .
+
+dwc:habitat  a  rdf:Property .
+
+ns5:VTO_0043373  a  owl:Class .
+
+owl:disjointWith  a  rdf:Property .
+
+ns5:RO_0002213  a  owl:TransitiveProperty .
+
+ns5:VTO_0042864  a  owl:Class .
+
+ns5:RO_0000301  a  owl:TransitiveProperty .
+
+dwc:originalNameUsage
+        a       rdf:Property .
+
+dwc:formation  a  rdf:Property .
+
+ns5:RO_0002434  a  owl:SymmetricProperty .
+
+dwc:geodeticDatum  a  rdf:Property .
+
+oplweb:ComponentBuildDate
+        a       rdf:Property .
+
+virtrdf:DefaultQuadMap-O
+        a       virtrdf:QuadMapValue .
+
+ns5:VTO_0042832  a  owl:Class .
+
+oplweb:OpsysFamilyVendor
+        a       rdf:Property .
+
+rdfdf:sql-nvarchar-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dwc:island  a   rdf:Property .
+
+oplweb:OpsysFamilyLicenseCode
+        a       rdf:Property .
+
+ns5:VTO_0043018  a  owl:Class .
+
+rdfdf:sql-doubleprecision-nullable
+        a       virtrdf:QuadMapFormat .
+
+owl:equivalentProperty
+        a       rdf:Property .
+
+ns9:hasSynonym  a  owl:SymmetricProperty .
+
+ns5:RO_0002157  a  owl:TransitiveProperty .
+
+ns5:VTO_0043239  a  owl:Class .
+
+ns5:VTO_0043032  a  owl:Class .
+
+oplweb:VendorCategoryDescription
+        a       rdf:Property .
+
+rdfs:domain  a  rdf:Property .
+
+ns5:VTO_0043207  a  owl:Class .
+
+virtrdf:DefaultServiceMap-G-col-G
+        a       virtrdf:QuadMapColumn .
+
+rdfdf:sql-varchar-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+oplweb:maker  a  rdf:Property .
+
+rdfdf:sql-datetime-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns5:VTO_0042997  a  owl:Class .
+
+ns5:VTO_0042744  a  owl:Class .
+
+rdfdf:sql-date-literal
+        a       virtrdf:QuadMapFormat .
+
+dwc:relationshipAccordingTo
+        a       rdf:Property .
+
+rdfdf:sinv-iid-nonblank-nullable
+        a       virtrdf:QuadMapFormat .
+
+dwc:georeferenceRemarks
+        a       rdf:Property .
+
+ns5:VTO_0043221  a  owl:Class .
+
+rdfdf:sql-nvarchar-dt
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:DefaultQuadStorage
+        a       virtrdf:QuadStorage .
+
+dwc:decimalLongitude  a  rdf:Property .
+
+oplweb:ProtocolActive
+        a       rdf:Property .
+
+oplweb:ProcessorName  a  rdf:Property .
+
+dwc:relationshipOfResource
+        a       rdf:Property .
+
+rdfdf:sql-varchar-fixedlang-x-any-nullable
+        a       virtrdf:QuadMapFormat .
+
+oplweb:OpsysTypeShortDescription
+        a       rdf:Property .
+
+dwc:measurementDeterminedDate
+        a       rdf:Property .
+
+oplweb:OpsysVersion  a  rdf:Property .
+
+dwc:maximumDistanceAboveSurfaceInMeters
+        a       rdf:Property .
+
+rdfdf:sql-varchar-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dwc:recordNumber  a  rdf:Property .
+
+oplweb:ProductId  a  rdf:Property .
+
+ns5:VTO_0043165  a  owl:Class .
+
+ns5:VTO_0042901  a  owl:Class .
+
+rdfdf:sql-numeric-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:singlepart-literal-fn-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns5:VTO_0043133  a  owl:Class .
+
+rdfdf:zeropart-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns5:VTO_0043101  a  owl:Class .
+
+ns5:VTO_0042891  a  owl:Class .
+
+oplweb:ComponentArchiveName
+        a       rdf:Property .
+
+ns5:VTO_0043077  a  owl:Class .
+
+rdfdf:sql-longvarchar-dt
+        a       virtrdf:QuadMapFormat .
+
+oplweb:isDescribedUsing
+        a       rdf:Property .
+
+rdfdf:sql-longvarchar
+        a       virtrdf:QuadMapFormat .
+
+ns5:VTO_0043045  a  owl:Class .
+
+ns5:VTO_0042789  a  owl:Class .
+
+ns5:VTO_0043091  a  owl:Class .
+
+rdfdf:sinv-nullable  a  virtrdf:QuadMapFormat .
+
+dwc:genus  a    rdf:Property .
+
+rdfdf:sql-date-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns5:VTO_0043234  a  owl:Class .
+
+ns5:VTO_0042978  a  owl:Class .
+
+ns5:VTO_0043280  a  owl:Class .
+
+ns5:VTO_0042946  a  owl:Class .
+
+oplweb:ComponentComponentType
+        a       rdf:Property .
+
+oplweb:unitValue  a  rdf:Property .
+
+ns5:RO_0002516  a  owl:TransitiveProperty .
+
+dwc:scientificNameAuthorship
+        a       rdf:Property .
+
+ns5:VTO_0043178  a  owl:Class .
+
+rdfdf:sql-date-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-integer-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sinv-iid-nonblank-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-numeric-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+ns5:VTO_0042960  a  owl:Class .
+
+virtrdf:SyncToQuads  a  virtrdf:QuadStorage .
+
+ns5:VTO_0043146  a  owl:Class .
+
+dwc:occurrenceStatus  a  rdf:Property .
+
+dwc:fieldNotes  a  rdf:Property .
+
+rdfdf:default-iid  a  virtrdf:QuadMapFormat .
+
+oplweb:PriceUnit  a  rdf:Property .
+
+owl:equivalentClass  a  rdf:Property .
+
+ns5:VTO_0043192  a  owl:Class .
+
+rdfdf:sql-longnvarchar-fixedlang-x-any
+        a       virtrdf:QuadMapFormat .
+
+dwc:typeStatus  a  rdf:Property .
+
+ns9:hasCodeAsc  a  owl:FunctionalProperty .
+
+ns5:VTO_0043114  a  owl:Class .
+
+ns5:VTO_0042683  a  owl:Class .
+
+dwc:minimumDistanceAboveSurfaceInMeters
+        a       rdf:Property .
+
+rdfdf:sql-longvarbinary-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns5:VTO_0042858  a  owl:Class .
+
+ns5:VTO_0043160  a  owl:Class .
+
+dwc:parentNameUsageID
+        a       rdf:Property .
+
+oplweb:OpsysUpwardCompatible
+        a       rdf:Property .
+
+rdfdf:sql-nvarchar-lang
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:zeropart-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longnvarchar-lang
+        a       virtrdf:QuadMapFormat .
+
+ns5:VTO_0043058  a  owl:Class .
+
+oplweb:OpsysFamilyName
+        a       rdf:Property .
+
+rdfdf:sql-numeric-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+oplweb:ProductReleaseDbms
+        a       rdf:Property .
+
+virtrdf:DefaultServiceMap-ft-conds
+        a       virtrdf:array-of-string .
+
+oplweb:isOfFormat  a  rdf:Property .
+
+oplweb:ProductBenefitsCategoryDescription
+        a       rdf:Property .
+
+ns5:VTO_0043247  a  owl:Class .
+
+ns9:hasCodeFishery3Alpha
+        a       owl:FunctionalProperty .
+
+ns5:VTO_0042738  a  owl:Class .
+
+rdfdf:sql-longvarbinary
+        a       virtrdf:QuadMapFormat .
+
+oplweb:ProtocolName  a  rdf:Property .
+
+ns9:developsFrom  a  owl:TransitiveProperty .
+
+ns5:VTO_0042959  a  owl:Class .
+
+ns5:VTO_0043261  a  owl:Class .
+
+oplweb:hasGeneralDiscount
+        a       rdf:Property .
+
+ns5:RO_0002529  a  owl:TransitiveProperty .
+
+dwc:municipality  a  rdf:Property .
+
+ns5:VTO_0042752  a  owl:Class .
+
+rdfdf:singlepart-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:DefaultServiceMap-ft
+        a       virtrdf:QuadMapFText .
+
+ns5:VTO_0043404  a  owl:Class .
+
+rdfdf:sql-varchar-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-varchar-dt-nullable
+        a       virtrdf:QuadMapFormat .
+
+dwc:measurementType  a  rdf:Property .
+
+oplweb:isForOpsys  a  rdf:Property .
+
+rdfdf:sql-integer-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns5:VTO_0043159  a  owl:Class .
+
+oplweb:HypesPerSecond
+        a       rdf:Property .
+
+rdfdf:sql-datetime-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns5:VTO_0042941  a  owl:Class .
+
+oplweb:ComponentArchiveTypeExtension
+        a       rdf:Property .
+
+dwc:organismQuantity  a  rdf:Property .
+
+rdfdf:sql-varchar-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-date-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+oplweb:DbmsFamilyName
+        a       rdf:Property .
+
+ns5:VTO_0043173  a  owl:Class .
+
+oplweb:hasFeature  a  rdf:Property .
+
+ns5:VTO_0043348  a  owl:Class .
+
+rdfdf:sql-datetime-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+ns5:RO_0002409  a  owl:TransitiveProperty .
+
+oplweb:OpsysName  a  rdf:Property .
+
+dwc:measurementID  a  rdf:Property .
+
+ns5:VTO_0042807  a  owl:Class .
+
+ns5:VTO_0043362  a  owl:Class .
+
+ns5:RO_0002202  a  owl:TransitiveProperty .
+
+dwc:identificationRemarks
+        a       rdf:Property .
+
+rdfdf:sql-time  a  virtrdf:QuadMapFormat .
+
+ns5:VTO_0042853  a  owl:Class .
+
+rdfdf:sql-longnvarchar-dt-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-time-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns5:VTO_0043330  a  owl:Class .
+
+dwc:measurementAccuracy
+        a       rdf:Property .
+
+oplweb:ProductReleaseId
+        a       rdf:Property .
+
+oplweb:DbmsFamilyVendor
+        a       rdf:Property .
+
+rdfdf:sql-time-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns5:VTO_0043007  a  owl:Class .
+
+dwc:fieldNumber  a  rdf:Property .
+
+ns5:VTO_0042797  a  owl:Class .
+
+rdfdf:zeropart-uri-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dwc:organismID  a  rdf:Property .
+
+rdfdf:sql-varchar-fixedlang-x-any-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dwc:associatedReferences
+        a       rdf:Property .
+
+oplweb:ComponentArchiveAssemblyDate
+        a       rdf:Property .
+
+ns5:VTO_0043242  a  owl:Class .
+
+rdfdf:sql-numeric-literal
+        a       virtrdf:QuadMapFormat .
+
+ns5:VTO_0042986  a  owl:Class .
+
+virtrdf:DefaultQuadMap-S-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+ns5:VTO_0043210  a  owl:Class .
+
+virtrdf:DefaultServiceMap-geo
+        a       virtrdf:QuadMapFText .
+
+ns5:RO_0002524  a  owl:TransitiveProperty .
+
+ns5:RO_0008506  a  owl:SymmetricProperty .
+
+oplweb:sameAs  a  rdf:Property .
+
+rdfdf:sql-doubleprecision-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:singlepart-uri-fn-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns5:VTO_0043154  a  owl:Class .
+
+dwc:relationshipEstablishedDate
+        a       rdf:Property .
+
+dwc:occurrenceID  a  rdf:Property .
+
+ns5:VTO_0042866  a  owl:Class .
+
+dwc:earliestEonOrLowestEonothem
+        a       rdf:Property .
+
+dwc:sampleSizeValue  a  rdf:Property .
+
+ns5:RO_0002436  a  owl:SymmetricProperty .
+
+dwc:taxonID  a  rdf:Property .
+
+virtrdf:DefaultQuadMap-O-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+ns5:VTO_0042834  a  owl:Class .
+
+dwc:disposition  a  rdf:Property .
+
+dwc:county  a   rdf:Property .
+
+oplweb:ComponentCategoryShortDescription
+        a       rdf:Property .
+
+rdfdf:default  a  virtrdf:QuadMapFormat .
+
+ns5:VTO_0042880  a  owl:Class .
+
+dwc:latestAgeOrHighestStage
+        a       rdf:Property .
+
+ns5:VTO_0043066  a  owl:Class .
+
+ns5:RO_0002159  a  owl:SymmetricProperty , owl:TransitiveProperty .
+
+rdfdf:sql-longnvarchar-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sinv-iid  a  virtrdf:QuadMapFormat .
+
+rdfdf:sql-nvarchar-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-integer-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-numeric-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+ns5:VTO_0043034  a  owl:Class .
+
+dwc:phylum  a   rdf:Property .
+
+virtrdf:DefaultServiceMap-P
+        a       virtrdf:QuadMapValue .
+
+ns5:VTO_0043209  a  owl:Class .
+
+ns5:VTO_0043080  a  owl:Class .
+
+ns5:VTO_0043255  a  owl:Class .
+
+dwc:latestPeriodOrHighestSystem
+        a       rdf:Property .
+
+ns5:VTO_0043002  a  owl:Class .
+
+ns5:VTO_0042999  a  owl:Class .
+
+rdfdf:sql-varchar-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns5:VTO_0042746  a  owl:Class .
+
+ns5:VTO_0042792  a  owl:Class .
+
+rdfdf:sql-integer-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-varchar-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-numeric-uri
+        a       virtrdf:QuadMapFormat .
+
+owl:unionOf  a  rdf:Property .
+
+dwc:earliestAgeOrLowestStage
+        a       rdf:Property .
+
+rdfs:seeAlso  a  rdf:Property .
+
+ns5:RO_0002085  a  owl:TransitiveProperty .
+
+rdfdf:sql-nvarchar-uri
+        a       virtrdf:QuadMapFormat .
+
+ns5:VTO_0042903  a  owl:Class .
+
+ns5:VTO_0043167  a  owl:Class .
+
+oplweb:VendorName  a  rdf:Property .
+
+rdfdf:sql-doubleprecision-literal
+        a       virtrdf:QuadMapFormat .
+
+dwc:scientificName  a  rdf:Property .
+
+rdfdf:sql-datetime-literal
+        a       virtrdf:QuadMapFormat .
+
+ns5:VTO_0043135  a  owl:Class .
+
+ns5:VTO_0042879  a  owl:Class .
+
+dwc:lowestBiostratigraphicZone
+        a       rdf:Property .
+
+rdfdf:sql-date-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+oplweb:DomainName  a  rdf:Property .
+
+ns5:VTO_0043103  a  owl:Class .
+
+rdfdf:sql-datetime  a  virtrdf:QuadMapFormat .
+
+virtrdf:DefaultQuadMap-pquad
+        a       virtrdf:QuadMapATable .
+
+rdfdf:sql-datetime-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns5:VTO_0043324  a  owl:Class .
+
+rdfdf:sql-nvarchar-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns5:VTO_0043079  a  owl:Class .
+
+dwc:month  a    rdf:Property .
+
+ns5:VTO_0043370  a  owl:Class .
+
+rdfdf:sql-longvarchar-lang-nullable
+        a       virtrdf:QuadMapFormat .
+
+owl:priorVersion  a  rdf:Property .
+
+dwc:pointRadiusSpatialFit
+        a       rdf:Property .
+
+rdfdf:singlepart-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns5:VTO_0043061  a  owl:Class .
+
+oplweb:DatabaseFamiles
+        a       rdf:Property .
+
+oplweb:Description  a  rdf:Property .
+
+rdfs:isDefinedBy  a  rdf:Property .
+
+ns5:VTO_0042948  a  owl:Class .
+
+ns5:RO_0002518  a  owl:TransitiveProperty .
+
+rdfdf:sql-nvarchar-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dwc:latestEonOrHighestEonothem
+        a       rdf:Property .
+
+rdfdf:zeropart-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns5:VTO_0042962  a  owl:Class .
+
+virtrdf:DefaultServiceMap-pquad
+        a       virtrdf:QuadMapATable .
+
+dwc:materialSampleID  a  rdf:Property .
+
+rdfdf:default-nullable
+        a       virtrdf:QuadMapFormat .
+
+oplweb:DbmsUpwardCompatible
+        a       rdf:Property .
+
+ns5:VTO_0043194  a  owl:Class .
+
+ns5:VTO_0043369  a  owl:Class .
+
+ns5:VTO_0043162  a  owl:Class .
+
+dwc:reproductiveCondition
+        a       rdf:Property .
+
+dwc:individualCount  a  rdf:Property .
+
+ns5:VTO_0043383  a  owl:Class .
+
+ns5:VTO_0043130  a  owl:Class .
+
+ns5:VTO_0043305  a  owl:Class .
+
+dwc:basisOfRecord  a  rdf:Property .
+
+ns5:VTO_0042842  a  owl:Class .
+
+rdfdf:sql-varchar-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns5:VTO_0043028  a  owl:Class .
+
+rdfdf:sql-date  a  virtrdf:QuadMapFormat .
+
+ns5:VTO_0043074  a  owl:Class .
+
+rdfs:subPropertyOf  a  rdf:Property .
+
+owl:imports  a  rdf:Property .
+
+oplweb:DbmsVersion  a  rdf:Property .
+
+rdfdf:sql-nvarchar-literal
+        a       virtrdf:QuadMapFormat .
+
+dwc:georeferenceVerificationStatus
+        a       rdf:Property .
+
+rdfdf:multipart-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns5:VTO_0043042  a  owl:Class .
+
+ns5:VTO_0042786  a  owl:Class .
+
+virtrdf:DefaultQuadMap-G
+        a       virtrdf:QuadMapValue .
+
+dwc:higherGeographyID
+        a       rdf:Property .
+
+rdfdf:default-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns5:VTO_0043010  a  owl:Class .
+
+dwc:associatedMedia  a  rdf:Property .
+
+oplweb:includesObject
+        a       rdf:Property .
+
+ns5:VTO_0043231  a  owl:Class .
+
+dwc:earliestEpochOrLowestSeries
+        a       rdf:Property .
+
+ns5:VTO_0042975  a  owl:Class .
+
+rdfdf:zeropart-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-date-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns5:VTO_0042943  a  owl:Class .
+
+rdfdf:sql-varchar-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+ns9:spatialRelationships
+        a       owl:SymmetricProperty .
+
+rdfdf:sql-varchar-literal
+        a       virtrdf:QuadMapFormat .
+
+ns5:VTO_0043143  a  owl:Class .
+
+ns5:VTO_0042887  a  owl:Class .
+
+rdfdf:sql-varchar-dt-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-numeric-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns5:VTO_0043111  a  owl:Class .
+
+ns5:VTO_0042855  a  owl:Class .
+
+owl:Nothing  a  owl:Class .
+
+rdfdf:sql-time-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+dwc:nameAccordingToID
+        a       rdf:Property .
+
+ns5:VTO_0043009  a  owl:Class .
+
+rdfdf:multipart-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+oplweb:ProductFormatLongDescription
+        a       rdf:Property .
+
+ns5:VTO_0042799  a  owl:Class .
+
+rdfdf:sql-nvarchar-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-numeric-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+oplweb:isProductFormat
+        a       rdf:Property .
+
+dwc:organismRemarks  a  rdf:Property .
+
+oplweb:ComponentArchiveFileUri
+        a       rdf:Property .
+
+oplweb:ProcessorFamilyDescription
+        a       rdf:Property .
+
+ns5:VTO_0042988  a  owl:Class .
+
+dwc:kingdom  a  rdf:Property .
+
+rdfdf:multipart-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns5:VTO_0042956  a  owl:Class .
+
+ns5:RO_0002526  a  owl:SymmetricProperty .
+
+owl:differentFrom  a  rdf:Property .
+
+dwc:measurementDeterminedBy
+        a       rdf:Property .
+
+dwc:associatedSequences
+        a       rdf:Property .
+
+rdfdf:sql-date-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-date-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+ns5:VTO_0043401  a  owl:Class .
+
+dwc:resourceRelationshipID
+        a       rdf:Property .
+
+ns5:VTO_0043156  a  owl:Class .
+
+ns5:VTO_0043377  a  owl:Class .
+
+ns5:VTO_0042868  a  owl:Class .
+
+rdfs:subClassOf  a  rdf:Property .
+
+rdfdf:sql-numeric-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dwc:preparations  a  rdf:Property .
+
+dwc:lifeStage  a  rdf:Property .
+
+ns9:hasTermType  a  owl:FunctionalProperty .
+
+virtrdf:DefaultQuadMap-S
+        a       virtrdf:QuadMapValue .
+
+rdfdf:sql-longnvarchar
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longvarchar-lang
+        a       virtrdf:QuadMapFormat .
+
+oplweb:PartnerName  a  rdf:Property .
+
+ns11:isPartOf  a  owl:TransitiveProperty .
+
+ns5:VTO_0042882  a  owl:Class .
+
+dwc:associatedOrganisms
+        a       rdf:Property .
+
+ns5:VTO_0042804  a  owl:Class .
+
+oplweb:Notes  a  rdf:Property .
+
+ns5:VTO_0042306  a  owl:Class .
+
+dwc:identificationQualifier
+        a       rdf:Property .
+
+rdfdf:sql-varchar-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dwc:otherCatalogNumbers
+        a       rdf:Property .
+
+rdfdf:sql-longnvarchar-dt-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns5:VTO_0043082  a  owl:Class .
+
+rdfdf:sql-varchar-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns5:VTO_0042748  a  owl:Class .
+
+rdfdf:sql-nvarchar  a  virtrdf:QuadMapFormat .
+
+dwc:lithostratigraphicTerms
+        a       rdf:Property .
+
+virtrdf:DefaultServiceMap-P-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+rdfdf:sql-longvarchar-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns5:VTO_0043225  a  owl:Class .
+
+ns9:developsInto  a  owl:TransitiveProperty .
+
+oplweb:homepage  a  rdf:Property .
+
+ns5:VTO_0042969  a  owl:Class .
+
+dwc:parentNameUsage  a  rdf:Property .
+
+oplweb:ComponentDbmsEngine
+        a       rdf:Property .
+
+dwc:footprintWKT  a  rdf:Property .
+
+dwc:accordingTo  a  rdf:Property .
+
+ns5:VTO_0042937  a  owl:Class .
+
+dwc:samplingEffort  a  rdf:Property .
+
+rdfdf:sql-integer-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+oplweb:PortNumber  a  rdf:Property .
+
+dwc:eventTime  a  rdf:Property .
+
+ns5:VTO_0042905  a  owl:Class .
+
+ns5:VTO_0043169  a  owl:Class .
+
+rdfdf:sql-doubleprecision-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dwc:subgenus  a  rdf:Property .
+
+rdfdf:sql-nvarchar-fixedlang-x-any-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dwc:verbatimTaxonRank
+        a       rdf:Property .
+
+oplweb:ProductCategoryDescription
+        a       rdf:Property .
+
+ns5:VTO_0043137  a  owl:Class .
+
+ns5:RO_0002521  a  owl:SymmetricProperty .
+
+dwc:taxonRank  a  rdf:Property .
+
+ns5:VTO_0043358  a  owl:Class .
+
+oplweb:ComponentComponentCategory
+        a       rdf:Property .
+
+ns5:VTO_0043105  a  owl:Class .
+
+oplweb:ComponentCvsid
+        a       rdf:Property .
+
+rdfdf:sql-integer-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns5:VTO_0043151  a  owl:Class .
+
+dwc:identificationVerificationStatus
+        a       rdf:Property .
+
+rdfdf:sql-datetime-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns5:VTO_0043326  a  owl:Class .
+
+dwc:measurementValue  a  rdf:Property .
+
+dwc:coordinateUncertaintyInMeters
+        a       rdf:Property .
+
+oplweb:hasCurrencyValue
+        a       rdf:Property .
+
+ns5:VTO_0043372  a  owl:Class .
+
+oplweb:hasUnitOfMeasure
+        a       rdf:Property .
+
+ns5:RO_0000300  a  owl:TransitiveProperty .
+
+rdfdf:sql-numeric-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns5:VTO_0042831  a  owl:Class .
+
+dwc:earliestPeriodOrLowestSystem
+        a       rdf:Property .
+
+virtrdf:DefaultQuadMap-ft
+        a       virtrdf:QuadMapFText .
+
+ns5:VTO_0043017  a  owl:Class .
+
+ns5:VTO_0043063  a  owl:Class .
+
+ns5:RO_0002156  a  owl:TransitiveProperty .
+
+ns5:VTO_0043238  a  owl:Class .
+
+oplweb:ComponentArchiveTypeName
+        a       rdf:Property .
+
+dwc:waterBody  a  rdf:Property .
+
+rdfdf:sql-varchar-lang-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sinv-iid-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dwc:decimalLatitude  a  rdf:Property .
+
+ns9:hasAntonym  a  owl:SymmetricProperty .
+
+rdfdf:sql-time-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-doubleprecision-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+oplweb:startDate  a  rdf:Property .
+
+oplweb:ProcessorProcessorMode
+        a       rdf:Property .
+
+ns5:VTO_0042711  a  owl:Class .
+
+virtrdf:DefaultQuadMap-atables
+        a       virtrdf:array-of-QuadMapATable .
+
+ns5:VTO_0043118  a  owl:Class .
+
+ns9:spellingVariant  a  owl:SymmetricProperty .
+
+ns5:VTO_0042900  a  owl:Class .
+
+ns5:VTO_0043164  a  owl:Class .
+
+rdfdf:sql-longvarchar-fixedlang-x-any-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:default-iid-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:multipart-uri  a  virtrdf:QuadMapFormat .
+
+oplweb:Filesize  a  rdf:Property .
+
+ns5:VTO_0042876  a  owl:Class .
+
+rdfdf:sql-integer-uri
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longvarchar-fixedlang-x-any
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-date-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-integer-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+ns5:VTO_0043100  a  owl:Class .
+
+rdfdf:sql-longvarbinary-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns5:VTO_0042890  a  owl:Class .
+
+oplweb:isOfOpsysType  a  rdf:Property .
+
+ns5:RO_0002414  a  owl:TransitiveProperty .
+
+dwc:datasetName  a  rdf:Property .
+
+virtrdf:DefaultQuadMap-S-col-S
+        a       virtrdf:QuadMapColumn .
+
+oplweb:Details  a  rdf:Property .
+
+dwc:relatedResourceID
+        a       rdf:Property .
+
+ns5:VTO_0043012  a  owl:Class .
+
+rdfdf:sql-date-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:zeropart-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-varchar-fixedlang-x-any
+        a       virtrdf:QuadMapFormat .
+
+ns5:VTO_0043233  a  owl:Class .
+
+owl:intersectionOf  a  rdf:Property .
+
+rdfdf:sql-longvarchar-nullable
+        a       virtrdf:QuadMapFormat .
+
+oplweb:maxUnits  a  rdf:Property .
+
+oplweb:ComponentArchiveTypeShortName
+        a       rdf:Property .
+
+oplweb:amountOfThisGood
+        a       rdf:Property .
+
+rdfdf:sql-longnvarchar-fixedlang-x-any-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns5:VTO_0042945  a  owl:Class .
+
+oplweb:OpsysProcessor
+        a       rdf:Property .
+
+rdfdf:sql-nvarchar-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns5:VTO_0042991  a  owl:Class .
+
+ns9:temporalRelationship
+        a       owl:SymmetricProperty .
+
+ns5:VTO_0043177  a  owl:Class .
+
+oplweb:ComponentTypeDescription
+        a       rdf:Property .
+
+ns5:VTO_0043145  a  owl:Class .
+
+dwc:namePublishedInID
+        a       rdf:Property .
+
+ns5:VTO_0042889  a  owl:Class .
+
+oplweb:label  a  rdf:Property .
+
+ns5:VTO_0043191  a  owl:Class .
+
+rdfdf:sql-numeric-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns5:VTO_0043113  a  owl:Class .
+
+ns5:VTO_0042857  a  owl:Class .
+
+rdfdf:sql-doubleprecision
+        a       virtrdf:QuadMapFormat .
+
+oplweb:codeWord  a  rdf:Property .
+
+rdfdf:sql-nvarchar-fixedlang-x-any-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns5:RO_0002427  a  owl:TransitiveProperty .
+
+oplweb:ProcessorFamilyName
+        a       rdf:Property .
+
+ns5:VTO_0043302  a  owl:Class .
+
+rdfdf:sql-integer  a  virtrdf:QuadMapFormat .
+
+rdfdf:sql-datetime-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+dwc:associatedOccurrences
+        a       rdf:Property .
+
+ns5:VTO_0043278  a  owl:Class .
+
+rdfdf:sql-longvarchar-dt-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+oplweb:OpsysCommercialName
+        a       rdf:Property .
+
+rdfdf:sql-integer-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns5:VTO_0043071  a  owl:Class .
+
+dwc:family  a   rdf:Property .
+
+dwc:verbatimCoordinateSystem
+        a       rdf:Property .
+
+ns5:VTO_0043246  a  owl:Class .
+
+rdfdf:sinv-iid-nonblank
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-time-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns5:VTO_0042737  a  owl:Class .
+
+dwc:measurementRemarks
+        a       rdf:Property .
+
+ns5:VTO_0042958  a  owl:Class .
+
+dwc:sampleSizeUnit  a  rdf:Property .
+
+ns5:VTO_0043260  a  owl:Class .
+
+oplweb:ComponentArchiveResFileSize
+        a       rdf:Property .
+
+ns5:RO_0002528  a  owl:TransitiveProperty .
+
+dwc:originalNameUsageID
+        a       rdf:Property .
+
+oplweb:endDate  a  rdf:Property .
+
+dwc:organismName  a  rdf:Property .
+
+dwc:verbatimEventDate
+        a       rdf:Property .
+
+rdfdf:sql-varchar-dt-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns5:VTO_0043403  a  owl:Class .
+
+rdfdf:default-iid-nonblank-nullable
+        a       virtrdf:QuadMapFormat .
+
+dwc:maximumElevationInMeters
+        a       rdf:Property .
+
+ns5:VTO_0043158  a  owl:Class .
+
+rdfdf:sinv-iid-nullable
+        a       virtrdf:QuadMapFormat .
+
+dwc:eventDate  a  rdf:Property .
+
+oplweb:typeOfGood  a  rdf:Property .
+
+dwc:group  a    rdf:Property .
+
+rdfdf:sql-numeric  a  virtrdf:QuadMapFormat .
+
+dwc:previousIdentifications
+        a       rdf:Property .
+
+dwc:highestBiostratigraphicZone
+        a       rdf:Property .
+
+dwc:taxonRemarks  a  rdf:Property .
+
+dwc:recordedBy  a  rdf:Property .
+
+oplweb:hasIncrementalDiscount
+        a       rdf:Property .
+
+dwc:earliestEraOrLowestErathem
+        a       rdf:Property .
+
+dwc:parentEventID  a  rdf:Property .
+
+dwc:startDayOfYear  a  rdf:Property .
+
+dwc:country  a  rdf:Property .
+
+oplweb:BaseCostUnit  a  rdf:Property .
+
+ns5:VTO_0043315  a  owl:Class .
+
+owl:minCardinality  a  rdf:Property .
+
+rdfdf:default-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+oplweb:ComponentModeShortDescription
+        a       rdf:Property .
+
+rdfdf:sql-varchar-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns5:VTO_0042806  a  owl:Class .
+
+oplweb:ProductFormatCode
+        a       rdf:Property .
+
+rdfdf:sql-longvarchar-dt-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:multipart-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns5:RO_0002201  a  owl:FunctionalProperty .
+
+oplweb:Processors  a  rdf:Property .
+
+rdfdf:sql-longnvarchar-nullable
+        a       virtrdf:QuadMapFormat .
+
+dwc:verbatimDepth  a  rdf:Property .
+
+oplweb:ComponentModeDescription
+        a       rdf:Property .
+
+dwc:acceptedNameUsageID
+        a       rdf:Property .
+
+ns9:hasCodeTaxonomic  a  owl:FunctionalProperty .
+
+ns5:VTO_0043084  a  owl:Class .
+
+oplweb:ComponentArchiveResFullPath
+        a       rdf:Property .
+
+oplweb:ProductFamilyDescription
+        a       rdf:Property .
+
+ns5:VTO_0043259  a  owl:Class .
+
+ns5:VTO_0043006  a  owl:Class .
+
+oplweb:percentageOfBase
+        a       rdf:Property .
+
+rdfdf:sql-datetime-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns5:VTO_0043227  a  owl:Class .
+
+rdfs:label  a   rdf:Property .
+
+oplweb:ProtocolDescription
+        a       rdf:Property .
+
+ns5:VTO_0042718  a  owl:Class .
+
+ns5:VTO_0043273  a  owl:Class .
+
+ns5:VTO_0043020  a  owl:Class .
+
+oplweb:ProductCategoryCode
+        a       rdf:Property .
+
+rdfdf:sql-doubleprecision-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+dwc:measurementMethod
+        a       rdf:Property .
+
+rdfdf:sql-doubleprecision-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dwc:associatedTaxa  a  rdf:Property .
+
+ns5:RO_0002334  a  owl:TransitiveProperty .
+
+dwc:establishmentMeans
+        a       rdf:Property .
+
+ns5:VTO_0042907  a  owl:Class .
+
+rdfdf:sql-numeric-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns5:VTO_0043139  a  owl:Class .
+
+ns5:RO_0002523  a  owl:TransitiveProperty .
+
+oplweb:name  a  rdf:Property .
+
+oplweb:ProductReleaseOpsys
+        a       rdf:Property .
+
+ns5:RO_0002025  a  owl:FunctionalProperty .
+
+dwc:collectionCode  a  rdf:Property .
+
+ns5:VTO_0043153  a  owl:Class .
+
+rdfdf:singlepart-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+dwc:identificationReferences
+        a       rdf:Property .
+
+dwc:latestEraOrHighestErathem
+        a       rdf:Property .
+
+ns5:RO_0002435  a  owl:SymmetricProperty .
+
+ns5:RO_0000302  a  owl:TransitiveProperty .
+
+rdfdf:sql-nvarchar-dt-nullable
+        a       virtrdf:QuadMapFormat .
+
+dwc:higherClassification
+        a       rdf:Property .
+
+oplweb:ComponentComponentMode
+        a       rdf:Property .
+
+oplweb:ProductReleaseUpwardCompatible
+        a       rdf:Property .
+
+oplweb:isOfOpsysFamily
+        a       rdf:Property .
+
+virtrdf:DefaultQuadMap-P
+        a       virtrdf:QuadMapValue .
+
+ns5:VTO_0043342  a  owl:Class .
+
+owl:maxCardinality  a  rdf:Property .
+
+rdfdf:sql-nvarchar-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-varchar-uri
+        a       virtrdf:QuadMapFormat .
+
+ns5:VTO_0043019  a  owl:Class .
+
+ns5:RO_0002158  a  owl:SymmetricProperty , owl:TransitiveProperty .
+
+dwc:verbatimCoordinates
+        a       rdf:Property .
+
+rdfdf:sql-integer-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+dwc:informationWithheld
+        a       rdf:Property .
+
+rdfdf:sql-longnvarchar-lang-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns5:VTO_0043065  a  owl:Class .
+
+ns9:hasNearSynonym  a  owl:SymmetricProperty .
+
+rdfdf:sql-time-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+oplweb:DbmsName  a  rdf:Property .
+
+rdfdf:sql-datetime-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dwc:coordinatePrecision
+        a       rdf:Property .
+
+virtrdf:DefaultQuadMap
+        a       virtrdf:QuadMap .
+
+virtrdf:DefaultServiceMap-O
+        a       virtrdf:QuadMapValue .
+
+ns5:VTO_0043208  a  owl:Class .
+
+rdfdf:default-iid-nonblank-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+oplweb:ProductCategoryLongDescription
+        a       rdf:Property .
+
+oplweb:isOfCategory  a  rdf:Property .
+
+ns5:VTO_0043001  a  owl:Class .
+
+rdfdf:sql-integer-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns5:VTO_0042745  a  owl:Class .
+
+oplweb:OpsysDownwardCompatible
+        a       rdf:Property .
+
+ns5:VTO_0042791  a  owl:Class .
+
+ns5:VTO_0043222  a  owl:Class .
+
+oplweb:ProductReleaseDownwardCompatible
+        a       rdf:Property .
+
+ns5:VTO_0042966  a  owl:Class .
+
+oplweb:isOfVendorCategory
+        a       rdf:Property .
+
+owl:oneOf  a    rdf:Property .
+
+rdfdf:default-iid-nonblank
+        a       virtrdf:QuadMapFormat .
+
+ns5:VTO_0042980  a  owl:Class .
+
+dwc:collectionID  a  rdf:Property .
+
+rdfdf:sql-time-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+ns5:VTO_0042902  a  owl:Class .
+
+ns5:VTO_0043166  a  owl:Class .
+
+rdfdf:default-iid-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns5:VTO_0043134  a  owl:Class .
+
+owl:incompatibleWith  a  rdf:Property .
+
+dwc:islandGroup  a  rdf:Property .
+
+ns5:VTO_0042878  a  owl:Class .
+
+oplweb:OpsysLicenseCode
+        a       rdf:Property .
+
+rdfdf:sql-nvarchar-lang-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns5:VTO_0043180  a  owl:Class .
+
+dwc:nomenclaturalStatus
+        a       rdf:Property .
+
+ns5:VTO_0043102  a  owl:Class .
+
+owl:versionInfo  a  rdf:Property .
+
+rdfdf:default-iid-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns5:RO_0002494  a  owl:TransitiveProperty .
+
+rdfdf:sql-longvarchar-fixedlang-x-any-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultQuadMap-P-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+ns5:VTO_0043323  a  owl:Class .
+
+rdfdf:sql-varchar-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns5:VTO_0042814  a  owl:Class .
+
+rdfdf:sql-nvarchar-dt-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns5:VTO_0043078  a  owl:Class .
+
+dwc:organismScope  a  rdf:Property .
+
+ns11:adjacentRegion  a  owl:SymmetricProperty .
+
+ns5:VTO_0042860  a  owl:Class .
+
+oplweb:hasFormat  a  rdf:Property .
+
+dwc:vernacularName  a  rdf:Property .
+
+rdfdf:multipart-literal
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-time-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns5:VTO_0043014  a  owl:Class .
+
+ns9:hasCodeISO3Country
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-integer-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-numeric-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultServiceStorage
+        a       virtrdf:QuadStorage .
+
+virtrdf:DefaultQuadMap-P-col-P
+        a       virtrdf:QuadMapColumn .
+
+ns5:VTO_0043060  a  owl:Class .
+
+rdfdf:multipart-uri-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultQuadMap-G-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+ns5:VTO_0042979  a  owl:Class .
+
+dwc:catalogNumber  a  rdf:Property .
+
+rdfdf:sql-longnvarchar-lang-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns5:VTO_0043203  a  owl:Class .
+
+oplweb:ProductFamilyCode
+        a       rdf:Property .
+
+ns5:RO_0002517  a  owl:TransitiveProperty .
+
+ns5:VTO_0042740  a  owl:Class .
+
+rdfs:member  a  rdf:Property .
+
+ns5:VTO_0042915  a  owl:Class .
+
+ns5:VTO_0043179  a  owl:Class .
+
+dwc:minimumElevationInMeters
+        a       rdf:Property .
+
+oplweb:ComponentName  a  rdf:Property .
+
+dwc:dataGeneralizations
+        a       rdf:Property .
+
+rdfdf:sql-numeric-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+oplweb:ProductBenefitsAcronym
+        a       rdf:Property .
+
+rdfdf:multipart-literal-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns5:VTO_0042961  a  owl:Class .
+
+rdfdf:sql-varchar-lang-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dwc:verbatimLatitude  a  rdf:Property .
+
+virtrdf:DefaultServiceMap-atables
+        a       virtrdf:array-of-QuadMapATable .
+
+dwc:behavior  a  rdf:Property .
+
+ns5:VTO_0043193  a  owl:Class .
+
+oplweb:OpsysSupported
+        a       rdf:Property .
+
+oplweb:OperatingSystemsFamilies
+        a       rdf:Property .
+
+oplweb:ProcessorModeName
+        a       rdf:Property .
+
+ns5:VTO_0043161  a  owl:Class .
+
+ns5:RO_0002001  a  owl:TransitiveProperty .
+
+ns5:VTO_0043336  a  owl:Class .
+
+rdfdf:sql-nvarchar-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longvarchar-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns5:VTO_0043304  a  owl:Class .
+
+ns5:VTO_0042873  a  owl:Class .
+
+ns5:VTO_0043059  a  owl:Class .
+
+dwc:georeferenceProtocol
+        a       rdf:Property .
+
+ns9:quantitativeRelationship
+        a       owl:SymmetricProperty .
+
+dwc:ownerInstitutionCode
+        a       rdf:Property .
+
+dwc:locality  a  rdf:Property .
+
+oplweb:Uri  a   rdf:Property .
+
+oplweb:hasEligibleQuantity
+        a       rdf:Property .
+
+oplweb:VendorCategoryFamilyDescription
+        a       rdf:Property .
+
+ns5:RO_0002411  a  owl:TransitiveProperty .
+
+rdfdf:sql-longnvarchar-fixedlang-x-any-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+oplweb:graceUnits  a  rdf:Property .
+
+virtrdf:DefaultServiceMap-S-col-S
+        a       virtrdf:QuadMapColumn .
+
+ns5:VTO_0043041  a  owl:Class .
+
+ns5:VTO_0043216  a  owl:Class .
+
+rdfdf:zeropart-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+oplweb:ProductBenefitsExplanation
+        a       rdf:Property .
+
+rdfdf:sql-longvarchar-fixedlang-x-any-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns5:VTO_0042753  a  owl:Class .
+
+rdfdf:singlepart-uri-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns5:VTO_0042928  a  owl:Class .
+
+ns9:hasCodeAsfa  a  owl:FunctionalProperty .
+
+oplweb:ProductLongDescription
+        a       rdf:Property .
+
+ns5:VTO_0043405  a  owl:Class .
+
+rdfdf:sql-varchar-fixedlang-x-any-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+oplweb:HostName  a  rdf:Property .
+
+owl:distinctMembers  a  rdf:Property .
+
+rdfdf:sql-longvarchar-lang-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dwc:eventID  a  rdf:Property .
+
+rdfdf:sql-varchar-dt  a  virtrdf:QuadMapFormat .
+
+rdfdf:sql-time-literal
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:DefaultQuadMap-O-col-O
+        a       virtrdf:QuadMapColumn .
+
+oplweb:ProductReleaseSupported
+        a       rdf:Property .
+
+ns5:VTO_0043174  a  owl:Class .
+
+oplweb:ProcessorFamilyVendor
+        a       rdf:Property .
+
+dwc:taxonConceptID  a  rdf:Property .
+
+oplweb:BuildComments  a  rdf:Property .
+
+rdfdf:sql-varchar  a  virtrdf:QuadMapFormat .
+
+ns5:VTO_0043142  a  owl:Class .
+
+dwc:bed  a      rdf:Property .
+
+ns5:VTO_0042886  a  owl:Class .
+
+ns5:VTO_0043363  a  owl:Class .
+
+ns5:VTO_0043110  a  owl:Class .
+
+ns5:RO_0002203  a  owl:TransitiveProperty .
+
+oplweb:ProductFamilyLongDescription
+        a       rdf:Property .
+
+oplweb:ProductFormatDescription
+        a       rdf:Property .
+
+dwc:organismQuantityType
+        a       rdf:Property .
+
+ns5:VTO_0043008  a  owl:Class .
+
+dwc:georeferenceSources
+        a       rdf:Property .
+
+ns5:VTO_0043275  a  owl:Class .
+
+rdfdf:multipart-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-datetime-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dwc:dateIdentified  a  rdf:Property .
+
+ns5:VTO_0042987  a  owl:Class .
+
+dwc:georeferencedDate
+        a       rdf:Property .
+
+foaf:mbox  a    owl:InverseFunctionalProperty .
+
+rdfdf:sql-nvarchar-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns5:VTO_0042955  a  owl:Class .
+
+ns5:RO_0002525  a  owl:TransitiveProperty .
+
+foaf:mbox_sha1sum  a  owl:InverseFunctionalProperty .
+
+dwc:measurementUnit  a  rdf:Property .
+
+ns5:VTO_0043155  a  owl:Class .
+
+ns5:VTO_0042899  a  owl:Class .
+
+owl:complementOf  a  rdf:Property .
+
+rdfdf:sql-longnvarchar-dt-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dwc:nomenclaturalCode
+        a       rdf:Property .
+
+rdfdf:sql-nvarchar-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns5:VTO_0042867  a  owl:Class .
+
+ns9:isSpatiallyIncludedInState
+        a       owl:FunctionalProperty .
+
+dwc:datasetID  a  rdf:Property .
+
+ns5:RO_0002437  a  owl:SymmetricProperty .
+
+ns5:VTO_0042835  a  owl:Class .
+
+ns5:VTO_0043099  a  owl:Class .
+
+rdfdf:sql-date-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+dwc:locationID  a  rdf:Property .
+
+ns5:VTO_0042881  a  owl:Class .
+
+oplweb:ProcessorFamilies
+        a       rdf:Property .
+
+rdfdf:zeropart-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns9:hasCodeFaoterm  a  owl:FunctionalProperty .
+
+rdfdf:sinv-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns5:VTO_0043081  a  owl:Class .
+
+virtrdf:DefaultQuadMap-G-col-G
+        a       virtrdf:QuadMapColumn .
+
+dwc:occurrenceRemarks
+        a       rdf:Property .
+
+ns5:VTO_0043003  a  owl:Class .
+
+oplweb:hasMinValueFloat
+        a       rdf:Property .
+
+dwc:namePublishedInYear
+        a       rdf:Property .
+
+dwc:samplingProtocol  a  rdf:Property .
+
+ns5:VTO_0043224  a  owl:Class .
+
+rdfs:range  a   rdf:Property .
+
+rdfdf:sql-integer-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns5:VTO_0042936  a  owl:Class .
+
+rdfdf:sql-integer-literal
+        a       virtrdf:QuadMapFormat .
+
+dwc:year  a     rdf:Property .
+
+oplweb:isProductCategory
+        a       rdf:Property .
+
+dwc:member  a   rdf:Property .
+
+ns5:VTO_0042904  a  owl:Class .
+
+ns5:VTO_0043168  a  owl:Class .
+
+dwc:institutionCode  a  rdf:Property .
+
+rdfdf:sql-datetime-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+oplweb:hasProduct  a  rdf:Property .
+
+ns7:hasProductId  a  owl:InverseFunctionalProperty .
+
+dwc:minimumDepthInMeters
+        a       rdf:Property .
+
+ns5:VTO_0043136  a  owl:Class .
+
+dwc:taxonomicStatus  a  rdf:Property .
+
+rdfdf:sql-longnvarchar-fixedlang-x-any-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns5:VTO_0043182  a  owl:Class .
+
+dwc:identificationID  a  rdf:Property .
+
+oplweb:ComponentCategoryLongDescription
+        a       rdf:Property .
+
+dwc:maximumDepthInMeters
+        a       rdf:Property .
+
+ns5:VTO_0043104  a  owl:Class .
+
+oplweb:DbmsEngineRating
+        a       rdf:Property .
+
+rdfdf:zeropart-uri  a  virtrdf:QuadMapFormat .
+
+dwc:footprintSpatialFit
+        a       rdf:Property .
+
+dwc:relationshipRemarks
+        a       rdf:Property .
+
+ns5:RO_0002418  a  owl:TransitiveProperty .
+
+dwc:resourceID  a  rdf:Property .
+
+rdfdf:multipart-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns5:RO_0002211  a  owl:TransitiveProperty .
+
+ns5:VTO_0042862  a  owl:Class .
+
+dwc:latestEpochOrHighestSeries
+        a       rdf:Property .
+
+ns5:VTO_0042830  a  owl:Class .
+
+ns5:VTO_0043094  a  owl:Class .
+
+rdfdf:sql-longnvarchar-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dwc:endDayOfYear  a  rdf:Property .
+
+ns5:VTO_0043016  a  owl:Class .
+
+oplweb:minUnits  a  rdf:Property .
+
+ns5:VTO_0043062  a  owl:Class .
+
+owl:someValuesFrom  a  rdf:Property .
+
+rdfdf:sinv-iid-nonblank-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+oplweb:ComponentOpsys
+        a       rdf:Property .
+
+rdfdf:zeropart-literal-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns5:VTO_0043030  a  owl:Class .
+
+ns5:VTO_0043205  a  owl:Class .
+
+virtrdf:DefaultServiceMap-geo-conds
+        a       virtrdf:array-of-string .
+
+oplweb:ProductDescription
+        a       rdf:Property .
+
+owl:inverseOf  a  rdf:Property .
+
+ns5:RO_0002519  a  owl:TransitiveProperty .
+
+owl:backwardCompatibleWith
+        a       rdf:Property .
+
+oplweb:ComponentCategoryDescription
+        a       rdf:Property .
+
+virtrdf:DefaultServiceMap
+        a       virtrdf:QuadMap .
+
+ns5:VTO_0042963  a  owl:Class .
+
+dwc:infraspecificEpithet
+        a       rdf:Property .
+
+oplweb:triggerPoint  a  rdf:Property .
+
+rdfdf:zeropart-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns5:VTO_0043149  a  owl:Class .
+
+dwc:class  a    rdf:Property .
+
+ns5:VTO_0043195  a  owl:Class .
+
+oplweb:hasCategory  a  rdf:Property .
+
+owl:Thing  a    owl:Class .
+
+rdfdf:default-iid-nonblank-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-nvarchar-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-longnvarchar-lang-nullable
+        a       virtrdf:QuadMapFormat .
+
+oplweb:OpsysTypeDescription
+        a       rdf:Property .
+
+ns5:VTO_0043163  a  owl:Class .
+
+ns5:VTO_0042829  a  owl:Class .
+
+owl:cardinality  a  rdf:Property .
+
+dwc:eventRemarks  a  rdf:Property .
+
+rdfdf:sinv-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dwc:specificEpithet  a  rdf:Property .
+
+ns5:VTO_0043352  a  owl:Class .
+
+dwc:verbatimLocality  a  rdf:Property .
+
+ns5:VTO_0043075  a  owl:Class .
+
+rdfdf:sql-nvarchar-fixedlang-x-any
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-nvarchar-lang-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns5:VTO_0043296  a  owl:Class .
+
+oplweb:Implemented  a  rdf:Property .
+
+ns9:taxonomicRelationship
+        a       owl:SymmetricProperty .
+
+oplweb:UriOld  a  rdf:Property .
+
+rdfdf:sql-doubleprecision-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns9:causativeRelationship
+        a       owl:SymmetricProperty .
+
+virtrdf:DefaultServiceMap-P-col-P
+        a       virtrdf:QuadMapColumn .
+
+oplweb:hasComponents  a  rdf:Property .
+
+dwc:day  a      rdf:Property .
+
+dwc:nameAccordingTo  a  rdf:Property .
+
+dwc:verbatimSRS  a  rdf:Property .
+
+ns5:VTO_0043232  a  owl:Class .
+
+ns9:hasCodeFaoPa  a  owl:FunctionalProperty .
+
+oplweb:ComponentArchiveComponentArchiveType
+        a       rdf:Property .
+
+dwc:order  a    rdf:Property .
+
+oplweb:hasBusinessFunction
+        a       rdf:Property .
+
+ns5:RO_0002371  a  owl:SymmetricProperty .
+
+virtrdf:DefaultServiceMap-G
+        a       virtrdf:QuadMapValue .
+
+oplweb:ComponentArchiveLicenseCode
+        a       rdf:Property .
+
+rdfdf:sql-numeric-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns5:VTO_0042944  a  owl:Class .
+
+rdfdf:sql-varchar-lang-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns5:VTO_0042990  a  owl:Class .
+
+dwc:locationAccordingTo
+        a       rdf:Property .
+
+ns5:VTO_0043176  a  owl:Class .
+
+dwc:locationRemarks  a  rdf:Property .
+
+virtrdf:DefaultServiceMap-S-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+rdfdf:sql-varchar-lang
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sinv  a   virtrdf:QuadMapFormat .
+
+ns5:VTO_0043144  a  owl:Class .
+
+rdfdf:sql-time-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns5:VTO_0042888  a  owl:Class .
+
+rdfdf:sql-doubleprecision-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dwc:dynamicProperties
+        a       rdf:Property .
+
+oplweb:DemoUrl  a  rdf:Property .
+
+ns5:VTO_0042856  a  owl:Class .
+
+rdfdf:sql-longvarbinary-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultServiceStorage-UserMaps
+        a       virtrdf:array-of-QuadMap .
+
+dwc:sex  a      rdf:Property .
+
+ns5:VTO_0043333  a  owl:Class .
+
+dwc:higherGeography  a  rdf:Property .
+
+rdfdf:sql-varchar-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-time-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns5:VTO_0043088  a  owl:Class .
+
+ns5:VTO_0043056  a  owl:Class .
+
+dwc:namePublishedIn  a  rdf:Property .
+
+ns5:RO_0002440  a  owl:SymmetricProperty .
+
+ns9:hasVariety  a  owl:SymmetricProperty .
+
+rdfdf:singlepart-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+oplweb:ComponentTypeShortDescription
+        a       rdf:Property .
+
+ns5:VTO_0042768  a  owl:Class .
+
+virtrdf:DefaultServiceMap-O-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+rdfdf:sinv-iid-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dwc:continent  a  rdf:Property .
+
+ns5:VTO_0042736  a  owl:Class .
+
+rdfdf:sql-nvarchar-dt-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns5:VTO_0043213  a  owl:Class .
+
+ns5:VTO_0042782  a  owl:Class .
+
+ns5:VTO_0042957  a  owl:Class .
+
+rdfdf:sql-longnvarchar-dt
+        a       virtrdf:QuadMapFormat .
+
+oplweb:ProcessorDescription
+        a       rdf:Property .
+
+rdfdf:sql-nvarchar-fixedlang-x-any-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns5:RO_0002527  a  owl:SymmetricProperty .
+
+dwc:verbatimElevation
+        a       rdf:Property .
+
+rdfdf:sql-doubleprecision-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+oplweb:hasCurrency  a  rdf:Property .
+
+dwc:verbatimLongitude
+        a       rdf:Property .
+
+ns5:VTO_0043157  a  owl:Class .
+
+dwc:countryCode  a  rdf:Property .
+
+rdfdf:sql-doubleprecision-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultServiceMap-O-col-O
+        a       virtrdf:QuadMapColumn .
+
+rdfdf:sql-integer-nullable
+        a       virtrdf:QuadMapFormat .
+
+dwc:stateProvince  a  rdf:Property .
+
+oplweb:isForDbmsEngine
+        a       rdf:Property .
+
+ns5:VTO_0043378  a  owl:Class .
+
+ns5:VTO_0043125  a  owl:Class .
+
+dwc:georeferencedBy  a  rdf:Property .
+
+ns5:VTO_0043171  a  owl:Class .
+
+ns5:VTO_0043346  a  owl:Class .
+
+oplweb:OpsysFamilyRating
+        a       rdf:Property .
+
+oplweb:logo  a  rdf:Property .
+
+dwc:institutionID  a  rdf:Property .
+
+dwc:identifiedBy  a  rdf:Property .
+
+ns5:VTO_0042837  a  owl:Class .
+
+ns9:isSpatiallyIncludedInCity
+        a       owl:FunctionalProperty .
+
+oplweb:DbmsEngineOldArchiveCode
+        a       rdf:Property .
+
+ns5:VTO_0043314  a  owl:Class .
+
+rdfdf:sql-nvarchar-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns5:VTO_0042883  a  owl:Class .
+
+ns5:RO_0002407  a  owl:TransitiveProperty .
+
+owl:sameAs  a   rdf:Property .
+
+rdfdf:multipart-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-nvarchar-lang-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultQuadMap-geo
+        a       virtrdf:QuadMapFText .
+
+oplweb:hasUnitPriceSpecification
+        a       rdf:Property .
+
+owl:onProperty  a  rdf:Property .
+
+dwc:footprintSRS  a  rdf:Property .
+
+oplweb:DbmsDownwardCompatible
+        a       rdf:Property .
+
+rdfs:comment  a  rdf:Property .
+
+virtrdf:DefaultServiceMap-S
+        a       virtrdf:QuadMapValue .
+
+rdfdf:zeropart-literal
+        a       virtrdf:QuadMapFormat .
+
+ns5:VTO_0043083  a  owl:Class .
+
+rdfdf:multipart-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dwc:acceptedNameUsage
+        a       rdf:Property .
+
+ns5:VTO_0043005  a  owl:Class .
+
+ns5:VTO_0042749  a  owl:Class .
+
+oplweb:OpsysEmulationMode
+        a       rdf:Property .
+
+virtrdf:DefaultQuadStorage-UserMaps
+        a       virtrdf:array-of-QuadMap .
+
+rdfdf:singlepart-literal-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+owl:hasValue  a  rdf:Property .
+
+ns5:VTO_0043226  a  owl:Class .
+
+ns5:VTO_0042717  a  owl:Class .
+
+virtrdf:SyncToQuads-UserMaps
+        a       virtrdf:array-of-QuadMap .
+
+virtrdf:DefaultServiceMap-G-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+rdfdf:sql-longvarchar-lang-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns5:VTO_0042938  a  owl:Class .
+
+ns5:VTO_0043240  a  owl:Class .
+
+dwc:scientificNameID  a  rdf:Property .
+
+oplweb:hasMaxValueFloat
+        a       rdf:Property .
+
+ns5:VTO_0042906  a  owl:Class .
+
+oplweb:percentageOfCost
+        a       rdf:Property .
+
+ns5:VTO_0043138  a  owl:Class .
+
+rdfdf:sql-longvarchar-dt-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns5:RO_0002522  a  owl:TransitiveProperty .
+
+dwc:geologicalContextID
+        a       rdf:Property .
+
+ns5:VTO_0042920  a  owl:Class .

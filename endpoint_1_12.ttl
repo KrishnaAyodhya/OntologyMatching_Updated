@@ -1,0 +1,2463 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn:    <http://www.w3.org/2005/xpath-functions#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+
+<http://eagle-i.org/ont/repo/1.0/hasRole>
+        a             owl:ObjectProperty ;
+        rdfs:comment  "Subject is entitled to the access privilegs of this role" ;
+        rdfs:label    "has role" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/Role> .
+
+<http://xula.eagle-i.net/i/00000135-2fc7-7ba1-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000135-16cb-4729-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000136-3602-f9cb-66f4-252480000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000139-2769-2f75-8dd7-9ade80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://xula.eagle-i.net/i/00000139-2618-e918-8dd7-9ade80000000> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://xula.eagle-i.net/i/00000139-25f8-4557-8dd7-9ade80000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-2f0a-75b5-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-16e5-10fc-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://eagle-i.org/ont/repo/1.0/MatchAnything>
+        rdfs:comment  "Wildcard URI for delete statements request, matches any predicate and/or object" .
+
+<http://xula.eagle-i.net/i/00000136-172d-e3e2-a9f8-d64580000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://eagle-i.org/ont/repo/1.0/NG_Query>
+        <http://purl.org/dc/terms/created>
+                "2017-03-02T08:03:37.299-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://eagle-i.org/ont/repo/1.0/Role_Superuser> ;
+        <http://purl.org/dc/terms/source>
+                [ <http://purl.org/dc/terms/identifier>
+                          <file:///usr/share/tomcat7/webapps/sparqler/WEB-INF/classes/query-macros.n3> ;
+                  <http://purl.org/dc/terms/modified>
+                          "2017-02-03T18:12:12.000-06:00"^^xsd:dateTime
+                ] .
+
+<http://xula.eagle-i.net/i/00000134-f2a5-d6aa-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000134-f6c1-8231-77e4-a45080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-2fdd-a695-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-8232-3902-a9f8-d64580000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000135-1b4f-c186-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-16e6-9f89-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000139-2679-47a0-8dd7-9ade80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://xula.eagle-i.net/i/00000139-2618-e918-8dd7-9ade80000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0001296> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://xula.eagle-i.net/i/00000139-25f8-4557-8dd7-9ade80000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-1bb0-23e1-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowOwner>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-823b-3c34-a9f8-d64580000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000134-f6c2-5447-77e4-a45080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-208a-0fad-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> , <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-2f30-8cf7-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0001239> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-2f05-9afb-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-1b8b-195c-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-0c5a-2445-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://eagle-i.org/ont/repo/1.0/actionParameter>
+        a             owl:DatatypeProperty ;
+        rdfs:comment  "Transition-specific parameter to give action method" ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/WorkflowTransition> ;
+        rdfs:label    "action parameter" .
+
+<http://xula.eagle-i.net/i/00000135-1b42-5ab7-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000139-2708-54a2-8dd7-9ade80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://xula.eagle-i.net/i/00000139-2618-e918-8dd7-9ade80000000> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://xula.eagle-i.net/i/00000139-25f8-4557-8dd7-9ade80000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-0c81-f00c-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000136-174c-4820-a9f8-d64580000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> , <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000139-2728-a74e-8dd7-9ade80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://xula.eagle-i.net/i/00000139-2618-e918-8dd7-9ade80000000> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://xula.eagle-i.net/i/00000139-25f8-4557-8dd7-9ade80000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> , <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://eagle-i.org/ont/repo/1.0/final>
+        a             owl:FunctionalProperty , owl:ObjectProperty ;
+        rdfs:comment  "Final (Ending) workflow state" ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/WorkflowTransition> ;
+        rdfs:label    "Final Workflow State" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/WorkflowState> .
+
+<http://eagle-i.org/ont/repo/1.0/NGType_Internal>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/NamedGraphType> ;
+        rdf:value     "internal" ;
+        rdfs:comment  "Contains data that is only to be used internally by repository, such as administrative metadata" ;
+        rdfs:label    "Internal Use Only" .
+
+<http://xula.eagle-i.net/i/00000139-26e5-b797-8dd7-9ade80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://xula.eagle-i.net/i/00000139-2618-e918-8dd7-9ade80000000> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://xula.eagle-i.net/i/00000139-25f8-4557-8dd7-9ade80000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> , <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-2f0c-ccc3-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-208d-1b39-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000134-f276-371e-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000136-3601-60c7-66f4-252480000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000139-265c-b77f-8dd7-9ade80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowOwner>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://xula.eagle-i.net/i/00000139-2618-e918-8dd7-9ade80000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://xula.eagle-i.net/i/00000139-25f8-4557-8dd7-9ade80000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-1b44-be72-77e4-a45080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://eagle-i.org/ont/repo/1.0/initial>
+        a             owl:FunctionalProperty , owl:ObjectProperty ;
+        rdfs:comment  "Initial (Starting) workflow state" ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/WorkflowTransition> ;
+        rdfs:label    "Initial Workflow state" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/WorkflowState> .
+
+<http://eagle-i.org/ont/repo/1.0/hasWorkflowOwner>
+        a             owl:ObjectProperty ;
+        rdfs:comment  "Current owner (claimant) of the workflow state of this instance" ;
+        rdfs:label    "workflow owner" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/Agent> .
+
+<http://xula.eagle-i.net/i/00000134-fd27-04ed-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-1569-2ada-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-1b79-65d4-77e4-a45080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://purl.org/dc/terms/Agent>
+        rdfs:subClassOf  owl:Thing .
+
+<http://xula.eagle-i.net/i/00000135-11a4-5294-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000134-fc0b-ad1d-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-1fc7-2c77-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-16e1-314c-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000134-f2cc-ec7c-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-1fe5-4458-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000066>
+                <http://xula.eagle-i.net/i/00000134-c451-e939-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-8260-0cac-a9f8-d64580000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000066>
+                <http://xula.eagle-i.net/i/00000134-c451-e939-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-2fe6-7429-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-20cf-adab-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-1b5e-dd64-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-2f3b-4b11-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-2f67-c535-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-6832-3fb8-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://eagle-i.org/ont/repo/1.0/hasAnyAccess>
+        a             owl:ObjectProperty ;
+        rdfs:comment  "has*Access superproperty" ;
+        rdfs:label    "has*Access superproperty" .
+
+<http://xula.eagle-i.net/i/00000135-8268-5a04-a9f8-d64580000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000134-f6b4-e33e-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-16be-04cd-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-20c5-a65c-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-6907-36e1-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-20a9-37c5-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000139-26b0-a950-8dd7-9ade80000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0400115> ;
+        rdfs:label  "Fluorescence Spectrometer" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"The Cary Eclipse Spectrophotometer uses a Xenon flash lamp for superior sensitivity, high signal-to-noise, and fast kinetics. It measures the emission of light from samples in four modes. Using Xenon lamp technology, it captures a data point every 12.5 ms and scans at 24,000 nm/min without peak shifts. The Cary Eclipse is the only spectrophotometer with room light immunity. With an optional microplate reader, it offers full wavelength scanning of 384 samples. \"" ;
+        <http://eagle-i.org/ont/app/1.0/synonym>
+                "(Varian) Cary Eclipse Fluorescence Spectrophotometer" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowOwner>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://xula.eagle-i.net/i/00000139-2618-e918-8dd7-9ade80000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc67-5972-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "Varian Cary Eclipse (Cary Eclipse)" ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://www.chem.agilent.com" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0001296> , <http://purl.obolibrary.org/obo/ERO_0001239> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://xula.eagle-i.net/i/00000139-25f8-4557-8dd7-9ade80000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-08-14T15:03:12.071-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-08-14T15:06:51.430-05:00"^^xsd:dateTime .
+
+<http://xula.eagle-i.net/i/00000135-1b36-64c2-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000135-1a9f-5ea7-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000134-fcfe-a969-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-67c6-ba31-77e4-a45080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-821b-7d5c-a9f8-d64580000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000135-1fd7-55ba-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://eagle-i.org/ont/repo/1.0/hasReadAccess>
+        a                   owl:ObjectProperty ;
+        rdfs:comment        "Grants read and query access on subject resource to a principal" ;
+        rdfs:label          "has read access" ;
+        rdfs:range          <http://eagle-i.org/ont/repo/1.0/Agent> ;
+        rdfs:subPropertyOf  <http://eagle-i.org/ont/repo/1.0/hasAnyAccess> .
+
+<http://xula.eagle-i.net/i/00000135-10b5-8390-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-2084-e646-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> , <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-2f06-9680-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-2fcb-2229-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://eagle-i.org/ont/repo/1.0/hasRemoveAccess>
+        a                   owl:ObjectProperty ;
+        rdfs:comment        "Grants remove access on subject resource to a principal" ;
+        rdfs:label          "has remove access" ;
+        rdfs:range          <http://eagle-i.org/ont/repo/1.0/Agent> ;
+        rdfs:subPropertyOf  <http://eagle-i.org/ont/repo/1.0/hasAnyAccess> .
+
+<http://eagle-i.org/ont/repo/1.0/WorkflowState>
+        a                owl:Class ;
+        rdfs:comment     "Controlled vocabulary describing workflow state." ;
+        rdfs:label       "Workflow State" ;
+        rdfs:subClassOf  owl:Thing .
+
+<http://xula.eagle-i.net/i/00000135-6801-c0ed-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000134-f782-d803-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-2f39-0d21-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-1b5c-295a-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://eagle-i.org/ont/repo/1.0/NamedGraph>
+        a                owl:Class ;
+        rdfs:comment     "Collection of metadata about named graph in the repository." ;
+        rdfs:label       "Named Graph" ;
+        rdfs:subClassOf  owl:Thing .
+
+<http://xula.eagle-i.net/i/00000135-16d3-114a-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-16cf-cb8e-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000135-0c95-bcf9-77e4-a45080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000134-f154-7043-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-2fcd-267a-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-2fc1-7400-77e4-a45080000000>
+        a       <http://purl.obolibrary.org/obo/OBI_0400115> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-1bbf-6d76-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-209c-a8e3-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-158b-efad-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://eagle-i.org/ont/repo/1.0/NamedGraphType>
+        a                owl:Class ;
+        rdfs:comment     "Purpose of a NamedGraph, indicates whether it should be included in certain query datasets" ;
+        rdfs:label       "Named Graph Type" ;
+        rdfs:subClassOf  owl:Thing .
+
+<http://xula.eagle-i.net/i/00000135-6376-cff8-77e4-a45080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-0c8b-5758-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-20e1-0bdb-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-16ce-5f31-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000135-2fe2-2a1b-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000134-ed9d-ab98-77e4-a45080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-2f70-e44f-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000135-2efc-4237-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-207d-df67-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> , <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-15af-9f00-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-16e3-ff70-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000139-25db-2ff1-8dd7-9ade80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-2f3f-1b0f-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-1b34-aa9f-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-11a1-d3de-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://eagle-i.org/ont/repo/1.0/action>
+        a             owl:DatatypeProperty ;
+        rdfs:comment  "fully qualified class name of Java class implementing action" ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/WorkflowTransition> ;
+        rdfs:label    "action" .
+
+<http://xula.eagle-i.net/i/00000135-67e1-caf5-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000134-f187-d149-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc67-5972-ecc6-81a580000000> .
+
+<http://xula.eagle-i.net/i/00000135-16cc-ffcd-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-2041-064c-77e4-a45080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000135-20de-edc5-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc67-5972-ecc6-81a580000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-67cd-eee1-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-15a7-dbab-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-2fe8-5638-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-0c88-4ce1-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://eagle-i.org/ont/app/1.0/Person>
+        rdfs:subClassOf  owl:Thing .
+
+<http://xula.eagle-i.net/i/00000135-824f-d705-a9f8-d64580000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000139-26f7-9e83-8dd7-9ade80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://xula.eagle-i.net/i/00000139-2618-e918-8dd7-9ade80000000> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://xula.eagle-i.net/i/00000139-25f8-4557-8dd7-9ade80000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> , <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-20d4-ae0d-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000136-1c85-023d-a9f8-d64580000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-1b60-6307-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000135-1b7a-0393-77e4-a45080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000139-26c5-87d1-8dd7-9ade80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000135-1fea-f114-77e4-a45080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://eagle-i.org/ont/repo/1.0/ngType>
+        a             owl:FunctionalProperty ;
+        rdfs:comment  "Describes type of contents and purpose of this named graph" ;
+        rdfs:label    "named graph type" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/NamedGraphType> .
+
+<http://xula.eagle-i.net/i/00000135-63a4-4786-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000135-585e-7c1a-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000136-1747-adaf-a9f8-d64580000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-16ab-31c0-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000135-2f3a-1234-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-690e-649b-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000135-0c93-e7c4-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-2fdb-16c0-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-2fd6-d4b4-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000136-1c73-6274-a9f8-d64580000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-2fef-a6ef-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-20b0-6d9a-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000136-3601-c5e6-66f4-252480000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-8265-c9cc-a9f8-d64580000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-1148-cfa7-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000134-f229-a4d4-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0001239> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-2073-085d-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://eagle-i.org/ont/repo/1.0/workspace>
+        a             owl:ObjectProperty ;
+        rdfs:comment  "Home workspace of resources capable of using this transition" ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/WorkflowTransition> ;
+        rdfs:label    "Workspace" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/NamedGraph> .
+
+<http://xula.eagle-i.net/i/00000135-1b5f-4965-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000138-0a53-9bd2-ac42-6c1680000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000134-f7bd-2a7c-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-6375-0806-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000066>
+                <http://xula.eagle-i.net/i/00000134-c451-e939-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000138-0a91-5104-ac42-6c1680000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> , <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000137-f1a2-f16e-3988-970a80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000139-26eb-a358-8dd7-9ade80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://xula.eagle-i.net/i/00000139-2618-e918-8dd7-9ade80000000> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://xula.eagle-i.net/i/00000139-25f8-4557-8dd7-9ade80000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://eagle-i.org/ont/repo/1.0/WFS_Draft>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/WorkflowState> ;
+        rdfs:comment  "Data collection and preparation" ;
+        rdfs:label    "Draft" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWriter>
+                <http://eagle-i.org/ont/repo/1.0/Role_Curator> , <http://eagle-i.org/ont/repo/1.0/Role_RNAV> ;
+        <http://eagle-i.org/ont/repo/1.0/order>
+                20 .
+
+<http://xula.eagle-i.net/i/00000135-2085-edca-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> , <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000139-267a-5b47-8dd7-9ade80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://xula.eagle-i.net/i/00000139-2618-e918-8dd7-9ade80000000> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://xula.eagle-i.net/i/00000139-25f8-4557-8dd7-9ade80000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-1bbd-70ef-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-20e9-2013-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000139-269c-8899-8dd7-9ade80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://xula.eagle-i.net/i/00000139-2618-e918-8dd7-9ade80000000> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://xula.eagle-i.net/i/00000139-25f8-4557-8dd7-9ade80000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> , <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000139-2762-094c-8dd7-9ade80000000>
+        a       <http://purl.obolibrary.org/obo/OBI_0400115> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://xula.eagle-i.net/i/00000139-2618-e918-8dd7-9ade80000000> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://xula.eagle-i.net/i/00000139-25f8-4557-8dd7-9ade80000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> , <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-1b78-d6f8-77e4-a45080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000134-c451-e939-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-2f58-129d-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc67-5972-ecc6-81a580000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-81cb-6485-a9f8-d64580000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-1ba4-b0ef-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000134-f20c-6946-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc67-5972-ecc6-81a580000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-638c-cba3-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://eagle-i.org/ont/repo/1.0/NGType_Metadata>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/NamedGraphType> ;
+        rdf:value     "metadata" ;
+        rdfs:comment  "Administrative Metadata for the repository" ;
+        rdfs:label    "Administrative Metadata " .
+
+<http://xula.eagle-i.net/i/00000139-2722-2fcb-8dd7-9ade80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://xula.eagle-i.net/i/00000139-2618-e918-8dd7-9ade80000000> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://xula.eagle-i.net/i/00000139-25f8-4557-8dd7-9ade80000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-1586-cfe9-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000134-f6e3-b1a7-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000136-35f7-62fb-66f4-252480000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> , <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000134-ed9a-ccf6-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowOwner>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-2f10-eeee-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000134-f7ed-360b-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-1b74-64ae-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000066>
+                <http://xula.eagle-i.net/i/00000134-c451-e939-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000134-fd33-49ce-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-1ff1-b097-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-0c95-770f-77e4-a45080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-15d7-ef59-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-159d-aa45-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-81af-5452-a9f8-d64580000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000066>
+                <http://xula.eagle-i.net/i/00000134-c451-e939-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-67d8-2e08-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000135-1bb8-14de-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-2fd8-25d0-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000134-f270-faf0-77e4-a45080000000>
+        a       <http://purl.obolibrary.org/obo/OBI_0400115> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000135-821a-517a-a9f8-d64580000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000135-0c6f-559b-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000066>
+                <http://xula.eagle-i.net/i/00000134-c451-e939-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://eagle-i.org/ont/repo/1.0/Role_RNAV>
+        a       owl:Thing .
+
+<http://xula.eagle-i.net/i/00000138-9f56-cecd-c1fb-ad0380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000135-5857-9e5e-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-16dd-3964-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-68f7-3523-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-15a2-0b4c-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xmlns.com/foaf/0.1/Person>
+        rdfs:subClassOf  owl:Thing .
+
+<http://xula.eagle-i.net/i/00000137-e646-4617-3988-970a80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://eagle-i.org/ont/repo/1.0/NG_Internal>
+        <http://purl.org/dc/terms/created>
+                "2017-03-02T08:03:46.156-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://eagle-i.org/ont/repo/1.0/Role_Superuser> ;
+        <http://purl.org/dc/terms/source>
+                [ <http://purl.org/dc/terms/identifier>
+                          <file:///usr/share/tomcat7/webapps/sparqler/WEB-INF/classes/repository-internal.n3> ;
+                  <http://purl.org/dc/terms/modified>
+                          "2017-02-03T18:12:12.000-06:00"^^xsd:dateTime
+                ] .
+
+<http://xula.eagle-i.net/i/00000139-26d6-9942-8dd7-9ade80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://xula.eagle-i.net/i/00000139-2618-e918-8dd7-9ade80000000> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://xula.eagle-i.net/i/00000139-25f8-4557-8dd7-9ade80000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> , <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-638a-031d-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000135-0b63-fc2c-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000136-35f5-04bb-66f4-252480000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> , <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://eagle-i.org/ont/repo/1.0/hasAdminAccess>
+        a                   owl:ObjectProperty ;
+        rdfs:comment        "Grants administrative access on subject resource to a principal" ;
+        rdfs:label          "has administrative access" ;
+        rdfs:range          <http://eagle-i.org/ont/repo/1.0/Agent> ;
+        rdfs:subPropertyOf  <http://eagle-i.org/ont/repo/1.0/hasAnyAccess> .
+
+<http://xula.eagle-i.net/i/00000135-20b2-eb12-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000139-273c-9842-8dd7-9ade80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://xula.eagle-i.net/i/00000139-2618-e918-8dd7-9ade80000000> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://xula.eagle-i.net/i/00000139-25f8-4557-8dd7-9ade80000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-1bcb-541e-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000139-271e-dc65-8dd7-9ade80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://xula.eagle-i.net/i/00000139-2618-e918-8dd7-9ade80000000> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://xula.eagle-i.net/i/00000139-25f8-4557-8dd7-9ade80000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-3497-c065-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://eagle-i.org/ont/repo/1.0/WFS_New>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/WorkflowState> ;
+        rdfs:comment  "New instance in the process of creation" ;
+        rdfs:label    "New" ;
+        <http://eagle-i.org/ont/repo/1.0/order>
+                10 .
+
+<http://xula.eagle-i.net/i/00000135-2f08-7354-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-8236-8c4a-a9f8-d64580000000>
+        a       <http://purl.obolibrary.org/obo/OBI_0400115> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://eagle-i.org/ont/repo/1.0/>
+        a                owl:Ontology ;
+        <http://purl.org/dc/terms/created>
+                "2017-03-02T08:03:42.309-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://eagle-i.org/ont/repo/1.0/Role_Superuser> ;
+        <http://purl.org/dc/terms/source>
+                [ <http://purl.org/dc/terms/identifier>
+                          <file:///usr/share/tomcat7/webapps/sparqler/WEB-INF/classes/repository-ont.n3> ;
+                  <http://purl.org/dc/terms/modified>
+                          "2017-02-03T18:12:12.000-06:00"^^xsd:dateTime
+                ] ;
+        owl:versionInfo  "$Id: repository-ont.n3 19120 2015-04-30 05:13:28Z scheng $" .
+
+<http://xula.eagle-i.net/i/00000135-0c86-31b1-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-827b-fd0c-a9f8-d64580000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://eagle-i.org/ont/repo/1.0/hasEditToken>
+        a             owl:ObjectProperty ;
+        rdfs:comment  "Relates eagle-i Resource Instance to a URI marking an update in progress with associated metadata." ;
+        rdfs:label    "Edit Token" .
+
+<http://xula.eagle-i.net/i/00000139-21ce-9cdd-8dd7-9ade80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-2fed-d495-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-2099-b772-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-2075-84c8-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://eagle-i.org/ont/repo/1.0/hasAddAccess>
+        a                   owl:ObjectProperty ;
+        rdfs:comment        "Grants ADD access on subject resource to a principal" ;
+        rdfs:label          "has add access" ;
+        rdfs:range          <http://eagle-i.org/ont/repo/1.0/Agent> ;
+        rdfs:subPropertyOf  <http://eagle-i.org/ont/repo/1.0/hasAnyAccess> .
+
+<http://xula.eagle-i.net/i/00000135-8246-9af2-a9f8-d64580000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-821b-f4a3-a9f8-d64580000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000135-2118-52f5-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-2fc3-3c71-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000136-35f4-2709-66f4-252480000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-63ab-138c-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-2fbf-869f-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-2f40-f853-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> , <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://eagle-i.org/ont/repo/1.0/NGType_Ontology>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/NamedGraphType> ;
+        rdf:value     "ontology" ;
+        rdfs:comment  "Contains Ontology applicable to data objects" ;
+        rdfs:label    "Ontology" .
+
+<http://xula.eagle-i.net/i/00000135-2f07-09e3-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-16b0-5579-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000135-6900-84ee-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-2f06-134e-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://purl.obolibrary.org/obo/ero.owl>
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/0000015a-8f55-e735-c31c-841980000000> ;
+        <http://purl.org/dc/terms/created>
+                "2017-03-02T08:06:41.025-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/0000015a-8f55-e735-c31c-841980000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2017-03-02T08:06:41.025-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/source>
+                [ <http://purl.org/dc/terms/identifier>
+                          "file:/usr/share/tomcat7/webapps/sparqler/WEB-INF/lib/eagle-i-model-owl-2.0.3.1.jar" ;
+                  <http://purl.org/dc/terms/modified>
+                          "2015-10-26T12:00:40.000-05:00"^^xsd:dateTime
+                ] .
+
+<http://eagle-i.org/ont/repo/1.0/NGType_Workspace>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/NamedGraphType> ;
+        rdf:value     "workspace" ;
+        rdfs:comment  "Data objects meant to be invisible to the public" ;
+        rdfs:label    "Workspace" .
+
+<http://xula.eagle-i.net/i/00000135-2fd4-52fd-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://eagle-i.org/ont/repo/1.0/Agent>
+        a                owl:Class ;
+        rdfs:comment     "Represents a person, role, or other principal to be granted access control rights" ;
+        rdfs:label       "Agent" ;
+        rdfs:subClassOf  owl:Thing , <http://eagle-i.org/ont/app/1.0/Agent> , <http://purl.org/dc/terms/Agent> , <http://xmlns.com/foaf/0.1/Agent> .
+
+<http://eagle-i.org/ont/repo/1.0/WFS_Curation>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/WorkflowState> ;
+        rdfs:comment  "Awaiting approval by a curator and possible editing" ;
+        rdfs:label    "In Curation" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWriter>
+                <http://eagle-i.org/ont/repo/1.0/Role_Curator> ;
+        <http://eagle-i.org/ont/repo/1.0/order>
+                30 .
+
+<http://xula.eagle-i.net/i/00000135-2f3a-9ee5-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://eagle-i.org/ont/repo/1.0/isImplicit>
+        a             owl:DatatypeProperty ;
+        rdfs:comment  "When true the role is implicit, that is, automatically assigned to the relevant users, invisible to admins." ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/Person> ;
+        rdfs:label    "is an implicit role" .
+
+<http://xula.eagle-i.net/i/00000135-2f5d-bd4f-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-2f65-f552-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://eagle-i.org/ont/repo/1.0/WFS_Withdrawn>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/WorkflowState> ;
+        rdfs:comment  "Withdrawn from public access" ;
+        rdfs:label    "Withdrawn" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWriter>
+                <http://eagle-i.org/ont/repo/1.0/Role_Curator> ;
+        <http://eagle-i.org/ont/repo/1.0/order>
+                50 .
+
+<http://xula.eagle-i.net/i/00000135-16b5-f991-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000139-26db-4d82-8dd7-9ade80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://xula.eagle-i.net/i/00000139-2618-e918-8dd7-9ade80000000> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://xula.eagle-i.net/i/00000139-25f8-4557-8dd7-9ade80000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> , <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-8224-3c28-a9f8-d64580000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-8237-c8a3-a9f8-d64580000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-209d-9b17-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-0b10-8de1-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-118f-5ead-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowOwner>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://eagle-i.org/ont/repo/1.0/hasPrincipalName>
+        a             owl:DatatypeProperty ;
+        rdfs:comment  "Indicates the authenticated login principal bound to this Person or Agent" ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/Person> ;
+        rdfs:label    "login principal" .
+
+<http://xula.eagle-i.net/i/00000139-2670-4fbd-8dd7-9ade80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://xula.eagle-i.net/i/00000139-2618-e918-8dd7-9ade80000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc67-5972-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://xula.eagle-i.net/i/00000139-25f8-4557-8dd7-9ade80000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-585f-1071-77e4-a45080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000135-157c-93b4-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-68fa-70ff-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-20ea-ada2-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000139-2618-e918-8dd7-9ade80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://eagle-i.org/ont/repo/1.0/WorkflowTransition>
+        a                owl:Class ;
+        rdfs:comment     "Describes one of the possible transitions from one workflow state to another" ;
+        rdfs:label       "Workflow Transition" ;
+        rdfs:subClassOf  owl:Thing .
+
+<http://xula.eagle-i.net/i/00000134-f802-c72b-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://eagle-i.org/ont/repo/1.0/NG_Published>
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/0000015a-8f55-e735-c31c-841980000000> ;
+        <http://purl.org/dc/terms/created>
+                "2017-03-02T08:04:25.249-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/0000015a-8f55-e735-c31c-841980000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2021-06-19T08:15:59.831-05:00"^^xsd:dateTime .
+
+<http://xula.eagle-i.net/i/00000134-f1a5-aba7-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc67-5972-ecc6-81a580000000> .
+
+<http://xula.eagle-i.net/i/00000135-2f2d-0d4c-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000139-2733-8e1e-8dd7-9ade80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://xula.eagle-i.net/i/00000139-2618-e918-8dd7-9ade80000000> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://xula.eagle-i.net/i/00000139-25f8-4557-8dd7-9ade80000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> , <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-16d8-a340-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000139-274e-266c-8dd7-9ade80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://xula.eagle-i.net/i/00000139-2618-e918-8dd7-9ade80000000> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://xula.eagle-i.net/i/00000139-25f8-4557-8dd7-9ade80000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-68fe-e5a7-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000134-f76e-b449-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-1bb0-a7d9-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000139-25f8-4557-8dd7-9ade80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000596>
+                <http://xula.eagle-i.net/i/00000139-2618-e918-8dd7-9ade80000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-8222-e380-a9f8-d64580000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-1b79-d0ea-77e4-a45080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-20d7-40cb-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc67-5972-ecc6-81a580000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-2ff3-4b5c-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-16c2-db1f-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-2f00-0556-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000139-2711-9a1f-8dd7-9ade80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://xula.eagle-i.net/i/00000139-2618-e918-8dd7-9ade80000000> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://xula.eagle-i.net/i/00000139-25f8-4557-8dd7-9ade80000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> , <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://eagle-i.org/ont/repo/1.0/Person>
+        a                owl:Class ;
+        rdfs:comment     "Represents a person acting as an authenticated user of the repository" ;
+        rdfs:label       "Person" ;
+        rdfs:subClassOf  owl:Thing , <http://eagle-i.org/ont/app/1.0/Person> , <http://xmlns.com/foaf/0.1/Person> , <http://eagle-i.org/ont/repo/1.0/Agent> , <http://eagle-i.org/ont/app/1.0/Agent> , <http://xmlns.com/foaf/0.1/Agent> , <http://purl.org/dc/terms/Agent> .
+
+<http://xula.eagle-i.net/i/00000135-2f03-cb01-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc67-5972-ecc6-81a580000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-1aa9-0ed1-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-6387-5d4e-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-1ba7-e6e6-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000138-0a71-020b-ac42-6c1680000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-0b8a-3bdf-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-81b1-5a0a-a9f8-d64580000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-67c4-1e5a-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000066>
+                <http://xula.eagle-i.net/i/00000134-c451-e939-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-1b79-b019-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-2fc5-3b4e-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000139-2765-75bc-8dd7-9ade80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://xula.eagle-i.net/i/00000139-2618-e918-8dd7-9ade80000000> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://xula.eagle-i.net/i/00000139-25f8-4557-8dd7-9ade80000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> , <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000136-1c70-43f4-a9f8-d64580000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000134-fd28-7aaf-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000139-2744-ad66-8dd7-9ade80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://xula.eagle-i.net/i/00000139-2618-e918-8dd7-9ade80000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0001296> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://xula.eagle-i.net/i/00000139-25f8-4557-8dd7-9ade80000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://eagle-i.org/ont/repo/1.0/Role_Curator>
+        a       owl:Thing .
+
+<http://xula.eagle-i.net/i/00000135-1bf3-ee03-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-2f6d-19e4-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-6905-7a41-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-637d-24af-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-2f72-24e9-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-2087-be08-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> , <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-0c95-d6d8-77e4-a45080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-8279-1a27-a9f8-d64580000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000135-691d-0b7c-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000135-2f4f-4978-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000137-f1a2-19e6-3988-970a80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000139-2664-3739-8dd7-9ade80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowOwner>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://xula.eagle-i.net/i/00000139-2618-e918-8dd7-9ade80000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://xula.eagle-i.net/i/00000139-25f8-4557-8dd7-9ade80000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000139-2716-be47-8dd7-9ade80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://xula.eagle-i.net/i/00000139-2618-e918-8dd7-9ade80000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0001296> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://xula.eagle-i.net/i/00000139-25f8-4557-8dd7-9ade80000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-2f07-5825-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc67-5972-ecc6-81a580000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000139-272a-a95b-8dd7-9ade80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://xula.eagle-i.net/i/00000139-2618-e918-8dd7-9ade80000000> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://xula.eagle-i.net/i/00000139-25f8-4557-8dd7-9ade80000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-2fd8-f753-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000139-26ee-c2c0-8dd7-9ade80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://xula.eagle-i.net/i/00000139-2618-e918-8dd7-9ade80000000> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://xula.eagle-i.net/i/00000139-25f8-4557-8dd7-9ade80000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000139-26ce-55be-8dd7-9ade80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://xula.eagle-i.net/i/00000139-2618-e918-8dd7-9ade80000000> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://xula.eagle-i.net/i/00000139-25f8-4557-8dd7-9ade80000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> , <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-16ac-e14f-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-2f28-967a-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-1feb-7813-77e4-a45080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-0c46-57f5-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-1b9c-30ab-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000134-ed9d-2d5b-77e4-a45080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-2f04-bad8-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000134-f77b-db0b-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-587c-54be-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000135-209f-9015-77e4-a45080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000135-2f69-9ae7-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-20ab-aef0-77e4-a45080000000>
+        a       <http://purl.obolibrary.org/obo/OBI_0400115> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://eagle-i.org/ont/repo/1.0/Role>
+        a                owl:Class ;
+        rdfs:comment     "Represents an access-control role granted to an Agent" ;
+        rdfs:label       "Role" ;
+        rdfs:subClassOf  owl:Thing , <http://eagle-i.org/ont/app/1.0/Agent> , <http://purl.org/dc/terms/Agent> , <http://xmlns.com/foaf/0.1/Agent> , <http://eagle-i.org/ont/repo/1.0/Agent> .
+
+<http://xula.eagle-i.net/i/00000135-0c8a-ac90-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-823e-bc8f-a9f8-d64580000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://eagle-i.org/ont/app/1.0/Agent>
+        rdfs:subClassOf  owl:Thing .
+
+<http://xula.eagle-i.net/i/00000135-58bc-48b3-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000135-6381-da5d-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc67-5972-ecc6-81a580000000> .
+
+<http://xula.eagle-i.net/i/00000135-6909-074d-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000135-1b61-05ea-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-67f0-5532-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000134-fc12-8aff-77e4-a45080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-119d-73da-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-2040-9b08-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-67d4-fa65-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-58aa-c255-77e4-a45080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000135-81d0-bf9c-a9f8-d64580000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000138-9f54-f43a-c1fb-ad0380000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+        a             owl:ObjectProperty ;
+        rdfs:comment  "Current workflow state of this instance" ;
+        rdfs:label    "workflow state" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/WorkflowState> .
+
+<http://xula.eagle-i.net/i/00000135-1bc0-b178-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-20c2-1a35-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-0c40-740d-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000134-f25b-d270-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-1aa7-a4de-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://eagle-i.org/ont/repo/1.0/NGType_Published>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/NamedGraphType> ;
+        rdf:value     "published" ;
+        rdfs:comment  "Data objects meant to be visible to the public" ;
+        rdfs:label    "Published resource instances" .
+
+<http://eagle-i.org/ont/repo/1.0/WFS_Published>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/WorkflowState> ;
+        rdfs:comment  "Finished and available to the public" ;
+        rdfs:label    "Published" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWriter>
+                <http://eagle-i.org/ont/repo/1.0/Role_Curator> ;
+        <http://eagle-i.org/ont/repo/1.0/order>
+                40 .
+
+<http://xula.eagle-i.net/i/00000135-2f61-9e79-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xmlns.com/foaf/0.1/Agent>
+        rdfs:subClassOf  owl:Thing .
+
+<http://xula.eagle-i.net/i/00000135-16df-b28c-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000135-8212-7e7c-a9f8-d64580000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-81b6-f983-a9f8-d64580000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-1bde-1443-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-58a9-8576-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000135-8218-4046-a9f8-d64580000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-1be9-b878-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-6419-f30b-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000135-1c00-cda7-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000136-35f6-2e9e-66f4-252480000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-63b4-1f68-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://xula.eagle-i.net/i/00000135-67f5-2e24-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-81a4-ca0b-a9f8-d64580000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000135-1be5-76b7-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000134-f2ce-581c-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000139-26fa-69b6-8dd7-9ade80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://xula.eagle-i.net/i/00000139-2618-e918-8dd7-9ade80000000> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://xula.eagle-i.net/i/00000139-25f8-4557-8dd7-9ade80000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000134-f2cd-e4f6-77e4-a45080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://xula.eagle-i.net/i/00000134-a4d4-8577-77e4-a45080000000> .
+
+<http://xula.eagle-i.net/i/00000136-1744-843b-a9f8-d64580000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .

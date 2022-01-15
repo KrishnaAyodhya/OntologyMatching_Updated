@@ -1,0 +1,2777 @@
+@prefix ns121: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12400_t1_0201_0000_4#> .
+@prefix ns242: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12504_t1_0610_0000_14#> .
+@prefix ns120: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12397_t1_0201_0000_2#> .
+@prefix ns241: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12504_t1_0610_0000_11#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix ns240: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12501_t1_0609_0000_9#> .
+@prefix ns125: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12404_t1_0205_0000_5#> .
+@prefix ns246: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12508_t1_0622_0000_8#> .
+@prefix ns124: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12402_t1_0204_0000_8#> .
+@prefix ns245: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12507_t1_0622_0000_2#> .
+@prefix ns123: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12402_t1_0204_0000_10#> .
+@prefix ns244: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12507_t1_0621_0000_7#> .
+@prefix ns122: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12400_t1_0201_0000_9#> .
+@prefix ns243: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12507_t1_0621_0000_5#> .
+@prefix ns129: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12410_t1_0224_0000_6#> .
+@prefix ns128: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12409_t1_0223_0000_4#> .
+@prefix ns249: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12510_t1_0630_0000_1#> .
+@prefix ns127: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12405_t1_0213_0000_3#> .
+@prefix ns248: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12510_t1_0629_0000_4#> .
+@prefix ns126: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12404_t1_0212_0000_2#> .
+@prefix ns247: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12510_t1_0626_0000_11#> .
+@prefix ns132: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12410_t1_0226_0000_3#> .
+@prefix ns253: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12521_t1_0645_0000_11#> .
+@prefix ns131: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12410_t1_0225_0000_3#> .
+@prefix ns252: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12521_t1_0644_0000_3#> .
+@prefix ns130: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12410_t1_0225_0000_2#> .
+@prefix ns251: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12513_t1_0632_0000_11#> .
+@prefix ns250: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12511_t1_0630_0000_9#> .
+@prefix ns136: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12413_t1_0230_0000_9#> .
+@prefix ns257: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12521_t1_0645_0000_6#> .
+@prefix ns135: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12413_t1_0230_0000_7#> .
+@prefix ns256: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12521_t1_0645_0000_5#> .
+@prefix ns134: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12413_t1_0230_0000_5#> .
+@prefix ns255: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12521_t1_0645_0000_4#> .
+@prefix ns133: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12413_t1_0230_0000_14#> .
+@prefix ns254: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12521_t1_0645_0000_2#> .
+@prefix ns139: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12415_t1_0232_0000_4#> .
+@prefix ns138: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12415_t1_0232_0000_2#> .
+@prefix ns259: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12521_t1_0646_0000_4#> .
+@prefix ns137: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12415_t1_0231_0000_8#> .
+@prefix ns258: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12521_t1_0646_0000_3#> .
+@prefix schema: <http://schema.org/> .
+@prefix ns220: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12476_t1_0558_0000_9#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ns103: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12387_t1_0184_0000_4#> .
+@prefix ns224: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12480_t1_0561_0000_9#> .
+@prefix ns102: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12387_t1_0184_0000_2#> .
+@prefix ns223: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12480_t1_0561_0000_8#> .
+@prefix ns101: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12387_t1_0183_0000_3#> .
+@prefix ns222: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12478_t1_0559_0000_8#> .
+@prefix ns100: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12385_t1_0172_0000_2#> .
+@prefix ns221: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12478_t1_0559_0000_7#> .
+@prefix ns107: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12389_t1_0186_0000_6#> .
+@prefix ns228: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12485_t1_0563_0000_8#> .
+@prefix sd:    <http://www.w3.org/ns/sparql-service-description#> .
+@prefix ns106: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12389_t1_0186_0000_5#> .
+@prefix ns227: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12485_t1_0563_0000_7#> .
+@prefix ns105: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12387_t1_0184_0000_6#> .
+@prefix ns226: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12483_t1_0563_0000_3#> .
+@prefix ns104: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12387_t1_0184_0000_5#> .
+@prefix ns225: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12483_t1_0562_0000_10#> .
+@prefix ns109: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12389_t1_0188_0000_9#> .
+@prefix ns108: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12389_t1_0188_0000_4#> .
+@prefix ns229: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12485_t1_0564_0000_2#> .
+@prefix ns110: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12391_t1_0190_0000_5#> .
+@prefix ns231: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12491_t1_0574_0000_3#> .
+@prefix ns230: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12488_t1_0564_0000_12#> .
+@prefix txn:   <http://lod.taxonconcept.org/ontology/txn.owl#> .
+@prefix ns114: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12393_t1_0191_0000_7#> .
+@prefix ns235: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12494_t1_0591_0000_4#> .
+@prefix ns113: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12393_t1_0191_0000_11#> .
+@prefix ns234: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12494_t1_0584_0000_3#> .
+@prefix ns112: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12393_t1_0191_0000_10#> .
+@prefix ns233: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12491_t1_0577_0000_5#> .
+@prefix ns111: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12391_t1_0190_0000_7#> .
+@prefix ns232: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12491_t1_0577_0000_4#> .
+@prefix ns118: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12396_t1_0194_0000_6#> .
+@prefix ns239: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12499_t1_0608_0000_4#> .
+@prefix ns117: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12395_t1_0193_0000_6#> .
+@prefix ns238: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12499_t1_0608_0000_10#> .
+@prefix ns116: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12393_t1_0192_0000_3#> .
+@prefix ns237: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12498_t1_0607_0000_3#> .
+@prefix ns115: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12393_t1_0192_0000_2#> .
+@prefix ns236: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12498_t1_0607_0000_2#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns119: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12396_t1_0195_0000_2#> .
+@prefix ns161: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12436_t1_0281_0000_4#> .
+@prefix ns282: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12540_t1_0695_0000_7#> .
+@prefix ns160: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12431_t1_0267_0000_4#> .
+@prefix ns281: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12538_t1_0690_0000_4#> .
+@prefix ns280: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12537_t1_0681_0000_8#> .
+@prefix ns165: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12441_t1_0287_0000_2#> .
+@prefix ns286: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12546_t1_0715_0000_3#> .
+@prefix ns164: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12437_t1_0282_0000_2#> .
+@prefix ns285: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12542_t1_0714_0000_7#> .
+@prefix ns163: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12437_t1_0281_0000_6#> .
+@prefix ns284: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12542_t1_0712_0000_3#> .
+@prefix ns162: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12436_t1_0281_0000_5#> .
+@prefix ns283: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12541_t1_0695_0000_10#> .
+@prefix ns169: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12442_t1_0289_0000_3#> .
+@prefix ns168: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12442_t1_0289_0000_2#> .
+@prefix ns289: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12546_t1_0715_0000_7#> .
+@prefix ns167: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12442_t1_0288_0000_4#> .
+@prefix ns288: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12546_t1_0715_0000_6#> .
+@prefix ns166: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12441_t1_0288_0000_2#> .
+@prefix ns287: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12546_t1_0715_0000_5#> .
+@prefix ns13:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12307_t1_0002_0000_4#> .
+@prefix ns12:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12307_t1_0001_0000_7#> .
+@prefix ns11:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12307_t1_0001_0000_2#> .
+@prefix ns10:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12307_t1_0001_0000_1#> .
+@prefix ns17:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12307_t1_0002_0000_9#> .
+@prefix ns16:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12307_t1_0002_0000_8#> .
+@prefix ns15:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12307_t1_0002_0000_7#> .
+@prefix ns14:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12307_t1_0002_0000_5#> .
+@prefix ns19:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12311_t1_0010_0000_4#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix ns18:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12311_t1_0005_0000_2#> .
+@prefix ns172: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12444_t1_0290_0000_5#> .
+@prefix ns293: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12546_t1_0728_0000_4#> .
+@prefix ns171: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12443_t1_0290_0000_3#> .
+@prefix ns292: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12546_t1_0716_0000_7#> .
+@prefix ns170: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12442_t1_0289_0000_5#> .
+@prefix ns291: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12546_t1_0716_0000_6#> .
+@prefix ns290: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12546_t1_0716_0000_3#> .
+@prefix ns176: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12449_t1_0301_0000_4#> .
+@prefix ns297: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12549_t1_0738_0000_13#> .
+@prefix ns175: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12444_t1_0297_0000_3#> .
+@prefix ns296: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12547_t1_0738_0000_3#> .
+@prefix ns174: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12444_t1_0294_0000_2#> .
+@prefix ns295: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12547_t1_0737_0000_3#> .
+@prefix ns173: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12444_t1_0292_0000_4#> .
+@prefix ns294: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12546_t1_0728_0000_5#> .
+@prefix ns179: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12449_t1_0302_0000_6#> .
+@prefix ns178: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12449_t1_0302_0000_5#> .
+@prefix ns299: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12553_t1_0755_0000_6#> .
+@prefix ns177: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12449_t1_0302_0000_4#> .
+@prefix ns298: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12550_t1_0738_0000_18#> .
+@prefix ns260: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12522_t1_0646_0000_11#> .
+@prefix ns143: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12415_t1_0235_0000_5#> .
+@prefix ns264: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12522_t1_0647_0000_5#> .
+@prefix ns142: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12415_t1_0235_0000_3#> .
+@prefix ns263: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12522_t1_0647_0000_4#> .
+@prefix ns141: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12415_t1_0235_0000_2#> .
+@prefix ns262: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12522_t1_0646_0000_9#> .
+@prefix ns140: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12415_t1_0232_0000_5#> .
+@prefix ns261: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12522_t1_0646_0000_7#> .
+@prefix ns147: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12417_t1_0240_0000_6#> .
+@prefix ns268: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12528_t1_0671_0000_4#> .
+@prefix ns146: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12417_t1_0240_0000_5#> .
+@prefix ns267: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12525_t1_0655_0000_1#> .
+@prefix ns145: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12417_t1_0240_0000_4#> .
+@prefix ns266: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12524_t1_0648_0000_6#> .
+@prefix ns144: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12417_t1_0240_0000_3#> .
+@prefix ns265: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12523_t1_0647_0000_6#> .
+@prefix ns31:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12327_t1_0056_0000_10#> .
+@prefix ns30:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12326_t1_0035_0000_5#> .
+@prefix ns149: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12417_t1_0240_0000_8#> .
+@prefix ns148: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12417_t1_0240_0000_7#> .
+@prefix ns269: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12529_t1_0674_0000_4#> .
+@prefix ns35:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12331_t1_0057_0000_2#> .
+@prefix ns34:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12331_t1_0056_0000_3#> .
+@prefix ns33:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12331_t1_0056_0000_2#> .
+@prefix ns32:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12327_t1_0056_0000_11#> .
+@prefix ns39:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12334_t1_0058_0000_4#> .
+@prefix ns38:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12334_t1_0058_0000_3#> .
+@prefix ns37:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12334_t1_0058_0000_2#> .
+@prefix ns36:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12332_t1_0057_0000_3#> .
+@prefix ns150: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12418_t1_0242_0000_3#> .
+@prefix ns271: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12533_t1_0678_0000_12#> .
+@prefix ns270: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12531_t1_0676_0000_5#> .
+@prefix ns154: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12428_t1_0262_0000_1#> .
+@prefix ns275: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12534_t1_0678_0000_14#> .
+@prefix ns153: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12423_t1_0248_0000_12#> .
+@prefix ns274: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12533_t1_0678_0000_9#> .
+@prefix ns152: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12419_t1_0244_0000_5#> .
+@prefix ns273: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12533_t1_0678_0000_8#> .
+@prefix biro:  <http://purl.org/spar/biro/> .
+@prefix ns151: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12418_t1_0244_0000_4#> .
+@prefix ns272: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12533_t1_0678_0000_4#> .
+@prefix ns158: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12431_t1_0266_0000_5#> .
+@prefix ns279: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12536_t1_0681_0000_6#> .
+@prefix ns157: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12429_t1_0264_0000_10#> .
+@prefix ns278: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12536_t1_0680_0000_8#> .
+@prefix ns156: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12428_t1_0263_0000_4#> .
+@prefix ns277: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12536_t1_0680_0000_4#> .
+@prefix ns155: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12428_t1_0262_0000_9#> .
+@prefix ns276: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12535_t1_0680_0000_3#> .
+@prefix ns20:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12311_t1_0010_0000_8#> .
+@prefix ns159: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12431_t1_0266_0000_8#> .
+@prefix ns24:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12319_t1_0032_0000_3#> .
+@prefix persee: <http://data.persee.fr/ontology/persee-ontology/> .
+@prefix ns23:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12313_t1_0013_0000_4#> .
+@prefix ns22:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12311_t1_0012_0000_4#> .
+@prefix ns21:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12311_t1_0011_0000_7#> .
+@prefix ns28:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12325_t1_0034_0000_7#> .
+@prefix ns27:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12324_t1_0034_0000_4#> .
+@prefix ns26:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12322_t1_0033_0000_3#> .
+@prefix bibo:  <http://purl.org/ontology/bibo/> .
+@prefix ns25:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12319_t1_0032_0000_5#> .
+@prefix ns29:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12325_t1_0035_0000_4#> .
+@prefix ns60:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12354_t1_0104_0000_2#> .
+@prefix ns53:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12352_t1_0090_0000_6#> .
+@prefix ns52:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12349_t1_0088_0000_9#> .
+@prefix ns5:   <http://localhost:8890/> .
+@prefix ns51:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12348_t1_0088_0000_6#> .
+@prefix ns7:   <http://www.w3.org/2002/07/> .
+@prefix ns50:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12346_t1_0081_0000_9#> .
+@prefix ns57:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12353_t1_0093_0000_6#> .
+@prefix ns56:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12353_t1_0093_0000_5#> .
+@prefix ns55:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12352_t1_0092_0000_7#> .
+@prefix ns54:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12352_t1_0090_0000_7#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns59:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12354_t1_0095_0000_3#> .
+@prefix ns58:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12354_t1_0093_0000_8#> .
+@prefix ns42:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12336_t1_0061_0000_6#> .
+@prefix ns41:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12334_t1_0060_0000_2#> .
+@prefix ns40:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12334_t1_0058_0000_7#> .
+@prefix ns46:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12343_t1_0079_0000_8#> .
+@prefix ns45:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12343_t1_0079_0000_2#> .
+@prefix ns44:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12341_t1_0071_0000_8#> .
+@prefix ns43:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12340_t1_0071_0000_5#> .
+@prefix ns49:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12345_t1_0081_0000_3#> .
+@prefix ns48:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12345_t1_0081_0000_2#> .
+@prefix ns47:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12344_t1_0080_0000_6#> .
+@prefix ns183: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12452_t1_0304_0000_8#> .
+@prefix ns182: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12449_t1_0303_0000_7#> .
+@prefix ns181: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12449_t1_0303_0000_5#> .
+@prefix ns180: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12449_t1_0302_0000_8#> .
+@prefix ns187: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12454_t1_0308_0000_1#> .
+@prefix ns186: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12453_t1_0306_0000_1#> .
+@prefix ns185: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12452_t1_0305_0000_9#> .
+@prefix ns184: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12452_t1_0305_0000_4#> .
+@prefix ns82:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12370_t1_0135_0000_6#> .
+@prefix ns81:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12369_t1_0135_0000_3#> .
+@prefix ns80:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12366_t1_0130_0000_5#> .
+@prefix ns189: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12457_t1_0394_0000_4#> .
+@prefix ns188: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12457_t1_0394_0000_3#> .
+@prefix ns75:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12365_t1_0127_0000_4#> .
+@prefix ns74:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12365_t1_0127_0000_2#> .
+@prefix ns73:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12363_t1_0125_0000_6#> .
+@prefix ns72:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12362_t1_0125_0000_4#> .
+@prefix ns79:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12366_t1_0130_0000_4#> .
+@prefix ns78:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12365_t1_0129_0000_3#> .
+@prefix ns77:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12365_t1_0129_0000_2#> .
+@prefix ns76:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12365_t1_0128_0000_6#> .
+@prefix ns190: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12458_t1_0395_0000_7#> .
+@prefix ns194: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12460_t1_0397_0000_4#> .
+@prefix ns193: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12459_t1_0397_0000_3#> .
+@prefix ns192: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12458_t1_0396_0000_4#> .
+@prefix ns191: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12458_t1_0396_0000_2#> .
+@prefix ns198: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12462_t1_0404_0000_1#> .
+@prefix ns197: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12462_t1_0403_0000_6#> .
+@prefix ns196: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12461_t1_0403_0000_3#> .
+@prefix ns195: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12460_t1_0402_0000_5#> .
+@prefix ns71:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12362_t1_0125_0000_3#> .
+@prefix ns70:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12362_t1_0125_0000_2#> .
+@prefix ns199: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12462_t1_0408_0000_3#> .
+@prefix ns64:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12361_t1_0118_0000_8#> .
+@prefix ns63:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12361_t1_0118_0000_4#> .
+@prefix ns62:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12354_t1_0110_0000_2#> .
+@prefix ns61:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12354_t1_0104_0000_3#> .
+@prefix ns68:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12362_t1_0123_0000_2#> .
+@prefix ns67:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12362_t1_0122_0000_5#> .
+@prefix ns66:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12362_t1_0119_0000_2#> .
+@prefix ns65:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12362_t1_0118_0000_13#> .
+@prefix ns69:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12362_t1_0124_0000_2#> .
+@prefix rdfdf: <http://www.openlinksw.com/virtrdf-data-formats#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix ns202: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12467_t1_0436_0000_12#> .
+@prefix ns201: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12467_t1_0436_0000_11#> .
+@prefix ns200: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12467_t1_0436_0000_10#> .
+@prefix ns97:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12381_t1_0167_0000_3#> .
+@prefix ns206: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12469_t1_0437_0000_19#> .
+@prefix ns96:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12381_t1_0156_0000_3#> .
+@prefix ns205: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12469_t1_0437_0000_13#> .
+@prefix ns95:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12380_t1_0151_0000_9#> .
+@prefix ns204: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12467_t1_0436_0000_5#> .
+@prefix ns94:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12380_t1_0150_0000_2#> .
+@prefix ns203: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12467_t1_0436_0000_13#> .
+@prefix ns209: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12471_t1_0446_0000_2#> .
+@prefix ns99:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12383_t1_0171_0000_19#> .
+@prefix ns208: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12471_t1_0443_0000_5#> .
+@prefix ns98:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12382_t1_0168_0000_4#> .
+@prefix ns207: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12470_t1_0438_0000_5#> .
+@prefix ns93:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12380_t1_0150_0000_13#> .
+@prefix ns213: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12471_t1_0447_0000_7#> .
+@prefix ns92:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12380_t1_0149_0000_8#> .
+@prefix ns212: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12471_t1_0447_0000_6#> .
+@prefix ns91:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12380_t1_0149_0000_2#> .
+@prefix ns211: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12471_t1_0447_0000_5#> .
+@prefix ns90:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12380_t1_0149_0000_14#> .
+@prefix ns210: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12471_t1_0447_0000_2#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix ns86:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12379_t1_0145_0000_9#> .
+@prefix ns217: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12476_t1_0558_0000_10#> .
+@prefix ns85:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12374_t1_0140_0000_6#> .
+@prefix ns216: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12476_t1_0555_0000_6#> .
+@prefix ns84:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12370_t1_0137_0000_4#> .
+@prefix ns215: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12475_t1_0554_0000_12#> .
+@prefix ns83:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12370_t1_0135_0000_8#> .
+@prefix ns214: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12473_t1_0512_0000_1#> .
+@prefix ns89:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12380_t1_0148_0000_6#> .
+@prefix ns88:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12380_t1_0148_0000_2#> .
+@prefix ns219: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12476_t1_0558_0000_3#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix ns87:  <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12380_t1_0147_0000_6#> .
+@prefix ns218: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_30_1_12476_t1_0558_0000_13#> .
+@prefix ns301: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_32_1_13320_t1_0005_0000_1#> .
+@prefix ns300: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_32_1_13319_t1_0003_0000_2#> .
+@prefix ns302: <http://data.persee.fr/doc/arcpa_0000-0000_1888_num_32_1_13321_t1_0013_0000_1#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+
+ns284:Web  a    persee:AssemblyWork .
+
+ns253:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/853513>
+        a       dbo:ArchitecturalStructure .
+
+ns60:Web  a     persee:AssemblyWork .
+
+dbo:ArchitecturalStructure
+        a       rdfs:Class .
+
+rdfdf:sql-nvarchar-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+ns163:Web  a    persee:AssemblyWork .
+
+ns212:Web  a    persee:AssemblyWork .
+
+ns258:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/844358>
+        a       dbo:ArchitecturalStructure .
+
+ns57:Web  a     persee:AssemblyWork .
+
+ns97:Web  a     persee:AssemblyWork .
+
+owl:allValuesFrom  a  rdf:Property .
+
+ns236:Web  a    persee:AssemblyWork .
+
+owl:disjointWith  a  rdf:Property .
+
+ns246:Web  a    persee:AssemblyWork .
+
+foaf:familyName  a  rdf:Property .
+
+ns188:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/853457>
+        a       dbo:ArchitecturalStructure .
+
+virtrdf:DefaultQuadMap-O
+        a       virtrdf:QuadMapValue .
+
+rdfdf:sql-nvarchar-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://data.persee.fr/authority/853425>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:sql-doubleprecision-nullable
+        a       virtrdf:QuadMapFormat .
+
+persee:SupplementIssue
+        a       owl:Class .
+
+owl:equivalentProperty
+        a       rdf:Property .
+
+<http://data.persee.fr/authority/845070>
+        a       dbo:ArchitecturalStructure .
+
+ns95:Web  a     persee:AssemblyWork .
+
+rdfdf:sql-varchar-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultServiceMap-G-col-G
+        a       virtrdf:QuadMapColumn .
+
+persee:sendingPlace  a  rdf:Property , owl:DatatypeProperty .
+
+ns269:Web  a    persee:AssemblyWork .
+
+ns202:Web  a    persee:AssemblyWork .
+
+rdfdf:sql-datetime-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://data.persee.fr/authority/853835>
+        a       dbo:ArchitecturalStructure .
+
+txn:RankOrder  a  owl:Class .
+
+persee:StatementsToAssembly
+        a       owl:Class .
+
+rdfdf:sql-date-literal
+        a       virtrdf:QuadMapFormat .
+
+persee:BibliographicalNote
+        a       owl:Class .
+
+rdfdf:sinv-iid-nonblank-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://data.persee.fr/authority/853803>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:sql-nvarchar-dt
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:DefaultQuadStorage
+        a       virtrdf:QuadStorage .
+
+ns260:Web  a    persee:AssemblyWork .
+
+rdfdf:sql-varchar-fixedlang-x-any-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns204:Web  a    persee:AssemblyWork .
+
+ns103:Web  a    persee:AssemblyWork .
+
+rdfdf:sql-varchar-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+persee:Referral  a  owl:Class .
+
+persee:Seminar  a  owl:Class .
+
+rdfdf:sql-numeric-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:singlepart-literal-fn-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://data.persee.fr/authority/844837>
+        a       dbo:ArchitecturalStructure .
+
+persee:CollectiveWork
+        a       owl:Class .
+
+dbo:ordo  a     rdf:Property .
+
+ns140:Web  a    persee:AssemblyWork .
+
+rdfdf:zeropart-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://data.persee.fr/authority/844805>
+        a       dbo:ArchitecturalStructure .
+
+persee:Debate  a  owl:Class .
+
+persee:writingDate  a  rdf:Property , owl:DatatypeProperty .
+
+<http://data.persee.fr/authority/853438>
+        a       dbo:ArchitecturalStructure .
+
+persee:Issue  a  owl:Class .
+
+ns76:Web  a     persee:AssemblyWork .
+
+rdfdf:sql-longvarchar-dt
+        a       virtrdf:QuadMapFormat .
+
+ns179:Web  a    persee:AssemblyWork .
+
+rdfdf:sql-longvarchar
+        a       virtrdf:QuadMapFormat .
+
+<http://data.persee.fr/authority/844574>
+        a       dbo:ArchitecturalStructure .
+
+<http://data.persee.fr/authority/853452>
+        a       dbo:ArchitecturalStructure .
+
+owl:AnnotationProperty
+        a       rdfs:Class .
+
+ns41:Web  a     persee:AssemblyWork .
+
+ns227:Web  a    persee:AssemblyWork .
+
+rdfdf:sinv-nullable  a  virtrdf:QuadMapFormat .
+
+txn:RankSubspecies  a  owl:Class .
+
+rdfdf:sql-date-nullable
+        a       virtrdf:QuadMapFormat .
+
+owl:Class  a    rdfs:Class .
+
+foaf:name  a    rdf:Property .
+
+ns52:Web  a     persee:AssemblyWork .
+
+ns255:Web  a    persee:AssemblyWork .
+
+txn:RankSubfamily  a  owl:Class .
+
+ns213:Web  a    persee:AssemblyWork .
+
+ns259:Web  a    persee:AssemblyWork .
+
+ns55:Web  a     persee:AssemblyWork .
+
+<http://data.persee.fr/authority/853830>
+        a       dbo:ArchitecturalStructure .
+
+<http://data.persee.fr/authority/853507>
+        a       dbo:ArchitecturalStructure .
+
+<http://data.persee.fr/authority/844201>
+        a       dbo:ArchitecturalStructure .
+
+<http://data.persee.fr/authority/844920>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:sql-date-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://data.persee.fr/authority/829418>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:sql-integer-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sinv-iid-nonblank-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-numeric-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+ns231:Web  a    persee:AssemblyWork .
+
+virtrdf:SyncToQuads  a  virtrdf:QuadStorage .
+
+rdfdf:default-iid  a  virtrdf:QuadMapFormat .
+
+ns301:Web  a    persee:AssemblyWork .
+
+ns272:Web  a    persee:AssemblyWork .
+
+owl:equivalentClass  a  rdf:Property .
+
+ns128:Web  a    persee:AssemblyWork .
+
+rdfdf:sql-longnvarchar-fixedlang-x-any
+        a       virtrdf:QuadMapFormat .
+
+ns48:Web  a     persee:AssemblyWork .
+
+<http://data.persee.fr/authority/853521>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:sql-longvarbinary-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns14:Web  a     persee:AssemblyWork .
+
+<http://data.persee.fr/authority/829400>
+        a       dbo:ArchitecturalStructure .
+
+<http://data.persee.fr/authority/853497>
+        a       dbo:ArchitecturalStructure .
+
+foaf:givenName  a  rdf:Property .
+
+ns203:Web  a    persee:AssemblyWork .
+
+rdfdf:sql-nvarchar-lang
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:zeropart-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longnvarchar-lang
+        a       virtrdf:QuadMapFormat .
+
+schema:deathDate  a  rdf:Property .
+
+<http://data.persee.fr/authority/844800>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:sql-numeric-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultServiceMap-ft-conds
+        a       virtrdf:array-of-string .
+
+<http://data.persee.fr/authority/844555>
+        a       dbo:ArchitecturalStructure .
+
+persee:Account  a  owl:Class .
+
+persee:ArcheologicalChronicle
+        a       owl:Class .
+
+ns291:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/853433>
+        a       dbo:ArchitecturalStructure .
+
+<http://data.persee.fr/authority/853829>
+        a       dbo:ArchitecturalStructure .
+
+ns88:Web  a     persee:AssemblyWork .
+
+<http://data.persee.fr/authority/844744>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:sql-longvarbinary
+        a       virtrdf:QuadMapFormat .
+
+ns91:Web  a     persee:AssemblyWork .
+
+<http://data.persee.fr/authority/844246>
+        a       dbo:ArchitecturalStructure .
+
+persee:Letter  a  owl:Class .
+
+<http://data.persee.fr/authority/853843>
+        a       dbo:ArchitecturalStructure .
+
+ns44:Web  a     persee:AssemblyWork .
+
+rdfdf:singlepart-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:DefaultServiceMap-ft
+        a       virtrdf:QuadMapFText .
+
+<http://data.persee.fr/authority/853811>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:sql-varchar-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-varchar-dt-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns229:Web  a    persee:AssemblyWork .
+
+rdfdf:sql-integer-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-datetime-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns295:Web  a    persee:AssemblyWork .
+
+rdfdf:sql-varchar-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://data.persee.fr/authority/853534>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:sql-date-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns210:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/829413>
+        a       dbo:ArchitecturalStructure .
+
+ns275:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/853502>
+        a       dbo:ArchitecturalStructure .
+
+ns228:Web  a    persee:AssemblyWork .
+
+rdfdf:sql-datetime-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+ns238:Web  a    persee:AssemblyWork .
+
+ns129:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/845077>
+        a       dbo:ArchitecturalStructure .
+
+ns256:Web  a    persee:AssemblyWork .
+
+rdfdf:sql-time  a  virtrdf:QuadMapFormat .
+
+rdfdf:sql-longnvarchar-dt-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns194:Web  a    persee:AssemblyWork .
+
+ns197:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/853446>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:sql-time-nullable
+        a       virtrdf:QuadMapFormat .
+
+owl:SymmetricProperty
+        a       rdfs:Class .
+
+rdfdf:sql-time-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://data.persee.fr/authority/842877>
+        a       dbo:ArchitecturalStructure .
+
+ns170:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/853460>
+        a       dbo:ArchitecturalStructure .
+
+<http://data.persee.fr/authority/842845>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:zeropart-uri-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://data.persee.fr/authority/844978>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:sql-varchar-fixedlang-x-any-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns49:Web  a     persee:AssemblyWork .
+
+ns30:Web  a     persee:AssemblyWork .
+
+rdfdf:sql-numeric-literal
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:DefaultQuadMap-S-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+ns193:Web  a    persee:AssemblyWork .
+
+persee:Map  a   owl:Class .
+
+virtrdf:DefaultServiceMap-geo
+        a       virtrdf:QuadMapFText .
+
+txn:RankSubphylum  a  owl:Class .
+
+ns72:Web  a     persee:AssemblyWork .
+
+ns148:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/853515>
+        a       dbo:ArchitecturalStructure .
+
+ns282:Web  a    persee:AssemblyWork .
+
+rdfdf:sql-doubleprecision-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:singlepart-uri-fn-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns289:Web  a    persee:AssemblyWork .
+
+ns174:Web  a    persee:AssemblyWork .
+
+ns292:Web  a    persee:AssemblyWork .
+
+ns230:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/844651>
+        a       dbo:ArchitecturalStructure .
+
+foaf:depiction  a  rdf:Property .
+
+<http://data.persee.fr/authority/832576>
+        a       dbo:ArchitecturalStructure .
+
+<http://data.persee.fr/authority/853459>
+        a       dbo:ArchitecturalStructure .
+
+persee:Motion  a  owl:Class .
+
+ns77:Web  a     persee:AssemblyWork .
+
+ns112:Web  a    persee:AssemblyWork .
+
+ns152:Web  a    persee:AssemblyWork .
+
+virtrdf:DefaultQuadMap-O-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+<http://data.persee.fr/authority/853427>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:default  a  virtrdf:QuadMapFormat .
+
+ns125:Web  a    persee:AssemblyWork .
+
+persee:DraftDecree  a  owl:Class .
+
+persee:Photography  a  owl:Class .
+
+rdfdf:sql-longnvarchar-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+txn:RankGenus  a  owl:Class .
+
+rdfdf:sql-integer-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sinv-iid  a  virtrdf:QuadMapFormat .
+
+rdfdf:sql-nvarchar-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns115:Web  a    persee:AssemblyWork .
+
+rdfdf:sql-numeric-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+<http://data.persee.fr/authority/853441>
+        a       dbo:ArchitecturalStructure .
+
+virtrdf:DefaultServiceMap-P
+        a       virtrdf:QuadMapValue .
+
+txn:RankPhylum  a  owl:Class .
+
+ns66:Web  a     persee:AssemblyWork .
+
+<http://data.persee.fr/authority/853837>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:sql-varchar-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns198:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/853805>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:sql-integer-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-varchar-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbo:regnum  a   rdf:Property .
+
+ns120:Web  a    persee:AssemblyWork .
+
+rdfdf:sql-numeric-uri
+        a       virtrdf:QuadMapFormat .
+
+owl:unionOf  a  rdf:Property .
+
+rdfs:seeAlso  a  owl:AnnotationProperty .
+
+[ a       owl:Class ] .
+
+<http://data.persee.fr/authority/844696>
+        a       dbo:ArchitecturalStructure .
+
+ns214:Web  a    persee:AssemblyWork .
+
+ns64:Web  a     persee:AssemblyWork .
+
+rdfdf:sql-nvarchar-uri
+        a       virtrdf:QuadMapFormat .
+
+ns84:Web  a     persee:AssemblyWork .
+
+<http://data.persee.fr/authority/844618>
+        a       dbo:ArchitecturalStructure .
+
+persee:writingPlace  a  rdf:Property , owl:DatatypeProperty .
+
+ns299:Web  a    persee:AssemblyWork .
+
+rdfdf:sql-doubleprecision-literal
+        a       virtrdf:QuadMapFormat .
+
+ns117:Web  a    persee:AssemblyWork .
+
+rdfdf:sql-datetime-literal
+        a       virtrdf:QuadMapFormat .
+
+ns126:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/832557>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:sql-date-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://data.persee.fr/authority/853510>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:sql-datetime  a  virtrdf:QuadMapFormat .
+
+virtrdf:DefaultQuadMap-pquad
+        a       virtrdf:QuadMapATable .
+
+rdfdf:sql-datetime-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-nvarchar-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns12:Web  a     persee:AssemblyWork .
+
+rdfdf:sql-longvarchar-lang-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns81:Web  a     persee:AssemblyWork .
+
+ns15:Web  a     persee:AssemblyWork .
+
+owl:priorVersion  a  rdf:Property , owl:OntologyProperty .
+
+ns192:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/853454>
+        a       dbo:ArchitecturalStructure .
+
+persee:BookAdmission  a  owl:Class .
+
+persee:OtherIllustration
+        a       owl:Class .
+
+<http://data.persee.fr/authority/853422>
+        a       dbo:ArchitecturalStructure .
+
+ns35:Web  a     persee:AssemblyWork .
+
+ns283:Web  a    persee:AssemblyWork .
+
+ns149:Web  a    persee:AssemblyWork .
+
+rdfdf:singlepart-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+foaf:Organization  a  rdfs:Class .
+
+ns138:Web  a    persee:AssemblyWork .
+
+rdfs:isDefinedBy  a  owl:AnnotationProperty .
+
+persee:Catalog  a  owl:Class .
+
+ns276:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/853832>
+        a       dbo:ArchitecturalStructure .
+
+persee:Blends  a  owl:Class .
+
+rdfdf:sql-nvarchar-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns78:Web  a     persee:AssemblyWork .
+
+ns113:Web  a    persee:AssemblyWork .
+
+rdfdf:zeropart-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:DefaultServiceMap-pquad
+        a       virtrdf:QuadMapATable .
+
+rdfdf:default-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns106:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/853523>
+        a       dbo:ArchitecturalStructure .
+
+<http://data.persee.fr/authority/844193>
+        a       dbo:ArchitecturalStructure .
+
+ns130:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/853499>
+        a       dbo:ArchitecturalStructure .
+
+<http://data.persee.fr/authority/832584>
+        a       dbo:ArchitecturalStructure .
+
+txn:RankSuperclass  a  owl:Class .
+
+ns161:Web  a    persee:AssemblyWork .
+
+ns51:Web  a     persee:AssemblyWork .
+
+<http://data.persee.fr/authority/844161>
+        a       dbo:ArchitecturalStructure .
+
+<http://data.persee.fr/authority/853467>
+        a       dbo:ArchitecturalStructure .
+
+<http://data.persee.fr/authority/832552>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:sql-varchar-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://data.persee.fr/authority/853435>
+        a       dbo:ArchitecturalStructure .
+
+ns26:Web  a     persee:AssemblyWork .
+
+rdfdf:sql-date  a  virtrdf:QuadMapFormat .
+
+<http://data.persee.fr/authority/845080>
+        a       dbo:ArchitecturalStructure .
+
+owl:imports  a  owl:OntologyProperty , rdf:Property .
+
+rdfdf:sql-nvarchar-literal
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:multipart-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:DefaultQuadMap-G
+        a       virtrdf:QuadMapValue .
+
+rdfdf:default-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://data.persee.fr/authority/853845>
+        a       dbo:ArchitecturalStructure .
+
+<http://data.persee.fr/authority/844935>
+        a       dbo:ArchitecturalStructure .
+
+ns200:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/853813>
+        a       dbo:ArchitecturalStructure .
+
+txn:RankSuperphylum  a  owl:Class .
+
+<http://data.persee.fr/authority/844903>
+        a       dbo:ArchitecturalStructure .
+
+persee:LeaveRequest  a  owl:Class .
+
+rdfdf:zeropart-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns144:Web  a    persee:AssemblyWork .
+
+ns239:Web  a    persee:AssemblyWork .
+
+ns28:Web  a     persee:AssemblyWork .
+
+rdfdf:sql-date-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+[ a       owl:Class ] .
+
+ns290:Web  a    persee:AssemblyWork .
+
+rdfdf:sql-varchar-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+<http://data.persee.fr/authority/853504>
+        a       dbo:ArchitecturalStructure .
+
+<http://data.persee.fr/authority/845103>
+        a       dbo:ArchitecturalStructure .
+
+owl:Ontology  a  rdfs:Class .
+
+rdfdf:sql-varchar-literal
+        a       virtrdf:QuadMapFormat .
+
+<http://data.persee.fr/authority/844128>
+        a       dbo:ArchitecturalStructure .
+
+persee:Thesis  a  owl:Class .
+
+txn:RankSuperorder  a  owl:Class .
+
+ns36:Web  a     persee:AssemblyWork .
+
+ns34:Web  a     persee:AssemblyWork .
+
+ns232:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/844893>
+        a       dbo:ArchitecturalStructure .
+
+ns173:Web  a    persee:AssemblyWork .
+
+rdfdf:sql-varchar-dt-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-numeric-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+persee:TableDoc  a  owl:Class .
+
+persee:  a      owl:Ontology .
+
+bibo:Proceedings  a  rdfs:Class .
+
+persee:OtherDocument  a  owl:Class .
+
+owl:Nothing  a  owl:Class .
+
+<http://data.persee.fr/authority/844317>
+        a       dbo:ArchitecturalStructure .
+
+<http://data.persee.fr/authority/853448>
+        a       dbo:ArchitecturalStructure .
+
+ns100:Web  a    persee:AssemblyWork .
+
+rdfdf:sql-time-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+<http://data.persee.fr/authority/853494>
+        a       dbo:ArchitecturalStructure .
+
+ns122:Web  a    persee:AssemblyWork .
+
+ns75:Web  a     persee:AssemblyWork .
+
+ns22:Web  a     persee:AssemblyWork .
+
+rdfdf:multipart-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns176:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/853462>
+        a       dbo:ArchitecturalStructure .
+
+ns177:Web  a    persee:AssemblyWork .
+
+ns220:Web  a    persee:AssemblyWork .
+
+rdfdf:sql-nvarchar-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-numeric-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns136:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/853430>
+        a       dbo:ArchitecturalStructure .
+
+persee:Drawing  a  owl:Class .
+
+ns185:Web  a    persee:AssemblyWork .
+
+ns205:Web  a    persee:AssemblyWork .
+
+ns159:Web  a    persee:AssemblyWork .
+
+ns40:Web  a     persee:AssemblyWork .
+
+ns225:Web  a    persee:AssemblyWork .
+
+rdfdf:multipart-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+bibo:Image  a   rdfs:Class .
+
+[ a       owl:Class ] .
+
+<http://data.persee.fr/authority/844962>
+        a       dbo:ArchitecturalStructure .
+
+ns131:Web  a    persee:AssemblyWork .
+
+persee:MissionReport  a  owl:Class .
+
+ns254:Web  a    persee:AssemblyWork .
+
+ns132:Web  a    persee:AssemblyWork .
+
+ns211:Web  a    persee:AssemblyWork .
+
+ns280:Web  a    persee:AssemblyWork .
+
+dbo:Place  a    rdfs:Class .
+
+<http://data.persee.fr/authority/853840>
+        a       dbo:ArchitecturalStructure .
+
+persee:Textbook  a  owl:Class .
+
+owl:differentFrom  a  rdf:Property .
+
+<http://data.persee.fr/authority/853517>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:sql-date-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-date-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+ns244:Web  a    persee:AssemblyWork .
+
+skos:Concept  a  rdfs:Class .
+
+ns168:Web  a    persee:AssemblyWork .
+
+bibo:Issue  a   rdfs:Class .
+
+ns82:Web  a     persee:AssemblyWork .
+
+dcterms:title  a  rdf:Property .
+
+<http://data.persee.fr/authority/832578>
+        a       dbo:ArchitecturalStructure .
+
+ns218:Web  a    persee:AssemblyWork .
+
+rdfdf:sql-numeric-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://data.persee.fr/authority/829410>
+        a       dbo:ArchitecturalStructure .
+
+virtrdf:DefaultQuadMap-S
+        a       virtrdf:QuadMapValue .
+
+rdfdf:sql-longnvarchar
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longvarchar-lang
+        a       virtrdf:QuadMapFormat .
+
+<http://data.persee.fr/authority/853429>
+        a       dbo:ArchitecturalStructure .
+
+ns201:Web  a    persee:AssemblyWork .
+
+ns265:Web  a    persee:AssemblyWork .
+
+ns293:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/832560>
+        a       dbo:ArchitecturalStructure .
+
+persee:CriticalEdition
+        a       owl:Class .
+
+<http://data.persee.fr/authority/853443>
+        a       dbo:ArchitecturalStructure .
+
+<http://data.persee.fr/authority/844312>
+        a       dbo:ArchitecturalStructure .
+
+persee:Liminary  a  owl:Class .
+
+ns145:Web  a    persee:AssemblyWork .
+
+rdfdf:sql-varchar-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns47:Web  a     persee:AssemblyWork .
+
+persee:Circular  a  owl:Class .
+
+rdfdf:sql-longnvarchar-dt-nullable
+        a       virtrdf:QuadMapFormat .
+
+owl:DeprecatedProperty
+        a       rdfs:Class .
+
+rdfdf:sql-varchar-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://data.persee.fr/authority/853839>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:sql-nvarchar  a  virtrdf:QuadMapFormat .
+
+persee:Amendment  a  owl:Class .
+
+virtrdf:DefaultServiceMap-P-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+<http://data.persee.fr/authority/842842>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:sql-longvarchar-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns121:Web  a    persee:AssemblyWork .
+
+persee:SpecialIssue  a  owl:Class .
+
+persee:Speech  a  owl:Class .
+
+ns172:Web  a    persee:AssemblyWork .
+
+ns233:Web  a    persee:AssemblyWork .
+
+persee:ComitteesDecision
+        a       owl:Class .
+
+rdfdf:sql-integer-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://data.persee.fr/authority/845129>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:sql-doubleprecision-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://data.persee.fr/authority/844666>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:sql-nvarchar-fixedlang-x-any-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns123:Web  a    persee:AssemblyWork .
+
+persee:receiptDate  a  rdf:Property , owl:DatatypeProperty .
+
+owl:TransitiveProperty
+        a       rdfs:Class .
+
+ns223:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/853512>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:sql-integer-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-datetime-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns31:Web  a     persee:AssemblyWork .
+
+ns157:Web  a    persee:AssemblyWork .
+
+ns175:Web  a    persee:AssemblyWork .
+
+ns124:Web  a    persee:AssemblyWork .
+
+ns242:Web  a    persee:AssemblyWork .
+
+ns110:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/853456>
+        a       dbo:ArchitecturalStructure .
+
+persee:Dictionary  a  owl:Class .
+
+ns252:Web  a    persee:AssemblyWork .
+
+ns53:Web  a     persee:AssemblyWork .
+
+ns298:Web  a    persee:AssemblyWork .
+
+rdfdf:sql-numeric-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+owl:InverseFunctionalProperty
+        a       rdfs:Class .
+
+virtrdf:DefaultQuadMap-ft
+        a       virtrdf:QuadMapFText .
+
+persee:Deliberation  a  owl:Class .
+
+persee:Correspondences
+        a       owl:Class .
+
+ns169:Web  a    persee:AssemblyWork .
+
+rdfdf:sql-varchar-lang-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sinv-iid-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbo:genus  a    rdf:Property .
+
+<http://data.persee.fr/authority/853834>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:sql-time-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-doubleprecision-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns13:Web  a     persee:AssemblyWork .
+
+ns268:Web  a    persee:AssemblyWork .
+
+persee:Plan  a  owl:Class .
+
+ns294:Web  a    persee:AssemblyWork .
+
+ns215:Web  a    persee:AssemblyWork .
+
+ns285:Web  a    persee:AssemblyWork .
+
+ns261:Web  a    persee:AssemblyWork .
+
+virtrdf:DefaultQuadMap-atables
+        a       virtrdf:array-of-QuadMapATable .
+
+bibo:Collection  a  rdfs:Class .
+
+persee:Editorial  a  owl:Class .
+
+ns69:Web  a     persee:AssemblyWork .
+
+ns70:Web  a     persee:AssemblyWork .
+
+ns146:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/829404>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:sql-longvarchar-fixedlang-x-any-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:default-iid-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:multipart-uri  a  virtrdf:QuadMapFormat .
+
+ns287:Web  a    persee:AssemblyWork .
+
+ns190:Web  a    persee:AssemblyWork .
+
+persee:UnsaidSpeech  a  owl:Class .
+
+rdfdf:sql-integer-uri
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longvarchar-fixedlang-x-any
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-date-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-integer-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longvarbinary-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://data.persee.fr/authority/844559>
+        a       dbo:ArchitecturalStructure .
+
+<http://data.persee.fr/authority/853437>
+        a       dbo:ArchitecturalStructure .
+
+<http://data.persee.fr/authority/845082>
+        a       dbo:ArchitecturalStructure .
+
+<http://data.persee.fr/authority/842868>
+        a       dbo:ArchitecturalStructure .
+
+<http://data.persee.fr/authority/853451>
+        a       dbo:ArchitecturalStructure .
+
+persee:StrikeOff  a  owl:Class .
+
+virtrdf:DefaultQuadMap-S-col-S
+        a       virtrdf:QuadMapColumn .
+
+ns38:Web  a     persee:AssemblyWork .
+
+ns160:Web  a    persee:AssemblyWork .
+
+persee:Table  a  owl:Class .
+
+persee:DictionaryEntry
+        a       owl:Class .
+
+<http://data.persee.fr/authority/844296>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:sql-date-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:zeropart-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns224:Web  a    persee:AssemblyWork .
+
+rdfdf:sql-varchar-fixedlang-x-any
+        a       virtrdf:QuadMapFormat .
+
+persee:recipientRole  a  rdf:Property , owl:DatatypeProperty .
+
+persee:MandatoryInstruction
+        a       owl:Class .
+
+foaf:Person  a  rdfs:Class .
+
+persee:AssemblyWork  a  owl:Class .
+
+<http://data.persee.fr/authority/844439>
+        a       dbo:ArchitecturalStructure .
+
+owl:intersectionOf  a  rdf:Property .
+
+rdfdf:sql-longvarchar-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns32:Web  a     persee:AssemblyWork .
+
+ns93:Web  a     persee:AssemblyWork .
+
+rdfdf:sql-longnvarchar-fixedlang-x-any-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns133:Web  a    persee:AssemblyWork .
+
+rdfdf:sql-nvarchar-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+persee:sendingDate  a  rdf:Property , owl:DatatypeProperty .
+
+<http://data.persee.fr/authority/829417>
+        a       dbo:ArchitecturalStructure .
+
+persee:senderRole  a  rdf:Property , owl:DatatypeProperty .
+
+<http://data.persee.fr/authority/1452307>
+        a       dbo:ArchitecturalStructure .
+
+ns54:Web  a     persee:AssemblyWork .
+
+<http://data.persee.fr/authority/853506>
+        a       dbo:ArchitecturalStructure .
+
+<http://data.persee.fr/authority/845105>
+        a       dbo:ArchitecturalStructure .
+
+ns302:Web  a    persee:AssemblyWork .
+
+persee:DataArray  a  owl:Class .
+
+ns249:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/844176>
+        a       dbo:ArchitecturalStructure .
+
+<http://data.persee.fr/authority/844895>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:sql-numeric-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns167:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/853520>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:sql-doubleprecision
+        a       virtrdf:QuadMapFormat .
+
+persee:Memorandum  a  owl:Class .
+
+rdfdf:sql-nvarchar-fixedlang-x-any-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns83:Web  a     persee:AssemblyWork .
+
+persee:KingsCouncilDecision
+        a       owl:Class .
+
+txn:RankSubclass  a  owl:Class .
+
+<http://data.persee.fr/authority/853496>
+        a       dbo:ArchitecturalStructure .
+
+ns42:Web  a     persee:AssemblyWork .
+
+persee:Article  a  owl:Class .
+
+owl:Restriction  a  rdfs:Class .
+
+biro:BibliographicRecord
+        a       rdfs:Class .
+
+rdfdf:sql-integer  a  virtrdf:QuadMapFormat .
+
+rdfdf:sql-datetime-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+<http://data.persee.fr/authority/853464>
+        a       dbo:ArchitecturalStructure .
+
+ns29:Web  a     persee:AssemblyWork .
+
+ns191:Web  a    persee:AssemblyWork .
+
+ns199:Web  a    persee:AssemblyWork .
+
+rdfdf:sql-longvarchar-dt-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://data.persee.fr/authority/853432>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:sql-integer-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+persee:answers  a  rdf:Property , owl:DatatypeProperty .
+
+rdfdf:sinv-iid-nonblank
+        a       virtrdf:QuadMapFormat .
+
+txn:RankFamily  a  owl:Class .
+
+ns71:Web  a     persee:AssemblyWork .
+
+rdfdf:sql-time-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns147:Web  a    persee:AssemblyWork .
+
+ns25:Web  a     persee:AssemblyWork .
+
+ns288:Web  a    persee:AssemblyWork .
+
+persee:Decision  a  owl:Class .
+
+owl:DataRange  a  rdfs:Class .
+
+ns247:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/853842>
+        a       dbo:ArchitecturalStructure .
+
+<http://data.persee.fr/authority/853519>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:sql-varchar-dt-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:default-iid-nonblank-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sinv-iid-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns151:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/853533>
+        a       dbo:ArchitecturalStructure .
+
+persee:Appendix  a  owl:Class .
+
+rdfdf:sql-numeric  a  virtrdf:QuadMapFormat .
+
+persee:dateOfPrintPublication
+        a       rdf:Property , owl:DatatypeProperty .
+
+ns158:Web  a    persee:AssemblyWork .
+
+ns39:Web  a     persee:AssemblyWork .
+
+owl:AllDifferent  a  rdfs:Class .
+
+<http://data.persee.fr/authority/853501>
+        a       dbo:ArchitecturalStructure .
+
+ns235:Web  a    persee:AssemblyWork .
+
+ns21:Web  a     persee:AssemblyWork .
+
+owl:minCardinality  a  rdf:Property .
+
+rdfdf:default-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns209:Web  a    persee:AssemblyWork .
+
+rdfdf:sql-varchar-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://data.persee.fr/authority/832562>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:sql-longvarchar-dt-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:multipart-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://data.persee.fr/authority/844567>
+        a       dbo:ArchitecturalStructure .
+
+<http://data.persee.fr/authority/853445>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:sql-longnvarchar-nullable
+        a       virtrdf:QuadMapFormat .
+
+persee:RollCallVote  a  owl:Class .
+
+dbo:familia  a  rdf:Property .
+
+ns111:Web  a    persee:AssemblyWork .
+
+persee:DraftLaw  a  owl:Class .
+
+rdfdf:sql-datetime-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfs:label  a   rdf:Property , owl:AnnotationProperty .
+
+<http://data.persee.fr/authority/853809>
+        a       dbo:ArchitecturalStructure .
+
+ns217:Web  a    persee:AssemblyWork .
+
+persee:dateOfSession  a  rdf:Property , owl:DatatypeProperty .
+
+ns79:Web  a     persee:AssemblyWork .
+
+persee:Atlas  a  owl:Class .
+
+rdfdf:sql-doubleprecision-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-doubleprecision-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+persee:receiptPlace  a  rdf:Property , owl:DatatypeProperty .
+
+rdfdf:sql-numeric-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+txn:RankDomain  a  owl:Class .
+
+ns270:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/853514>
+        a       dbo:ArchitecturalStructure .
+
+<http://data.persee.fr/authority/845113>
+        a       dbo:ArchitecturalStructure .
+
+<http://data.persee.fr/authority/844682>
+        a       dbo:ArchitecturalStructure .
+
+persee:Grievance  a  owl:Class .
+
+rdfdf:singlepart-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+ns96:Web  a     persee:AssemblyWork .
+
+ns262:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/832575>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:sql-nvarchar-dt-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://data.persee.fr/authority/853458>
+        a       dbo:ArchitecturalStructure .
+
+virtrdf:DefaultQuadMap-P
+        a       virtrdf:QuadMapValue .
+
+owl:maxCardinality  a  rdf:Property .
+
+rdfdf:sql-nvarchar-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-varchar-uri
+        a       virtrdf:QuadMapFormat .
+
+txn:RankKingdom  a  owl:Class .
+
+persee:Proceedings  a  owl:Class .
+
+<http://data.persee.fr/authority/853426>
+        a       dbo:ArchitecturalStructure .
+
+ns186:Web  a    persee:AssemblyWork .
+
+rdfdf:sql-integer-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longnvarchar-lang-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://data.persee.fr/authority/842857>
+        a       dbo:ArchitecturalStructure .
+
+ns74:Web  a     persee:AssemblyWork .
+
+rdfdf:sql-time-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-datetime-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns274:Web  a    persee:AssemblyWork .
+
+ns154:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/853440>
+        a       dbo:ArchitecturalStructure .
+
+virtrdf:DefaultQuadMap
+        a       virtrdf:QuadMap .
+
+virtrdf:DefaultServiceMap-O
+        a       virtrdf:QuadMapValue .
+
+rdfdf:default-iid-nonblank-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns135:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/853836>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:sql-integer-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://data.persee.fr/authority/844207>
+        a       dbo:ArchitecturalStructure .
+
+persee:TeachingMaterial
+        a       owl:Class .
+
+ns20:Web  a     persee:AssemblyWork .
+
+persee:NewspaperExtract
+        a       owl:Class .
+
+ns241:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/853804>
+        a       dbo:ArchitecturalStructure .
+
+ns226:Web  a    persee:AssemblyWork .
+
+txn:RankSuperfamily  a  owl:Class .
+
+owl:oneOf  a    rdf:Property .
+
+rdfdf:default-iid-nonblank
+        a       virtrdf:QuadMapFormat .
+
+<http://data.persee.fr/authority/853527>
+        a       dbo:ArchitecturalStructure .
+
+txn:RankVariety  a  owl:Class .
+
+ns279:Web  a    persee:AssemblyWork .
+
+rdfdf:sql-time-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+ns143:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/844197>
+        a       dbo:ArchitecturalStructure .
+
+ns248:Web  a    persee:AssemblyWork .
+
+ns243:Web  a    persee:AssemblyWork .
+
+rdfdf:default-iid-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+persee:Note  a  owl:Class .
+
+<http://data.persee.fr/authority/844838>
+        a       dbo:ArchitecturalStructure .
+
+owl:incompatibleWith  a  owl:OntologyProperty , rdf:Property .
+
+owl:DeprecatedClass  a  rdfs:Class .
+
+rdfdf:sql-nvarchar-lang-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://data.persee.fr/authority/844386>
+        a       dbo:ArchitecturalStructure .
+
+owl:versionInfo  a  owl:AnnotationProperty , rdf:Property .
+
+persee:BiographicalNote
+        a       owl:Class .
+
+rdfdf:default-iid-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://data.persee.fr/authority/853439>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:sql-longvarchar-fixedlang-x-any-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns80:Web  a     persee:AssemblyWork .
+
+ns10:Web  a     persee:AssemblyWork .
+
+virtrdf:DefaultQuadMap-P-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+rdfdf:sql-nvarchar-dt-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-varchar-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://data.persee.fr/authority/845084>
+        a       dbo:ArchitecturalStructure .
+
+<http://data.persee.fr/authority/832570>
+        a       dbo:ArchitecturalStructure .
+
+ns234:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/844322>
+        a       dbo:ArchitecturalStructure .
+
+ns61:Web  a     persee:AssemblyWork .
+
+<http://data.persee.fr/authority/853453>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:multipart-literal
+        a       virtrdf:QuadMapFormat .
+
+ns263:Web  a    persee:AssemblyWork .
+
+ns98:Web  a     persee:AssemblyWork .
+
+rdfdf:sql-time-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns237:Web  a    persee:AssemblyWork .
+
+marcrel:pht  a  rdf:Property .
+
+rdfdf:sql-integer-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-numeric-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultQuadMap-P-col-P
+        a       virtrdf:QuadMapColumn .
+
+virtrdf:DefaultServiceStorage
+        a       virtrdf:QuadStorage .
+
+rdfdf:multipart-uri-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns189:Web  a    persee:AssemblyWork .
+
+virtrdf:DefaultQuadMap-G-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+<http://data.persee.fr/authority/853817>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:sql-longnvarchar-lang-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns67:Web  a     persee:AssemblyWork .
+
+txn:RankTribe  a  owl:Class .
+
+marcrel:aut  a  rdf:Property .
+
+persee:Anthology  a  owl:Class .
+
+ns33:Web  a     persee:AssemblyWork .
+
+ns171:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/853831>
+        a       dbo:ArchitecturalStructure .
+
+<http://data.persee.fr/authority/844202>
+        a       dbo:ArchitecturalStructure .
+
+<http://data.persee.fr/authority/829419>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:sql-numeric-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://data.persee.fr/authority/853508>
+        a       dbo:ArchitecturalStructure .
+
+<http://data.persee.fr/authority/845107>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:multipart-literal-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-varchar-lang-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://data.persee.fr/authority/844423>
+        a       dbo:ArchitecturalStructure .
+
+virtrdf:DefaultServiceMap-atables
+        a       virtrdf:array-of-QuadMapATable .
+
+ns65:Web  a     persee:AssemblyWork .
+
+<http://data.persee.fr/authority/844644>
+        a       dbo:ArchitecturalStructure .
+
+<http://data.persee.fr/authority/832569>
+        a       dbo:ArchitecturalStructure .
+
+<http://data.persee.fr/authority/853522>
+        a       dbo:ArchitecturalStructure .
+
+<http://data.persee.fr/authority/844192>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:sql-nvarchar-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longvarchar-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://data.persee.fr/authority/853498>
+        a       dbo:ArchitecturalStructure .
+
+<http://data.persee.fr/authority/832583>
+        a       dbo:ArchitecturalStructure .
+
+ns183:Web  a    persee:AssemblyWork .
+
+ns104:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/853466>
+        a       dbo:ArchitecturalStructure .
+
+<http://data.persee.fr/authority/832551>
+        a       dbo:ArchitecturalStructure .
+
+ns90:Web  a     persee:AssemblyWork .
+
+<http://data.persee.fr/authority/853434>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:sql-longnvarchar-fixedlang-x-any-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns240:Web  a    persee:AssemblyWork .
+
+virtrdf:DefaultServiceMap-S-col-S
+        a       virtrdf:QuadMapColumn .
+
+persee:IllustrationDoc
+        a       owl:Class .
+
+ns92:Web  a     persee:AssemblyWork .
+
+rdfdf:zeropart-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+persee:Bibliography  a  owl:Class .
+
+<http://data.persee.fr/authority/853844>
+        a       dbo:ArchitecturalStructure .
+
+ns7:owl  a      owl:Ontology .
+
+rdfdf:sql-longvarchar-fixedlang-x-any-nullable
+        a       virtrdf:QuadMapFormat .
+
+persee:AccountsReview
+        a       owl:Class .
+
+ns296:Web  a    persee:AssemblyWork .
+
+rdfdf:singlepart-uri-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns182:Web  a    persee:AssemblyWork .
+
+ns164:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/853812>
+        a       dbo:ArchitecturalStructure .
+
+<http://data.persee.fr/authority/844689>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:sql-varchar-fixedlang-x-any-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns11:Web  a     persee:AssemblyWork .
+
+<http://data.persee.fr/authority/844902>
+        a       dbo:ArchitecturalStructure .
+
+txn:RankSubgenus  a  owl:Class .
+
+owl:distinctMembers  a  rdf:Property .
+
+ns109:Web  a    persee:AssemblyWork .
+
+ns114:Web  a    persee:AssemblyWork .
+
+rdfdf:sql-longvarchar-lang-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+persee:Abstracts  a  owl:Class .
+
+rdfdf:sql-varchar-dt  a  virtrdf:QuadMapFormat .
+
+rdfdf:sql-time-literal
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:DefaultQuadMap-O-col-O
+        a       virtrdf:QuadMapColumn .
+
+<http://data.persee.fr/authority/853535>
+        a       dbo:ArchitecturalStructure .
+
+persee:LegislativeDecree
+        a       owl:Class .
+
+persee:Review  a  owl:Class .
+
+persee:ResearchTopic  a  owl:Class .
+
+ns58:Web  a     persee:AssemblyWork .
+
+ns264:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/853503>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:sql-varchar  a  virtrdf:QuadMapFormat .
+
+<http://data.persee.fr/authority/845102>
+        a       dbo:ArchitecturalStructure .
+
+ns297:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/844173>
+        a       dbo:ArchitecturalStructure .
+
+ns286:Web  a    persee:AssemblyWork .
+
+persee:MinistersSpeech
+        a       owl:Class .
+
+<http://data.persee.fr/authority/844141>
+        a       dbo:ArchitecturalStructure .
+
+persee:Report  a  owl:Class .
+
+<http://data.persee.fr/authority/844316>
+        a       dbo:ArchitecturalStructure .
+
+<http://data.persee.fr/authority/853447>
+        a       dbo:ArchitecturalStructure .
+
+persee:Ordinance  a  owl:Class .
+
+ns153:Web  a    persee:AssemblyWork .
+
+ns219:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/853461>
+        a       dbo:ArchitecturalStructure .
+
+ns43:Web  a     persee:AssemblyWork .
+
+ns19:Web  a     persee:AssemblyWork .
+
+rdfdf:multipart-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns50:Web  a     persee:AssemblyWork .
+
+persee:Plate  a  owl:Class .
+
+rdfdf:sql-datetime-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://data.persee.fr/authority/829957>
+        a       dbo:ArchitecturalStructure .
+
+ns85:Web  a     persee:AssemblyWork .
+
+rdfdf:sql-nvarchar-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns105:Web  a    persee:AssemblyWork .
+
+ns187:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/830002>
+        a       dbo:ArchitecturalStructure .
+
+persee:NominativeDecision
+        a       owl:Class .
+
+ns208:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/853516>
+        a       dbo:ArchitecturalStructure .
+
+foaf:depicts  a  rdf:Property .
+
+ns221:Web  a    persee:AssemblyWork .
+
+owl:complementOf  a  rdf:Property .
+
+rdfdf:sql-longnvarchar-dt-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns63:Web  a     persee:AssemblyWork .
+
+ns278:Web  a    persee:AssemblyWork .
+
+rdfdf:sql-nvarchar-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+persee:AssemblyMeetings
+        a       owl:Class .
+
+<http://data.persee.fr/authority/832577>
+        a       dbo:ArchitecturalStructure .
+
+ns196:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/853530>
+        a       dbo:ArchitecturalStructure .
+
+bibo:Book  a    rdfs:Class .
+
+ns94:Web  a     persee:AssemblyWork .
+
+ns108:Web  a    persee:AssemblyWork .
+
+ns165:Web  a    persee:AssemblyWork .
+
+ns166:Web  a    persee:AssemblyWork .
+
+persee:Memo  a  owl:Class .
+
+<http://data.persee.fr/authority/853428>
+        a       dbo:ArchitecturalStructure .
+
+ns18:Web  a     persee:AssemblyWork .
+
+rdfdf:sql-date-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+marcrel:edt  a  rdf:Property .
+
+dcterms:hasPart  a  rdf:Property .
+
+ns180:Web  a    persee:AssemblyWork .
+
+owl:OntologyProperty  a  rdfs:Class .
+
+ns271:Web  a    persee:AssemblyWork .
+
+ns59:Web  a     persee:AssemblyWork .
+
+rdfdf:zeropart-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://data.persee.fr/authority/853442>
+        a       dbo:ArchitecturalStructure .
+
+persee:Regulation  a  owl:Class .
+
+rdfdf:sinv-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbo:classis  a  rdf:Property .
+
+virtrdf:DefaultQuadMap-G-col-G
+        a       virtrdf:QuadMapColumn .
+
+<http://data.persee.fr/authority/853838>
+        a       dbo:ArchitecturalStructure .
+
+ns257:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/853806>
+        a       dbo:ArchitecturalStructure .
+
+ns118:Web  a    persee:AssemblyWork .
+
+ns24:Web  a     persee:AssemblyWork .
+
+rdfdf:sql-integer-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+persee:CriticalNote  a  owl:Class .
+
+<http://data.persee.fr/authority/853529>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:sql-integer-literal
+        a       virtrdf:QuadMapFormat .
+
+marcrel:rcp  a  rdf:Property .
+
+<http://data.persee.fr/authority/829408>
+        a       dbo:ArchitecturalStructure .
+
+persee:ReceivedBooks  a  owl:Class .
+
+rdfdf:sql-datetime-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns250:Web  a    persee:AssemblyWork .
+
+rdfdf:sql-longnvarchar-fixedlang-x-any-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+txn:scientificName  a  rdf:Property .
+
+<http://data.persee.fr/authority/853511>
+        a       dbo:ArchitecturalStructure .
+
+persee:Convocation  a  owl:Class .
+
+ns184:Web  a    persee:AssemblyWork .
+
+rdfdf:zeropart-uri  a  virtrdf:QuadMapFormat .
+
+ns37:Web  a     persee:AssemblyWork .
+
+persee:SourceData  a  owl:Class .
+
+ns62:Web  a     persee:AssemblyWork .
+
+rdfdf:multipart-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://data.persee.fr/authority/832572>
+        a       dbo:ArchitecturalStructure .
+
+<http://data.persee.fr/authority/853455>
+        a       dbo:ArchitecturalStructure .
+
+ns300:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/844798>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:sql-longnvarchar-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns141:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/853423>
+        a       dbo:ArchitecturalStructure .
+
+ns267:Web  a    persee:AssemblyWork .
+
+ns245:Web  a    persee:AssemblyWork .
+
+ns222:Web  a    persee:AssemblyWork .
+
+owl:someValuesFrom  a  rdf:Property .
+
+rdfdf:sinv-iid-nonblank-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:zeropart-literal-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns137:Web  a    persee:AssemblyWork .
+
+txn:RankInfraorder  a  owl:Class .
+
+bibo:Document  a  rdfs:Class .
+
+virtrdf:DefaultServiceMap-geo-conds
+        a       virtrdf:array-of-string .
+
+<http://data.persee.fr/authority/844955>
+        a       dbo:ArchitecturalStructure .
+
+owl:inverseOf  a  rdf:Property .
+
+<http://data.persee.fr/authority/853833>
+        a       dbo:ArchitecturalStructure .
+
+owl:backwardCompatibleWith
+        a       owl:OntologyProperty , rdf:Property .
+
+ns116:Web  a    persee:AssemblyWork .
+
+ns45:Web  a     persee:AssemblyWork .
+
+virtrdf:DefaultServiceMap
+        a       virtrdf:QuadMap .
+
+ns5:sparql  a   sd:Service .
+
+rdfdf:zeropart-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+persee:Law  a   owl:Class .
+
+owl:DatatypeProperty  a  rdfs:Class .
+
+owl:Thing  a    owl:Class .
+
+<http://data.persee.fr/authority/853524>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:default-iid-nonblank-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-nvarchar-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-longnvarchar-lang-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://data.persee.fr/authority/829403>
+        a       dbo:ArchitecturalStructure .
+
+ns46:Web  a     persee:AssemblyWork .
+
+<http://data.persee.fr/authority/844162>
+        a       dbo:ArchitecturalStructure .
+
+ns86:Web  a     persee:AssemblyWork .
+
+owl:cardinality  a  rdf:Property .
+
+persee:LawText  a  owl:Class .
+
+rdfdf:sinv-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns68:Web  a     persee:AssemblyWork .
+
+<http://data.persee.fr/authority/844383>
+        a       dbo:ArchitecturalStructure .
+
+<http://data.persee.fr/authority/853436>
+        a       dbo:ArchitecturalStructure .
+
+ns127:Web  a    persee:AssemblyWork .
+
+persee:ComitteesElection
+        a       owl:Class .
+
+persee:LocalAssemblyDecision
+        a       owl:Class .
+
+rdfdf:sql-nvarchar-fixedlang-x-any
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-nvarchar-lang-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+owl:FunctionalProperty
+        a       rdfs:Class .
+
+<http://data.persee.fr/authority/844747>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:sql-doubleprecision-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://data.persee.fr/authority/844540>
+        a       dbo:ArchitecturalStructure .
+
+ns150:Web  a    persee:AssemblyWork .
+
+virtrdf:DefaultServiceMap-P-col-P
+        a       virtrdf:QuadMapColumn .
+
+ns16:Web  a     persee:AssemblyWork .
+
+ns281:Web  a    persee:AssemblyWork .
+
+ns134:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/844936>
+        a       dbo:ArchitecturalStructure .
+
+ns102:Web  a    persee:AssemblyWork .
+
+owl:ObjectProperty  a  rdfs:Class .
+
+virtrdf:DefaultServiceMap-G
+        a       virtrdf:QuadMapValue .
+
+<http://data.persee.fr/authority/844231>
+        a       dbo:ArchitecturalStructure .
+
+ns73:Web  a     persee:AssemblyWork .
+
+rdfdf:sql-numeric-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://data.persee.fr/authority/844659>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:sql-varchar-lang-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns277:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/853505>
+        a       dbo:ArchitecturalStructure .
+
+ns99:Web  a     persee:AssemblyWork .
+
+<http://data.persee.fr/authority/844673>
+        a       dbo:ArchitecturalStructure .
+
+ns251:Web  a    persee:AssemblyWork .
+
+ns142:Web  a    persee:AssemblyWork .
+
+rdfdf:sql-varchar-lang
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sinv  a   virtrdf:QuadMapFormat .
+
+virtrdf:DefaultServiceMap-S-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+rdfdf:sql-time-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns23:Web  a     persee:AssemblyWork .
+
+persee:PatrioticDonation
+        a       owl:Class .
+
+rdfdf:sql-doubleprecision-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbo:Species  a  rdfs:Class .
+
+rdfdf:sql-longvarbinary-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultServiceStorage-UserMaps
+        a       virtrdf:array-of-QuadMap .
+
+persee:Index  a  owl:Class .
+
+<http://data.persee.fr/authority/853449>
+        a       dbo:ArchitecturalStructure .
+
+dbo:phylum  a   rdf:Property .
+
+<http://data.persee.fr/authority/832580>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:sql-time-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-varchar-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+ns195:Web  a    persee:AssemblyWork .
+
+ns107:Web  a    persee:AssemblyWork .
+
+persee:Instruction  a  owl:Class .
+
+<http://data.persee.fr/authority/853463>
+        a       dbo:ArchitecturalStructure .
+
+ns155:Web  a    persee:AssemblyWork .
+
+rdfdf:singlepart-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://data.persee.fr/authority/853431>
+        a       dbo:ArchitecturalStructure .
+
+ns162:Web  a    persee:AssemblyWork .
+
+ns56:Web  a     persee:AssemblyWork .
+
+virtrdf:DefaultServiceMap-O-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+<http://data.persee.fr/authority/853827>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:sinv-iid-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns27:Web  a     persee:AssemblyWork .
+
+ns206:Web  a    persee:AssemblyWork .
+
+ns119:Web  a    persee:AssemblyWork .
+
+rdfdf:sql-nvarchar-dt-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://data.persee.fr/authority/844244>
+        a       dbo:ArchitecturalStructure .
+
+rdfdf:sql-longnvarchar-dt
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-nvarchar-fixedlang-x-any-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns207:Web  a    persee:AssemblyWork .
+
+rdfdf:sql-doubleprecision-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+<http://data.persee.fr/authority/844931>
+        a       dbo:ArchitecturalStructure .
+
+<http://data.persee.fr/authority/853518>
+        a       dbo:ArchitecturalStructure .
+
+<http://data.persee.fr/authority/844433>
+        a       dbo:ArchitecturalStructure .
+
+txn:RankSpecies  a  owl:Class .
+
+rdfdf:sql-doubleprecision-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultServiceMap-O-col-O
+        a       virtrdf:QuadMapColumn .
+
+rdfdf:sql-integer-nullable
+        a       virtrdf:QuadMapFormat .
+
+persee:Revocation  a  owl:Class .
+
+persee:Correspondence
+        a       owl:Class .
+
+<http://data.persee.fr/authority/832579>
+        a       dbo:ArchitecturalStructure .
+
+<http://data.persee.fr/authority/853532>
+        a       dbo:ArchitecturalStructure .
+
+ns266:Web  a    persee:AssemblyWork .
+
+ns216:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/829411>
+        a       dbo:ArchitecturalStructure .
+
+ns273:Web  a    persee:AssemblyWork .
+
+<http://data.persee.fr/authority/853500>
+        a       dbo:ArchitecturalStructure .
+
+<http://data.persee.fr/authority/844843>
+        a       dbo:ArchitecturalStructure .
+
+ns17:Web  a     persee:AssemblyWork .
+
+rdfdf:sql-nvarchar-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+persee:Monograph  a  owl:Class .
+
+owl:sameAs  a   rdf:Property .
+
+rdfdf:multipart-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns101:Web  a    persee:AssemblyWork .
+
+txn:RankSuborder  a  owl:Class .
+
+rdfdf:sql-nvarchar-lang-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultQuadMap-geo
+        a       virtrdf:QuadMapFText .
+
+owl:onProperty  a  rdf:Property .
+
+rdfs:comment  a  owl:AnnotationProperty .
+
+virtrdf:DefaultServiceMap-S
+        a       virtrdf:QuadMapValue .
+
+rdfdf:zeropart-literal
+        a       virtrdf:QuadMapFormat .
+
+schema:birthDate  a  rdf:Property .
+
+rdfdf:multipart-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+<http://data.persee.fr/authority/842875>
+        a       dbo:ArchitecturalStructure .
+
+ns139:Web  a    persee:AssemblyWork .
+
+persee:Illustration  a  owl:Class .
+
+virtrdf:DefaultQuadStorage-UserMaps
+        a       virtrdf:array-of-QuadMap .
+
+rdfdf:singlepart-literal-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+owl:hasValue  a  rdf:Property .
+
+<http://data.persee.fr/authority/844257>
+        a       dbo:ArchitecturalStructure .
+
+virtrdf:SyncToQuads-UserMaps
+        a       virtrdf:array-of-QuadMap .
+
+ns87:Web  a     persee:AssemblyWork .
+
+virtrdf:DefaultServiceMap-G-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+ns89:Web  a     persee:AssemblyWork .
+
+rdfdf:sql-longvarchar-lang-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+marcrel:ill  a  rdf:Property .
+
+persee:AcademicProgram
+        a       owl:Class .
+
+txn:scientificNameAuthorship
+        a       rdf:Property .
+
+ns178:Web  a    persee:AssemblyWork .
+
+ns156:Web  a    persee:AssemblyWork .
+
+ns181:Web  a    persee:AssemblyWork .
+
+txn:RankClass  a  owl:Class .
+
+persee:Diagram  a  owl:Class .
+
+rdfdf:sql-longvarchar-dt-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .

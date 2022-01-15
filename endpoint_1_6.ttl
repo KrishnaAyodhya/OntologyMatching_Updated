@@ -1,0 +1,2867 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn:    <http://www.w3.org/2005/xpath-functions#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+
+<http://eagle-i.org/ont/repo/1.0/hasRole>
+        a             owl:ObjectProperty ;
+        rdfs:comment  "Subject is entitled to the access privilegs of this role" ;
+        rdfs:label    "has role" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/Role> .
+
+<http://alaska.eagle-i.net/i/0000012b-5f7e-3993-cc6c-4dda80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c0-cdd2-6ee2-b20a80000010>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-8820-edf1-cc6c-4dda80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-3a8c-1e54-76e0-f22c80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://alaska.eagle-i.net/i/0000012a-2506-a131-a68e-378080000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-c270-a68e-378080000005>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012c-c7cb-f124-2a21-f03f80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-acd8-1bbf-cc6c-4dda80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012c-5198-c256-baf8-066280000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-476c-a68e-378080000001>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000070>
+                <http://alaska.eagle-i.net/i/0000012a-2506-a131-a68e-378080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012d-0583-9495-2a21-f03f80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3122-6251-2931-88b580000003>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-65ae-a68e-378080000002>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-6255-2931-88b580000019>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://eagle-i.org/ont/repo/1.0/MatchAnything>
+        rdfs:comment  "Wildcard URI for delete statements request, matches any predicate and/or object" .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-891d-a68e-378080000024>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://eagle-i.org/ont/repo/1.0/NG_Query>
+        <http://purl.org/dc/terms/created>
+                "2017-03-02T07:05:24.843-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://eagle-i.org/ont/repo/1.0/Role_Superuser> ;
+        <http://purl.org/dc/terms/source>
+                [ <http://purl.org/dc/terms/identifier>
+                          <file:///usr/share/tomcat7/webapps/sparqler/WEB-INF/classes/query-macros.n3> ;
+                  <http://purl.org/dc/terms/modified>
+                          "2017-02-03T18:12:12.000-06:00"^^xsd:dateTime
+                ] .
+
+<http://alaska.eagle-i.net/i/0000012b-5f33-1e80-cc6c-4dda80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012c-c7c2-e053-2a21-f03f80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c0-cdd2-6ee2-b20a8000000e>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-28a0-2931-88b580000002>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012f-071f-bc53-19c7-4cc180000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://alaska.eagle-i.net/i/0000012a-2506-a131-a68e-378080000000> .
+
+<http://alaska.eagle-i.net/i/00000130-4dd5-3253-67ac-ce7680000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-cbdc-5d69-cc6c-4dda80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c1-0a67-6ee2-b20a80000002>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-d3de-05e6-3ed3-1c0080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-a0ae-38c9-3ed3-1c0080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-6255-2931-88b58000000c>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-72e5-a68e-378080000002>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-ee01-2931-88b580000025>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012f-6aa5-6b29-b375-6d8b80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2506-fd8d-a68e-378080000005>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-a0aa-31cc-3ed3-1c0080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-2119-a68e-378080000003>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2506-ab36-a68e-37808000001b>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://alaska.eagle-i.net/i/0000012a-2506-a131-a68e-378080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-7ee9-a68e-378080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-364d-572d-cc6c-4dda80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-891d-a68e-378080000006>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-ee01-2931-88b580000037>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://eagle-i.org/ont/repo/1.0/actionParameter>
+        a             owl:DatatypeProperty ;
+        rdfs:comment  "Transition-specific parameter to give action method" ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/WorkflowTransition> ;
+        rdfs:label    "action parameter" .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-4e2f-a68e-378080000004>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://alaska.eagle-i.net/i/0000012a-2506-a131-a68e-378080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-acb2-7a08-cc6c-4dda80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-a0a3-d004-3ed3-1c0080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-ee01-2931-88b58000002a>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c0-a323-6ee2-b20a80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c0-cdd2-6ee2-b20a80000004>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://eagle-i.org/ont/repo/1.0/final>
+        a             owl:FunctionalProperty , owl:ObjectProperty ;
+        rdfs:comment  "Final (Ending) workflow state" ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/WorkflowTransition> ;
+        rdfs:label    "Final Workflow State" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/WorkflowState> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-ee01-2931-88b580000007>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://eagle-i.org/ont/repo/1.0/NGType_Internal>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/NamedGraphType> ;
+        rdf:value     "internal" ;
+        rdfs:comment  "Contains data that is only to be used internally by repository, such as administrative metadata" ;
+        rdfs:label    "Internal Use Only" .
+
+<http://alaska.eagle-i.net/i/0000012a-2506-a54b-a68e-378080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2506-fd8d-a68e-37808000000a>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-891d-a68e-378080000018>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-d0cf-eabc-cc6c-4dda80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-d016-aff4-cc6c-4dda80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-c270-a68e-378080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://eagle-i.org/ont/repo/1.0/initial>
+        a             owl:FunctionalProperty , owl:ObjectProperty ;
+        rdfs:comment  "Initial (Starting) workflow state" ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/WorkflowTransition> ;
+        rdfs:label    "Initial Workflow state" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/WorkflowState> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-891d-a68e-37808000000b>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c0-cdd2-6ee2-b20a80000016>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-ee01-2931-88b580000019>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://eagle-i.org/ont/repo/1.0/hasWorkflowOwner>
+        a             owl:ObjectProperty ;
+        rdfs:comment  "Current owner (claimant) of the workflow state of this instance" ;
+        rdfs:label    "workflow owner" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/Agent> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-6255-2931-88b580000014>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-c14e-2931-88b580000001>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-11ef-a68e-378080000004>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://purl.org/dc/terms/Agent>
+        rdfs:subClassOf  owl:Thing .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-28a0-2931-88b580000008>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012c-c7cd-c2c2-2a21-f03f80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c1-0a67-6ee2-b20a80000008>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-cb77-fac5-cc6c-4dda80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-891d-a68e-37808000001d>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2506-fd8d-a68e-378080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-acba-0ae5-cc6c-4dda80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c0-b0e2-6ee2-b20a80000004>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c0-cdd2-6ee2-b20a8000001b>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-6255-2931-88b580000026>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-ee01-2931-88b58000001e>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://eagle-i.org/ont/repo/1.0/hasAnyAccess>
+        a             owl:ObjectProperty ;
+        rdfs:comment  "has*Access superproperty" ;
+        rdfs:label    "has*Access superproperty" .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-bdad-a68e-378080000002>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2506-a131-a68e-378080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-c526-2931-88b580000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-891d-a68e-378080000001>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-ee01-2931-88b580000032>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-abf6-0ba4-cc6c-4dda80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-d3a8-92c4-3ed3-1c0080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3122-716b-2931-88b580000003>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-ea7d-52c1-9c17-324480000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0001521>
+                <http://alaska.eagle-i.net/i/0000012a-2506-a131-a68e-378080000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-28a0-2931-88b58000000d>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-ee01-2931-88b580000002>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-3122-5b3b-2931-88b580000001>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-25c2-5d13-76e0-f22c80000002>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-d72b-a68e-378080000003>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3b05-62cd-cc6c-4dda80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c1-0a67-6ee2-b20a8000000d>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2506-ab36-a68e-378080000005>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://alaska.eagle-i.net/i/0000012a-2506-a131-a68e-378080000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c1-2262-6ee2-b20a80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-6255-2931-88b580000038>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-6255-2931-88b58000002b>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/00000130-4de7-5f63-67ac-ce7680000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c0-cdd2-6ee2-b20a80000011>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-30b0-b9e9-2931-88b580000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-63d0-c955-cc6c-4dda80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-ee01-2931-88b580000014>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2506-eeff-a68e-378080000000>
+        rdfs:label  "University of Alaska Fairbanks" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-c270-a68e-378080000006>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-476c-a68e-378080000002>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000070>
+                <http://alaska.eagle-i.net/i/0000012a-2506-a131-a68e-378080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-3b10-46b6-cc6c-4dda80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-a0a8-a6a2-3ed3-1c0080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://eagle-i.org/ont/repo/1.0/hasReadAccess>
+        a                   owl:ObjectProperty ;
+        rdfs:comment        "Grants read and query access on subject resource to a principal" ;
+        rdfs:label          "has read access" ;
+        rdfs:range          <http://eagle-i.org/ont/repo/1.0/Agent> ;
+        rdfs:subPropertyOf  <http://eagle-i.org/ont/repo/1.0/hasAnyAccess> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-65ae-a68e-378080000003>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-5a54-1b41-cc6c-4dda80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0001521>
+                <http://alaska.eagle-i.net/i/0000012a-2506-a131-a68e-378080000000> .
+
+<http://eagle-i.org/ont/repo/1.0/hasRemoveAccess>
+        a                   owl:ObjectProperty ;
+        rdfs:comment        "Grants remove access on subject resource to a principal" ;
+        rdfs:label          "has remove access" ;
+        rdfs:range          <http://eagle-i.org/ont/repo/1.0/Agent> ;
+        rdfs:subPropertyOf  <http://eagle-i.org/ont/repo/1.0/hasAnyAccess> .
+
+<http://alaska.eagle-i.net/i/0000012b-3122-6251-2931-88b580000004>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-891d-a68e-378080000025>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-ca73-2931-88b580000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c1-0a67-6ee2-b20a80000003>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://eagle-i.org/ont/repo/1.0/WorkflowState>
+        a                owl:Class ;
+        rdfs:comment     "Controlled vocabulary describing workflow state." ;
+        rdfs:label       "Workflow State" ;
+        rdfs:subClassOf  owl:Thing .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-6255-2931-88b58000000d>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-72e5-a68e-378080000003>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-ee01-2931-88b580000026>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-a09a-d2d2-3ed3-1c0080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://eagle-i.org/ont/repo/1.0/NamedGraph>
+        a                owl:Class ;
+        rdfs:comment     "Collection of metadata about named graph in the repository." ;
+        rdfs:label       "Named Graph" ;
+        rdfs:subClassOf  owl:Thing .
+
+<http://alaska.eagle-i.net/i/00000130-6ba4-ca64-840e-fb5380000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-6255-2931-88b580000021>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/00000130-4de3-8bd8-67ac-ce7680000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-2119-a68e-378080000004>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-a4f3-23d0-3ed3-1c0080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-a0a2-28c0-3ed3-1c0080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-891d-a68e-378080000007>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/00000130-51b6-b69c-67ac-ce7680000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-ee01-2931-88b580000038>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-a0ad-39fb-3ed3-1c0080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-a0a5-4f22-3ed3-1c0080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c0-cdd2-6ee2-b20a80000005>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-ce66-2931-88b580000005>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-6255-2931-88b580000033>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://eagle-i.org/ont/repo/1.0/NamedGraphType>
+        a                owl:Class ;
+        rdfs:comment     "Purpose of a NamedGraph, indicates whether it should be included in certain query datasets" ;
+        rdfs:label       "Named Graph Type" ;
+        rdfs:subClassOf  owl:Thing .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-ee01-2931-88b580000008>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-a09e-4ee1-3ed3-1c0080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-cb7e-d300-cc6c-4dda80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-abe0-04e0-cc6c-4dda80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2506-fd8d-a68e-37808000000b>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-891d-a68e-378080000019>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-c270-a68e-378080000001>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-891d-a68e-37808000000c>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c0-cdd2-6ee2-b20a80000017>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012f-6fd0-2822-b375-6d8b80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c0-cdd2-6ee2-b20a8000000a>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-891d-a68e-378080000020>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-ee01-2931-88b58000000d>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-a575-2c3d-3ed3-1c0080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-5f1d-a68e-378080000004>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://eagle-i.org/ont/repo/1.0/action>
+        a             owl:DatatypeProperty ;
+        rdfs:comment  "fully qualified class name of Java class implementing action" ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/WorkflowTransition> ;
+        rdfs:label    "action" .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-28a0-2931-88b580000009>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012d-8185-05fc-2619-dfc980000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-ee01-2931-88b580000021>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012d-7c5e-d70c-2619-dfc980000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c1-0a67-6ee2-b20a80000009>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-891d-a68e-37808000001e>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-a561-bda7-3ed3-1c0080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2506-fd8d-a68e-378080000001>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c0-b0e2-6ee2-b20a80000005>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c0-cdd2-6ee2-b20a8000001c>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-28a0-2931-88b580000010>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-6255-2931-88b580000027>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-ee01-2931-88b58000001f>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://eagle-i.org/ont/app/1.0/Person>
+        rdfs:subClassOf  owl:Thing .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-bdad-a68e-378080000003>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012d-0578-014e-2a21-f03f80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c1-0a67-6ee2-b20a80000010>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-891d-a68e-378080000002>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-6255-2931-88b58000001a>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-ee01-2931-88b580000033>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-4e2f-a68e-378080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://alaska.eagle-i.net/i/0000012a-2506-a131-a68e-378080000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-3122-716b-2931-88b580000004>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c0-cdd2-6ee2-b20a80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-ce66-2931-88b580000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012c-5197-c688-baf8-066280000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-28a0-2931-88b58000000e>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-ee01-2931-88b580000003>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/00000130-4c58-f67c-67ac-ce7680000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3122-5b3b-2931-88b580000002>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-d72b-a68e-378080000004>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c1-2262-6ee2-b20a80000001>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://eagle-i.org/ont/repo/1.0/ngType>
+        a             owl:FunctionalProperty ;
+        rdfs:comment  "Describes type of contents and purpose of this named graph" ;
+        rdfs:label    "named graph type" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/NamedGraphType> .
+
+<http://alaska.eagle-i.net/i/0000012a-a0ee-12ba-3ed3-1c0080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-5dc7-a68e-378080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-a077-1d3e-3ed3-1c0080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-6255-2931-88b580000009>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-6255-2931-88b58000002c>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-5a3a-f3f9-cc6c-4dda80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-3adb-4373-cc6c-4dda80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c0-cdd2-6ee2-b20a80000012>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-ee01-2931-88b580000015>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-8829-20d7-cc6c-4dda80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-c270-a68e-378080000007>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-476c-a68e-378080000003>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000070>
+                <http://alaska.eagle-i.net/i/0000012a-2506-a131-a68e-378080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-6255-2931-88b580000010>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012c-c7c8-6e10-2a21-f03f80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-65ae-a68e-378080000004>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-11ef-a68e-378080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-891d-a68e-378080000026>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-28a0-2931-88b580000004>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012d-c3f2-9a92-2619-dfc980000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-a54e-d458-3ed3-1c0080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-d0cd-8c54-cc6c-4dda80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://eagle-i.org/ont/repo/1.0/workspace>
+        a             owl:ObjectProperty ;
+        rdfs:comment  "Home workspace of resources capable of using this transition" ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/WorkflowTransition> ;
+        rdfs:label    "Workspace" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/NamedGraph> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-6255-2931-88b58000000e>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-72e5-a68e-378080000004>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-25c2-6a70-76e0-f22c80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c0-b0e2-6ee2-b20a80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-6255-2931-88b580000022>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-710d-a68e-378080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2506-fd8d-a68e-378080000007>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-2119-a68e-378080000005>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-d3b5-8911-3ed3-1c0080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2506-ead7-a68e-378080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000070>
+                <http://alaska.eagle-i.net/i/0000012a-2506-a131-a68e-378080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://eagle-i.org/ont/repo/1.0/WFS_Draft>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/WorkflowState> ;
+        rdfs:comment  "Data collection and preparation" ;
+        rdfs:label    "Draft" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWriter>
+                <http://eagle-i.org/ont/repo/1.0/Role_Curator> , <http://eagle-i.org/ont/repo/1.0/Role_RNAV> ;
+        <http://eagle-i.org/ont/repo/1.0/order>
+                20 .
+
+<http://alaska.eagle-i.net/i/0000012a-25c2-5ab6-76e0-f22c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-3b14-86d0-cc6c-4dda80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-891d-a68e-378080000008>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-ee01-2931-88b580000039>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-e9a3-3b0d-9c17-324480000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0001521>
+                <http://alaska.eagle-i.net/i/0000012a-2506-a131-a68e-378080000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-cba5-8ad9-cc6c-4dda80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c0-a323-6ee2-b20a80000002>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c0-cdd2-6ee2-b20a80000006>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012c-cc55-5fd5-2a21-f03f80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-6255-2931-88b580000004>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-a0a8-1447-3ed3-1c0080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-48d7-b177-76e0-f22c80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2506-fd8d-a68e-37808000000c>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-30e9-a68e-378080000009>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://alaska.eagle-i.net/i/0000012a-2506-a131-a68e-378080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://eagle-i.org/ont/repo/1.0/NGType_Metadata>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/NamedGraphType> ;
+        rdf:value     "metadata" ;
+        rdfs:comment  "Administrative Metadata for the repository" ;
+        rdfs:label    "Administrative Metadata " .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-891d-a68e-37808000000d>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c0-cdd2-6ee2-b20a80000018>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c0-cdd2-6ee2-b20a8000000b>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-891d-a68e-378080000021>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-30e9-a68e-378080000010>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://alaska.eagle-i.net/i/0000012a-2506-a131-a68e-378080000000> .
+
+<http://alaska.eagle-i.net/i/0000012d-0589-18e9-2a21-f03f80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-25c2-58ec-76e0-f22c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-891d-a68e-37808000001f>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-1561-a68e-378080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c0-b0e2-6ee2-b20a80000006>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012c-c7d5-2fa2-2a21-f03f80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-871c-a68e-378080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-2119-a68e-378080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c0-cdd2-6ee2-b20a8000001d>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-6255-2931-88b580000028>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-bdad-a68e-378080000004>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-e9a4-8a04-9c17-324480000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0001521>
+                <http://alaska.eagle-i.net/i/0000012a-2506-a131-a68e-378080000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-891d-a68e-378080000003>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-6255-2931-88b58000001b>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-acb7-e9dc-cc6c-4dda80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-ee01-2931-88b580000034>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-4e2f-a68e-378080000001>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://alaska.eagle-i.net/i/0000012a-2506-a131-a68e-378080000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-6297-a68e-378080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://eagle-i.org/ont/repo/1.0/Role_RNAV>
+        a       owl:Thing .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-ce66-2931-88b580000001>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-28a0-2931-88b58000000f>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-ee01-2931-88b580000004>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3122-5b3b-2931-88b580000003>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-d72b-a68e-378080000005>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c1-2262-6ee2-b20a80000002>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012c-c7e7-d70f-2a21-f03f80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-891d-a68e-378080000015>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-1e5c-a68e-378080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-6255-2931-88b58000002d>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://xmlns.com/foaf/0.1/Person>
+        rdfs:subClassOf  owl:Thing .
+
+<http://eagle-i.org/ont/repo/1.0/NG_Internal>
+        <http://purl.org/dc/terms/created>
+                "2017-03-02T07:05:27.008-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://eagle-i.org/ont/repo/1.0/Role_Superuser> ;
+        <http://purl.org/dc/terms/source>
+                [ <http://purl.org/dc/terms/identifier>
+                          <file:///usr/share/tomcat7/webapps/sparqler/WEB-INF/classes/repository-internal.n3> ;
+                  <http://purl.org/dc/terms/modified>
+                          "2017-02-03T18:12:12.000-06:00"^^xsd:dateTime
+                ] .
+
+<http://alaska.eagle-i.net/i/0000012b-d048-9cb9-cc6c-4dda80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-30e9-a68e-378080000004>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://alaska.eagle-i.net/i/0000012a-2506-a131-a68e-378080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://eagle-i.org/ont/repo/1.0/hasAdminAccess>
+        a                   owl:ObjectProperty ;
+        rdfs:comment        "Grants administrative access on subject resource to a principal" ;
+        rdfs:label          "has administrative access" ;
+        rdfs:range          <http://eagle-i.org/ont/repo/1.0/Agent> ;
+        rdfs:subPropertyOf  <http://eagle-i.org/ont/repo/1.0/hasAnyAccess> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c0-cdd2-6ee2-b20a80000013>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-ee01-2931-88b580000016>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-c270-a68e-378080000008>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-a0ac-2875-3ed3-1c0080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-476c-a68e-378080000004>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000070>
+                <http://alaska.eagle-i.net/i/0000012a-2506-a131-a68e-378080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-6255-2931-88b580000011>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012f-6ab0-84b8-b375-6d8b80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-65ae-a68e-378080000005>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-5f1d-a68e-378080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-11ef-a68e-378080000001>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://eagle-i.org/ont/repo/1.0/WFS_New>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/WorkflowState> ;
+        rdfs:comment  "New instance in the process of creation" ;
+        rdfs:label    "New" ;
+        <http://eagle-i.org/ont/repo/1.0/order>
+                10 .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-891d-a68e-378080000027>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://eagle-i.org/ont/repo/1.0/>
+        a                owl:Ontology ;
+        <http://purl.org/dc/terms/created>
+                "2017-03-02T07:05:26.397-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://eagle-i.org/ont/repo/1.0/Role_Superuser> ;
+        <http://purl.org/dc/terms/source>
+                [ <http://purl.org/dc/terms/identifier>
+                          <file:///usr/share/tomcat7/webapps/sparqler/WEB-INF/classes/repository-ont.n3> ;
+                  <http://purl.org/dc/terms/modified>
+                          "2017-02-03T18:12:12.000-06:00"^^xsd:dateTime
+                ] ;
+        owl:versionInfo  "$Id: repository-ont.n3 19120 2015-04-30 05:13:28Z scheng $" .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-28a0-2931-88b580000005>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-a0a3-1656-3ed3-1c0080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-ee01-2931-88b580000028>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://eagle-i.org/ont/repo/1.0/hasEditToken>
+        a             owl:ObjectProperty ;
+        rdfs:comment  "Relates eagle-i Resource Instance to a URI marking an update in progress with associated metadata." ;
+        rdfs:label    "Edit Token" .
+
+<http://alaska.eagle-i.net/i/0000012d-8192-db28-2619-dfc980000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-e99d-7671-9c17-324480000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0001521>
+                <http://alaska.eagle-i.net/i/0000012a-2506-a131-a68e-378080000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-3fdf-e2ee-cc6c-4dda80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-d012-84c9-cc6c-4dda80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-6255-2931-88b58000000f>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-891d-a68e-37808000001a>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-72e5-a68e-378080000005>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012c-cc59-a83c-2a21-f03f80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-c938-2931-88b580000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c0-b0e2-6ee2-b20a80000001>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://eagle-i.org/ont/repo/1.0/hasAddAccess>
+        a                   owl:ObjectProperty ;
+        rdfs:comment        "Grants ADD access on subject resource to a principal" ;
+        rdfs:label          "has add access" ;
+        rdfs:range          <http://eagle-i.org/ont/repo/1.0/Agent> ;
+        rdfs:subPropertyOf  <http://eagle-i.org/ont/repo/1.0/hasAnyAccess> .
+
+<http://alaska.eagle-i.net/i/0000012a-2506-fd8d-a68e-378080000008>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/00000130-51b5-7e74-67ac-ce7680000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-2119-a68e-378080000006>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-abd3-8c43-cc6c-4dda80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-d3ad-66a2-3ed3-1c0080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2506-ead7-a68e-378080000001>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000070>
+                <http://alaska.eagle-i.net/i/0000012a-2506-a131-a68e-378080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/00000130-4dfb-7939-67ac-ce7680000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012c-18bd-8db0-baf8-066280000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3122-716b-2931-88b580000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-5f74-528f-cc6c-4dda80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0001521>
+                <http://alaska.eagle-i.net/i/0000012a-2506-a131-a68e-378080000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-891d-a68e-378080000009>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-28a0-2931-88b58000000a>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012f-6ab9-4d61-b375-6d8b80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c1-0a67-6ee2-b20a8000000a>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-4e2f-a68e-378080000007>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://alaska.eagle-i.net/i/0000012a-2506-a131-a68e-378080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-d72b-a68e-378080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012f-798a-06f9-b375-6d8b80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-6255-2931-88b580000035>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-ce66-2931-88b580000007>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-a0af-398e-3ed3-1c0080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://eagle-i.org/ont/repo/1.0/NGType_Ontology>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/NamedGraphType> ;
+        rdf:value     "ontology" ;
+        rdfs:comment  "Contains Ontology applicable to data objects" ;
+        rdfs:label    "Ontology" .
+
+<http://alaska.eagle-i.net/i/0000012b-00c0-cdd2-6ee2-b20a80000007>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-25c2-7293-76e0-f22c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c0-a323-6ee2-b20a80000003>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-891d-a68e-378080000010>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-6304-a68e-378080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-6255-2931-88b580000005>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-25c2-740f-76e0-f22c80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-2df2-a68e-378080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/00000148-a8c6-41c4-4d29-f84280000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://purl.obolibrary.org/obo/ero.owl>
+        <http://purl.org/dc/terms/contributor>
+                <http://alaska.eagle-i.net/i/0000015a-8f20-7297-43d9-643780000000> ;
+        <http://purl.org/dc/terms/created>
+                "2017-03-02T07:07:32.424-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/0000015a-8f20-7297-43d9-643780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2017-03-02T07:07:32.424-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/source>
+                [ <http://purl.org/dc/terms/identifier>
+                          "file:/usr/share/tomcat7/webapps/sparqler/WEB-INF/lib/eagle-i-model-owl-2.0.3.1.jar" ;
+                  <http://purl.org/dc/terms/modified>
+                          "2015-10-26T12:00:40.000-05:00"^^xsd:dateTime
+                ] .
+
+<http://eagle-i.org/ont/repo/1.0/NGType_Workspace>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/NamedGraphType> ;
+        rdf:value     "workspace" ;
+        rdfs:comment  "Data objects meant to be invisible to the public" ;
+        rdfs:label    "Workspace" .
+
+<http://alaska.eagle-i.net/i/0000012a-2506-fd8d-a68e-37808000000d>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012d-81a7-3238-2619-dfc980000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-25c2-586d-76e0-f22c80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-c270-a68e-378080000003>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-acb3-9e91-cc6c-4dda80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://eagle-i.org/ont/repo/1.0/Agent>
+        a                owl:Class ;
+        rdfs:comment     "Represents a person, role, or other principal to be granted access control rights" ;
+        rdfs:label       "Agent" ;
+        rdfs:subClassOf  owl:Thing , <http://eagle-i.org/ont/app/1.0/Agent> , <http://purl.org/dc/terms/Agent> , <http://xmlns.com/foaf/0.1/Agent> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-891d-a68e-37808000000e>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c0-cdd2-6ee2-b20a80000019>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-cb85-05de-cc6c-4dda80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-65ae-a68e-378080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://eagle-i.org/ont/repo/1.0/WFS_Curation>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/WorkflowState> ;
+        rdfs:comment  "Awaiting approval by a curator and possible editing" ;
+        rdfs:label    "In Curation" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWriter>
+                <http://eagle-i.org/ont/repo/1.0/Role_Curator> ;
+        <http://eagle-i.org/ont/repo/1.0/order>
+                30 .
+
+<http://alaska.eagle-i.net/i/0000012b-3122-6251-2931-88b580000001>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-e99b-85c5-9c17-324480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-891d-a68e-378080000022>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-26a8-2931-88b580000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-6255-2931-88b580000017>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-28a0-2931-88b580000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012c-c7d1-57d2-2a21-f03f80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c0-9d26-6ee2-b20a80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-30e9-a68e-378080000011>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://alaska.eagle-i.net/i/0000012a-2506-a131-a68e-378080000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c1-0a67-6ee2-b20a80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://eagle-i.org/ont/repo/1.0/isImplicit>
+        a             owl:DatatypeProperty ;
+        rdfs:comment  "When true the role is implicit, that is, automatically assigned to the relevant users, invisible to admins." ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/Person> ;
+        rdfs:label    "is an implicit role" .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-6255-2931-88b58000000a>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-72e5-a68e-378080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c0-cdd2-6ee2-b20a80000020>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012c-c7e3-705c-2a21-f03f80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-a251-d21d-cc6c-4dda80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://eagle-i.org/ont/repo/1.0/WFS_Withdrawn>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/WorkflowState> ;
+        rdfs:comment  "Withdrawn from public access" ;
+        rdfs:label    "Withdrawn" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWriter>
+                <http://eagle-i.org/ont/repo/1.0/Role_Curator> ;
+        <http://eagle-i.org/ont/repo/1.0/order>
+                50 .
+
+<http://alaska.eagle-i.net/i/0000012c-c7c5-b603-2a21-f03f80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-5977-0e54-cc6c-4dda80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0001521>
+                <http://alaska.eagle-i.net/i/0000012a-2506-a131-a68e-378080000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-30e9-a68e-37808000000f>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://alaska.eagle-i.net/i/0000012a-2506-a131-a68e-378080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012d-0ad4-1691-2a21-f03f80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2506-fd8d-a68e-378080000003>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-2119-a68e-378080000001>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c0-cdd2-6ee2-b20a8000001e>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-60f1-2931-88b580000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2506-fbc4-a68e-378080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-891d-a68e-378080000004>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-ee01-2931-88b580000035>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-4e2f-a68e-378080000002>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://alaska.eagle-i.net/i/0000012a-2506-a131-a68e-378080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-6297-a68e-378080000001>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-5f7d-2d35-cc6c-4dda80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0001521>
+                <http://alaska.eagle-i.net/i/0000012a-2506-a131-a68e-378080000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-ce66-2931-88b580000002>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c0-cdd2-6ee2-b20a80000002>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-6255-2931-88b580000030>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-a0f0-2ea3-3ed3-1c0080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-2e92-a68e-378080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-25c2-5d13-76e0-f22c80000005>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-d72b-a68e-378080000006>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-a4e7-2e48-3ed3-1c0080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c1-2262-6ee2-b20a80000003>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-6255-2931-88b580000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3af2-f25c-cc6c-4dda80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-d048-010b-cc6c-4dda80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://eagle-i.org/ont/repo/1.0/hasPrincipalName>
+        a             owl:DatatypeProperty ;
+        rdfs:comment  "Indicates the authenticated login principal bound to this Person or Agent" ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/Person> ;
+        rdfs:label    "login principal" .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-6255-2931-88b58000002e>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-30e9-a68e-378080000005>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://alaska.eagle-i.net/i/0000012a-2506-a131-a68e-378080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c0-cdd2-6ee2-b20a80000014>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://eagle-i.org/ont/repo/1.0/WorkflowTransition>
+        a                owl:Class ;
+        rdfs:comment     "Describes one of the possible transitions from one workflow state to another" ;
+        rdfs:label       "Workflow Transition" ;
+        rdfs:subClassOf  owl:Thing .
+
+<http://alaska.eagle-i.net/i/0000012d-059a-e05e-2a21-f03f80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://eagle-i.org/ont/repo/1.0/NG_Published>
+        <http://purl.org/dc/terms/contributor>
+                <http://alaska.eagle-i.net/i/0000015a-8f20-7297-43d9-643780000000> ;
+        <http://purl.org/dc/terms/created>
+                "2017-03-02T07:06:02.882-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/0000015a-8f20-7297-43d9-643780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2021-06-19T08:06:37.475-05:00"^^xsd:dateTime .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-476c-a68e-378080000005>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000070>
+                <http://alaska.eagle-i.net/i/0000012a-2506-a131-a68e-378080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-6255-2931-88b580000012>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-ee01-2931-88b58000000a>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c0-cca0-6ee2-b20a80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-2ff6-a68e-378080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-65ae-a68e-378080000006>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-11ef-a68e-378080000002>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-5f1d-a68e-378080000001>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-28a0-2931-88b580000006>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012d-0ad0-ad6b-2a21-f03f80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-2f32-a68e-378080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c1-0a67-6ee2-b20a80000006>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-891d-a68e-37808000001b>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-72e5-a68e-378080000006>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-ee01-2931-88b580000029>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012d-0ac6-f369-2a21-f03f80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c0-b0e2-6ee2-b20a80000002>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-6255-2931-88b580000024>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-bdad-a68e-378080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-3645-283d-cc6c-4dda80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-a09f-78e9-3ed3-1c0080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2506-fd8d-a68e-378080000009>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-2119-a68e-378080000007>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://eagle-i.org/ont/repo/1.0/Person>
+        a                owl:Class ;
+        rdfs:comment     "Represents a person acting as an authenticated user of the repository" ;
+        rdfs:label       "Person" ;
+        rdfs:subClassOf  owl:Thing , <http://eagle-i.org/ont/app/1.0/Person> , <http://xmlns.com/foaf/0.1/Person> , <http://eagle-i.org/ont/repo/1.0/Agent> , <http://eagle-i.org/ont/app/1.0/Agent> , <http://xmlns.com/foaf/0.1/Agent> , <http://purl.org/dc/terms/Agent> .
+
+<http://alaska.eagle-i.net/i/0000012d-817f-5e75-2619-dfc980000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-cbcb-0084-cc6c-4dda80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2506-ead7-a68e-378080000002>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000070>
+                <http://alaska.eagle-i.net/i/0000012a-2506-a131-a68e-378080000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-3122-716b-2931-88b580000001>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-cb6e-c478-cc6c-4dda80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-28a0-2931-88b58000000b>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-3122-7e7a-2931-88b580000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-25c2-5d13-76e0-f22c80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-d72b-a68e-378080000001>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c1-0a67-6ee2-b20a8000000b>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2506-fd8d-a68e-378080000010>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-ce66-2931-88b580000008>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c0-cdd2-6ee2-b20a80000008>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-6255-2931-88b580000036>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-25c2-6faf-76e0-f22c80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/00000148-a8df-54d4-4d29-f84280000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-812b-a68e-378080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-5cac-a68e-378080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-6255-2931-88b580000006>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-891d-a68e-378080000011>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-25c2-724b-76e0-f22c80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-25c2-740f-76e0-f22c80000001>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012f-0721-85aa-19c7-4cc180000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://alaska.eagle-i.net/i/0000012a-2506-a131-a68e-378080000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-3aff-197f-cc6c-4dda80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://eagle-i.org/ont/repo/1.0/Role_Curator>
+        a       owl:Thing .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-ee01-2931-88b580000012>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-c270-a68e-378080000004>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-476c-a68e-378080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000070>
+                <http://alaska.eagle-i.net/i/0000012a-2506-a131-a68e-378080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-891d-a68e-37808000000f>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012f-6f6a-5ee8-b375-6d8b80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-65ae-a68e-378080000001>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-891d-a68e-378080000023>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-6255-2931-88b580000018>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-ce66-2931-88b58000000d>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2506-f134-a68e-378080000000>
+        rdfs:label  "Sample management service" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000045>
+                "University of Alaska Fairbanks" ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://alaska.eagle-i.net/i/0000012a-2506-a131-a68e-378080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2011-10-19T13:38:13.586-05:00"^^xsd:dateTime .
+
+<http://alaska.eagle-i.net/i/0000012b-00c0-cdd2-6ee2-b20a8000000d>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-5f95-2931-88b580000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c1-0a67-6ee2-b20a80000001>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-ee01-2931-88b580000024>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-6255-2931-88b58000000b>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-72e5-a68e-378080000001>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-cbb0-6399-cc6c-4dda80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-ea60-9d75-9c17-324480000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0001521>
+                <http://alaska.eagle-i.net/i/0000012a-2506-a131-a68e-378080000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-5f2d-bf58-cc6c-4dda80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3ab5-0b55-cc6c-4dda80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012c-c7b3-4ab7-2a21-f03f80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-5f77-ddfa-cc6c-4dda80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3fd9-c343-cc6c-4dda80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c0-cc09-6ee2-b20a80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2506-fd8d-a68e-378080000004>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-71c2-a68e-378080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-2119-a68e-378080000002>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c0-cdd2-6ee2-b20a8000001f>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-23e7-2931-88b580000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-abad-4974-cc6c-4dda80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-891d-a68e-378080000005>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-6255-2931-88b58000001d>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-d0cc-43ff-cc6c-4dda80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-70de-a68e-378080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-4e2f-a68e-378080000003>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://alaska.eagle-i.net/i/0000012a-2506-a131-a68e-378080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-a0f2-6e13-3ed3-1c0080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-a551-5291-3ed3-1c0080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/00000130-4c54-6e50-67ac-ce7680000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-a0a9-4e02-3ed3-1c0080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012d-818d-35b5-2619-dfc980000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c0-cdd2-6ee2-b20a80000003>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-6255-2931-88b580000031>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-3122-716b-2931-88b580000007>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-25c2-5d13-76e0-f22c80000006>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-25c2-6d4b-76e0-f22c80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-ef48-3e35-9c17-324480000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-6255-2931-88b580000001>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://eagle-i.org/ont/repo/1.0/Role>
+        a                owl:Class ;
+        rdfs:comment     "Represents an access-control role granted to an Agent" ;
+        rdfs:label       "Role" ;
+        rdfs:subClassOf  owl:Thing , <http://eagle-i.org/ont/app/1.0/Agent> , <http://purl.org/dc/terms/Agent> , <http://xmlns.com/foaf/0.1/Agent> , <http://eagle-i.org/ont/repo/1.0/Agent> .
+
+<http://alaska.eagle-i.net/i/0000012a-2506-a4cf-a68e-378080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012c-519a-4333-baf8-066280000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://eagle-i.org/ont/app/1.0/Agent>
+        rdfs:subClassOf  owl:Thing .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-6255-2931-88b58000002f>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c0-cad4-6ee2-b20a80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c0-bb8d-6ee2-b20a80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-891d-a68e-37808000000a>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c0-cdd2-6ee2-b20a80000015>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-ec57-2931-88b580000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012d-0acd-78ac-2a21-f03f80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-ac12-e5dc-cc6c-4dda80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/00000130-6bc2-d507-840e-fb5380000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-5f68-dcbb-cc6c-4dda80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-6255-2931-88b580000013>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3122-592b-2931-88b580000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-acd0-5e6a-cc6c-4dda80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-c14e-2931-88b580000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/00000130-4c54-ca01-67ac-ce7680000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-11ef-a68e-378080000003>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-5f1d-a68e-378080000002>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012c-c7d8-2957-2a21-f03f80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-a0a7-5422-3ed3-1c0080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+        a             owl:ObjectProperty ;
+        rdfs:comment  "Current workflow state of this instance" ;
+        rdfs:label    "workflow state" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/WorkflowState> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-28a0-2931-88b580000007>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-5a4f-1f73-cc6c-4dda80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012d-8188-8ed7-2619-dfc980000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c1-0a67-6ee2-b20a80000007>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-891d-a68e-37808000001c>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012d-5896-f06e-2a21-f03f80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-30e9-a68e-37808000000b>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://alaska.eagle-i.net/i/0000012a-2506-a131-a68e-378080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c0-b0e2-6ee2-b20a80000003>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://eagle-i.org/ont/repo/1.0/NGType_Published>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/NamedGraphType> ;
+        rdf:value     "published" ;
+        rdfs:comment  "Data objects meant to be visible to the public" ;
+        rdfs:label    "Published resource instances" .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-6255-2931-88b580000025>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://eagle-i.org/ont/repo/1.0/WFS_Published>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/WorkflowState> ;
+        rdfs:comment  "Finished and available to the public" ;
+        rdfs:label    "Published" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWriter>
+                <http://eagle-i.org/ont/repo/1.0/Role_Curator> ;
+        <http://eagle-i.org/ont/repo/1.0/order>
+                40 .
+
+<http://alaska.eagle-i.net/i/0000012b-00c0-cdd2-6ee2-b20a8000001a>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012c-c7b6-c098-2a21-f03f80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012d-0ad1-4974-2a21-f03f80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/00000130-4d4e-1b89-67ac-ce7680000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-bdad-a68e-378080000001>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://xmlns.com/foaf/0.1/Agent>
+        rdfs:subClassOf  owl:Thing .
+
+<http://alaska.eagle-i.net/i/0000012f-7991-acc9-b375-6d8b80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-891d-a68e-378080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2506-fb41-a68e-378080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2506-ead7-a68e-378080000003>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000070>
+                <http://alaska.eagle-i.net/i/0000012a-2506-a131-a68e-378080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/00000130-4c53-1026-67ac-ce7680000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012d-80ff-5a00-2619-dfc980000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3122-716b-2931-88b580000002>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-28a0-2931-88b58000000c>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-ee01-2931-88b580000001>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-3122-5b3b-2931-88b580000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-abee-2168-cc6c-4dda80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-d72b-a68e-378080000002>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-25c2-5d13-76e0-f22c80000001>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c1-0a67-6ee2-b20a8000000c>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-00c0-a074-6ee2-b20a80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012f-742d-cebb-b375-6d8b80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-a232-c260-cc6c-4dda80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-ea7e-97ff-9c17-324480000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0001521>
+                <http://alaska.eagle-i.net/i/0000012a-2506-a131-a68e-378080000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-3121-6255-2931-88b580000037>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-a07c-b9ca-3ed3-1c0080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012d-588e-6bfe-2a21-f03f80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-812b-a68e-378080000001>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/00000130-4c48-c245-67ac-ce7680000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-a08e-84a3-3ed3-1c0080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-891d-a68e-378080000012>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012b-3fe6-43c8-cc6c-4dda80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .
+
+<http://alaska.eagle-i.net/i/0000012b-d044-e2ab-cc6c-4dda80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
+
+<http://alaska.eagle-i.net/i/0000012a-2507-30e9-a68e-378080000001>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://alaska.eagle-i.net/i/0000012a-2506-a131-a68e-378080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://alaska.eagle-i.net/i/00000129-f7a3-fb31-c931-f58f80000000> .

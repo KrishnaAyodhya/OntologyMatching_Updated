@@ -1,0 +1,2936 @@
+@prefix ns480: <https://libris.kb.se/kzxs40nch1htdf15#> .
+@prefix ns121: <https://libris.kb.se/n21wtmfwlqp2z1j6#> .
+@prefix ns242: <https://libris.kb.se/dsrmrrgrbjdn7tdk#> .
+@prefix ns363: <https://libris.kb.se/bqpkwrpj8kh71qm2#> .
+@prefix ns484: <https://libris.kb.se/ftsn0vk3cdll62fw#> .
+@prefix ns120: <https://libris.kb.se/p32x225kmbkgkncm#> .
+@prefix ns241: <https://libris.kb.se/crqlqqfm93vlqfc8#> .
+@prefix ns362: <https://libris.kb.se/w984fzc4tlwvdrsv#> .
+@prefix ns483: <https://libris.kb.se/bqpkwrgj8x8ttwb5#> .
+@prefix ns240: <https://libris.kb.se/t76266wvrz31fj0m#> .
+@prefix ns361: <https://libris.kb.se/kzxs3m07hz6fmnqz#> .
+@prefix ns482: <https://libris.kb.se/bqpkwrgk8r7t4bb8#> .
+@prefix ns360: <https://libris.kb.se/jxwr3zwpgj543nmv#> .
+@prefix ns481: <https://libris.kb.se/r540b6wxpzn526k0#> .
+@prefix ns125: <https://libris.kb.se/m10vswwmkpw6zxg0#> .
+@prefix ns246: <https://libris.kb.se/bqpkppgk8nbvv5zv#> .
+@prefix ns367: <https://libris.kb.se/9pnjvqnj774shx2h#> .
+@prefix ns488: <https://libris.kb.se/r540b6x6p9775r6k#> .
+@prefix ns124: <https://libris.kb.se/8nmhfh4l66c975hg#> .
+@prefix ns245: <https://libris.kb.se/1fd8dd4jzv7dtttg#> .
+@prefix ns366: <https://libris.kb.se/t762cwbnrqf6k562#> .
+@prefix ns487: <https://libris.kb.se/jxwr3zpvgqshjk73#> .
+@prefix ns123: <https://libris.kb.se/7mlgdgqs5c25lj17#> .
+@prefix ns244: <https://libris.kb.se/2gf9ff5d0bqhf2wr#> .
+@prefix ns365: <https://libris.kb.se/xb95g0f7vf7wx640#> .
+@prefix ns486: <https://libris.kb.se/2gf9mh790w9skjsr#> .
+@prefix ns122: <https://libris.kb.se/l0ztqff5j94h5f93#> .
+@prefix ns243: <https://libris.kb.se/gvtpttjvdj9rkk60#> .
+@prefix ns364: <https://libris.kb.se/bqpkvdtl8v1lmshg#> .
+@prefix ns485: <https://libris.kb.se/9pnjvqgh7ngnt22g#> .
+@prefix ns129: <https://libris.kb.se/m10vsmrvk8k3k0n5#> .
+@prefix ns128: <https://libris.kb.se/kzxsqvtdhff55zpj#> .
+@prefix ns249: <https://libris.kb.se/m10v00t2k8t3pxvp#> .
+@prefix ns127: <https://libris.kb.se/kzxsqsbxh36hl6pm#> .
+@prefix ns248: <https://libris.kb.se/v873770hs8hf4v1n#> .
+@prefix ns369: <https://libris.kb.se/7mlgr9sk519zd30t#> .
+@prefix ns126: <https://libris.kb.se/crqljmhr9wcgr15d#> .
+@prefix ns247: <https://libris.kb.se/r54044w6pr0rp2hh#> .
+@prefix ns368: <https://libris.kb.se/gvtp0j00dt4k68pp#> .
+@prefix ns489: <https://libris.kb.se/crqlxsjv9q258hrf#> .
+@prefix ns370: <https://libris.kb.se/2gf9l7l90gz6g7s7#> .
+@prefix ns491: <https://libris.kb.se/t762d80crmhqjqkl#> .
+@prefix ns490: <https://libris.kb.se/v873f91cs1k1mbwt#> .
+@prefix ns132: <https://libris.kb.se/gvtpmcb3dqfzptf8#> .
+@prefix ns253: <https://libris.kb.se/n21w11wbl47k8rvj#> .
+@prefix ns374: <https://libris.kb.se/6lkfrl1n4rf3wbl5#> .
+@prefix ns495: <https://libris.kb.se/p32x84vdmpt65bjk#> .
+@prefix ns131: <https://libris.kb.se/ftsnl958cczs3qwc#> .
+@prefix ns252: <https://libris.kb.se/kzxsxxs0hjwgg85c#> .
+@prefix ns373: <https://libris.kb.se/xb95hbrcvzkx7vtq#> .
+@prefix ns494: <https://libris.kb.se/dsrmztk3b8chnk13#> .
+@prefix ns130: <https://libris.kb.se/3hgb8zp11nn6nzbd#> .
+@prefix ns251: <https://libris.kb.se/hwvqvvq3fddgpjxl#> .
+@prefix ns372: <https://libris.kb.se/4jhcpjzh2bq5dfd5#> .
+@prefix ns493: <https://libris.kb.se/crqlxsj09b9kw343#> .
+@prefix ns250: <https://libris.kb.se/s651550cqm426455#> .
+@prefix ns371: <https://libris.kb.se/n21w6xxglbn0db8g#> .
+@prefix ns492: <https://libris.kb.se/zcb6jd4hw5j617dd#> .
+@prefix ns136: <https://libris.kb.se/3hgb9vs31wq3z8kf#> .
+@prefix ns257: <https://libris.kb.se/bqpkppmc829qccvm#> .
+@prefix ns378: <https://libris.kb.se/t762d7p5rx0sd0v8#> .
+@prefix ns499: <https://libris.kb.se/v873f921s8kk6gfm#> .
+@prefix ns135: <https://libris.kb.se/crqlk3gj9mc0t9bq#> .
+@prefix ns256: <https://libris.kb.se/3hgbggd31hnvxpnb#> .
+@prefix ns377: <https://libris.kb.se/l0zt50gwjwzg424x#> .
+@prefix ns498: <https://libris.kb.se/8nmhtpg86zt6rvw9#> .
+@prefix ns134: <https://libris.kb.se/zcb65gnswwfcmkc0#> .
+@prefix ns255: <https://libris.kb.se/bqpkppmm8ckl3n8q#> .
+@prefix ns376: <https://libris.kb.se/1fd8lfvpzsx9h8ds#> .
+@prefix ns497: <https://libris.kb.se/kzxs40rvhfkg03qp#> .
+@prefix ns133: <https://libris.kb.se/4jhcb93s2vt0wm38#> .
+@prefix ns254: <https://libris.kb.se/l0ztzzv7j6m5rhx3#> .
+@prefix ns375: <https://libris.kb.se/m10v61gbk7z0j39w#> .
+@prefix ns496: <https://libris.kb.se/n21w73vll3wj1bzp#> .
+@prefix ns139: <https://libris.kb.se/w9843qchtwm4z3l3#> .
+@prefix ns138: <https://libris.kb.se/6lkfd04n4mrx5ft9#> .
+@prefix ns259: <https://libris.kb.se/9pnjnnlq7rm7nw77#> .
+@prefix ns137: <https://libris.kb.se/p32xwghqmzv2q8jh#> .
+@prefix ns258: <https://libris.kb.se/3hgbggd81klvtxcp#> .
+@prefix ns379: <https://libris.kb.se/w984g9r6t58d3r4p#> .
+@prefix ns220: <https://libris.kb.se/ftsnqf2rclm40p3v#> .
+@prefix ns341: <https://libris.kb.se/m10v4fwxk31wg6x1#> .
+@prefix ns462: <https://libris.kb.se/v873f9zwskqbt1h6#> .
+@prefix ns583: <https://libris.kb.se/m10v625nkfb5r9jp#> .
+@prefix ns340: <https://libris.kb.se/3hgblwcc154g20m7#> .
+@prefix ns461: <https://libris.kb.se/r540b679plmszk1l#> .
+@prefix ns582: <https://libris.kb.se/crqlxsw99nhssp8w#> .
+@prefix ns460: <https://libris.kb.se/3hgbnj641grv9ng9#> .
+@prefix ns581: <https://libris.kb.se/s651c79nqn6zxzs7#> .
+@prefix ns580: <https://libris.kb.se/4jhcpkmv2x2s7pvr#> .
+@prefix ns103: <https://libris.kb.se/gvtpk0tvdrs33b7f#> .
+@prefix ns224: <https://libris.kb.se/n21wz3pwlq0x79ch#> .
+@prefix ns345: <https://libris.kb.se/xb95fq6lvx1r9pbp#> .
+@prefix ns466: <https://libris.kb.se/t762d8xzrdzj7sb8#> .
+@prefix ns587: <https://libris.kb.se/jxwr3z2cgfhbqtl2#> .
+@prefix ns102: <https://libris.kb.se/hwvqltlgfjqc3mh7#> .
+@prefix ns223: <https://libris.kb.se/2gf9c6dx0zk6n5ck#> .
+@prefix ns344: <https://libris.kb.se/m10v4fwhkvdqpptm#> .
+@prefix ns465: <https://libris.kb.se/7mlgsnbc5st519s1#> .
+@prefix ns586: <https://libris.kb.se/hwvq2x1xf9lxrvkf#> .
+@prefix ns101: <https://libris.kb.se/kzxsnvd1h7c5f2t2#> .
+@prefix ns222: <https://libris.kb.se/xb9571cgvl2h2twt#> .
+@prefix ns343: <https://libris.kb.se/dsrmw6n4bc1qf18n#> .
+@prefix ns464: <https://libris.kb.se/2gf9mh5500djsfch#> .
+@prefix ns585: <https://libris.kb.se/3hgbnjmf1bhsg8ct#> .
+@prefix ns100: <https://libris.kb.se/5kjd86wc3ngdlh3m#> .
+@prefix ns221: <https://libris.kb.se/6lkfh8nx4sr220vp#> .
+@prefix ns342: <https://libris.kb.se/gvtpz8qzdlq2m1j4#> .
+@prefix ns463: <https://libris.kb.se/dsrmztj4bss3mr4q#> .
+@prefix ns584: <https://libris.kb.se/0dc7kfj6xq12rhmz#> .
+@prefix ns107: <https://libris.kb.se/m10vr7wpktjxj6q1#> .
+@prefix ns228: <https://libris.kb.se/q43z1gb8n9j2sd4g#> .
+@prefix ns349: <https://libris.kb.se/gvtpz8r6dgphm41b#> .
+@prefix ns106: <https://libris.kb.se/3hgbggkd11c80x5j#> .
+@prefix ns227: <https://libris.kb.se/l0ztw95vjgq7q5qc#> .
+@prefix ns348: <https://libris.kb.se/2gf9kvc504fs39zf#> .
+@prefix ns469: <https://libris.kb.se/s651c7w0qccp9mxw#> .
+@prefix ns105: <https://libris.kb.se/dsrmrrvjbqfk2bfs#> .
+@prefix ns226: <https://libris.kb.se/9pnjlt1k78hhmqc5#> .
+@prefix ns347: <https://libris.kb.se/v873cn5wsq4m4hsb#> .
+@prefix ns468: <https://libris.kb.se/crqlxsgj96w66rrg#> .
+@prefix ns589: <https://libris.kb.se/n21w737klcj3j59l#> .
+@prefix ns104: <https://libris.kb.se/8nmhmmqb6mppk4sx#> .
+@prefix ns225: <https://libris.kb.se/crqlnzbx92j5p02v#> .
+@prefix ns346: <https://libris.kb.se/bqpkt4m98b7s8w51#> .
+@prefix ns467: <https://libris.kb.se/gvtp1wx2dv2lqpd6#> .
+@prefix ns588: <https://libris.kb.se/w984gbgltnpcr36g#> .
+@prefix ns109: <https://libris.kb.se/0dc7ccggxl7nnlk8#> .
+@prefix ns108: <https://libris.kb.se/n21w1140lgpn106q#> .
+@prefix ns229: <https://libris.kb.se/p32x2bt2mw74ghc8#> .
+@prefix ns590: <https://libris.kb.se/9pnjvqw97fr6n33b#> .
+@prefix ns110: <https://libris.kb.se/t762zhcvr9p53r6d#> .
+@prefix ns231: <https://libris.kb.se/4jhcgb072fcplvsb#> .
+@prefix ns352: <https://libris.kb.se/7mlgq1jp59q78g5p#> .
+@prefix ns473: <https://libris.kb.se/5kjdql8q31cj3mnf#> .
+@prefix ns594: <https://libris.kb.se/kzxs4055h3s42jx3#> .
+@prefix ns230: <https://libris.kb.se/w98470pst4f5rk2l#> .
+@prefix ns351: <https://libris.kb.se/xb95fq78v616rmhj#> .
+@prefix ns472: <https://libris.kb.se/bqpkwrpv8cj061qb#> .
+@prefix ns593: <https://libris.kb.se/jxwr3z42gm0q9q8c#> .
+@prefix ns350: <https://libris.kb.se/jxwr1btrgc1ps825#> .
+@prefix ns471: <https://libris.kb.se/n21w73rxl464wbvx#> .
+@prefix ns592: <https://libris.kb.se/xb95hcjfv6l5h8mm#> .
+@prefix ns470: <https://libris.kb.se/jxwr3zw1gc6s6hf1#> .
+@prefix ns591: <https://libris.kb.se/s651c7d6qzj1kw5b#> .
+@prefix ns114: <https://libris.kb.se/2gf96sww0v9vf97c#> .
+@prefix ns235: <https://libris.kb.se/crqlqqd198xnvqz8#> .
+@prefix ns356: <https://libris.kb.se/hwvq09tnfrc2k7m0#> .
+@prefix ns477: <https://libris.kb.se/crqlxsg09fpn5hgr#> .
+@prefix ns598: <https://libris.kb.se/2gf9mhph0jf55wcn#> .
+@prefix ns113: <https://libris.kb.se/dsrmj4zxbbj773rj#> .
+@prefix ns234: <https://libris.kb.se/4jhchh5r25l1z2pq#> .
+@prefix ns355: <https://libris.kb.se/p32x6h1pmvhm3f1w#> .
+@prefix ns476: <https://libris.kb.se/q43z95tbnmblhw4z#> .
+@prefix ns597: <https://libris.kb.se/ftsn0v2tcvglvxs6#> .
+@prefix ns112: <https://libris.kb.se/w9841kk8tl0c6wx5#> .
+@prefix ns233: <https://libris.kb.se/3hgbgg4l1v8pt6zz#> .
+@prefix ns354: <https://libris.kb.se/bqpkt4m183l5xx6d#> .
+@prefix ns475: <https://libris.kb.se/0dc7kf3lxwj9lr0f#> .
+@prefix ns596: <https://libris.kb.se/m10v6280kg43593s#> .
+@prefix bf2:   <http://id.loc.gov/ontologies/bibframe/> .
+@prefix ns111: <https://libris.kb.se/ftsnk32hc108lb21#> .
+@prefix ns232: <https://libris.kb.se/l0ztzt0rjxpwzrv2#> .
+@prefix ns353: <https://libris.kb.se/r5408k29pchgpzqw#> .
+@prefix ns474: <https://libris.kb.se/ftsn0vj1cqql7457#> .
+@prefix ns595: <https://libris.kb.se/ftsn0v13cmjcs4cp#> .
+@prefix ns118: <https://libris.kb.se/r540447lp5tfpf16#> .
+@prefix ns239: <https://libris.kb.se/l0ztzznljj8rr3m8#> .
+@prefix ns117: <https://libris.kb.se/zcb6bbfrw22szwwr#> .
+@prefix ns238: <https://libris.kb.se/5kjdjj7439cbxvvh#> .
+@prefix ns359: <https://libris.kb.se/l0zt4n1qjt6lpz71#> .
+@prefix ns116: <https://libris.kb.se/kzxspcpzh3nj5rzg#> .
+@prefix ns237: <https://libris.kb.se/xb9599zrv4vwhcgw#> .
+@prefix ns358: <https://libris.kb.se/kzxs400khx8jgwss#> .
+@prefix ns479: <https://libris.kb.se/dsrmzth5b05s3j03#> .
+@prefix ns115: <https://libris.kb.se/xb9599dkvl4q8t8z#> .
+@prefix ns236: <https://libris.kb.se/9pnjnnb17tmtrhm7#> .
+@prefix ns357: <https://libris.kb.se/9pnjtckm7qr955h3#> .
+@prefix ns478: <https://libris.kb.se/4jhcpk7s2j9ls12x#> .
+@prefix ns599: <https://libris.kb.se/r540b6d6pgnjvvwv#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns119: <https://libris.kb.se/w9841ph4t7sqrvkb#> .
+@prefix ns161: <https://libris.kb.se/bqpkj74c8s10tbl5#> .
+@prefix ns282: <https://libris.kb.se/4jhchrh22gpzjw2n#> .
+@prefix ns160: <https://libris.kb.se/dsrml96gbxkm928r#> .
+@prefix ns281: <https://libris.kb.se/xb95hcbkvw8xhqxc#> .
+@prefix ns280: <https://libris.kb.se/l0ztz7wqjklmddb1#> .
+@prefix ns165: <https://libris.kb.se/zcb65vs5wtt1vjsm#> .
+@prefix ns286: <https://libris.kb.se/5kjdk4b03drv0dtt#> .
+@prefix ns164: <https://libris.kb.se/dsrml97nb0z4wn0v#> .
+@prefix ns285: <https://libris.kb.se/hwvqwfl6frs5qzfx#> .
+@prefix ns163: <https://libris.kb.se/9pnjh6317tvzqgcj#> .
+@prefix ns284: <https://libris.kb.se/zcb6blb9ws2lwgwq#> .
+@prefix ns162: <https://libris.kb.se/n21wvkgslc35n8t3#> .
+@prefix ns283: <https://libris.kb.se/kzxsx6xzhhllsggh#> .
+@prefix ns169: <https://libris.kb.se/bqpkj75482dxd5gk#> .
+@prefix ns168: <https://libris.kb.se/xb954tsvvbkrmq7s#> .
+@prefix ns289: <https://libris.kb.se/4jhcj9zl2vt7fszg#> .
+@prefix ns167: <https://libris.kb.se/jxwrqfc5gxkw750g#> .
+@prefix ns288: <https://libris.kb.se/kzxs40z7h5vg9wjz#> .
+@prefix ns166: <https://libris.kb.se/1fd87xvkzgs2t32g#> .
+@prefix ns287: <https://libris.kb.se/m10v1mk8kr89w5th#> .
+@prefix ns172: <https://libris.kb.se/5kjdc2153ngj80b8#> .
+@prefix ns293: <https://libris.kb.se/kzxs40xkhmqzv2q1#> .
+@prefix ns171: <https://libris.kb.se/m10vtjgjk8vcrsnv#> .
+@prefix ns292: <https://libris.kb.se/8nmhtpqf6f6s4rrw#> .
+@prefix ns170: <https://libris.kb.se/kzxsrgdfhvzrr5jl#> .
+@prefix ns291: <https://libris.kb.se/r54053cpp1qdvm36#> .
+@prefix ns290: <https://libris.kb.se/r5405zc0psflpdp7#> .
+@prefix ns176: <https://libris.kb.se/5kjdc21f3lg5w0vp#> .
+@prefix ns297: <https://libris.kb.se/4jhck3qd2m0npmm5#> .
+@prefix ns175: <https://libris.kb.se/2gf98zxc09kb5bcz#> .
+@prefix ns296: <https://libris.kb.se/kzxs401shgr94rc9#> .
+@prefix ns174: <https://libris.kb.se/v8732rq1sbhl60sm#> .
+@prefix ns295: <https://libris.kb.se/8nmhtpmb6k0pbjdb#> .
+@prefix ns173: <https://libris.kb.se/bqpkj76g8dt6pkx5#> .
+@prefix ns294: <https://libris.kb.se/t7623z1srldjkkk0#> .
+@prefix ns179: <https://libris.kb.se/ftsnmb99cdpqbdbw#> .
+@prefix ns178: <https://libris.kb.se/zcb65vthwcdnmtmq#> .
+@prefix ns299: <https://libris.kb.se/7mlgsnl95qh9mlmz#> .
+@prefix ns177: <https://libris.kb.se/4jhcb10g2kvh8rw9#> .
+@prefix ns298: <https://libris.kb.se/6lkf545r4g82nkxd#> .
+@prefix ns260: <https://libris.kb.se/dsrmrrp2b704vsf5#> .
+@prefix ns381: <https://libris.kb.se/v873f8qbs05f3v9g#> .
+@prefix ns380: <https://libris.kb.se/t762d7p9r5s2vpl1#> .
+@prefix ns143: <https://libris.kb.se/8nmhg55m6c1b2xj1#> .
+@prefix ns264: <https://libris.kb.se/q43z3325nfc45cbp#> .
+@prefix ns385: <https://libris.kb.se/2gf9mgxv03ntvskd#> .
+@prefix ns142: <https://libris.kb.se/kzxsrg43h260j303#> .
+@prefix ns263: <https://libris.kb.se/xb959982vdtjlk9g#> .
+@prefix ns384: <https://libris.kb.se/8nmhtn4w6bnzn15b#> .
+@prefix ns141: <https://libris.kb.se/2gf98zmg0wrwc3bj#> .
+@prefix ns262: <https://libris.kb.se/1fd8ddc4znhh295c#> .
+@prefix ns383: <https://libris.kb.se/3hgbnhzq1xn61wwb#> .
+@prefix ns140: <https://libris.kb.se/5kjdc2p634v19jx8#> .
+@prefix ns261: <https://libris.kb.se/q43z331gncbgbjrr#> .
+@prefix ns382: <https://libris.kb.se/s651c6nbqb29fz8m#> .
+@prefix ns147: <https://libris.kb.se/bqpkj71183rp4pm4#> .
+@prefix ns268: <https://libris.kb.se/zcb6bbb0wxn9shl2#> .
+@prefix ns389: <https://libris.kb.se/n21w733qlf6974r2#> .
+@prefix ns146: <https://libris.kb.se/t7621qj7r758827d#> .
+@prefix ns267: <https://libris.kb.se/l0ztzzzljhrwpdj3#> .
+@prefix ns388: <https://libris.kb.se/v873f8r3s1xmkldn#> .
+@prefix ns145: <https://libris.kb.se/w9843sk0t672r8d1#> .
+@prefix ns266: <https://libris.kb.se/6lkfkkj148m9971d#> .
+@prefix ns387: <https://libris.kb.se/v873f8rssrzdt6dl#> .
+@prefix ns144: <https://libris.kb.se/crqlk80493bg4rt6#> .
+@prefix ns265: <https://libris.kb.se/zcb6bb9lw1prrxsg#> .
+@prefix ns386: <https://libris.kb.se/4jhcpj002z911wqx#> .
+@prefix ns149: <https://libris.kb.se/n21wvkdplnd493fc#> .
+@prefix ns148: <https://libris.kb.se/7mlgf4x45tcds6n2#> .
+@prefix ns269: <https://libris.kb.se/5kjdjjjd3d3lbcml#> .
+@prefix ns150: <https://libris.kb.se/hwvqpd7qfxd634j0#> .
+@prefix ns271: <https://libris.kb.se/2gf9ffg10jc4mnxd#> .
+@prefix ns392: <https://libris.kb.se/5kjdqk2z3vx7tcpz#> .
+@prefix ns270: <https://libris.kb.se/p32x222zm24wn3xx#> .
+@prefix ns391: <https://libris.kb.se/r540b5n9pv724nws#> .
+@prefix ns390: <https://libris.kb.se/p32x83l7mw3tx569#> .
+@prefix ns154: <https://libris.kb.se/l0ztshh5jfrf0lsz#> .
+@prefix ns275: <https://libris.kb.se/r540446mpxxr6t22#> .
+@prefix ns396: <https://libris.kb.se/4jhcpk262kt8w3k4#> .
+@prefix ns153: <https://libris.kb.se/dsrml948bgzfbcqm#> .
+@prefix ns274: <https://libris.kb.se/jxwrwwz9g80zw6gd#> .
+@prefix ns395: <https://libris.kb.se/zcb6jdw0wh3jjslb#> .
+@prefix ns152: <https://libris.kb.se/p32xwlfdmx9dfh0w#> .
+@prefix ns273: <https://libris.kb.se/6lkfkkmv472s8f4g#> .
+@prefix ns394: <https://libris.kb.se/0dc7kfxxxzg9v17b#> .
+@prefix ns151: <https://libris.kb.se/7mlgf4zn59c8dq6q#> .
+@prefix ns272: <https://libris.kb.se/xb9599cjvwc50mt2#> .
+@prefix ns393: <https://libris.kb.se/6lkfrl3242cr0wxs#> .
+@prefix ns158: <https://libris.kb.se/crqlk84t91djv2hb#> .
+@prefix ns279: <https://libris.kb.se/bqpkpzmj82wqr2dx#> .
+@prefix ns157: <https://libris.kb.se/xb954tpbv2p6qtj4#> .
+@prefix ns278: <https://libris.kb.se/jxwrw5s1gx5fwmws#> .
+@prefix ns399: <https://libris.kb.se/hwvq2xfmfw6s5f05#> .
+@prefix ns156: <https://libris.kb.se/9pnjh62j7hnc9hbx#> .
+@prefix ns277: <https://libris.kb.se/r540b65bpz9t25gq#> .
+@prefix ns398: <https://libris.kb.se/5kjdql383p4n20jn#> .
+@prefix ns155: <https://libris.kb.se/7mlgf40d5t96b677#> .
+@prefix ns276: <https://libris.kb.se/3hgbggk41cwqvlw0#> .
+@prefix ns397: <https://libris.kb.se/3hgbnj1411ngb57m#> .
+@prefix ns159: <https://libris.kb.se/0dc76wrjx903ccjv#> .
+@prefix ns183: <https://libris.kb.se/2gf98zzr0qmlxgf1#> .
+@prefix ns182: <https://libris.kb.se/q43zxmmbn68cck52#> .
+@prefix ns181: <https://libris.kb.se/kzxsrgg0hrb67rm9#> .
+@prefix ns180: <https://libris.kb.se/w9843ssxtrzvv0dk#> .
+@prefix ns187: <https://libris.kb.se/7mlgg55959v4pjn6#> .
+@prefix ns186: <https://libris.kb.se/m10vtjjfklvr7fdx#> .
+@prefix ns185: <https://libris.kb.se/l0ztshhfjbcr60j2#> .
+@prefix ns184: <https://libris.kb.se/l0ztshhcjvvt5m3p#> .
+@prefix ns189: <https://libris.kb.se/9pnjj77h7mnzcbp9#> .
+@prefix ns188: <https://libris.kb.se/crqll99g9v97w4xx#> .
+@prefix ns190: <https://libris.kb.se/bqpkk88t814hkhwl#> .
+@prefix ns194: <https://libris.kb.se/r5400prgpd9h5952#> .
+@prefix ns193: <https://libris.kb.se/kzxsshk3hhfn05z0#> .
+@prefix ns192: <https://libris.kb.se/ftsnncfdc4rzr908#> .
+@prefix ns191: <https://libris.kb.se/v8733sshsdwz3hqd#> .
+@prefix ns198: <https://libris.kb.se/t7626909r1pgpxsm#> .
+@prefix ns197: <https://libris.kb.se/ftsnnhckc4fjt0dj#> .
+@prefix ns196: <https://libris.kb.se/4jhcc3vn25l6frz7#> .
+@prefix ns195: <https://libris.kb.se/v8733svns2rzbv0w#> .
+@prefix ns199: <https://libris.kb.se/p32xxph4mks65zqd#> .
+@prefix rdfdf: <http://www.openlinksw.com/virtrdf-data-formats#> .
+@prefix kbv:   <https://id.kb.se/vocab/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ns602: <https://libris.kb.se/ftsn1rz0cckb0zlx#> .
+@prefix ns601: <https://libris.kb.se/jxwr3z6lggzf3vgj#> .
+@prefix ns600: <https://libris.kb.se/v873f9jwsskmjcbr#> .
+@prefix ns13:  <https://libris.kb.se/l0ztjmtpjlhjqtv6#> .
+@prefix ns606: <https://libris.kb.se/l0zt8t6fjsjpqjb2#> .
+@prefix ns12:  <https://libris.kb.se/bqpk8ckb8kccp6d3#> .
+@prefix ns605: <https://libris.kb.se/xb95l5h3vwfdj39c#> .
+@prefix ns11:  <https://libris.kb.se/kzxshlk1h7qv92tn#> .
+@prefix ns604: <https://libris.kb.se/jxwr5kvdg5pvvwj4#> .
+@prefix ns10:  <https://libris.kb.se/ftsncjbkcn8wrvgf#> .
+@prefix ns603: <https://libris.kb.se/m10v7zqrkp8xgsn2#> .
+@prefix ns17:  <https://libris.kb.se/xb95vz6vvx31rphf#> .
+@prefix ns16:  <https://libris.kb.se/9pnj7bj57ft48pq2#> .
+@prefix ns609: <https://libris.kb.se/p32xcxf6mp820n8r#> .
+@prefix ns15:  <https://libris.kb.se/t762rv2crqszmbg7#> .
+@prefix ns608: <https://libris.kb.se/jxwr6r71g1vj1xfb#> .
+@prefix ns14:  <https://libris.kb.se/5kjd36dk3744x70c#> .
+@prefix ns607: <https://libris.kb.se/3hgbrbnp1t4zdnh9#> .
+@prefix ns19:  <https://libris.kb.se/n21wlpxtl8h0q1cm#> .
+@prefix ns18:  <https://libris.kb.se/l0ztjmvqjpb46c5j#> .
+@prefix ns613: <https://libris.kb.se/5kjdw4fd3k56swvb#> .
+@prefix ns612: <https://libris.kb.se/bqpk1lb48lrr0hq3#> .
+@prefix ns611: <https://libris.kb.se/8nmhzj8768qljc5d#> .
+@prefix ns610: <https://libris.kb.se/5kjdtdwk395m55vr#> .
+@prefix ns617: <https://libris.kb.se/v873lt66sj1tgfwn#> .
+@prefix ns616: <https://libris.kb.se/6lkfx5jg47xf4hft#> .
+@prefix ns615: <https://libris.kb.se/zcb6px8dwwb6tmrl#> .
+@prefix ns614: <https://libris.kb.se/4jhcv3fh2kvpwxc6#> .
+@prefix ns619: <https://libris.kb.se/xb95pv14v313x5s8#> .
+@prefix ns618: <https://libris.kb.se/kzxs9m1whdj3r6zz#> .
+@prefix ns31:  <https://libris.kb.se/s651qt3lqrnc2nz5#> .
+@prefix ns30:  <https://libris.kb.se/q43znr16nxg5j25t#> .
+@prefix ns35:  <https://libris.kb.se/jxwrgkv4g2t5g6gd#> .
+@prefix ns34:  <https://libris.kb.se/4jhc25gn22wwsbxg#> .
+@prefix ns33:  <https://libris.kb.se/m10vknzxkhcq76qh#> .
+@prefix ns32:  <https://libris.kb.se/q43znr1lnvrckhrp#> .
+@prefix ns39:  <https://libris.kb.se/hwvpddv0fdq9g3v8#> .
+@prefix ns38:  <https://libris.kb.se/hwvpd8zvfkb3d2x4#> .
+@prefix ns37:  <https://libris.kb.se/9pnh62l77k393p04#> .
+@prefix ns36:  <https://libris.kb.se/5kjc2xvk3kw49vgw#> .
+@prefix ns20:  <https://libris.kb.se/zcb6w077w0c8lzk0#> .
+@prefix ns24:  <https://libris.kb.se/6lkf47gv4j4wwcsm#> .
+@prefix ns23:  <https://libris.kb.se/w984tx5nt9qjxpz6#> .
+@prefix ns22:  <https://libris.kb.se/l0ztjmv5j7dddb36#> .
+@prefix ns21:  <https://libris.kb.se/bqpk8clt8svdwtd1#> .
+@prefix ns28:  <https://libris.kb.se/hwvqfjstfrb8xcgx#> .
+@prefix ns27:  <https://libris.kb.se/dsrmbfppbtb2hvgd#> .
+@prefix ns26:  <https://libris.kb.se/r540ps2tp4l9hn8g#> .
+@prefix ns25:  <https://libris.kb.se/gvtpdhqbd9m3xhgf#> .
+@prefix ns29:  <https://libris.kb.se/q43znr13nfhpm963#> .
+@prefix ns400: <https://libris.kb.se/kzxs40hphbv35k0r#> .
+@prefix ns521: <https://libris.kb.se/hwvq2xxqfp2kb37q#> .
+@prefix ns642: <https://libris.kb.se/v874jrm6s0v6bgr5#> .
+@prefix ns520: <https://libris.kb.se/crqlxsvc9f3r7vxm#> .
+@prefix ns641: <https://libris.kb.se/jxws6d50g9s8hhw3#> .
+@prefix ns640: <https://libris.kb.se/kzxt0kb8h8cs3b33#> .
+@prefix ns53:  <https://libris.kb.se/5kjd455t325p85xw#> .
+@prefix ns6:   <http://www.w3.org/2002/07/> .
+@prefix ns404: <https://libris.kb.se/w984gbt5tqp3vwhd#> .
+@prefix ns525: <https://libris.kb.se/zcb6jd77wgl9xq57#> .
+@prefix ns646: <https://libris.kb.se/s654t4l1qwd2cd18#> .
+@prefix ns52:  <https://libris.kb.se/kzxsjj8mhp59p70c#> .
+@prefix ns403: <https://libris.kb.se/3hgbnj1b1s7kg3nw#> .
+@prefix ns524: <https://libris.kb.se/n21w733xlsm7ggt2#> .
+@prefix ns645: <https://libris.kb.se/xb98z8q3vn4617rz#> .
+@prefix ns51:  <https://libris.kb.se/m10vll7ckwkmm1rx#> .
+@prefix ns402: <https://libris.kb.se/crqlxs9l993vmr26#> .
+@prefix ns523: <https://libris.kb.se/6lkfrmmk4nppv9p4#> .
+@prefix ns644: <https://libris.kb.se/v874ms12sw8l1wm7#> .
+@prefix ns7:   <https://libris.kb.se/hwvqfl24fh3tzrhm#> .
+@prefix ns50:  <https://libris.kb.se/p32xnmkdmr8h1b93#> .
+@prefix ns401: <https://libris.kb.se/jxwr3zgrg0fn51rz#> .
+@prefix ns522: <https://libris.kb.se/kzxs40sghf1mmbj0#> .
+@prefix ns643: <https://libris.kb.se/6lkgz4c9487wlzkv#> .
+@prefix ns57:  <https://libris.kb.se/7mlg7jnq54bcmk4m#> .
+@prefix ns408: <https://libris.kb.se/jxwr3zg1glvxnn1n#> .
+@prefix ns529: <https://libris.kb.se/t762d83br6vflrp9#> .
+@prefix ns9:   <https://libris.kb.se/dsrmbh0vbtwwkq68#> .
+@prefix ns56:  <https://libris.kb.se/l0ztlqcnj3hfmjrh#> .
+@prefix ns407: <https://libris.kb.se/zcb6jdwcw8b904rw#> .
+@prefix ns528: <https://libris.kb.se/2gf9mhbk0k4bs3pr#> .
+@prefix ns649: <https://libris.kb.se/w987x7pbt2s8wg8h#> .
+@prefix ns55:  <https://libris.kb.se/1fd804swz9fmn9c7#> .
+@prefix ns406: <https://libris.kb.se/9pnjvq7n768ngtfz#> .
+@prefix ns527: <https://libris.kb.se/7mlgsnhp5hjsg4cd#> .
+@prefix ns648: <https://libris.kb.se/zcb909rbwlcwsd5c#> .
+@prefix ns54:  <https://libris.kb.se/9pnj886l7vwtxlzc#> .
+@prefix ns405: <https://libris.kb.se/l0zt51jwj86jcd0v#> .
+@prefix ns526: <https://libris.kb.se/0dc7kfd0xjnb0qwp#> .
+@prefix ns647: <https://libris.kb.se/ftsrgr7rcptn6cjt#> .
+@prefix ns59:  <https://libris.kb.se/s651s4rjq2brk979#> .
+@prefix ns58:  <https://libris.kb.se/l0ztlzr1j9nf77mg#> .
+@prefix ns409: <https://libris.kb.se/1fd8lgznzrjvfgb7#> .
+@prefix ns411: <https://libris.kb.se/m10v62lpkhh8dj2b#> .
+@prefix ns532: <https://libris.kb.se/p32x8408mhqmbd4z#> .
+@prefix ns653: <https://libris.kb.se/dsrqfq8db1l8rh1g#> .
+@prefix ns410: <https://libris.kb.se/ftsn0vc3ctrcfgwd#> .
+@prefix ns531: <https://libris.kb.se/r540b62bpwcnjb9l#> .
+@prefix ns652: <https://libris.kb.se/7mlk8k395856s7mz#> .
+@prefix ns530: <https://libris.kb.se/3hgbnjcs1jsgxn2l#> .
+@prefix ns651: <https://libris.kb.se/zcb909rmwwq98t1h#> .
+@prefix ns650: <https://libris.kb.se/v876w6ncsxbfg0lk#> .
+@prefix ns42:  <https://libris.kb.se/zcb6w81bwxl6kt0x#> .
+@prefix ns415: <https://libris.kb.se/ftsn0vdpcvx61pgm#> .
+@prefix ns536: <https://libris.kb.se/p32x841mmrn9sgqf#> .
+@prefix ns657: <https://libris.kb.se/m10znzhbkmdhh94c#> .
+@prefix ns41:  <https://libris.kb.se/hwvqfsksfqhnc6cq#> .
+@prefix ns414: <https://libris.kb.se/7mlgsn6c5fc91p9j#> .
+@prefix ns535: <https://libris.kb.se/0dc7kfdjxx07zkd0#> .
+@prefix ns656: <https://libris.kb.se/dsrqfq8tbswzm46w#> .
+@prefix ns40:  <https://libris.kb.se/3hgb134b176wp51k#> .
+@prefix ns413: <https://libris.kb.se/kzxs40jnh0zpqs2l#> .
+@prefix ns534: <https://libris.kb.se/8nmhtpk56x4sf1rw#> .
+@prefix ns655: <https://libris.kb.se/l0zxmxgsj7tzcllv#> .
+@prefix ns412: <https://libris.kb.se/n21w73mqljp8pl48#> .
+@prefix ns533: <https://libris.kb.se/l0zt51wdjl4btnqv#> .
+@prefix ns654: <https://libris.kb.se/6lkj7j2c47p88km4#> .
+@prefix ns46:  <https://libris.kb.se/r540plb4p68m9k27#> .
+@prefix ns419: <https://libris.kb.se/s651c7r7qr0ttbjx#> .
+@prefix ns45:  <https://libris.kb.se/r540p8rqprqzt1mp#> .
+@prefix ns418: <https://libris.kb.se/ftsn0vdtc6zttqt2#> .
+@prefix ns539: <https://libris.kb.se/4jhcpkg52qghsvw0#> .
+@prefix ns44:  <https://libris.kb.se/q43zn429n4417fnz#> .
+@prefix ns417: <https://libris.kb.se/7mlgsn6j58fs8vlq#> .
+@prefix ns538: <https://libris.kb.se/7mlgsnk75sdjg2gl#> .
+@prefix ns659: <https://libris.kb.se/0dcb1bw7xstfmn8v#> .
+@prefix ns43:  <https://libris.kb.se/9pnj7nsm7t66q6r2#> .
+@prefix ns416: <https://libris.kb.se/zcb6jdx7wt7xc0sh#> .
+@prefix ns537: <https://libris.kb.se/0dc7kfbzxh87wg8v#> .
+@prefix ns658: <https://libris.kb.se/4jhg5g13258ng691#> .
+@prefix ns49:  <https://libris.kb.se/n21wmlqplfjcxtrr#> .
+@prefix ns48:  <https://libris.kb.se/6lkf43gh4lzf1gsk#> .
+@prefix ns47:  <https://libris.kb.se/5kjd31l039lx5nx9#> .
+@prefix ns82:  <https://libris.kb.se/n21wq408l751hp0b#> .
+@prefix ns620: <https://libris.kb.se/bqpk38g88wczrp4v#> .
+@prefix ns81:  <https://libris.kb.se/hwvqkztqfkfq9wp6#> .
+@prefix ns80:  <https://libris.kb.se/dsrmgvqlbbr9tj33#> .
+@prefix ns75:  <https://libris.kb.se/8nmhbqb66l80v7hz#> .
+@prefix ns503: <https://libris.kb.se/gvtp1wnxdrgl5gvd#> .
+@prefix ns624: <https://libris.kb.se/3hgbwgh31f4qxthx#> .
+@prefix ns74:  <https://libris.kb.se/gvtpjxhvd2t3glcc#> .
+@prefix ns502: <https://libris.kb.se/hwvq2xpxfnnp26hx#> .
+@prefix ns623: <https://libris.kb.se/zcb6qwb7wmq19r7l#> .
+@prefix ns73:  <https://libris.kb.se/hwvqkzh8fpbfk9kg#> .
+@prefix ns501: <https://libris.kb.se/8nmhtpgp68ljs4bw#> .
+@prefix ns622: <https://libris.kb.se/bqpk38ph8qspqkmd#> .
+@prefix ns72:  <https://libris.kb.se/6lkf8lln4t573cns#> .
+@prefix ns500: <https://libris.kb.se/3hgbnj9d1d758g82#> .
+@prefix ns621: <https://libris.kb.se/n21wfl2slfhtzlr3#> .
+@prefix ns79:  <https://libris.kb.se/5kjd7mhb3d2pfwlc#> .
+@prefix ns507: <https://libris.kb.se/ftsn0vm8cjk1n6fd#> .
+@prefix ns628: <https://libris.kb.se/s652snmfqrhvkrz9#> .
+@prefix ns78:  <https://libris.kb.se/m10vp3zmkr8t4xv3#> .
+@prefix ns506: <https://libris.kb.se/crqlxsrc9gbh307j#> .
+@prefix ns627: <https://libris.kb.se/p32zn34tm8rj8f4j#> .
+@prefix ns77:  <https://libris.kb.se/gvtpjxl7db11v7lq#> .
+@prefix ns505: <https://libris.kb.se/q43z95xbnd5l983p#> .
+@prefix ns626: <https://libris.kb.se/ftsn7st9clmgqstv#> .
+@prefix ns76:  <https://libris.kb.se/hwvqkzknf0jtl5b6#> .
+@prefix ns504: <https://libris.kb.se/kzxs40r2hjx1p2td#> .
+@prefix ns625: <https://libris.kb.se/s651l567q5q45j3x#> .
+@prefix ns509: <https://libris.kb.se/kzxs40zjh7q163d0#> .
+@prefix ns508: <https://libris.kb.se/gvtp1wn9dn953xx3#> .
+@prefix ns629: <https://libris.kb.se/0dc80vrdx2dd94sb#> .
+@prefix ns71:  <https://libris.kb.se/v873x4nvsggjzm8d#> .
+@prefix ns510: <https://libris.kb.se/6lkfrml64hf9g8xr#> .
+@prefix ns631: <https://libris.kb.se/p32zv28qmt41j6hc#> .
+@prefix ns70:  <https://libris.kb.se/1fd82p7dznfqv56s#> .
+@prefix ns630: <https://libris.kb.se/6lkg7bjh4059qd32#> .
+@prefix ns64:  <https://libris.kb.se/2gf92ks80slnv429#> .
+@prefix ns514: <https://libris.kb.se/zcb6jd6xw7w40h9d#> .
+@prefix ns635: <https://libris.kb.se/0dc8893vxd0zks58#> .
+@prefix ns63:  <https://libris.kb.se/jxwrj170g3gd15q8#> .
+@prefix ns513: <https://libris.kb.se/jxwr3zrhg7hsj4cx#> .
+@prefix ns634: <https://libris.kb.se/p32zzznwmldhlb3n#> .
+@prefix ns62:  <https://libris.kb.se/xb95xcdjv0wdvpcj#> .
+@prefix ns512: <https://libris.kb.se/7mlgsng65mvm9js4#> .
+@prefix ns633: <https://libris.kb.se/hwvrq8kpfzbwrv31#> .
+@prefix ns61:  <https://libris.kb.se/hwvqhxswf1gnqkr4#> .
+@prefix ns511: <https://libris.kb.se/zcb6jd6ww4vwg0z0#> .
+@prefix ns632: <https://libris.kb.se/2gfb8bj4019bkm1p#> .
+@prefix ns68:  <https://libris.kb.se/4jhc5d392qt60x9p#> .
+@prefix ns518: <https://libris.kb.se/6lkfrmfj4k55vj4d#> .
+@prefix ns639: <https://libris.kb.se/0dc8f0r4x9g97vfw#> .
+@prefix ns67:  <https://libris.kb.se/m10vnpvdk9k75qmv#> .
+@prefix ns517: <https://libris.kb.se/0dc7kf78xm5lvvk3#> .
+@prefix ns638: <https://libris.kb.se/p32z397dmcljz1px#> .
+@prefix ns66:  <https://libris.kb.se/t762t952r7snx45v#> .
+@prefix ns516: <https://libris.kb.se/crqlxslg9kf7t8ff#> .
+@prefix ns637: <https://libris.kb.se/gvtqv20wdtpch5lj#> .
+@prefix ns65:  <https://libris.kb.se/4jhc4mvt2pfkj4xg#> .
+@prefix ns515: <https://libris.kb.se/jxwr3zrjg3jmb54c#> .
+@prefix ns636: <https://libris.kb.se/2gfbgnkk0x7p3m11#> .
+@prefix ns69:  <https://libris.kb.se/n21wpxmwlbnw0480#> .
+@prefix ns519: <https://libris.kb.se/8nmhtphm6hq9zh78#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix ns440: <https://libris.kb.se/0dc7kf1tx083qb1d#> .
+@prefix ns561: <https://libris.kb.se/2gf9mhj20q1z300c#> .
+@prefix ns682: <https://libris.kb.se/zcb8n8p2wb2tg0gr#> .
+@prefix ns560: <https://libris.kb.se/dsrmztt5bmv31blv#> .
+@prefix ns681: <https://libris.kb.se/zcb8n8p0wwnkl8nb#> .
+@prefix ns680: <https://libris.kb.se/hwvs6s6bfbngmfrr#> .
+@prefix ns202: <https://libris.kb.se/p32xxt6sm05vhf7m#> .
+@prefix ns323: <https://libris.kb.se/r5408kxbplbp5s28#> .
+@prefix ns444: <https://libris.kb.se/1fd8lg31zp24j2pv#> .
+@prefix ns565: <https://libris.kb.se/1fd8lghmzh4wxh51#> .
+@prefix ns201: <https://libris.kb.se/m10vvp4jkdfp59sn#> .
+@prefix ns322: <https://libris.kb.se/8nmhr2fn626582rm#> .
+@prefix ns443: <https://libris.kb.se/p32x84rnmx5fdkdd#> .
+@prefix ns564: <https://libris.kb.se/t762d89brx8bc25q#> .
+@prefix ns200: <https://libris.kb.se/1fd883f2z7wzlslr#> .
+@prefix ns321: <https://libris.kb.se/6lkfp0c6429vl0g3#> .
+@prefix ns442: <https://libris.kb.se/jxwr3zkcg0zth998#> .
+@prefix ns563: <https://libris.kb.se/n21w734zl79dmwsn#> .
+@prefix ns320: <https://libris.kb.se/v873cn0msn85st7z#> .
+@prefix ns441: <https://libris.kb.se/s651c7tnqxh5d3m4#> .
+@prefix ns562: <https://libris.kb.se/crqlxsth9514w7xh#> .
+@prefix ns683: <https://libris.kb.se/r542g2h8pz76s6jz#> .
+@prefix ns97:  <https://libris.kb.se/9pnjfpkx74vjc3ln#> .
+@prefix ns206: <https://libris.kb.se/zcb6692pwcmzgnvl#> .
+@prefix ns327: <https://libris.kb.se/s6519l08qw9dk18j#> .
+@prefix ns448: <https://libris.kb.se/1fd8lg39z53vdm0p#> .
+@prefix ns569: <https://libris.kb.se/s651c78nqh1zmtxw#> .
+@prefix ns96:  <https://libris.kb.se/9pnjc1s57b037vvw#> .
+@prefix ns205: <https://libris.kb.se/5kjddfbx35nwq5gs#> .
+@prefix ns326: <https://libris.kb.se/r5408kz4pb3bv096#> .
+@prefix ns447: <https://libris.kb.se/3hgbnjgj1m5kz2b6#> .
+@prefix ns568: <https://libris.kb.se/r540b67kpplx6jtc#> .
+@prefix ns95:  <https://libris.kb.se/r540th6gp0k2nt6p#> .
+@prefix ns204: <https://libris.kb.se/zcb65ftcwx842b1d#> .
+@prefix ns325: <https://libris.kb.se/3hgblw9c16mb2l8v#> .
+@prefix ns446: <https://libris.kb.se/bqpkwrdg82cr7c61#> .
+@prefix ns567: <https://libris.kb.se/t762d89grr0ps55z#> .
+@prefix ns94:  <https://libris.kb.se/jxwrl8z9gm47sdj0#> .
+@prefix ns203: <https://libris.kb.se/q43zzvk8nznrvbqd#> .
+@prefix ns324: <https://libris.kb.se/crqlv5kb9pzx1lwh#> .
+@prefix ns445: <https://libris.kb.se/5kjdql7938bfz8w5#> .
+@prefix ns566: <https://libris.kb.se/gvtp1wx6dk2qkm8b#> .
+@prefix ns209: <https://libris.kb.se/xb955rr2vj7vb63z#> .
+@prefix ns99:  <https://libris.kb.se/3hgb63bd1kvfpv2x#> .
+@prefix ns208: <https://libris.kb.se/xb955kp4vpnvpqgf#> .
+@prefix ns329: <https://libris.kb.se/5kjdnzcw3bzlgjs7#> .
+@prefix ns98:  <https://libris.kb.se/crqlg9zg907mnpmv#> .
+@prefix ns207: <https://libris.kb.se/ftsnn22xcb8bx6bx#> .
+@prefix ns328: <https://libris.kb.se/v873cn2hswn0dwg6#> .
+@prefix ns449: <https://libris.kb.se/n21w7314lr75wbcf#> .
+@prefix ns330: <https://libris.kb.se/l0zt3dtjj965j2fn#> .
+@prefix ns451: <https://libris.kb.se/w984gbzdtd4b1x0k#> .
+@prefix ns572: <https://libris.kb.se/q43z957xns9dz2x6#> .
+@prefix ns450: <https://libris.kb.se/0dc7kf2fxqsx7fz9#> .
+@prefix ns571: <https://libris.kb.se/bqpkwrth8t98wrs7#> .
+@prefix ns570: <https://libris.kb.se/7mlgsnqb5qrtqnm0#> .
+@prefix ns93:  <https://libris.kb.se/zcb61pcqwm9046kc#> .
+@prefix ns213: <https://libris.kb.se/dsrmr6g8bp9vs1z2#> .
+@prefix ns334: <https://libris.kb.se/ftsnx7nwcn909zdc#> .
+@prefix ns455: <https://libris.kb.se/5kjdqln73rz67pfg#> .
+@prefix ns576: <https://libris.kb.se/1fd8lgjjz7zdrfs1#> .
+@prefix ns92:  <https://libris.kb.se/9pnjc1pp7qw03pfz#> .
+@prefix ns212: <https://libris.kb.se/gvtpqscxdpmn78f7#> .
+@prefix ns333: <https://libris.kb.se/q43z7jzxn1clhcl8#> .
+@prefix ns454: <https://libris.kb.se/9pnjvqc07wtvcj7k#> .
+@prefix ns575: <https://libris.kb.se/kzxs4021hq3lw2ps#> .
+@prefix ns91:  <https://libris.kb.se/2gf94sgd03x5gtbz#> .
+@prefix ns211: <https://libris.kb.se/0dc788gpxscr8fzw#> .
+@prefix ns332: <https://libris.kb.se/crqlv5ld90kl59m3#> .
+@prefix ns453: <https://libris.kb.se/v873f97bswgj95g2#> .
+@prefix ns574: <https://libris.kb.se/kzxs4020hpj8kvl1#> .
+@prefix ns90:  <https://libris.kb.se/crqlf2789wkwc355#> .
+@prefix ns210: <https://libris.kb.se/1fd8dp8pz2qrqh39#> .
+@prefix ns331: <https://libris.kb.se/l0zt3dtnjmmzvgh1#> .
+@prefix ns452: <https://libris.kb.se/xb95hc0fvc5k9pf4#> .
+@prefix ns573: <https://libris.kb.se/q43z9571nl157bbn#> .
+@prefix ns86:  <https://libris.kb.se/hwvqkztdfwphjwpn#> .
+@prefix ns217: <https://libris.kb.se/n21wxkmhldvh9dh7#> .
+@prefix ns338: <https://libris.kb.se/r5408k1xpz2b4w3t#> .
+@prefix ns459: <https://libris.kb.se/0dc7kf3xxnl0l4t0#> .
+@prefix ns85:  <https://libris.kb.se/3hgb5kfz1hhmwtkn#> .
+@prefix ns216: <https://libris.kb.se/xb95629svj912jj8#> .
+@prefix ns337: <https://libris.kb.se/zcb6gr7xw9k3z619#> .
+@prefix ns458: <https://libris.kb.se/9pnjvqc67qfw39cj#> .
+@prefix ns579: <https://libris.kb.se/1fd8lgjnzw5rlgqn#> .
+@prefix ns84:  <https://libris.kb.se/q43zs62hnmrm1nl0#> .
+@prefix ns215: <https://libris.kb.se/l0ztv8rfjh6q0pvv#> .
+@prefix ns336: <https://libris.kb.se/2gf9kv9w05kpglsm#> .
+@prefix ns457: <https://libris.kb.se/8nmhtpb56rdnx0wn#> .
+@prefix ns578: <https://libris.kb.se/8nmhtprw68zlr794#> .
+@prefix ns83:  <https://libris.kb.se/zcb61f9mwftpsbgm#> .
+@prefix ns214: <https://libris.kb.se/2gf9bq7t0dzs6fk5#> .
+@prefix ns335: <https://libris.kb.se/5kjdnzds32x1cqqw#> .
+@prefix ns456: <https://libris.kb.se/t762d8wnr3s4wnzs#> .
+@prefix ns577: <https://libris.kb.se/jxwr3z12gz8t6plj#> .
+@prefix ns89:  <https://libris.kb.se/9pnjcwxm7f5r7wgp#> .
+@prefix ns88:  <https://libris.kb.se/4jhc6lhx2mdbs98s#> .
+@prefix ns219: <https://libris.kb.se/3hgbd2b01vxlmp5s#> .
+@prefix ns87:  <https://libris.kb.se/4jhc6lh92s50b2b8#> .
+@prefix ns218: <https://libris.kb.se/t7624s2srf0rdrg2#> .
+@prefix ns339: <https://libris.kb.se/2gf9kvb90ncr29gd#> .
+@prefix ns660: <https://libris.kb.se/dsrqfq9qbsd3rdbb#> .
+@prefix ns301: <https://libris.kb.se/m10v2vl1kwnb24fp#> .
+@prefix ns422: <https://libris.kb.se/v873f9x6swlxpvpt#> .
+@prefix ns543: <https://libris.kb.se/bqpkwrnq8gshdqbj#> .
+@prefix ns664: <https://libris.kb.se/n210p0kglklswgz8#> .
+@prefix ns300: <https://libris.kb.se/bqpkrhlw8g2wznfg#> .
+@prefix ns421: <https://libris.kb.se/6lkfrm5048htkxm8#> .
+@prefix ns542: <https://libris.kb.se/0dc7kfb9x0f04mp7#> .
+@prefix ns663: <https://libris.kb.se/6lkj7j3x4wp083gr#> .
+@prefix ns420: <https://libris.kb.se/0dc7kfc9xc7hvj25#> .
+@prefix ns541: <https://libris.kb.se/9pnjvqml7pvs2gd0#> .
+@prefix ns662: <https://libris.kb.se/jxwvkvf3gh7c84jm#> .
+@prefix ns540: <https://libris.kb.se/6lkfrmjg4h0gbfxq#> .
+@prefix ns661: <https://libris.kb.se/q432r2m6n4d0c8bt#> .
+@prefix ns305: <https://libris.kb.se/7mlgn20f510zxlrt#> .
+@prefix ns426: <https://libris.kb.se/crqlxscx9bzs8zk5#> .
+@prefix ns547: <https://libris.kb.se/dsrmztq4bqs9q33k#> .
+@prefix ns668: <https://libris.kb.se/v876w7v3sdj04b3l#> .
+@prefix ns304: <https://libris.kb.se/q43z5khtnktxj7gp#> .
+@prefix ns425: <https://libris.kb.se/4jhcpk4q28pt17m8#> .
+@prefix ns546: <https://libris.kb.se/v873f96kswgrtf6l#> .
+@prefix ns667: <https://libris.kb.se/v876w7vtscbpxlqv#> .
+@prefix ns303: <https://libris.kb.se/4jhckxvw2dpgfpkc#> .
+@prefix ns424: <https://libris.kb.se/bqpkwrbr8gbw6tb8#> .
+@prefix ns545: <https://libris.kb.se/r540b635p1z08lvk#> .
+@prefix ns666: <https://libris.kb.se/9pnmbn857wmmtt5m#> .
+@prefix ns302: <https://libris.kb.se/ftsnvszpcx7b7dd4#> .
+@prefix ns423: <https://libris.kb.se/w984gb87t8x9g8n2#> .
+@prefix ns544: <https://libris.kb.se/ftsn0vrscnjdf4v3#> .
+@prefix ns665: <https://libris.kb.se/4jhg5g102bhz0lf0#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix ns309: <https://libris.kb.se/gvtpx36gdfrn81l5#> .
+@prefix ns308: <https://libris.kb.se/v873b3shsz04m6lx#> .
+@prefix ns429: <https://libris.kb.se/4jhcpk4w25qcv0rv#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix ns307: <https://libris.kb.se/0dc7gcmkx430mcq6#> .
+@prefix ns428: <https://libris.kb.se/8nmhtp8x6rg0vbcz#> .
+@prefix ns549: <https://libris.kb.se/5kjdqlh03mm6wpmg#> .
+@prefix ns306: <https://libris.kb.se/kzxs1rw0h6vfmg3c#> .
+@prefix ns427: <https://libris.kb.se/3hgbnjgg1lss2vrd#> .
+@prefix ns548: <https://libris.kb.se/3hgbnjfv1qn331r4#> .
+@prefix ns669: <https://libris.kb.se/l0zxmzl0j4274dl7#> .
+@prefix ns550: <https://libris.kb.se/crqlxsp7906rvm15#> .
+@prefix ns671: <https://libris.kb.se/9pnmbn9v7w1gnrp5#> .
+@prefix ns670: <https://libris.kb.se/p321q2p6mv95ln2r#> .
+@prefix ns312: <https://libris.kb.se/dsrmw6f5bwzrl13f#> .
+@prefix ns433: <https://libris.kb.se/q43z95rqnrgdjnbk#> .
+@prefix ns554: <https://libris.kb.se/kzxs400rhwk8p6gs#> .
+@prefix ns675: <https://libris.kb.se/crqpdqfq93cxgkgk#> .
+@prefix ns311: <https://libris.kb.se/bqpkt4918l3vw8jr#> .
+@prefix ns432: <https://libris.kb.se/1fd8lg1wzdqpjq00#> .
+@prefix ns553: <https://libris.kb.se/jxwr3zzhgrd75r0x#> .
+@prefix ns674: <https://libris.kb.se/dsrqfrgqb5bn8x6k#> .
+@prefix ns310: <https://libris.kb.se/hwvq0kfdf0hgz2lm#> .
+@prefix ns431: <https://libris.kb.se/v873f9vpshb6zshv#> .
+@prefix ns552: <https://libris.kb.se/2gf9mhgv0kr7nr0v#> .
+@prefix ns673: <https://libris.kb.se/9pnmbncl7fh01jpx#> .
+@prefix ns430: <https://libris.kb.se/l0zt51l8jvdz1b2m#> .
+@prefix ns551: <https://libris.kb.se/p32x843pmqngfs08#> .
+@prefix ns672: <https://libris.kb.se/hwvtjvkkfpd97v98#> .
+@prefix ns316: <https://libris.kb.se/8nmhr2c16qmkq5cd#> .
+@prefix ns437: <https://libris.kb.se/1fd8lg2pz8415mpj#> .
+@prefix ns558: <https://libris.kb.se/ftsn0vv0cfc3qh9w#> .
+@prefix ns679: <https://libris.kb.se/w986l6lctlwfgwlz#> .
+@prefix ns315: <https://libris.kb.se/dsrmw6j7bgq4z34s#> .
+@prefix ns436: <https://libris.kb.se/gvtp1whxdqbdxkg4#> .
+@prefix ns557: <https://libris.kb.se/p32x8445mklzdwvl#> .
+@prefix ns678: <https://libris.kb.se/w986l5k4tx9h2lp0#> .
+@prefix ns314: <https://libris.kb.se/v873cnxcsb1h7pd6#> .
+@prefix ns435: <https://libris.kb.se/hwvq2xxqf99k7gt6#> .
+@prefix ns556: <https://libris.kb.se/3hgbnjjj1b79xmhn#> .
+@prefix ns677: <https://libris.kb.se/r542g1n9pml164f7#> .
+@prefix ns313: <https://libris.kb.se/3hgblw5w1km9bqn7#> .
+@prefix ns434: <https://libris.kb.se/m10v62n1kxprggm1#> .
+@prefix ns555: <https://libris.kb.se/kzxs400wh7fxfw3l#> .
+@prefix ns676: <https://libris.kb.se/hwvtjvkzf5s5c8ml#> .
+@prefix ns319: <https://libris.kb.se/kzxs2cpph5cjz8d7#> .
+@prefix ns318: <https://libris.kb.se/9pnjs3fb74t5nck2#> .
+@prefix ns439: <https://libris.kb.se/q43z95rjnzwcw6vg#> .
+@prefix ns317: <https://libris.kb.se/1fd8jt53znjdh6tw#> .
+@prefix ns438: <https://libris.kb.se/bqpkwrc28v0ghn56#> .
+@prefix ns559: <https://libris.kb.se/1fd8lggnzw4m7njm#> .
+
+ns334:it  a     bf2:Item .
+
+ns292:it  a     bf2:Item .
+
+ns527:it  a     bf2:Item .
+
+ns480:it  a     bf2:Item .
+
+rdfdf:sql-nvarchar-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+ns335:it  a     bf2:Item .
+
+ns671:it  a     bf2:Item .
+
+owl:allValuesFrom  a  rdf:Property .
+
+ns668:it  a     bf2:Item .
+
+dct:modified  a  rdf:Property .
+
+ns221:it  a     bf2:Print .
+
+owl:disjointWith  a  rdf:Property .
+
+ns511:it  a     bf2:Item .
+
+virtrdf:DefaultQuadMap-O
+        a       virtrdf:QuadMapValue .
+
+ns303:it  a     bf2:Item .
+
+rdfdf:sql-nvarchar-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns426:it  a     bf2:Item .
+
+rdfdf:sql-doubleprecision-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns580:it  a     bf2:Item .
+
+owl:equivalentProperty
+        a       rdf:Property .
+
+ns423:it  a     bf2:Item .
+
+ns311:it  a     bf2:Item .
+
+ns169:it  a     bf2:Item .
+
+ns282:it  a     bf2:Item .
+
+ns180:it  a     bf2:Item .
+
+ns539:it  a     bf2:Item .
+
+ns198:it  a     bf2:Instance .
+
+ns386:it  a     bf2:Item .
+
+virtrdf:DefaultServiceMap-G-col-G
+        a       virtrdf:QuadMapColumn .
+
+rdfdf:sql-varchar-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns522:it  a     bf2:Item .
+
+rdfdf:sql-datetime-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns30:it  a      bf2:Item .
+
+ns332:it  a     bf2:Item .
+
+ns195:it  a     bf2:Instance .
+
+ns46:it  a      bf2:Item .
+
+ns33:it  a      bf2:Item .
+
+rdfdf:sql-date-literal
+        a       virtrdf:QuadMapFormat .
+
+ns683:it  a     bf2:Instance .
+
+ns435:it  a     bf2:Item .
+
+rdfdf:sinv-iid-nonblank-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns226:it  a     bf2:Print .
+
+ns241:it  a     bf2:Item .
+
+rdfdf:sql-nvarchar-dt
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:DefaultQuadStorage
+        a       virtrdf:QuadStorage .
+
+ns122:it  a     bf2:Item .
+
+ns588:it  a     bf2:Item .
+
+ns252:it  a     bf2:Item .
+
+rdfdf:sql-varchar-fixedlang-x-any-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns377:it  a     bf2:Item .
+
+ns22:it  a      bf2:Item .
+
+rdfdf:sql-varchar-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns457:it  a     bf2:Item .
+
+ns388:it  a     bf2:Item .
+
+ns135:it  a     bf2:Item .
+
+rdfdf:sql-numeric-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns595:it  a     bf2:Item .
+
+rdfdf:singlepart-literal-fn-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns650:it  a     bf2:Item .
+
+ns355:it  a     bf2:Item .
+
+ns639:it  a     bf2:Item .
+
+ns447:it  a     bf2:Item .
+
+rdfdf:zeropart-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns502:it  a     bf2:Item .
+
+ns31:it  a      bf2:Item .
+
+ns347:it  a     bf2:Item .
+
+ns133:it  a     bf2:Item .
+
+rdfdf:sql-longvarchar-dt
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longvarchar
+        a       virtrdf:QuadMapFormat .
+
+ns324:it  a     bf2:Item .
+
+owl:AnnotationProperty
+        a       rdfs:Class .
+
+ns254:it  a     bf2:Item .
+
+rdfdf:sinv-nullable  a  virtrdf:QuadMapFormat .
+
+ns97:it  a      bf2:Instance .
+
+ns679:it  a     bf2:Instance .
+
+rdfdf:sql-date-nullable
+        a       virtrdf:QuadMapFormat .
+
+owl:Class  a    rdfs:Class .
+
+ns638:it  a     bf2:Electronic .
+
+ns370:it  a     bf2:Instance .
+
+ns378:it  a     bf2:Item .
+
+ns229:it  a     bf2:Electronic .
+
+ns409:it  a     bf2:Item .
+
+rdfdf:sql-date-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-integer-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sinv-iid-nonblank-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-numeric-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:SyncToQuads  a  virtrdf:QuadStorage .
+
+ns284:it  a     bf2:Electronic .
+
+ns327:it  a     bf2:Item .
+
+ns58:it  a      bf2:Item .
+
+ns47:it  a      bf2:Item .
+
+rdfdf:default-iid  a  virtrdf:QuadMapFormat .
+
+ns149:it  a     bf2:Item .
+
+owl:equivalentClass  a  rdf:Property .
+
+rdfdf:sql-longnvarchar-fixedlang-x-any
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longvarbinary-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns432:it  a     bf2:Item .
+
+ns264:it  a     bf2:Item .
+
+ns239:it  a     bf2:Item .
+
+ns228:it  a     bf2:Item .
+
+ns71:it  a      bf2:Item .
+
+ns61:it  a      bf2:Item .
+
+ns319:it  a     bf2:Item .
+
+ns575:it  a     bf2:Item .
+
+rdfdf:sql-nvarchar-lang
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:zeropart-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longnvarchar-lang
+        a       virtrdf:QuadMapFormat .
+
+ns469:it  a     bf2:Item .
+
+ns304:it  a     bf2:Electronic .
+
+ns529:it  a     bf2:Item .
+
+rdfdf:sql-numeric-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultServiceMap-ft-conds
+        a       virtrdf:array-of-string .
+
+ns18:it  a      bf2:Item .
+
+ns505:it  a     bf2:Item .
+
+ns519:it  a     bf2:Item .
+
+ns620:it  a     bf2:Electronic .
+
+ns204:it  a     bf2:Instance .
+
+rdfdf:sql-longvarbinary
+        a       virtrdf:QuadMapFormat .
+
+ns430:it  a     bf2:Item .
+
+rdf:rest  a     rdf:Property .
+
+ns300:it  a     bf2:Item .
+
+ns269:it  a     bf2:Item .
+
+ns537:it  a     bf2:Item .
+
+ns390:it  a     bf2:Item .
+
+rdfdf:singlepart-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:DefaultServiceMap-ft
+        a       virtrdf:QuadMapFText .
+
+ns463:it  a     bf2:Item .
+
+ns307:it  a     bf2:Item .
+
+rdfdf:sql-varchar-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-varchar-dt-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-integer-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns416:it  a     bf2:Item .
+
+ns246:it  a     bf2:Item .
+
+ns15:it  a      bf2:Item .
+
+ns629:it  a     bf2:Instance .
+
+rdfdf:sql-datetime-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns462:it  a     bf2:Item .
+
+ns25:it  a      bf2:Item .
+
+rdfdf:sql-varchar-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns111:it  a     bf2:Print .
+
+rdfdf:sql-date-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns495:it  a     bf2:Item .
+
+ns247:it  a     bf2:Item .
+
+ns81:it  a      bf2:Item .
+
+rdfdf:sql-datetime-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+ns312:it  a     bf2:Item .
+
+ns504:it  a     bf2:Item .
+
+ns222:it  a     bf2:Item .
+
+rdf:type  a     owl:ObjectProperty , rdf:Property .
+
+rdfdf:sql-time  a  virtrdf:QuadMapFormat .
+
+rdfdf:sql-longnvarchar-dt-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns212:it  a     bf2:Item .
+
+ns440:it  a     bf2:Item .
+
+ns425:it  a     bf2:Item .
+
+rdfdf:sql-time-nullable
+        a       virtrdf:QuadMapFormat .
+
+owl:SymmetricProperty
+        a       rdfs:Class .
+
+ns91:it  a      bf2:Electronic .
+
+ns78:it  a      bf2:Item .
+
+rdfdf:sql-time-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns216:it  a     bf2:Item .
+
+ns633:it  a     bf2:Item .
+
+ns296:it  a     bf2:Item .
+
+ns200:it  a     bf2:Item .
+
+ns187:it  a     bf2:Item .
+
+rdfdf:zeropart-uri-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns272:it  a     bf2:Item .
+
+ns634:it  a     bf2:Instance .
+
+ns230:it  a     bf2:Item .
+
+ns65:it  a      bf2:Electronic .
+
+ns653:it  a     bf2:Instance .
+
+rdfdf:sql-varchar-fixedlang-x-any-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns118:it  a     bf2:Item .
+
+ns24:it  a      bf2:Item .
+
+ns341:it  a     bf2:Item .
+
+ns192:it  a     bf2:Item .
+
+ns231:it  a     bf2:Item .
+
+rdfdf:sql-numeric-literal
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:DefaultQuadMap-S-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+ns400:it  a     bf2:Item .
+
+ns584:it  a     bf2:Item .
+
+ns617:it  a     bf2:Item .
+
+ns170:it  a     bf2:Item .
+
+virtrdf:DefaultServiceMap-geo
+        a       virtrdf:QuadMapFText .
+
+ns79:it  a      bf2:Item .
+
+ns93:it  a      bf2:Item .
+
+ns667:it  a     bf2:Item .
+
+ns83:it  a      bf2:Item .
+
+ns572:it  a     bf2:Item .
+
+ns140:it  a     bf2:Item .
+
+rdfdf:sql-doubleprecision-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:singlepart-uri-fn-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns181:it  a     bf2:Item .
+
+ns361:it  a     bf2:Electronic .
+
+ns35:it  a      bf2:Item .
+
+ns405:it  a     bf2:Item .
+
+ns552:it  a     bf2:Item .
+
+ns340:it  a     bf2:Item .
+
+ns270:it  a     bf2:Item .
+
+ns448:it  a     bf2:Item .
+
+ns297:it  a     bf2:Item .
+
+ns238:it  a     bf2:Item .
+
+ns164:it  a     bf2:Item .
+
+virtrdf:DefaultQuadMap-O-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+ns259:it  a     bf2:Item .
+
+rdfdf:default  a  virtrdf:QuadMapFormat .
+
+ns237:it  a     bf2:Item .
+
+ns510:it  a     bf2:Item .
+
+ns501:it  a     bf2:Item .
+
+ns461:it  a     bf2:Item .
+
+ns530:it  a     bf2:Item .
+
+rdfdf:sql-longnvarchar-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns366:it  a     bf2:Electronic .
+
+ns124:it  a     bf2:Item .
+
+rdfdf:sinv-iid  a  virtrdf:QuadMapFormat .
+
+rdfdf:sql-nvarchar-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-integer-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-numeric-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+ns598:it  a     bf2:Item .
+
+virtrdf:DefaultServiceMap-P
+        a       virtrdf:QuadMapValue .
+
+ns632:it  a     bf2:Item .
+
+ns420:it  a     bf2:Item .
+
+rdfdf:sql-varchar-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns677:it  a     bf2:Item .
+
+ns165:it  a     bf2:Instance .
+
+ns44:it  a      bf2:Item .
+
+rdfdf:sql-integer-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-varchar-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-numeric-uri
+        a       virtrdf:QuadMapFormat .
+
+owl:unionOf  a  rdf:Property .
+
+ns150:it  a     bf2:Item .
+
+ns191:it  a     bf2:Item .
+
+ns301:it  a     bf2:Item .
+
+ns586:it  a     bf2:Item .
+
+rdfdf:sql-nvarchar-uri
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-doubleprecision-literal
+        a       virtrdf:QuadMapFormat .
+
+ns87:it  a      bf2:Item .
+
+ns143:it  a     bf2:Item .
+
+ns521:it  a     bf2:Item .
+
+ns397:it  a     bf2:Item .
+
+rdfdf:sql-datetime-literal
+        a       virtrdf:QuadMapFormat .
+
+ns602:it  a     bf2:Item .
+
+ns73:it  a      bf2:Item .
+
+rdfdf:sql-date-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns261:it  a     bf2:Item .
+
+rdfdf:sql-datetime  a  virtrdf:QuadMapFormat .
+
+ns245:it  a     bf2:Item .
+
+virtrdf:DefaultQuadMap-pquad
+        a       virtrdf:QuadMapATable .
+
+rdfdf:sql-datetime-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-nvarchar-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns251:it  a     bf2:Item .
+
+rdfdf:sql-longvarchar-lang-nullable
+        a       virtrdf:QuadMapFormat .
+
+owl:priorVersion  a  owl:OntologyProperty , owl:AnnotationProperty .
+
+ns631:it  a     bf2:Item .
+
+ns375:it  a     bf2:Item .
+
+ns644:it  a     bf2:Item .
+
+ns414:it  a     bf2:Item .
+
+ns626:it  a     bf2:Item .
+
+ns410:it  a     bf2:Item .
+
+rdfdf:singlepart-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns268:it  a     bf2:Item .
+
+ns371:it  a     bf2:Item .
+
+ns194:it  a     bf2:Item .
+
+ns616:it  a     bf2:Electronic .
+
+rdfdf:sql-nvarchar-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns130:it  a     bf2:Item .
+
+rdfdf:zeropart-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns473:it  a     bf2:Item .
+
+ns553:it  a     bf2:Item .
+
+ns531:it  a     bf2:Item .
+
+ns7:it  a       bf2:Item .
+
+virtrdf:DefaultServiceMap-pquad
+        a       virtrdf:QuadMapATable .
+
+ns512:it  a     bf2:Item .
+
+rdfdf:default-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns656:it  a     bf2:Instance .
+
+ns500:it  a     bf2:Item .
+
+ns437:it  a     bf2:Item .
+
+ns110:it  a     bf2:Item .
+
+ns487:it  a     bf2:Item .
+
+ns547:it  a     bf2:Item .
+
+ns225:it  a     bf2:Electronic .
+
+ns489:it  a     bf2:Item .
+
+ns418:it  a     bf2:Item .
+
+ns541:it  a     bf2:Item .
+
+ns275:it  a     bf2:Item .
+
+ns66:it  a      kbv:SoundRecording .
+
+ns156:it  a     bf2:Item .
+
+ns202:it  a     bf2:Instance .
+
+ns109:it  a     bf2:Item .
+
+ns100:it  a     bf2:Item .
+
+ns84:it  a      bf2:Item .
+
+ns188:it  a     bf2:Item .
+
+rdfdf:sql-varchar-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-date  a  virtrdf:QuadMapFormat .
+
+ns356:it  a     bf2:Item .
+
+owl:imports  a  owl:OntologyProperty .
+
+ns92:it  a      bf2:Item .
+
+ns123:it  a     bf2:Instance .
+
+rdfdf:sql-nvarchar-literal
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:multipart-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:DefaultQuadMap-G
+        a       virtrdf:QuadMapValue .
+
+ns458:it  a     bf2:Item .
+
+rdfdf:default-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns82:it  a      bf2:Item .
+
+ns662:it  a     bf2:Item .
+
+ns558:it  a     bf2:Item .
+
+ns673:it  a     bf2:Item .
+
+ns113:it  a     bf2:Item .
+
+rdfdf:zeropart-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-date-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns605:it  a     bf2:Item .
+
+rdfdf:sql-varchar-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+ns561:it  a     bf2:Item .
+
+ns459:it  a     bf2:Item .
+
+ns253:it  a     bf2:Item .
+
+owl:Ontology  a  rdfs:Class .
+
+ns148:it  a     bf2:Item .
+
+rdfdf:sql-varchar-literal
+        a       virtrdf:QuadMapFormat .
+
+ns608:it  a     bf2:Item .
+
+ns628:it  a     bf2:Item .
+
+ns117:it  a     bf2:Item .
+
+ns74:it  a      bf2:Item .
+
+rdfdf:sql-varchar-dt-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-numeric-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+owl:Nothing  a  owl:Class .
+
+ns290:it  a     bf2:Item .
+
+rdfdf:sql-time-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+ns171:it  a     bf2:Item .
+
+ns614:it  a     bf2:Electronic .
+
+ns136:it  a     bf2:Item .
+
+rdfdf:multipart-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns478:it  a     bf2:Item .
+
+ns611:it  a     bf2:Item .
+
+ns331:it  a     bf2:Item .
+
+rdfdf:sql-nvarchar-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-numeric-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns681:it  a     bf2:Instance .
+
+ns606:it  a     bf2:Item .
+
+ns55:it  a      bf2:Item .
+
+ns70:it  a      bf2:Item .
+
+ns453:it  a     bf2:Item .
+
+rdf:List  a     rdfs:Class .
+
+rdfdf:multipart-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns670:it  a     bf2:Item .
+
+ns600:it  a     bf2:Item .
+
+ns309:it  a     bf2:Tactile .
+
+ns348:it  a     bf2:Item .
+
+ns538:it  a     bf2:Item .
+
+ns627:it  a     bf2:Item .
+
+ns362:it  a     bf2:Item .
+
+owl:differentFrom  a  rdf:Property .
+
+ns273:it  a     bf2:Item .
+
+ns248:it  a     bf2:Item .
+
+rdfdf:sql-date-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-date-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+ns433:it  a     bf2:Item .
+
+ns16:it  a      bf2:Item .
+
+ns167:it  a     bf2:Item .
+
+ns635:it  a     bf2:Item .
+
+ns643:it  a     bf2:Electronic .
+
+ns649:it  a     bf2:Item .
+
+ns320:it  a     bf2:Item .
+
+rdfdf:sql-numeric-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns610:it  a     bf2:Item .
+
+ns182:it  a     bf2:Item .
+
+rdfdf:sql-longnvarchar
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:DefaultQuadMap-S
+        a       virtrdf:QuadMapValue .
+
+ns260:it  a     bf2:Item .
+
+rdfdf:sql-longvarchar-lang
+        a       virtrdf:QuadMapFormat .
+
+ns402:it  a     bf2:Item .
+
+ns376:it  a     kbv:SoundRecording .
+
+ns387:it  a     bf2:Item .
+
+ns302:it  a     bf2:Item .
+
+ns177:it  a     bf2:Item .
+
+ns114:it  a     bf2:Item .
+
+ns51:it  a      bf2:Item .
+
+ns436:it  a     bf2:Item .
+
+ns217:it  a     bf2:Print .
+
+ns597:it  a     bf2:Item .
+
+ns422:it  a     bf2:Item .
+
+rdfdf:sql-varchar-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns224:it  a     bf2:Item .
+
+rdfdf:sql-longnvarchar-dt-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns625:it  a     bf2:Item .
+
+owl:DeprecatedProperty
+        a       rdfs:Class .
+
+ns38:it  a      bf2:Item .
+
+rdfdf:sql-varchar-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns618:it  a     bf2:Item .
+
+rdfdf:sql-nvarchar  a  virtrdf:QuadMapFormat .
+
+virtrdf:DefaultServiceMap-P-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+rdfdf:sql-longvarchar-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns482:it  a     bf2:Item .
+
+ns85:it  a      bf2:Instance .
+
+ns383:it  a     bf2:Item .
+
+ns573:it  a     bf2:Item .
+
+ns491:it  a     bf2:Item .
+
+ns89:it  a      bf2:Item .
+
+ns592:it  a     bf2:Item .
+
+rdfdf:sql-integer-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns257:it  a     bf2:Item .
+
+ns153:it  a     bf2:Item .
+
+rdfdf:sql-doubleprecision-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns621:it  a     bf2:Electronic .
+
+ns77:it  a      bf2:Item .
+
+ns424:it  a     bf2:Item .
+
+rdfdf:sql-nvarchar-fixedlang-x-any-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns291:it  a     bf2:Electronic .
+
+owl:TransitiveProperty
+        a       rdfs:Class .
+
+ns145:it  a     bf2:Item .
+
+rdfdf:sql-integer-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns172:it  a     bf2:Item .
+
+ns271:it  a     bf2:Item .
+
+rdfdf:sql-datetime-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns59:it  a      kbv:SoundRecording .
+
+ns29:it  a      bf2:Item .
+
+ns72:it  a      bf2:Item .
+
+ns96:it  a      bf2:Print .
+
+ns486:it  a     bf2:Item .
+
+ns406:it  a     bf2:Item .
+
+ns549:it  a     bf2:Item .
+
+ns151:it  a     bf2:Item .
+
+ns112:it  a     bf2:Print .
+
+rdfdf:sql-numeric-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+owl:InverseFunctionalProperty
+        a       rdfs:Class .
+
+virtrdf:DefaultQuadMap-ft
+        a       virtrdf:QuadMapFText .
+
+ns554:it  a     bf2:Item .
+
+ns373:it  a     bf2:Item .
+
+ns45:it  a      bf2:Item .
+
+ns52:it  a      bf2:Item .
+
+ns533:it  a     bf2:Item .
+
+ns464:it  a     bf2:Item .
+
+ns57:it  a      bf2:Item .
+
+ns285:it  a     bf2:Item .
+
+rdfdf:sql-varchar-lang-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns178:it  a     bf2:Item .
+
+rdfdf:sinv-iid-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns206:it  a     bf2:Item .
+
+ns544:it  a     bf2:Item .
+
+ns451:it  a     bf2:Item .
+
+ns398:it  a     bf2:Item .
+
+ns305:it  a     bf2:Item .
+
+rdfdf:sql-time-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-doubleprecision-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns306:it  a     bf2:Item .
+
+ns279:it  a     bf2:Item .
+
+ns68:it  a      bf2:Electronic .
+
+ns380:it  a     bf2:Item .
+
+ns497:it  a     kbv:SoundRecording .
+
+ns565:it  a     bf2:Item .
+
+ns494:it  a     bf2:Item .
+
+virtrdf:DefaultQuadMap-atables
+        a       virtrdf:array-of-QuadMapATable .
+
+ns429:it  a     bf2:Item .
+
+ns630:it  a     bf2:Item .
+
+rdfdf:sql-longvarchar-fixedlang-x-any-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:default-iid-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:multipart-uri  a  virtrdf:QuadMapFormat .
+
+ns485:it  a     bf2:Item .
+
+ns663:it  a     bf2:Item .
+
+ns445:it  a     bf2:Item .
+
+ns509:it  a     bf2:Item .
+
+ns160:it  a     bf2:Item .
+
+rdfdf:sql-integer-uri
+        a       virtrdf:QuadMapFormat .
+
+ns434:it  a     bf2:Item .
+
+rdfdf:sql-longvarchar-fixedlang-x-any
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-date-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-integer-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longvarbinary-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns493:it  a     bf2:Item .
+
+ns69:it  a      bf2:Item .
+
+ns441:it  a     bf2:Item .
+
+ns481:it  a     bf2:Item .
+
+ns680:it  a     bf2:Instance .
+
+ns583:it  a     bf2:Item .
+
+ns578:it  a     bf2:Item .
+
+ns577:it  a     bf2:Item .
+
+ns125:it  a     bf2:Item .
+
+ns476:it  a     bf2:Item .
+
+virtrdf:DefaultQuadMap-S-col-S
+        a       virtrdf:QuadMapColumn .
+
+ns201:it  a     bf2:Item .
+
+ns147:it  a     bf2:Item .
+
+ns54:it  a      bf2:Instance .
+
+ns641:it  a     bf2:Item .
+
+ns34:it  a      bf2:Item .
+
+rdfdf:sql-date-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:zeropart-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-varchar-fixedlang-x-any
+        a       virtrdf:QuadMapFormat .
+
+ns258:it  a     bf2:Item .
+
+ns43:it  a      bf2:Item .
+
+ns421:it  a     bf2:Item .
+
+ns280:it  a     bf2:Electronic .
+
+rdfdf:sql-longvarchar-nullable
+        a       virtrdf:QuadMapFormat .
+
+owl:intersectionOf  a  rdf:Property .
+
+ns10:it  a      bf2:Instance .
+
+ns134:it  a     bf2:Item .
+
+rdfdf:sql-longnvarchar-fixedlang-x-any-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns593:it  a     bf2:Item .
+
+ns189:it  a     bf2:Item .
+
+rdfdf:sql-nvarchar-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns80:it  a      bf2:Item .
+
+ns551:it  a     bf2:Item .
+
+ns360:it  a     bf2:Item .
+
+ns39:it  a      bf2:Instance .
+
+ns513:it  a     bf2:Item .
+
+ns210:it  a     bf2:Instance .
+
+rdfdf:sql-numeric-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns244:it  a     bf2:Item .
+
+ns596:it  a     bf2:Item .
+
+rdfdf:sql-doubleprecision
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-nvarchar-fixedlang-x-any-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns507:it  a     bf2:Item .
+
+ns403:it  a     bf2:Item .
+
+ns623:it  a     bf2:Item .
+
+ns470:it  a     bf2:Item .
+
+owl:Restriction  a  rdfs:Class .
+
+rdfdf:sql-integer  a  virtrdf:QuadMapFormat .
+
+rdfdf:sql-datetime-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+ns131:it  a     bf2:Item .
+
+ns321:it  a     bf2:Item .
+
+ns250:it  a     bf2:Item .
+
+ns28:it  a      bf2:Item .
+
+rdfdf:sql-longvarchar-dt-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns102:it  a     bf2:Item .
+
+ns609:it  a     bf2:Item .
+
+rdfdf:sql-integer-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns13:it  a      bf2:Item .
+
+rdfdf:sinv-iid-nonblank
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-time-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns323:it  a     bf2:Item .
+
+ns564:it  a     bf2:Item .
+
+ns503:it  a     bf2:Item .
+
+owl:DataRange  a  rdfs:Class .
+
+ns101:it  a     bf2:Item .
+
+rdfdf:sql-varchar-dt-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns581:it  a     bf2:Item .
+
+rdfdf:default-iid-nonblank-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sinv-iid-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns455:it  a     bf2:Item .
+
+ns288:it  a     bf2:Item .
+
+ns518:it  a     bf2:Item .
+
+ns345:it  a     bf2:Item .
+
+ns105:it  a     bf2:Item .
+
+rdfdf:sql-numeric  a  virtrdf:QuadMapFormat .
+
+ns354:it  a     bf2:Item .
+
+ns326:it  a     bf2:Item .
+
+ns236:it  a     bf2:Item .
+
+owl:AllDifferent  a  rdfs:Class .
+
+ns17:it  a      bf2:Item .
+
+ns154:it  a     bf2:Item .
+
+ns594:it  a     bf2:Item .
+
+ns330:it  a     bf2:Item .
+
+owl:minCardinality  a  rdf:Property .
+
+rdfdf:default-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-varchar-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns428:it  a     bf2:Item .
+
+ns520:it  a     bf2:Item .
+
+rdfdf:sql-longvarchar-dt-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:multipart-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longnvarchar-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns184:it  a     bf2:Item .
+
+ns570:it  a     bf2:Item .
+
+ns385:it  a     bf2:Item .
+
+ns41:it  a      bf2:Electronic .
+
+ns444:it  a     bf2:Item .
+
+rdfdf:sql-datetime-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns94:it  a      bf2:Item .
+
+ns540:it  a     bf2:Item .
+
+ns14:it  a      bf2:Item .
+
+ns329:it  a     bf2:Item .
+
+ns372:it  a     bf2:Item .
+
+ns417:it  a     bf2:Item .
+
+ns563:it  a     bf2:Item .
+
+rdfdf:sql-doubleprecision-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-doubleprecision-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns220:it  a     bf2:Item .
+
+ns242:it  a     bf2:Item .
+
+ns642:it  a     bf2:Item .
+
+ns316:it  a     bf2:Item .
+
+rdfdf:sql-numeric-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns132:it  a     bf2:Tactile .
+
+ns523:it  a     bf2:Item .
+
+ns651:it  a     bf2:Item .
+
+ns139:it  a     bf2:Item .
+
+ns223:it  a     bf2:Electronic .
+
+ns496:it  a     bf2:Item .
+
+rdfdf:singlepart-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+ns571:it  a     bf2:Item .
+
+ns104:it  a     bf2:Item .
+
+ns591:it  a     bf2:Item .
+
+ns76:it  a      bf2:Item .
+
+ns665:it  a     bf2:Item .
+
+ns214:it  a     bf2:Electronic .
+
+rdfdf:sql-nvarchar-dt-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns207:it  a     bf2:Item .
+
+ns452:it  a     bf2:Item .
+
+ns49:it  a      bf2:Item .
+
+virtrdf:DefaultQuadMap-P
+        a       virtrdf:QuadMapValue .
+
+owl:maxCardinality  a  rdf:Property .
+
+rdfdf:sql-nvarchar-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-varchar-uri
+        a       virtrdf:QuadMapFormat .
+
+ns227:it  a     bf2:Item .
+
+ns516:it  a     bf2:Item .
+
+rdfdf:sql-integer-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longnvarchar-lang-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-time-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-datetime-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns411:it  a     bf2:Item .
+
+ns399:it  a     bf2:Item .
+
+ns155:it  a     bf2:Item .
+
+ns342:it  a     bf2:Item .
+
+ns64:it  a      bf2:Item .
+
+rdf:Property  a  rdfs:Class .
+
+virtrdf:DefaultQuadMap
+        a       virtrdf:QuadMap .
+
+virtrdf:DefaultServiceMap-O
+        a       virtrdf:QuadMapValue .
+
+ns186:it  a     bf2:Item .
+
+rdfdf:default-iid-nonblank-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns682:it  a     bf2:Instance .
+
+rdfdf:sql-integer-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns287:it  a     bf2:Item .
+
+ns484:it  a     bf2:Item .
+
+ns392:it  a     bf2:Item .
+
+ns661:it  a     bf2:Item .
+
+ns408:it  a     bf2:Item .
+
+ns550:it  a     bf2:Item .
+
+ns209:it  a     bf2:Item .
+
+ns346:it  a     bf2:Item .
+
+ns603:it  a     bf2:Instance .
+
+ns601:it  a     bf2:Item .
+
+ns137:it  a     bf2:Item .
+
+ns88:it  a      bf2:Item .
+
+owl:oneOf  a    rdf:Property .
+
+rdfdf:default-iid-nonblank
+        a       virtrdf:QuadMapFormat .
+
+ns427:it  a     bf2:Item .
+
+ns374:it  a     bf2:Item .
+
+rdfdf:sql-time-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+ns26:it  a      bf2:Item .
+
+ns240:it  a     bf2:Item .
+
+ns612:it  a     bf2:Electronic .
+
+ns359:it  a     bf2:Electronic .
+
+ns525:it  a     bf2:Item .
+
+rdfdf:default-iid-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+owl:incompatibleWith  a  owl:OntologyProperty , owl:AnnotationProperty .
+
+owl:DeprecatedClass  a  rdfs:Class .
+
+ns108:it  a     bf2:Item .
+
+rdfdf:sql-nvarchar-lang-nullable
+        a       virtrdf:QuadMapFormat .
+
+owl:versionInfo  a  owl:AnnotationProperty .
+
+ns604:it  a     bf2:Electronic .
+
+rdfdf:default-iid-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longvarchar-fixedlang-x-any-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns675:it  a     bf2:Item .
+
+virtrdf:DefaultQuadMap-P-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+rdfdf:sql-nvarchar-dt-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-varchar-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns672:it  a     bf2:Item .
+
+ns624:it  a     bf2:Electronic .
+
+rdfdf:multipart-literal
+        a       virtrdf:QuadMapFormat .
+
+ns168:it  a     bf2:Item .
+
+rdfdf:sql-time-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns235:it  a     bf2:Item .
+
+ns669:it  a     bf2:Item .
+
+ns298:it  a     bf2:Print .
+
+rdfdf:sql-integer-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-numeric-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultQuadMap-P-col-P
+        a       virtrdf:QuadMapColumn .
+
+virtrdf:DefaultServiceStorage
+        a       virtrdf:QuadStorage .
+
+ns647:it  a     bf2:Item .
+
+rdfdf:multipart-uri-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultQuadMap-G-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+ns213:it  a     bf2:Item .
+
+ns369:it  a     bf2:Item .
+
+rdfdf:sql-longnvarchar-lang-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns545:it  a     bf2:Item .
+
+rdfdf:sql-numeric-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns456:it  a     bf2:Item .
+
+ns367:it  a     bf2:Item .
+
+rdfdf:multipart-literal-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-varchar-lang-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultServiceMap-atables
+        a       virtrdf:array-of-QuadMapATable .
+
+ns27:it  a      bf2:Item .
+
+ns163:it  a     bf2:Item .
+
+ns289:it  a     bf2:Electronic .
+
+ns542:it  a     bf2:Item .
+
+ns468:it  a     bf2:Item .
+
+ns645:it  a     bf2:Item .
+
+ns413:it  a     bf2:Item .
+
+ns63:it  a      bf2:Item .
+
+ns103:it  a     bf2:Item .
+
+ns446:it  a     bf2:Item .
+
+rdfdf:sql-nvarchar-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longvarchar-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns179:it  a     bf2:Item .
+
+ns488:it  a     bf2:Item .
+
+ns11:it  a      bf2:Item .
+
+ns146:it  a     bf2:Item .
+
+ns412:it  a     bf2:Item .
+
+ns678:it  a     bf2:Instance .
+
+ns566:it  a     bf2:Item .
+
+ns249:it  a     bf2:Item .
+
+ns36:it  a      bf2:Print .
+
+ns175:it  a     bf2:Item .
+
+ns129:it  a     bf2:Item .
+
+rdfdf:sql-longnvarchar-fixedlang-x-any-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns42:it  a      bf2:Item .
+
+ns144:it  a     bf2:Item .
+
+virtrdf:DefaultServiceMap-S-col-S
+        a       virtrdf:QuadMapColumn .
+
+ns599:it  a     bf2:Item .
+
+ns536:it  a     bf2:Item .
+
+ns587:it  a     kbv:SoundRecording .
+
+rdfdf:zeropart-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns6:owl  a      owl:Ontology .
+
+rdfdf:sql-longvarchar-fixedlang-x-any-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:singlepart-uri-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns353:it  a     bf2:Item .
+
+ns676:it  a     bf2:Instance .
+
+rdfdf:sql-varchar-fixedlang-x-any-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns585:it  a     bf2:Item .
+
+owl:distinctMembers  a  rdf:Property .
+
+dct:created  a  rdf:Property .
+
+rdfdf:sql-longvarchar-lang-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns419:it  a     bf2:Item .
+
+rdfdf:sql-varchar-dt  a  virtrdf:QuadMapFormat .
+
+rdfdf:sql-time-literal
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:DefaultQuadMap-O-col-O
+        a       virtrdf:QuadMapColumn .
+
+ns322:it  a     bf2:Item .
+
+ns364:it  a     bf2:Electronic .
+
+ns158:it  a     bf2:Item .
+
+ns534:it  a     bf2:Item .
+
+rdfdf:sql-varchar  a  virtrdf:QuadMapFormat .
+
+ns317:it  a     bf2:Item .
+
+ns256:it  a     bf2:Item .
+
+ns381:it  a     bf2:Item .
+
+ns128:it  a     bf2:Item .
+
+ns243:it  a     bf2:Item .
+
+ns492:it  a     bf2:Item .
+
+ns401:it  a     bf2:Item .
+
+ns173:it  a     bf2:Item .
+
+ns211:it  a     bf2:Print .
+
+ns255:it  a     bf2:Item .
+
+ns233:it  a     bf2:Item .
+
+ns278:it  a     bf2:Electronic .
+
+ns12:it  a      bf2:Item .
+
+ns557:it  a     bf2:Item .
+
+ns119:it  a     bf2:Item .
+
+ns56:it  a      bf2:Item .
+
+ns528:it  a     bf2:Item .
+
+ns395:it  a     bf2:Item .
+
+ns313:it  a     bf2:Item .
+
+ns50:it  a      bf2:Item .
+
+ns277:it  a     bf2:Item .
+
+ns176:it  a     bf2:Item .
+
+ns506:it  a     bf2:Item .
+
+rdfdf:multipart-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-datetime-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns183:it  a     bf2:Item .
+
+ns121:it  a     bf2:Instance .
+
+rdfdf:sql-nvarchar-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns286:it  a     bf2:Electronic .
+
+ns90:it  a      bf2:Print .
+
+ns40:it  a      bf2:Item .
+
+ns166:it  a     bf2:Item .
+
+ns658:it  a     bf2:Item .
+
+ns490:it  a     bf2:Item .
+
+owl:complementOf  a  rdf:Property .
+
+rdfdf:sql-longnvarchar-dt-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns75:it  a      bf2:Item .
+
+ns498:it  a     bf2:Item .
+
+ns431:it  a     bf2:Item .
+
+rdfdf:sql-nvarchar-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns127:it  a     bf2:Instance .
+
+ns352:it  a     bf2:Item .
+
+ns190:it  a     bf2:Item .
+
+ns120:it  a     bf2:Item .
+
+ns467:it  a     bf2:Item .
+
+ns86:it  a      bf2:Item .
+
+ns454:it  a     bf2:Item .
+
+ns299:it  a     bf2:Item .
+
+ns266:it  a     bf2:Item .
+
+rdfdf:sql-date-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+ns20:it  a      bf2:Item .
+
+ns263:it  a     bf2:Item .
+
+ns664:it  a     bf2:Item .
+
+owl:OntologyProperty  a  rdfs:Class .
+
+ns562:it  a     bf2:Item .
+
+rdfdf:zeropart-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns404:it  a     bf2:Item .
+
+ns655:it  a     bf2:Instance .
+
+ns483:it  a     kbv:SoundRecording .
+
+ns576:it  a     bf2:Item .
+
+rdfdf:sinv-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultQuadMap-G-col-G
+        a       virtrdf:QuadMapColumn .
+
+ns218:it  a     bf2:Item .
+
+ns615:it  a     bf2:Item .
+
+ns142:it  a     bf2:Item .
+
+ns415:it  a     bf2:Item .
+
+ns350:it  a     bf2:Item .
+
+ns116:it  a     bf2:Item .
+
+rdfdf:sql-integer-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns95:it  a      bf2:Electronic .
+
+ns394:it  a     bf2:Item .
+
+ns205:it  a     bf2:Item .
+
+ns499:it  a     bf2:Item .
+
+rdfdf:sql-integer-literal
+        a       virtrdf:QuadMapFormat .
+
+ns439:it  a     bf2:Item .
+
+rdfdf:sql-datetime-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns382:it  a     bf2:Item .
+
+ns515:it  a     bf2:Item .
+
+rdfdf:sql-longnvarchar-fixedlang-x-any-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns126:it  a     bf2:Print .
+
+ns450:it  a     bf2:Item .
+
+ns666:it  a     bf2:Item .
+
+ns389:it  a     bf2:Item .
+
+ns466:it  a     bf2:Item .
+
+ns619:it  a     bf2:Electronic .
+
+rdfdf:zeropart-uri  a  virtrdf:QuadMapFormat .
+
+ns337:it  a     bf2:Item .
+
+rdfdf:multipart-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns579:it  a     bf2:Item .
+
+ns162:it  a     bf2:Item .
+
+ns622:it  a     bf2:Electronic .
+
+ns310:it  a     bf2:Item .
+
+rdfdf:sql-longnvarchar-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns567:it  a     bf2:Item .
+
+ns161:it  a     bf2:Item .
+
+ns234:it  a     bf2:Item .
+
+ns343:it  a     bf2:Item .
+
+dct:extent  a   rdf:Property .
+
+ns648:it  a     bf2:Item .
+
+ns159:it  a     bf2:Item .
+
+owl:someValuesFrom  a  rdf:Property .
+
+ns460:it  a     bf2:Item .
+
+rdfdf:sinv-iid-nonblank-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns477:it  a     bf2:Item .
+
+ns358:it  a     bf2:Item .
+
+ns349:it  a     bf2:Item .
+
+rdfdf:zeropart-literal-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns174:it  a     bf2:Item .
+
+ns589:it  a     bf2:Item .
+
+ns384:it  a     bf2:Item .
+
+virtrdf:DefaultServiceMap-geo-conds
+        a       virtrdf:array-of-string .
+
+ns141:it  a     bf2:Item .
+
+owl:inverseOf  a  rdf:Property .
+
+ns391:it  a     bf2:Item .
+
+ns314:it  a     bf2:Item .
+
+ns215:it  a     bf2:Item .
+
+owl:backwardCompatibleWith
+        a       owl:OntologyProperty , owl:AnnotationProperty .
+
+virtrdf:DefaultServiceMap
+        a       virtrdf:QuadMap .
+
+rdfdf:zeropart-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns555:it  a     bf2:Item .
+
+owl:DatatypeProperty  a  rdfs:Class .
+
+ns32:it  a      bf2:Item .
+
+owl:Thing  a    owl:Class .
+
+rdfdf:default-iid-nonblank-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns196:it  a     bf2:Item .
+
+rdfdf:sql-nvarchar-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-longnvarchar-lang-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns535:it  a     bf2:Item .
+
+ns471:it  a     bf2:Item .
+
+ns546:it  a     bf2:Item .
+
+ns393:it  a     bf2:Item .
+
+owl:cardinality  a  rdf:Property .
+
+ns674:it  a     bf2:Item .
+
+rdfdf:sinv-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns514:it  a     bf2:Item .
+
+ns333:it  a     bf2:Item .
+
+ns19:it  a      bf2:Item .
+
+ns472:it  a     bf2:Item .
+
+ns339:it  a     bf2:Item .
+
+ns524:it  a     bf2:Item .
+
+ns357:it  a     bf2:Item .
+
+ns193:it  a     bf2:Item .
+
+ns363:it  a     bf2:Item .
+
+ns652:it  a     bf2:Item .
+
+ns613:it  a     bf2:Item .
+
+ns203:it  a     bf2:Item .
+
+rdfdf:sql-nvarchar-fixedlang-x-any
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-nvarchar-lang-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+owl:FunctionalProperty
+        a       rdfs:Class .
+
+ns267:it  a     bf2:Item .
+
+ns281:it  a     bf2:Item .
+
+ns407:it  a     bf2:Item .
+
+ns23:it  a      bf2:Item .
+
+ns295:it  a     bf2:Item .
+
+ns449:it  a     bf2:Item .
+
+rdfdf:sql-doubleprecision-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:DefaultServiceMap-P-col-P
+        a       virtrdf:QuadMapColumn .
+
+ns660:it  a     bf2:Item .
+
+ns62:it  a      bf2:Item .
+
+ns438:it  a     bf2:Item .
+
+ns293:it  a     bf2:Item .
+
+ns569:it  a     bf2:Item .
+
+owl:ObjectProperty  a  rdfs:Class .
+
+ns315:it  a     bf2:Item .
+
+virtrdf:DefaultServiceMap-G
+        a       virtrdf:QuadMapValue .
+
+ns657:it  a     bf2:Item .
+
+rdfdf:sql-numeric-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns53:it  a      bf2:Item .
+
+rdf:nil  a      rdf:List .
+
+rdfdf:sql-varchar-lang-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns138:it  a     bf2:Item .
+
+ns474:it  a     bf2:Item .
+
+ns654:it  a     bf2:Item .
+
+ns636:it  a     bf2:Electronic .
+
+ns556:it  a     bf2:Item .
+
+ns338:it  a     bf2:Item .
+
+rdfdf:sql-varchar-lang
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sinv  a   virtrdf:QuadMapFormat .
+
+virtrdf:DefaultServiceMap-S-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+rdfdf:sql-time-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns517:it  a     bf2:Item .
+
+ns115:it  a     bf2:Item .
+
+rdfdf:sql-doubleprecision-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-longvarbinary-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultServiceStorage-UserMaps
+        a       virtrdf:array-of-QuadMap .
+
+ns106:it  a     bf2:Item .
+
+ns152:it  a     bf2:Item .
+
+ns276:it  a     bf2:Item .
+
+rdfdf:sql-varchar-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-time-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns107:it  a     bf2:Item .
+
+ns344:it  a     bf2:Item .
+
+ns318:it  a     bf2:Instance .
+
+ns442:it  a     bf2:Item .
+
+ns574:it  a     bf2:Item .
+
+rdfdf:singlepart-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns308:it  a     bf2:Item .
+
+ns590:it  a     bf2:Item .
+
+virtrdf:DefaultServiceMap-O-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+ns479:it  a     bf2:Item .
+
+rdfdf:sinv-iid-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns48:it  a      bf2:Item .
+
+rdfdf:sql-nvarchar-dt-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns336:it  a     bf2:Item .
+
+rdfdf:sql-longnvarchar-dt
+        a       virtrdf:QuadMapFormat .
+
+ns640:it  a     bf2:Item .
+
+ns368:it  a     bf2:Electronic .
+
+ns328:it  a     bf2:Item .
+
+rdfdf:sql-nvarchar-fixedlang-x-any-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns262:it  a     bf2:Item .
+
+rdfdf:sql-doubleprecision-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns9:it  a       bf2:Item .
+
+ns659:it  a     bf2:Item .
+
+ns325:it  a     bf2:Item .
+
+ns559:it  a     bf2:Item .
+
+ns582:it  a     bf2:Item .
+
+rdfdf:sql-doubleprecision-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultServiceMap-O-col-O
+        a       virtrdf:QuadMapColumn .
+
+rdfdf:sql-integer-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns548:it  a     bf2:Item .
+
+ns67:it  a      bf2:Instance .
+
+ns99:it  a      bf2:Item .
+
+ns294:it  a     bf2:Print .
+
+ns232:it  a     bf2:Item .
+
+ns37:it  a      bf2:Instance .
+
+ns532:it  a     bf2:Item .
+
+ns475:it  a     bf2:Item .
+
+ns379:it  a     bf2:Item .
+
+rdfdf:sql-nvarchar-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns396:it  a     bf2:Item .
+
+rdf:first  a    rdf:Property .
+
+rdfdf:multipart-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns607:it  a     bf2:Item .
+
+ns98:it  a      bf2:Item .
+
+ns21:it  a      bf2:Item .
+
+rdfdf:sql-nvarchar-lang-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultQuadMap-geo
+        a       virtrdf:QuadMapFText .
+
+ns443:it  a     bf2:Item .
+
+owl:onProperty  a  rdf:Property .
+
+ns508:it  a     bf2:Item .
+
+virtrdf:DefaultServiceMap-S
+        a       virtrdf:QuadMapValue .
+
+ns199:it  a     bf2:Print .
+
+rdfdf:zeropart-literal
+        a       virtrdf:QuadMapFormat .
+
+ns157:it  a     bf2:Item .
+
+rdfdf:multipart-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns185:it  a     bf2:Item .
+
+ns646:it  a     bf2:Item .
+
+ns197:it  a     bf2:Electronic .
+
+ns283:it  a     bf2:Item .
+
+ns274:it  a     bf2:Item .
+
+ns265:it  a     bf2:Item .
+
+virtrdf:DefaultQuadStorage-UserMaps
+        a       virtrdf:array-of-QuadMap .
+
+ns637:it  a     bf2:Electronic .
+
+rdfdf:singlepart-literal-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+owl:hasValue  a  rdf:Property .
+
+ns543:it  a     bf2:Item .
+
+rdfs:Class  a   owl:Class .
+
+virtrdf:SyncToQuads-UserMaps
+        a       virtrdf:array-of-QuadMap .
+
+ns351:it  a     bf2:Item .
+
+virtrdf:DefaultServiceMap-G-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+rdfdf:sql-longvarchar-lang-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns560:it  a     bf2:Item .
+
+ns219:it  a     bf2:Item .
+
+ns208:it  a     bf2:Item .
+
+ns526:it  a     bf2:Item .
+
+ns568:it  a     bf2:Item .
+
+rdfdf:sql-longvarchar-dt-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+ns465:it  a     bf2:Item .
+
+ns365:it  a     bf2:Item .

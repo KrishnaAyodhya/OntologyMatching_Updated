@@ -1,0 +1,2123 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn:    <http://www.w3.org/2005/xpath-functions#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+
+<http://eagle-i.org/ont/repo/1.0/hasRole>
+        a             owl:ObjectProperty ;
+        rdfs:comment  "Subject is entitled to the access privilegs of this role" ;
+        rdfs:label    "has role" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/Role> .
+
+<http://eagle-i.org/ont/app/1.0/preferredDefinition>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ero/dev/disease-import.owl>
+        a       owl:Ontology .
+
+<http://purl.obolibrary.org/obo/ERO_0000440>
+        a       owl:Class .
+
+<http://eagle-i.org/ont/repo/1.0/MatchAnything>
+        rdfs:comment  "Wildcard URI for delete statements request, matches any predicate and/or object" .
+
+<http://eagle-i.org/ont/repo/1.0/NG_Query>
+        <http://purl.org/dc/terms/created>
+                "2017-03-02T08:02:03.802-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://eagle-i.org/ont/repo/1.0/Role_Superuser> ;
+        <http://purl.org/dc/terms/source>
+                [ <http://purl.org/dc/terms/identifier>
+                          <file:///usr/share/tomcat7/webapps/sparqler/WEB-INF/classes/query-macros.n3> ;
+                  <http://purl.org/dc/terms/modified>
+                          "2017-02-03T18:12:12.000-06:00"^^xsd:dateTime
+                ] .
+
+<http://eagle-i.org/ont/app/1.0/grant_number>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/NCBITaxon_10239>
+        a       owl:Class .
+
+<http://cau.eagle-i.net/i/00000136-54f0-dbd9-982a-4eef80000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000394> ;
+        rdfs:label  "Next generation sequencing service" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "Whole genome\nRNA-seq\nChIP-seq\nTranscriptome" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://cau.eagle-i.net/i/00000136-54e8-dfcf-982a-4eef80000000> , <http://cau.eagle-i.net/i/00000136-54d2-72a0-982a-4eef80000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://cau.eagle-i.net/i/00000135-ab9d-72b3-ecf8-187780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://www.ccrtd.cau.edu/CoreFacilities/Bioinformatics.aspx" ;
+        <http://purl.obolibrary.org/obo/ERO_0000481>
+                <http://cau.eagle-i.net/i/00000136-54f2-8df1-982a-4eef80000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/OBI_0600047> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://cau.eagle-i.net/i/00000135-8d21-51bc-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-03-27T11:18:06.162-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://cau.eagle-i.net/i/00000136-5493-960e-982a-4eef80000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-10-22T08:57:45.199-05:00"^^xsd:dateTime .
+
+<http://purl.obolibrary.org/obo/ERO_0002092>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0000271>
+        a       owl:Class .
+
+<http://cau.eagle-i.net/i/00000136-54d6-f564-982a-4eef80000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0000989> ;
+        rdfs:label  "SOLiD EZ Bead Emulsifier" ;
+        <http://eagle-i.org/ont/app/1.0/synonym>
+                "Emulsifier" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://cau.eagle-i.net/i/00000136-54d2-72a0-982a-4eef80000000> , <http://cau.eagle-i.net/i/00000136-54e8-dfcf-982a-4eef80000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc79-1552-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://products.invitrogen.com/ivgn/product/4448419?ICID=search-product" ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://cau.eagle-i.net/i/00000135-ab9d-72b3-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://cau.eagle-i.net/i/00000135-8d21-51bc-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-03-27T10:48:42.033-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://cau.eagle-i.net/i/00000136-5493-960e-982a-4eef80000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-10-22T08:57:49.490-05:00"^^xsd:dateTime .
+
+<http://purl.obolibrary.org/obo/ERO_0000578>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0000156>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0001157>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0001519>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0001972>
+        a       owl:Class .
+
+<http://purl.org/net/OCRe/research.owl#Observational_study>
+        a       owl:Class .
+
+[ a       owl:Class ] .
+
+<http://purl.obolibrary.org/obo/ERO_0000283>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0001550>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0000072>
+        rdfs:range  xsd:string .
+
+<http://eagle-i.org/ont/repo/1.0/actionParameter>
+        a             owl:DatatypeProperty ;
+        rdfs:comment  "Transition-specific parameter to give action method" ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/WorkflowTransition> ;
+        rdfs:label    "action parameter" .
+
+<http://purl.obolibrary.org/obo/IAO_0000064>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000253>
+        a       owl:Class .
+
+<http://eagle-i.org/ont/repo/1.0/final>
+        a             owl:FunctionalProperty , owl:ObjectProperty ;
+        rdfs:comment  "Final (Ending) workflow state" ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/WorkflowTransition> ;
+        rdfs:label    "Final Workflow State" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/WorkflowState> .
+
+<http://eagle-i.org/ont/app/1.0/karyotype_description>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0000042>
+        rdfs:range  xsd:string .
+
+<http://eagle-i.org/ont/repo/1.0/NGType_Internal>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/NamedGraphType> ;
+        rdf:value     "internal" ;
+        rdfs:comment  "Contains data that is only to be used internally by repository, such as administrative metadata" ;
+        rdfs:label    "Internal Use Only" .
+
+<http://purl.obolibrary.org/obo/ERO_0001701>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/OBI_0400103>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000404>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0001899>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000084>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000476>
+        rdfs:range  xsd:string .
+
+<http://cau.eagle-i.net/i/00000136-54d1-b0c3-982a-4eef80000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0400103> ;
+        rdfs:label  "Applied Biosystems SOLiD 4 System" ;
+        <http://eagle-i.org/ont/app/1.0/related_software>
+                <http://cau.eagle-i.net/i/00000136-54fd-477d-982a-4eef80000000> ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"The SOLiD™ System enables researchers to obtain higher accuracy and sensitivity for variant discovery with less coverage. Read the latest peer-reviewed publications that demonstrate how the SOLiD™ System allows you to see what’s never been seen before.\"" ;
+        <http://eagle-i.org/ont/app/1.0/synonym>
+                "Next generation sequencer" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://cau.eagle-i.net/i/00000136-54e8-dfcf-982a-4eef80000000> , <http://cau.eagle-i.net/i/00000136-54d2-72a0-982a-4eef80000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc79-1552-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "SOLiD 4" ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://www.appliedbiosystems.com/absite/us/en/home/applications-technologies/solid-next-generation-sequencing/next-generation-systems/solid-4-system.html?CID=FL-091411_solid4" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/OBI_0600047> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://cau.eagle-i.net/i/00000135-ab9d-72b3-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://cau.eagle-i.net/i/00000135-8d21-51bc-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-03-27T10:42:39.583-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://cau.eagle-i.net/i/00000136-5493-960e-982a-4eef80000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-10-22T08:57:40.877-05:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/repo/1.0/initial>
+        a             owl:FunctionalProperty , owl:ObjectProperty ;
+        rdfs:comment  "Initial (Starting) workflow state" ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/WorkflowTransition> ;
+        rdfs:label    "Initial Workflow state" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/WorkflowState> .
+
+<http://purl.obolibrary.org/obo/ero/dev/mp-imports.owl>
+        a       owl:Ontology .
+
+<http://purl.obolibrary.org/obo/ERO_0000054>
+        rdfs:range  xsd:string .
+
+<http://eagle-i.org/ont/repo/1.0/hasWorkflowOwner>
+        a             owl:ObjectProperty ;
+        rdfs:comment  "Current owner (claimant) of the workflow state of this instance" ;
+        rdfs:label    "workflow owner" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/Agent> .
+
+<http://purl.obolibrary.org/obo/CL_0000548>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0001839>
+        a       owl:Class .
+
+<http://eagle-i.org/ont/app/1.0/extra_data>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/OBI_0400115>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0002111>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/CL_0000000>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ero/dev/go-imports-app.owl>
+        a       owl:Ontology .
+
+<http://purl.obolibrary.org/obo/DOID_4>
+        a       owl:Class .
+
+<http://eagle-i.org/ont/app/1.0/affected_gene_symbol>
+        rdfs:range  xsd:string .
+
+<http://purl.org/dc/terms/Agent>
+        rdfs:subClassOf  owl:Thing .
+
+<http://eagle-i.org/ont/app/1.0/biosafetylevel4>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000096>
+        a       owl:Class .
+
+[ a       owl:Class ] .
+
+<http://purl.obolibrary.org/obo/ERO_0001840>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/OBI_0000389>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000362>
+        a       owl:Class .
+
+[ a       owl:Class ] .
+
+<http://purl.obolibrary.org/obo/UBERON_0000061>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000247>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000121>
+        a       owl:Class .
+
+<http://cau.eagle-i.net/i/00000136-54e0-2fd4-982a-4eef80000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0400114> ;
+        rdfs:label  "Covaris S-series ultrasonicator" ;
+        <http://eagle-i.org/ont/app/1.0/related_software>
+                <http://cau.eagle-i.net/i/00000136-54fa-b18d-982a-4eef80000000> ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "DNA/RNA shearing" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://cau.eagle-i.net/i/00000136-54d2-72a0-982a-4eef80000000> , <http://cau.eagle-i.net/i/00000136-54e8-dfcf-982a-4eef80000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc6f-0138-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://covarisinc.com/products/afa-ultrasonication/s-series/" ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://cau.eagle-i.net/i/00000135-ab9d-72b3-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://cau.eagle-i.net/i/00000135-8d21-51bc-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-03-27T11:01:00.818-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://cau.eagle-i.net/i/00000136-5493-960e-982a-4eef80000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-10-22T08:57:43.074-05:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/app/1.0/expression_host>
+        rdfs:range  xsd:string .
+
+<http://eagle-i.org/ont/repo/1.0/hasAnyAccess>
+        a             owl:ObjectProperty ;
+        rdfs:comment  "has*Access superproperty" ;
+        rdfs:label    "has*Access superproperty" .
+
+<http://purl.obolibrary.org/obo/ERO_0000217>
+        a       owl:Class .
+
+<http://eagle-i.org/ont/app/1.0/LabLifechemicalID>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0000193>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000006>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/OBI_0000094>
+        a       owl:Class .
+
+<http://cau.eagle-i.net/i/0000014e-8902-5bfe-171d-a7eb80000000>
+        a           <http://vivoweb.org/ontology/core#CoreLaboratory> ;
+        rdfs:label  "CCRTD-Core Facilities" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "The core facilities at Center for Cancer Research and Therapeutic Development (CCRTD) is to provide state-of-the-art research support including instruments, techniques, and related education and training for all investigators and researchers engaged in health-related scientific research in Clark Atlanta University. It now consists of eight research core facilities including Molecular Biology, Cell Biology, Histology, Cancer Genomics and Bioinformatics, Proteomics, Structural Biology and Drug Discovery, Biostatistics, and Prostate Cancer Biospecimen Repository Core Facilities. Each core has a faculty adviser in addition to four staff members responsible for the management and maintenance of the core facilities under the leadership of Dr. Valerie Odero-Marah." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://cau.eagle-i.net/i/00000135-aba0-7072-ecf8-187780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000022>
+                <http://cau.eagle-i.net/i/00000135-ab93-cce2-ecf8-187780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000066>
+                <http://cau.eagle-i.net/i/00000135-ab90-dd54-ecf8-187780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://www.ccrtd.cau.edu/Home.aspx" , "http://www.ccrtd.cau.edu/CoreFacilities/Proteomics.aspx" ;
+        <http://purl.org/dc/terms/contributor>
+                <http://cau.eagle-i.net/i/00000135-8d20-e1f9-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/created>
+                "2015-07-13T15:06:35.897-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://cau.eagle-i.net/i/00000136-5491-66b1-982a-4eef80000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2015-07-14T10:23:57.886-05:00"^^xsd:dateTime .
+
+[ a       owl:Class ] .
+
+<http://purl.obolibrary.org/obo/ERO_0000555>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0001526>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0001400>
+        a       owl:Class .
+
+<http://eagle-i.org/ont/app/1.0/preferredLabel>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0000229>
+        a       owl:Class .
+
+[ a       owl:Class ] .
+
+<http://purl.obolibrary.org/obo/ERO_0000260>
+        a       owl:Class .
+
+<http://cau.eagle-i.net/i/00000135-ab93-cce2-ecf8-187780000000>
+        a           <http://xmlns.com/foaf/0.1/Person> ;
+        rdfs:label  "Kahn, Shafiq A., Ph.D." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000042>
+                "Shafiq" ;
+        <http://purl.obolibrary.org/obo/ERO_0000049>
+                "Kahn" ;
+        <http://purl.obolibrary.org/obo/ERO_0000052>
+                "Professor Department of Biological Sciences" , "Director of Administration" ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://www.ccrtd.cau.edu/CenterTeam/DrShafiqAKhan.aspx" ;
+        <http://purl.org/dc/terms/contributor>
+                <http://cau.eagle-i.net/i/00000135-8d21-51bc-ecf8-187780000000> , <http://cau.eagle-i.net/i/00000135-8d20-e1f9-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-02-23T13:01:49.965-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://cau.eagle-i.net/i/00000135-8d1e-baf6-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-09-12T10:07:21.047-05:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/app/1.0/CTbriefsummary>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0000230>
+        a       owl:Class .
+
+<http://cau.eagle-i.net/i/00000136-556a-23c6-982a-4eef80000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0001057> ;
+        rdfs:label  "Prominence Modular HPLC" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"HPLC systems are currently used in a wide variety of fields. Higher reliability in analysis data and higher efficiency in total analysis workflow are required for faster development of new drugs, for better food safety, and for meeting higher standards in environmental regulations. Many analysis techniques use LCMS, which requires a front-end HPLC system to provide solvent delivery performance in the micro to semi-micro range and injectors with low sample carryover. Prominence is a network-ready HPLC system that meets the demands of today’s advanced users. Prominence features the world's first Web control, fastest sample injection, and highest detection sensitivity performance…functions that surpass current HPLC technology.\"" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://cau.eagle-i.net/i/00000135-aba0-7072-ecf8-187780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc83-0dde-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "Prominence" ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://www.shimadzu.com/an/hplc/prominence/lc20.html" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/OBI_0000094> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://cau.eagle-i.net/i/00000135-abef-4d3d-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://cau.eagle-i.net/i/00000135-8d21-51bc-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-03-27T13:38:29.047-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://cau.eagle-i.net/i/00000136-5491-66b1-982a-4eef80000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-10-15T09:44:28.461-05:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/repo/1.0/hasReadAccess>
+        a                   owl:ObjectProperty ;
+        rdfs:comment        "Grants read and query access on subject resource to a principal" ;
+        rdfs:label          "has read access" ;
+        rdfs:range          <http://eagle-i.org/ont/repo/1.0/Agent> ;
+        rdfs:subPropertyOf  <http://eagle-i.org/ont/repo/1.0/hasAnyAccess> .
+
+<http://purl.obolibrary.org/obo/ERO_0002021>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000200>
+        a       owl:Class .
+
+<http://eagle-i.org/ont/repo/1.0/hasRemoveAccess>
+        a                   owl:ObjectProperty ;
+        rdfs:comment        "Grants remove access on subject resource to a principal" ;
+        rdfs:label          "has remove access" ;
+        rdfs:range          <http://eagle-i.org/ont/repo/1.0/Agent> ;
+        rdfs:subPropertyOf  <http://eagle-i.org/ont/repo/1.0/hasAnyAccess> .
+
+<http://purl.obolibrary.org/obo/ERO_0000272>
+        a       owl:Class .
+
+<http://eagle-i.org/ont/repo/1.0/WorkflowState>
+        a                owl:Class ;
+        rdfs:comment     "Controlled vocabulary describing workflow state." ;
+        rdfs:label       "Workflow State" ;
+        rdfs:subClassOf  owl:Thing .
+
+<http://purl.obolibrary.org/obo/ERO_0000579>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0002189>
+        rdfs:range  xsd:string .
+
+<http://eagle-i.org/ont/app/1.0/RootResource>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000242>
+        a       owl:Class .
+
+<http://eagle-i.org/ont/repo/1.0/NamedGraph>
+        a                owl:Class ;
+        rdfs:comment     "Collection of metadata about named graph in the repository." ;
+        rdfs:label       "Named Graph" ;
+        rdfs:subClassOf  owl:Thing .
+
+<http://eagle-i.org/ont/app/1.0/has_exchange_facilitator>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/BFO_0000020>
+        a       owl:Class .
+
+<http://cau.eagle-i.net/i/00000136-54e7-c337-982a-4eef80000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0400116> ;
+        rdfs:label  "ABI GeneAmp PCR System 9700" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"GeneAmp® PCR System 9700 is specifically designed for the amplification of nucleic acids. The GeneAmp® PCR System 9700 consists of a base module and one of many interchangeable sample block modules. The 96-well GeneAmp® PCR System 9700 is designed for use with 0.2 ml reaction tubes or 96-well reaction plates for all of your routine PCR applications.\"" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://cau.eagle-i.net/i/00000136-54d2-72a0-982a-4eef80000000> , <http://cau.eagle-i.net/i/00000136-54e8-dfcf-982a-4eef80000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc79-1552-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "GeneAmp PCR System 9700" ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "https://products.appliedbiosystems.com/ab/en/US/adirect/ab;jsessionid=lX2yP1dJv86hyKGtRyhW6QDmbzfGlkfZGg4BsTppsQtmQpdQGt1L!1098779455?cmd=catNavigate2&catID=600967" ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://cau.eagle-i.net/i/00000135-ab9d-72b3-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://cau.eagle-i.net/i/00000135-8d21-51bc-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-03-27T11:07:10.011-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://cau.eagle-i.net/i/00000136-5493-960e-982a-4eef80000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-09-12T09:13:31.900-05:00"^^xsd:dateTime .
+
+[ a       owl:Class ] .
+
+<http://purl.obolibrary.org/obo/ERO_0002003>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000580>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0002190>
+        a       owl:Class .
+
+<http://eagle-i.org/ont/app/1.0/servicefeeURL>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0000550>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0000073>
+        rdfs:range  xsd:string .
+
+<http://cau.eagle-i.net/i/00000136-558d-9dbe-982a-4eef80000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0000272> ;
+        rdfs:label  "Single wavelength absorbance measurement" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "The protocol give a detail operation steps for single wavelength absorbance measurement with BioTek Microplate Reader." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://cau.eagle-i.net/i/00000135-aba0-7072-ecf8-187780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000070>
+                <http://cau.eagle-i.net/i/00000135-abef-4d3d-ecf8-187780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000232>
+                <http://cau.eagle-i.net/i/00000135-aba0-7072-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://cau.eagle-i.net/i/00000135-8d21-51bc-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-03-27T14:10:29.404-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://cau.eagle-i.net/i/00000136-5491-66b1-982a-4eef80000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-10-18T13:12:26.657-05:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/repo/1.0/NamedGraphType>
+        a                owl:Class ;
+        rdfs:comment     "Purpose of a NamedGraph, indicates whether it should be included in certain query datasets" ;
+        rdfs:label       "Named Graph Type" ;
+        rdfs:subClassOf  owl:Thing .
+
+<http://purl.obolibrary.org/obo/ERO_0001044>
+        rdfs:range  xsd:string .
+
+<http://cau.eagle-i.net/i/00000135-ab93-59a3-ecf8-187780000000>
+        a           <http://xmlns.com/foaf/0.1/Person> ;
+        rdfs:label  "Croft, Cheryl" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000042>
+                "Cheryl" ;
+        <http://purl.obolibrary.org/obo/ERO_0000049>
+                "Croft" ;
+        <http://purl.obolibrary.org/obo/ERO_0000052>
+                "Assistant program manager" ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://www.ccrtd.cau.edu/CenterTeam.aspx" ;
+        <http://purl.org/dc/terms/contributor>
+                <http://cau.eagle-i.net/i/00000135-8d21-51bc-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-02-23T13:01:49.633-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://cau.eagle-i.net/i/00000135-8d1e-baf6-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-09-12T10:42:37.408-05:00"^^xsd:dateTime .
+
+<http://purl.obolibrary.org/obo/ERO_0001828>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ero/ero-extended.owl>
+        a       owl:Ontology .
+
+<http://eagle-i.org/ont/app/1.0/CTorgID>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0000405>
+        rdfs:range  xsd:string .
+
+<http://cau.eagle-i.net/i/00000136-54e8-dfcf-982a-4eef80000000>
+        a           <http://xmlns.com/foaf/0.1/Person> ;
+        rdfs:label  "Nathan J. Bowen, PhD" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"Research Interest: Prostate cancer genomics, whole genome sequencing, diagnostic marker development, molecular evolution, contribution of transposable elements to genome evolution.\"" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000042>
+                "Nathan" ;
+        <http://purl.obolibrary.org/obo/ERO_0000049>
+                "Bowen" ;
+        <http://purl.obolibrary.org/obo/ERO_0000052>
+                "Associate Professor" ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://www.ccrtd.cau.edu/CenterTeam/DrNathanBowen.aspx" ;
+        <http://purl.org/dc/terms/contributor>
+                <http://cau.eagle-i.net/i/00000135-8d21-51bc-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-03-27T11:07:09.403-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://cau.eagle-i.net/i/00000136-5493-960e-982a-4eef80000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2013-03-12T08:36:23.953-05:00"^^xsd:dateTime .
+
+<http://purl.obolibrary.org/obo/ERO_0001985>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/OBI_0600047>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000085>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000055>
+        rdfs:range  xsd:string .
+
+<http://cau.eagle-i.net/i/00000136-5594-d257-982a-4eef80000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0000389> ;
+        rdfs:label  "Bio-Rad PROTEAN i12 IEF System" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"The PROTEAN® i12™ IEF system is used for isoelectric focusing (IEF) on immobilized pH gradient (IPG) strips for the first dimension of two-dimensional (2-D) electrophoretic protein analysis. The PROTEAN i12 IEF cell can run 1 to 12 IPG strips in 7, 11, 13, 17, 18, and 24 cm focusing trays. Each channel in the i12 focusing tray is powered by its own power supply, enabling precise control over each IPG strip. This makes it possible to run different sample types, different pH gradients, and multiple protocols all at the same time.\"" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://cau.eagle-i.net/i/00000135-aba0-7072-ecf8-187780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc6a-a024-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "PROTEAN i12" ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://www.bio-rad.com/prd/en/US/adirect/biorad?cmd=BRCatgProductDetail&isFromSearch=true&entryPoint=adirect&catID=92682b19-051c-464f-8a73-97cd256b225f&vertical=LSR&messageType=BRCatgProductDetail&parentCategoryGUID=a2ca7d7e-8034-4dc5-9818-5464d044393c" ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://cau.eagle-i.net/i/00000135-abef-4d3d-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://cau.eagle-i.net/i/00000135-8d21-51bc-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-03-27T14:24:37.336-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://cau.eagle-i.net/i/00000136-5491-66b1-982a-4eef80000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-10-18T12:54:25.429-05:00"^^xsd:dateTime .
+
+<http://cau.eagle-i.net/i/00000135-ab9d-72b3-ecf8-187780000000>
+        a           <http://vivoweb.org/ontology/core#CoreLaboratory> ;
+        rdfs:label  "Collaborative Center for Cancer Genomics and Bioinformatics Core" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"The CCGC is being established in Clark Atlanta University as a collaborative effort between the CCRTD and the Ovarian Cancer Institute at Georgia Tech University (OCIGT). The operation will be based on Next-Generation sequencing technology which is the newest molecular genetics technology that allows biomedical scientists to address global genome composition, inter-individual variation, and global gene expression. For both CCRTD and OCIGT, it is essential to acquire this technology to be competitive in the cancer research field. CCRTD will house the “wet” laboratory which will prepare libraries and operate the instrument, while OCIGT will contribute bioinformatics support for processing the data and additional services to complement genomics data. Next-Generation sequencing technology produces massive amounts of sequence data, thus significant computational facilities including hardware, software, and highly qualified personnel are required in order to take advantage of the generated data. In addition, OCIGT will contribute patients sample procurement and complementary technologies including Affymetrix microarray technology and mass-spectroscopy analysis.\"" ;
+        <http://eagle-i.org/ont/app/1.0/synonym>
+                "CCGC" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://cau.eagle-i.net/i/00000135-aba0-7072-ecf8-187780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000066>
+                <http://cau.eagle-i.net/i/00000135-ab90-dd54-ecf8-187780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000397>
+                <http://purl.obolibrary.org/obo/ERO_0001183> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://www.ccrtd.cau.edu/CoreFacilities/CollaborativeCenterforCancerGenomics.aspx" ;
+        <http://purl.obolibrary.org/obo/ERO_0001768>
+                <http://cau.eagle-i.net/i/00000136-54e8-dfcf-982a-4eef80000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://cau.eagle-i.net/i/00000135-8d20-e1f9-ecf8-187780000000> , <http://cau.eagle-i.net/i/00000135-8d21-51bc-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-02-23T13:14:38.540-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://cau.eagle-i.net/i/00000135-8d1e-baf6-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-09-18T12:59:36.068-05:00"^^xsd:dateTime .
+
+[ a       owl:Class ] .
+
+<http://purl.obolibrary.org/obo/ERO_0000236>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/OBI_0400116>
+        a       owl:Class .
+
+<http://eagle-i.org/ont/repo/1.0/action>
+        a             owl:DatatypeProperty ;
+        rdfs:comment  "fully qualified class name of Java class implementing action" ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/WorkflowTransition> ;
+        rdfs:label    "action" .
+
+<http://purl.obolibrary.org/obo/ERO_0000574>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0001183>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000097>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000278>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0001545>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000248>
+        a       owl:Class .
+
+<http://eagle-i.org/ont/app/1.0/CTbrieftitle>
+        rdfs:range  xsd:string .
+
+<http://eagle-i.org/ont/app/1.0/Person>
+        rdfs:subClassOf  owl:Thing .
+
+<http://purl.obolibrary.org/obo/ERO_0000218>
+        a       owl:Class .
+
+<http://eagle-i.org/ont/app/1.0/CTbiospecimendescription>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0000007>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0002009>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000430>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/CLO_0000031>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/OBI_0001121>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0001527>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0000049>
+        rdfs:range  xsd:string .
+
+<http://eagle-i.org/ont/repo/1.0/ngType>
+        a             owl:FunctionalProperty ;
+        rdfs:comment  "Describes type of contents and purpose of this named graph" ;
+        rdfs:label    "named graph type" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/NamedGraphType> .
+
+<http://purl.obolibrary.org/obo/CLO_0009829>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000019>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000261>
+        a       owl:Class .
+
+[ a       owl:Class ] .
+
+<http://purl.obolibrary.org/obo/ERO_0000050>
+        rdfs:range  xsd:string .
+
+<http://eagle-i.org/ont/app/1.0/CTbiospecimenretention>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0000020>
+        a       owl:Class .
+
+<http://cau.eagle-i.net/i/00000136-59de-ff9a-982a-4eef80000000>
+        a           <http://vivoweb.org/ontology/core#CoreLaboratory> ;
+        rdfs:label  "CCRTD- Histology Core" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"The mission of the CCRTD Research Support Core Facilities is to provide the scientists of CCRTD, Clark Atlanta University, and Atlanta University Center with access to modern technology, resources, and instruments essential for cutting-edge research in molecular biology, genomics, proteomics, cell biology, and biological imaging.\"" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://www.ccrtd.cau.edu/CoreFacilities.aspx" ;
+        <http://purl.org/dc/terms/contributor>
+                <http://cau.eagle-i.net/i/00000135-8d21-51bc-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-03-28T10:17:14.516-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://cau.eagle-i.net/i/00000136-5493-e232-982a-4eef80000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2013-01-31T09:35:12.699-06:00"^^xsd:dateTime .
+
+<http://cau.eagle-i.net/i/00000136-59da-82d7-982a-4eef80000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0001701> ;
+        rdfs:label  "Custom BioGenic Systems Cryosytems 6001 Storage" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "Cryogenic storage of mammalian cell lines using liquid nitrogen." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://cau.eagle-i.net/i/00000135-aba0-7072-ecf8-187780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc6f-4ef1-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "6001" ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://www.custombiogenics.com/CryogenicEquipment/Cryosystems/ValueAdded/ValueAdded6001/6001valueaddedcryosytemdewar.html" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/OBI_0600024> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://cau.eagle-i.net/i/00000135-abea-80e6-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://cau.eagle-i.net/i/00000135-8d21-51bc-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-03-28T10:25:50.219-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://cau.eagle-i.net/i/00000136-5496-916a-982a-4eef80000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-09-12T10:34:41.179-05:00"^^xsd:dateTime .
+
+owl:Thing  a    owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000201>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0001962>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/OBI_0600024>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/SO_0001059>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000273>
+        a       owl:Class .
+
+<http://eagle-i.org/ont/repo/1.0/workspace>
+        a             owl:ObjectProperty ;
+        rdfs:comment  "Home workspace of resources capable of using this transition" ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/WorkflowTransition> ;
+        rdfs:label    "Workspace" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/NamedGraph> .
+
+<http://purl.obolibrary.org/obo/ERO_0001932>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000243>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/OBI_0000410>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000424>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0002034>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0000213>
+        a       owl:Class .
+
+<http://eagle-i.org/ont/app/1.0/referencedTaxonomyIRI>
+        rdfs:range  xsd:string .
+
+<http://cau.eagle-i.net/i/00000135-abe7-77c7-ecf8-187780000000>
+        a           <http://vivoweb.org/ontology/core#CoreLaboratory> ;
+        rdfs:label  "CCRTD-Molecular Biology" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"CCRTD Core Facilities house major equipment for DNA and RNA-based applications. We offer polymerase chain reaction ( PCR ) instruments including Real-Time PCR machine (I-Cycle, Bio-Rad), Liquid Scintillation Counter (Beckman Coulter), Lyophilizer and Freeze-Dryer for biological samples, Cell Porator, high-speed and ultra-high-speed Centrifuges, ultra-sensitive Balances, and other supporting equipment. DNA and RNA quantification can be carried out on Spectrophotometers, both single-cuvette (DU650, Beckman Coulter) and 96-well plate based. DNA and RNA can be visualized, digitized, and quantified using Gel Documentation system (Bio-Rad) or Multi-Mode Imager Typhoon 9410, in fluorescent, luminescent, UV, or visible wavelengths; time-resolved fluorescence option is available on BioTek Plate Imager. For X-Ray imaging, we maintain an Automated X-Ray processor and Dark Room; radioisotope imaging is also supported on Typhoon 9410.\"" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://cau.eagle-i.net/i/00000135-aba0-7072-ecf8-187780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000022>
+                <http://cau.eagle-i.net/i/00000135-ab93-cce2-ecf8-187780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000066>
+                <http://cau.eagle-i.net/i/00000135-ab90-dd54-ecf8-187780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://www.ccrtd.cau.edu/CoreFacilities/MolecularBiology.aspx" ;
+        <http://purl.obolibrary.org/obo/ERO_0000596>
+                <http://cau.eagle-i.net/i/00000135-aba0-7072-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://cau.eagle-i.net/i/00000135-8d21-51bc-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-02-23T14:32:39.359-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://cau.eagle-i.net/i/00000135-8d1e-baf6-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-10-11T11:45:04.761-05:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/repo/1.0/WFS_Draft>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/WorkflowState> ;
+        rdfs:comment  "Data collection and preparation" ;
+        rdfs:label    "Draft" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWriter>
+                <http://eagle-i.org/ont/repo/1.0/Role_Curator> , <http://eagle-i.org/ont/repo/1.0/Role_RNAV> ;
+        <http://eagle-i.org/ont/repo/1.0/order>
+                20 .
+
+<http://purl.obolibrary.org/obo/ERO_0000285>
+        a       owl:Class .
+
+<http://vivoweb.org/ontology/core#CoreLaboratory>
+        a       owl:Class .
+
+<http://cau.eagle-i.net/i/00000136-54ee-73b4-982a-4eef80000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0001092> ;
+        rdfs:label  "Penguin entry level computing cluster" ;
+        <http://eagle-i.org/ont/app/1.0/related_software>
+                <http://cau.eagle-i.net/i/00000136-54f9-283a-982a-4eef80000000> ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "Computing Cluster" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://cau.eagle-i.net/i/00000136-54d2-72a0-982a-4eef80000000> , <http://cau.eagle-i.net/i/00000136-54e8-dfcf-982a-4eef80000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc7f-10a3-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://www.penguincomputing.com/" ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://cau.eagle-i.net/i/00000135-ab9d-72b3-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://cau.eagle-i.net/i/00000135-8d21-51bc-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-03-27T11:14:49.269-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://cau.eagle-i.net/i/00000136-5493-960e-982a-4eef80000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-10-22T08:57:47.281-05:00"^^xsd:dateTime .
+
+<http://purl.obolibrary.org/obo/ERO_0000551>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0000074>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000255>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000044>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0000436>
+        a       owl:Class .
+
+<http://vivoweb.org/ontology/core#Center>
+        a       owl:Class .
+
+<http://eagle-i.org/ont/app/1.0/CTmedlineidentifier>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0000014>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000406>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0000985>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0001986>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0000774>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/UBERON_0000105>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000086>
+        a       owl:Class .
+
+<http://eagle-i.org/ont/repo/1.0/NGType_Metadata>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/NamedGraphType> ;
+        rdf:value     "metadata" ;
+        rdfs:comment  "Administrative Metadata for the repository" ;
+        rdfs:label    "Administrative Metadata " .
+
+<http://purl.obolibrary.org/obo/ERO_0000141>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000322>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000237>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/BFO_0000015>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000111>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000394>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000575>
+        rdfs:range  xsd:string .
+
+<http://eagle-i.org/ont/app/1.0/synonym>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0001576>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000279>
+        a       owl:Class .
+
+<http://cau.eagle-i.net/i/00000135-abea-80e6-ecf8-187780000000>
+        a           <http://vivoweb.org/ontology/core#CoreLaboratory> ;
+        rdfs:label  "CCRTD-Cell Biology" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"In CCRTD, we provide excellent support for Cell Biology research and advanced cell visualization applications. We have complete facilities for cell growth, handling, and storage. Cell Culture Facility maintains Cell Storage Cryo Tanks with uninterruptable liquid nitrogen supply and two separate Cell Culture rooms fully equipped with eight temperature and CO2-controlled Cell Growth Incubators, two Biological Safety Cabinets, Fluorescence-Activated Cell Sorter (FACS), two late model Inverted Digitized Microscope (Zeiss), one of which is fluorescence-enabled and possesses Z-stacking and live cell imaging capabilities, automated Cell Counter (Nexcelom Bioscience), and refrigerated storage for media and cell culture reagents.\"" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://cau.eagle-i.net/i/00000135-aba0-7072-ecf8-187780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000022>
+                <http://cau.eagle-i.net/i/00000135-ab93-cce2-ecf8-187780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000066>
+                <http://cau.eagle-i.net/i/00000135-ab90-dd54-ecf8-187780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://www.ccrtd.cau.edu/CoreFacilities/CellBiology.aspx" ;
+        <http://purl.obolibrary.org/obo/ERO_0000596>
+                <http://cau.eagle-i.net/i/00000135-aba0-7072-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://cau.eagle-i.net/i/00000135-8d21-51bc-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-02-23T14:37:12.620-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://cau.eagle-i.net/i/00000135-8d1e-baf6-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-09-12T10:13:20.186-05:00"^^xsd:dateTime .
+
+<http://purl.obolibrary.org/obo/CL_0000255>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0001546>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0001938>
+        a       owl:Class .
+
+[ a       owl:Class ] .
+
+[ a       owl:Class ] .
+
+<http://purl.obolibrary.org/obo/ERO_0000249>
+        a       owl:Class .
+
+[ a       owl:Class ] .
+
+<http://purl.obolibrary.org/obo/ERO_0000008>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/PCO_0000020>
+        a       owl:Class .
+
+<http://eagle-i.org/ont/repo/1.0/Role_RNAV>
+        a       owl:Thing .
+
+<http://cau.eagle-i.net/i/00000136-557e-043e-982a-4eef80000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0000272> ;
+        rdfs:label  "Peptide fractionation with SCX column in HPLC" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "The protocol gives a detain operation steps for peptide fractionation with SCX column in HPLC." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://cau.eagle-i.net/i/00000135-aba0-7072-ecf8-187780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000070>
+                <http://cau.eagle-i.net/i/00000135-abef-4d3d-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://cau.eagle-i.net/i/00000135-8d21-51bc-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-03-27T13:54:31.525-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://cau.eagle-i.net/i/00000136-5491-66b1-982a-4eef80000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-10-18T13:12:38.553-05:00"^^xsd:dateTime .
+
+<http://purl.obolibrary.org/obo/ERO_0000431>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000220>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0001528>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0000316>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0001317>
+        a       owl:Class .
+
+<http://cau.eagle-i.net/i/00000135-aba0-7072-ecf8-187780000000>
+        a           <http://xmlns.com/foaf/0.1/Person> ;
+        rdfs:label  "Zou, Jin, Ph.D." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000042>
+                "Jin" ;
+        <http://purl.obolibrary.org/obo/ERO_0000049>
+                "Zou" ;
+        <http://purl.obolibrary.org/obo/ERO_0000052>
+                "Coordinator of CCRTD Core Facilities/Sr. Research Scientist" ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://www.ccrtd.cau.edu/CenterTeam/DrJinZou.aspx" ;
+        <http://purl.org/dc/terms/contributor>
+                <http://cau.eagle-i.net/i/00000135-8d21-51bc-ecf8-187780000000> , <http://cau.eagle-i.net/i/00000135-8d20-e1f9-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-02-23T13:14:37.953-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://cau.eagle-i.net/i/00000135-8d1e-baf6-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-09-12T09:53:01.078-05:00"^^xsd:dateTime .
+
+<http://purl.obolibrary.org/obo/ERO_0000292>
+        a       owl:Class .
+
+<http://xmlns.com/foaf/0.1/Person>
+        a                owl:Class ;
+        rdfs:subClassOf  owl:Thing .
+
+<http://eagle-i.org/ont/repo/1.0/NG_Internal>
+        <http://purl.org/dc/terms/created>
+                "2017-03-02T08:02:20.822-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://eagle-i.org/ont/repo/1.0/Role_Superuser> ;
+        <http://purl.org/dc/terms/source>
+                [ <http://purl.org/dc/terms/identifier>
+                          <file:///usr/share/tomcat7/webapps/sparqler/WEB-INF/classes/repository-internal.n3> ;
+                  <http://purl.org/dc/terms/modified>
+                          "2017-02-03T18:12:12.000-06:00"^^xsd:dateTime
+                ] .
+
+<http://purl.obolibrary.org/obo/ERO_0000473>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0000262>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/BFO_0000040>
+        a       owl:Class .
+
+<http://eagle-i.org/ont/repo/1.0/hasAdminAccess>
+        a                   owl:ObjectProperty ;
+        rdfs:comment        "Grants administrative access on subject resource to a principal" ;
+        rdfs:label          "has administrative access" ;
+        rdfs:range          <http://eagle-i.org/ont/repo/1.0/Agent> ;
+        rdfs:subPropertyOf  <http://eagle-i.org/ont/repo/1.0/hasAnyAccess> .
+
+<http://purl.obolibrary.org/obo/ERO_0000177>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000569>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0000051>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0001806>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000781>
+        rdfs:range  xsd:string .
+
+<http://eagle-i.org/ont/app/1.0/biosafetylevel1>
+        a       owl:Class .
+
+<http://eagle-i.org/ont/repo/1.0/WFS_New>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/WorkflowState> ;
+        rdfs:comment  "New instance in the process of creation" ;
+        rdfs:label    "New" ;
+        <http://eagle-i.org/ont/repo/1.0/order>
+                10 .
+
+<http://eagle-i.org/ont/repo/1.0/>
+        a                owl:Ontology ;
+        <http://purl.org/dc/terms/created>
+                "2017-03-02T08:02:17.635-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://eagle-i.org/ont/repo/1.0/Role_Superuser> ;
+        <http://purl.org/dc/terms/source>
+                [ <http://purl.org/dc/terms/identifier>
+                          <file:///usr/share/tomcat7/webapps/sparqler/WEB-INF/classes/repository-ont.n3> ;
+                  <http://purl.org/dc/terms/modified>
+                          "2017-02-03T18:12:12.000-06:00"^^xsd:dateTime
+                ] ;
+        owl:versionInfo  "$Id: repository-ont.n3 19120 2015-04-30 05:13:28Z scheng $" .
+
+<http://purl.obolibrary.org/obo/OBI_0000989>
+        a       owl:Class .
+
+<http://eagle-i.org/ont/repo/1.0/hasEditToken>
+        a             owl:ObjectProperty ;
+        rdfs:comment  "Relates eagle-i Resource Instance to a URI marking an update in progress with associated metadata." ;
+        rdfs:label    "Edit Token" .
+
+<http://purl.obolibrary.org/obo/ERO_0000274>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000244>
+        a       owl:Class .
+
+<http://eagle-i.org/ont/repo/1.0/hasAddAccess>
+        a                   owl:ObjectProperty ;
+        rdfs:comment        "Grants ADD access on subject resource to a principal" ;
+        rdfs:label          "has add access" ;
+        rdfs:range          <http://eagle-i.org/ont/repo/1.0/Agent> ;
+        rdfs:subPropertyOf  <http://eagle-i.org/ont/repo/1.0/hasAnyAccess> .
+
+<http://purl.obolibrary.org/obo/ERO_0000214>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/OBI_0001092>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/OBI_0000272>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000160>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000075>
+        a       owl:Class .
+
+[ a       owl:Class ] .
+
+<http://purl.obolibrary.org/obo/ERO_0000256>
+        a       owl:Class .
+
+<http://eagle-i.org/ont/repo/1.0/NGType_Ontology>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/NamedGraphType> ;
+        rdf:value     "ontology" ;
+        rdfs:comment  "Contains Ontology applicable to data objects" ;
+        rdfs:label    "Ontology" .
+
+<http://purl.obolibrary.org/obo/ERO_0000045>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0000015>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ero.owl>
+        a       owl:Ontology ;
+        <http://purl.org/dc/terms/contributor>
+                <http://cau.eagle-i.net/i/0000015a-8f54-6b42-46f4-029680000000> ;
+        <http://purl.org/dc/terms/created>
+                "2017-03-02T08:04:05.539-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://cau.eagle-i.net/i/0000015a-8f54-6b42-46f4-029680000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2017-03-02T08:04:05.539-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/source>
+                [ <http://purl.org/dc/terms/identifier>
+                          "file:/usr/share/tomcat7/webapps/sparqler/WEB-INF/lib/eagle-i-model-owl-2.0.3.1.jar" ;
+                  <http://purl.org/dc/terms/modified>
+                          "2015-10-26T12:00:40.000-05:00"^^xsd:dateTime
+                ] .
+
+<http://purl.obolibrary.org/obo/ERO_0000407>
+        rdfs:range  xsd:string .
+
+<http://eagle-i.org/ont/repo/1.0/NGType_Workspace>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/NamedGraphType> ;
+        rdf:value     "workspace" ;
+        rdfs:comment  "Data objects meant to be invisible to the public" ;
+        rdfs:label    "Workspace" .
+
+<http://purl.obolibrary.org/obo/ERO_0001987>
+        rdfs:range  xsd:string .
+
+<http://eagle-i.org/ont/repo/1.0/Agent>
+        a                owl:Class ;
+        rdfs:comment     "Represents a person, role, or other principal to be granted access control rights" ;
+        rdfs:label       "Agent" ;
+        rdfs:subClassOf  owl:Thing , <http://eagle-i.org/ont/app/1.0/Agent> , <http://purl.org/dc/terms/Agent> , <http://xmlns.com/foaf/0.1/Agent> .
+
+<http://purl.obolibrary.org/obo/ERO_0001535>
+        rdfs:range  xsd:string .
+
+<http://eagle-i.org/ont/repo/1.0/WFS_Curation>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/WorkflowState> ;
+        rdfs:comment  "Awaiting approval by a curator and possible editing" ;
+        rdfs:label    "In Curation" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWriter>
+                <http://eagle-i.org/ont/repo/1.0/Role_Curator> ;
+        <http://eagle-i.org/ont/repo/1.0/order>
+                30 .
+
+<http://purl.obolibrary.org/obo/ERO_0001716>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000112>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/CL_0000003>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0002029>
+        rdfs:range  xsd:string .
+
+<http://cau.eagle-i.net/i/0000014e-8cfb-802a-171d-a7eb80000000>
+        a           <http://vivoweb.org/ontology/core#CoreLaboratory> ;
+        rdfs:label  "CCRTD-Biostatistics" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "Biostatistics Core Facility provides support for statistical analysis of data collected from various researchers. These analyses assist in data interpretation and help researchers with experimental design.  All the statistical analyses are performed by Dr. Fisseha Abebe who provides expert advice on how to interpret the statistical data.  There are dedicated statistical and graphing software available for basic usage." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://cau.eagle-i.net/i/00000135-aba0-7072-ecf8-187780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000022>
+                <http://cau.eagle-i.net/i/00000135-ab93-cce2-ecf8-187780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000397>
+                <http://purl.obolibrary.org/obo/ERO_0000740> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://cau.eagle-i.net/i/00000135-8d20-e1f9-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/created>
+                "2015-07-14T09:38:39.192-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://cau.eagle-i.net/i/00000136-5491-66b1-982a-4eef80000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2015-07-14T10:23:59.122-05:00"^^xsd:dateTime .
+
+<http://purl.obolibrary.org/obo/ERO_0000480>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0000208>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000787>
+        a       owl:Class .
+
+<http://eagle-i.org/ont/repo/1.0/isImplicit>
+        a             owl:DatatypeProperty ;
+        rdfs:comment  "When true the role is implicit, that is, automatically assigned to the relevant users, invisible to admins." ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/Person> ;
+        rdfs:label    "is an implicit role" .
+
+[ a       owl:Class ] .
+
+<http://eagle-i.org/ont/repo/1.0/WFS_Withdrawn>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/WorkflowState> ;
+        rdfs:comment  "Withdrawn from public access" ;
+        rdfs:label    "Withdrawn" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWriter>
+                <http://eagle-i.org/ont/repo/1.0/Role_Curator> ;
+        <http://eagle-i.org/ont/repo/1.0/order>
+                50 .
+
+<http://purl.obolibrary.org/obo/ERO_0001547>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0000281>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000251>
+        a       owl:Class .
+
+<http://cau.eagle-i.net/i/00000136-59f1-2c95-982a-4eef80000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000440> ;
+        rdfs:label  "Thermo Fisher Scientific Locator Jr cryobiological storage system" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "Cryogenic storage of mammalian cell lines using liquid nitrogen." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://cau.eagle-i.net/i/00000135-aba0-7072-ecf8-187780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc86-3932-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "Locator Jr" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/OBI_0600024> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://cau.eagle-i.net/i/00000135-abea-80e6-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://cau.eagle-i.net/i/00000135-8d21-51bc-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-03-28T10:48:20.308-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://cau.eagle-i.net/i/00000136-5496-916a-982a-4eef80000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-10-18T14:19:54.350-05:00"^^xsd:dateTime .
+
+<http://cau.eagle-i.net/i/00000136-54f8-325b-982a-4eef80000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000071> ;
+        rdfs:label  "2100 Expert Software" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"The 2100 Expert Software for the Agilent 2100 Bioanalyzer provides easy instrument set-up and run control, and offers powerful data evaluation tools for all available assays, automatic and manual integration, smear analysis and many assay-specific tools.\"" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://cau.eagle-i.net/i/00000136-54d2-72a0-982a-4eef80000000> , <http://cau.eagle-i.net/i/00000136-54e8-dfcf-982a-4eef80000000> , <http://cau.eagle-i.net/i/00000135-aba0-7072-ecf8-187780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc67-5972-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000070>
+                <http://cau.eagle-i.net/i/00000135-ab9d-72b3-ecf8-187780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://www.genomics.agilent.com/CollectionSubpage.aspx?PageType=Product&SubPageType=ProductDetail&PageID=1631" ;
+        <http://purl.org/dc/terms/contributor>
+                <http://cau.eagle-i.net/i/00000135-8d21-51bc-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-03-27T11:24:06.084-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://cau.eagle-i.net/i/00000136-5493-960e-982a-4eef80000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-10-22T08:57:39.677-05:00"^^xsd:dateTime .
+
+<http://purl.obolibrary.org/obo/ERO_0000040>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ero/dev/pato-imports.owl>
+        a       owl:Ontology .
+
+<http://purl.obolibrary.org/obo/ERO_0000347>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0001529>
+        rdfs:range  xsd:string .
+
+<http://eagle-i.org/ont/repo/1.0/hasPrincipalName>
+        a             owl:DatatypeProperty ;
+        rdfs:comment  "Indicates the authenticated login principal bound to this Person or Agent" ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/Person> ;
+        rdfs:label    "login principal" .
+
+<http://purl.obolibrary.org/obo/ERO_0000293>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000474>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0000740>
+        a       owl:Class .
+
+<http://eagle-i.org/ont/app/1.0/Profilesurl>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0000263>
+        a       owl:Class .
+
+<http://vivoweb.org/ontology/core#Laboratory>
+        a       owl:Class .
+
+<http://eagle-i.org/ont/repo/1.0/WorkflowTransition>
+        a                owl:Class ;
+        rdfs:comment     "Describes one of the possible transitions from one workflow state to another" ;
+        rdfs:label       "Workflow Transition" ;
+        rdfs:subClassOf  owl:Thing .
+
+[ a       owl:Class ] .
+
+<http://purl.obolibrary.org/obo/ERO_0000052>
+        rdfs:range  xsd:string .
+
+<http://eagle-i.org/ont/app/1.0/uberon-import-app.owl>
+        a       owl:Ontology .
+
+<http://purl.obolibrary.org/obo/ERO_0001837>
+        rdfs:range  xsd:string .
+
+<http://eagle-i.org/ont/repo/1.0/NG_Published>
+        <http://purl.org/dc/terms/contributor>
+                <http://cau.eagle-i.net/i/0000015a-8f54-6b42-46f4-029680000000> ;
+        <http://purl.org/dc/terms/created>
+                "2021-11-24T17:41:06.482-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://cau.eagle-i.net/i/0000015a-8f54-6b42-46f4-029680000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2021-11-24T17:41:06.482-06:00"^^xsd:dateTime .
+
+[ a       owl:Class ] .
+
+<http://purl.obolibrary.org/obo/IAO_0000310>
+        a       owl:Class .
+
+<http://cau.eagle-i.net/i/00000135-abef-4d3d-ecf8-187780000000>
+        a           <http://vivoweb.org/ontology/core#CoreLaboratory> ;
+        rdfs:label  "CCRTD-Proteomics" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"We are equipped for proteomics research including Cell Fractionation on one floor and tabletop Ultracentrifuges (Beckman Coulter) , Fast Protein Liquid Chromatography (FPLC), Two-Dimensional Protein Electrophoresis (Protean II, Biorad), and Gel Documentation Systems (one Bio-Rad and one Fuji Medical). Protein quantification can be done using UV-Vis spectrophotometry ( DU650, Beckman Coulter) or multimode Plate Spectrophotometers in both 96-well and 384-well micro well plate formats. Protein gels can also be visualized, digitized, and documented on Multi-Mode Imager Typhoon 9410.\"" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://cau.eagle-i.net/i/00000135-aba0-7072-ecf8-187780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000022>
+                <http://cau.eagle-i.net/i/00000135-ab93-cce2-ecf8-187780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000066>
+                <http://cau.eagle-i.net/i/00000135-ab90-dd54-ecf8-187780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://www.ccrtd.cau.edu/Home.aspx" , "http://www.ccrtd.cau.edu/CoreFacilities/Proteomics.aspx" ;
+        <http://purl.org/dc/terms/contributor>
+                <http://cau.eagle-i.net/i/00000135-8d20-e1f9-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-02-23T14:39:54.267-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://cau.eagle-i.net/i/00000135-8d1e-baf6-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-06-08T14:33:53.596-05:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/app/1.0/LabLifevirusID>
+        rdfs:range  xsd:string .
+
+<http://eagle-i.org/ont/app/1.0/biosafetylevel2>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000782>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0000571>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0001964>
+        a       owl:Class .
+
+<http://eagle-i.org/ont/app/1.0/eagle-i-app-def.owl>
+        a       owl:Ontology .
+
+<http://xmlns.com/foaf/0.1/Organization>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000275>
+        a       owl:Class .
+
+<http://eagle-i.org/ont/app/1.0/has_subject_area>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0000541>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0000245>
+        a       owl:Class .
+
+<http://eagle-i.org/ont/app/1.0/eagle-i-extended-app.owl>
+        a       owl:Ontology .
+
+<http://cau.eagle-i.net/i/00000136-54e4-9eb1-982a-4eef80000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0001576> ;
+        rdfs:label  "Digilab HydroShear DNA shearing" ;
+        <http://eagle-i.org/ont/app/1.0/related_software>
+                <http://cau.eagle-i.net/i/00000136-54fc-5378-982a-4eef80000000> ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"Digilab HydroShear DNA Shearing system is an automated Shearer offering a simple and easy-to-use, reproducible, and controllable method of fragmenting DNA. HydroShear is the best system to generate large DNA fragments needed for long sequencing reads and genomic library construction.\"" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://cau.eagle-i.net/i/00000136-54d2-72a0-982a-4eef80000000> , <http://cau.eagle-i.net/i/00000136-54e8-dfcf-982a-4eef80000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc70-8e8b-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "HydroShear" ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://www.digilabglobal.com/dnashearing" ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://cau.eagle-i.net/i/00000135-ab9d-72b3-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://cau.eagle-i.net/i/00000135-8d21-51bc-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-03-27T11:03:53.699-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://cau.eagle-i.net/i/00000136-5493-960e-982a-4eef80000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-10-22T08:57:44.169-05:00"^^xsd:dateTime .
+
+<http://purl.obolibrary.org/obo/ERO_0000215>
+        a       owl:Class .
+
+<http://eagle-i.org/ont/repo/1.0/Person>
+        a                owl:Class ;
+        rdfs:comment     "Represents a person acting as an authenticated user of the repository" ;
+        rdfs:label       "Person" ;
+        rdfs:subClassOf  owl:Thing , <http://eagle-i.org/ont/app/1.0/Person> , <http://xmlns.com/foaf/0.1/Person> , <http://eagle-i.org/ont/repo/1.0/Agent> , <http://eagle-i.org/ont/app/1.0/Agent> , <http://xmlns.com/foaf/0.1/Agent> , <http://purl.org/dc/terms/Agent> .
+
+<http://purl.obolibrary.org/obo/ERO_0000004>
+        a       owl:Class .
+
+<http://cau.eagle-i.net/i/00000136-55af-89f4-982a-4eef80000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000819> ;
+        rdfs:label  "Beckman Coulter Optima TL ultracentrifuge" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "High-Speed Benchtop Centrifuges are optimal for subcellular fractionation, proteins and viruses." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://cau.eagle-i.net/i/00000135-aba0-7072-ecf8-187780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc6a-37eb-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "Optima TL" ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://cau.eagle-i.net/i/00000135-abef-4d3d-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://cau.eagle-i.net/i/00000135-8d21-51bc-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-03-27T14:53:48.072-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://cau.eagle-i.net/i/00000136-5491-66b1-982a-4eef80000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-10-15T09:18:29.479-05:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/app/1.0/domainConstraint>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0000161>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000553>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0001554>
+        a       owl:Class .
+
+<http://cau.eagle-i.net/i/00000136-54db-0dd4-982a-4eef80000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0400115> ;
+        rdfs:label  "Thermo Scientific Nanodrop 2000c Spectrophotometer" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "Measure using either the micro-volume pedestal or cuvette" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://cau.eagle-i.net/i/00000136-54d2-72a0-982a-4eef80000000> , <http://cau.eagle-i.net/i/00000136-54e8-dfcf-982a-4eef80000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc86-3932-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "2000c" ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://www.nanodrop.com/Productnd2000coverview.aspx" ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://cau.eagle-i.net/i/00000135-ab9d-72b3-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://cau.eagle-i.net/i/00000135-8d21-51bc-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-03-27T10:54:24.449-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://cau.eagle-i.net/i/00000136-5493-960e-982a-4eef80000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-09-12T09:07:09.671-05:00"^^xsd:dateTime .
+
+<http://purl.obolibrary.org/obo/ERO_0000257>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000046>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/OGMS_0000073>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0002103>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000016>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000595>
+        a       owl:Class .
+
+<http://eagle-i.org/ont/app/1.0/induction_reagent_description>
+        rdfs:range  xsd:string .
+
+<http://eagle-i.org/ont/repo/1.0/Role_Curator>
+        a       owl:Thing .
+
+<http://cau.eagle-i.net/i/00000135-ab90-dd54-ecf8-187780000000>
+        a           <http://vivoweb.org/ontology/core#Center> ;
+        rdfs:label  "Center for Cancer Research and Therapeutic Development" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"CCRTD Mission\nThe Center for Cancer Research and Therapeutic Development (CCRTD) at Clark Atlanta University was established in 1999 out of the strengths of the Departments of Biological Sciences and Chemistry.\n\nCCRTD is currently supported by the National Center for Research Resources (NCRR)/National Institutes of Health (NIH)-sponsored Research Center in Minority Institutions (RCMI) program; the National Center on Minority Health and Health Disparities (NCMHD); National Cancer Institute (NCI); Department of Defense (DoD); and Georgia Research Alliance.\n\nIn 2004, CCRTD faculty decided to focus its efforts on prostate cancer research. This decision was based on the significantly higher rate of incidence and mortality among African-American men and because of the unique expertise of CCRTD faculty that could readily be applied to this area of research.\n\nThe overall mission of CCRTD is:\n\nTo develop a core group of internationally-known group of scientists that will carry out highly productive basic research in cancer cell biology and contribute in the development of successful therapeutic strategies to combat cancer.\n\nTo involve undergraduate and graduate students in the area of cancer research and to train post-doctoral fellows in the area of cancer biology and, hence, help develop future generation of African-American scientists of the highest caliber.\n\nTo establish an educational program that will help to increase awareness for prevention, early detection and treatment of cancers, especially those which disproportionately affect the African-American community.\"" ;
+        <http://eagle-i.org/ont/app/1.0/synonym>
+                "CCRTD" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://cau.eagle-i.net/i/00000135-ab93-59a3-ecf8-187780000000> , <http://cau.eagle-i.net/i/00000139-da86-6c13-ca0c-e21e80000000> , <http://cau.eagle-i.net/i/00000139-da86-23ae-ca0c-e21e80000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://www.ccrtd.cau.edu/" ;
+        <http://purl.obolibrary.org/obo/ERO_0000596>
+                <http://cau.eagle-i.net/i/00000135-ab93-cce2-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://cau.eagle-i.net/i/00000135-8d20-e1f9-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-02-23T13:01:50.440-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://cau.eagle-i.net/i/00000135-8d1e-baf6-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-09-18T12:57:24.493-05:00"^^xsd:dateTime .
+
+<http://purl.obolibrary.org/obo/ero/dev/pato-imports-app.owl>
+        a       owl:Ontology .
+
+<http://purl.obolibrary.org/obo/ERO_0000239>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000113>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000270>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000185>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ero/dev/uberon-import.owl>
+        a       owl:Ontology .
+
+[ a       owl:Class ] .
+
+<http://eagle-i.org/ont/app/1.0/ero-app.owl>
+        a       owl:Ontology .
+
+<http://purl.obolibrary.org/obo/ERO_0000240>
+        a       owl:Class .
+
+<http://eagle-i.org/ont/app/1.0/disease-import-app.owl>
+        a       owl:Ontology .
+
+<http://purl.obolibrary.org/obo/ERO_0000547>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0001156>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/OBI_0001057>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ero/dev/go-imports.owl>
+        a       owl:Ontology .
+
+<http://cau.eagle-i.net/i/00000136-54de-3f39-982a-4eef80000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000121> ;
+        rdfs:label  "Agilent 2100 Bioanalyzer" ;
+        <http://eagle-i.org/ont/app/1.0/related_software>
+                <http://cau.eagle-i.net/i/00000136-54f8-325b-982a-4eef80000000> ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "microfluidics-based platform for sizing, quantification and quality control of DNA, RNA" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://cau.eagle-i.net/i/00000136-54e8-dfcf-982a-4eef80000000> , <http://cau.eagle-i.net/i/00000136-54d2-72a0-982a-4eef80000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc67-5972-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "2100" ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://www.genomics.agilent.com/CollectionOverview.aspx?PageType=Application&SubPageType=ApplicationOverview&PageID=275" ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://cau.eagle-i.net/i/00000135-ab9d-72b3-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://cau.eagle-i.net/i/00000135-8d21-51bc-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-03-27T10:56:38.791-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://cau.eagle-i.net/i/00000136-5493-960e-982a-4eef80000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-09-12T08:55:26.483-05:00"^^xsd:dateTime .
+
+<http://purl.obolibrary.org/obo/ERO_0001971>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0000282>
+        a       owl:Class .
+
+<http://eagle-i.org/ont/app/1.0/resource_description>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0000071>
+        a       owl:Class .
+
+<http://cau.eagle-i.net/i/00000136-54d9-faab-982a-4eef80000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0000989> ;
+        rdfs:label  "SOLiD EZ Bead Enricher" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://cau.eagle-i.net/i/00000136-54d2-72a0-982a-4eef80000000> , <http://cau.eagle-i.net/i/00000136-54e8-dfcf-982a-4eef80000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc79-1552-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "https://products.appliedbiosystems.com/ab/en/US/adirect/ab?cmd=catNavigate2&catID=607403&tab=DetailInfo" ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://cau.eagle-i.net/i/00000135-ab9d-72b3-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://cau.eagle-i.net/i/00000135-8d21-51bc-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-03-27T10:51:27.022-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://cau.eagle-i.net/i/00000136-5493-960e-982a-4eef80000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-10-22T08:57:50.558-05:00"^^xsd:dateTime .
+
+<http://purl.obolibrary.org/obo/ERO_0000041>
+        rdfs:range  xsd:string .
+
+[ a       owl:Class ] .
+
+<http://purl.obolibrary.org/obo/ERO_0000403>
+        rdfs:range  xsd:string .
+
+<http://eagle-i.org/ont/repo/1.0/Role>
+        a                owl:Class ;
+        rdfs:comment     "Represents an access-control role granted to an Agent" ;
+        rdfs:label       "Role" ;
+        rdfs:subClassOf  owl:Thing , <http://eagle-i.org/ont/app/1.0/Agent> , <http://purl.org/dc/terms/Agent> , <http://xmlns.com/foaf/0.1/Agent> , <http://eagle-i.org/ont/repo/1.0/Agent> .
+
+[ a       owl:Class ] .
+
+<http://cau.eagle-i.net/i/00000136-55b8-d62b-982a-4eef80000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0001121> ;
+        rdfs:label  "Bio-Rad PROTEAN II xi Cell" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "The PROTEAN® II xi cell is a large format vertical electrophoresis cell that is used for the most common electrophoretic techniques such as SDS-PAGE, native electrophoresis, and agarose gel electrophoresis. The PROTEAN II xi cell is available in two sizes to accommodate up to four* 16 x 16 cm or 16 x 20 cm gels." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://cau.eagle-i.net/i/00000135-aba0-7072-ecf8-187780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc6a-a024-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "PROTEAN II xi" ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://www.bio-rad.com/prd/en/US/adirect/biorad?cmd=BRCatgProductDetail&isFromSearch=true&entryPoint=adirect&catID=15fb8e8f-b179-41d3-9222-6b96de3a0648&vertical=LSR&messageType=BRCatgProductDetail&parentCategoryGUID=93175d3e-14e1-4675-92c6-f9c570c2ce2c" ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://cau.eagle-i.net/i/00000135-abef-4d3d-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://cau.eagle-i.net/i/00000135-8d21-51bc-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-03-27T15:04:32.014-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://cau.eagle-i.net/i/00000136-5491-66b1-982a-4eef80000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-10-15T09:18:12.239-05:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/app/1.0/Agent>
+        rdfs:subClassOf  owl:Thing .
+
+<http://cau.eagle-i.net/i/00000136-5584-606a-982a-4eef80000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0000272> ;
+        rdfs:label  "Peptide Desalting with HyperSep SPE C18 Column" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "The protocol gives a detain operation steps for peptide desalting with HyperSep SPE C18 column." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://cau.eagle-i.net/i/00000135-aba0-7072-ecf8-187780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000038>
+                <http://purl.obolibrary.org/obo/OBI_0000443> ;
+        <http://purl.obolibrary.org/obo/ERO_0000070>
+                <http://cau.eagle-i.net/i/00000135-abef-4d3d-ecf8-187780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000232>
+                <http://cau.eagle-i.net/i/00000135-aba0-7072-ecf8-187780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000460>
+                <http://cau.eagle-i.net/i/00000136-558d-9dbe-982a-4eef80000000> , <http://cau.eagle-i.net/i/00000136-557e-043e-982a-4eef80000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://www.ccrtd.cau.edu/CoreFacilities/Proteomics.aspx" ;
+        <http://purl.org/dc/terms/contributor>
+                <http://cau.eagle-i.net/i/00000135-8d20-e1f9-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-03-27T14:03:55.972-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://cau.eagle-i.net/i/00000136-5491-66b1-982a-4eef80000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-06-08T15:07:42.815-05:00"^^xsd:dateTime .
+
+<http://purl.obolibrary.org/obo/ERO_0000475>
+        rdfs:range  xsd:string .
+
+[ a       owl:Class ] .
+
+<http://purl.obolibrary.org/obo/ERO_0000264>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/OBI_0400114>
+        a       owl:Class .
+
+<http://eagle-i.org/ont/app/1.0/rangeConstraint>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0002025>
+        a       owl:Class .
+
+<http://eagle-i.org/ont/app/1.0/biosafetylevel3>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000783>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/OBI_0100026>
+        a       owl:Class .
+
+<http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+        a             owl:ObjectProperty ;
+        rdfs:comment  "Current workflow state of this instance" ;
+        rdfs:label    "workflow state" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/WorkflowState> .
+
+<http://eagle-i.org/ont/app/1.0/LabLifeplasmidID>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0000276>
+        a       owl:Class .
+
+<http://cau.eagle-i.net/i/00000136-54d8-a052-982a-4eef80000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0000989> ;
+        rdfs:label  "Applied Biosystems SOLiD EZ bead system" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"The new SOLiD™ EZ Bead™ System simplifies next-generation sequencing workflows by providing an automated solution for reproducible templated bead preparation with less than 1 hour of hands-on time. The system is specifically designed with system modularity and quality control check points for greater experimental control. The SOLiD™ EZ Bead™ System streamlines the sequencing workflow through significant time savings and support for up to 96 multiplexed libraries. With automation, minimal costs, and seamless effort, the SOLiD™ EZ Bead™ System dramatically increases sequencing productivity to further accelerate scientific discovery.\n\nKey product features:\n\n    Streamlined workflow—80% reduction in hands-on time\n    Reliable output—increased reproducibility of sequencing results\n    Cost efficiency—multiplexed library support for maximized savings of time & resources\n    Flexibility—modular to fit individual throughput and lab needs\n    Tighter control—quality control checkpoints throughout experimental workflow\"" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://cau.eagle-i.net/i/00000136-54d2-72a0-982a-4eef80000000> , <http://cau.eagle-i.net/i/00000136-54e8-dfcf-982a-4eef80000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc79-1552-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "SOLiD" ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "https://products.appliedbiosystems.com/ab/en/US/adirect/ab?cmd=catNavigate2&catID=607361&tab=DetailInfo" ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://cau.eagle-i.net/i/00000135-ab9d-72b3-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://cau.eagle-i.net/i/00000135-8d21-51bc-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-03-27T10:50:05.723-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://cau.eagle-i.net/i/00000136-5493-960e-982a-4eef80000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-10-22T08:57:41.904-05:00"^^xsd:dateTime .
+
+<http://cau.eagle-i.net/i/00000136-55d9-cae8-982a-4eef80000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000362> ;
+        rdfs:label  "Nexcelom Cellometer Vision Cell Counter" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "Counts cells on a two ended chambered slide and displays the average of the raw data in numbers." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://cau.eagle-i.net/i/00000135-aba0-7072-ecf8-187780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc7d-2a6b-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0001899> , <http://purl.obolibrary.org/obo/OBI_0600024> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://cau.eagle-i.net/i/00000135-abea-80e6-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://cau.eagle-i.net/i/00000135-8d21-51bc-ecf8-187780000000> , <http://cau.eagle-i.net/i/00000135-8d2c-78e3-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-03-27T15:49:11.862-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://cau.eagle-i.net/i/00000136-5496-916a-982a-4eef80000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2013-08-15T14:42:41.683-05:00"^^xsd:dateTime .
+
+<http://purl.obolibrary.org/obo/OBI_0000443>
+        a       owl:Class .
+
+<http://cau.eagle-i.net/i/00000136-5573-fa6b-982a-4eef80000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000244> ;
+        rdfs:label  "Labconco CentriVap concentrator" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"Proteomic CentriVap Concentrator Systems include all the concentration components necessary to begin operation except for the vacuum pump. The Refrigerated CentriVap Vacuum Concentrator concetrates multiple small heat-sensitive samples, such as RNA and proteins, using centrifugal force, vacuum and controlled temperature to -4 C (25 F). The DNA Rotor accomodates up to 60 each 1.5 ml and 72 each 0.5 ml microcentrifuge tubes. The CentriVap Cold Trap reaches -50 C (-58 F) for solvent recovery and to protect the vacuum pump by trapping moisture, vapors and corrosive fumes as they evaporate from the samples.\"" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://cau.eagle-i.net/i/00000135-aba0-7072-ecf8-187780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc78-535b-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "CentriVap" ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://www.labconco.com/product/proteomic-centrivap-concentrator-systems/76" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/OBI_0000094> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://cau.eagle-i.net/i/00000135-abef-4d3d-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://cau.eagle-i.net/i/00000135-8d21-51bc-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-03-27T13:48:42.381-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://cau.eagle-i.net/i/00000136-5491-66b1-982a-4eef80000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-10-18T13:20:50.165-05:00"^^xsd:dateTime .
+
+<http://purl.org/net/OCRe/research.owl#Interventional_study>
+        a       owl:Class .
+
+<http://eagle-i.org/ont/repo/1.0/NGType_Published>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/NamedGraphType> ;
+        rdf:value     "published" ;
+        rdfs:comment  "Data objects meant to be visible to the public" ;
+        rdfs:label    "Published resource instances" .
+
+<http://eagle-i.org/ont/repo/1.0/WFS_Published>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/WorkflowState> ;
+        rdfs:comment  "Finished and available to the public" ;
+        rdfs:label    "Published" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWriter>
+                <http://eagle-i.org/ont/repo/1.0/Role_Curator> ;
+        <http://eagle-i.org/ont/repo/1.0/order>
+                40 .
+
+<http://cau.eagle-i.net/i/00000135-abf1-2607-ecf8-187780000000>
+        a           <http://vivoweb.org/ontology/core#CoreLaboratory> ;
+        rdfs:label  "CCRTD-Structural Biology" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"CCRTD houses several major instruments to support structural studies of biological molecules, cells, modern cell, and molecular visualization applications. We have an Inverted Digitized Microscope (Zeiss) of general use, plus an advanced Fluorescence-enabled Inverted Digitized Microscope with Z-stacking and Live Cell Imaging modules (Zeiss). For advanced applications including In Situ Hybridization (ISH) and Immunohistochemistry (IHC), in addition to Zeiss microscope above we offer Confocal Fluorescent Microscope (Nikon). The latter is currently undergoing a major upgrade of computer system, software, and optics including addition of lasers.\"" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://cau.eagle-i.net/i/00000135-aba0-7072-ecf8-187780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000022>
+                <http://cau.eagle-i.net/i/00000135-ab93-cce2-ecf8-187780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000066>
+                <http://cau.eagle-i.net/i/00000135-ab90-dd54-ecf8-187780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://www.ccrtd.cau.edu/CoreFacilities/StructuralBiology.aspx" ;
+        <http://purl.obolibrary.org/obo/ERO_0000596>
+                <http://cau.eagle-i.net/i/00000135-aba0-7072-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://cau.eagle-i.net/i/00000135-8d21-51bc-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-02-23T14:41:58.519-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://cau.eagle-i.net/i/00000135-8d1e-baf6-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2013-01-31T09:29:36.479-06:00"^^xsd:dateTime .
+
+<http://purl.obolibrary.org/obo/ERO_0000819>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000216>
+        a       owl:Class .
+
+<http://xmlns.com/foaf/0.1/Agent>
+        a                owl:Class ;
+        rdfs:subClassOf  owl:Thing .
+
+<http://cau.eagle-i.net/i/00000136-59ed-5172-982a-4eef80000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0001701> ;
+        rdfs:label  "Cryosafe cryo biological system storage" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "Cryogenic storage of mammalian cell lines using liquid nitrogen." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://cau.eagle-i.net/i/00000135-aba0-7072-ecf8-187780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc6f-3d93-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "CS 6001L" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/OBI_0600024> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://cau.eagle-i.net/i/00000135-abea-80e6-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://cau.eagle-i.net/i/00000135-8d21-51bc-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-03-28T10:30:43.291-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://cau.eagle-i.net/i/00000136-5496-916a-982a-4eef80000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2013-01-30T11:25:34.069-06:00"^^xsd:dateTime .
+
+[ a       owl:Class ] .
+
+<http://eagle-i.org/ont/app/1.0/LabLifeproteinID>
+        rdfs:range  xsd:string .
+
+<http://eagle-i.org/ont/app/1.0/CTdetaileddescription>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ERO_0000192>
+        a       owl:Class .
+
+<http://purl.obolibrary.org/obo/ERO_0000005>
+        a       owl:Class .
+
+<http://eagle-i.org/ont/app/1.0/CTurl>
+        rdfs:range  xsd:string .
+
+<http://eagle-i.org/ont/app/1.0/LabLifeAbID>
+        rdfs:range  xsd:string .
+
+<http://purl.obolibrary.org/obo/ero/dev/mp-imports-app.owl>
+        a       owl:Ontology .
+
+<http://purl.obolibrary.org/obo/ERO_0000162>
+        a       owl:Class .
+
+[ a       owl:Class ] .
+
+<http://purl.obolibrary.org/obo/ERO_0001525>
+        rdfs:range  xsd:string .
+
+<http://cau.eagle-i.net/i/00000136-54f2-8df1-982a-4eef80000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0000272> ;
+        rdfs:label  "Next-generation sequencing" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000070>
+                <http://cau.eagle-i.net/i/00000135-ab9d-72b3-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://cau.eagle-i.net/i/00000135-8d21-51bc-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-03-27T11:18:05.561-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://cau.eagle-i.net/i/00000136-5493-960e-982a-4eef80000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-10-22T08:57:46.242-05:00"^^xsd:dateTime .
+
+<http://purl.obolibrary.org/obo/ERO_0000017>
+        a       owl:Class .

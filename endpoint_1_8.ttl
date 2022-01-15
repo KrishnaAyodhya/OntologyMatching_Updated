@@ -1,0 +1,1645 @@
+@prefix dss:   <http://purl.org/collections/nl/dss/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix mdb:   <http://purl.org/collections/nl/dss/mdb/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ns2:   <http://purl.org/collections/nl/dss/elbing/> .
+@prefix ns3:   <http://www.w3.org/ns/prov#> .
+@prefix ns6:   <http://dbpedia.org/ontology/> .
+@prefix ns7:   <http://nl.dbpedia.org/property/> .
+@prefix ns9:   <http://www.geonames.org/ontology#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix das:   <http://purl.org/collections/nl/dss/das/> .
+@prefix ns15:  <http://purl.org/collections/nl/dss/vocopv/> .
+@prefix gzmvoc: <http://purl.org/collections/nl/dss/gzmvoc/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+mdb:aanmonstering-del_gem-1840-10
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010074353:mpeg21:a0010:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010071672:mpeg21:a0009:ocr> .
+
+mdb:schip-del_gem-1880-80-Trijntje
+        owl:sameAs  mdb:schip-del_gem-1889-91-Trijntje .
+
+mdb:aanmonstering-del_gem-1865-53
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010975822:mpeg21:a0047:ocr> .
+
+mdb:schip-veen_veen-1844-16-Wendelina
+        owl:sameAs  mdb:schip-veen_veen-1855-38-Wendelina .
+
+mdb:aanmonstering-del_gem-1839-6
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010979156:mpeg21:a0009:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010771499:mpeg21:a0024:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010770919:mpeg21:a0020:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010114928:mpeg21:a0031:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010247249:mpeg21:a0010:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010771776:mpeg21:a0022:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010779672:mpeg21:a0019:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010069244:mpeg21:a0013:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010770833:mpeg21:a0020:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010083066:mpeg21:a0018:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010076036:mpeg21:a0012:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010396756:mpeg21:a0010:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010772172:mpeg21:a0020:ocr> .
+
+mdb:plaats-Bunde_Bonde_D
+        skos:exactMatch  <http://sws.geonames.org/2758111/> .
+
+mdb:aanmonstering-del_gem-1853-5
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010980049:mpeg21:a0012:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010773123:mpeg21:a0029:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010771572:mpeg21:a0033:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010396756:mpeg21:a0010:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010396624:mpeg21:a0022:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010076079:mpeg21:a0038:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010072867:mpeg21:a0023:ocr> .
+
+mdb:aanmonstering-del_gem-1862-15
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010116738:mpeg21:a0066:ocr> .
+
+mdb:aanmonstering-del_gem-1868-26
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010140015:mpeg21:a0009:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010139376:mpeg21:a0010:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010139197:mpeg21:a0034:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010138389:mpeg21:a0024:ocr> .
+
+mdb:aanmonstering-del_gem-1860-132
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010137294:mpeg21:a0045:ocr> .
+
+ns2:ship_jungfrauw_augusta
+        a       ns2:Ship .
+
+mdb:schip-del_gem-1866-16-Annette_Cornelia
+        owl:sameAs  mdb:schip-del_gem-1867-78-Annette_Cornelia .
+
+ns2:ship_rote_lau  ns2:hasID  "671" .
+
+das:person-4493_7-Vries
+        skos:inScheme  das:PersonConceptScheme .
+
+mdb:schip-hoog_sapp-1857-3-Harmonie
+        owl:sameAs  mdb:schip-gron_archgron-1845-31-Harmonie .
+
+mdb:schip-del_gem-1878-56-Bertha
+        owl:sameAs  mdb:schip-del_gem-1885-54-Bertha .
+
+mdb:schip-veen_wild-1857-25-Argo
+        owl:sameAs  mdb:schip-del_gem-1860-153-Argo .
+
+ns3:EntityInfluence  a  owl:Class .
+
+das:person-8136_1-Mulder
+        skos:inScheme  das:PersonConceptScheme .
+
+mdb:aanmonstering-del_gem-1852-43
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010139955:mpeg21:a0033:ocr> .
+
+mdb:aanmonstering-del_gem-1847-29
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010397662:mpeg21:a0018:ocr> .
+
+mdb:aanmonstering-del_gem-1866-66
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010140589:mpeg21:a0007:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010101569:mpeg21:a0039:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010098606:mpeg21:a0044:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010098524:mpeg21:a0043:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010097795:mpeg21:a0031:ocr> .
+
+mdb:schip-veen_veen-1841-10-Niessina
+        owl:sameAs  mdb:schip-veen_veen-1847-33-Niessina .
+
+mdb:aanmonstering-del_gem-1844-1
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010979112:mpeg21:a0020:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010770959:mpeg21:a0023:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010081750:mpeg21:a0031:ocr> .
+
+mdb:aanmonstering-del_gem-1864-3
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010139317:mpeg21:a0026:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010139316:mpeg21:a0043:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010139298:mpeg21:a0026:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010138649:mpeg21:a0006:ocr> .
+
+mdb:aanmonstering-del_gem-1863-33
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010130096:mpeg21:a0036:ocr> .
+
+mdb:aanmonstering-del_gem-1854-15
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010980292:mpeg21:a0027:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:000016253:mpeg21:a0047:ocr> .
+
+mdb:aanmonstering-del_gem-1865-35
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010138177:mpeg21:a0011:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010137639:mpeg21:a0006:ocr> .
+
+mdb:schip-del_gem-1872-57-Drie_Zusters
+        owl:sameAs  mdb:schip-del_gem-1873-69-Drie_Zusters .
+
+mdb:aanmonstering-del_gem-1841-5
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010071672:mpeg21:a0009:ocr> .
+
+mdb:aanmonstering-del_gem-1881-34
+        dss:hasOriginalScan  <http://dmd.ops.labs.vu.nl/delfzijl/100_8755.jpg> .
+
+mdb:aanmonstering-del_gem-1847-30
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010544205:mpeg21:a0014:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010518341:mpeg21:a0010:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010518091:mpeg21:a0011:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010395693:mpeg21:a0009:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010138041:mpeg21:a0009:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010114920:mpeg21:a0019:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010087485:mpeg21:a0009:ocr> .
+
+das:person-8022_5-Kornelissen
+        skos:inScheme  das:PersonConceptScheme .
+
+mdb:aanmonstering-del_gem-1861-98
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010397115:mpeg21:a0016:ocr> .
+
+mdb:aanmonstering-del_gem-1860-114
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010772704:mpeg21:a0026:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010129908:mpeg21:a0035:ocr> .
+
+ns2:captain_reinholdt_sickersson
+        a       ns2:Person .
+
+ns2:ship_aranienbaum  ns2:hasID  "11" .
+
+mdb:aanmonstering-del_gem-1866-78
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:011067970:mpeg21:a0022:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010136807:mpeg21:a0045:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010104431:mpeg21:a0046:ocr> .
+
+mdb:schip-del_gem-1873-23-Theodora
+        owl:sameAs  mdb:schip-del_gem-1876-78-Theodora .
+
+mdb:aanmonstering-del_gem-1850-23
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010771526:mpeg21:a0028:ocr> .
+
+ns2:ship_lange_wagen  a  ns2:Ship .
+
+mdb:aanmonstering-del_gem-1828-3
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010268621:mpeg21:a0004:ocr> .
+
+ns2:ship_blaue_sonne  ns2:hasIDShip  "54" .
+
+mdb:aanmonstering-del_gem-1858-6
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010396719:mpeg21:a0013:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:000019957:mpeg21:a0031:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:000020167:mpeg21:a0041:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010130235:mpeg21:a0025:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010980292:mpeg21:a0027:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:000016253:mpeg21:a0047:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010979930:mpeg21:a0013:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010130567:mpeg21:a0017:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010772035:mpeg21:a0033:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010074051:mpeg21:a0017:ocr> .
+
+mdb:schip-del_gem-1864-54-Hillechiena
+        owl:sameAs  mdb:schip-del_gem-1866-76-Hillechiena .
+
+mdb:aanmonstering-del_gem-1866-48
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010139317:mpeg21:a0026:ocr> .
+
+ns2:ship_falgk  ns2:hasIDShip  "800" .
+
+mdb:aanmonstering-del_gem-1859-93
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010138013:mpeg21:a0034:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010136982:mpeg21:a0045:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010131412:mpeg21:a0031:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010130407:mpeg21:a0017:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010129908:mpeg21:a0035:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010087785:mpeg21:a0036:ocr> .
+
+mdb:schip-del_gem-1870-75-Drie_Gebroeders
+        owl:sameAs  mdb:schip-del_gem-1874-11-Drie_Gebroeders , mdb:schip-del_gem-1871-29-Drie_Gebroeders .
+
+mdb:aanmonstering-del_gem-1864-16
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010140067:mpeg21:a0010:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010139729:mpeg21:a0044:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010137797:mpeg21:a0039:ocr> .
+
+mdb:aanmonstering-del_gem-1867-19
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:000018943:mpeg21:a0017:ocr> .
+
+mdb:aanmonstering-del_gem-1860-126
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010397729:mpeg21:a0026:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010137737:mpeg21:a0045:ocr> .
+
+ns2:captain_jacob_willemb
+        owl:sameAs  ns2:captain_1587_jacob_willemb .
+
+mdb:schip-del_gem-1860-63-Hillechiena
+        owl:sameAs  mdb:schip-del_gem-1862-16-Hillechiena .
+
+ns2:captain_cornelius_reymertsen
+        a       ns2:Person .
+
+ns15:place-Hoorn  skos:exactMatch  <http://sws.geonames.org/2744898/> .
+
+mdb:schip-del_gem-1860-40-Geziena_Helena
+        owl:sameAs  mdb:schip-del_gem-1861-35-Geziena_Helena .
+
+mdb:schip-del_gem-1855-32-Jantina_Engelina
+        owl:sameAs  mdb:schip-del_gem-1862-66-Jantina_Engelina .
+
+mdb:aanmonstering-del_gem-1841-17
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010396766:mpeg21:a0018:ocr> .
+
+mdb:aanmonstering-del_gem-1839-1
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010246604:mpeg21:a0016:ocr> .
+
+mdb:aanmonstering-del_gem-1849-2
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010081619:mpeg21:a0046:ocr> .
+
+mdb:aanmonstering-del_gem-1859-3
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010981187:mpeg21:a0034:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010398056:mpeg21:a0026:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010087775:mpeg21:a0027:ocr> .
+
+mdb:schip-del_gem-1893-71-Ceres
+        owl:sameAs  mdb:schip-del_gem-1894-53-Ceres .
+
+mdb:aanmonstering-del_gem-1863-1
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010139307:mpeg21:a0039:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010139126:mpeg21:a0028:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010131782:mpeg21:a0030:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010087826:mpeg21:a0046:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010083513:mpeg21:a0013:ocr> .
+
+mdb:aanmonstering-del_gem-1868-21
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:000018943:mpeg21:a0017:ocr> .
+
+mdb:schip-del_gem-1877-49-Martha
+        owl:sameAs  mdb:schip-del_gem-1881-107-Martha .
+
+<http://nl.dbpedia.org/resource/Kathryn_Stockett>
+        ns6:occupation  <http://nl.dbpedia.org/resource/Schrijver> .
+
+mdb:aanmonstering-del_gem-1840-3
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010972416:mpeg21:a0009:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010076244:mpeg21:a0014:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010076209:mpeg21:a0012:ocr> .
+
+mdb:schip-veen_veen-1857-52-Pollux
+        owl:sameAs  mdb:schip-veen_veen-1859-17-Pollux .
+
+mdb:schip-del_gem-1842-34-Vier_Gezusters
+        owl:sameAs  mdb:schip-del_gem-1854-10-Vier_Gezusters .
+
+mdb:schip-del_gem-1880-19-Concordia
+        owl:sameAs  mdb:schip-del_gem-1881-16-Concordia .
+
+mdb:schip-del_gem-1867-37-Nooitgedacht
+        owl:sameAs  mdb:schip-del_gem-1870-35-Nooitgedacht .
+
+mdb:aanmonstering-del_gem-1865-60
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:011066901:mpeg21:a0021:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010136807:mpeg21:a0045:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010129839:mpeg21:a0031:ocr> .
+
+mdb:aanmonstering-del_gem-1846-23
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010247227:mpeg21:a0010:ocr> .
+
+mdb:aanmonstering-del_gem-1860-108
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010240473:mpeg21:a0089:ocr> .
+
+mdb:schip-del_gem-1893-63-Dina
+        owl:sameAs  mdb:schip-del_gem-1894-98-Dina .
+
+ns2:captain_corneliss_heinrichsen
+        ns2:label  "Corneliss Heinrichsen" .
+
+mdb:aanmonstering-del_gem-1857-13
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010087537:mpeg21:a0041:ocr> .
+
+mdb:aanmonstering-del_gem-1908-48
+        dss:hasOriginalScan  <http://dmd.ops.labs.vu.nl/delfzijl/100_9266.jpg> .
+
+mdb:aanmonstering-del_gem-1844-7
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010972533:mpeg21:a0010:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010771067:mpeg21:a0026:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010082961:mpeg21:a0018:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010082783:mpeg21:a0013:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010082755:mpeg21:a0019:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010074784:mpeg21:a0012:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010072686:mpeg21:a0012:ocr> .
+
+mdb:schip-del_gem-1879-41-Advena
+        owl:sameAs  mdb:schip-del_gem-1880-98-Advena .
+
+mdb:aanmonstering-del_gem-1860-92
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010111906:mpeg21:a0048:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:000010082:mpeg21:a0051:ocr> .
+
+ns2:captain_wilhelm_wibrandtsonn
+        owl:sameAs  ns2:captain_1571_wilhelm_wibrandtsonn .
+
+mdb:schip-del_gem-1869-55-Weea
+        owl:sameAs  mdb:schip-del_gem-1872-105-Weea .
+
+mdb:aanmonstering-del_gem-1838-23
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010246604:mpeg21:a0016:ocr> .
+
+mdb:aanmonstering-del_gem-1864-71
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010140849:mpeg21:a0017:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010139300:mpeg21:a0010:ocr> .
+
+mdb:aanmonstering-del_gem-1861-63
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010140067:mpeg21:a0010:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010139729:mpeg21:a0044:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010137797:mpeg21:a0039:ocr> .
+
+mdb:aanmonstering-del_gem-1865-72
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:000017410:mpeg21:a0018:ocr> .
+
+mdb:aanmonstering-del_gem-1866-73
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010973128:mpeg21:a0031:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010973029:mpeg21:a0011:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010116428:mpeg21:a0057:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010100602:mpeg21:a0029:ocr> .
+
+mdb:schip-del_gem-1906-99-Betsy_Anna
+        owl:sameAs  mdb:schip-del_gem-1909-116-Betsy_Anna .
+
+ns2:captain_cornelius_symson
+        ns2:label  "Cornelius Symson" .
+
+mdb:aanmonstering-del_gem-1853-21
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010772995:mpeg21:a0031:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010772985:mpeg21:a0013:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:000016740:mpeg21:a0033:ocr> .
+
+mdb:aanmonstering-del_gem-1868-2
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010139179:mpeg21:a0030:ocr> .
+
+mdb:aanmonstering-del_gem-1867-44
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010973128:mpeg21:a0031:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010973029:mpeg21:a0011:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010116428:mpeg21:a0057:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010100602:mpeg21:a0029:ocr> .
+
+ns2:captain_claes_pietersen
+        a       ns2:Person .
+
+<http://nl.dbpedia.org/resource/Passagiers>
+        ns6:wikiPageRedirects  <http://nl.dbpedia.org/resource/Passagier> .
+
+mdb:aanmonstering-del_gem-1858-26
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010076103:mpeg21:a0011:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010075645:mpeg21:a0010:ocr> .
+
+mdb:aanmonstering-del_gem-1858-108
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010483501:mpeg21:a0042:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010240583:mpeg21:a0048:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010240512:mpeg21:a0019:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010240511:mpeg21:a0054:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010114422:mpeg21:a0038:ocr> .
+
+ns2:captain_peter_tiallingh
+        owl:sameAs  ns2:captain_1525_peter_tiallingh .
+
+mdb:aanmonstering-del_gem-1828-9
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010977561:mpeg21:a0020:ocr> .
+
+mdb:schip-del_gem-1876-71-Geessien_Schreuder
+        owl:sameAs  mdb:schip-del_gem-1876-152-Geessien_Schreuder .
+
+mdb:aanmonstering-del_gem-1863-10
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010129860:mpeg21:a0039:ocr> .
+
+mdb:aanmonstering-del_gem-1864-11
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010138138:mpeg21:a0031:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010132271:mpeg21:a0034:ocr> .
+
+mdb:aanmonstering-del_gem-1842-8
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010779656:mpeg21:a0023:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010779636:mpeg21:a0013:ocr> .
+
+mdb:aanmonstering-del_gem-1867-14
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010097607:mpeg21:a0017:ocr> .
+
+mdb:aanmonstering-del_gem-1868-15
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010975794:mpeg21:a0038:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010543585:mpeg21:a0009:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010141030:mpeg21:a0031:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010138042:mpeg21:a0032:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010136952:mpeg21:a0015:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010101570:mpeg21:a0032:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010097770:mpeg21:a0017:ocr> .
+
+mdb:aanmonstering-del_gem-1860-74
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010981028:mpeg21:a0036:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010240473:mpeg21:a0089:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010087907:mpeg21:a0015:ocr> .
+
+<http://nl.dbpedia.org/resource/Lam_de_Wolf>
+        ns6:occupation  <http://nl.dbpedia.org/resource/Beeldhouwer> .
+
+mdb:aanmonstering-del_gem-1867-86
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010140987:mpeg21:a0019:ocr> .
+
+gzmvoc:telling-3841-Vijvervreugt
+        gzmvoc:has_das_link_heen  das:voyage-3299_1 .
+
+mdb:schip-del_gem-1894-41-Bougiena
+        owl:sameAs  mdb:schip-del_gem-1899-65-Bougiena .
+
+mdb:aanmonstering-del_gem-1842-13
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010770919:mpeg21:a0020:ocr> .
+
+mdb:aanmonstering-del_gem-1858-38
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010388637:mpeg21:a0022:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010115357:mpeg21:a0070:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010115297:mpeg21:a0074:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010087904:mpeg21:a0031:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010087780:mpeg21:a0032:ocr> .
+
+mdb:plaats-Eeserveen_NL
+        skos:inScheme  mdb:MDBPlaceScheme .
+
+mdb:aanmonstering-del_gem-1863-22
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:011066901:mpeg21:a0021:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010129839:mpeg21:a0031:ocr> .
+
+mdb:aanmonstering-del_gem-1853-6
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010771362:mpeg21:a0025:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010518135:mpeg21:a0009:ocr> .
+
+mdb:schip-del_gem-1876-148-Anna_Poelman
+        owl:sameAs  mdb:schip-del_gem-1880-47-Anna_Poelman .
+
+mdb:aanmonstering-del_gem-1859-70
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010980573:mpeg21:a0023:ocr> .
+
+das:person-7655_3-Broman
+        skos:inScheme  das:PersonConceptScheme .
+
+ns2:captain_reinicke_blockmacher
+        owl:sameAs  ns2:captain_140_reinicke_blockmacher .
+
+mdb:schip-hoog_sapp-1846-16-Annegina
+        owl:sameAs  mdb:schip-hoog_sapp-1848-3-Annegina .
+
+mdb:schip-del_gem-1858-72-Frouwina
+        owl:sameAs  mdb:schip-del_gem-1881-139-Frouwina .
+
+mdb:schip-del_gem-1858-23-Gebbina
+        owl:sameAs  mdb:schip-del_gem-1860-20-Gebbina .
+
+mdb:schip-del_gem-1876-72-Ecliptica
+        owl:sameAs  mdb:schip-del_gem-1884-30-Ecliptica .
+
+mdb:aanmonstering-del_gem-1861-57
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010138013:mpeg21:a0034:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010136982:mpeg21:a0045:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010131412:mpeg21:a0031:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010130407:mpeg21:a0017:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010129908:mpeg21:a0035:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010087785:mpeg21:a0036:ocr> .
+
+mdb:schip-del_gem-1876-205-Texel
+        owl:sameAs  mdb:schip-del_gem-1878-47-Texel .
+
+mdb:schip-del_gem-1873-28-Alida
+        owl:sameAs  mdb:schip-del_gem-1875-41-Alida .
+
+<http://nl.wikipedia.org/wiki/Kotter>
+        foaf:primaryTopic  <http://nl.dbpedia.org/resource/Kotter> .
+
+mdb:schip-del_gem-1881-106-Ems
+        owl:sameAs  mdb:schip-del_gem-1884-70-Ems .
+
+mdb:aanmonstering-del_gem-1844-2
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010979156:mpeg21:a0009:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010779672:mpeg21:a0019:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010772172:mpeg21:a0020:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010771776:mpeg21:a0022:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010770919:mpeg21:a0020:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010083066:mpeg21:a0018:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010069244:mpeg21:a0013:ocr> .
+
+mdb:aanmonstering-del_gem-1837-8
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010582565:mpeg21:a0012:ocr> .
+
+mdb:schip-del_gem-1863-19-Concordia
+        owl:sameAs  mdb:schip-del_gem-1865-29-Concordia .
+
+mdb:aanmonstering-del_gem-1862-28
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010139376:mpeg21:a0010:ocr> .
+
+mdb:aanmonstering-del_gem-1868-39
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010528896:mpeg21:a0016:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010139378:mpeg21:a0008:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010098304:mpeg21:a0012:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010097610:mpeg21:a0015:ocr> .
+
+mdb:aanmonstering-del_gem-1860-98
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010388637:mpeg21:a0022:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010115357:mpeg21:a0070:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010115297:mpeg21:a0074:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010087904:mpeg21:a0031:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010087780:mpeg21:a0032:ocr> .
+
+mdb:aanmonstering-del_gem-1861-99
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010136724:mpeg21:a0028:ocr> .
+
+mdb:schip-del_gem-1865-7-Weeka
+        owl:sameAs  mdb:schip-del_gem-1865-49-Weeka .
+
+ns9:S.HSE  skos:definition  "a building used as a human habitation"@en .
+
+mdb:aanmonstering-del_gem-1910-105
+        dss:hasOriginalScan  <http://dmd.ops.labs.vu.nl/delfzijl/100_9302.jpg> .
+
+mdb:aanmonstering-del_gem-1866-79
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010980842:mpeg21:a0022:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010097607:mpeg21:a0017:ocr> .
+
+mdb:aanmonstering-del_gem-1868-40
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010141176:mpeg21:a0021:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010141145:mpeg21:a0032:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010138427:mpeg21:a0037:ocr> .
+
+mdb:aanmonstering-del_gem-1858-103
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010772721:mpeg21:a0032:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010114948:mpeg21:a0024:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010087567:mpeg21:a0013:ocr> .
+
+mdb:aanmonstering-del_gem-1865-1
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010138464:mpeg21:a0038:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010130099:mpeg21:a0020:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010129836:mpeg21:a0033:ocr> .
+
+mdb:schip-veen_wild-1844-3-Lucas_Wicher
+        owl:sameAs  mdb:schip-veen_wild-1850-8-Lucas_Wicher .
+
+mdb:aanmonstering-del_gem-1848-6
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010972416:mpeg21:a0009:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010076244:mpeg21:a0014:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010076209:mpeg21:a0012:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010075987:mpeg21:a0013:ocr> .
+
+ns2:ship_fortuna  owl:sameAs  ns2:ship_1115_fortuna .
+
+mdb:aanmonstering-del_gem-1863-46
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010975797:mpeg21:a0064:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010139126:mpeg21:a0028:ocr> .
+
+mdb:aanmonstering-del_gem-1861-39
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010136926:mpeg21:a0039:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010130544:mpeg21:a0020:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010115227:mpeg21:a0042:ocr> .
+
+mdb:schip-del_gem-1879-54-Elisabeth
+        owl:sameAs  mdb:schip-del_gem-1881-100-Elisabeth .
+
+mdb:schip-del_gem-1859-44-Concordia
+        owl:sameAs  mdb:schip-del_gem-1865-29-Concordia .
+
+mdb:aanmonstering-del_gem-1862-5
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010104483:mpeg21:a0065:ocr> .
+
+mdb:aanmonstering-del_gem-1863-16
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010132388:mpeg21:a0033:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010131432:mpeg21:a0029:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010114523:mpeg21:a0053:ocr> .
+
+mdb:aanmonstering-del_gem-1861-70
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010240359:mpeg21:a0042:ocr> .
+
+mdb:aanmonstering-del_gem-1862-71
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010129817:mpeg21:a0027:ocr> .
+
+ns2:ship_vergultde_krebs_von_tessell
+        ns2:hasID  "848" .
+
+mdb:schip-del_gem-1859-40-Maria_Edina
+        owl:sameAs  mdb:schip-del_gem-1860-32-Maria_Edina .
+
+ns2:ship_kirschbaum  ns2:hasID  "467" .
+
+ns9:H.WTLDI  skos:definition  "_"@en .
+
+mdb:schip-nw_pek_gemarch-1818-31-Klasina_Engelina
+        owl:sameAs  mdb:schip-nw_pek_gemarch-1821-30-Klasina_Engelina .
+
+mdb:schip-del_gem-1873-53-Maria_Theresia
+        owl:sameAs  mdb:schip-del_gem-1876-129-Maria_Theresia .
+
+mdb:schip-veen_wild-1862-20-Jonge_Wicher
+        owl:sameAs  mdb:schip-nw_pek_gemarch-1854-19-Jonge_Wicher .
+
+mdb:aanmonstering-del_gem-1858-33
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010771980:mpeg21:a0026:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010087935:mpeg21:a0014:ocr> .
+
+mdb:aanmonstering-del_gem-1839-2
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010071718:mpeg21:a0026:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010071692:mpeg21:a0018:ocr> .
+
+mdb:aanmonstering-del_gem-1859-4
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010980786:mpeg21:a0020:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010772623:mpeg21:a0033:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010115349:mpeg21:a0037:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010091310:mpeg21:a0012:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010086171:mpeg21:a0035:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010072973:mpeg21:a0012:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:000019970:mpeg21:a0026:ocr> .
+
+mdb:aanmonstering-del_gem-1862-11
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010980911:mpeg21:a0019:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010772017:mpeg21:a0037:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010397731:mpeg21:a0013:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010132375:mpeg21:a0031:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010131969:mpeg21:a0042:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010087823:mpeg21:a0044:ocr> .
+
+mdb:aanmonstering-del_gem-1863-2
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010389956:mpeg21:a0062:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010138464:mpeg21:a0038:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010130099:mpeg21:a0020:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010129836:mpeg21:a0033:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010116947:mpeg21:a0066:ocr> .
+
+mdb:aanmonstering-del_gem-1868-22
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010528428:mpeg21:a0012:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010528355:mpeg21:a0016:ocr> .
+
+mdb:aanmonstering-del_gem-1860-6
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010388718:mpeg21:a0054:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010072929:mpeg21:a0010:ocr> .
+
+ns2:ship_sanct_peter  ns2:hasIDShip  "760" .
+
+mdb:aanmonstering-del_gem-1860-139
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010138013:mpeg21:a0034:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010136982:mpeg21:a0045:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010131412:mpeg21:a0031:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010130407:mpeg21:a0017:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010129908:mpeg21:a0035:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010087785:mpeg21:a0036:ocr> .
+
+mdb:aanmonstering-del_gem-1866-100
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010139376:mpeg21:a0010:ocr> .
+
+mdb:aanmonstering-del_gem-1862-53
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010397729:mpeg21:a0026:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010137737:mpeg21:a0045:ocr> .
+
+mdb:aanmonstering-del_gem-1857-44
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010772721:mpeg21:a0032:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010114948:mpeg21:a0024:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010087567:mpeg21:a0013:ocr> .
+
+mdb:schip-veen_veen-1848-20-Koophandel_en_Zeevaart
+        owl:sameAs  mdb:schip-veen_veen-1852-37-Koophandel_en_Zeevaart .
+
+ns2:captain_isebrandt_martzenn
+        a       ns2:Person .
+
+mdb:aanmonstering-del_gem-1864-30
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010141050:mpeg21:a0010:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010139817:mpeg21:a0026:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010131567:mpeg21:a0025:ocr> .
+
+ns3:Derivation  rdfs:label  "Derivation" .
+
+mdb:aanmonstering-del_gem-1868-34
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010528896:mpeg21:a0016:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010139378:mpeg21:a0008:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010098304:mpeg21:a0012:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010097610:mpeg21:a0015:ocr> .
+
+mdb:aanmonstering-del_gem-1896-84
+        dss:hasOriginalScan  <http://dmd.ops.labs.vu.nl/delfzijl/100_9096.jpg> .
+
+mdb:schip-veen_veen-1841-28-Lammechiena
+        owl:sameAs  mdb:schip-veen_veen-1843-7-Lammechiena .
+
+mdb:schip-del_gem-1868-46-Celeritas
+        owl:sameAs  mdb:schip-del_gem-1869-28-Celeritas .
+
+mdb:schip-del_gem-1838-48-Auwina
+        owl:sameAs  mdb:schip-del_gem-1840-9-Auwina .
+
+mdb:schip-hoog_sapp-1861-1-Nijverheid
+        owl:sameAs  mdb:schip-hoog_sapp-1862-2-Nijverheid .
+
+mdb:schip-del_gem-1876-207-Alberdina
+        owl:sameAs  mdb:schip-del_gem-1882-1-Alberdina .
+
+mdb:schip-del_gem-1891-93-Ceres
+        owl:sameAs  mdb:schip-del_gem-1893-71-Ceres .
+
+mdb:aanmonstering-del_gem-1855-54
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010771348:mpeg21:a0033:ocr> .
+
+mdb:aanmonstering-del_gem-1865-73
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010139298:mpeg21:a0025:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010138096:mpeg21:a0031:ocr> .
+
+mdb:schip-del_gem-1887-15-Fruiterer
+        owl:sameAs  mdb:schip-del_gem-1889-79-Fruiterer .
+
+mdb:schip-del_gem-1885-72-Ems
+        owl:sameAs  mdb:schip-del_gem-1887-89-Ems .
+
+mdb:schip-del_gem-1884-72-Hendrik_Onnes
+        owl:sameAs  mdb:schip-del_gem-1895-59-Hendrik_Onnes .
+
+mdb:aanmonstering-del_gem-1868-3
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010141105:mpeg21:a0021:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010116586:mpeg21:a0069:ocr> .
+
+mdb:aanmonstering-del_gem-1848-1
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010076049:mpeg21:a0009:ocr> .
+
+gzmvoc:telling-4453-Suijd-Beveland
+        gzmvoc:has_das_link_heen  das:voyage-3712_1 .
+
+mdb:aanmonstering-del_gem-1852-21
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:000017119:mpeg21:a0033:ocr> .
+
+mdb:aanmonstering-del_gem-1858-2
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010115779:mpeg21:a0034:ocr> .
+
+mdb:aanmonstering-del_gem-1860-33
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010131822:mpeg21:a0019:ocr> .
+
+mdb:schip-del_gem-1872-9-Geessien_Schreuder
+        owl:sameAs  mdb:schip-del_gem-1874-131-Geessien_Schreuder .
+
+mdb:schip-del_gem-1890-37-Aurora
+        owl:sameAs  mdb:schip-del_gem-1891-59-Aurora .
+
+mdb:schip-del_gem-1868-23-Concordia
+        owl:sameAs  mdb:schip-del_gem-1868-62-Concordia .
+
+mdb:aanmonstering-del_gem-1860-152
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010240495:mpeg21:a0049:ocr> .
+
+mdb:aanmonstering-del_gem-1863-11
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010544205:mpeg21:a0014:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010518341:mpeg21:a0010:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010518091:mpeg21:a0011:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010395693:mpeg21:a0009:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010138041:mpeg21:a0009:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010114920:mpeg21:a0019:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010087485:mpeg21:a0009:ocr> .
+
+mdb:schip-gasselte-1909-21-Norma
+        owl:sameAs  mdb:schip-gasselte-1910-1-Norma .
+
+mdb:aanmonstering-del_gem-1865-13
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010139057:mpeg21:a0033:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010138123:mpeg21:a0032:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010130051:mpeg21:a0031:ocr> .
+
+mdb:aanmonstering-del_gem-1868-16
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010139316:mpeg21:a0043:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010139146:mpeg21:a0041:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010138649:mpeg21:a0006:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010111180:mpeg21:a0067:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010098304:mpeg21:a0012:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010528896:mpeg21:a0016:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010140795:mpeg21:a0011:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010139594:mpeg21:a0008:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010398494:mpeg21:a0082:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010139378:mpeg21:a0008:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010140196:mpeg21:a0013:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010097610:mpeg21:a0015:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010139298:mpeg21:a0026:ocr> .
+
+ns2:captain_peter_jacobssonn
+        owl:sameAs  ns2:captain_805_peter_jacobssonn .
+
+mdb:aanmonstering-del_gem-1858-99
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010388579:mpeg21:a0019:ocr> .
+
+mdb:aanmonstering-del_gem-1865-105
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010129817:mpeg21:a0027:ocr> .
+
+mdb:aanmonstering-del_gem-1865-85
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010973128:mpeg21:a0031:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010973029:mpeg21:a0011:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010116428:mpeg21:a0057:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010100602:mpeg21:a0029:ocr> .
+
+mdb:aanmonstering-del_gem-1840-12
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010978662:mpeg21:a0019:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010772189:mpeg21:a0017:ocr> .
+
+mdb:schip-oude_pekela-1872-5-Susanna
+        owl:sameAs  mdb:schip-oude_pekela-1877-6-Susanna .
+
+mdb:aanmonstering-del_gem-1845-17
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010518135:mpeg21:a0009:ocr> .
+
+mdb:schip-veen_veen-1839-14-Nijverheid
+        owl:sameAs  mdb:schip-veen_veen-1844-14-Nijverheid .
+
+ns2:captain_clauss_wadterhundt
+        owl:sameAs  ns2:captain_1558_clauss_wadterhundt .
+
+mdb:aanmonstering-del_gem-1858-39
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010771980:mpeg21:a0026:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010771320:mpeg21:a0026:ocr> .
+
+mdb:schip-veen_wild-1850-25-Agina_Uindina
+        owl:sameAs  mdb:schip-veen_wild-1854-26-Agina_Uindina .
+
+mdb:schip-del_gem-1881-101-Trijntje
+        owl:sameAs  mdb:schip-del_gem-1891-4-Trijntje .
+
+mdb:schip-del_gem-1868-63-Amicitia
+        owl:sameAs  mdb:schip-del_gem-1869-21-Amicitia .
+
+mdb:aanmonstering-del_gem-1864-24
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010139154:mpeg21:a0014:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:000020604:mpeg21:a0058:ocr> .
+
+mdb:aanmonstering-del_gem-1863-23
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010132394:mpeg21:a0031:ocr> .
+
+mdb:aanmonstering-del_gem-1861-16
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010136926:mpeg21:a0039:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010130544:mpeg21:a0020:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010115227:mpeg21:a0042:ocr> .
+
+mdb:aanmonstering-del_gem-1865-25
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010397729:mpeg21:a0026:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010137737:mpeg21:a0045:ocr> .
+
+mdb:aanmonstering-del_gem-1860-134
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010981187:mpeg21:a0034:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010398056:mpeg21:a0026:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010087775:mpeg21:a0027:ocr> .
+
+ns2:captain_claes_pieterschon
+        a       ns2:Person .
+
+mdb:aanmonstering-del_gem-1858-70
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:011067726:mpeg21:a0035:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:011066834:mpeg21:a0020:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:011065479:mpeg21:a0020:ocr> .
+
+mdb:aanmonstering-del_gem-1860-104
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:000017605:mpeg21:a0018:ocr> .
+
+mdb:aanmonstering-del_gem-1840-24
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010081690:mpeg21:a0026:ocr> .
+
+mdb:aanmonstering-del_gem-1842-26
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010394691:mpeg21:a0008:ocr> .
+
+mdb:aanmonstering-del_gem-1845-29
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010771045:mpeg21:a0027:ocr> .
+
+mdb:aanmonstering-del_gem-1858-10
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010771278:mpeg21:a0031:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010074022:mpeg21:a0031:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010073445:mpeg21:a0011:ocr> .
+
+ns2:ship_walfisch  ns2:hasIDShip  "857" .
+
+mdb:schip-del_gem-1862-90-Concordia
+        owl:sameAs  mdb:schip-del_gem-1865-86-Concordia .
+
+mdb:aanmonstering-del_gem-1852-15
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010771980:mpeg21:a0026:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010114834:mpeg21:a0036:ocr> .
+
+mdb:aanmonstering-del_gem-1827-8
+        dss:hasOriginalScan  <http://dmd.ops.labs.vu.nl/delfzijl/100_8068.jpg> .
+
+mdb:aanmonstering-del_gem-1866-38
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010528896:mpeg21:a0016:ocr> .
+
+ns2:captain_cornelius_autssen
+        ns2:hasHometown  ns2:terschelling .
+
+mdb:aanmonstering-del_gem-1858-82
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010771980:mpeg21:a0026:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010087935:mpeg21:a0014:ocr> .
+
+mdb:schip-del_gem-1878-92-Felicitas
+        owl:sameAs  mdb:schip-del_gem-1880-144-Felicitas .
+
+mdb:aanmonstering-del_gem-1862-60
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010131936:mpeg21:a0021:ocr> .
+
+mdb:aanmonstering-del_gem-1847-32
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010397662:mpeg21:a0018:ocr> .
+
+mdb:schip-del_gem-1878-67-Drie_Gebroeders
+        owl:sameAs  mdb:schip-del_gem-1882-18-Drie_Gebroeders .
+
+mdb:schip-del_gem-1879-59-Drie_Gebroeders
+        owl:sameAs  mdb:schip-del_gem-1880-76-Drie_Gebroeders .
+
+mdb:aanmonstering-del_gem-1868-41
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010131451:mpeg21:a0026:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010130150:mpeg21:a0022:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010131567:mpeg21:a0025:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010140793:mpeg21:a0013:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010131988:mpeg21:a0024:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010139106:mpeg21:a0034:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010087798:mpeg21:a0026:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010132219:mpeg21:a0025:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010141050:mpeg21:a0010:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010141058:mpeg21:a0010:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010139817:mpeg21:a0026:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010136892:mpeg21:a0041:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010137795:mpeg21:a0014:ocr> .
+
+mdb:aanmonstering-del_gem-1863-47
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010138138:mpeg21:a0031:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010137385:mpeg21:a0035:ocr> .
+
+mdb:schip-del_gem-1897-21-Jan_Sievert
+        owl:sameAs  mdb:schip-del_gem-1899-62-Jan_Sievert .
+
+mdb:aanmonstering-del_gem-1867-10
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010116738:mpeg21:a0066:ocr> .
+
+mdb:aanmonstering-del_gem-1862-6
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010139766:mpeg21:a0018:ocr> .
+
+das:person-2577_6-Roset
+        skos:inScheme  das:PersonConceptScheme .
+
+mdb:aanmonstering-del_gem-1858-94
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010136868:mpeg21:a0019:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010087883:mpeg21:a0030:ocr> .
+
+mdb:schip-del_gem-1867-44-Weea
+        owl:sameAs  mdb:schip-del_gem-1872-12-Weea .
+
+mdb:schip-veen_veen-1839-30-Jantje
+        owl:sameAs  mdb:schip-veen_veen-1847-45-Jantje .
+
+mdb:aanmonstering-del_gem-1866-81
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010140849:mpeg21:a0017:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010139300:mpeg21:a0010:ocr> .
+
+mdb:schip-gasselte-1906-3-Zwaluw
+        owl:sameAs  mdb:schip-gasselte-1911-2-Zwaluw .
+
+mdb:schip-del_gem-1896-41-Albatros
+        owl:sameAs  mdb:schip-del_gem-1897-20-Albatros .
+
+mdb:schip-del_gem-1889-113-Auguste
+        owl:sameAs  mdb:schip-del_gem-1890-44-Auguste .
+
+mdb:schip-del_gem-1860-132-Catharina_Lutgerdina
+        owl:sameAs  mdb:schip-del_gem-1864-19-Catharina_Lutgerdina .
+
+mdb:aanmonstering-del_gem-1839-3
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010770883:mpeg21:a0002:ocr> .
+
+mdb:schip-del_gem-1897-81-Cornelia
+        owl:sameAs  mdb:schip-oude_pekela-1895-2-Cornelia .
+
+mdb:aanmonstering-del_gem-1863-3
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010137385:mpeg21:a0035:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010137319:mpeg21:a0022:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010136807:mpeg21:a0045:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010132303:mpeg21:a0033:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010110684:mpeg21:a0058:ocr> .
+
+das:person-6958_5-Krielaard
+        skos:inScheme  das:PersonConceptScheme .
+
+mdb:schip-del_gem-1861-54-Concordia
+        owl:sameAs  mdb:schip-del_gem-1867-26-Concordia .
+
+mdb:aanmonstering-del_gem-1888-56
+        dss:hasOriginalScan  <http://dmd.ops.labs.vu.nl/delfzijl/100_8910.jpg> .
+
+mdb:schip-del_gem-1892-16-San_Francisco
+        owl:sameAs  mdb:schip-del_gem-1894-27-San_Francisco .
+
+mdb:aanmonstering-del_gem-1863-29
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010772704:mpeg21:a0026:ocr> .
+
+mdb:aanmonstering-del_gem-1861-83
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010138013:mpeg21:a0034:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010136982:mpeg21:a0045:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010131412:mpeg21:a0031:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010130407:mpeg21:a0017:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010129908:mpeg21:a0035:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010087785:mpeg21:a0036:ocr> .
+
+mdb:schip-del_gem-1876-114-Concordia
+        owl:sameAs  mdb:schip-del_gem-1876-173-Concordia .
+
+mdb:aanmonstering-del_gem-1841-20
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010770919:mpeg21:a0020:ocr> .
+
+ns2:captain_feicke_siemensonn
+        ns2:altLabel  "Fekke Simons" .
+
+mdb:aanmonstering-del_gem-1852-40
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:000016349:mpeg21:a0033:ocr> .
+
+mdb:aanmonstering-del_gem-1844-23
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010074834:mpeg21:a0010:ocr> .
+
+mdb:schip-hoog_sapp-1845-4-Liefdadigheid
+        owl:sameAs  mdb:schip-gron_archgron-1843-27b-Liefdadigheid .
+
+mdb:aanmonstering-del_gem-1864-61
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010138024:mpeg21:a0011:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010129880:mpeg21:a0031:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010114386:mpeg21:a0010:ocr> .
+
+das:person-4705_1-Klopper
+        skos:inScheme  das:PersonConceptScheme .
+
+mdb:schip-del_gem-1873-117-Geessien_Schreuder
+        owl:sameAs  mdb:schip-del_gem-1875-108-Geessien_Schreuder .
+
+mdb:aanmonstering-del_gem-1886-96
+        dss:hasOriginalScan  <http://dmd.ops.labs.vu.nl/delfzijl/100_8877.jpg> .
+
+mdb:aanmonstering-del_gem-1852-10
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010518341:mpeg21:a0010:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010518091:mpeg21:a0011:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010114920:mpeg21:a0019:ocr> .
+
+mdb:aanmonstering-del_gem-1837-4
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010071636:mpeg21:a0012:ocr> .
+
+mdb:aanmonstering-del_gem-1827-3
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010074513:mpeg21:a0023:ocr> .
+
+mdb:aanmonstering-del_gem-1863-30
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010129954:mpeg21:a0016:ocr> .
+
+mdb:aanmonstering-del_gem-1868-35
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010139299:mpeg21:a0007:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010139744:mpeg21:a0004:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010129817:mpeg21:a0035:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010140015:mpeg21:a0009:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010138096:mpeg21:a0031:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:000010548:mpeg21:a0031:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010139298:mpeg21:a0025:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010390007:mpeg21:a0030:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010528666:mpeg21:a0013:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010138034:mpeg21:a0009:ocr> .
+
+mdb:aanmonstering-del_gem-1865-32
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010253592:mpeg21:a0017:ocr> .
+
+mdb:aanmonstering-del_gem-1867-7
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010528577:mpeg21:a0012:ocr> .
+
+ns2:ship_guldene_flunder
+        owl:sameAs  ns2:ship_264_guldene_flunder .
+
+mdb:aanmonstering-del_gem-1859-17
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010076103:mpeg21:a0011:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010075645:mpeg21:a0010:ocr> .
+
+mdb:schip-gron_archgron-1851-53-Harmonie
+        owl:sameAs  mdb:schip-veen_veen-1851-9-Harmonie .
+
+mdb:aanmonstering-del_gem-1900-12
+        dss:hasOriginalScan  <http://dmd.ops.labs.vu.nl/delfzijl/100_9413.jpg> .
+
+mdb:schip-del_gem-1872-18-Ecliptica
+        owl:sameAs  mdb:schip-del_gem-1877-60-Ecliptica .
+
+mdb:schip-del_gem-1903-19-Mathilde
+        owl:sameAs  mdb:schip-del_gem-1906-98a-Mathilde .
+
+mdb:aanmonstering-del_gem-1860-111
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010138013:mpeg21:a0034:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010136982:mpeg21:a0045:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010087785:mpeg21:a0036:ocr> .
+
+mdb:aanmonstering-del_gem-1858-88
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:000017605:mpeg21:a0018:ocr> .
+
+mdb:plaats-Dokkum_NL  skos:exactMatch  <http://sws.geonames.org/2756759/> .
+
+mdb:schip-veen_veen-1841-26-Gezina_Harmina
+        owl:sameAs  mdb:schip-veen_veen-1846-31-Gezina_Harmina .
+
+gzmvoc:telling-49-Dreghterlandt
+        gzmvoc:has_das_link_terug  das:voyage-5906_1 .
+
+mdb:aanmonstering-del_gem-1846-37
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010080210:mpeg21:a0026:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010069530:mpeg21:a0012:ocr> .
+
+mdb:aanmonstering-del_gem-1857-57
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010772721:mpeg21:a0032:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010114948:mpeg21:a0024:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010087567:mpeg21:a0013:ocr> .
+
+mdb:schip-del_gem-1889-48-Trijntje
+        owl:sameAs  mdb:schip-del_gem-1894-39-Trijntje .
+
+ns2:ship_stadt_harling
+        ns2:altLabel  "Stad Harlingen" .
+
+mdb:aanmonstering-del_gem-1852-22
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010073436:mpeg21:a0025:ocr> .
+
+mdb:aanmonstering-del_gem-1848-2
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010972499:mpeg21:a0013:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010972492:mpeg21:a0008:ocr> .
+
+mdb:aanmonstering-del_gem-1868-4
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010262802:mpeg21:a0033:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010097731:mpeg21:a0018:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010097603:mpeg21:a0029:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010141029:mpeg21:a0007:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010098881:mpeg21:a0050:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010140847:mpeg21:a0017:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010117177:mpeg21:a0067:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010141160:mpeg21:a0017:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:000020493:mpeg21:a0032:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010116918:mpeg21:a0044:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010116945:mpeg21:a0080:ocr> .
+
+mdb:aanmonstering-del_gem-1864-43
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010138138:mpeg21:a0031:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010132271:mpeg21:a0034:ocr> .
+
+mdb:schip-nw_pek_gemarch-1819-29-Vrouw_Gesina
+        owl:sameAs  mdb:schip-nw_pek_gemarch-1820-11-Vrouw_Gesina .
+
+mdb:aanmonstering-del_gem-1862-1
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010980842:mpeg21:a0022:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010397776:mpeg21:a0016:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010082040:mpeg21:a0038:ocr> .
+
+mdb:aanmonstering-del_gem-1859-29
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010130544:mpeg21:a0020:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010115227:mpeg21:a0042:ocr> .
+
+mdb:aanmonstering-del_gem-1859-90
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010397115:mpeg21:a0016:ocr> .
+
+mdb:schip-del_gem-1883-74-Albertine
+        owl:sameAs  mdb:schip-del_gem-1889-42-Albertine .
+
+mdb:schip-del_gem-1878-100-Ems
+        owl:sameAs  mdb:schip-del_gem-1884-70-Ems .
+
+mdb:aanmonstering-del_gem-1866-15
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010389945:mpeg21:a0057:ocr> .
+
+mdb:aanmonstering-del_gem-1867-16
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010139376:mpeg21:a0010:ocr> .
+
+foaf:Person  a  rdfs:Class .
+
+mdb:schip-del_gem-1896-64-Dina
+        owl:sameAs  mdb:schip-del_gem-1898-19-Dina .
+
+ns2:ship_brandarius  ns2:label  "Brandarius" .
+
+mdb:schip-del_gem-1855-83-Zeven_Broeders
+        owl:sameAs  mdb:schip-del_gem-1856-A6-Zeven_Broeders .
+
+mdb:aanmonstering-del_gem-1867-58
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010140067:mpeg21:a0010:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010139729:mpeg21:a0044:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010137797:mpeg21:a0039:ocr> .
+
+gzmvoc:place-Dantzigh
+        skos:inScheme  gzmvoc:GZMPlaceScheme .
+
+das:person-2543_6-Blok
+        skos:inScheme  das:PersonConceptScheme .
+
+mdb:aanmonstering-del_gem-1864-55
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010398537:mpeg21:a0089:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010137259:mpeg21:a0042:ocr> .
+
+mdb:aanmonstering-del_gem-1862-48
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010772704:mpeg21:a0026:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010138013:mpeg21:a0034:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010136982:mpeg21:a0045:ocr> .
+
+mdb:aanmonstering-del_gem-1846-3
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010979143:mpeg21:a0007:ocr> .
+
+ns2:ship_blaue_law  owl:sameAs  ns2:ship_61_blaue_law .
+
+mdb:schip-veen_wild-1911-3-Poolster
+        owl:sameAs  mdb:schip-veen_wild-1913-9-Poolster .
+
+<http://nl.dbpedia.org/resource/Kotter>
+        ns6:wikiPageRevisionID  40710763 .
+
+mdb:schip-del_gem-1869-36-Catharina_Lutgerdina
+        owl:sameAs  mdb:schip-del_gem-1869-47-Catharina_Lutgerdina .
+
+<http://nl.dbpedia.org/resource/Vrouw>
+        ns6:wikiPageRevisionID  40724999 .
+
+mdb:schip-del_gem-1857-23-Maria_Edina
+        owl:sameAs  mdb:schip-del_gem-1862-80-Maria_Edina .
+
+mdb:aanmonstering-del_gem-1858-71
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010138336:mpeg21:a0032:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010129880:mpeg21:a0041:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010098319:mpeg21:a0029:ocr> .
+
+mdb:schip-veen_wild-1851-20-Geerdina
+        owl:sameAs  mdb:schip-veen_wild-1860-18-Geerdina .
+
+mdb:aanmonstering-gron_archgron-1831-12
+        dss:hasOriginalScan  <http://dmd.ops.labs.vu.nl/stadgroningen/1399-6511_128.jpg> .
+
+mdb:aanmonstering-del_gem-1843-28
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010074469:mpeg21:a0012:ocr> .
+
+das:person-8306_2-Jager
+        skos:inScheme  das:PersonConceptScheme .
+
+mdb:aanmonstering-del_gem-1860-58
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010981028:mpeg21:a0036:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010087907:mpeg21:a0015:ocr> .
+
+mdb:aanmonstering-del_gem-1867-2
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010138464:mpeg21:a0038:ocr> .
+
+ns2:captain_adriann_petersonn
+        ns2:altLabel  "Adrian Peters" .
+
+mdb:aanmonstering-del_gem-1859-12
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010980555:mpeg21:a0012:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010978978:mpeg21:a0008:ocr> .
+
+mdb:schip-del_gem-1858-90-Hillechiena
+        owl:sameAs  mdb:schip-del_gem-1866-14-Hillechiena .
+
+mdb:aanmonstering-del_gem-1838-50
+        dss:hasOriginalScan  <http://dmd.ops.labs.vu.nl/delfzijl/100_8280.jpg> .
+
+ns2:captain_jacob_gertsen
+        a       ns2:Person .
+
+mdb:schip-del_gem-1875-8-Maria_Theresia
+        owl:sameAs  mdb:schip-del_gem-1879-12-Maria_Theresia .
+
+mdb:aanmonstering-del_gem-1859-54
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010138013:mpeg21:a0034:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010136982:mpeg21:a0045:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010131412:mpeg21:a0031:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010130407:mpeg21:a0017:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010129908:mpeg21:a0035:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010087785:mpeg21:a0036:ocr> .
+
+mdb:aanmonstering-del_gem-1901-50
+        dss:hasOriginalScan  <http://dmd.ops.labs.vu.nl/delfzijl/100_9558.jpg> .
+
+mdb:aanmonstering-del_gem-1861-30
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010136807:mpeg21:a0045:ocr> .
+
+mdb:aanmonstering-gron_archgron-1855-20
+        dss:hasOriginalScan  <http://dmd.ops.labs.vu.nl/stadgroningen/1399-6513_392.jpg> .
+
+mdb:aanmonstering-del_gem-1868-42
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010140589:mpeg21:a0007:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010101569:mpeg21:a0039:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010099606:mpeg21:a0016:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010099013:mpeg21:a0041:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010098606:mpeg21:a0044:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010098524:mpeg21:a0043:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010097795:mpeg21:a0031:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010097776:mpeg21:a0017:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:000010730:mpeg21:a0013:ocr> .
+
+ns2:ship_koenig_david
+        ns2:altLabel  "Koning David" .
+
+mdb:aanmonstering-del_gem-1858-105
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010980882:mpeg21:a0017:ocr> .
+
+mdb:schip-del_gem-1892-59-Albatros
+        owl:sameAs  mdb:schip-del_gem-1897-20-Albatros .
+
+mdb:aanmonstering-del_gem-1865-3
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010140849:mpeg21:a0017:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010139300:mpeg21:a0010:ocr> .
+
+mdb:aanmonstering-del_gem-1838-7
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010394160:mpeg21:a0005:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010394155:mpeg21:a0008:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010174856:mpeg21:a0004:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010067821:mpeg21:a0009:ocr> .
+
+mdb:aanmonstering-del_gem-1867-11
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010139955:mpeg21:a0033:ocr> .
+
+mdb:aanmonstering-del_gem-1863-48
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010397729:mpeg21:a0026:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010137737:mpeg21:a0045:ocr> .
+
+mdb:aanmonstering-del_gem-1866-10
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:000017605:mpeg21:a0018:ocr> .
+
+mdb:aanmonstering-del_gem-1815-9
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010977520:mpeg21:a0023:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010521487:mpeg21:a0005:ocr> .
+
+mdb:aanmonstering-del_gem-1862-7
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010132335:mpeg21:a0028:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010131969:mpeg21:a0043:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010129859:mpeg21:a0028:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010111207:mpeg21:a0037:ocr> .
+
+ns2:captain_simon_morian
+        owl:sameAs  ns2:captain_1188_simon_morian .
+
+mdb:aanmonstering-del_gem-1858-95
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010516908:mpeg21:a0009:ocr> .
+
+mdb:aanmonstering-del_gem-1859-96
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010772721:mpeg21:a0032:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010114948:mpeg21:a0024:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010087567:mpeg21:a0013:ocr> .
+
+mdb:schip-gasselte-1905-6-Spes_Mea
+        owl:sameAs  mdb:schip-gasselte-1913-4-Spes_Mea .
+
+ns3:Submit  rdfs:subClassOf  ns3:Activity .
+
+mdb:aanmonstering-del_gem-1865-81
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010528896:mpeg21:a0016:ocr> .
+
+mdb:aanmonstering-del_gem-1862-73
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010139347:mpeg21:a0012:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010137716:mpeg21:a0029:ocr> .
+
+ns2:ship_koenig_von_schweden
+        a       ns2:Ship .
+
+mdb:aanmonstering-del_gem-1860-41
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010139376:mpeg21:a0010:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010138096:mpeg21:a0031:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010132196:mpeg21:a0036:ocr> .
+
+mdb:aanmonstering-del_gem-1866-52
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:000010650:mpeg21:a0031:ocr> .
+
+mdb:aanmonstering-del_gem-1840-19
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010979446:mpeg21:a0005:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010082404:mpeg21:a0011:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010082340:mpeg21:a0015:ocr> .
+
+das:person-2362_2-Giers
+        skos:inScheme  das:PersonConceptScheme .
+
+mdb:aanmonstering-del_gem-1860-11
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010397028:mpeg21:a0019:ocr> .
+
+mdb:aanmonstering-del_gem-1843-2
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010072612:mpeg21:a0007:ocr> .
+
+mdb:aanmonstering-del_gem-1861-12
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010114312:mpeg21:a0057:ocr> .
+
+mdb:schip-veen_veen-1851-2-Geerdina
+        owl:sameAs  mdb:schip-veen_veen-1855-75-Geerdina .
+
+mdb:aanmonstering-del_gem-1868-24
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010100973:mpeg21:a0045:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010099313:mpeg21:a0020:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010098360:mpeg21:a0027:ocr> .
+
+<http://nl.dbpedia.org/resource/Fritz_Wotruba>
+        ns7:beroep  <http://nl.dbpedia.org/resource/Beeldhouwer> .
+
+mdb:schip-del_gem-1860-87-Jantina_Engelina
+        owl:sameAs  mdb:schip-del_gem-1862-66-Jantina_Engelina .
+
+ns2:ship_abraham_opffer
+        owl:sameAs  ns2:ship_9_abraham_opffer .
+
+mdb:aanmonstering-del_gem-1865-93
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010140589:mpeg21:a0007:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010101569:mpeg21:a0039:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010098606:mpeg21:a0044:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010098524:mpeg21:a0043:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010097795:mpeg21:a0031:ocr> .
+
+mdb:schip-del_gem-1894-35-Hillechiena_Helena
+        owl:sameAs  mdb:schip-del_gem-1895-28-Hillechiena_Helena .
+
+mdb:aanmonstering-del_gem-1859-78
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010771980:mpeg21:a0026:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010087935:mpeg21:a0014:ocr> .
+
+mdb:schip-del_gem-1864-51-Geessien_Schreuder
+        owl:sameAs  mdb:schip-del_gem-1868-34-Geessien_Schreuder .
+
+mdb:aanmonstering-del_gem-1863-61
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010138013:mpeg21:a0034:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010136982:mpeg21:a0045:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010131412:mpeg21:a0031:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010130407:mpeg21:a0017:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010129908:mpeg21:a0035:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010087785:mpeg21:a0036:ocr> .
+
+mdb:aanmonstering-del_gem-1866-64
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010139376:mpeg21:a0010:ocr> .
+
+ns2:captain_harde_jacobson
+        ns2:hasHometown  ns2:buiksloot .
+
+mdb:aanmonstering-del_gem-1864-1
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010138464:mpeg21:a0038:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010130099:mpeg21:a0020:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010129836:mpeg21:a0033:ocr> .
+
+mdb:schip-del_gem-1873-12-Harmanna_Dijk
+        owl:sameAs  mdb:schip-del_gem-1876-199-Harmanna_Dijk .
+
+mdb:aanmonstering-del_gem-1855-14
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:000016427:mpeg21:a0013:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:000016349:mpeg21:a0033:ocr> .
+
+mdb:aanmonstering-del_gem-1867-8
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010543585:mpeg21:a0009:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010141030:mpeg21:a0031:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010138042:mpeg21:a0032:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010101570:mpeg21:a0032:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010097770:mpeg21:a0017:ocr> .
+
+mdb:aanmonstering-del_gem-1875-47
+        dss:hasOriginalScan  <http://dmd.ops.labs.vu.nl/delfzijl/100_8606.jpg> .
+
+mdb:aanmonstering-del_gem-1841-3
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010979112:mpeg21:a0020:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010770959:mpeg21:a0023:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010081750:mpeg21:a0031:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010080221:mpeg21:a0036:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010075981:mpeg21:a0013:ocr> .
+
+mdb:aanmonstering-del_gem-1851-4
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010113079:mpeg21:a0031:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010083517:mpeg21:a0010:ocr> .
+
+mdb:aanmonstering-veen_wild-1845-4
+        dss:hasOriginalScan  <http://dmd.ops.labs.vu.nl/wildervank/100_0630.jpg> .
+
+mdb:schip-del_gem-1900-48-Hoogezand_I
+        owl:sameAs  mdb:schip-del_gem-1911-94-Hoogezand_I .
+
+mdb:aanmonstering-del_gem-1860-95
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010772704:mpeg21:a0026:ocr> .
+
+mdb:aanmonstering-del_gem-1862-97
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010389302:mpeg21:a0046:ocr> .
+
+ns2:captain_siemon_adrianssen
+        ns2:hasHometown  ns2:harlingen .
+
+ns2:captain_petter_jacobssen
+        ns2:hasHometown  ns2:terschelling .
+
+mdb:aanmonstering-del_gem-1840-32
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010770852:mpeg21:a0019:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010071348:mpeg21:a0010:ocr> .
+
+mdb:schip-gron_archgron-1847-31-Ceres
+        owl:sameAs  mdb:schip-veen_veen-1857-29-Ceres .
+
+mdb:aanmonstering-del_gem-1863-73
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010140067:mpeg21:a0010:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010139729:mpeg21:a0044:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010137797:mpeg21:a0039:ocr> .
+
+mdb:schip-del_gem-1870-43-Cornelia
+        owl:sameAs  mdb:schip-del_gem-1874-105-Cornelia .
+
+ns2:ship_ost_friesslant
+        owl:sameAs  ns2:ship_566_ost_friesslant .
+
+mdb:schip-del_gem-1869-30-Geessien_Schreuder
+        owl:sameAs  mdb:schip-del_gem-1870-68-Geessien_Schreuder .
+
+mdb:aanmonstering-del_gem-1863-13
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010975797:mpeg21:a0064:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010139126:mpeg21:a0028:ocr> .
+
+mdb:aanmonstering-del_gem-1865-15
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010138138:mpeg21:a0031:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010137385:mpeg21:a0035:ocr> .
+
+mdb:aanmonstering-del_gem-1904-41b
+        dss:hasOriginalScan  <http://dmd.ops.labs.vu.nl/delfzijl/100_9209.jpg> .
+
+mdb:aanmonstering-del_gem-1860-124
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010981028:mpeg21:a0036:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010087907:mpeg21:a0015:ocr> .
+
+mdb:aanmonstering-del_gem-1868-18
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010097820:mpeg21:a0018:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010529028:mpeg21:a0023:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010138006:mpeg21:a0033:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010129854:mpeg21:a0040:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010097654:mpeg21:a0024:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010138625:mpeg21:a0008:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010097791:mpeg21:a0020:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010139154:mpeg21:a0014:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010129882:mpeg21:a0041:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010137777:mpeg21:a0035:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:000020604:mpeg21:a0058:ocr> .
+
+mdb:aanmonstering-del_gem-1828-19
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010582565:mpeg21:a0012:ocr> .
+
+mdb:aanmonstering-del_gem-1838-38
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010396588:mpeg21:a0021:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010393623:mpeg21:a0006:ocr> .
+
+mdb:plaats-Esbjerg_DK
+        skos:inScheme  mdb:MDBPlaceScheme .
+
+mdb:aanmonstering-del_gem-1861-78
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010104483:mpeg21:a0065:ocr> .
+
+mdb:aanmonstering-del_gem-1848-11
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010076993:mpeg21:a0008:ocr> .
+
+mdb:aanmonstering-del_gem-1893-35
+        dss:hasOriginalScan  <http://dmd.ops.labs.vu.nl/delfzijl/100_9030.jpg> .
+
+mdb:aanmonstering-del_gem-1840-14
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010246959:mpeg21:a0019:ocr> .
+
+mdb:aanmonstering-del_gem-1863-55
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010129817:mpeg21:a0027:ocr> .
+
+mdb:schip-del_gem-1896-16-Alida_Agina
+        owl:sameAs  mdb:schip-del_gem-1897-9-Alida_Agina .
+
+mdb:aanmonstering-del_gem-1846-4
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010979449:mpeg21:a0007:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010082412:mpeg21:a0012:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010082038:mpeg21:a0028:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010075557:mpeg21:a0010:ocr> .
+
+mdb:aanmonstering-del_gem-1863-25
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010138050:mpeg21:a0032:ocr> .
+
+ns2:captain_willem_pieterson
+        a       ns2:Person .
+
+mdb:aanmonstering-del_gem-1865-27
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010138013:mpeg21:a0034:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010136982:mpeg21:a0045:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010131412:mpeg21:a0031:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010130407:mpeg21:a0017:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010129908:mpeg21:a0035:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010087785:mpeg21:a0036:ocr> .
+
+mdb:aanmonstering-del_gem-1867-29
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010973128:mpeg21:a0031:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010101549:mpeg21:a0022:ocr> .
+
+mdb:aanmonstering-del_gem-1862-80
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010138013:mpeg21:a0034:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010136982:mpeg21:a0045:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010131412:mpeg21:a0031:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010130407:mpeg21:a0017:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010129908:mpeg21:a0035:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010087785:mpeg21:a0036:ocr> .
+
+mdb:aanmonstering-del_gem-1858-72
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:011067726:mpeg21:a0035:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:011066834:mpeg21:a0020:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:011065479:mpeg21:a0020:ocr> .
+
+mdb:schip-del_gem-1877-36-Elisabeth
+        owl:sameAs  mdb:schip-del_gem-1879-71-Elisabeth .
+
+mdb:schip-veen_veen-1849-28-Castor
+        owl:sameAs  mdb:schip-veen_veen-1851-42-Castor .
+
+mdb:schip-del_gem-1878-93-Martha
+        owl:sameAs  mdb:schip-del_gem-1895-13-Martha .
+
+mdb:aanmonstering-del_gem-1865-69
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010140589:mpeg21:a0007:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010101569:mpeg21:a0039:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010098606:mpeg21:a0044:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010098524:mpeg21:a0043:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010097795:mpeg21:a0031:ocr> .
+
+mdb:aanmonstering-del_gem-1847-1
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010075608:mpeg21:a0012:ocr> .
+
+das:person-2310_1-Dobbel
+        skos:inScheme  das:PersonConceptScheme .
+
+mdb:aanmonstering-del_gem-1862-20
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010772704:mpeg21:a0026:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010398441:mpeg21:a0051:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010389616:mpeg21:a0067:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010389609:mpeg21:a0028:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010130440:mpeg21:a0020:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010115214:mpeg21:a0053:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010112683:mpeg21:a0069:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010087154:mpeg21:a0028:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010083530:mpeg21:a0010:ocr> .
+
+ns2:captain_gert_ohm  owl:sameAs  ns2:captain_1197_gert_ohm .
+
+mdb:aanmonstering-del_gem-1858-12
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010139955:mpeg21:a0033:ocr> .
+
+mdb:schip-del_gem-1879-15-Catharina
+        owl:sameAs  mdb:schip-del_gem-1882-12-Catharina .
+
+das:person-7339_2-Heyden
+        skos:inScheme  das:PersonConceptScheme .
+
+mdb:aanmonstering-del_gem-1841-9
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010071636:mpeg21:a0012:ocr> .
+
+das:person-6752_2-Verbeek
+        skos:inScheme  das:PersonConceptScheme .
+
+mdb:aanmonstering-del_gem-1844-31
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010394687:mpeg21:a0009:ocr> .
+
+mdb:aanmonstering-del_gem-1866-71
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010098591:mpeg21:a0025:ocr> .
+
+mdb:aanmonstering-del_gem-1867-72
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010138464:mpeg21:a0038:ocr> .
+
+ns2:captain_pieter_cornelissen
+        ns2:hasHometown  ns2:vlieland .
+
+ns2:ship_schwarze_raben
+        ns2:hasID  "1057" .
+
+mdb:schip-del_gem-1884-100-Cornelia
+        owl:sameAs  mdb:schip-oude_pekela-1896-1-Cornelia .
+
+mdb:aanmonstering-del_gem-1862-32
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010137385:mpeg21:a0035:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010137319:mpeg21:a0022:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010136807:mpeg21:a0045:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010132303:mpeg21:a0033:ocr> .
+
+mdb:schip-veen_veen-1846-8-Marchiena
+        owl:sameAs  mdb:schip-veen_veen-1847-7-Marchiena .
+
+ns2:ship_verlorne_sohn
+        ns2:hasIDShip  "825" .
+
+mdb:schip-del_gem-1879-134-Elsien_Hagenus
+        owl:sameAs  mdb:schip-del_gem-1880-27-Elsien_Hagenus .
+
+mdb:schip-del_gem-1879-67-Maria_Theresia
+        owl:sameAs  mdb:schip-del_gem-1880-52-Maria_Theresia .
+
+mdb:aanmonstering-del_gem-1865-10
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010389956:mpeg21:a0062:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010129825:mpeg21:a0034:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010116947:mpeg21:a0066:ocr> .
+
+das:person-334_3-Amersfoort
+        skos:inScheme  das:PersonConceptScheme .
+
+ns2:captain_luttet_helling
+        a       ns2:Person .
+
+mdb:aanmonstering-del_gem-1866-11
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010140849:mpeg21:a0017:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010139300:mpeg21:a0010:ocr> .
+
+mdb:aanmonstering-del_gem-1868-13
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:011008623:mpeg21:a0051:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010097768:mpeg21:a0012:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010140842:mpeg21:a0017:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010129910:mpeg21:a0035:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:011008622:mpeg21:a0063:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010398509:mpeg21:a0083:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010129913:mpeg21:a0026:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010139978:mpeg21:a0038:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010110898:mpeg21:a0028:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010139744:mpeg21:a0004:ocr> .
+
+mdb:aanmonstering-del_gem-1862-8
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010772721:mpeg21:a0032:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010389693:mpeg21:a0036:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010087775:mpeg21:a0027:ocr> .
+
+mdb:schip-del_gem-1857-63-Geziena_Helena
+        owl:sameAs  mdb:schip-del_gem-1863-14-Geziena_Helena .
+
+mdb:aanmonstering-del_gem-1859-97
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010136926:mpeg21:a0039:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010130544:mpeg21:a0020:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010115227:mpeg21:a0042:ocr> .
+
+mdb:schip-del_gem-1881-68-Hendrik_Onnes
+        owl:sameAs  mdb:schip-del_gem-1891-31-Hendrik_Onnes .
+
+mdb:aanmonstering-del_gem-1865-102
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010140589:mpeg21:a0007:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010101569:mpeg21:a0039:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010098606:mpeg21:a0044:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010098524:mpeg21:a0043:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010097795:mpeg21:a0031:ocr> .
+
+ns2:captain_jan_janson
+        owl:sameAs  ns2:captain_970_jan_janson .
+
+ns2:ship_arca_noae  a  ns2:Ship .
+
+mdb:schip-del_gem-1884-41-Trijntje
+        owl:sameAs  mdb:schip-del_gem-1896-14-Trijntje .
+
+mdb:aanmonstering-del_gem-1843-12
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010271933:mpeg21:a0014:ocr> .
+
+mdb:schip-veen_wild-1908-6-Confiance
+        owl:sameAs  mdb:schip-del_gem-1900-31-Confiance .
+
+mdb:schip-veen_wild-1866-2-Jantina_Alida
+        owl:sameAs  mdb:schip-veen_wild-1873-3-Jantina_Alida .
+
+mdb:schip-veen_veen-1841-19-Vrouw_Johanna
+        owl:sameAs  mdb:schip-veen_veen-1842-10-Vrouw_Johanna .
+
+gzmvoc:telling-4867-Alckemade
+        gzmvoc:has_das_link_heen  das:voyage-4251_3 .
+
+mdb:aanmonstering-del_gem-1867-54
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010973128:mpeg21:a0031:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010973029:mpeg21:a0011:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010116428:mpeg21:a0057:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010100602:mpeg21:a0029:ocr> .
+
+mdb:aanmonstering-del_gem-1862-14
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:000016305:mpeg21:a0038:ocr> .
+
+gzmvoc:telling-1610-Sandenburg
+        gzmvoc:has_das_link_terug  das:voyage-6280_2 .
+
+mdb:schip-veen_veen-1842-1-Marchiena
+        owl:sameAs  mdb:schip-veen_veen-1850-28-Marchiena .
+
+mdb:aanmonstering-del_gem-1866-95
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010140849:mpeg21:a0017:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010139300:mpeg21:a0010:ocr> .
+
+mdb:schip-nw_pek_gemarch-1817-10-Vrouw_Engelina
+        owl:sameAs  mdb:schip-nw_pek_gemarch-1819-23-Vrouw_Engelina .
+
+ns2:ship_weijnberck  owl:sameAs  ns2:ship_1066_weijnberck .
+
+mdb:aanmonstering-del_gem-1864-63
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010528896:mpeg21:a0016:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010139300:mpeg21:a0010:ocr> .
+
+mdb:aanmonstering-del_gem-1861-55
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010136681:mpeg21:a0001:ocr> .
+
+mdb:aanmonstering-del_gem-1866-65
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010132302:mpeg21:a0026:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010132296:mpeg21:a0024:ocr> .
+
+mdb:schip-del_gem-1880-144-Felicitas
+        owl:sameAs  mdb:schip-del_gem-1882-60-Felicitas .
+
+mdb:schip-del_gem-1883-47-Bertha
+        owl:sameAs  mdb:schip-del_gem-1889-12-Bertha .
+
+mdb:schip-del_gem-1863-22-Bouwina
+        owl:sameAs  mdb:schip-del_gem-1873-17-Bouwina , mdb:schip-del_gem-1865-60-Bouwina .
+
+mdb:aanmonstering-del_gem-1852-12
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010979889:mpeg21:a0013:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010979883:mpeg21:a0024:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010518437:mpeg21:a0008:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010080979:mpeg21:a0047:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010076869:mpeg21:a0010:ocr> .
+
+mdb:schip-veen_veen-1848-4-Wendelina
+        owl:sameAs  mdb:schip-veen_veen-1857-27-Wendelina .
+
+mdb:aanmonstering-del_gem-1862-26
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010129860:mpeg21:a0039:ocr> .
+
+mdb:plaats-Hellum_NL  skos:inScheme  mdb:MDBPlaceScheme .
+
+mdb:aanmonstering-del_gem-1867-36
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010141145:mpeg21:a0032:ocr> .
+
+mdb:aanmonstering-del_gem-1861-6
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010104483:mpeg21:a0065:ocr> .
+
+mdb:aanmonstering-del_gem-1851-5
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010076869:mpeg21:a0010:ocr> .
+
+mdb:aanmonstering-del_gem-1859-80
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010772704:mpeg21:a0026:ocr> .
+
+ns2:captain_peter_toniessen
+        owl:sameAs  ns2:captain_1494_peter_toniessen .
+
+mdb:schip-del_gem-1858-60-Annechiena
+        owl:sameAs  mdb:schip-del_gem-1862-10-Annechiena .
+
+mdb:schip-gasselte-1906-11-Goede_Verwachting
+        owl:sameAs  mdb:schip-gasselte-1907-9-Goede_Verwachting .
+
+mdb:schip-del_gem-1893-84-Lucina
+        owl:sameAs  mdb:schip-del_gem-1898-58-Lucina .
+
+mdb:aanmonstering-del_gem-1859-50
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010980478:mpeg21:a0012:ocr> .
+
+mdb:schip-veen_veen-1855-51-Triton
+        owl:sameAs  mdb:schip-veen_veen-1858-26-Triton .
+
+mdb:schip-del_gem-1896-31-Dina
+        owl:sameAs  mdb:schip-del_gem-1909-14c-Dina .
+
+mdb:aanmonstering-del_gem-1863-74
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010772704:mpeg21:a0026:ocr> .
+
+mdb:aanmonstering-del_gem-1839-28
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010246479:mpeg21:a0023:ocr> .
+
+mdb:schip-del_gem-1889-77-Midwolda
+        owl:sameAs  mdb:schip-del_gem-1892-62-Midwolda .
+
+mdb:aanmonstering-del_gem-1858-101
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010115707:mpeg21:a0037:ocr> .
+
+mdb:aanmonstering-del_gem-1838-3
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010771151:mpeg21:a0026:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010072263:mpeg21:a0008:ocr> .
+
+mdb:aanmonstering-del_gem-1858-5
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010396606:mpeg21:a0015:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010073755:mpeg21:a0013:ocr> .
+
+mdb:schip-del_gem-1878-126-Trijntje
+        owl:sameAs  mdb:schip-del_gem-1893-61-Trijntje .
+
+mdb:aanmonstering-del_gem-1911-30
+        dss:hasOriginalScan  <http://dmd.ops.labs.vu.nl/delfzijl/100_9310.jpg> .
+
+mdb:aanmonstering-del_gem-1866-47
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:000017605:mpeg21:a0018:ocr> .
+
+mdb:aanmonstering-del_gem-1857-90
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010771980:mpeg21:a0026:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010114948:mpeg21:a0024:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010087935:mpeg21:a0014:ocr> .
+
+mdb:aanmonstering-del_gem-1859-92
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010240473:mpeg21:a0089:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010136697:mpeg21:a0042:ocr> .
+
+mdb:schip-del_gem-1885-19-Hendrik_Onnes
+        owl:sameAs  mdb:schip-del_gem-1893-54-Hendrik_Onnes .
+
+<http://nl.dbpedia.org/resource/Olga_de_la_Fontaine>
+        ns7:beroep  <http://nl.dbpedia.org/resource/Schrijver> .
+
+mdb:aanmonstering-del_gem-1868-19
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010138445:mpeg21:a0039:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010138378:mpeg21:a0040:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010138363:mpeg21:a0009:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010116469:mpeg21:a0102:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010113524:mpeg21:a0051:ocr> .
+
+mdb:schip-veen_wild-1851-17-Harmina
+        owl:sameAs  mdb:schip-veen_wild-1853-6-Harmina .
+
+ns2:captain_gerdtt_tagkelssen
+        ns2:label  "Gerdtt Tagkelssen" .
+
+mdb:schip-del_gem-1877-131-Alida
+        owl:sameAs  mdb:schip-del_gem-1877-178-Alida .
+
+mdb:aanmonstering-del_gem-1864-87
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:011067970:mpeg21:a0022:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010136807:mpeg21:a0045:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010104431:mpeg21:a0046:ocr> .
+
+mdb:aanmonstering-del_gem-1847-11
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010396756:mpeg21:a0010:ocr> .
+
+mdb:aanmonstering-del_gem-1866-89
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:000010779:mpeg21:a0011:ocr> .
+
+mdb:aanmonstering-del_gem-1849-13
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:000017039:mpeg21:a0039:ocr> .
+
+mdb:aanmonstering-del_gem-1849-1
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010081107:mpeg21:a0031:ocr> .
+
+mdb:aanmonstering-del_gem-1840-15
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010393568:mpeg21:a0006:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010071905:mpeg21:a0007:ocr> .
+
+mdb:aanmonstering-del_gem-1843-18
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010772208:mpeg21:a0014:ocr> .
+
+mdb:schip-del_gem-1875-141-Lammerdina_Ambrosia
+        owl:sameAs  mdb:schip-del_gem-1876-92-Lammerdina_Ambrosia .
+
+mdb:aanmonstering-del_gem-1840-2
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010071872:mpeg21:a0006:ocr> .
+
+mdb:aanmonstering-del_gem-1850-3
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010980285:mpeg21:a0019:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010080250:mpeg21:a0031:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010075308:mpeg21:a0018:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010073281:mpeg21:a0030:ocr> .
+
+mdb:schip-del_gem-1855-16-Alberdina
+        owl:sameAs  mdb:schip-del_gem-1864-12-Alberdina .
+
+mdb:aanmonstering-del_gem-1861-110
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010130544:mpeg21:a0020:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010115227:mpeg21:a0042:ocr> .
+
+mdb:schip-veen_veen-1841-7-Anna_Siberdina
+        owl:sameAs  mdb:schip-veen_veen-1856-29-Anna_Siberdina .
+
+mdb:aanmonstering-del_gem-1844-20
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010394160:mpeg21:a0005:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010394155:mpeg21:a0008:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010174856:mpeg21:a0004:ocr> .
+
+mdb:aanmonstering-del_gem-1856-A46
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010772721:mpeg21:a0032:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010114948:mpeg21:a0024:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010087567:mpeg21:a0013:ocr> .
+
+mdb:schip-del_gem-1886-26-Albertine
+        owl:sameAs  mdb:schip-del_gem-1888-5-Albertine .
+
+mdb:schip-del_gem-1861-105-Alberdina
+        owl:sameAs  mdb:schip-del_gem-1865-9-Alberdina .
+
+mdb:schip-del_gem-1878-34-Ems
+        owl:sameAs  mdb:schip-del_gem-1886-28-Ems .
+
+mdb:aanmonstering-del_gem-1851-47
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010248176:mpeg21:a0020:ocr> .
+
+mdb:schip-del_gem-1877-57-Ems
+        owl:sameAs  mdb:schip-del_gem-1886-43-Ems .
+
+mdb:schip-del_gem-1895-82-Dina
+        owl:sameAs  mdb:schip-del_gem-1895-104-Dina .
+
+mdb:aanmonstering-del_gem-1867-4
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010140589:mpeg21:a0007:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010101569:mpeg21:a0039:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010098606:mpeg21:a0044:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010098524:mpeg21:a0043:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010097795:mpeg21:a0031:ocr> .
+
+mdb:aanmonstering-del_gem-1859-14
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010132335:mpeg21:a0028:ocr> .
+
+mdb:aanmonstering-del_gem-1858-13
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010087793:mpeg21:a0009:ocr> .
+
+<http://nl.dbpedia.org/resource/Eugene_Roe>
+        ns6:militaryRank  <http://nl.dbpedia.org/resource/Korporaal> .
+
+ns2:ship_rosse  ns2:hasID  "711" .
+
+mdb:aanmonstering-del_gem-1861-1
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010256066:mpeg21:a0034:ocr> .
+
+mdb:aanmonstering-del_gem-1850-16
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010069461:mpeg21:a0009:ocr> .
+
+mdb:aanmonstering-del_gem-1863-38
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010129851:mpeg21:a0041:ocr> .
+
+mdb:aanmonstering-del_gem-1858-85
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010138013:mpeg21:a0034:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010136982:mpeg21:a0045:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010131412:mpeg21:a0031:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010130407:mpeg21:a0017:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010129908:mpeg21:a0035:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010087785:mpeg21:a0036:ocr> .
+
+mdb:aanmonstering-del_gem-1859-86
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010772721:mpeg21:a0032:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010114948:mpeg21:a0024:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010087567:mpeg21:a0013:ocr> .
+
+mdb:aanmonstering-del_gem-1839-23
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010978733:mpeg21:a0015:ocr> .
+
+mdb:aanmonstering-del_gem-1868-1
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010141202:mpeg21:a0022:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010141176:mpeg21:a0021:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010099626:mpeg21:a0034:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:000017605:mpeg21:a0018:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:000010639:mpeg21:a0010:ocr> .
+
+<http://nl.dbpedia.org/resource/Eerste>
+        ns6:wikiPageRevisionID  26459238 .
+
+mdb:schip-veen_veen-1844-9-Marchiena_Willemina
+        owl:sameAs  mdb:schip-veen_veen-1853-26-Marchiena_Willemina .
+
+mdb:aanmonstering-del_gem-1866-42
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010141015:mpeg21:a0009:ocr> .
+
+mdb:schip-del_gem-1859-58-Concordia
+        owl:sameAs  mdb:schip-del_gem-1860-102-Concordia .
+
+mdb:aanmonstering-del_gem-1858-107
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010136724:mpeg21:a0028:ocr> .
+
+mdb:aanmonstering-del_gem-1828-8
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010393568:mpeg21:a0006:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:010393539:mpeg21:a0007:ocr> .
+
+mdb:aanmonstering-del_gem-1851-29
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:000020153:mpeg21:a0041:ocr> .
+
+mdb:aanmonstering-del_gem-1864-10
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010528896:mpeg21:a0016:ocr> .
+
+mdb:aanmonstering-del_gem-1865-11
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:010139154:mpeg21:a0014:ocr> , <http://resolver.kb.nl/resolve?urn=ddd:000020604:mpeg21:a0058:ocr> .
+
+mdb:schip-del_gem-1861-67-Bouwina
+        owl:sameAs  mdb:schip-del_gem-1879-40-Bouwina .
+
+mdb:aanmonstering-del_gem-1863-81
+        dss:has_kb_link  <http://resolver.kb.nl/resolve?urn=ddd:000022482:mpeg21:a0007:ocr> .
+
+mdb:schip-del_gem-1889-28-Wilhelmina
+        owl:sameAs  mdb:schip-del_gem-1889-94-Wilhelmina .

@@ -1,0 +1,2016 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn:    <http://www.w3.org/2005/xpath-functions#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+
+<http://tsu.eagle-i.net/i/0000014e-2202-bc6f-2350-d5a280000000>
+        rdfs:label  "ThermoScientific Refrigerator" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "General purpose, flammable material storage, explosion-proof, and dual-temperature refrigerator and freezer combinations offer temperature security solutions while meeting your applications storage needs." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc86-3932-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> .
+
+<http://tsu.eagle-i.net/i/00000136-7695-1af8-4cbb-fdf780000000>
+        a       <http://vivoweb.org/ontology/core#Center> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowOwner>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> .
+
+<http://tsu.eagle-i.net/i/00000136-800c-5771-4cbb-fdf780000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000395> ;
+        rdfs:label  "Conventional and real time PCR assays" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "Analysis of gene expression & function and miRNA analysis" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://tsu.eagle-i.net/i/00000135-e46a-2ff3-5b3d-280080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/OBI_0000415> , <http://purl.obolibrary.org/obo/ERO_0001075> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-04T20:10:25.021-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-13T13:22:09.362-05:00"^^xsd:dateTime .
+
+<http://tsu.eagle-i.net/i/0000014e-21fb-e855-2350-d5a280000000>
+        a       <http://purl.obolibrary.org/obo/OBI_0000485> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc88-fd7a-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> .
+
+<http://tsu.eagle-i.net/i/0000014e-221b-eb91-2350-d5a280000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> .
+
+<http://eagle-i.org/ont/repo/1.0/>
+        a                owl:Ontology ;
+        <http://purl.org/dc/terms/created>
+                "2017-03-02T08:03:15.104-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://eagle-i.org/ont/repo/1.0/Role_Superuser> ;
+        <http://purl.org/dc/terms/source>
+                [ <http://purl.org/dc/terms/identifier>
+                          <file:///usr/share/tomcat7/webapps/sparqler/WEB-INF/classes/repository-ont.n3> ;
+                  <http://purl.org/dc/terms/modified>
+                          "2017-02-03T18:12:12.000-06:00"^^xsd:dateTime
+                ] ;
+        owl:versionInfo  "$Id: repository-ont.n3 19120 2015-04-30 05:13:28Z scheng $" .
+
+<http://tsu.eagle-i.net/i/00000136-78dc-32a8-4cbb-fdf780000000>
+        a       <http://purl.obolibrary.org/obo/ERO_0000395> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/00000135-e46d-fe61-5b3d-280080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://tsu.eagle-i.net/i/00000135-e46a-2ff3-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-173d-4cbb-fdf780000000> .
+
+<http://tsu.eagle-i.net/i/00000136-8012-373a-4cbb-fdf780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowOwner>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> .
+
+<http://tsu.eagle-i.net/i/0000014e-2237-89a0-2350-d5a280000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0400106> ;
+        rdfs:label  "Eppendorf Centrifuge" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "It is used for quickly separating precipitates and liquids of different specific densities" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc71-efad-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> .
+
+<http://purl.obolibrary.org/obo/ero.owl>
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/0000015a-8f55-9364-d562-c54880000000> ;
+        <http://purl.org/dc/terms/created>
+                "2017-03-02T08:05:43.375-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/0000015a-8f55-9364-d562-c54880000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2017-03-02T08:05:43.375-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/source>
+                [ <http://purl.org/dc/terms/identifier>
+                          "file:/usr/share/tomcat7/webapps/sparqler/WEB-INF/lib/eagle-i-model-owl-2.0.3.1.jar" ;
+                  <http://purl.org/dc/terms/modified>
+                          "2015-10-26T12:00:40.000-05:00"^^xsd:dateTime
+                ] .
+
+<http://tsu.eagle-i.net/i/0000014e-2208-7fb0-2350-d5a280000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000004> ;
+        rdfs:label  "ThermoScientific Refrigerator" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "General purpose, flammable material storage, explosion-proof, and dual-temperature refrigerator and freezer combinations offer temperature security solutions while meeting your applications storage needs." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc86-3932-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "REVCO" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/created>
+                "2015-06-23T15:08:51.343-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2015-06-24T16:20:44.480-05:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/repo/1.0/hasPrincipalName>
+        a             owl:DatatypeProperty ;
+        rdfs:comment  "Indicates the authenticated login principal bound to this Person or Agent" ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/Person> ;
+        rdfs:label    "login principal" .
+
+<http://tsu.eagle-i.net/i/00000137-c310-b4f1-fcae-eadb80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> .
+
+<http://tsu.eagle-i.net/i/0000014e-222e-f894-2350-d5a280000000>
+        a       <http://purl.obolibrary.org/obo/OBI_0000051> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc88-fd7a-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> .
+
+<http://tsu.eagle-i.net/i/00000136-7690-3b20-4cbb-fdf780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowOwner>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> .
+
+<http://tsu.eagle-i.net/i/00000137-0ff4-cd69-a52f-700380000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> .
+
+<http://eagle-i.org/ont/repo/1.0/NG_Query>
+        <http://purl.org/dc/terms/created>
+                "2017-03-02T08:03:12.411-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://eagle-i.org/ont/repo/1.0/Role_Superuser> ;
+        <http://purl.org/dc/terms/source>
+                [ <http://purl.org/dc/terms/identifier>
+                          <file:///usr/share/tomcat7/webapps/sparqler/WEB-INF/classes/query-macros.n3> ;
+                  <http://purl.org/dc/terms/modified>
+                          "2017-02-03T18:12:12.000-06:00"^^xsd:dateTime
+                ] .
+
+<http://eagle-i.org/ont/repo/1.0/NG_Internal>
+        <http://purl.org/dc/terms/created>
+                "2017-03-02T08:03:17.322-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://eagle-i.org/ont/repo/1.0/Role_Superuser> ;
+        <http://purl.org/dc/terms/source>
+                [ <http://purl.org/dc/terms/identifier>
+                          <file:///usr/share/tomcat7/webapps/sparqler/WEB-INF/classes/repository-internal.n3> ;
+                  <http://purl.org/dc/terms/modified>
+                          "2017-02-03T18:12:12.000-06:00"^^xsd:dateTime
+                ] .
+
+<http://eagle-i.org/ont/repo/1.0/NamedGraph>
+        a                owl:Class ;
+        rdfs:comment     "Collection of metadata about named graph in the repository." ;
+        rdfs:label       "Named Graph" ;
+        rdfs:subClassOf  owl:Thing .
+
+<http://eagle-i.org/ont/repo/1.0/Person>
+        a                owl:Class ;
+        rdfs:comment     "Represents a person acting as an authenticated user of the repository" ;
+        rdfs:label       "Person" ;
+        rdfs:subClassOf  owl:Thing , <http://eagle-i.org/ont/app/1.0/Person> , <http://xmlns.com/foaf/0.1/Person> , <http://eagle-i.org/ont/repo/1.0/Agent> , <http://eagle-i.org/ont/app/1.0/Agent> , <http://xmlns.com/foaf/0.1/Agent> , <http://purl.org/dc/terms/Agent> .
+
+<http://tsu.eagle-i.net/i/0000014e-21e4-1155-2350-d5a280000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> .
+
+<http://tsu.eagle-i.net/i/00000136-78d6-5a67-4cbb-fdf780000000>
+        a           <http://xmlns.com/foaf/0.1/Person> ;
+        rdfs:label  "Matthew, Omana" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-173d-4cbb-fdf780000000> .
+
+<http://tsu.eagle-i.net/i/0000014e-223b-0107-2350-d5a280000000>
+        a       <http://purl.obolibrary.org/obo/OBI_0000485> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc88-fd7a-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> .
+
+<http://tsu.eagle-i.net/i/0000014e-220d-eacf-2350-d5a280000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0400109> ;
+        rdfs:label  "Minilys" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "Minilys is a compact tissue homogenizer. Easy to place anywhere on the bench, it is the best solution for daily applications. The Minilys' flexibility allows for the homogenization of soft and hard samples up to 5000mg." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "K0595" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/created>
+                "2015-06-23T15:19:05.762-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2015-06-24T16:20:35.641-05:00"^^xsd:dateTime .
+
+<http://tsu.eagle-i.net/i/0000014e-2214-15a9-2350-d5a280000000>
+        a       <http://purl.obolibrary.org/obo/ERO_0000004> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> .
+
+<http://tsu.eagle-i.net/i/0000014e-21f3-0745-2350-d5a280000000>
+        a       <http://purl.obolibrary.org/obo/OBI_0000048> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc88-fd7a-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> .
+
+<http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000>
+        a           <http://xmlns.com/foaf/0.1/Person> ;
+        rdfs:label  "Huan Xie" ;
+        <http://eagle-i.org/ont/app/1.0/Profilesurl>
+                "http://connect.rtrn.net/profileswebroot/ProfileDetails.aspx?From=SE&Person=3053&PersonSource=Texas%20Southern%20University" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowOwner>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000042>
+                "Huan" ;
+        <http://purl.obolibrary.org/obo/ERO_0000049>
+                "Xie" ;
+        <http://purl.obolibrary.org/obo/ERO_0000397>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> ;
+        <http://purl.org/dc/terms/created>
+                "2015-06-23T10:55:32.450-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> .
+
+<http://tsu.eagle-i.net/i/0000014e-2220-36cf-2350-d5a280000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000004> ;
+        rdfs:label  "Denver Instrument Company PCCA Precision Scale" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "scale" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc82-2741-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "603D" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/created>
+                "2015-06-23T15:40:54.387-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2015-06-24T16:20:16.280-05:00"^^xsd:dateTime .
+
+<http://tsu.eagle-i.net/i/0000014e-22a8-bad8-2350-d5a280000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "NU-5510" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> .
+
+<http://tsu.eagle-i.net/i/00000137-0f38-b807-a52f-700380000000>
+        a       <http://purl.obolibrary.org/obo/OBI_0000051> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> .
+
+<http://tsu.eagle-i.net/i/0000014e-22af-19dc-2350-d5a280000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> .
+
+<http://tsu.eagle-i.net/i/00000137-0ff7-6c4b-a52f-700380000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowOwner>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> .
+
+<http://eagle-i.org/ont/repo/1.0/isImplicit>
+        a             owl:DatatypeProperty ;
+        rdfs:comment  "When true the role is implicit, that is, automatically assigned to the relevant users, invisible to admins." ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/Person> ;
+        rdfs:label    "is an implicit role" .
+
+<http://tsu.eagle-i.net/i/00000137-0a56-e685-a52f-700380000000>
+        a       <http://vivoweb.org/ontology/core#Center> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> .
+
+<http://tsu.eagle-i.net/i/00000136-7fee-3516-4cbb-fdf780000000>
+        a           <http://xmlns.com/foaf/0.1/Person> ;
+        rdfs:label  "Olaleye, Omonike, Ph.D." ;
+        <http://eagle-i.org/ont/app/1.0/Profilesurl>
+                "http://t1t2.rtrn.net/profilesweb/ProfileDetails.aspx?From=SE&Person=2984&PersonSource=Texas%20Southern%20University" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000042>
+                "Omonike" ;
+        <http://purl.obolibrary.org/obo/ERO_0000049>
+                "Olaleye" ;
+        <http://purl.obolibrary.org/obo/ERO_0000052>
+                "Assistant Professor of Pharmacology" ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-04T19:39:11.708-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-05-01T17:14:13.333-05:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/repo/1.0/hasRole>
+        a             owl:ObjectProperty ;
+        rdfs:comment  "Subject is entitled to the access privilegs of this role" ;
+        rdfs:label    "has role" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/Role> .
+
+<http://tsu.eagle-i.net/i/00000137-0eec-8221-a52f-700380000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000022>
+                <http://tsu.eagle-i.net/i/00000136-767d-aab0-4cbb-fdf780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> .
+
+<http://tsu.eagle-i.net/i/00000136-78cf-ca21-4cbb-fdf780000000>
+        <http://eagle-i.org/ont/app/1.0/related_software>
+                <http://tsu.eagle-i.net/i/00000136-78d4-5748-4cbb-fdf780000000> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/00000135-e46d-fe61-5b3d-280080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc6a-a024-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/00000135-e46a-2ff3-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-173d-4cbb-fdf780000000> .
+
+<http://tsu.eagle-i.net/i/0000014e-21ff-382e-2350-d5a280000000>
+        a       <http://purl.obolibrary.org/obo/OBI_0000051> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc88-fd7a-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> .
+
+<http://tsu.eagle-i.net/i/0000014e-2249-2ecc-2350-d5a280000000>
+        a       <http://purl.obolibrary.org/obo/ERO_0000004> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> .
+
+<http://tsu.eagle-i.net/i/00000136-8011-d0bc-4cbb-fdf780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowOwner>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> .
+
+<http://tsu.eagle-i.net/i/00000137-0a51-5233-a52f-700380000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> .
+
+<http://xmlns.com/foaf/0.1/Person>
+        rdfs:subClassOf  owl:Thing .
+
+<http://tsu.eagle-i.net/i/0000014e-22b5-97e9-2350-d5a280000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0000136> ;
+        rdfs:label  "NUAIRE- Autoflow Incubator" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "Provides a stable in-vitro growth environment by heating chamber walls utilizing water." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc7d-b6fa-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "NU-5510" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/created>
+                "2015-06-23T18:20:53.571-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2015-06-24T16:20:38.063-05:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/repo/1.0/WFS_Curation>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/WorkflowState> ;
+        rdfs:comment  "Awaiting approval by a curator and possible editing" ;
+        rdfs:label    "In Curation" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWriter>
+                <http://eagle-i.org/ont/repo/1.0/Role_Curator> ;
+        <http://eagle-i.org/ont/repo/1.0/order>
+                30 .
+
+<http://eagle-i.org/ont/repo/1.0/Role_RNAV>
+        a       owl:Thing .
+
+<http://tsu.eagle-i.net/i/00000136-8452-eee8-4cbb-fdf780000000>
+        a       <http://purl.obolibrary.org/obo/OBI_0001139> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc86-3932-ecc6-81a580000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> .
+
+<http://eagle-i.org/ont/repo/1.0/workspace>
+        a             owl:ObjectProperty ;
+        rdfs:comment  "Home workspace of resources capable of using this transition" ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/WorkflowTransition> ;
+        rdfs:label    "Workspace" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/NamedGraph> .
+
+<http://tsu.eagle-i.net/i/00000136-78d7-c959-4cbb-fdf780000000>
+        a           <http://vivoweb.org/ontology/core#Division> ;
+        rdfs:label  "Division of Academic Affairs and Research" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://www.tsu.edu/About/Administration/Division_of_Academic_Affairs_and_Research/" ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-faa9-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-03T10:36:18.114-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-faa9-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-03T10:36:24.353-05:00"^^xsd:dateTime .
+
+<http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowOwner>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000397>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/ERO_0000596>
+                <http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0001715>
+                <http://tsu.eagle-i.net/i/00000136-767d-aab0-4cbb-fdf780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> .
+
+<http://tsu.eagle-i.net/i/0000014e-212b-6326-2350-d5a280000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> .
+
+<http://eagle-i.org/ont/repo/1.0/WFS_New>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/WorkflowState> ;
+        rdfs:comment  "New instance in the process of creation" ;
+        rdfs:label    "New" ;
+        <http://eagle-i.org/ont/repo/1.0/order>
+                10 .
+
+<http://tsu.eagle-i.net/i/0000014e-21e4-92f0-2350-d5a280000000>
+        a       <http://purl.obolibrary.org/obo/OBI_0000051> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> .
+
+<http://tsu.eagle-i.net/i/00000136-768d-ae18-4cbb-fdf780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowOwner>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> .
+
+<http://tsu.eagle-i.net/i/00000137-c362-e7df-fcae-eadb80000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0001092> ;
+        rdfs:label  "Hades Cluster" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"Hades, installed on January 2010, has eight dual slot hyperthreaded quad core nodes with the Intel E5520 2.33 GHz Xeon Processor with 12 Gigabyes of Memory connected via a 10 Gigabit ethernet using an Utra low latency Arista 7124S switch. The full parallel cluster has a total of 128 virtual cores and a total memory of 96 Gigabytes, with a peak speed of 0.783 Teraflops.\"" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc70-10e8-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "PowerEdge R410 Rack Servers" ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/00000137-c345-6fa1-fcae-eadb80000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-06-06T15:02:51.508-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-06-14T12:44:18.550-05:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/repo/1.0/NG_Published>
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/0000015a-8f55-9364-d562-c54880000000> ;
+        <http://purl.org/dc/terms/created>
+                "2021-06-19T08:46:41.993-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/0000015a-8f55-9364-d562-c54880000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2021-06-19T08:46:41.993-05:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/repo/1.0/hasAnyAccess>
+        a             owl:ObjectProperty ;
+        rdfs:comment  "has*Access superproperty" ;
+        rdfs:label    "has*Access superproperty" .
+
+<http://tsu.eagle-i.net/i/00000135-f4b5-0cb0-5b3d-280080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowOwner>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> .
+
+<http://tsu.eagle-i.net/i/0000014e-216f-3912-2350-d5a280000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0400106> ;
+        rdfs:label  "Eppendorf Centrifuge" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc71-efad-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "5810R" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/created>
+                "2015-06-23T12:21:57.470-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2015-06-24T16:20:18.665-05:00"^^xsd:dateTime .
+
+<http://tsu.eagle-i.net/i/00000137-0a49-b55a-a52f-700380000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> .
+
+<http://tsu.eagle-i.net/i/00000137-0efd-44d5-a52f-700380000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/00000136-767d-aab0-4cbb-fdf780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc67-5972-ecc6-81a580000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> .
+
+<http://tsu.eagle-i.net/i/0000014e-2234-5230-2350-d5a280000000>
+        a       <http://purl.obolibrary.org/obo/OBI_0000051> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc88-fd7a-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> .
+
+<http://eagle-i.org/ont/repo/1.0/NGType_Published>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/NamedGraphType> ;
+        rdf:value     "published" ;
+        rdfs:comment  "Data objects meant to be visible to the public" ;
+        rdfs:label    "Published resource instances" .
+
+<http://eagle-i.org/ont/repo/1.0/NGType_Metadata>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/NamedGraphType> ;
+        rdf:value     "metadata" ;
+        rdfs:comment  "Administrative Metadata for the repository" ;
+        rdfs:label    "Administrative Metadata " .
+
+<http://tsu.eagle-i.net/i/00000136-7fec-9aa6-4cbb-fdf780000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowOwner>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000022>
+                <http://tsu.eagle-i.net/i/00000136-7fee-3516-4cbb-fdf780000000> , <http://tsu.eagle-i.net/i/00000136-767d-aab0-4cbb-fdf780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> .
+
+<http://tsu.eagle-i.net/i/0000014e-215b-051a-2350-d5a280000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc67-5972-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> .
+
+<http://eagle-i.org/ont/repo/1.0/WFS_Published>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/WorkflowState> ;
+        rdfs:comment  "Finished and available to the public" ;
+        rdfs:label    "Published" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWriter>
+                <http://eagle-i.org/ont/repo/1.0/Role_Curator> ;
+        <http://eagle-i.org/ont/repo/1.0/order>
+                40 .
+
+<http://tsu.eagle-i.net/i/00000136-79d2-d970-4cbb-fdf780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> .
+
+<http://tsu.eagle-i.net/i/0000014e-21f2-b73a-2350-d5a280000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0000048> ;
+        rdfs:label  "Waters HPLC" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "Liquid chromatography can be performed using planar or column techniques . Column liquid chromatography is the most powerful and has the highest capacity for sample. In all cases, the sample first must be dissolved in a liquid that is then transported either onto, or into, the chromatographic device" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc88-fd7a-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "Dual UV" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/created>
+                "2015-06-23T14:58:23.998-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2015-06-24T16:21:04.232-05:00"^^xsd:dateTime .
+
+<http://tsu.eagle-i.net/i/00000136-768c-62c5-4cbb-fdf780000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowOwner>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000397>
+                <http://purl.obolibrary.org/obo/ERO_0001500> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> .
+
+<http://eagle-i.org/ont/repo/1.0/action>
+        a             owl:DatatypeProperty ;
+        rdfs:comment  "fully qualified class name of Java class implementing action" ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/WorkflowTransition> ;
+        rdfs:label    "action" .
+
+<http://tsu.eagle-i.net/i/0000014e-223a-8211-2350-d5a280000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> .
+
+<http://tsu.eagle-i.net/i/00000136-79d1-1a53-4cbb-fdf780000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> .
+
+<http://eagle-i.org/ont/app/1.0/Agent>
+        rdfs:subClassOf  owl:Thing .
+
+<http://tsu.eagle-i.net/i/0000014e-2236-080a-2350-d5a280000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0000485> ;
+        rdfs:label  "Waters 2487 Dual λ Absorbance Detector" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "The Waters 2487 Dual λ Absorbance Detector is the most sensitive and versatile absorbance detector for HPLC. Designed to provide the highest performance in UV/Vis detection, the 2487 offers the superior sensitivity required for detection of minor impurities with the linear dynamic range to simultaneously quantitate major and minor components for both routine and complex HPLC applications." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc88-fd7a-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "2487" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/created>
+                "2015-06-23T16:00:36.484-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2015-06-24T16:20:58.114-05:00"^^xsd:dateTime .
+
+<http://tsu.eagle-i.net/i/0000014e-2204-b97a-2350-d5a280000000>
+        a       <http://purl.obolibrary.org/obo/OBI_0000051> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc88-fd7a-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> .
+
+<http://tsu.eagle-i.net/i/0000014e-2158-0da9-2350-d5a280000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> .
+
+<http://tsu.eagle-i.net/i/0000014e-2207-9326-2350-d5a280000000>
+        a       <http://purl.obolibrary.org/obo/OBI_0000051> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc88-fd7a-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> .
+
+<http://purl.org/dc/terms/Agent>
+        rdfs:subClassOf  owl:Thing .
+
+<http://tsu.eagle-i.net/i/0000014e-2200-4f22-2350-d5a280000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0000048> ;
+        rdfs:label  "Waters HPLC" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc88-fd7a-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> .
+
+<http://eagle-i.org/ont/repo/1.0/actionParameter>
+        a             owl:DatatypeProperty ;
+        rdfs:comment  "Transition-specific parameter to give action method" ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/WorkflowTransition> ;
+        rdfs:label    "action parameter" .
+
+<http://eagle-i.org/ont/repo/1.0/WorkflowState>
+        a                owl:Class ;
+        rdfs:comment     "Controlled vocabulary describing workflow state." ;
+        rdfs:label       "Workflow State" ;
+        rdfs:subClassOf  owl:Thing .
+
+<http://eagle-i.org/ont/repo/1.0/WFS_Withdrawn>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/WorkflowState> ;
+        rdfs:comment  "Withdrawn from public access" ;
+        rdfs:label    "Withdrawn" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWriter>
+                <http://eagle-i.org/ont/repo/1.0/Role_Curator> ;
+        <http://eagle-i.org/ont/repo/1.0/order>
+                50 .
+
+<http://tsu.eagle-i.net/i/0000014e-222f-68bc-2350-d5a280000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0000051> ;
+        rdfs:label  "Waters 600 Controller" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "The Waters 600E system is a high-performance liquid chromatography (HPLC) multisolvent delivery system. The time proven solvent delivery design provides unmatched reliability, which means less maintenance and maximum up time.  Use the Waters 600S controller with PowerLine software for auto sampler and detector control." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc88-fd7a-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "6CE" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/created>
+                "2015-06-23T15:55:12.578-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2015-06-24T16:20:59.320-05:00"^^xsd:dateTime .
+
+<http://tsu.eagle-i.net/i/0000014e-2150-94f5-2350-d5a280000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0400086> ;
+        rdfs:label  "Beckman Coulter-Multimode Detector" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "plate reader" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc6a-37eb-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "DTX880" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/created>
+                "2015-06-23T11:51:00.375-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2015-06-24T16:20:13.868-05:00"^^xsd:dateTime .
+
+<http://tsu.eagle-i.net/i/00000136-8467-a338-4cbb-fdf780000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc86-3932-ecc6-81a580000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> .
+
+<http://eagle-i.org/ont/repo/1.0/NGType_Ontology>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/NamedGraphType> ;
+        rdf:value     "ontology" ;
+        rdfs:comment  "Contains Ontology applicable to data objects" ;
+        rdfs:label    "Ontology" .
+
+<http://tsu.eagle-i.net/i/00000136-847c-8561-4cbb-fdf780000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc67-5972-ecc6-81a580000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> .
+
+<http://tsu.eagle-i.net/i/0000014e-2241-9999-2350-d5a280000000>
+        a       <http://purl.obolibrary.org/obo/ERO_0000004> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc7a-dbc4-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> .
+
+<http://tsu.eagle-i.net/i/00000136-845f-6033-4cbb-fdf780000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc86-3932-ecc6-81a580000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> .
+
+<http://eagle-i.org/ont/repo/1.0/WFS_Draft>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/WorkflowState> ;
+        rdfs:comment  "Data collection and preparation" ;
+        rdfs:label    "Draft" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWriter>
+                <http://eagle-i.org/ont/repo/1.0/Role_Curator> , <http://eagle-i.org/ont/repo/1.0/Role_RNAV> ;
+        <http://eagle-i.org/ont/repo/1.0/order>
+                20 .
+
+<http://tsu.eagle-i.net/i/00000136-767c-b05f-4cbb-fdf780000000>
+        a       <http://vivoweb.org/ontology/core#Center> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000596>
+                <http://tsu.eagle-i.net/i/00000136-767d-aab0-4cbb-fdf780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> .
+
+<http://eagle-i.org/ont/repo/1.0/hasAdminAccess>
+        a                   owl:ObjectProperty ;
+        rdfs:comment        "Grants administrative access on subject resource to a principal" ;
+        rdfs:label          "has administrative access" ;
+        rdfs:range          <http://eagle-i.org/ont/repo/1.0/Agent> ;
+        rdfs:subPropertyOf  <http://eagle-i.org/ont/repo/1.0/hasAnyAccess> .
+
+<http://tsu.eagle-i.net/i/00000137-c348-c3c8-fcae-eadb80000000>
+        a           <http://xmlns.com/foaf/0.1/Person> ;
+        rdfs:label  "Tymczak, Christopher, Ph.D." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000042>
+                "Christopher J." ;
+        <http://purl.obolibrary.org/obo/ERO_0000049>
+                "Tymczak" ;
+        <http://purl.obolibrary.org/obo/ERO_0000052>
+                "Director, TSU-HPCC" ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb5-2ccd-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-06-06T14:33:14.203-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2014-06-12T10:48:35.483-05:00"^^xsd:dateTime .
+
+<http://tsu.eagle-i.net/i/00000137-0f2f-fc2d-a52f-700380000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0001139> ;
+        rdfs:label  "Agilent 1200 Series Liquid Chromatography System" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/00000136-767d-aab0-4cbb-fdf780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc67-5972-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "1200" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0001500> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/00000136-7fec-9aa6-4cbb-fdf780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-05-02T15:17:11.925-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-05-02T15:17:17.699-05:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/repo/1.0/NamedGraphType>
+        a                owl:Class ;
+        rdfs:comment     "Purpose of a NamedGraph, indicates whether it should be included in certain query datasets" ;
+        rdfs:label       "Named Graph Type" ;
+        rdfs:subClassOf  owl:Thing .
+
+<http://tsu.eagle-i.net/i/0000014e-2227-0466-2350-d5a280000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0400116> ;
+        rdfs:label  "QL Model 10 Lab Oven" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "Laboratory oven." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "10GC" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/created>
+                "2015-06-23T15:47:18.918-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2015-06-24T16:20:41.105-05:00"^^xsd:dateTime .
+
+<http://tsu.eagle-i.net/i/0000014e-224d-1b03-2350-d5a280000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000004> ;
+        rdfs:label  "Weigh Balance Delta Range" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "A dual range semi-micro balance allowing weighing at different resolutions" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc7a-dbc4-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "AT 261" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/created>
+                "2015-06-23T16:25:23.763-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2015-06-24T16:21:12.769-05:00"^^xsd:dateTime .
+
+<http://tsu.eagle-i.net/i/00000137-0f9d-e21e-a52f-700380000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowOwner>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> .
+
+<http://tsu.eagle-i.net/i/00000137-c34c-ce79-fcae-eadb80000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0001092> ;
+        rdfs:label  "Ares Cluster" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"Ares, installed in December 2008 has sixteen dual-slot quad-core nodes with Intel Xeon 5350 2.0 Ghz processors with 8 Gigabyes of memory connected via dual Gigabit ethernets. The full parallel cluster has a total of 128 cores and a total memory of 128 Gigabytes, with a peak speed of 0.672 Teraflops.\"" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc70-10e8-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "PowerEdge 1960 Rack Servers" ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/00000137-c345-6fa1-fcae-eadb80000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-06-06T14:59:27.007-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-06-14T12:44:40.403-05:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/repo/1.0/hasReadAccess>
+        a                   owl:ObjectProperty ;
+        rdfs:comment        "Grants read and query access on subject resource to a principal" ;
+        rdfs:label          "has read access" ;
+        rdfs:range          <http://eagle-i.org/ont/repo/1.0/Agent> ;
+        rdfs:subPropertyOf  <http://eagle-i.org/ont/repo/1.0/hasAnyAccess> .
+
+<http://eagle-i.org/ont/repo/1.0/ngType>
+        a             owl:FunctionalProperty ;
+        rdfs:comment  "Describes type of contents and purpose of this named graph" ;
+        rdfs:label    "named graph type" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/NamedGraphType> .
+
+<http://tsu.eagle-i.net/i/00000136-79d7-8f9b-4cbb-fdf780000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc67-5972-ecc6-81a580000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> .
+
+<http://tsu.eagle-i.net/i/0000014e-2213-6e5c-2350-d5a280000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0000136> ;
+        rdfs:label  "Dubnoff Metabolic Shaking Incubator" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "Precision Scientific Dubnoff Metabolic Shaker Incubator hascontrol dials for shaker speed, temperature and heater switch. There is a separate control for motor and line. A temperature gauge on the front of the unit which reads in -10 to 110C and an internal bath dimension measuring inches of 10.5 L X 11 W X 3.5 D. Unit heated to 60C within 10 minutes. S/N DEAZ-590. Approximate overall dimensions in inches is 14 L X 23 W X 13 H. Power is 120 volts and 50 / 60Hz." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc80-07cc-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/created>
+                "2015-06-23T15:23:03.666-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2015-06-24T16:20:17.506-05:00"^^xsd:dateTime .
+
+<http://tsu.eagle-i.net/i/00000136-7ff5-a7da-4cbb-fdf780000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000395> ;
+        rdfs:label  "Chromatin immunoprecipitation (ChIP) assay" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "Analysis of protein-DNA interactions, specifically at target promoter sites under native conditions" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/00000135-e46d-fe61-5b3d-280080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://tsu.eagle-i.net/i/00000135-e46a-2ff3-5b3d-280080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000926> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-04T19:46:41.853-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-13T13:22:08.966-05:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/repo/1.0/MatchAnything>
+        rdfs:comment  "Wildcard URI for delete statements request, matches any predicate and/or object" .
+
+<http://tsu.eagle-i.net/i/0000014e-21e9-732f-2350-d5a280000000>
+        a       <http://purl.obolibrary.org/obo/OBI_0000485> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> .
+
+<http://tsu.eagle-i.net/i/00000136-ad08-7dd7-4cbb-fdf780000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000350> ;
+        rdfs:label  "Millipore MilliQ water purification system" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc7b-5919-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "Elix 3 Milli-Q Synthesis" ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://www.millipore.com/catalogue/module/c72876" ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/00000135-e46a-2ff3-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-13T13:52:43.019-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-05-01T18:59:10.713-05:00"^^xsd:dateTime .
+
+<http://tsu.eagle-i.net/i/00000136-8009-6cc5-4cbb-fdf780000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000395> ;
+        rdfs:label  "Epigenetic analysis" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "Significance of acetylation and methylation of histones in the regulation of gene expression: role in normal development and in disease pathogenesis" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://tsu.eagle-i.net/i/00000135-e46a-2ff3-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-04T20:08:24.343-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-13T13:22:10.209-05:00"^^xsd:dateTime .
+
+<http://tsu.eagle-i.net/i/00000136-78d8-2aa4-4cbb-fdf780000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000344> ;
+        rdfs:label  "Nikon Eclipse TS100 fluorescence & Phase contrast microscope" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/00000135-e46d-fe61-5b3d-280080000000> , <http://tsu.eagle-i.net/i/00000136-78d6-5a67-4cbb-fdf780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc7d-59ea-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "Eclipse TS100" ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/00000135-e46a-2ff3-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-03T10:37:50.582-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-173d-4cbb-fdf780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-13T13:22:12.251-05:00"^^xsd:dateTime .
+
+<http://tsu.eagle-i.net/i/00000137-0f35-74d4-a52f-700380000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000022>
+                <http://tsu.eagle-i.net/i/00000136-767d-aab0-4cbb-fdf780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> .
+
+<http://xmlns.com/foaf/0.1/Agent>
+        rdfs:subClassOf  owl:Thing .
+
+<http://eagle-i.org/ont/repo/1.0/NGType_Internal>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/NamedGraphType> ;
+        rdf:value     "internal" ;
+        rdfs:comment  "Contains data that is only to be used internally by repository, such as administrative metadata" ;
+        rdfs:label    "Internal Use Only" .
+
+<http://tsu.eagle-i.net/i/00000137-0f0a-e62c-a52f-700380000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/00000136-767d-aab0-4cbb-fdf780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc86-3932-ecc6-81a580000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> .
+
+<http://tsu.eagle-i.net/i/00000136-7ffd-52b8-4cbb-fdf780000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc6a-37eb-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/00000135-e46a-2ff3-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> .
+
+<http://tsu.eagle-i.net/i/0000014e-2230-e05f-2350-d5a280000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0400106> ;
+        rdfs:label  "Eppendorf Centrifuge" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "It is used for quickly separating precipitates and liquids of different specific densities" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc71-efad-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "5415D" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/created>
+                "2015-06-23T15:57:38.630-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2015-06-24T16:20:19.655-05:00"^^xsd:dateTime .
+
+<http://tsu.eagle-i.net/i/00000136-8450-e520-4cbb-fdf780000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc67-5972-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "1200" ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> .
+
+<http://tsu.eagle-i.net/i/00000135-f4b4-89cc-5b3d-280080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> .
+
+<http://tsu.eagle-i.net/i/0000014e-2216-ae7a-2350-d5a280000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> .
+
+<http://tsu.eagle-i.net/i/0000014e-2221-1954-2350-d5a280000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> .
+
+<http://tsu.eagle-i.net/i/0000014e-215e-b8bb-2350-d5a280000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> .
+
+<http://tsu.eagle-i.net/i/0000014e-2229-2a8e-2350-d5a280000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> .
+
+<http://eagle-i.org/ont/repo/1.0/initial>
+        a             owl:FunctionalProperty , owl:ObjectProperty ;
+        rdfs:comment  "Initial (Starting) workflow state" ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/WorkflowTransition> ;
+        rdfs:label    "Initial Workflow state" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/WorkflowState> .
+
+<http://tsu.eagle-i.net/i/0000014e-2154-83e1-2350-d5a280000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0400169> ;
+        rdfs:label  "Cytoviva Hyperspectral Microscopy imaging system" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "CytoViva’s Hyperspectral Imaging technology was specifically designed to provide quantitative spectral analysis of nanoscale materials imaged with the patented CytoViva darkfield-based microscope system or with other microscopy modalities. This can include spectral analysis of both biological and materials-based nanoscale samples, which may be isolated or integrated in cells, tissue or other materials-based matrices. CytoViva provides hyperspectral imaging in the visible near-infrared (VNIR 400nm-1,000nm) wavelength ranges as well as in the short wave infrared (SWIR 900nm-1,700nm) wavelength ranges." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0001312> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/created>
+                "2015-06-23T11:54:50.699-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2015-06-24T16:20:15.118-05:00"^^xsd:dateTime .
+
+<http://tsu.eagle-i.net/i/00000136-846e-51ad-4cbb-fdf780000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> .
+
+<http://tsu.eagle-i.net/i/0000014e-2161-14c5-2350-d5a280000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> .
+
+<http://tsu.eagle-i.net/i/0000014e-220c-4c20-2350-d5a280000000>
+        a       <http://purl.obolibrary.org/obo/ERO_0000004> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc86-3932-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> .
+
+<http://tsu.eagle-i.net/i/00000136-78df-2854-4cbb-fdf780000000>
+        a       <http://purl.obolibrary.org/obo/ERO_0000395> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/00000135-e46d-fe61-5b3d-280080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://tsu.eagle-i.net/i/00000135-e46a-2ff3-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-173d-4cbb-fdf780000000> .
+
+<http://eagle-i.org/ont/repo/1.0/Role_Curator>
+        a       owl:Thing .
+
+<http://eagle-i.org/ont/repo/1.0/Role>
+        a                owl:Class ;
+        rdfs:comment     "Represents an access-control role granted to an Agent" ;
+        rdfs:label       "Role" ;
+        rdfs:subClassOf  owl:Thing , <http://eagle-i.org/ont/app/1.0/Agent> , <http://purl.org/dc/terms/Agent> , <http://xmlns.com/foaf/0.1/Agent> , <http://eagle-i.org/ont/repo/1.0/Agent> .
+
+<http://eagle-i.org/ont/repo/1.0/hasEditToken>
+        a             owl:ObjectProperty ;
+        rdfs:comment  "Relates eagle-i Resource Instance to a URI marking an update in progress with associated metadata." ;
+        rdfs:label    "Edit Token" .
+
+<http://tsu.eagle-i.net/i/00000136-78d4-5748-4cbb-fdf780000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000071> ;
+        rdfs:label  "Quantity One" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc6a-a024-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000070>
+                <http://tsu.eagle-i.net/i/00000135-e46a-2ff3-5b3d-280080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0001824>
+                <http://www.ebi.ac.uk/swo/license/SWO_1000002> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-03T10:31:08.690-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-173d-4cbb-fdf780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-13T13:22:12.586-05:00"^^xsd:dateTime .
+
+<http://tsu.eagle-i.net/i/00000136-767f-a67e-4cbb-fdf780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> .
+
+<http://tsu.eagle-i.net/i/00000136-acf7-f7f4-4cbb-fdf780000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/00000136-7fee-3516-4cbb-fdf780000000> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/00000136-7fec-9aa6-4cbb-fdf780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> .
+
+<http://eagle-i.org/ont/app/1.0/Person>
+        rdfs:subClassOf  owl:Thing .
+
+<http://eagle-i.org/ont/repo/1.0/hasWorkflowOwner>
+        a             owl:ObjectProperty ;
+        rdfs:comment  "Current owner (claimant) of the workflow state of this instance" ;
+        rdfs:label    "workflow owner" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/Agent> .
+
+<http://tsu.eagle-i.net/i/00000135-e46d-fe61-5b3d-280080000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowOwner>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-faa9-5b3d-280080000000> .
+
+<http://eagle-i.org/ont/repo/1.0/hasAddAccess>
+        a                   owl:ObjectProperty ;
+        rdfs:comment        "Grants ADD access on subject resource to a principal" ;
+        rdfs:label          "has add access" ;
+        rdfs:range          <http://eagle-i.org/ont/repo/1.0/Agent> ;
+        rdfs:subPropertyOf  <http://eagle-i.org/ont/repo/1.0/hasAnyAccess> .
+
+<http://tsu.eagle-i.net/i/00000135-e46a-2ff3-5b3d-280080000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowOwner>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/00000136-78d6-5a67-4cbb-fdf780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000596>
+                <http://tsu.eagle-i.net/i/00000135-e46d-fe61-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-faa9-5b3d-280080000000> .
+
+<http://tsu.eagle-i.net/i/00000136-767d-aab0-4cbb-fdf780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowOwner>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> .
+
+<http://tsu.eagle-i.net/i/0000014e-221e-2fc9-2350-d5a280000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> .
+
+<http://tsu.eagle-i.net/i/00000136-768f-8662-4cbb-fdf780000000>
+        a       <http://vivoweb.org/ontology/core#Center> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowOwner>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> .
+
+<http://tsu.eagle-i.net/i/0000014e-2236-63d0-2350-d5a280000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0400106> ;
+        rdfs:label  "Eppendorf Centrifuge" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "It is used for quickly separating precipitates and liquids of different specific densities" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc71-efad-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> .
+
+<http://tsu.eagle-i.net/i/0000014e-2209-d596-2350-d5a280000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000004> ;
+        rdfs:label  "Parker NitroFlow lab" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "The Parker Balston NitroFlow Lab is a self contained generator that produces up to 32 lpm of pure LC/MS grade nitrogen at pressures up to 8 bar." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://tsu.eagle-i.net/i/0000014e-22be-b826-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "3868-A0600045" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/created>
+                "2015-06-23T15:13:28.238-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2015-06-24T16:20:39.276-05:00"^^xsd:dateTime .
+
+<http://tsu.eagle-i.net/i/0000014e-220a-4a1e-2350-d5a280000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> .
+
+<http://tsu.eagle-i.net/i/00000136-8000-0d8d-4cbb-fdf780000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000395> ;
+        rdfs:label  "Flow cytometry" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "Cell proliferation, apoptosis, altered redox state, and protein expression analysis." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000029>
+                <http://tsu.eagle-i.net/i/00000136-7ffd-52b8-4cbb-fdf780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://tsu.eagle-i.net/i/00000135-e46a-2ff3-5b3d-280080000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000636> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-04T20:05:09.126-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-13T13:22:10.552-05:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+        a             owl:ObjectProperty ;
+        rdfs:comment  "Current workflow state of this instance" ;
+        rdfs:label    "workflow state" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/WorkflowState> .
+
+<http://tsu.eagle-i.net/i/0000014e-2210-a976-2350-d5a280000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> .
+
+<http://eagle-i.org/ont/repo/1.0/hasRemoveAccess>
+        a                   owl:ObjectProperty ;
+        rdfs:comment        "Grants remove access on subject resource to a principal" ;
+        rdfs:label          "has remove access" ;
+        rdfs:range          <http://eagle-i.org/ont/repo/1.0/Agent> ;
+        rdfs:subPropertyOf  <http://eagle-i.org/ont/repo/1.0/hasAnyAccess> .
+
+<http://eagle-i.org/ont/repo/1.0/final>
+        a             owl:FunctionalProperty , owl:ObjectProperty ;
+        rdfs:comment  "Final (Ending) workflow state" ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/WorkflowTransition> ;
+        rdfs:label    "Final Workflow State" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/WorkflowState> .
+
+<http://tsu.eagle-i.net/i/0000014e-221a-5d87-2350-d5a280000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://tsu.eagle-i.net/i/0000014e-211d-ed0b-2350-d5a280000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000327> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://tsu.eagle-i.net/i/0000014e-2109-b5e8-2350-d5a280000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-8cb9-069b-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000136-7603-f3c3-4cbb-fdf780000000> .
+
+<http://tsu.eagle-i.net/i/00000136-8010-ae86-4cbb-fdf780000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> .
+
+<http://tsu.eagle-i.net/i/00000137-0fb7-ecb4-a52f-700380000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc86-3932-ecc6-81a580000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> .
+
+<http://eagle-i.org/ont/repo/1.0/NGType_Workspace>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/NamedGraphType> ;
+        rdf:value     "workspace" ;
+        rdfs:comment  "Data objects meant to be invisible to the public" ;
+        rdfs:label    "Workspace" .
+
+<http://eagle-i.org/ont/repo/1.0/Agent>
+        a                owl:Class ;
+        rdfs:comment     "Represents a person, role, or other principal to be granted access control rights" ;
+        rdfs:label       "Agent" ;
+        rdfs:subClassOf  owl:Thing , <http://eagle-i.org/ont/app/1.0/Agent> , <http://purl.org/dc/terms/Agent> , <http://xmlns.com/foaf/0.1/Agent> .
+
+<http://eagle-i.org/ont/repo/1.0/WorkflowTransition>
+        a                owl:Class ;
+        rdfs:comment     "Describes one of the possible transitions from one workflow state to another" ;
+        rdfs:label       "Workflow Transition" ;
+        rdfs:subClassOf  owl:Thing .
+
+<http://tsu.eagle-i.net/i/00000137-c345-6fa1-fcae-eadb80000000>
+        a           <http://vivoweb.org/ontology/core#Center> ;
+        rdfs:label  "High Performance Computing Center" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"Texas Southern University's High Performance Computing Center (TSU-HPCC) was established to promote research and teaching on campus through integrating leading-edge high performance computing and visualization for the faculty, staff and students of Texas Southern University. The HPCC provides consulting and assistance to campus researchers with experimental software and/or hardware needs. We also provide training in parallel and grid computing. HPCC will serves as a liaison between various teams that are engaged in research. We work to support, configure and port applications to HPCC resources.\"" ;
+        <http://eagle-i.org/ont/app/1.0/synonym>
+                "TSU-HPCC" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://hpcc.tsu.edu/" ;
+        <http://purl.obolibrary.org/obo/ERO_0000596>
+                <http://tsu.eagle-i.net/i/00000137-c348-c3c8-fcae-eadb80000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-06-06T14:33:14.816-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://tsu.eagle-i.net/i/00000135-e450-6ff0-5b3d-280080000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-06-14T12:44:21.576-05:00"^^xsd:dateTime .

@@ -1,0 +1,1950 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn:    <http://www.w3.org/2005/xpath-functions#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+
+<http://eagle-i.org/ont/repo/1.0/NGType_Workspace>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/NamedGraphType> ;
+        rdf:value     "workspace" ;
+        rdfs:comment  "Data objects meant to be invisible to the public" ;
+        rdfs:label    "Workspace" .
+
+<http://eagle-i.org/ont/repo/1.0/isImplicit>
+        a             owl:DatatypeProperty ;
+        rdfs:comment  "When true the role is implicit, that is, automatically assigned to the relevant users, invisible to admins." ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/Person> ;
+        rdfs:label    "is an implicit role" .
+
+<http://utep.eagle-i.net/i/00000136-0877-6577-f687-036180000000>
+        a           <http://xmlns.com/foaf/0.1/Person> ;
+        rdfs:label  "Ellzey, Joanne, Ph.D." ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"Research interests include ultrastructural, cytochemical, and morphometric analyses of the toxic effects of alcohol and arsenic on liver and kidney tissues; electron microscopy of developmental events in fungi.\"" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000042>
+                "Joanne T." ;
+        <http://purl.obolibrary.org/obo/ERO_0000049>
+                "Ellzey" ;
+        <http://purl.obolibrary.org/obo/ERO_0000052>
+                "Director, Analytical Cytology Core Facility" , "Professor, Biological Sciences" ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://faculty.utep.edu/Default.aspx?tabid=18753" ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-03-12T14:55:35.062-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-04T21:27:57.789-05:00"^^xsd:dateTime .
+
+<http://utep.eagle-i.net/i/00000134-cded-4586-bfc0-fe9780000000>
+        a       <http://purl.obolibrary.org/obo/ERO_0001255> ;
+        <http://eagle-i.org/ont/app/1.0/feeforservice>
+                "true" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://utep.eagle-i.net/i/00000134-aa20-7ae5-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> .
+
+<http://utep.eagle-i.net/i/00000136-f031-9f30-8626-74df80000000>
+        a       <http://purl.obolibrary.org/obo/ERO_0000394> ;
+        <http://eagle-i.org/ont/app/1.0/feeforservice>
+                "true" ;
+        <http://eagle-i.org/ont/app/1.0/servicefeeURL>
+                "http://science.utep.edu/bbrc/General/cellhtspolicies" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://utep.eagle-i.net/i/00000134-aa21-2db4-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> .
+
+<http://utep.eagle-i.net/i/00000134-af93-4802-bfc0-fe9780000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0001136> ;
+        rdfs:label  "Biacore T100" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"The Biacore T100 uses Surface Plasmon Resonance (SPR) technology to detect sensitive and reliable characterization of molecular binding interactions in real-time. The SPR technology monitors the changes of mass bound to the surface of the chip, providing sensitive characterization of biomolecular interactions in terms of specificity, kinetics and affinity.\n\nThe Biacore T100 is run exclusively by a dedicated operator.\"" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://utep.eagle-i.net/i/00000134-af93-df70-bfc0-fe9780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc73-a1b8-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "T100" ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://science.utep.edu/bbrc/biacore-t100" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000751> , <http://purl.obolibrary.org/obo/ERO_0000752> , <http://purl.obolibrary.org/obo/ERO_0000411> , <http://purl.obolibrary.org/obo/ERO_0000726> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://utep.eagle-i.net/i/00000134-a9b2-8e15-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-01-05T14:36:43.415-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-05-09T16:36:33.710-05:00"^^xsd:dateTime .
+
+<http://utep.eagle-i.net/i/00000134-afc7-9586-bfc0-fe9780000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000393> ;
+        rdfs:label  "Cell culture technique training" ;
+        <http://eagle-i.org/ont/app/1.0/feeforservice>
+                "true" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "Provision of training, assistance and consultation in cell culture techniques" ;
+        <http://eagle-i.org/ont/app/1.0/servicefeeURL>
+                "http://science.utep.edu/bbrc/General/cellhtspolicies" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://utep.eagle-i.net/i/00000136-5033-d152-8626-74df80000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://utep.eagle-i.net/i/00000134-aa21-2db4-bfc0-fe9780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/OBI_0600024> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-01-05T15:31:36.759-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-26T14:19:15.398-05:00"^^xsd:dateTime .
+
+<http://utep.eagle-i.net/i/00000136-acb5-ca5b-8626-74df80000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0400107> ;
+        rdfs:label  "Bioinformatics Server" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "Bioinformatics program main server that provides an internal network service. Grid computing capacity" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://utep.eagle-i.net/i/00000136-08a0-b3b3-f687-036180000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000044>
+                "131903" ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "PowerEdge 840" ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://utep.eagle-i.net/i/00000134-aa20-7ae5-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-13T12:22:19.044-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000136-8296-62d0-8626-74df80000000> .
+
+<http://purl.obolibrary.org/obo/ero.owl>
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/0000015a-8f20-3ab7-af8c-6bf180000000> ;
+        <http://purl.org/dc/terms/created>
+                "2017-03-02T07:07:16.471-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/0000015a-8f20-3ab7-af8c-6bf180000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2017-03-02T07:07:16.471-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/source>
+                [ <http://purl.org/dc/terms/identifier>
+                          "file:/usr/share/tomcat7/webapps/sparqler/WEB-INF/lib/eagle-i-model-owl-2.0.3.1.jar" ;
+                  <http://purl.org/dc/terms/modified>
+                          "2015-10-26T12:00:40.000-05:00"^^xsd:dateTime
+                ] .
+
+<http://eagle-i.org/ont/repo/1.0/WFS_New>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/WorkflowState> ;
+        rdfs:comment  "New instance in the process of creation" ;
+        rdfs:label    "New" ;
+        <http://eagle-i.org/ont/repo/1.0/order>
+                10 .
+
+<http://eagle-i.org/ont/repo/1.0/hasEditToken>
+        a             owl:ObjectProperty ;
+        rdfs:comment  "Relates eagle-i Resource Instance to a URI marking an update in progress with associated metadata." ;
+        rdfs:label    "Edit Token" .
+
+<http://utep.eagle-i.net/i/00000136-7660-2949-8626-74df80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> .
+
+<http://eagle-i.org/ont/repo/1.0/action>
+        a             owl:DatatypeProperty ;
+        rdfs:comment  "fully qualified class name of Java class implementing action" ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/WorkflowTransition> ;
+        rdfs:label    "action" .
+
+<http://utep.eagle-i.net/i/00000136-f04f-9ace-8626-74df80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://utep.eagle-i.net/i/00000136-5033-d152-8626-74df80000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc86-3932-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://utep.eagle-i.net/i/00000134-aa21-2db4-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> .
+
+<http://eagle-i.org/ont/repo/1.0/NG_Published>
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/0000015a-8f20-3ab7-af8c-6bf180000000> ;
+        <http://purl.org/dc/terms/created>
+                "2021-06-19T09:46:28.917-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/0000015a-8f20-3ab7-af8c-6bf180000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2021-06-19T09:46:28.917-05:00"^^xsd:dateTime .
+
+<http://utep.eagle-i.net/i/00000134-a9b3-3606-bfc0-fe9780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> .
+
+<http://utep.eagle-i.net/i/00000136-acb1-9c23-8626-74df80000000>
+        a       <http://purl.obolibrary.org/obo/OBI_0400107> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://utep.eagle-i.net/i/00000136-08a0-b3b3-f687-036180000000> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://utep.eagle-i.net/i/00000134-aa20-7ae5-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000136-8296-62d0-8626-74df80000000> .
+
+<http://utep.eagle-i.net/i/00000136-5fa7-da1c-8626-74df80000000>
+        a       <http://purl.obolibrary.org/obo/ERO_0000395> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://utep.eagle-i.net/i/00000134-aa21-2db4-bfc0-fe9780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/OBI_0000916> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> .
+
+<http://utep.eagle-i.net/i/00000134-af90-0417-bfc0-fe9780000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://science.utep.edu/bbrc/other-core-facility-instruments" ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://utep.eagle-i.net/i/00000134-a9b2-8e15-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> .
+
+<http://utep.eagle-i.net/i/00000136-f061-7ab4-8626-74df80000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000395> ;
+        rdfs:label  "Quantification of cellular endosomes" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://utep.eagle-i.net/i/00000134-aa21-2db4-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-26T15:40:34.191-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-26T15:40:39.934-05:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/repo/1.0/NGType_Published>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/NamedGraphType> ;
+        rdf:value     "published" ;
+        rdfs:comment  "Data objects meant to be visible to the public" ;
+        rdfs:label    "Published resource instances" .
+
+<http://utep.eagle-i.net/i/00000136-5775-7730-8626-74df80000000>
+        a           <http://xmlns.com/foaf/0.1/Person> ;
+        rdfs:label  "Varela, Armando, Ph.D." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000042>
+                "Armando" ;
+        <http://purl.obolibrary.org/obo/ERO_0000049>
+                "Varela" ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-03-27T22:59:56.595-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-26T18:19:21.596-05:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/app/1.0/Person>
+        rdfs:subClassOf  owl:Thing .
+
+<http://eagle-i.org/ont/repo/1.0/WorkflowTransition>
+        a                owl:Class ;
+        rdfs:comment     "Describes one of the possible transitions from one workflow state to another" ;
+        rdfs:label       "Workflow Transition" ;
+        rdfs:subClassOf  owl:Thing .
+
+<http://utep.eagle-i.net/i/00000134-c863-7c85-bfc0-fe9780000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://utep.eagle-i.net/i/00000134-aa23-3d2b-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> .
+
+<http://eagle-i.org/ont/repo/1.0/WFS_Published>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/WorkflowState> ;
+        rdfs:comment  "Finished and available to the public" ;
+        rdfs:label    "Published" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWriter>
+                <http://eagle-i.org/ont/repo/1.0/Role_Curator> ;
+        <http://eagle-i.org/ont/repo/1.0/order>
+                40 .
+
+<http://eagle-i.org/ont/repo/1.0/hasWorkflowOwner>
+        a             owl:ObjectProperty ;
+        rdfs:comment  "Current owner (claimant) of the workflow state of this instance" ;
+        rdfs:label    "workflow owner" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/Agent> .
+
+<http://eagle-i.org/ont/repo/1.0/NG_Internal>
+        <http://purl.org/dc/terms/created>
+                "2017-03-02T07:05:17.962-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://eagle-i.org/ont/repo/1.0/Role_Superuser> ;
+        <http://purl.org/dc/terms/source>
+                [ <http://purl.org/dc/terms/identifier>
+                          <file:///usr/share/tomcat7/webapps/sparqler/WEB-INF/classes/repository-internal.n3> ;
+                  <http://purl.org/dc/terms/modified>
+                          "2017-02-03T18:12:12.000-06:00"^^xsd:dateTime
+                ] .
+
+<http://utep.eagle-i.net/i/00000134-afb5-e193-bfc0-fe9780000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000391> ;
+        rdfs:label  "Automated pipetting system access" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "Access to the automated pipetting system available to trained users." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000029>
+                <http://utep.eagle-i.net/i/00000134-afbe-88b5-bfc0-fe9780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://utep.eagle-i.net/i/00000134-aa21-2db4-bfc0-fe9780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://science.utep.edu/bbrc/automated-pipetting-system" ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-01-05T15:11:27.786-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-04T21:03:30.807-05:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/repo/1.0/WFS_Curation>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/WorkflowState> ;
+        rdfs:comment  "Awaiting approval by a curator and possible editing" ;
+        rdfs:label    "In Curation" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWriter>
+                <http://eagle-i.org/ont/repo/1.0/Role_Curator> ;
+        <http://eagle-i.org/ont/repo/1.0/order>
+                30 .
+
+<http://utep.eagle-i.net/i/00000136-5f73-b706-8626-74df80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/created>
+                "2012-03-29T12:15:10.175-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> .
+
+<http://utep.eagle-i.net/i/00000136-59fb-4c41-8626-74df80000000>
+        a       <http://purl.obolibrary.org/obo/ERO_0000071> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc86-3932-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000070>
+                <http://utep.eagle-i.net/i/00000134-a9b2-8e15-bfc0-fe9780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0001329> ;
+        <http://purl.obolibrary.org/obo/ERO_0001824>
+                <http://www.ebi.ac.uk/swo/license/SWO_1000002> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> .
+
+<http://eagle-i.org/ont/repo/1.0/Role>
+        a                owl:Class ;
+        rdfs:comment     "Represents an access-control role granted to an Agent" ;
+        rdfs:label       "Role" ;
+        rdfs:subClassOf  owl:Thing , <http://eagle-i.org/ont/app/1.0/Agent> , <http://purl.org/dc/terms/Agent> , <http://xmlns.com/foaf/0.1/Agent> , <http://eagle-i.org/ont/repo/1.0/Agent> .
+
+<http://purl.org/dc/terms/Agent>
+        rdfs:subClassOf  owl:Thing .
+
+<http://utep.eagle-i.net/i/00000134-afb4-30e2-bfc0-fe9780000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000818> ;
+        rdfs:label  "BD Pathway 855 Bioimager System" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"This multiwell (96 and 384) plate reader confocal microscope system has stationary stage with movable optics and it is assisted with Attovison software to capture images and data analysis.\nThe system is equipped with environmental control chamber (37ºC, 5% CO2) and liquid handling system. Light from two mercury lamps provides illumination from 360 nm to 700 nm.\nAlso, this Bioimager provides the ability to capture bright-field images that can be overlaid onto fluorescent images.\nThe laser-based autofocus capability of the BD Pathway systems enables rapid acquisition of high-quality images.\nFour objectives (4X, 10X, 20X and 40X) are available to capture images in an ample variety of montages (contiguous frames and confocal Z stack acquisition mode).\"" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc6a-1489-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "Pathway 855" ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://science.utep.edu/bbrc/General/bd-pathway-bioimager-system" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000200> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://utep.eagle-i.net/i/00000134-aa21-2db4-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-01-05T15:10:27.664-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-04T21:04:18.789-05:00"^^xsd:dateTime .
+
+<http://utep.eagle-i.net/i/00000134-c867-8879-bfc0-fe9780000000>
+        a       <http://purl.obolibrary.org/obo/ERO_0000391> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://utep.eagle-i.net/i/00000134-aa23-3d2b-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> .
+
+<http://utep.eagle-i.net/i/00000134-afa0-9921-bfc0-fe9780000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000395> ;
+        rdfs:label  "Mass spectrometry analysis" ;
+        <http://eagle-i.org/ont/app/1.0/feeforservice>
+                "true" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"For molecular mass determination, one needs approx. 1-10 picomoles of a purified peptide or protein. If the sample contains non-volatile salt, Sep-Pak C18 purification needs to be performed prior to MS analysis.\nFor peptide and protein sequencing and identification from SDS-PAGE gel bands, any band visible by Coomassie staining is acceptable (roughly corresponding to a minimum peptide or protein concentration in the range of 1-0.1 pmol/µl). You may also combine up to 3 duplicate gel bands in one single microtube to send us for analysis. This way you will increase your chances to get one or more peptide sequences and you're your protein identified.\"" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://utep.eagle-i.net/i/00000134-a9b3-3606-bfc0-fe9780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000029>
+                <http://utep.eagle-i.net/i/00000134-af99-88b8-bfc0-fe9780000000> , <http://utep.eagle-i.net/i/00000134-af9b-1303-bfc0-fe9780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://utep.eagle-i.net/i/00000134-a9b2-8e15-bfc0-fe9780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://science.utep.edu/bbrc/Center-Guidelines/how-to-submit-ms-samples" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/OBI_0000470> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-01-05T14:49:40.567-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-05-09T16:35:48.200-05:00"^^xsd:dateTime .
+
+<http://utep.eagle-i.net/i/00000136-08a0-b3b3-f687-036180000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000052>
+                "Professor, Department of Mathmatical Sciences" ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> .
+
+<http://utep.eagle-i.net/i/0000013c-39e1-54cf-4a2a-dc8a80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000070>
+                <http://utep.eagle-i.net/i/00000134-aa20-7ae5-bfc0-fe9780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000076>
+                <http://utep.eagle-i.net/i/0000013c-39e1-568e-4a2a-dc8a80000000> .
+
+<http://utep.eagle-i.net/i/00000134-af9b-1303-bfc0-fe9780000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc86-3932-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://science.utep.edu/bbrc/Mass-Spectrometry/" ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://utep.eagle-i.net/i/00000134-a9b2-8e15-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> .
+
+<http://utep.eagle-i.net/i/00000147-5a7b-947d-e610-212580000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://utep.eagle-i.net/i/00000134-afa8-1e0f-bfc0-fe9780000000> , <http://utep.eagle-i.net/i/00000136-5033-d152-8626-74df80000000> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://utep.eagle-i.net/i/00000134-aa21-2db4-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000134-486f-1e07-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-486f-1e07-bfc0-fe9780000000> .
+
+<http://utep.eagle-i.net/i/00000134-af89-faa0-bfc0-fe9780000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://science.utep.edu/bbrc/other-core-facility-instruments" ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://utep.eagle-i.net/i/00000134-a9b2-8e15-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> .
+
+<http://utep.eagle-i.net/i/00000136-f03c-2687-8626-74df80000000>
+        a       <http://purl.obolibrary.org/obo/ERO_0000394> ;
+        <http://eagle-i.org/ont/app/1.0/feeforservice>
+                "true" ;
+        <http://eagle-i.org/ont/app/1.0/servicefeeURL>
+                "http://science.utep.edu/bbrc/General/cellhtspolicies" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://utep.eagle-i.net/i/00000134-aa21-2db4-bfc0-fe9780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/OBI_0600024> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> .
+
+<http://utep.eagle-i.net/i/00000134-afa8-1e0f-bfc0-fe9780000000>
+        a           <http://xmlns.com/foaf/0.1/Person> ;
+        rdfs:label  "Aguilera, Renato, Ph.D." ;
+        <http://eagle-i.org/ont/app/1.0/Profilesurl>
+                "http://t1t2.rtrn.net/profilesweb/ProfileDetails.aspx?From=SE&Person=2954&PersonSource=University of Texas at El Paso" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000042>
+                "Renato J." ;
+        <http://purl.obolibrary.org/obo/ERO_0000049>
+                "Aguilera" ;
+        <http://purl.obolibrary.org/obo/ERO_0000052>
+                "Director, Cell Culture and High Throughput Screening (HTS) Core Facility" , "Professor of Biology" ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://www.science.utep.edu/faculty_profiles/dm.php?username=raguilera" ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-01-05T14:56:36.731-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-03-29T12:45:49.009-05:00"^^xsd:dateTime .
+
+<http://utep.eagle-i.net/i/00000134-c86a-3580-bfc0-fe9780000000>
+        a       <http://purl.obolibrary.org/obo/ERO_0000395> ;
+        <http://eagle-i.org/ont/app/1.0/feeforservice>
+                "true" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://utep.eagle-i.net/i/00000134-aa23-3d2b-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> .
+
+<http://eagle-i.org/ont/repo/1.0/WorkflowState>
+        a                owl:Class ;
+        rdfs:comment     "Controlled vocabulary describing workflow state." ;
+        rdfs:label       "Workflow State" ;
+        rdfs:subClassOf  owl:Thing .
+
+<http://utep.eagle-i.net/i/00000134-af7e-be01-bfc0-fe9780000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000819> ;
+        rdfs:label  "Beckman Optima Max- Benchtop Ultracentrifuge" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "Benchtop ultracentrifuge available for use by registered users." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc6a-37eb-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "Optima Max" ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://science.utep.edu/bbrc/other-core-facility-instruments" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/OBI_0302886> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://utep.eagle-i.net/i/00000134-a9b2-8e15-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-01-05T14:11:22.535-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-05-09T16:33:12.113-05:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/repo/1.0/WFS_Withdrawn>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/WorkflowState> ;
+        rdfs:comment  "Withdrawn from public access" ;
+        rdfs:label    "Withdrawn" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWriter>
+                <http://eagle-i.org/ont/repo/1.0/Role_Curator> ;
+        <http://eagle-i.org/ont/repo/1.0/order>
+                50 .
+
+<http://utep.eagle-i.net/i/00000134-cdf6-6cf2-bfc0-fe9780000000>
+        a       <http://purl.obolibrary.org/obo/ERO_0001255> ;
+        <http://eagle-i.org/ont/app/1.0/feeforservice>
+                "true" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://utep.eagle-i.net/i/00000134-aa20-7ae5-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> .
+
+<http://utep.eagle-i.net/i/00000134-af80-004a-bfc0-fe9780000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0400114> ;
+        rdfs:label  "Sonics Vibra Cell VCX 750-Sonicator" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "Sonicator available for use by registered users" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc83-98fa-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "VCX 750" ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://science.utep.edu/bbrc/other-core-facility-instruments" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/OBI_0600027> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://utep.eagle-i.net/i/00000134-a9b2-8e15-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-01-05T14:13:46.324-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-05-09T16:33:16.212-05:00"^^xsd:dateTime .
+
+<http://utep.eagle-i.net/i/00000134-c8eb-1129-bfc0-fe9780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> .
+
+<http://eagle-i.org/ont/repo/1.0/final>
+        a             owl:FunctionalProperty , owl:ObjectProperty ;
+        rdfs:comment  "Final (Ending) workflow state" ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/WorkflowTransition> ;
+        rdfs:label    "Final Workflow State" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/WorkflowState> .
+
+<http://utep.eagle-i.net/i/00000134-c865-553d-bfc0-fe9780000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://utep.eagle-i.net/i/00000134-aa23-3d2b-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> .
+
+<http://utep.eagle-i.net/i/00000134-af7f-6bbe-bfc0-fe9780000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc86-3932-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "Optima Max" ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://science.utep.edu/bbrc/other-core-facility-instruments" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/OBI_0302886> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://utep.eagle-i.net/i/00000134-a9b2-8e15-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> .
+
+<http://utep.eagle-i.net/i/00000136-f085-441a-8626-74df80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://utep.eagle-i.net/i/00000134-aa21-2db4-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> .
+
+<http://utep.eagle-i.net/i/00000137-0481-556f-8626-74df80000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000071> ;
+        rdfs:label  "UNICORN" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"UNICORN is a complete package for control and supervision of chromatography systems. It consists of control software and a controller card for interfacing the controlling PC to the chromatography liquid handling module.\"" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc73-a1b8-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000070>
+                <http://utep.eagle-i.net/i/00000134-aa23-3d2b-bfc0-fe9780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://www.gelifesciences.com/webapp/wcs/stores/servlet/catalog/en/GELifeSciences/products/AlternativeProductStructure_17176/" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0001504> ;
+        <http://purl.obolibrary.org/obo/ERO_0001824>
+                <http://www.ebi.ac.uk/swo/license/SWO_1000002> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-30T13:27:13.440-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-30T13:38:16.063-05:00"^^xsd:dateTime .
+
+<http://utep.eagle-i.net/i/00000134-af8e-1e9f-bfc0-fe9780000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://science.utep.edu/bbrc/other-core-facility-instruments" ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://utep.eagle-i.net/i/00000134-a9b2-8e15-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> .
+
+<http://eagle-i.org/ont/repo/1.0/NamedGraph>
+        a                owl:Class ;
+        rdfs:comment     "Collection of metadata about named graph in the repository." ;
+        rdfs:label       "Named Graph" ;
+        rdfs:subClassOf  owl:Thing .
+
+<http://utep.eagle-i.net/i/00000134-af77-ea7c-bfc0-fe9780000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc86-3932-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://science.utep.edu/bbrc/other-core-facility-instruments" ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://utep.eagle-i.net/i/00000134-a9b2-8e15-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> .
+
+<http://eagle-i.org/ont/repo/1.0/hasAdminAccess>
+        a                   owl:ObjectProperty ;
+        rdfs:comment        "Grants administrative access on subject resource to a principal" ;
+        rdfs:label          "has administrative access" ;
+        rdfs:range          <http://eagle-i.org/ont/repo/1.0/Agent> ;
+        rdfs:subPropertyOf  <http://eagle-i.org/ont/repo/1.0/hasAnyAccess> .
+
+<http://utep.eagle-i.net/i/00000134-aa24-006d-bfc0-fe9780000000>
+        a       <http://vivoweb.org/ontology/core#CoreLaboratory> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000066>
+                <http://utep.eagle-i.net/i/00000134-a959-ce9c-bfc0-fe9780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000596>
+                <http://utep.eagle-i.net/i/00000136-0897-1374-f687-036180000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> .
+
+<http://utep.eagle-i.net/i/00000136-08ac-a3f0-f687-036180000000>
+        a           <http://xmlns.com/foaf/0.1/Person> ;
+        rdfs:label  "Kirken, Robert, Ph.D." ;
+        <http://eagle-i.org/ont/app/1.0/Profilesurl>
+                "http://t1t2.rtrn.net/profilesweb/ProfileDetails.aspx?From=SE&Person=2141&PersonSource=University of Texas at El Paso" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000042>
+                "Robert A." ;
+        <http://purl.obolibrary.org/obo/ERO_0000049>
+                "Kirken" ;
+        <http://purl.obolibrary.org/obo/ERO_0000052>
+                "Professor and Chair, Biological sciences" , "Director, Border Biomedical Research Center" ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://academics.utep.edu/Default.aspx?tabid=51146" ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-03-12T15:54:00.788-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-04T21:13:05.287-05:00"^^xsd:dateTime .
+
+<http://utep.eagle-i.net/i/00000134-c86e-e353-bfc0-fe9780000000>
+        a       <http://purl.obolibrary.org/obo/ERO_0000394> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://utep.eagle-i.net/i/00000134-aa23-3d2b-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> .
+
+<http://utep.eagle-i.net/i/00000134-c8e3-35d2-bfc0-fe9780000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0001255> ;
+        rdfs:label  "Statistical support services" ;
+        <http://eagle-i.org/ont/app/1.0/feeforservice>
+                "true" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"Services include:\n* Planning sample sizes so the minimum number of experimental units are used to achieve a specified level of power or predictive ability;\n* Specifying models for related hypothesis in terms of estimable quantities;\n* Randomizing experimental units when appropriate;\n* Analyzing data, checking for validity of assumptions required by certain statistical methods;\n* Modifying or creating statistical methodology when basic assumptions required for validity of the existing statistical methodology are violated;\n* Interpreting the results;\n* Teaching the graduate Biostatistics core course for the Biological Sciences Department; and\n* Research proposal development and protocol review. Close long-term working relationships between statisticians and biomedical researchers will be nurtured with release time from teaching, summer salary, and travel support. Computing support is provided by a network manager who assists with hardware selection and maintenance, spread sheet design for creation of electronic databases, database management and backups, and homepage design and maintenance for recruitment of students to careers in the health sciences. SCL computing facilities are to be maintained with up-to-date software and hardware.\"" ;
+        <http://eagle-i.org/ont/app/1.0/servicefeeURL>
+                "http://academics.utep.edu/Default.aspx?tabid=37008" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://utep.eagle-i.net/i/00000134-aa24-006d-bfc0-fe9780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0001053>
+                "false" ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-01-10T12:32:17.805-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-26T17:48:47.889-05:00"^^xsd:dateTime .
+
+<http://utep.eagle-i.net/i/00000147-5a80-588b-e610-212580000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://utep.eagle-i.net/i/00000134-afa8-1e0f-bfc0-fe9780000000> , <http://utep.eagle-i.net/i/00000136-5033-d152-8626-74df80000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc6a-37eb-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/OBI_0000916> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://utep.eagle-i.net/i/00000134-aa21-2db4-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000134-486f-1e07-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-486f-1e07-bfc0-fe9780000000> .
+
+<http://utep.eagle-i.net/i/00000134-af99-88b8-bfc0-fe9780000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0000051> ;
+        rdfs:label  "Thermo LTQXL/ETD mass spectrometer" ;
+        <http://eagle-i.org/ont/app/1.0/related_software>
+                <http://utep.eagle-i.net/i/00000136-59fb-4c41-8626-74df80000000> ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"A Thermo LTQXL/ETD MS ESI-linear ion trap-MS with electron-transfer dissociation (ETD) capability coupled to a nanoLC-1D Plus from Eksigent for analyses of minute amounts (picomoles to femtomoles) of sample.\n\nThe instrument is equipped at the front end with a TriVersa NanoMate electrospray ionization nano-source.\"" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://utep.eagle-i.net/i/00000136-5a07-410e-8626-74df80000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc86-3932-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "LTQXL/ETD" ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://science.utep.edu/bbrc/Mass-Spectrometry/" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0001329> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://utep.eagle-i.net/i/00000134-a9b2-8e15-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-01-05T14:41:37.705-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-05-09T16:34:49.441-05:00"^^xsd:dateTime .
+
+<http://utep.eagle-i.net/i/00000134-afb9-657e-bfc0-fe9780000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000391> ;
+        rdfs:label  "Flow cytometry analyzer access" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "After completing training on the proper use of the cytometer, investigators will be granted 24/7 access to the FC 500. Users need to sign-up and scheduling should be discussed with the  Core personnel first.  The  Core Facility operates on a first come first serve policy for the use of the analytical instruments." ;
+        <http://eagle-i.org/ont/app/1.0/synonym>
+                "FACS analyzer access" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000029>
+                <http://utep.eagle-i.net/i/00000134-afb6-85ea-bfc0-fe9780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://utep.eagle-i.net/i/00000134-aa21-2db4-bfc0-fe9780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://science.utep.edu/bbrc/flow-cytomer-and-sorter" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000720> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000134-486f-1e07-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-01-05T15:15:50.506-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2015-11-19T14:19:35.387-06:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/repo/1.0/initial>
+        a             owl:FunctionalProperty , owl:ObjectProperty ;
+        rdfs:comment  "Initial (Starting) workflow state" ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/WorkflowTransition> ;
+        rdfs:label    "Initial Workflow state" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/WorkflowState> .
+
+<http://utep.eagle-i.net/i/00000136-f037-3b45-8626-74df80000000>
+        a       <http://purl.obolibrary.org/obo/ERO_0000394> ;
+        <http://eagle-i.org/ont/app/1.0/feeforservice>
+                "true" ;
+        <http://eagle-i.org/ont/app/1.0/servicefeeURL>
+                "http://science.utep.edu/bbrc/General/cellhtspolicies" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://utep.eagle-i.net/i/00000134-aa21-2db4-bfc0-fe9780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/OBI_0600024> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> .
+
+<http://utep.eagle-i.net/i/00000136-5b22-7936-8626-74df80000000>
+        <http://eagle-i.org/ont/app/1.0/related_software>
+                <http://utep.eagle-i.net/i/00000137-0481-556f-8626-74df80000000> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc73-a1b8-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0001504> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://utep.eagle-i.net/i/00000134-aa23-3d2b-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> .
+
+<http://utep.eagle-i.net/i/00000134-afc8-cd96-bfc0-fe9780000000>
+        <http://eagle-i.org/ont/app/1.0/feeforservice>
+                "true" ;
+        <http://eagle-i.org/ont/app/1.0/servicefeeURL>
+                "http://science.utep.edu/bbrc/General/cellhtspolicies" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://utep.eagle-i.net/i/00000136-5033-d152-8626-74df80000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://utep.eagle-i.net/i/00000134-aa21-2db4-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> .
+
+<http://utep.eagle-i.net/i/00000134-afad-4974-bfc0-fe9780000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0001079> ;
+        rdfs:label  "Zeiss LSM 700 Confocal Microscopes" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"Combined the two LSM 700 Confocal Microscopes (Zeiss) have the following features:\n\n* Four lasers: 405, 488, 555 and 639 nm.\n* Four objectives: 10X, 20X, 63X oil, and 100X oil.\n* Plus LSM T-PMT detector to capture DIC images.\n* Zen 2009 software is used for image capture and analysis.\"\n\nFacility has 2 confocal microscopes." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://utep.eagle-i.net/i/00000136-5a33-ff33-8626-74df80000000> , <http://utep.eagle-i.net/i/00000136-5775-7730-8626-74df80000000> , <http://utep.eagle-i.net/i/00000136-5033-d152-8626-74df80000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc6d-4446-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "LSM 700" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000200> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://utep.eagle-i.net/i/00000134-aa21-2db4-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000134-486f-82e4-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-01-05T15:03:31.387-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-11-20T12:29:13.809-06:00"^^xsd:dateTime .
+
+<http://utep.eagle-i.net/i/00000134-af71-cbd1-bfc0-fe9780000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc86-3932-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/OBI_0302886> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://utep.eagle-i.net/i/00000134-a9b2-8e15-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> .
+
+<http://eagle-i.org/ont/repo/1.0/workspace>
+        a             owl:ObjectProperty ;
+        rdfs:comment  "Home workspace of resources capable of using this transition" ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/WorkflowTransition> ;
+        rdfs:label    "Workspace" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/NamedGraph> .
+
+<http://eagle-i.org/ont/repo/1.0/hasRole>
+        a             owl:ObjectProperty ;
+        rdfs:comment  "Subject is entitled to the access privilegs of this role" ;
+        rdfs:label    "has role" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/Role> .
+
+<http://eagle-i.org/ont/repo/1.0/Role_Curator>
+        a       owl:Thing .
+
+<http://utep.eagle-i.net/i/00000134-af93-df70-bfc0-fe9780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> .
+
+<http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+        a             owl:ObjectProperty ;
+        rdfs:comment  "Current workflow state of this instance" ;
+        rdfs:label    "workflow state" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/WorkflowState> .
+
+<http://eagle-i.org/ont/repo/1.0/NG_Query>
+        <http://purl.org/dc/terms/created>
+                "2017-03-02T07:05:15.399-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://eagle-i.org/ont/repo/1.0/Role_Superuser> ;
+        <http://purl.org/dc/terms/source>
+                [ <http://purl.org/dc/terms/identifier>
+                          <file:///usr/share/tomcat7/webapps/sparqler/WEB-INF/classes/query-macros.n3> ;
+                  <http://purl.org/dc/terms/modified>
+                          "2017-02-03T18:12:12.000-06:00"^^xsd:dateTime
+                ] .
+
+<http://utep.eagle-i.net/i/00000134-af76-7a18-bfc0-fe9780000000>
+        a       <http://purl.obolibrary.org/obo/ERO_0000391> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://utep.eagle-i.net/i/00000134-af9f-cbae-bfc0-fe9780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000029>
+                <http://utep.eagle-i.net/i/00000134-af7e-be01-bfc0-fe9780000000> , <http://utep.eagle-i.net/i/00000134-af8a-a805-bfc0-fe9780000000> , <http://utep.eagle-i.net/i/00000134-af7a-35a7-bfc0-fe9780000000> , <http://utep.eagle-i.net/i/00000134-af80-004a-bfc0-fe9780000000> , <http://utep.eagle-i.net/i/00000134-af84-4ed2-bfc0-fe9780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://utep.eagle-i.net/i/00000134-a9b2-8e15-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> .
+
+<http://utep.eagle-i.net/i/00000134-ec39-d3e6-bfc0-fe9780000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000071> ;
+        rdfs:label  "Isoform Specific O-Glycosylation Prediction" ;
+        <http://eagle-i.org/ont/app/1.0/synonym>
+                "ISOGlyP" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000070>
+                <http://utep.eagle-i.net/i/00000134-aa20-7ae5-bfc0-fe9780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://isoglyp.utep.edu/" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000740> ;
+        <http://purl.obolibrary.org/obo/ERO_0001824>
+                <http://www.ebi.ac.uk/swo/license/SWO_1000008> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2014-12-03T12:30:52.103-06:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/repo/1.0/WFS_Draft>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/WorkflowState> ;
+        rdfs:comment  "Data collection and preparation" ;
+        rdfs:label    "Draft" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWriter>
+                <http://eagle-i.org/ont/repo/1.0/Role_Curator> , <http://eagle-i.org/ont/repo/1.0/Role_RNAV> ;
+        <http://eagle-i.org/ont/repo/1.0/order>
+                20 .
+
+<http://utep.eagle-i.net/i/00000134-af7a-35a7-bfc0-fe9780000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0001031> ;
+        rdfs:label  "Molecular Devices Versa Max Tunable Microplate Reader-Spectrophotometer 96 well plate reader" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "Tunable Microplate Reader-Spectrophotometer - 96 well plate format." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc7b-dd37-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "Versa Max" ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://science.utep.edu/bbrc/other-core-facility-instruments" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0001239> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://utep.eagle-i.net/i/00000134-a9b2-8e15-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-01-05T14:07:35.232-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-05-09T16:33:13.367-05:00"^^xsd:dateTime .
+
+<http://utep.eagle-i.net/i/00000134-a9b2-8e15-bfc0-fe9780000000>
+        a       <http://vivoweb.org/ontology/core#CoreLaboratory> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://utep.eagle-i.net/i/00000134-af9f-cbae-bfc0-fe9780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000066>
+                <http://utep.eagle-i.net/i/00000134-a959-ce9c-bfc0-fe9780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000596>
+                <http://utep.eagle-i.net/i/00000134-a9b3-3606-bfc0-fe9780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0001768>
+                <http://utep.eagle-i.net/i/00000134-af93-df70-bfc0-fe9780000000> , <http://utep.eagle-i.net/i/00000136-5a07-410e-8626-74df80000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> .
+
+<http://eagle-i.org/ont/repo/1.0/Person>
+        a                owl:Class ;
+        rdfs:comment     "Represents a person acting as an authenticated user of the repository" ;
+        rdfs:label       "Person" ;
+        rdfs:subClassOf  owl:Thing , <http://eagle-i.org/ont/app/1.0/Person> , <http://xmlns.com/foaf/0.1/Person> , <http://eagle-i.org/ont/repo/1.0/Agent> , <http://eagle-i.org/ont/app/1.0/Agent> , <http://xmlns.com/foaf/0.1/Agent> , <http://purl.org/dc/terms/Agent> .
+
+<http://eagle-i.org/ont/repo/1.0/ngType>
+        a             owl:FunctionalProperty ;
+        rdfs:comment  "Describes type of contents and purpose of this named graph" ;
+        rdfs:label    "named graph type" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/NamedGraphType> .
+
+<http://eagle-i.org/ont/repo/1.0/Agent>
+        a                owl:Class ;
+        rdfs:comment     "Represents a person, role, or other principal to be granted access control rights" ;
+        rdfs:label       "Agent" ;
+        rdfs:subClassOf  owl:Thing , <http://eagle-i.org/ont/app/1.0/Agent> , <http://purl.org/dc/terms/Agent> , <http://xmlns.com/foaf/0.1/Agent> .
+
+<http://eagle-i.org/ont/repo/1.0/>
+        a                owl:Ontology ;
+        <http://purl.org/dc/terms/created>
+                "2017-03-02T07:05:16.935-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://eagle-i.org/ont/repo/1.0/Role_Superuser> ;
+        <http://purl.org/dc/terms/source>
+                [ <http://purl.org/dc/terms/identifier>
+                          <file:///usr/share/tomcat7/webapps/sparqler/WEB-INF/classes/repository-ont.n3> ;
+                  <http://purl.org/dc/terms/modified>
+                          "2017-02-03T18:12:12.000-06:00"^^xsd:dateTime
+                ] ;
+        owl:versionInfo  "$Id: repository-ont.n3 19120 2015-04-30 05:13:28Z scheng $" .
+
+<http://utep.eagle-i.net/i/00000136-f000-abfe-8626-74df80000000>
+        a       <http://purl.obolibrary.org/obo/ERO_0000394> ;
+        <http://eagle-i.org/ont/app/1.0/feeforservice>
+                "true" ;
+        <http://eagle-i.org/ont/app/1.0/servicefeeURL>
+                "http://science.utep.edu/bbrc/General/cellhtspolicies" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://utep.eagle-i.net/i/00000134-aa21-2db4-bfc0-fe9780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000337> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> .
+
+<http://utep.eagle-i.net/i/00000136-acba-a63d-8626-74df80000000>
+        a       <http://purl.obolibrary.org/obo/OBI_0400107> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://utep.eagle-i.net/i/00000136-08a0-b3b3-f687-036180000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://isoglyp.utep.edu/" ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://utep.eagle-i.net/i/00000134-aa20-7ae5-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000136-8296-62d0-8626-74df80000000> .
+
+<http://utep.eagle-i.net/i/00000136-f05d-bedd-8626-74df80000000>
+        a       <http://purl.obolibrary.org/obo/ERO_0000395> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://utep.eagle-i.net/i/00000134-aa21-2db4-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> .
+
+<http://utep.eagle-i.net/i/00000151-2156-d3d9-9bec-044b80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000134-486f-1e07-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-486f-1e07-bfc0-fe9780000000> .
+
+<http://utep.eagle-i.net/i/00000136-0897-1374-f687-036180000000>
+        a           <http://xmlns.com/foaf/0.1/Person> ;
+        rdfs:label  "Moschopoulos, Panagis, Ph.D." ;
+        <http://eagle-i.org/ont/app/1.0/synonym>
+                "Moschopoulos, Peter, Ph.D." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000042>
+                "Panagis G." ;
+        <http://purl.obolibrary.org/obo/ERO_0000049>
+                "Moschopoulos" ;
+        <http://purl.obolibrary.org/obo/ERO_0000052>
+                "Director, Statistical Consulting Laboratory" , "Professor, Department of Mathmatical Sciences" ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://faculty.utep.edu/Default.aspx?alias=faculty.utep.edu/pmoschopoulos" ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-03-12T15:27:49.712-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-04T21:26:42.471-05:00"^^xsd:dateTime .
+
+<http://utep.eagle-i.net/i/00000136-6066-d22b-8626-74df80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> .
+
+<http://utep.eagle-i.net/i/00000136-57bd-a3ce-8626-74df80000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000071> ;
+        rdfs:label  "CXP Analysis Software" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc6a-37eb-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000070>
+                <http://utep.eagle-i.net/i/00000134-aa21-2db4-bfc0-fe9780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/OBI_0000916> ;
+        <http://purl.obolibrary.org/obo/ERO_0001824>
+                <http://www.ebi.ac.uk/swo/license/SWO_1000002> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-03-28T00:29:11.943-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-06-08T11:38:45.474-05:00"^^xsd:dateTime .
+
+<http://utep.eagle-i.net/i/00000136-f06b-af20-8626-74df80000000>
+        a       <http://purl.obolibrary.org/obo/ERO_0000395> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://utep.eagle-i.net/i/00000134-aa21-2db4-bfc0-fe9780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/OBI_0000916> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> .
+
+<http://xmlns.com/foaf/0.1/Agent>
+        rdfs:subClassOf  owl:Thing .
+
+<http://utep.eagle-i.net/i/00000134-a953-f425-bfc0-fe9780000000>
+        a           <http://xmlns.com/foaf/0.1/Person> ;
+        rdfs:label  "Viveros, Marian" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000042>
+                "Marian" ;
+        <http://purl.obolibrary.org/obo/ERO_0000049>
+                "Viveros" ;
+        <http://purl.obolibrary.org/obo/ERO_0000052>
+                "Core Coordinator" ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-01-04T09:30:27.934-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-26T18:19:22.057-05:00"^^xsd:dateTime .
+
+<http://utep.eagle-i.net/i/00000134-af8a-a805-bfc0-fe9780000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0001057> ;
+        rdfs:label  "Waters 2695-HPLC" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "HPLC available for use by registered users." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc88-fd7a-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "2695" ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://science.utep.edu/bbrc/other-core-facility-instruments" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000185> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://utep.eagle-i.net/i/00000134-a9b2-8e15-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-01-05T14:27:05.957-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-05-09T16:33:19.808-05:00"^^xsd:dateTime .
+
+<http://utep.eagle-i.net/i/00000136-5a33-ff33-8626-74df80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> .
+
+<http://utep.eagle-i.net/i/00000136-59eb-b300-8626-74df80000000>
+        a       <http://purl.obolibrary.org/obo/ERO_0000395> ;
+        <http://eagle-i.org/ont/app/1.0/feeforservice>
+                "true" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://utep.eagle-i.net/i/00000134-af9f-cbae-bfc0-fe9780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://utep.eagle-i.net/i/00000134-a9b2-8e15-bfc0-fe9780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0001329> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> .
+
+<http://eagle-i.org/ont/repo/1.0/NamedGraphType>
+        a                owl:Class ;
+        rdfs:comment     "Purpose of a NamedGraph, indicates whether it should be included in certain query datasets" ;
+        rdfs:label       "Named Graph Type" ;
+        rdfs:subClassOf  owl:Thing .
+
+<http://utep.eagle-i.net/i/00000134-af75-88ad-bfc0-fe9780000000>
+        a       <http://purl.obolibrary.org/obo/ERO_0000819> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc86-3932-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/OBI_0302886> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://utep.eagle-i.net/i/00000134-a9b2-8e15-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> .
+
+<http://utep.eagle-i.net/i/00000136-5033-d152-8626-74df80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> .
+
+<http://utep.eagle-i.net/i/00000136-f004-94cd-8626-74df80000000>
+        <http://eagle-i.org/ont/app/1.0/feeforservice>
+                "true" ;
+        <http://eagle-i.org/ont/app/1.0/servicefeeURL>
+                "http://science.utep.edu/bbrc/General/cellhtspolicies" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://utep.eagle-i.net/i/00000134-aa21-2db4-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> .
+
+<http://utep.eagle-i.net/i/00000134-af84-4ed2-bfc0-fe9780000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0001589> ;
+        rdfs:label  "Organomation Associates N-EVAP 111-Nitrogen Drier" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "Available for use by registered users." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc7e-6a9c-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "N-EVAP 111" ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://science.utep.edu/bbrc/other-core-facility-instruments" ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://utep.eagle-i.net/i/00000134-a9b2-8e15-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-01-05T14:18:47.075-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-05-09T16:33:14.847-05:00"^^xsd:dateTime .
+
+<http://utep.eagle-i.net/i/00000134-aa21-2db4-bfc0-fe9780000000>
+        a       <http://vivoweb.org/ontology/core#CoreLaboratory> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://utep.eagle-i.net/i/00000136-5775-7730-8626-74df80000000> , <http://utep.eagle-i.net/i/00000134-afa8-1e0f-bfc0-fe9780000000> , <http://utep.eagle-i.net/i/00000136-5033-d152-8626-74df80000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000066>
+                <http://utep.eagle-i.net/i/00000134-a959-ce9c-bfc0-fe9780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000397>
+                <http://purl.obolibrary.org/obo/OBI_0000916> , <http://purl.obolibrary.org/obo/OBI_0600024> ;
+        <http://purl.obolibrary.org/obo/ERO_0000596>
+                <http://utep.eagle-i.net/i/00000134-afa8-1e0f-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000134-486f-1e07-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> .
+
+<http://eagle-i.org/ont/repo/1.0/hasRemoveAccess>
+        a                   owl:ObjectProperty ;
+        rdfs:comment        "Grants remove access on subject resource to a principal" ;
+        rdfs:label          "has remove access" ;
+        rdfs:range          <http://eagle-i.org/ont/repo/1.0/Agent> ;
+        rdfs:subPropertyOf  <http://eagle-i.org/ont/repo/1.0/hasAnyAccess> .
+
+<http://utep.eagle-i.net/i/00000134-af78-e3ac-bfc0-fe9780000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc86-3932-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://science.utep.edu/bbrc/other-core-facility-instruments" ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://utep.eagle-i.net/i/00000134-a9b2-8e15-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> .
+
+<http://eagle-i.org/ont/repo/1.0/MatchAnything>
+        rdfs:comment  "Wildcard URI for delete statements request, matches any predicate and/or object" .
+
+<http://eagle-i.org/ont/repo/1.0/NGType_Metadata>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/NamedGraphType> ;
+        rdf:value     "metadata" ;
+        rdfs:comment  "Administrative Metadata for the repository" ;
+        rdfs:label    "Administrative Metadata " .
+
+<http://utep.eagle-i.net/i/00000136-beda-2c24-8626-74df80000000>
+        a           <http://purl.obolibrary.org/obo/OBI_0400107> ;
+        rdfs:label  "GPI Server" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "This server is used to run the computational tool for large-scale\r\nGPIomic analysis. This tool aims to identify GPI molecules given mass spectrometry data" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://utep.eagle-i.net/i/00000136-08a0-b3b3-f687-036180000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "Dell PowerEdge T300" ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://utep.eagle-i.net/i/00000134-aa20-7ae5-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-17T00:51:48.795-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000136-8296-62d0-8626-74df80000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-24T16:11:52.866-05:00"^^xsd:dateTime .
+
+<http://utep.eagle-i.net/i/0000013c-39e1-568e-4a2a-dc8a80000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0100372> ;
+        rdfs:label  "Pseudoknot data" .
+
+<http://utep.eagle-i.net/i/00000134-af82-aabc-bfc0-fe9780000000>
+        a       <http://purl.obolibrary.org/obo/OBI_0400114> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://science.utep.edu/bbrc/other-core-facility-instruments" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/OBI_0600027> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://utep.eagle-i.net/i/00000134-a9b2-8e15-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> .
+
+<http://eagle-i.org/ont/repo/1.0/actionParameter>
+        a             owl:DatatypeProperty ;
+        rdfs:comment  "Transition-specific parameter to give action method" ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/WorkflowTransition> ;
+        rdfs:label    "action parameter" .
+
+<http://xmlns.com/foaf/0.1/Person>
+        rdfs:subClassOf  owl:Thing .
+
+<http://utep.eagle-i.net/i/00000136-0890-a3fe-f687-036180000000>
+        a           <http://xmlns.com/foaf/0.1/Person> ;
+        rdfs:label  "Johnson, Kyle, Ph.D." ;
+        <http://eagle-i.org/ont/app/1.0/Profilesurl>
+                "http://t1t2.rtrn.net/profilesweb/ProfileDetails.aspx?From=SE&Person=2105&PersonSource=University of Texas at El Paso" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000042>
+                "Kyle L." ;
+        <http://purl.obolibrary.org/obo/ERO_0000049>
+                "Johnson" ;
+        <http://purl.obolibrary.org/obo/ERO_0000052>
+                "Director, DNA Analysis Core Facility" , "Associate Professor, Biological Sciences" ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://faculty.utep.edu/Default.aspx?tabid=19159" ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-03-12T15:20:35.795-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-04T21:26:40.628-05:00"^^xsd:dateTime .
+
+<http://utep.eagle-i.net/i/00000134-aa23-3d2b-bfc0-fe9780000000>
+        a       <http://vivoweb.org/ontology/core#CoreLaboratory> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000066>
+                <http://utep.eagle-i.net/i/00000134-a959-ce9c-bfc0-fe9780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000596>
+                <http://utep.eagle-i.net/i/00000136-0890-a3fe-f687-036180000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> .
+
+<http://eagle-i.org/ont/app/1.0/Agent>
+        rdfs:subClassOf  owl:Thing .
+
+<http://utep.eagle-i.net/i/00000136-59e4-6858-8626-74df80000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://utep.eagle-i.net/i/00000134-a9b2-8e15-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> .
+
+<http://utep.eagle-i.net/i/00000135-785e-9b92-bfc0-fe9780000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000394> ;
+        rdfs:label  "Preparation of high titer viral stock" ;
+        <http://eagle-i.org/ont/app/1.0/feeforservice>
+                "true" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "Preparation of high titer viral stock." ;
+        <http://eagle-i.org/ont/app/1.0/servicefeeURL>
+                "http://science.utep.edu/bbrc/General/cellhtspolicies" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://utep.eagle-i.net/i/00000134-aa21-2db4-bfc0-fe9780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000337> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-02-13T14:20:12.694-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a7-0bc4-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-04T21:03:35.015-05:00"^^xsd:dateTime .
+
+<http://utep.eagle-i.net/i/00000134-afb6-85ea-bfc0-fe9780000000>
+        <http://eagle-i.org/ont/app/1.0/related_software>
+                <http://utep.eagle-i.net/i/00000136-57bd-a3ce-8626-74df80000000> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc6a-37eb-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/OBI_0000916> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://utep.eagle-i.net/i/00000134-aa21-2db4-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> .
+
+<http://utep.eagle-i.net/i/00000136-08af-eeca-f687-036180000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> .
+
+<http://eagle-i.org/ont/repo/1.0/Role_RNAV>
+        a       owl:Thing .
+
+<http://utep.eagle-i.net/i/00000136-765b-4567-8626-74df80000000>
+        a           <http://vivoweb.org/ontology/core#CoreLaboratory> ;
+        rdfs:label  "BSL 3 Laboratory" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"The purpose of this laboratory is to develop diagnostic tests, vaccines, and biomarkers of infectious agents prevalent in the El Paso/ Ciudad Juarez and McAllen, Texas border commmunities. Research emphasis on West Nile Virus and Mycobacterium tuberculosis are currently underway." ;
+        <http://eagle-i.org/ont/app/1.0/synonym>
+                "Biosafety Level 3 Laboratory" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000066>
+                <http://utep.eagle-i.net/i/00000134-a959-ce9c-bfc0-fe9780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000596>
+                <http://utep.eagle-i.net/i/00000136-7660-2949-8626-74df80000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-02T23:13:42.224-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-06-08T11:43:48.001-05:00"^^xsd:dateTime .
+
+<http://utep.eagle-i.net/i/00000134-afcb-3f35-bfc0-fe9780000000>
+        a       <http://purl.obolibrary.org/obo/ERO_0001255> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://utep.eagle-i.net/i/00000134-aa21-2db4-bfc0-fe9780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://science.utep.edu/bbrc/General/cellhtspolicies" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/OBI_0600024> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> .
+
+<http://eagle-i.org/ont/repo/1.0/hasReadAccess>
+        a                   owl:ObjectProperty ;
+        rdfs:comment        "Grants read and query access on subject resource to a principal" ;
+        rdfs:label          "has read access" ;
+        rdfs:range          <http://eagle-i.org/ont/repo/1.0/Agent> ;
+        rdfs:subPropertyOf  <http://eagle-i.org/ont/repo/1.0/hasAnyAccess> .
+
+<http://utep.eagle-i.net/i/00000136-f098-f95e-8626-74df80000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000293> ;
+        rdfs:label  "ChemBridge DIVERSet compound library" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "One pre-plated set of 10,000 compounds from the DIVERSet libarary" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc6d-ba9e-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://chembridge.com/screening_libraries/diversity_libraries/diverset/" ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://utep.eagle-i.net/i/00000134-aa21-2db4-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-04-26T16:51:49.247-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-26T16:54:43.235-05:00"^^xsd:dateTime .
+
+<http://utep.eagle-i.net/i/00000134-afbe-88b5-bfc0-fe9780000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://science.utep.edu/bbrc/automated-pipetting-system" ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://utep.eagle-i.net/i/00000134-aa21-2db4-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> .
+
+<http://utep.eagle-i.net/i/00000134-af9f-cbae-bfc0-fe9780000000>
+        a           <http://xmlns.com/foaf/0.1/Person> ;
+        rdfs:label  "Alcazar, Lani" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000042>
+                "Lani" ;
+        <http://purl.obolibrary.org/obo/ERO_0000049>
+                "Alcazar" ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-01-05T14:47:05.076-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-04-04T21:26:38.406-05:00"^^xsd:dateTime .
+
+<http://utep.eagle-i.net/i/00000134-afaf-1aeb-bfc0-fe9780000000>
+        a           <http://purl.obolibrary.org/obo/ERO_0000391> ;
+        rdfs:label  "Confocal microscope access" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "After completion of training on the proper use of the confocal microscopes, investigators will have 24/7 access. Users need to sign-up and scheduling should be discussed with the Core personnel first. The Core Facility operates on a first come first serve policy for the use of the analytical instruments." ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://utep.eagle-i.net/i/00000136-5775-7730-8626-74df80000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000029>
+                <http://utep.eagle-i.net/i/00000134-afad-4974-bfc0-fe9780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://utep.eagle-i.net/i/00000134-aa21-2db4-bfc0-fe9780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://science.utep.edu/bbrc/General/state-of-the-art-confocal-microscopes" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0000200> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000134-486f-1e07-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-01-05T15:04:48.583-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2015-11-19T14:18:38.698-06:00"^^xsd:dateTime .
+
+<http://utep.eagle-i.net/i/00000136-5b28-3324-8626-74df80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> .
+
+<http://utep.eagle-i.net/i/00000136-bbc5-1ec7-8626-74df80000000>
+        a       <http://purl.obolibrary.org/obo/OBI_0400107> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://utep.eagle-i.net/i/00000136-08a0-b3b3-f687-036180000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000050>
+                "PowerEdge 840" ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://utep.eagle-i.net/i/00000134-aa20-7ae5-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000136-8296-62d0-8626-74df80000000> .
+
+<http://eagle-i.org/ont/repo/1.0/hasAnyAccess>
+        a             owl:ObjectProperty ;
+        rdfs:comment  "has*Access superproperty" ;
+        rdfs:label    "has*Access superproperty" .
+
+<http://utep.eagle-i.net/i/00000134-c8e7-d7d4-bfc0-fe9780000000>
+        a       <http://purl.obolibrary.org/obo/ERO_0001255> ;
+        <http://eagle-i.org/ont/app/1.0/feeforservice>
+                "true" ;
+        <http://eagle-i.org/ont/app/1.0/servicefeeURL>
+                "http://academics.utep.edu/Default.aspx?tabid=37008" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://utep.eagle-i.net/i/00000134-aa24-006d-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> .
+
+<http://utep.eagle-i.net/i/00000134-a959-ce9c-bfc0-fe9780000000>
+        a           <http://vivoweb.org/ontology/core#Center> ;
+        rdfs:label  "Border Biomedical Research Center" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"The mission of the Border Biomedical Research Center (BBRC) is to facilitate and expand the pathobiology research at The University of Texas at El Paso (UTEP) by strengthening the research infrastructure of the institution. The BBRC, through collaborative efforts with nearby institutions, has become the focal point of pathobiology research that addresses the biomedical and health issues of the bicultural population of the El Paso/Ciudad Juarez region of the Texas-Mexico border.The BBRC will continue to have a positive impact on the number of Hispanics participating in science, and serve as a major point of entry for Hispanics and other underrepresented scientists for participation in the biomedical advances of the nation in the 21st century and beyond.\n\nThe Center has assigned priority to research in the areas of infectious diseases, toxicology, and neuroscience and metabolic disorders. The BBRC also supports multi-user research facilities in biochemistry/molecular cell biology, preparatory cell culture, analytical cytology, and statistical consulting.\n\nThe BBRC is supported by the Research Centers in Minority Institutions Program (RCMI), administered by the National Center for Research Resources at the National Institutes of Health. Congressionally mandated in 1985, the RCMI program strives to lessen the disparity in health status between minority and majority populations by enhancing the capacity of eligible institutions to conduct biomedical and behavioral research. UTEP established the Border Biomedical Research Center in 1992 to carry out this important mission. The program involves faculty from the departments of Biological Sciences, Chemistry, Mathematical Sciences, and Psychology.\"" ;
+        <http://eagle-i.org/ont/app/1.0/synonym>
+                "BBRC" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://utep.eagle-i.net/i/00000136-08af-eeca-f687-036180000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://science.utep.edu/bbrc/" ;
+        <http://purl.obolibrary.org/obo/ERO_0000596>
+                <http://utep.eagle-i.net/i/00000136-08ac-a3f0-f687-036180000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0001768>
+                <http://utep.eagle-i.net/i/00000134-a95b-6f10-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-01-04T09:34:41.748-06:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2012-03-29T12:40:17.318-05:00"^^xsd:dateTime .
+
+<http://utep.eagle-i.net/i/00000136-5f63-9d9c-8626-74df80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> .
+
+<http://eagle-i.org/ont/repo/1.0/hasPrincipalName>
+        a             owl:DatatypeProperty ;
+        rdfs:comment  "Indicates the authenticated login principal bound to this Person or Agent" ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/Person> ;
+        rdfs:label    "login principal" .
+
+<http://utep.eagle-i.net/i/00000136-f008-f78d-8626-74df80000000>
+        a       <http://purl.obolibrary.org/obo/ERO_0001255> ;
+        <http://eagle-i.org/ont/app/1.0/feeforservice>
+                "true" ;
+        <http://eagle-i.org/ont/app/1.0/servicefeeURL>
+                "http://science.utep.edu/bbrc/General/cellhtspolicies" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://utep.eagle-i.net/i/00000134-aa21-2db4-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> .
+
+<http://utep.eagle-i.net/i/00000134-af87-8f3d-bfc0-fe9780000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://science.utep.edu/bbrc/other-core-facility-instruments" ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://utep.eagle-i.net/i/00000134-a9b2-8e15-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> .
+
+<http://utep.eagle-i.net/i/00000134-aa20-7ae5-bfc0-fe9780000000>
+        a       <http://vivoweb.org/ontology/core#CoreLaboratory> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://utep.eagle-i.net/i/00000136-5f73-b706-8626-74df80000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000066>
+                <http://utep.eagle-i.net/i/00000134-a959-ce9c-bfc0-fe9780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000397>
+                <http://purl.obolibrary.org/obo/ERO_0000740> ;
+        <http://purl.obolibrary.org/obo/ERO_0000596>
+                <http://utep.eagle-i.net/i/00000136-08a0-b3b3-f687-036180000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> .
+
+<http://eagle-i.org/ont/repo/1.0/NGType_Ontology>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/NamedGraphType> ;
+        rdf:value     "ontology" ;
+        rdfs:comment  "Contains Ontology applicable to data objects" ;
+        rdfs:label    "Ontology" .
+
+<http://utep.eagle-i.net/i/00000134-a95b-6f10-bfc0-fe9780000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> .
+
+<http://utep.eagle-i.net/i/00000134-c86b-f46d-bfc0-fe9780000000>
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://utep.eagle-i.net/i/00000134-aa23-3d2b-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> .
+
+<http://utep.eagle-i.net/i/00000136-5a07-410e-8626-74df80000000>
+        a       <http://xmlns.com/foaf/0.1/Person> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000397>
+                <http://purl.obolibrary.org/obo/OBI_0000470> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> .
+
+<http://eagle-i.org/ont/repo/1.0/hasAddAccess>
+        a                   owl:ObjectProperty ;
+        rdfs:comment        "Grants ADD access on subject resource to a principal" ;
+        rdfs:label          "has add access" ;
+        rdfs:range          <http://eagle-i.org/ont/repo/1.0/Agent> ;
+        rdfs:subPropertyOf  <http://eagle-i.org/ont/repo/1.0/hasAnyAccess> .
+
+<http://eagle-i.org/ont/repo/1.0/NGType_Internal>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/NamedGraphType> ;
+        rdf:value     "internal" ;
+        rdfs:comment  "Contains data that is only to be used internally by repository, such as administrative metadata" ;
+        rdfs:label    "Internal Use Only" .
+
+<http://utep.eagle-i.net/i/00000134-af7c-e29b-bfc0-fe9780000000>
+        a       <http://purl.obolibrary.org/obo/ERO_0001031> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000034>
+                <http://global.eagle-i.net/i/0000013d-bc6a-37eb-ecc6-81a580000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://science.utep.edu/bbrc/other-core-facility-instruments" ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/ERO_0001239> ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://utep.eagle-i.net/i/00000134-a9b2-8e15-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> .
