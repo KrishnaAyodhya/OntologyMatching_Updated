@@ -113,7 +113,7 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 		HashMap<String, String> endpointsMap = new HashMap<>();
 
 		for (Resource subjectEndpoint : subjectsKey) {
-
+			if (fileNameCounter == 5)  break;
 			try {
 				// Dbpedia model
 				Model model1 = QueryExecutionFactory
@@ -154,11 +154,13 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 		String typeOfMap = getParameterMap().getOptional(TYPEOFMAP).map(RDFNode::asLiteral).map(Literal::getString)
 				.orElse("did not able to find type of map");
 
-		for (i = 1; i <= fileNameCounter; i++) {
+		System.out.println("-----TypeOfMap---- "+ typeOfMap+ "^^^^^^^^^");
+		
+		for (i = 1; i <= fileNameCounter-1; i++) {
 
 			try {
-				switch (typeOfMap) {
-				case "Classes":
+				switch (Integer.parseInt(typeOfMap)) {
+				case 0:
 					if (Integer.parseInt(typeOfMap) == classesMapID) {
 						System.out.println(
 								"-----------------------------------Classes Mapping-----------------------------------");
@@ -167,7 +169,7 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 								endpointsMap.get("endpoint_2_" + i + ".ttl")));
 					}
 					break;
-				case "dataProperty":
+				case 1:
 					if (Integer.parseInt(typeOfMap) == dataPropertyMapID) {
 						System.out.println(
 								"-----------------------------------Data Property Mapping-----------------------------------");
@@ -176,7 +178,7 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 								endpointsMap.get("endpoint_2_" + i + ".ttl")));
 					}
 					break;
-				case "objectProperty":
+				case 2:
 
 					if (Integer.parseInt(typeOfMap) == objectPropertyMapID) {
 						System.out.println(
@@ -186,12 +188,7 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 								endpointsMap.get("endpoint_2_" + i + ".ttl")));
 					}
 					break;
-				case "Classes and dataProperty":
-					break;
-				case "Classes and objectProperty":
-					break;
-				case "Classes and dataProperty and objectProperty":
-					break;
+				
 
 				default:
 					if (Integer.parseInt(typeOfMap) == classesMapID) {

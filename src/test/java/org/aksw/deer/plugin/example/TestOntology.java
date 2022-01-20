@@ -31,6 +31,7 @@ public class TestOntology {
 
 	}
 
+	
 	//@Test
 	public void testConfiguration() {
 		String url = Objects

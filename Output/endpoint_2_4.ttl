@@ -1876,12 +1876,6 @@
         <http://purl.org/dc/terms/creator>
                 <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
 
-<http://eagle-i.org/ont/repo/1.0/Person>
-        a                owl:Class ;
-        rdfs:comment     "Represents a person acting as an authenticated user of the repository" ;
-        rdfs:label       "Person" ;
-        rdfs:subClassOf  owl:Thing , <http://eagle-i.org/ont/app/1.0/Person> , <http://xmlns.com/foaf/0.1/Person> , <http://eagle-i.org/ont/repo/1.0/Agent> , <http://eagle-i.org/ont/app/1.0/Agent> , <http://xmlns.com/foaf/0.1/Agent> , <http://purl.org/dc/terms/Agent> .
-
 <http://xula.eagle-i.net/i/00000135-2f03-cb01-77e4-a45080000000>
         <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
                 <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
@@ -1889,6 +1883,12 @@
                 <http://global.eagle-i.net/i/0000013d-bc67-5972-ecc6-81a580000000> ;
         <http://purl.org/dc/terms/contributor>
                 <http://xula.eagle-i.net/i/00000134-4872-eaf7-77e4-a45080000000> .
+
+<http://eagle-i.org/ont/repo/1.0/Person>
+        a                owl:Class ;
+        rdfs:comment     "Represents a person acting as an authenticated user of the repository" ;
+        rdfs:label       "Person" ;
+        rdfs:subClassOf  owl:Thing , <http://eagle-i.org/ont/app/1.0/Person> , <http://xmlns.com/foaf/0.1/Person> , <http://eagle-i.org/ont/repo/1.0/Agent> , <http://eagle-i.org/ont/app/1.0/Agent> , <http://xmlns.com/foaf/0.1/Agent> , <http://purl.org/dc/terms/Agent> .
 
 <http://xula.eagle-i.net/i/00000135-1aa9-0ed1-77e4-a45080000000>
         <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>

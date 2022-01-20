@@ -1,2990 +1,2581 @@
-<http://purl.org/linked-data/sdmx/2009/dimension#civilStatus>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+@prefix tgn_term: <http://vocab.getty.edu/tgn/term/> .
+@prefix iso:   <http://purl.org/iso25964/skos-thes#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix aat_term: <http://vocab.getty.edu/aat/term/> .
+@prefix ulan_bio: <http://vocab.getty.edu/ulan/bio/> .
+@prefix ulan_source: <http://vocab.getty.edu/ulan/source/> .
+@prefix bio:   <http://purl.org/vocab/bio/0.1/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix fmt:   <http://www.w3.org/ns/formats/> .
+@prefix ulan_event: <http://vocab.getty.edu/ulan/event/> .
+@prefix ulan_rel: <http://vocab.getty.edu/ulan/rel/> .
+@prefix ulan_scopeNote: <http://vocab.getty.edu/ulan/scopeNote/> .
+@prefix vdpp:  <http://data.lirmm.fr/ontologies/vdpp#> .
+@prefix aat_source_rev: <http://vocab.getty.edu/aat/source/rev/> .
+@prefix vann:  <http://purl.org/vocab/vann/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix wgs:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix ulan_rev: <http://vocab.getty.edu/ulan/rev/> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix adms:  <http://www.w3.org/ns/adms#> .
+@prefix vaem:  <http://www.linkedmodel.org/schema/vaem#> .
+@prefix voag:  <http://voag.linkedmodel.org/voag#> .
+@prefix voaf:  <http://purl.org/vocommons/voaf#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix aat_source: <http://vocab.getty.edu/aat/source/> .
+@prefix ulan:  <http://vocab.getty.edu/ulan/> .
+@prefix rrx:   <http://purl.org/r2rml-ext/> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix schema: <http://schema.org/> .
+@prefix rr:    <http://www.w3.org/ns/r2rml#> .
+@prefix gvp_lang: <http://vocab.getty.edu/language/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ptop:  <http://www.ontotext.com/proton/protontop#> .
+@prefix sd:    <http://www.w3.org/ns/sparql-service-description#> .
+@prefix tgn_source_rev: <http://vocab.getty.edu/tgn/source/rev/> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix tgn_scopeNote: <http://vocab.getty.edu/tgn/scopeNote/> .
+@prefix aat:   <http://vocab.getty.edu/aat/> .
+@prefix tgn:   <http://vocab.getty.edu/tgn/> .
+@prefix dcat:  <http://www.w3.org/ns/dcat#> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix wv:    <http://vocab.org/waiver/terms/> .
+@prefix cc:    <http://creativecommons.org/ns#> .
+@prefix gvp:   <http://vocab.getty.edu/ontology#> .
+@prefix tgn_rel: <http://vocab.getty.edu/tgn/rel/> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix ontogeo: <http://www.ontotext.com/owlim/geo#> .
+@prefix tgn_contrib: <http://vocab.getty.edu/tgn/contrib/> .
+@prefix aat_rev: <http://vocab.getty.edu/aat/rev/> .
+@prefix aat_contrib: <http://vocab.getty.edu/aat/contrib/> .
+@prefix aat_scopeNote: <http://vocab.getty.edu/aat/scopeNote/> .
+@prefix ulan_source_rev: <http://vocab.getty.edu/ulan/source/rev/> .
+@prefix tgn_rev: <http://vocab.getty.edu/tgn/rev/> .
+@prefix tgn_source: <http://vocab.getty.edu/tgn/source/> .
+@prefix ulan_term: <http://vocab.getty.edu/ulan/term/> .
+@prefix ulan_contrib: <http://vocab.getty.edu/ulan/contrib/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dctype: <http://purl.org/dc/dcmitype/> .
+@prefix wdrs:  <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo:  <http://purl.org/ontology/bibo/> .
+@prefix luc:   <http://www.ontotext.com/owlim/lucene#> .
+@prefix aat_rel: <http://vocab.getty.edu/aat/rel/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+gvp:aat2203_associated_with
+        a       owl:SymmetricProperty , rdf:Property .
+
+aat:300129788-list-300129789
+        a       rdf:List .
+
+skos:relatedMatch  a  owl:SymmetricProperty , rdf:Property .
+
+gvp:aat2878_preceded-source_for
+        a       rdf:Property .
+
+schema:foundationLocation
+        a       rdf:Property .
+
+aat:300179538-list-300225875
+        a       rdf:List .
+
+iso:SplitNonPreferredTerm
+        a       rdfs:Class .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#n_lang>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+dct:modified  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#post>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300106792-list-300020661
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-nvarchar-literal-fn>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+gvp:aat2431_required_for
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#indic_is>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300020854-list-300020851
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/uwwtd/ontology/aggLatitude>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+owl:disjointWith  a  rdf:Property .
 
-<http://www.w3.org/2002/07/owl#allValuesFrom>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+cc:license  a   rdf:Property .
 
-<http://purl.org/dc/terms/modified>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+rdf:Seq  a      rdfs:Class .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#recording>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300107699-list-300019601
+        a       rdf:List .
 
-<http://www.w3.org/2002/07/owl#disjointWith>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1309_advisor_of
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#frequenc>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300020353-list-300020355
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#indic>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300016641-list-300016642
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#indic_co>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+ptop:TypeRestr  a  rdfs:Class .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#org_inst>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1113_fellow_student_of
+        a       owl:SymmetricProperty , rdf:Property .
 
-<http://www.openlinksw.com/schemas/virtrdf#DefaultQuadMap-O>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapValue> .
+skos:broader  a  rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-nvarchar-uri-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+aat:300162380-list-300040824
+        a       rdf:List .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#contactName>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+owl:equivalentProperty
+        a       owl:TransitiveProperty , owl:SymmetricProperty .
 
-<http://www.w3.org/2002/07/owl#equivalentProperty>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+dct:isReplacedBy  a  rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-doubleprecision-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300000202-list-300444148
+        a       rdf:List .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#profMeth>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300195712-list-300196136
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#indic_mg>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300039548-list-300039928
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#icha_hp>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+[ a       ptop:PropChain ] .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#src_crf>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+prov:Modify  a  rdfs:Class .
 
-<http://purl.org/dc/terms/isReplacedBy>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300127642-list-300127657
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#isced11>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+rdfs:domain  a  rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#dataValidation>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2841_derived-made_from
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#careresp>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+[ a       rdf:List ] .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#icha11_hc>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2333_have_affiliates
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#spdepm>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+[ a       ptop:PropChain ] .
 
-<http://www.w3.org/2000/01/rdf-schema#domain>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2434_contextualized_in
+        a       rdf:Property .
 
-<http://www.openlinksw.com/schemas/virtrdf#DefaultServiceMap-G-col-G>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapColumn> .
+[ a       rdf:List ] .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+[ a       rdfs:Class ] .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#cities>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:AdminPlaceConcept
+        a       rdfs:Class .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-datetime-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+aat:300018478-list-300018480
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#spdep>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ScopeNote  a  rdfs:Class .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#inn_devr>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan2581_administrator_of
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-date-literal>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300019201-list-300019202
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sinv-iid-nonblank-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300210941-list-300233429
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#nrg_prc>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+[ a       ptop:PropChain ] .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#bark>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+skos:notation  a  rdf:Property .
 
-<http://www.openlinksw.com/schemas/virtrdf#DefaultQuadStorage>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadStorage> .
+gvp:tgn3104_is_location_of
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#siec>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300008090-list-300008091
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-nvarchar-dt>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300025457-list-300236229
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#decision>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:Infer_broaderNonConcept_PropChainType2
+        a       ptop:PropChainType2 .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#adjustCoded>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+skos:ConceptScheme  a  rdfs:Class .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-fixedlang-x-any-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300015682-list-300015683
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-uri-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+gvp:ulan2575_directed_by
+        a       rdf:Property .
 
-<http://www.eionet.europa.eu/gemet/gemet/2004/06/gemet-schema.rdf#acronymLabel>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300234117-list-300424137
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#l_serv>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300015678-list-300015679
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#commute>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+rdf:subject  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#organic>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+skos:member  a  rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#profCond>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2824_has_parallels_with
+        a       owl:SymmetricProperty , rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-numeric-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+owl:propertyChainAxiom
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#singlepart-literal-fn-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+aat:300055344-list-300055347
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#zeropart-uri-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300158250-list-300073022
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#estruct>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:tgn3102_capital_is
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#indic_in>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+rdf:predicate  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#airline>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+rdfs:Container  a  rdfs:Class .
 
-<http://purl.org/dc/terms/abstract>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300255533-list-300248092
+        a       rdf:List .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#timeFormat>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300055633-list-300378912
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-longvarchar-dt>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300065299-list-300055815
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-longvarchar>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300016617-list-300386138
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#purchase>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2557_reflects  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#language>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+owl:AnnotationProperty
+        a       rdfs:Class .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#lev_limit>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300265713-list-300310354
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sinv-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+gvp:ulan1315_principal_in
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#category>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2208_locus-setting_for
+        a       rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#profStatCom>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+owl:Class  a    rdfs:Class .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-date-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+foaf:name  a    rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#revStudy>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300105686-list-300021091
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#indic_ed>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+owl:AllDisjointClasses
+        a       rdfs:Class .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#entity>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1554_adoptive_parent_of
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#n_child>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1541_spouse_of
+        a       owl:SymmetricProperty , rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#qualityAssure>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:tgn3412_predecessor_of
+        a       rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#profImp>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:agentType  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#partner>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+[ a       rdf:List ] .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#comparTime>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300163706-list-300055954
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-integer-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+aat:300133704-list-300004053
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-date-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+aat:300020799-list-300020802
+        a       rdf:List .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#indType>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300244546-list-300244547
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#effemp>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1513_grandchild_of
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sinv-iid-nonblank-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+gvp:ulan1305_worked_with
+        a       owl:SymmetricProperty , rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-numeric-uri-fn>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+gvp:Biography  a  rdfs:Class .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#formev>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+owl:equivalentClass  a  owl:TransitiveProperty , owl:SymmetricProperty .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#change>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+prov:Activity  a  rdfs:Class .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#hhtype>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan2583_chairman_of
+        a       rdf:Property .
 
-<http://www.openlinksw.com/schemas/virtrdf#SyncToQuads>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadStorage> .
+aat:300020224-list-300020226
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#operator>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+iso:subordinateArray  a  rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#default-iid>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300018332-list-300018333
+        a       rdf:List .
 
-<http://www.w3.org/2002/07/owl#equivalentClass>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300185916-list-300185933
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-longnvarchar-fixedlang-x-any>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300134334-list-300162056
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#priority>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:broaderExtended  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/uwwtd/ontology/conName>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2295_located_in
+        a       rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/dimension#refPeriod>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2818_source_for
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-longvarbinary-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+skos:editorialNote  a  rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#prof>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:PersonConcept  a  rdfs:Class .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#involve>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+skosxl:literalForm  a  rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-nvarchar-lang>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300015727-list-300015729
+        a       rdf:List .
 
-<http://www.eea.europa.eu/portal_types/Speech#management_plan>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300264937-list-300264708
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#zeropart-uri-fn-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+schema:Place  a  rdfs:Class .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-longnvarchar-lang>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+[ a       ptop:PropChain ] .
 
-<http://www.openlinksw.com/schemas/virtrdf#DefaultServiceMap-ft-conds>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-string> .
+gvp:aat2900_miscellaneous_relationship
+        a       owl:SymmetricProperty , rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-numeric-literal-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+[ a       rdf:List ] .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#loadstat>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300020760-list-300106913
+        a       rdf:List .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#relevance>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300194586-list-300191358
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#c_birth>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+[ a       rdf:List ] .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#farmtype>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+rdf:rest  a     rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#accident>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+void:distinctObjects  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#sectperf>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1551_sibling_by_marriage_of
+        a       owl:SymmetricProperty , rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#procstat>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300138790-list-300053535
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#incsrc>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+[ a       rdfs:Class ] .
 
-<http://eunis.eea.europa.eu/rdf/species-schema.rdf#sameSpecies>
-        a       <http://www.w3.org/2002/07/owl#TransitiveProperty> , <http://www.w3.org/2002/07/owl#SymmetricProperty> .
+[ a       rdf:List ] .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-longvarbinary>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+gvp:tgn3411_successor_of
+        a       rdf:Property .
 
-<http://purl.org/dc/terms/educationLevel>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300311116-list-300129361
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#bodypart>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1000_related_to
+        a       owl:SymmetricProperty , rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#lev_diff>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+[ a       ptop:PropChain ] .
 
-<http://www.openlinksw.com/schemas/virtrdf#DefaultServiceMap-ft>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFText> .
+[ a       rdf:List ] .
 
-<http://www.openlinksw.com/virtrdf-data-formats#singlepart-literal-fn>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+gvp:ulan1206_client_was
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#swmethod>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300230425-list-300137960
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-uri-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300018942-list-300018952
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-dt-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+gvp:GuideTerm  a  rdfs:Class .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#lev_match>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:broaderNonPreferred
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#agechild>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:tgn3318_member_is
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-integer-literal-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+gvp:ulan1501_sibling_of
+        a       owl:SymmetricProperty , rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#source>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2219_have_form
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#indic_nv>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300023505-list-300023508
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#owner>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:placeTypeNonPreferred
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-datetime-literal-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+schema:elevation  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#crop_pro>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:PhysAdminPlaceConcept
+        a       rdfs:Class .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#coef>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2316_use  a  rdf:Property .
 
-<http://eunis.eea.europa.eu/rdf/species-schema.rdf#maybeSameSynonym>
-        a       <http://www.w3.org/2002/07/owl#SymmetricProperty> .
+prov:Publish  a  rdfs:Class .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-uri-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+aat:300018353-list-300018354
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-date-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+rdf:type  a     rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#c_bthpar>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2319_involves  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#hotelsize>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+owl:SymmetricProperty
+        a       rdfs:Class .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#ipr_trn>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+skos:hasTopConcept  a  rdf:Property .
 
-<http://eunis.eea.europa.eu/rdf/species-schema.rdf#sameSynonymGBIF>
-        a       <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+prov:wasGeneratedBy  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#prodmilk>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300121011-list-300015712
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#prof_pos>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+[ a       ptop:PropChain ] .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-datetime-literal-fn>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+gvp:ulan1532_uncle-aunt_of
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#prod_to>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:parentString  a  rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#timePerCollect>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:historicFlag  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#physact>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300310512-list-300310511
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-longnvarchar-dt-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+gvp:aat2000_related_to
+        a       owl:SymmetricProperty , rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#typasswk>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1008_meaning_-usage_overlaps_with
+        a       owl:SymmetricProperty , rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#relCalPolicy>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2805_contextualized_in
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-time>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+gvp:aat2209_used-located_in
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#ctr_wtime>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:eventNonPreferred
+        a       rdf:Property .
 
-<http://www.eea.europa.eu/ontologies.rdf#hasWorkflowState>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1414_joint_venture_with
+        a       owl:SymmetricProperty , rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-time-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+gvp:prefLabelGVP  a  rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-time-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+aat:300233918-list-300040600
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#vitype>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2427_produced_by
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#co_nco>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2552_reflected_in-produces
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#diagnose>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+ptop:restriction  a  rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#zeropart-uri-fn-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+aat:300016652-list-300016657
+        a       rdf:List .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#contactFunct>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1222_appointee_of
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#ynlfs>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1531_nephew-niece_of
+        a       rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#confStatus>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300020533-list-300263281
+        a       rdf:List .
 
-<http://cr.eionet.europa.eu/ontologies/contreg.rdf#objectsUniqueColumn>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300017879-list-300017881
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-fixedlang-x-any-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+aat:300002098-list-300131140
+        a       rdf:List .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#coherInternal>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300016967-list-300016970
+        a       rdf:List .
 
-<http://purl.org/dc/terms/isRequiredBy>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+void:classPartition  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#weight>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2849_involves  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#indic_fb>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+skos:narrowerTransitive
+        a       owl:TransitiveProperty , rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-numeric-literal>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300056130-list-300056134
+        a       rdf:List .
 
-<http://www.openlinksw.com/schemas/virtrdf#DefaultQuadMap-S-cols>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn> .
+aat:300046300-list-300127008
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#hire_plan>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1105_apprentice_of
+        a       rdf:Property .
 
-<http://www.eionet.europa.eu/gemet/gemet/2004/06/gemet-schema.rdf#groupMember>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2807_derived_from_common_source
+        a       owl:SymmetricProperty , rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#typasse>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300017001-list-300017005
+        a       rdf:List .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#statPop>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+[ a       rdfs:Class ] .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#lev_depr>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300028051-list-300220521
+        a       rdf:List .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#timeliness>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300015650-list-300015651
+        a       rdf:List .
 
-<http://www.openlinksw.com/schemas/virtrdf#DefaultServiceMap-geo>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFText> .
+bio:Event  a    rdfs:Class .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#tngprov>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300016685-list-300016686
+        a       rdf:List .
 
-<http://cr.eionet.europa.eu/ontologies/contreg.rdf#mediaType>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:Hierarchy  a  rdfs:Class .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-doubleprecision-uri-fn>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+gvp:tgn3000_related_to
+        a       owl:SymmetricProperty , rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#c_trans>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+skos:narrowMatch  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#amenity>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300018372-list-300018381
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#field>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:biographyPreferred
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#singlepart-uri-fn-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+gvp:ulan1411_successor_of
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#med_spec>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2836_derived-made_from
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#trans2y>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+[ a       ptop:PropChain ] .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#net_seg15>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1332_worker_was
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#agedef>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+[ a       rdf:List ] .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#tech>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+skos:note  a    rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#coverageSector>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300015649-list-300015650
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#sizehatch>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1571_guardian_of
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#airc_cat>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2216_require  a  rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#relComment>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2884_involved_with
+        a       rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#adjustment>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1412_predecessor_of
+        a       rdf:Property .
 
-<http://www.openlinksw.com/schemas/virtrdf#DefaultQuadMap-O-cols>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn> .
+gvp:ulan2676_teacher_at
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#income>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+owl:unionOf  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#cost>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan2829_student_was
+        a       rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#sampling>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+void:properties  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#metroreg>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+rdfs:seeAlso  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#croparea>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2563_located_in
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#default>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+schema:dissolutionLocation
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#airpol>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2833_ancestor_of
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-longnvarchar-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+aat:300239147-list-300221283
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-nvarchar-literal-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+aat:300005768-list-300005809
+        a       rdf:List .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#publications>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2294_locus-setting_for
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#sizeclas>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+[ a       rdf:List ] .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#daysweek>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300017769-list-300017772
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sinv-iid>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+gvp:aat2803_example_of
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#y_birth>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+skos:OrderedCollection
+        a       rdfs:Class .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-integer-uri-fn>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+gvp:aat2285_practiced-studied_by
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-numeric-literal-fn>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+gvp:ulan2677_teacher_was
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#lev_know>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300121012-list-300015719
+        a       rdf:List .
 
-<http://www.openlinksw.com/schemas/virtrdf#DefaultServiceMap-P>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapValue> .
+voaf:toDoList  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#int_rt>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+foaf:focus  a   rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/dimension#educationLev>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+prov:used  a    rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#mobility>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+[ a       rdfs:Class ] .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#consom>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1582_ancestor_of
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#distance>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:Infer_isoBroaderGeneric
+        a       ptop:PropRestr .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#origin>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300311119-list-300128438
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-literal-fn-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+gvp:ulan1212_artist_was
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#cpayagr>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300026877-list-300026878
+        a       rdf:List .
 
-<http://www.eionet.europa.eu/gemet/gemet/2004/06/gemet-schema.rdf#subGroup>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300310226-list-300310264
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-integer-uri-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+ptop:type2  a   rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-literal-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300020085-list-300106982
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-numeric-uri>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+ptop:PropChainRestr  a  rdfs:Class .
 
-<http://www.w3.org/2002/07/owl#unionOf>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1421_founded_by
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/wise/ontology/EU_CD>
-        a       <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+aat:300265716-list-300310378
+        a       rdf:List .
 
-<http://www.w3.org/2000/01/rdf-schema#seeAlso>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:contributorPreferred
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-nvarchar-uri>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300015667-list-300015668
+        a       rdf:List .
 
-<http://purl.org/dc/terms/accrualPeriodicity>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+[ a       rdf:List ] .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#dang_gds>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+foaf:Organization  a  rdfs:Class .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-doubleprecision-literal>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+rdf:_1  a       rdfs:ContainerMembershipProperty , rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#leg_case>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2409_takes_place_in
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-datetime-literal>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+gvp:eventPreferred  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#customer>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+rdfs:isDefinedBy  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#y_arriv>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2821_based_on  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#prodtyp>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300107203-list-300107206
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-date-literal-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+aat:300021614-list-300021633
+        a       rdf:List .
 
-<http://www.openlinksw.com/schemas/virtrdf#DefaultQuadMap-pquad>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapATable> .
+aat:300025297-list-300025312
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#waste>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2894_exemplified_by
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#cargo>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300000885-list-300078071
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#prod_veg>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:Infer_skosBroader_TypeRestr
+        a       ptop:TypeRestr .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#indic_ip>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2001_formerly_referred_to
+        a       owl:SymmetricProperty , rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-datetime>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300033973-list-300034362
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#penscheme>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300020133-list-300263537
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#hhwkstat>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300015690-list-300015759
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-datetime-uri-fn-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+gvp:aat2336_has_associates
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#net_seg10>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2318_involved_in
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-nvarchar-literal-fn-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+gvp:ulan1514_gandparent_of
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-longvarchar-lang-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+gvp:ulan1213_court_artist_to
+        a       rdf:Property .
 
-<http://www.w3.org/2002/07/owl#priorVersion>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+skos:closeMatch  a  owl:SymmetricProperty , rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#ww_tp>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2110_meaning-usage_overlaps_with
+        a       owl:SymmetricProperty , rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#month>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2554_reflects  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#agr_inp>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1311_partner_of
+        a       owl:SymmetricProperty , rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#quant_inc>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300111912-list-300021006
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#job_cl>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+[ a       ptop:PropChain ] .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#indic_md>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1555_adopted_child_of
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#singlepart-uri-fn-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300013832-list-300013833
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#indic_pdc>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300020167-list-300020168
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#typcost>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2100_distinguished_from
+        a       owl:SymmetricProperty , rdf:Property .
 
-<http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300310321-list-300310440
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#tra_cov>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300233013-list-300233015
+        a       rdf:List .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#freqDiss>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+foaf:homepage  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#volume>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300250126-list-300310269
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#prod_na>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300134084-list-300021814
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#aquaenv>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300020086-list-300106990
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#citizen>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+rdfs:subPropertyOf  a  owl:TransitiveProperty , rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#asyl_app>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+owl:imports  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#sizen_r2>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:Concept  a  rdfs:Class .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#bonds>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300017228-list-300017229
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-nvarchar-literal-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+aat:300310398-list-300266100
+        a       rdf:List .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#basePer>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300018398-list-300018399
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#zeropart-literal-fn-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+[ a       rdf:List ] .
 
-<http://schema.org/True>
-        a       <http://www.w3.org/2001/XMLSchema#boolean> .
+aat:300005433-list-300122205
+        a       rdf:List .
 
-<http://cr.eionet.europa.eu/ontologies/contreg.rdf#user>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+iso:broaderInstantial
+        a       rdf:Property .
 
-<http://www.openlinksw.com/schemas/virtrdf#DefaultServiceMap-pquad>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapATable> .
+aat:300015702-list-300015703
+        a       rdf:List .
 
-<http://purl.org/dc/terms/dateSubmitted>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2332_affiliated_with
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#train>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan2779_owned_by
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#default-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300001892-list-300190960
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#rep_airp>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300129747-list-300129759
+        a       rdf:List .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#compilingOrg>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300126079-list-300126082
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#n_room>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1573_ward_of  a  rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#obsPreBreak>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2206_caused_by-requires
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#ranking>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+bio:event  a    rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#tinfo>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:broaderInstantial
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#vinevar>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300017141-list-300017143
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#release>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2397_focus_of  a  rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#onlineDb>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300194389-list-300200661
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#n_person>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1548_domestic_partner_of
+        a       owl:SymmetricProperty , rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#cofog99>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+void:triples  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#y_const>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300015901-list-300015902
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#ind_type>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+rdf:Statement  a  rdfs:Class .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#cpa02>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+ptop:premise1  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#nstr24>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+rdfs:Datatype  a  rdfs:Class .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-uri-fn-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300020756-list-300020760
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#lev_impt>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+owl:Ontology  a  rdfs:Class .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#enterpr>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:termDisplay  a  rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-date>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+xsd:nonNegativeInteger
+        a       rdfs:Datatype , rdfs:Class .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#prod_nrg>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:termType  a  rdf:Property .
 
-<http://www.w3.org/2000/01/rdf-schema#subPropertyOf>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan2572_founder_of
+        a       rdf:Property .
 
-<http://www.w3.org/2002/07/owl#imports>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1003_associated_with
+        a       owl:SymmetricProperty , rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-nvarchar-literal>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+gvp:broaderPreferred  a  rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#dissFormat>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1516_great-grandchild_of
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#tonnage>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300002098-list-300175306
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#multipart-literal-fn-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+gvp:tgn3110_meaning-usage_overlaps_with
+        a       owl:SymmetricProperty , rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#sptype>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan2692_president_of
+        a       rdf:Property .
 
-<http://www.openlinksw.com/schemas/virtrdf#DefaultQuadMap-G>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapValue> .
+iso:broaderPartitive  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#trans1g>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+owl:onClass  a  rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#default-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+gvp:sourceNonPreferred
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#n_class>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300250163-list-300250169
+        a       rdf:List .
 
-<http://purl.org/dc/terms/isFormatOf>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2607_caused_by-requires
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#agprdmet>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2605_possess-exist_in
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#parity>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1316_principal_was
+        a       rdf:Property .
 
-<http://eunis.eea.europa.eu/rdf/species-schema.rdf#sameSynonym>
-        a       <http://www.w3.org/2002/07/owl#TransitiveProperty> , <http://www.w3.org/2002/07/owl#SymmetricProperty> .
+gvp:aat2837_source_for
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#typpack>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300311125-list-300124707
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#zeropart-uri-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+aat:300019258-list-300106730
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-date-uri-fn-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+iso:ThesaurusArray  a  rdfs:Class .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-literal-fn>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+gvp:tgn3317_member_of
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#n_client>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2895_example_of
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#projection>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2311_performed_by
+        a       rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#metaUpdate>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1581_descendant_of
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#n_design>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+rdf:List  a     rdfs:Class .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#c_load>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300008932-list-300132441
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#src_act>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2502_material_for
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-literal>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+[ a       ptop:PropChain ] .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#n_action>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+owl:members  a  rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#metaCertified>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300249665-list-300310224
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/wise/ontology/DIST_CD>
-        a       <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+aat:300211801-list-300222181
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-dt-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+aat:300195432-list-300191652
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-numeric-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+schema:Person  a  rdfs:Class .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#dimlst>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+owl:differentFrom  a  owl:SymmetricProperty .
 
-<http://purl.org/linked-data/sdmx/2009/measure#age>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:term  a     rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#coherXDom>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan2550_friend_of
+        a       owl:SymmetricProperty , rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#indic_bp>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+skos:Concept  a  rdfs:Class .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-time-literal-fn>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300128590-list-300128597
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#prod_inp>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+bibo:DocumentPart  a  rdfs:Class .
 
-<http://www.openlinksw.com/virtrdf-data-formats#multipart-uri-fn-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+gvp:aat2428_produces  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#n_vessel>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:Infer_broaderNonConcept_TypeRestr
+        a       ptop:TypeRestr .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#dairyprod>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300018953-list-300019028
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#leg_fram>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:tgn3401_moved_from
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#workstud>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+void:distinctSubjects
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-nvarchar-uri-fn>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+gvp:biographyNonPreferred
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-numeric-literal-fn-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+dct:title  a    rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#marsta2>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2831_associated_with
+        a       owl:SymmetricProperty , rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#length>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300002382-list-300002424
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#sector10>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300244127-list-300021564
+        a       rdf:List .
 
-<http://purl.org/linked-data/sdmx/2009/measure#currency>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1313_partner_in
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#wrkenv>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300193227-list-300037283
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#p_adj>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+rdfs:subClassOf  a  owl:TransitiveProperty , rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#freqColl>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:tgn3510_historical_connection
+        a       owl:SymmetricProperty , rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#revPractice>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300037680-list-300048628
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#port_infr>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1218_employee_was
+        a       rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#qualityAssmnt>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300037592-list-300037593
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#multipart-literal-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+skos:altLabel  a  rdf:Property .
 
-<http://cr.eionet.europa.eu/ontologies/contreg.rdf#characterSet>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+foaf:nick  a    rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#size_mbr>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2829_used-required_for
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#entgrp>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300000206-list-300000208
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#facility>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300310315-list-300310570
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#icha_hc>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1005_possibly_identified_with
+        a       owl:SymmetricProperty , rdf:Property .
 
-<http://www.w3.org/2002/07/owl#differentFrom>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300006460-list-300122445
+        a       rdf:List .
 
-<http://purl.org/dc/terms/accrualPolicy>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300177660-list-300013685
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-date-literal-fn-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300197577-list-300198758
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-date-uri-fn>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300019267-list-300019270
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#acl00>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+bibo:shortTitle  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#sourinfo>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2507_produce-process
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/uwwtd/ontology/aggLongitude>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300178758-list-300178759
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#leg_prov>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300018346-list-300264900
+        a       rdf:List .
 
-<http://purl.org/dc/terms/title>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300017313-list-300017331
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#expernce>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1331_worked_with
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#n_contact>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300195806-list-300196864
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#finpos>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300107253-list-300020414
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#ppp_cat>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1515_great-grandparent_of
+        a       rdf:Property .
 
-<http://www.w3.org/2000/01/rdf-schema#subClassOf>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1217_employee_of
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-numeric-literal-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+skosxl:Label  a  rdfs:Class .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#sector2>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+void:property  a  rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-longnvarchar>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+gvp:aat2325_created_by
+        a       rdf:Property .
 
-<http://www.openlinksw.com/schemas/virtrdf#DefaultQuadMap-S>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapValue> .
+gvp:aat2411_involved_in
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#oga_hld>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2881_reflected_in
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-longvarchar-lang>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300265956-list-300310265
+        a       rdf:List .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#confPolicy>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:Infer_isoBroaderPartitive
+        a       ptop:PropRestr .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#leave>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300189564-list-300189588
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#impacpcv>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300311118-list-300126225
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#ctm_nat>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1543_consort_was
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#gen_tech>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300264897-list-300018409
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#indic_agr>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2326_create  a  rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-literal-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+aat:300015647-list-300262582
+        a       rdf:List .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#costBurden>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+rdf:Literal  a  rdfs:Class .
 
-<http://cr.eionet.europa.eu/ontologies/contreg.rdf#useOwlSameAs>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300178802-list-300212133
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-longnvarchar-dt-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+skos:example  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#fruitvar>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2551_reflect-produced_by
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+aat:300001262-list-300192760
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#value>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300120043-list-300264783
+        a       rdf:List .
 
-<http://www.eionet.europa.eu/gemet/gemet/2004/06/gemet-schema.rdf#subGroupOf>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300038418-list-300038421
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#indic_lc>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300021584-list-300021586
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#wtflex>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300024979-list-300192630
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-nvarchar>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+voaf:Vocabulary  a  rdfs:Class .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#bsnpart>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2891_exemplified_by
+        a       rdf:Property .
 
-<http://www.openlinksw.com/schemas/virtrdf#DefaultServiceMap-P-cols>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn> .
+aat:300017399-list-300017400
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#indic_de>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2845_used-located_in
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-longvarchar-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+aat:300164603-list-300056242
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#injury>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300016629-list-300016632
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#freq>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+owl:TransitiveProperty
+        a       rdfs:Class .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#animals>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300138225-list-300126352
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#expend>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300163697-list-300240367
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#n_job>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1557_step-sibling_of
+        a       owl:SymmetricProperty , rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#reason>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1321_school_of
+        a       rdf:Property .
 
-<http://cr.eionet.europa.eu/ontologies/contreg.rdf#firstSeen>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300311124-list-300126734
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#mainw>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300126788-list-300126789
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#prov>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:PhysPlaceConcept  a  rdfs:Class .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-integer-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+schema:birthPlace  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#n_portion>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:tgn3201_capital_of
+        a       rdf:Property .
 
-<http://eunis.eea.europa.eu/rdf/species-schema.rdf#notSameSynonym>
-        a       <http://www.w3.org/2002/07/owl#SymmetricProperty> .
+aat:300311117-list-300127794
+        a       rdf:List .
 
-<http://purl.org/dc/terms/mediator>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2505_locus-setting_for
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-doubleprecision-literal-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+gvp:broaderGeneric  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#chcare>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2828_use-require
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-nvarchar-fixedlang-x-any-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+gvp:ulan2675_professor_was
+        a       rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#dissOrg>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1102_student_of
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-integer-uri-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+aat:300198842-list-300234559
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#la>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:broaderNonConcept
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#regisveh>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1590_possibly_related_to
+        a       owl:SymmetricProperty , rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#emp_cont>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300107946-list-300107952
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-datetime-literal-fn-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300016923-list-300016924
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#isced11f>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1500_related_to
+        a       owl:SymmetricProperty , rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#contactEmail>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1302_associate_of
+        a       owl:SymmetricProperty , rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#fieldid>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+skos:definition  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#iscedf13>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+bibo:locator  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#wrkstat>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan2841_performer_was
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-numeric-uri-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+gvp:ulan1211_artist_to
+        a       rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#userNeeds>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:estStart  a  rdf:Property .
 
-<http://purl.org/dc/terms/accessRights>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300311120-list-300130257
+        a       rdf:List .
 
-<http://www.openlinksw.com/schemas/virtrdf#DefaultQuadMap-ft>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFText> .
+gvp:tgn3102_coextensive_with
+        a       owl:SymmetricProperty , rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#lcstruct>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2815_composed_of
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#port_iww>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300266513-list-300266512
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#milkitem>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+vann:preferredNamespaceUri
+        a       rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#coherence>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300053909-list-300053922
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-lang-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+gvp:tgn3202_capital_is
+        a       rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#dataDescr>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300018324-list-300120431
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#src_fund>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:broaderPartitive  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#victim>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:placeTypePreferred
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sinv-iid-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+gvp:aat2398_focuses_on
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#aircraft>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+[ a       ptop:PropChain ] .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#sourceType>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300020276-list-300020279
+        a       rdf:List .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#coverage>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300017008-list-300017006
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-doubleprecision-literal-fn-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300017280-list-300017299
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-time-uri-fn-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300229483-list-300263228
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#eseg>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2879_followed-developed_from
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#obs_status>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300017167-list-300017170
+        a       rdf:List .
 
-<http://purl.org/dc/terms/format>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+dc:type  a      rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#yieldcls>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300020355-list-300020375
+        a       rdf:List .
 
-<http://purl.org/linked-data/sdmx/2009/measure#occupation>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300194694-list-300191372
+        a       rdf:List .
 
-<http://www.openlinksw.com/schemas/virtrdf#DefaultQuadMap-atables>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable> .
+aat:300106723-list-300106724
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#vit_vtv>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2562_locus-setting_for
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#reaction>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+dct:isPartOf  a  rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/dimension#occupation>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+dct:issued  a   rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#trans3y>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300053901-list-300251413
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#worktime>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300018906-list-300018918
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#landcover>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+ptop:premise  a  rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#default-iid-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+aat:300019106-list-300019107
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-longvarchar-fixedlang-x-any-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+gvp:Subject  a  rdfs:Class .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#net_seg>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300016636-list-300016637
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#multipart-uri>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+gvp:prefLabelLoC  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#skills>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2419_used_for  a  rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#grossNet>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+wgs:SpatialThing  a  rdfs:Class .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#revPolicy>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2416_requires  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#prod_sp>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+schema:Event  a  rdfs:Class .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#arrears>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300018680-list-300018686
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-integer-uri>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+[ a       ptop:PropChain ] .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-integer-literal-fn>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300000998-list-300438623
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#prod_ct>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300016794-list-300016874
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-longvarchar-fixedlang-x-any>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300004800-list-300004803
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-date-literal-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300018782-list-300018784
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#cpa2_1>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300017267-list-300017361
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#obzone>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300011443-list-300011445
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-longvarbinary-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+gvp:aat2286_practice-study
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#aquameth>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2814_constituent_of
+        a       rdf:Property .
 
-<http://purl.org/dc/terms/isPartOf>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300107202-list-300020256
+        a       rdf:List .
 
-<http://purl.org/dc/terms/issued>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300189814-list-300223178
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#eng_pow>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+schema:nationality  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#n_head>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300127575-list-300127576
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#indic_se>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300244079-list-300021622
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#c_work>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1006_formerly_identified_with
+        a       owl:SymmetricProperty , rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#n_activ>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300000705-list-300000763
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#sectfund>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+wgs:lat  a      rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#prod_wd>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300021037-list-300260970
+        a       rdf:List .
 
-<http://www.openlinksw.com/schemas/virtrdf#DefaultQuadMap-S-col-S>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapColumn> .
+gvp:aat2412_involves  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#reasret>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300021944-list-300021946
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#indic_he>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+dc:title  a     rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-date-literal-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+aat:300006207-list-300152308
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#zeropart-literal-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+gvp:aat2424_produced_by
+        a       rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#adjustDetail>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+owl:Restriction  a  rdfs:Class .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#ctm_use>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300244126-list-300021715
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-fixedlang-x-any>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+gvp:aat2418_uses  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#nabs07>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan2697_leader_was
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/wise/ontology/LAT>
-        a       <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+gvp:ulan1511_child_of
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#mot_nrg>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:tgn3001_distinguished_from
+        a       owl:SymmetricProperty , rdf:Property .
 
-<http://www.w3.org/2002/07/owl#intersectionOf>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+schema:box  a   rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-longvarchar-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+gvp:aat2876_characterized_by
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#contrib>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300102506-list-300102509
+        a       rdf:List .
 
-<http://cr.eionet.europa.eu/ontologies/contreg.rdf#errorMessage>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+[ a       rdf:List ] .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-longnvarchar-fixedlang-x-any-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300209267-list-300253714
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-nvarchar-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+ptop:PropRestr  a  rdfs:Class .
 
-<http://www.w3.org/ns/sparql-service-description#feature>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan2794_representative_of
+        a       rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#samplingErr>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300001262-list-300001274
+        a       rdf:List .
 
-<http://cr.eionet.europa.eu/ontologies/contreg.rdf#xmlSchema>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:sourceAlternatePreferred
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#indic_pefa>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan2828_student_at
+        a       rdf:Property .
 
-<http://www.w3.org/ns/sparql-service-description#defaultDataset>
-        a       <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+gvp:ulan1521_cousin_of
+        a       owl:SymmetricProperty , rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#vinetype>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan2584_chaired_by
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#n_hprob>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300027268-list-300027272
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#carestat>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+skos:prefLabel  a  rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-numeric-uri-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+gvp:aat2802_exemplified_by
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#indic_et>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:agentTypeNonPreferred
+        a       rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#instMandate>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+skos:Collection  a  rdfs:Class .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#hp_cause>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1322_school_was
+        a       rdf:Property .
 
-<http://www.eea.europa.eu/portal_types/Assessment#management_plan>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:tgn3005_possibly_identified_as
+        a       owl:SymmetricProperty , rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-doubleprecision>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+gvp:aat2211_produce  a  rdf:Property .
 
-<http://cr.eionet.europa.eu/ontologies/contreg.rdf#byteSize>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+ptop:PropChainType2  a  rdfs:Class .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#crops>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:broaderGenericExtended
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#nst07>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+dct:type  a     rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-nvarchar-fixedlang-x-any-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+aat:300047090-list-300047091
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#area>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2415_required_for
+        a       rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#statConcDef>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2335_associated_with
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-integer>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+gvp:aat2809_coexisted_with
+        a       owl:SymmetricProperty , rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-datetime-uri-fn>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300107696-list-300107697
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-longvarchar-dt-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+aat:300003230-list-300073815
+        a       rdf:List .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#coverageTime>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300001332-list-300001337
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#ind_inpu>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan2696_leader_of
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-integer-literal-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+gvp:aat2853_involve  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#tripdest>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300016697-list-300016698
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sinv-iid-nonblank>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+skos:mappingRelation  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#tra_infr>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1422_founded  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#mobscheme>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2422_takes_place_in
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-time-literal-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+gvp:aat2291_locus-setting_for
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#cltype>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2501_made_of-require
+        a       rdf:Property .
 
-<http://www.eea.europa.eu/ontologies.rdf#isTranslationOf>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2852_involved_with
+        a       rdf:Property .
 
-<http://purl.org/dc/terms/type>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300404264-list-300404265
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#exch_rt>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+void:entities  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#hp_tech>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300021516-list-300264429
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#spfunc>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300106921-list-300107170
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-dt-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+[ a       ptop:PropChain ] .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#metaLastUpdate>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+skos:exactMatch  a  owl:TransitiveProperty , owl:SymmetricProperty , rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#default-iid-nonblank-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300042513-list-300195429
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sinv-iid-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+schema:deathPlace  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#density>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+wgs:long  a     rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#spdepb>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300107629-list-300019576
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-numeric>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300010737-list-300010738
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#wantwork>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+ptop:conclusion  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#hlthcare>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2608_causes-required_for
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#prod_from>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300017099-list-300017100
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#wstatuspr>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+xsd:positiveInteger  a  rdfs:Class .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#fishreg>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+iso:ConceptGroup  a  rdfs:Class .
 
-<http://www.w3.org/2002/07/owl#minCardinality>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+[ a       rdf:List ] .
 
-<http://www.openlinksw.com/virtrdf-data-formats#default-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+schema:longitude  a  rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+gvp:ulan2693_president_was
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#incgrp>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300020669-list-300106792
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#comspec>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+dct:contributor  a  rdf:Property .
 
-<http://purl.org/dc/terms/audience>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+rdfs:label  a   rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#copat>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1107_influenced
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-longvarchar-dt-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+gvp:ulan1310_advised_by
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#multipart-uri-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300310346-list-300440740
+        a       rdf:List .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#collMethod>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+dc:format  a    rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-longnvarchar-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300013533-list-300013535
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#fdi_item>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2425_produces  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#spdeps>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2601_possessed_by-existing_in
+        a       rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#contactMail>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+[ a       ptop:PropChain ] .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#bus_part>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+skos:scopeNote  a  rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-datetime-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+gvp:aat2558_reflected_in
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#strucpro>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300106920-list-300106924
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#marsta>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300310328-list-300265713
+        a       rdf:List .
 
-<http://www.w3.org/2000/01/rdf-schema#label>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2842_source_for
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#ord_brth>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300107633-list-300263188
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#prod_apr>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan2795_representative_was
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#purpose>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2315_used_by  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/uwwtd/ontology/aucUwwName>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300265707-list-300310318
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-doubleprecision-literal-fn>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300233611-list-300022737
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#lev_expn>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1112_master_was
+        a       rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#userSat>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1317_member_of
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-doubleprecision-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+aat:300249701-list-300310176
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#assess>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300245451-list-300245805
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#mgstatus>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300232781-list-300232786
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#size_expn>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300041273-list-300178549
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/wise/ontology/EUCD_RBD>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300037772-list-300037775
+        a       rdf:List .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#valuation>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300129211-list-300129212
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-numeric-uri-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+iso:subGroup  a  owl:TransitiveProperty .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#bmi>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1204_donor_was
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#isco08>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2806_provide_context
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#singlepart-uri-fn>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300206738-list-300206747
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#subjnmon>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1101_teacher_of
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#bclas_bec>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2882_reflect  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#esu>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300000202-list-300000203
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-nvarchar-dt-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+gvp:ObsoleteSubject  a  rdfs:Class .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#advNotice>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1224_crowned  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#severity>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300191763-list-300254203
+        a       rdf:List .
 
-<http://www.openlinksw.com/schemas/virtrdf#DefaultQuadMap-P>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapValue> .
+rdf:Property  a  rdfs:Class .
 
-<http://www.w3.org/2002/07/owl#maxCardinality>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+skos:broadMatch  a  rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-nvarchar-uri-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+aat:300019332-list-300134098
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-uri>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+gvp:ulan2650_publisher_was
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/worldbank/property/topic>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2321_used_by  a  rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-integer-uri-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+schema:GeoShape  a  rdfs:Class .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-longnvarchar-lang-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+[ a       rdfs:Class ] .
 
-<http://cr.eionet.europa.eu/ontologies/contreg.rdf#statusCode>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+schema:description  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#consign>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2215_required_for
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-time-literal-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+gvp:Infer_skosBroader_PropChainType2
+        a       ptop:PropChainType2 .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#rbd>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+dc:description  a  rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-datetime-literal-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+rdf:Bag  a      rdfs:Class .
 
-<http://www.openlinksw.com/schemas/virtrdf#DefaultServiceMap-O>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapValue> .
+aat:300212527-list-300220406
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#n_vehicl>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300259074-list-300310172
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#src_nfr>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300264951-list-300264953
+        a       rdf:List .
 
-<http://www.openlinksw.com/schemas/virtrdf#DefaultQuadMap>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMap> .
+aat:300018438-list-300018439
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#vtarcls>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:broaderPartitiveExtended
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#default-iid-nonblank-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+[ a       rdf:List ] .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#barrier>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300078048-list-300000992
+        a       rdf:List .
 
-<http://eunis.eea.europa.eu/rdf/species-schema.rdf#sameSynonymITIS>
-        a       <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+aat:300000705-list-300000706
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#nrg_bal>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan2674_professor_at
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-integer-uri-fn-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+owl:versionInfo  a  rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#unitMult>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+void:inDataset  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#smoking>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300020337-list-300020340
+        a       rdf:List .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#metaPosted>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300025975-list-300253357
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#hlth_pb>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+[ a       rdf:List ] .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#sectpart>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300310501-list-300310629
+        a       rdf:List .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#accessibility>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+skos:narrower  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#activity>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2555_reflected_in
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#default-iid-nonblank>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+gvp:aat2604_possessed_by-existing_in
+        a       rdf:Property .
 
-<http://www.w3.org/2002/07/owl#oneOf>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+skos:topConceptOf  a  rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#freqDetail>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+[ a       rdf:List ] .
 
-<http://eunis.eea.europa.eu/rdf/species-schema.rdf#notSameSpecies>
-        a       <http://www.w3.org/2002/07/owl#SymmetricProperty> .
+gvp:aat2421_locus-setting_for
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#hhcomp>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2846_locus-setting_for
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#provloc>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300192973-list-300211742
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-time-uri-fn>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+ptop:type1  a   rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#n_tracks>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+xsd:boolean  a  rdfs:Class .
 
-<http://purl.org/linked-data/sdmx/2009/dimension#currency>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300194009-list-300198349
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#default-iid-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+schema:location  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#indic_to>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+skos:semanticRelation
+        a       rdf:Property .
 
-<http://www.w3.org/2002/07/owl#incompatibleWith>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+iso:PreferredTerm  a  rdfs:Class .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-nvarchar-lang-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300239001-list-300192907
+        a       rdf:List .
 
-<http://cr.eionet.europa.eu/ontologies/contreg.rdf#hasSource>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:nationalityPreferred
+        a       rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#nonsamplingErr>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300123013-list-300211844
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/uwwtd/ontology/dcpLatitude>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+skos:historyNote  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/ramon/ontology/inCountry>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+schema:geo  a   rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#lsu>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2817_derived-made_from
+        a       rdf:Property .
 
-<http://www.w3.org/2002/07/owl#versionInfo>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+owl:qualifiedCardinality
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#icd9cm>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan2578_trustee_of
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#default-iid-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300011183-list-300011185
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#indic_vi>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300010797-list-300010799
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-longvarchar-fixedlang-x-any-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+aat:300017120-list-300017121
+        a       rdf:List .
 
-<http://www.openlinksw.com/schemas/virtrdf#DefaultQuadMap-P-cols>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn> .
+gvp:aat2612_possessed_by-existing_in
+        a       rdf:Property .
 
-<http://purl.org/dc/terms/subject>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300020605-list-300020607
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-nvarchar-dt-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+aat:300232954-list-300232955
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-literal-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+aat:300019273-list-300106751
+        a       rdf:List .
 
-<http://cr.eionet.europa.eu/ontologies/contreg.rdf#comment>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300015685-list-300015686
+        a       rdf:List .
 
-<http://cr.eionet.europa.eu/ontologies/contreg.rdf#objectsLabelColumn>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2508_produced-processed_by
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#tenure>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300042558-list-300205169
+        a       rdf:List .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#completeness>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300250602-list-300250622
+        a       rdf:List .
 
-<http://purl.org/dc/terms/instructionalMethod>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300036746-list-300205385
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#multipart-literal>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300018669-list-300134127
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#asset10>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300018519-list-300262973
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#leg_form>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2613_possess-exist_in
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#hhstatus>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+skosxl:altLabel  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#ind_outp>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300017396-list-300017397
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-time-literal-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+gvp:ulan2573_founded_by
+        a       rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/measure#civilStatus>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+rdfs:ContainerMembershipProperty
+        a       rdfs:Class .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#duration>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:tgn3103_located_on
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-integer-literal-fn-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+gvp:UnknownPersonConcept
+        a       rdfs:Class .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-numeric-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+aat:300195764-list-300195759
+        a       rdf:List .
 
-<http://www.openlinksw.com/schemas/virtrdf#DefaultQuadMap-P-col-P>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapColumn> .
+aat:300020041-list-300019446
+        a       rdf:List .
 
-<http://www.openlinksw.com/schemas/virtrdf#DefaultServiceStorage>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadStorage> .
+aat:300016619-list-300016628
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#multipart-uri-fn-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+aat:300001892-list-300001894
+        a       rdf:List .
 
-<http://cr.eionet.europa.eu/ontologies/contreg.rdf#harvestedStatements>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300106660-list-300018567
+        a       rdf:List .
 
-<http://www.openlinksw.com/schemas/virtrdf#DefaultQuadMap-G-cols>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn> .
+gvp:parentStringAbbrev
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#request>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+dct:creator  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#pl_capa>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:tgn3402_moved_to  a  rdf:Property .
 
-<http://purl.org/dc/terms/tableOfContents>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:broaderPreferredExtended
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#c_unload>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+skos:changeNote  a  rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-longnvarchar-lang-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+gvp:tgn3301_ally_of  a  owl:SymmetricProperty , rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/amp/ontology/managementPlan>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1318_member_was
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#cpatc>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300108579-list-300015733
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#wstatus2>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+void:classes  a  rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#embargoTime>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1575_godchild_of
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#expen>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300311122-list-300128307
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-numeric-literal-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+dc:identifier  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#resid>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+[ a       rdf:List ] .
 
-<http://www.openlinksw.com/virtrdf-data-formats#multipart-literal-fn-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+gvp:ulan1553_child_by_marriage_of
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-lang-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+gvp:ulan1561_step-child_of
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#indic_ur>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:biography  a  rdf:Property .
 
-<http://www.openlinksw.com/schemas/virtrdf#DefaultServiceMap-atables>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable> .
+void:class  a   rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#hhcaract>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+wgs:alt  a      rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#icha11_hp>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300024341-list-300024347
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#size_emp>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+[ a       rdf:List ] .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#indic_bt>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300120040-list-300264785
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-nvarchar-uri-fn-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+dct:created  a  rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-longvarchar-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+aat:300017437-list-300017442
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#wine_var>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+[ a       ptop:PropChain ] .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#relPolUsAc>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300128339-list-300128348
+        a       rdf:List .
 
-<http://www.eea.europa.eu/portal_types/PressRelease#management_plan>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300014254-list-300014255
+        a       rdf:List .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#instManShar>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300017300-list-300017301
+        a       rdf:List .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#costBurdenEff>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300019935-list-300107802
+        a       rdf:List .
 
-<http://purl.org/dc/terms/creator>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300263188-list-300107675
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#nrg_flow>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300259362-list-300259363
+        a       rdf:List .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#dsi>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300020079-list-300020080
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#job_autn>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:tgn3006_formerly_identified_as
+        a       owl:SymmetricProperty .
 
-<http://www.w3.org/ns/sparql-service-description#endpoint>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+gvp:ulan2840_performer_with
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#bop_item>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1007_distinguished_from
+        a       owl:SymmetricProperty , rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#typeagr>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2322_use  a  rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#dataEditing>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300017498-list-300017500
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-longnvarchar-fixedlang-x-any-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+aat:300011772-list-300250544
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#indic_sb>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2432_requires  a  rdf:Property .
 
-<http://purl.org/dc/terms/provenance>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan2574_director_of
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#plants>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+xsd:string  a   rdfs:Datatype , rdfs:Class .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#twrk_hr>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+skosxl:hiddenLabel  a  rdf:Property .
 
-<http://www.openlinksw.com/schemas/virtrdf#DefaultServiceMap-S-col-S>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapColumn> .
+gvp:ulan1201_patron_of
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#crudeoil>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300020794-list-300263130
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#levels>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1106_apprentice_was
+        a       rdf:Property .
 
-<http://cr.eionet.europa.eu/ontologies/contreg.rdf#redirectedTo>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+owl:minQualifiedCardinality
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#zeropart-uri-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+aat:300013109-list-300013110
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#hold_man>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2834_decendant_of
+        a       rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#dataComp>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300018403-list-300018405
+        a       rdf:List .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#conf>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300010907-list-300249963
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-longvarchar-fixedlang-x-any-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300311121-list-300128385
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#singlepart-uri-fn-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+aat:300018824-list-300018825
+        a       rdf:List .
 
-<http://cr.eionet.europa.eu/ontologies/contreg.rdf#userReviewLastNumber>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:displayOrder  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#administr>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300250308-list-300310456
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-fixedlang-x-any-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+aat:300162902-list-300161433
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#tra_mode>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300107592-list-300020646
+        a       rdf:List .
 
-<http://www.w3.org/2002/07/owl#distinctMembers>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300106924-list-300106928
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#leg_stat>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+rdf:value  a    rdf:Property .
 
-<http://purl.org/dc/terms/created>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1301_colleague_of
+        a       owl:SymmetricProperty , rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-longvarchar-lang-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+iso:superOrdinate  a  rdf:Property .
 
-<http://www.openlinksw.com/schemas/virtrdf#DefaultQuadMap-O-col-O>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapColumn> .
+dct:source  a   rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-time-literal>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300163880-list-300005043
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#prod_ani>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2892_example_of
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-dt>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+iso:CompoundEquivalence
+        a       rdfs:Class .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#cbtrade>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300130602-list-300130603
+        a       rdf:List .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#microDatAcc>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300021034-list-300192167
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#plant_tec>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300021164-list-300021165
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-varchar>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300193233-list-300037280
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#gear>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2811_preceded  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#table_dic>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300024095-list-300023895
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#isced97>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:Facet  a    rdfs:Class .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#vessel>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+void:propertyPartition
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#type_inn>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300264898-list-300018398
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#learning>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300000283-list-300000285
+        a       rdf:List .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#costBurdenRes>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2328_involved_with
+        a       rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#dataProvider>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:agentTypePreferred
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/wise/ontology/NationalId>
-        a       <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+skos:broaderTransitive
+        a       owl:TransitiveProperty , rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#guarantors>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1542_consort_of
+        a       rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#dissDet>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300227809-list-300227810
+        a       rdf:List .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#relCalAccess>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300126589-list-300126590
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#afford>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:estEnd  a   rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#deg_urb>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+rdfs:Literal  a  rdfs:Class .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#mAgency>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300106643-list-300106652
+        a       rdf:List .
 
-<http://eunis.eea.europa.eu/rdf/species-schema.rdf#sameSynonymFaEu>
-        a       <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+dct:language  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#wsta_acc>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:broaderInstantialExtended
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#multipart-uri-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+aat:300019576-list-300019577
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#cvtagr>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:Infer_broaderPreferredExtended
+        a       ptop:PropChainRestr .
 
-<http://rdfdata.eionet.europa.eu/wise/ontology/LON>
-        a       <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+aat:300192630-list-300191997
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-datetime-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+aat:300015668-list-300015669
+        a       rdf:List .
 
-<http://purl.org/dc/terms/accrualMethod>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300018422-list-300106401
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#areaprot>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2602_possess-exist_in
+        a       rdf:Property .
 
-<http://purl.org/dc/terms/medium>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2848_involved_in
+        a       rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasDetail>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+dct:description  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#prccode>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:termKind  a  rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-nvarchar-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+[ a       rdf:List ] .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#relPolTra>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300122241-list-300167845
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#agriprod>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+rdfs:range  a   rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#rep_mar>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300020666-list-300020575
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#isco88>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300128002-list-300128003
+        a       rdf:List .
 
-<http://cr.eionet.europa.eu/ontologies/contreg.rdf#objectsType>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300021854-list-300021861
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#power>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300019833-list-300107712
+        a       rdf:List .
 
-<http://www.eea.europa.eu/ontologies.rdf#objectProvides>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+rdf:XMLLiteral  a  rdfs:Datatype , rdfs:Class .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#yes_no>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1223_crowned_by
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#workproc>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+foaf:Agent  a   rdfs:Class .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#credinst>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+schema:Organization  a  rdfs:Class .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#lev_perc>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+vann:preferredNamespacePrefix
+        a       rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#punctuality>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300174553-list-300019190
+        a       rdf:List .
 
-<http://www.w3.org/2002/07/owl#complementOf>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300110008-list-300070083
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-longnvarchar-dt-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+gvp:ulan2781_dedicatee_of
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-nvarchar-literal-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300018115-list-300182834
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#matagent>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:GroupConcept  a  rdfs:Class .
 
-<http://rdfdata.eionet.europa.eu/wise/ontology/C_CD>
-        a       <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+gvp:aat2222_act_upon  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#arable>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+skos:inScheme  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#indic_cr>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1205_client_of
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/uwwtd/ontology/aggName>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+dc:date  a      rdf:Property .
 
-<http://www.eionet.europa.eu/gemet/gemet/2004/06/gemet-schema.rdf#theme>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1308_assisted_by
+        a       rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#clarity>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300002382-list-300002450
+        a       rdf:List .
 
-<http://cr.eionet.europa.eu/ontologies/contreg.rdf#contentSize>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300128098-list-300128237
+        a       rdf:List .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#confDataTr>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+[ a       ptop:PropChain ] .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-date-literal-fn>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300056348-list-300263951
+        a       rdf:List .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#qualityDoc>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+ptop:PropChain  a  rdfs:Class .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#currency>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+prov:Create  a  rdfs:Class .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#timeOutput>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1314_partner_was
+        a       rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#decimals>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1306_performs_with
+        a       owl:SymmetricProperty , rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#icha11_hf>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300232962-list-300232963
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#fin_source>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:termPOS  a  rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#dissOther>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1562_step-parent_of
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#zeropart-literal-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+aat:300233039-list-300233040
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#indic_wb>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300018340-list-300264891
+        a       rdf:List .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#dataValOutput>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:placeType  a  rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#timeSource>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300054582-list-300054584
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sinv-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+gvp:aat2312_perform  a  rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#accuracyOverall>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+bibo:Document  a  rdfs:Class .
 
-<http://www.openlinksw.com/schemas/virtrdf#DefaultQuadMap-G-col-G>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapColumn> .
+iso:SimpleNonPreferredTerm
+        a       rdfs:Class .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#housing>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+owl:inverseOf  a  owl:SymmetricProperty , rdf:Property .
 
-<http://eunis.eea.europa.eu/rdf/species-schema.rdf#synonymFor>
-        a       <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+rdf:Alt  a      rdfs:Class .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#dataValSource>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300019942-list-300107778
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#n_partner>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:Infer_isoBroaderInstantial
+        a       ptop:PropRestr .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#comparGeo>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300020537-list-300107343
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#ind_farm>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1413_administration_overlaps_with
+        a       owl:SymmetricProperty , rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#building>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2822_basis_of  a  rdf:Property .
 
-<http://purl.org/dc/terms/description>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan2582_administered_by
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#calval>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2292_work-live_in
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#for_acc>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300310173-list-300250937
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#tra_meas>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300107750-list-300019584
+        a       rdf:List .
 
-<http://www.w3.org/2000/01/rdf-schema#range>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+owl:DatatypeProperty  a  rdfs:Class .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#applicant>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300018521-list-300018522
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#so_eur>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1574_godparent_of
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#gaugetrk>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300106581-list-300018543
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-integer-literal-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300000885-list-300445579
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#watpol>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300021744-list-300021752
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#indicator>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:tgn3101_near-adjacent_to
+        a       owl:SymmetricProperty .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#fin_typ>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+dct:replaces  a  rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-integer-literal>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300233021-list-300233022
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#n_book>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300107224-list-300019246
+        a       rdf:List .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#comparDomains>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan2579_trustee_was
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-datetime-literal-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300010269-list-300056297
+        a       rdf:List .
 
-<http://purl.org/linked-data/sdmx/2009/measure#sex>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan2778_owner_of
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#par_mar>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+owl:cardinality  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#ww_tpar>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300310284-list-300310656
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-longnvarchar-fixedlang-x-any-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+aat:300020656-list-300379854
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#c_bthmot>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300020541-list-300107346
+        a       rdf:List .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#contactPhone>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:termFlag  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#cpa08>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300013332-list-300013333
+        a       rdf:List .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#origDataId>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+owl:FunctionalProperty
+        a       rdfs:Class .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#n_unemp>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+iso:broaderGeneric  a  rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#organisationUnit>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2801_conjuncted_with
+        a       owl:SymmetricProperty , rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#zeropart-uri>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300107591-list-300107595
+        a       rdf:List .
 
-<http://cr.eionet.europa.eu/ontologies/contreg.rdf#lastRefreshed>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+skos:memberList  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#bus_func>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300106605-list-300018558
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#multipart-literal-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+aat:300021033-list-300021144
+        a       rdf:List .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#title>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300106724-list-300403945
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#expect>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300204989-list-300198243
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#pers_inv>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2812_followed  a  rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-longnvarchar-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+gvp:ulan1202_patron_was
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#lev_satis>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1303_collaborated_with
+        a       owl:SymmetricProperty , rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#workfind>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300000283-list-300000316
+        a       rdf:List .
 
-<http://purl.org/dc/terms/extent>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300263527-list-300263528
+        a       rdf:List .
 
-<http://www.w3.org/2002/07/owl#someValuesFrom>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1544_significant_other_of
+        a       owl:SymmetricProperty , rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sinv-iid-nonblank-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+schema:gender  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#maturity>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+owl:ObjectProperty  a  rdfs:Class .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#engine>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300127748-list-300127750
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#zeropart-literal-fn-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+aat:300106580-list-300018529
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#spscheme>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:nationalityNonPreferred
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#spsector>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300020252-list-300110170
+        a       rdf:List .
 
-<http://www.openlinksw.com/schemas/virtrdf#DefaultServiceMap-geo-conds>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-string> .
+rdf:nil  a      rdf:List .
 
-<http://www.w3.org/2002/07/owl#inverseOf>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2218_used-function_as
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#quant_expn>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1111_master_of
+        a       rdf:Property .
 
-<http://www.w3.org/2002/07/owl#backwardCompatibleWith>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+ptop:premise2  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#wstatus>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+dct:license  a  rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#dataValInter>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2408_locus-setting_for
+        a       rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#iMResRel>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300006084-list-300006085
+        a       rdf:List .
 
-<http://www.openlinksw.com/schemas/virtrdf#DefaultServiceMap>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMap> .
+gvp:aat2329_involves  a  rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#accuracy>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+skos:hiddenLabel  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#ncl>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2212_produced_by
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#zeropart-literal-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+aat:300107580-list-300107582
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#meat>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300046065-list-300213743
+        a       rdf:List .
 
-<http://www.eea.europa.eu/portal_types/EEAFigure#eeaManagementPlan>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+void:rootResource  a  rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#visArea>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300007836-list-300007837
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#media>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300000206-list-300008633
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#default-iid-nonblank-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+aat:300020063-list-300020071
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-nvarchar-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+gvp:aat2205_causes-is_required
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#ww_gtd>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+[ a       rdf:List ] .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-longnvarchar-lang-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300006495-list-300252225
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#empsough>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1108_influenced_by
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#accommod>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300311123-list-300127490
+        a       rdf:List .
 
-<http://eunis.eea.europa.eu/rdf/species-schema.rdf#sameSynonymWorMS>
-        a       <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+aat:300444329-list-300444330
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#schedule>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+iso:superGroup  a  owl:TransitiveProperty .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#wrkproc>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1203_donor_of
+        a       rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#instManLaOa>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300233610-list-300233613
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#snglhldr>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1214_court_artist_was
+        a       rdf:Property .
 
-<http://www.w3.org/2002/07/owl#cardinality>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1547_romantic_partner_of
+        a       owl:SymmetricProperty , rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sinv-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+gvp:ulan1550_relative_by_marriage
+        a       owl:SymmetricProperty , rdf:Property .
 
-<http://www.eionet.europa.eu/gemet/gemet/2004/06/gemet-schema.rdf#group>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2504_used-located_in
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#trip_arr>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300037769-list-300037771
+        a       rdf:List .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#dataRev>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2875_characteristic_of
+        a       rdf:Property .
 
-<http://eunis.eea.europa.eu/rdf/species-schema.rdf#sameSynonymNCBI>
-        a       <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+gvp:ulan2651_publisher_of
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#airp_pr>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1221_appointed_by
+        a       rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#qualityMgmnt>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300264899-list-300264898
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#time>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300018082-list-300107832
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-nvarchar-fixedlang-x-any>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300018523-list-300018524
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-nvarchar-lang-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+gvp:qualifier  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#n_item>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1512_parent_of
+        a       rdf:Property .
 
-<http://www.eionet.europa.eu/gemet/gemet/2004/06/gemet-schema.rdf#themeMember>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:broader  a  rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-doubleprecision-literal-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+schema:latitude  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#regis_es>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300013135-list-300013136
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#icd10>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2885_involves  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#startime>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300020306-list-300020308
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#substance>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:sourcePreferred  a  rdf:Property .
 
-<http://www.openlinksw.com/schemas/virtrdf#DefaultServiceMap-P-col-P>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapColumn> .
+gvp:ulan1552_parent_by_marriage_of
+        a       rdf:Property .
 
-<http://cr.eionet.europa.eu/ontologies/contreg.rdf#recordOf>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300016983-list-300016984
+        a       rdf:List .
 
-<http://cr.eionet.europa.eu/ontologies/contreg.rdf#tag>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+[ a       rdf:List ] .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#nrg_cons>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1307_assistant_of
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#cvtplan>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:aat2435_context_for
+        a       rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#c_regis>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300008217-list-300008219
+        a       rdf:List .
 
-<http://www.openlinksw.com/schemas/virtrdf#DefaultServiceMap-G>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapValue> .
+aat:300020060-list-300020063
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-numeric-uri-fn-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+owl:sameAs  a   rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/measure#educationLev>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+rdf:first  a    rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#contactOrganisation>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300199635-list-300053220
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-lang-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+gvp:aat2281_have_counterpart
+        a       owl:SymmetricProperty , rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#cvt_ch>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan2782_dedicated_to
+        a       rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#classSystem>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+owl:onProperty  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#assist>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:tgn3101_adjacent_to
+        a       rdf:Property .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#contact>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+rdfs:comment  a  rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sinv>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+gvp:aat2826_used_with
+        a       owl:SymmetricProperty , rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#trans1y>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300008347-list-300008350
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-lang>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300310518-list-300310228
+        a       rdf:List .
 
-<http://www.openlinksw.com/schemas/virtrdf#DefaultServiceMap-S-cols>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn> .
+rdf:object  a   rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-time-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+skos:related  a  owl:SymmetricProperty , rdf:Property .
 
-<http://www.w3.org/ns/sparql-service-description#resultFormat>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300019279-list-300106738
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#ipc>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+[ a       rdf:List ] .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#ecase>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+[ a       rdf:List ] .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-doubleprecision-literal-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+aat:300022633-list-300022635
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-longvarbinary-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
+aat:300019104-list-300019106
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#iww_hd>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+schema:GeoCoordinates
+        a       rdfs:Class .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#typtraif>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+skosxl:labelRelation  a  owl:SymmetricProperty , rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#particip>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:ulan1556_half-sibling_of
+        a       owl:SymmetricProperty , rdf:Property .
 
-<http://www.openlinksw.com/schemas/virtrdf#DefaultServiceStorage-UserMaps>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMap> .
+skosxl:prefLabel  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#annex>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+rdfs:Class  a   rdfs:Class .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#repAgency>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300174552-list-300018744
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#vinespec>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300019275-list-300019276
+        a       rdf:List .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#modinj>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+prov:startedAtTime  a  rdf:Property .
 
-<http://rdfdata.eionet.europa.eu/eurostat/property#terrtypo>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+gvp:contributorNonPreferred
+        a       rdf:Property .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-time-literal-fn-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300263756-list-300019213
+        a       rdf:List .
 
-<http://www.openlinksw.com/virtrdf-data-formats#sql-varchar-uri-fn>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
+aat:300053203-list-300053471
+        a       rdf:List .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#dataUpdate>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300011498-list-300011500
+        a       rdf:List .
 
-<http://purl.org/linked-data/sdmx/2009/attribute#newsRel>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-
-<http://rdfdata.eionet.europa.eu/eurostat/property#induse>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-
-<http://www.openlinksw.com/virtrdf-data-formats#singlepart-literal-fn-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
-
-<http://purl.org/dc/terms/dateAccepted>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-
-<http://www.openlinksw.com/schemas/virtrdf#DefaultServiceMap-O-cols>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn> .
-
-<http://purl.org/linked-data/sdmx/2009/attribute#comparability>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-
-<http://www.openlinksw.com/virtrdf-data-formats#sinv-iid-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
-
-<http://www.openlinksw.com/virtrdf-data-formats#sql-nvarchar-dt-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
-
-<http://rdfdata.eionet.europa.eu/eurostat/property#sitc06>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-
-<http://www.w3.org/ns/sparql-service-description#supportedLanguage>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-
-<http://www.openlinksw.com/virtrdf-data-formats#sql-longnvarchar-dt>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
-
-<http://purl.org/linked-data/sdmx/2009/attribute#statUnit>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-
-<http://eunis.eea.europa.eu/rdf/species-schema.rdf#maybeSameSpecies>
-        a       <http://www.w3.org/2002/07/owl#SymmetricProperty> .
-
-<http://rdfdata.eionet.europa.eu/eurostat/property#c_dest>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-
-<http://www.openlinksw.com/virtrdf-data-formats#sql-nvarchar-fixedlang-x-any-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
-
-<http://www.openlinksw.com/virtrdf-data-formats#sql-doubleprecision-uri-fn-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
-
-<http://rdfdata.eionet.europa.eu/eurostat/property#clspec>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-
-<http://rdfdata.eionet.europa.eu/eurostat/property#yld_curv>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-
-<http://eunis.eea.europa.eu/rdf/species-schema.rdf#hasSynonym>
-        a       <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
-
-<http://www.openlinksw.com/schemas/virtrdf#DefaultServiceMap-O-col-O>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapColumn> .
-
-<http://www.openlinksw.com/virtrdf-data-formats#sql-doubleprecision-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
-
-<http://www.openlinksw.com/virtrdf-data-formats#sql-integer-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
-
-<http://rdfdata.eionet.europa.eu/eurostat/property#meatitem>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-
-<http://rdfdata.eionet.europa.eu/eurostat/property#indic_sp>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-
-<http://rdfdata.eionet.europa.eu/eurostat/property#impact>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-
-<http://rdfdata.eionet.europa.eu/eurostat/property#training>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-
-<http://purl.org/dc/terms/spatial>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-
-<http://rdfdata.eionet.europa.eu/eurostat/property#c_bthfat>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-
-<http://rdfdata.eionet.europa.eu/eurostat/property#workint>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-
-<http://www.openlinksw.com/virtrdf-data-formats#sql-nvarchar-uri-nullable>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
-
-<http://schema.org/False>
-        a       <http://www.w3.org/2001/XMLSchema#boolean> .
-
-<http://purl.org/linked-data/sdmx/2009/attribute#relPolLegActs>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-
-<http://rdfdata.eionet.europa.eu/eurostat/property#indic_en>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-
-<http://www.w3.org/2002/07/owl#sameAs>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-
-<http://www.openlinksw.com/virtrdf-data-formats#multipart-uri-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
-
-<http://rdfdata.eionet.europa.eu/eurostat/property#hatchitm>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-
-<http://rdfdata.eionet.europa.eu/uwwtd/ontology/bigCity>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-
-<http://www.openlinksw.com/virtrdf-data-formats#sql-nvarchar-lang-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
-
-<http://rdfdata.eionet.europa.eu/eurostat/property#studentc>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-
-<http://purl.org/linked-data/sdmx/2009/attribute#relPolicy>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-
-<http://www.openlinksw.com/schemas/virtrdf#DefaultQuadMap-geo>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFText> .
-
-<http://www.w3.org/2002/07/owl#onProperty>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-
-<http://rdfdata.eionet.europa.eu/ramon/ontology/edition>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-
-<http://www.openlinksw.com/schemas/virtrdf#DefaultServiceMap-S>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapValue> .
-
-<http://www.w3.org/2000/01/rdf-schema#comment>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-
-<http://www.openlinksw.com/virtrdf-data-formats#zeropart-literal>
-        a       <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> .
-
-<http://www.openlinksw.com/virtrdf-data-formats#multipart-literal-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
-
-<http://rdfdata.eionet.europa.eu/eurostat/property#incubat>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-
-<http://rdfdata.eionet.europa.eu/eurostat/property#deviatn>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-
-<http://www.openlinksw.com/schemas/virtrdf#DefaultQuadStorage-UserMaps>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMap> .
-
-<http://rdfdata.eionet.europa.eu/eurostat/property#typ_rear>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-
-<http://www.openlinksw.com/virtrdf-data-formats#singlepart-literal-fn-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
-
-<http://www.w3.org/2002/07/owl#hasValue>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-
-<http://rdfdata.eionet.europa.eu/eurostat/property#indx>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-
-<http://www.openlinksw.com/schemas/virtrdf#SyncToQuads-UserMaps>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMap> .
-
-<http://www.openlinksw.com/schemas/virtrdf#DefaultServiceMap-G-cols>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn> .
-
-<http://rdfdata.eionet.europa.eu/eurostat/property#nabs92>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-
-<http://purl.org/linked-data/sdmx/2009/attribute#docMethod>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-
-<http://www.openlinksw.com/virtrdf-data-formats#sql-longvarchar-lang-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
-
-<http://purl.org/linked-data/sdmx/2009/attribute#refPerWgts>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-
-<http://rdfdata.eionet.europa.eu/eurostat/property#c_ctrl>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-
-<http://rdfdata.eionet.europa.eu/eurostat/property#n_injury>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-
-<http://rdfdata.eionet.europa.eu/eurostat/property#percent>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-
-<http://purl.org/linked-data/sdmx/2009/attribute#dataPres>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-
-<http://purl.org/linked-data/sdmx/2009/attribute#contactFax>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-
-<http://rdfdata.eionet.europa.eu/eurostat/property#seabasin>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-
-<http://www.openlinksw.com/virtrdf-data-formats#sql-longvarchar-dt-nullable-SuperFormats>
-        a       <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> .
-
-<http://rdfdata.eionet.europa.eu/eurostat/property#oga_spou>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-
-<http://rdfdata.eionet.europa.eu/eurostat/property#clc18>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+aat:300016964-list-300016965
+        a       rdf:List .

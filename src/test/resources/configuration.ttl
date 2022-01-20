@@ -9,7 +9,7 @@
 
 :reader
  a deer:FileModelReader ;
- deer:fromPath "Test1.ttl";
+ deer:fromPath "Test.ttl";
 .
 
 
@@ -17,7 +17,8 @@
 
 :ontologyMatcher
  a deer:OntologyMatchingOperator ;
- deer:typeOfMap "Classes";
+
+ deer:typeOfMap "0";
  fcage:hasInput :reader ;
 .
 

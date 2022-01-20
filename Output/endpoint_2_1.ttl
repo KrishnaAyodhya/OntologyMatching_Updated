@@ -1,0 +1,2460 @@
+@prefix :      <http://purl.org/dc/terms/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn:    <http://www.w3.org/2005/xpath-functions#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+
+<http://resource.geolba.ac.at/GeologicUnit/113>
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/207> .
+
+<http://resource.geolba.ac.at/GeologicUnit/692>
+        :hasVersion  "2"^^xsd:int .
+
+<http://resource.geolba.ac.at/GeologicUnit/52>
+        :references  <http://resource.geolba.ac.at/ref/590> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>
+                <http://resource.geolba.ac.at/GeologicUnit/727> .
+
+<http://resource.geolba.ac.at/GeologicUnit/481>
+        :created      "2011-08-04T13:56:10.000Z"^^xsd:dateTime ;
+        :description  "Type section: No type section is specified in the literature.; Fossils: Entachenalm and Lachtal-Grundalm: graptolites (Haiden, 1936; Friedrich & Peltzmann, 1937; Jaeger, 1978). Nagelschmidpalven / Dienten: bivalves, nautiloids (Hauer, 1847; Stache, 1879; Heritsch, 1929).; Origin facies: Partly euxinic basin.; Biostratigraphy: Graptolite Zones 27 – 29, 33 and 34 / 35 (Jaeger, 1978).; Thickness: Up to 200 m.; (Piller et al., 2014)" .
+
+<http://resource.geolba.ac.at/GeologicUnit/873>
+        :references  <http://resource.geolba.ac.at/ref/590> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Sulzfluh limestone"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/209>
+        :creator  <http://resource.geolba.ac.at/user/horchr> .
+
+<http://resource.geolba.ac.at/GeologicUnit/22>
+        <http://www.w3.org/2004/02/skos/core#narrower>
+                <http://resource.geolba.ac.at/GeologicUnit/125> , <http://resource.geolba.ac.at/GeologicUnit/126> , <http://resource.geolba.ac.at/GeologicUnit/127> .
+
+<http://resource.geolba.ac.at/GeologicUnit/969>
+        :created  "2017-02-22T14:49:11.000Z"^^xsd:dateTime ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "A feature relevant to geological maps which cannot be related to a geological or geomorphological topic. (GBA-Thesaurus Editorial Team 2017)"@en ;
+        <http://www.w3.org/2004/02/skos/core#topConceptOf>
+                <http://resource.geolba.ac.at/GeologicUnit/967> .
+
+<http://resource.geolba.ac.at/GeologicUnit/451>
+        :hasVersion  "3"^^xsd:int ;
+        :references  <http://resource.geolba.ac.at/ref/590> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Bronteus Limestone"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/843>
+        :created  "2011-08-05T12:34:24.000Z"^^xsd:dateTime ;
+        :creator  <http://resource.geolba.ac.at/user/ebnmar> ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Keine Daten in LithstratDB (Piller et al., 2004)"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/240>
+        :description  "[en]: Depositional environment: Sediments of the Lambertenghi Formation are indicative of deposition in shallow subtidal to intertidal hypersaline lagoon (Bandel, 1972; Pohler, 1982). Fossil content: Calcareous algae, bivalves, brachiopods, rugose and tabulate corals, conodonts, echinoderms, foraminifers, gastropods, ostracods, stromatoporoids. Boundaries: Underlying units – Seewarte Formation (conformable); Overlying units – Spinotti Formation (conformable gradual, but faulted at type section); Lateral units – Polinik Formation, Kellerwand Formation. (Pohler et al., 2015a)" .
+
+<http://resource.geolba.ac.at/GeologicUnit/632>
+        :references  <http://resource.geolba.ac.at/ref/478> .
+
+<http://resource.geolba.ac.at/GeologicUnit/547>
+        :references  <http://resource.geolba.ac.at/ref/590> .
+
+<http://resource.geolba.ac.at/GeologicUnit/939>
+        :source  <http://palstrat.uni-graz.at/Stratigraphische_Tabelle_von_Oesterreich_2004.pdf> ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Age (verified): Induanian - Olenekian; Age (estimated): Permian; Lithological Description: Permo-Scythian; often greenish coloured due to phengite content, arkosic schists to arkosic gneisses, quartz phyllites, mica quartzites, porphyroid layers, detrital layers; Type Area: Wustkogel, 2.5 km east of Mittertörl the Grossglockner High Alpine Road, (Piller et al., 2004; LithstratDB)"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/421>
+        <http://www.w3.org/2004/02/skos/core#notation>
+                "2608" .
+
+<http://resource.geolba.ac.at/GeologicUnit/813>
+        :creator  <http://resource.geolba.ac.at/user/ebnmar> .
+
+<http://resource.geolba.ac.at/GeologicUnit/336>
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/332> .
+
+<http://resource.geolba.ac.at/GeologicUnit/94>
+        :source  <http://palstrat.uni-graz.at/Stratigraphische_Tabelle_von_Oesterreich_2004.pdf> .
+
+<http://resource.geolba.ac.at/GeologicUnit/728>
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Die Sedimente der Oberalm-Formation sind nur zum Teil als die typisch grauen, allodapischen Hornstein-Bankkalke ausgebildet. Im Großen und Ganzen handelt es sich jedoch um dünnbankige, dunkelgraue, etwas kieselige Mergel und Mergelkalke mit vereinzelt eingelagerten kalkturbiditischen Schüttungen (meist Feinschichtungsgefüge). Diese Textur hält über mehrere 100 m Mächtigkeit an und scheint auch lateral kaum zu variieren. Das Auftreten der Formen Cyclagelosphaera tubulata und Retecapsa incompta lässt das Alter der mergeligen Oberalm-Formation auf unteres Tithonium (Nannoplanktonzone NJ 17) eingrenzen (vgl. Bown & Cooper, 1998). (Moser & Coric, 2014)"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/210>
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "A suite (metamorphic suite, intrusive suite, plutonic suite) is the lithodemic unit next higher in rank to lithodeme. It comprises two or more associated lithodemes of the same class (e.g., plutonic, metamorphic). For cartographic and hierarchical purposes, suite is comparable to group. (NACSN, 2005)"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/602>
+        :source  <http://www.nhm-wien.ac.at/jart/prj3/nhm/data/uploads/mitarbeiter_dokumente/harzhauser/2004/Harzhauser_Piller_2004_Stratigraphy_proof.pdf> .
+
+<http://resource.geolba.ac.at/GeologicUnit/517>
+        :created  "2011-08-05T15:11:30.000Z"^^xsd:dateTime ;
+        :creator  <http://resource.geolba.ac.at/user/ebnmar> .
+
+<http://resource.geolba.ac.at/GeologicUnit/909>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Valanginien-Mergel"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/306>
+        <http://www.w3.org/2004/02/skos/core#exactMatch>
+                <http://dbpedia.org/resource/Drumlin> .
+
+<http://resource.geolba.ac.at/GeologicUnit/64>
+        :hasVersion  "10"^^xsd:int ;
+        <http://www.w3.org/2004/02/skos/core#closeMatch>
+                <http://resource.geolba.ac.at/tectonicunit/245> .
+
+<http://resource.geolba.ac.at/GeologicUnit/885>
+        :references  <http://resource.geolba.ac.at/ref/590> .
+
+<http://resource.geolba.ac.at/GeologicUnit/282>
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "A moraine that was deposited at the front end of a glacier or ice sheet, occurring as a distinct ridge due to prolonged stagnation of the glacier resulting in an increase in the amount of material deposited (Hinze et al., 1989)."@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/463>
+        :hasVersion  "1"^^xsd:int ;
+        :references  <http://resource.geolba.ac.at/ref/590> .
+
+<http://resource.geolba.ac.at/GeologicUnit/644>
+        :references  <http://resource.geolba.ac.at/ref/478> .
+
+<http://resource.geolba.ac.at/GeologicUnit/559>
+        :references  <http://resource.geolba.ac.at/ref/590> .
+
+<http://resource.geolba.ac.at/GeologicUnit/433>
+        :description  "Fossils: Acritarchs (Priewalder, 1987), bivalves (Kriz, 1979 and 1999), brachiopods (Plodowski, 1971 and 1973), cephalopods (Ristedt, 1968; Bogolepova, 1998; Histon, 1999), chitinozoans (Priewalder, 1997), conodonts (Walliser, 1964; Schönlaub, 1979), echinoderms, foraminifers (Langer, 1969), graptolites (Jaeger, 1975), rugose corals (Pickett, 2007), scyphocrinitids (Ferretti et al., 1999: p. 60), trace fossils (Histon & Schönlaub, 1999), trilobites (Haas, 1969; Santel, 1999). ; Origin facies: Marine limestone, pelagic unit (Plöcken Facies).; Biostratigraphy: Latialatus and eosteinhornensis conodont zones (Walliser, 1964).; Thickness: 20 m.; (Piller et al., 2014)" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Validity: Invalid; first described by Frech (1887: p. 684, 701 and 706) as 'Zone des Orthoceras alticola'; well described by Gaertner (1931); biostratigraphic and sedimentological investigations were carried out by Walliser (1964) and Schönlaub (1985a); a summary on this unit is provided by Kreutzer (1992b) and later by Brett et al. (2009).; Chronostratigraphic age: Ludlow – Pridoli.; Lithology: Gray to red bedded orthocerid limestone with interbedded layers of coarse fossil debris yielding brachiopod valves. (Piller et al., 2014)"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/825>
+        :creator  <http://resource.geolba.ac.at/user/ebnmar> .
+
+<http://resource.geolba.ac.at/GeologicUnit/348>
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/346> ;
+        <http://www.w3.org/2004/02/skos/core#exactMatch>
+                <http://inspire.ec.europa.eu/codelist/NaturalObjectTypeValue/fen> .
+
+<http://resource.geolba.ac.at/GeologicUnit/222>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Teufelstein-Komplex"@de ;
+        <http://www.w3.org/2004/02/skos/core#scopeNote>
+                "Vorkommen auf GK50 Blatt 135 Birkfeld der Geologischen Bundesanstalt"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/529>
+        :creator  <http://resource.geolba.ac.at/user/ebnmar> .
+
+<http://resource.geolba.ac.at/GeologicUnit/590>
+        :created  "2011-08-05T12:40:03.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/76>
+        <http://www.w3.org/2004/02/skos/core#narrower>
+                <http://resource.geolba.ac.at/GeologicUnit/736> .
+
+<http://resource.geolba.ac.at/GeologicUnit/318>
+        :references  <http://resource.geolba.ac.at/ref/483> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Scarp niche"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/897>
+        :references  <http://resource.geolba.ac.at/ref/590> .
+
+<http://resource.geolba.ac.at/GeologicUnit/294>
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "A deposit formed on, or between blocks of dead ice of a retreating glacier, usually consisting of well-stratified sand and gravel (Hinze et al., 1989)."@en ;
+        <http://www.w3.org/2004/02/skos/core#related>
+                <http://resource.geolba.ac.at/GeologicUnit/287> , <http://resource.geolba.ac.at/GeologicUnit/288> .
+
+<http://resource.geolba.ac.at/GeologicUnit/107>
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "The granitoids of the 'Hochalm Kern' extend over a wide area on map sheets 155 (Bad Hofgastein), 156 (Muhr), 181 (Obervellach) and 182 (Spittal an der Drau).  Its exterior shape is protracted over this large, curved  area in a N-SSE direction. The boundary between the 'Hochalm Kern' and the Göss granitoids is on the northern edge of the 'Göss Kern' through the micaceous metamorphic zone of the Draxel Complex. However, this important marker horizon is missing for long stretches on the southern slopes of the 'Göss Kern.' The granitic gneisses of the 'Hochalm Kern' have intruded into large areas of the  Reisseck Complex rocks. Thus, on the southern edge of the 'Göss Kern,' the Reisseck Complex is defined as the fossil roof not only of the 'Göss Kern,' but also as that of the 'Hochalm Kern.' Here, the rock sequences of  the Reisseck Complex form a zone which separates the 'Göss Kern' from the 'Hochalm Kern' over long distances. The granitic gneisses of the 'Hochalm Kern,' together with the rocks of the Reisseck Complex, overlie the 'Göss Kern.' Lithologically, the 'Hochalm Kern' is comprised of numerous and varied granitic gneisses as well as granodioritic and tonalitic gneisses. Varieties of Zentralgneiss which are only slightly deformed and contain primary structures and textures are widespread in the central part of the 'Hochalm Kern,' in the Upper Malta Valley and between Hochalm Peak and the Grosselend Gap. Geochronological studies (zircon dating) yielded an intrusion age of 314 ± 7 million years for the tonalitic gneisses. Thus, the absolute age values of the older parts of the 'Hochalm Kern' granitoids are similar to those of the 'Göss Kern' granitoids. In addition to the tonalitic and granodioritic gneisses, augengneisses and  younger, fine-grained granitic gneisses are also typical of the 'Hochalm Kern' granitoids (adapted from Schuster et al., 2006)."@en , "Die Granitoide des Hochalmkerns erstrecken sich über einen weiten Bereich auf den Kartenblättern 155 Bad Hofgastein, 156 Muhr, 181 Obervellach und 182 Spittal a.d. Drau. Seine äußere Form ist über diesen großen Bereich bogenförmig in N–SSE-Richtung in die Länge gezogen. Die Abgrenzung des Hochalmkerns von den Gößgranitoiden erfolgt am Nordrand des Gößkerns durch den Glimmerschieferzug des Draxel-Komplexes. Dieser wichtige Leithorizont fehlt aber über weite Strecken an der Südabdachung des Gößkerns. Die Granitgneise des Hochalmkerns intrudierten großflächig in die Gesteine des Reißeck-Komplexes. Daher ist am Südrand des Gößkerns der Reißeck-Komplex nicht nur als Altes Dach des Gößkerns zu definieren, sondern auch als jenes des Hochalmkerns. Die Gesteinszüge des Reißeck-Komplexes bilden hier eine Zone, die über weite Strecken den Gößkern vom Hochalmkern trennt. Die Granitgneise des Hochalmkerns überlagern gemeinsam mit den Gesteinen des Reißeck-Komplexes den Gößkern. Lithologisch setzt sich der Hochalmkern aus zahlreichen unterschiedlichen Granitgneisen sowie aus dem Granodiorit- und Tonalitgneis zusammen. Nur geringfügig deformierte Zentralgneistypen mit primären Strukturen und Texturen sind im zentralen Teil des Hochalmkerns, im obersten Maltatal und zwischen der Hochalmspitze und der Großelendscharte weit verbreitet. Geochronologische Untersuchungen (Zirkondatierungen) erbrachten ein Intrusionsalter von 314±7 Millionen Jahren für die Tonalitgneise. Somit haben die älteren Teile der Granitoide des Hochalmkerns ähnliche absolute Alterswerte wie die Granitoide des Gößkerns. Zusätzlich zu den Tonalit- und Granodioritgneisen sind für die Granitoide des Hochalmkerns noch Augengneise und jüngere feinkörnige Granitgneise typisch (verändert nach Schuster et al., 2006)."@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/686>
+        :created  "2011-08-04T15:37:13.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/952>
+        :created  "2014-08-13T07:46:08.000Z"^^xsd:dateTime ;
+        :source   <http://palstrat.uni-graz.at/Stratigraphische_Tabelle_von_Oesterreich_2004.pdf> .
+
+<http://resource.geolba.ac.at/GeologicUnit/46>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "[Bajuvarikum]"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/475>
+        :hasVersion  "1"^^xsd:int ;
+        :references  <http://resource.geolba.ac.at/ref/590> ;
+        <http://www.w3.org/2004/02/skos/core#scopeNote>
+                "So far only described on the Polster (1910 m above sea level) SE from Eisenerz, map ÖK50 101 Eisenerz."@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/867>
+        :creator  <http://resource.geolba.ac.at/user/ebnmar> .
+
+<http://resource.geolba.ac.at/GeologicUnit/656>
+        :references  <http://resource.geolba.ac.at/ref/478> .
+
+<http://resource.geolba.ac.at/GeologicUnit/530>
+        :creator  <http://resource.geolba.ac.at/user/ebnmar> .
+
+<http://resource.geolba.ac.at/GeologicUnit/179>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Mehrnbach-Formation"@de ;
+        <http://www.w3.org/2004/02/skos/core#scopeNote>
+                "Ehemals Mehrnbacher Sande"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/445>
+        :creator  <http://resource.geolba.ac.at/user/ebnmar> .
+
+<http://resource.geolba.ac.at/GeologicUnit/711>
+        :source  <http://palstrat.uni-graz.at/Stratigraphische_Tabelle_von_Oesterreich_2004.pdf> .
+
+<http://resource.geolba.ac.at/GeologicUnit/234>
+        <http://www.w3.org/2004/02/skos/core#hiddenLabel>
+                "Hohewarte"@en , "Hohewarte"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/626>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Kapellener Schiefer"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/415>
+        :created  "2014-03-06T13:11:42.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/88>
+        :created     "2011-08-05T15:30:11.000Z"^^xsd:dateTime ;
+        :hasVersion  "15"^^xsd:int ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "[Vienna Basin]"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/204>
+        :source  <http://ngmdb.usgs.gov/Info/NACSN/Code2/code2.html> .
+
+<http://resource.geolba.ac.at/GeologicUnit/572>
+        :references  <http://resource.geolba.ac.at/ref/590> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Hahnkogel Formation"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/487>
+        :description  "Fossils: Brachiopods, conodonts, corals (rugose and tabulate), echinoderms, gastropods, ostracods, serpulids, sponge spicules.; Origin facies: Marine, neritic unit.; Biostratigraphy: Additionally to the conodont assemblage from Sulz (Schönlaub, 1984a), the eosteinhornensis? and woschmidti conodont zones are documented from a short interval of dolomite beds of the Baron von Kottwitz quarry (Suttner, 2009a).; Thickness: >275 m.; (Piller et al., 2014)" ;
+        :hasVersion   "1"^^xsd:int ;
+        :references   <http://resource.geolba.ac.at/ref/590> .
+
+<http://resource.geolba.ac.at/GeologicUnit/879>
+        :creator  <http://resource.geolba.ac.at/user/ebnmar> ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Keine Daten in LithstratDB (Piller et al., 2004)"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/668>
+        :references  <http://resource.geolba.ac.at/ref/478> .
+
+<http://resource.geolba.ac.at/GeologicUnit/542>
+        :creator  <http://resource.geolba.ac.at/user/ebnmar> .
+
+<http://resource.geolba.ac.at/GeologicUnit/28>
+        :hasVersion  "15"^^xsd:int ;
+        <http://www.w3.org/2004/02/skos/core#narrower>
+                <http://resource.geolba.ac.at/GeologicUnit/626> .
+
+<http://resource.geolba.ac.at/GeologicUnit/457>
+        :creator  <http://resource.geolba.ac.at/user/ebnmar> .
+
+<http://resource.geolba.ac.at/GeologicUnit/246>
+        :created  "2015-11-25T14:32:24.000Z"^^xsd:dateTime ;
+        <http://www.w3.org/2003/01/geo/wgs84_pos#lat>
+                "46.608333" .
+
+<http://resource.geolba.ac.at/GeologicUnit/512>
+        <http://dbpedia.org/ontology/colourHexCode>
+                "#B3B3FF" .
+
+<http://resource.geolba.ac.at/GeologicUnit/904>
+        :source  <http://palstrat.uni-graz.at/Stratigraphische_Tabelle_von_Oesterreich_2004.pdf> .
+
+<http://resource.geolba.ac.at/GeologicUnit/427>
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Gültigkeit: ungültig; Hinweis: Der Begriff 'Alpiner Verrucano' wurde eingeführt in Tollmann (1962). Tollmann (1972: S 83) definiert diese Einheit als grobe bis fein detritische schwach gebankte kontinentale permische Serien welche in einem ariden Klima am Anfang der alpinen Sedimentation abgelagert wurden; Chronostratigraphisches Alter: Perm.; Lithologie: Hauptsächlich rote, manchmal grün, grau oder braune grob- bis feinkörnige Konglomerate, Sandsteine und Vulkanoklasten.; (Piller et al., 2014)"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/880>
+        :description  "Alter (gesichert): Perm; Lithologie: Kalk; Lithologische Beschreibung: Alluviale Schuttfächersedimente (hpts. Breccien-Debris Flows - die überwiegend aus Trogkofelkalkgeröllen zusammengesetzt sind).; (Piller et al., 2004; Lithstrat, 2010)"@de ;
+        <http://www.w3.org/2004/02/skos/core#altLabel>
+                "Tarviser Breccie"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/608>
+        :creator  <http://resource.geolba.ac.at/user/ebnmar> .
+
+<http://resource.geolba.ac.at/GeologicUnit/216>
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/846> .
+
+<http://resource.geolba.ac.at/GeologicUnit/795>
+        :created  "2011-08-05T13:17:36.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/192>
+        <http://www.w3.org/2004/02/skos/core#narrower>
+                <http://resource.geolba.ac.at/GeologicUnit/193> .
+
+<http://resource.geolba.ac.at/GeologicUnit/584>
+        :references  <http://resource.geolba.ac.at/ref/590> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Hausruck Schotter"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/499>
+        :hasVersion  "1"^^xsd:int ;
+        :references  <http://resource.geolba.ac.at/ref/590> .
+
+<http://resource.geolba.ac.at/GeologicUnit/288>
+        <http://www.w3.org/2004/02/skos/core#related>
+                <http://resource.geolba.ac.at/GeologicUnit/294> .
+
+<http://resource.geolba.ac.at/GeologicUnit/162>
+        :creator      <http://resource.geolba.ac.at/user/schmar> ;
+        :description  "Type section: Not indicated.; Fossils: Badly preserved conodonts (Flajs, 1967b).; Origin facies: Basinal, pelagic facies.; Biostratigraphy: Some distinct morphological features of the genus Palmatolepis indicate lower Upper Devonian, the occurrrence of Ancyrodella Frasnian (Flajs, 1967a; Schönlaub, 1982a).; Thickness: 10 m (Schönlaub, 1982a).; (Piller et al., 2014)" .
+
+<http://resource.geolba.ac.at/GeologicUnit/554>
+        :creator  <http://resource.geolba.ac.at/user/ebnmar> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Grafenberg Formation"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/469>
+        :creator  <http://resource.geolba.ac.at/user/ebnmar> ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Typusgebiet: Zillingdorf-Neufeld; (Piller et al., 2004; LithstratDB)"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/735>
+        :source  <http://palstrat.uni-graz.at/Stratigraphische_Tabelle_von_Oesterreich_2004.pdf> .
+
+<http://resource.geolba.ac.at/GeologicUnit/916>
+        :source  <http://palstrat.uni-graz.at/Stratigraphische_Tabelle_von_Oesterreich_2004.pdf> .
+
+<http://resource.geolba.ac.at/GeologicUnit/439>
+        :created  "2014-03-06T13:12:13.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/892>
+        <http://www.w3.org/2004/02/skos/core#exactMatch>
+                <http://dbpedia.org/resource/Tristel_Formation> .
+
+<http://resource.geolba.ac.at/GeologicUnit/71>
+        :created  "2011-08-05T13:30:35.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/705>
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/20> .
+
+<http://resource.geolba.ac.at/GeologicUnit/228>
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Hauptvorkommen: Im Gebiet nahe Obstanser See, Pfannspitze (2.678 m), Kleiner Kinigat, Großer Kinigat (2.690 m), Eisenreich-Gipfel (2.665 m), Tscharrespitze-Gatterspitze (2.430 m), Passo Silvella (2.329 m). Lithologie: Der massive, gut gebankte Porphyr (bis zu ca. 670 m Mächtigkeit) beinhaltet Phänokristen von Quarz, Alkalifeldspat und Plagioklas, die in einer Matrix bestehend aus Chlorit, Serizit, Quarz und Albit eingebettet sind. Akzessorische Minerale sind Apatit, Zirkon, Turmalin, Biotit und Granat. Einige Aggregate von Quarz, Chlorit und Muskovit sind vermutlich noch Relikte aus älteren Lapilli oder kollabierten Bimssteinen. Der kristallreiche Porphyr ist sehr stark rekristallisiert und daher auch sehr schwierig einem bestimmten Typus zuzuordnen (Heinisch, 1981; Hubich & Loeschke, 1993; Meli, 1998). Chronostratigrafie: Ordovizium: Basierend auf der Datierung von Kristallisationsalter der Zirkone wurde von Hubich & Loeschke (1993) ein spätes Ordovizium vorgeschlagen. Zusätzliche Zirkondatierungen von sauren vulkanischen Gesteinen (z.B. entstanden durch die Extrusion von Lava und Pyroklastika) ergeben ein Isotopenalter von 463 +/- 6 Ma, 479 +/- 8 bzw. 485 +/- 8 Ma (Söllner et al., 1997; Meli & Klötzli, 2001). Diese Alter werden durch die radiometrischen Alter von den Porphyren aus der nördlichen Grauwackenzone, Ostalpen, bestätigt. Zirkon ICP-MS Datierungen von diesen Gesteinen ergeben zwei Alterscluster, 471–469 Ma und 465–464 Ma (Blatt, 2013). Die Porphyre sind aus dem mittleren Ordovizium bzw. aus der Darriwilium-Stufe. (Schönlaub & Heinisch, 2015)"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/596>
+        :created     "2011-08-05T10:55:25.000Z"^^xsd:dateTime ;
+        :references  <http://resource.geolba.ac.at/ref/590> .
+
+<http://resource.geolba.ac.at/GeologicUnit/470>
+        <http://www.w3.org/2003/01/geo/wgs84_pos#long>
+                "12.93555556" .
+
+<http://resource.geolba.ac.at/GeologicUnit/41>
+        a            <http://www.w3.org/2004/02/skos/core#Concept> ;
+        :hasVersion  "17"^^xsd:int ;
+        <http://www.w3.org/2004/02/skos/core#narrower>
+                <http://resource.geolba.ac.at/GeologicUnit/775> .
+
+<http://resource.geolba.ac.at/GeologicUnit/862>
+        :created  "2011-08-05T09:23:37.000Z"^^xsd:dateTime ;
+        <http://www.w3.org/2003/01/geo/wgs84_pos#lat>
+                "47.8726293629" .
+
+<http://resource.geolba.ac.at/GeologicUnit/385>
+        :created  "2011-08-05T15:56:48.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/777>
+        :created  "2011-08-05T09:47:01.000Z"^^xsd:dateTime ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Alter (gesichert): Norium - Sevatium; Lithologische Beschreibung: TOLLMANN 1976 S. 237: 'Beim Pötschenkalk handelt es sich um einen hellen, weißlichgrauen, bräunlichen oder grünlichen, dichten, Tonschlieren hältigen, welligschichtigen, auch innerhalb der Bänke noch schlierig-knollig struierten, mikritischen Hornsteinkalk, dessen Bänke durch schmale Tonmergellagen getrennt sind. Er kommt hauptsächlich in der Zlambachfazies in Verbindung mit Pedatakalken, und zwar deren Hangendteil vertretend, vor, oder er ersetzt in seltenen Fällen untergeordnet den norischen Hallstätter Kalk.'; Typusgebiet: Pötschenpaß; (Piller et al., 2004; LithstratDB)"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/651>
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Validity: Valid; first entry by Suess (1868: 'ungeschichteter, … lichtgrauer Kalkstein, welcher … an den Westhängen des Kollerberges … entblößt ist'); formalized by Flügel (2000: p. 25-26; Kollerkogel-Formation).; Chronostratigraphic age: Givetian - Frasnian.; Lithology: Grey dolomites with biolaminations, light bluish limestones (mostly mudstones), locally bioclastic limestones with chert nodules.; (Piller et al., 2014)"@en ;
+        <http://www.w3.org/2004/02/skos/core#notation>
+                "566" .
+
+<http://resource.geolba.ac.at/GeologicUnit/566>
+        :creator  <http://resource.geolba.ac.at/user/ebnmar> .
+
+<http://resource.geolba.ac.at/GeologicUnit/440>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Blasseneck Porphyroid"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/832>
+        <http://resource.geolba.ac.at/PoolParty/schema/GBA/DataViewer>
+                true .
+
+<http://resource.geolba.ac.at/GeologicUnit/747>
+        :source  <http://palstrat.uni-graz.at/Stratigraphische_Tabelle_von_Oesterreich_2004.pdf> .
+
+<http://resource.geolba.ac.at/GeologicUnit/621>
+        :creator  <http://resource.geolba.ac.at/user/ebnmar> .
+
+<http://resource.geolba.ac.at/GeologicUnit/928>
+        :source  <http://palstrat.uni-graz.at/Stratigraphische_Tabelle_von_Oesterreich_2004.pdf> .
+
+<http://resource.geolba.ac.at/GeologicUnit/83>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "[Lavantaler Becken]"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/506>
+        :references  <http://resource.geolba.ac.at/ref/900> .
+
+<http://resource.geolba.ac.at/GeologicUnit/693>
+        :references  <http://resource.geolba.ac.at/ref/770> .
+
+<http://resource.geolba.ac.at/GeologicUnit/482>
+        <http://www.w3.org/2004/02/skos/core#altLabel>
+                "Plengeserie"@de ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Dimon Formation"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/53>
+        a            <http://www.w3.org/2004/02/skos/core#Concept> ;
+        :hasVersion  "12"^^xsd:int ;
+        <http://www.w3.org/2004/02/skos/core#narrower>
+                <http://resource.geolba.ac.at/GeologicUnit/629> .
+
+<http://resource.geolba.ac.at/GeologicUnit/874>
+        :created  "2011-09-30T14:49:57.000Z"^^xsd:dateTime ;
+        <http://www.w3.org/2003/01/geo/wgs84_pos#lat>
+                "47.46361111" .
+
+<http://resource.geolba.ac.at/GeologicUnit/789>
+        <http://www.w3.org/2004/02/skos/core#altLabel>
+                "Rattendorfer-Gruppe"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/271>
+        :hasVersion  "9"^^xsd:int .
+
+<http://resource.geolba.ac.at/GeologicUnit/663>
+        :created  "2014-02-12T08:41:08.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/578>
+        :creator  <http://resource.geolba.ac.at/user/ebnmar> ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Typusgebiet: Raum Häring; (Piller et al., 2004; LithstratDB)"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/23>
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/190> .
+
+<http://resource.geolba.ac.at/GeologicUnit/759>
+        :source  <http://palstrat.uni-graz.at/Stratigraphische_Tabelle_von_Oesterreich_2004.pdf> .
+
+<http://resource.geolba.ac.at/GeologicUnit/241>
+        :references  <http://resource.geolba.ac.at/ref/981> .
+
+<http://resource.geolba.ac.at/GeologicUnit/633>
+        :creator  <http://resource.geolba.ac.at/user/ebnmar> .
+
+<http://resource.geolba.ac.at/GeologicUnit/548>
+        :created  "2011-08-04T15:36:49.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/814>
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/38> .
+
+<http://resource.geolba.ac.at/GeologicUnit/337>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Blockgletscherablagerung"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/95>
+        :title  "Lithodemic Units"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/790>
+        :created  "2011-08-05T16:13:16.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/603>
+        <http://resource.geolba.ac.at/PoolParty/schema/GBA/DataViewer>
+                true ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "The deposits derive from a fluvial system with gravelly and sandy river basin and flood sediments ('gravel-bed-river system'), that merges to delta deposits ('braid delta system') in the east of the opening in the Waschberg zone (Nehyba & Rötzel, 2004). This Upper Miocene river ('ancient Danube') used probably a valley which were previously established fluviatile in the middle Badenian and were subsequently marine flooded in the lower Sarmatian. With more than 100 m, the maximum sediment thickness of Hollabrunn Mistelbach Formation can be assumed in the western distribution areas, whereas approximately half has been proven through drilling (Moshammer et al., 1999). Towards east, the thickness decreases considerably in the area of Mistelbach. (Roetzel et al, 2009: 1-151)<br> Age (estimated): Sarmatian - Pannonian; (Piller et al., 2004; LithstratDB)"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/126>
+        :description  "Type section: Heritsch (1933b) and Winkler-Hermaden (1933) reported isolated outcrops in the western part of the Altenbachgraben (N 46°40'18'' / E 015°20'54'').; Origin facies: ?; Thickness: Unknown.; (Piller et al., 2014)" .
+
+<http://resource.geolba.ac.at/GeologicUnit/65>
+        a            <http://www.w3.org/2004/02/skos/core#Concept> ;
+        :hasVersion  "10"^^xsd:int ;
+        <http://www.w3.org/2004/02/skos/core#narrower>
+                <http://resource.geolba.ac.at/GeologicUnit/753> .
+
+<http://resource.geolba.ac.at/GeologicUnit/886>
+        :creator  <http://resource.geolba.ac.at/user/ebnmar> .
+
+<http://resource.geolba.ac.at/GeologicUnit/760>
+        :source  <http://palstrat.uni-graz.at/Stratigraphische_Tabelle_von_Oesterreich_2004.pdf> .
+
+<http://resource.geolba.ac.at/GeologicUnit/283>
+        :hasVersion  "6"^^xsd:int .
+
+<http://resource.geolba.ac.at/GeologicUnit/675>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Leckkogel Schichten"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/941>
+        :source  <http://palstrat.uni-graz.at/Stratigraphische_Tabelle_von_Oesterreich_2004.pdf> ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Gültigkeit: gültig; Erste Beschreibung in Gollner & Zier (1985: 'Zachenspitzformation'); Namensänderung in Zachenspitz-Formation in Flügel (2000: S 34).; Chronostratigraphisches Alter: Oberes Givetium bis (?)Frasnium.; Lithologie: Massige gebankte graublaue, häufig fossilienführende Kalke.; (Piller et al., 2014)"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/464>
+        <http://www.w3.org/2004/02/skos/core#altLabel>
+                "Inzersdorfer Schichten"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/35>
+        :created  "2011-08-05T09:31:11.000Z"^^xsd:dateTime ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/189> .
+
+<http://resource.geolba.ac.at/GeologicUnit>
+        a             <http://rdfs.org/ns/void#Dataset> ;
+        :date         "2019-08-02T06:42:36.963Z"^^xsd:dateTime ;
+        :description  "The theme Geological Units comprises various units and symbols which were formalised as points, linear or polygonal features on geological maps and covers lithostratigraphic units of the Austrian Stratigraphic Chart (Piller et al., 2004), lithogenetic, lithodemic units and geomorphologic units. Informal subdivisions of the ‚Stratigraphic Chart of Austria‘ - most of them are geographic names - are indicated by square brackets and must not be used for coding."@en , "Das Thema Geologische Einheiten umfasst verschiedene als Punkte, Linien oder Flächen dargestellte Einheiten und Signaturen auf geologischen Karten. Derzeit sind neben den lithostratigraphischen Einheiten der „Stratigraphischen Tabelle von Österreich' (Piller et al., 2004) ebenso lithogenetische, allostratigraphische und geomorphologische Einheiten, sowie lithodemische Einheiten erfasst. Die meist geographischen, informellen Gliederungseinheiten der „Stratigraphischen Tabelle von Österreich', wurden zusätzlich noch mit eckigen Klammern gekennzeichnet und sollten nicht zur Attributierung verwendet werden."@de ;
+        :language     "de" ;
+        :license      <https://creativecommons.org/licenses/by-sa/4.0/> ;
+        :publisher    <http://localhost/users/Geologische-Bundesanstalt> , <http://localhost/users/Geological-Survey-of-Austria> ;
+        :subject      "Geologische Einheiten auf Karten der Geologischen Bundesanstalt"@de , "Geologic Units from Maps of the Geological Survey of Austria"@en ;
+        :title        "Geologic Units"@en , "Geologische Einheiten"@de ;
+        <http://rdfs.org/ns/void#feature>
+                [ a           <http://rdfs.org/ns/void#TechnicalFeature> ;
+                  rdfs:label  "RDF/XML" ;
+                  :format     "application/rdf+xml"
+                ] ;
+        <http://rdfs.org/ns/void#sparqlEndpoint>
+                <http://resource.geolba.ac.at/PoolParty/sparql/GeologicUnit> ;
+        <http://rdfs.org/ns/void#vocabulary>
+                <http://www.w3.org/2004/02/skos/core#> ;
+        <http://www.semantic-web.at/ppcl/availablelanguages>
+                "en" , "de" .
+
+<http://resource.geolba.ac.at/GeologicUnit/253>
+        <http://www.w3.org/2004/02/skos/core#altLabel>
+                "Flussablagerung"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/645>
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/17> ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Validity: Valid; formal description by Heinisch et al. (1987). Note: spelling of the first description is Klingler Kar-Formation.; Chronostratigraphic age: Uppermost Silurian (Pridoli) – Lower Devonian (Zlichovian regional stage = lower Emsian; Heinisch et al., 1987). Lithology: Limestones, lydites, black schists with sulphide mineralization, green and violet tuffitic schists, pyroclastic breccias and basaltic pillow lavas.; (Piller et al., 2014)"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Klinglerkar Formation"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/911>
+        :references  <http://resource.geolba.ac.at/ref/590> .
+
+<http://resource.geolba.ac.at/GeologicUnit/826>
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/38> .
+
+<http://resource.geolba.ac.at/user/superadmin>
+        a       <http://schema.semantic-web.at/users/LocalUser> ;
+        <http://schema.semantic-web.at/users/hasRole>
+                <http://schema.semantic-web.at/roles/instance#PoolPartySuperAdmin> ;
+        <http://schema.semantic-web.at/users/username>
+                "superadmin" ;
+        <http://semantic-web.com/rdfmapper/checksum>
+                "nCNJ5TGVjJUYDY4iGkoUxmD5s7U=" .
+
+<http://resource.geolba.ac.at/GeologicUnit/404>
+        :creator  <http://resource.geolba.ac.at/user/ebnmar> ;
+        :source   <http://palstrat.uni-graz.at/Stratigraphische_Tabelle_von_Oesterreich_2004.pdf> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/35> .
+
+<http://resource.geolba.ac.at/GeologicUnit/591>
+        :creator      <http://resource.geolba.ac.at/user/ebnmar> ;
+        :description  "Alter (gesichert): Devon; Typusgebiet: Hochlantsch Gipfel; (Piller et al., 2004; Lithstrat, 2010)"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/319>
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "An extension fracture formed by the opening of joints, often either partially or completely mineralised (Martin & Eiblmaier, 2003)."@en ;
+        <http://www.w3.org/2004/02/skos/core#narrower>
+                <http://resource.geolba.ac.at/GeologicUnit/320> ;
+        <http://www.w3.org/2004/02/skos/core#related>
+                <http://resource.geolba.ac.at/GeologicUnit/318> .
+
+<http://resource.geolba.ac.at/GeologicUnit/77>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/74> .
+
+<http://resource.geolba.ac.at/GeologicUnit/898>
+        :creator  <http://resource.geolba.ac.at/user/ebnmar> .
+
+<historyEvent:df63282b-3893-4f94-889d-b47af27af121>
+        a       <http://schema.semantic-web.at/ppt/history#ProjectLinkingHistoryEvent> .
+
+<http://resource.geolba.ac.at/GeologicUnit/772>
+        :source  <http://palstrat.uni-graz.at/Stratigraphische_Tabelle_von_Oesterreich_2004.pdf> .
+
+<http://resource.geolba.ac.at/GeologicUnit/295>
+        <http://www.w3.org/2004/02/skos/core#narrower>
+                <http://resource.geolba.ac.at/GeologicUnit/301> , <http://resource.geolba.ac.at/GeologicUnit/305> .
+
+<http://resource.geolba.ac.at/GeologicUnit/953>
+        :source  <http://palstrat.uni-graz.at/Stratigraphische_Tabelle_von_Oesterreich_2004.pdf> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Zupfing-Formation"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/47>
+        :created  "2011-08-05T10:30:00.000Z"^^xsd:dateTime ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/189> .
+
+<http://resource.geolba.ac.at/GeologicUnit/742>
+        :created  "2011-08-05T10:45:10.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/657>
+        :creator  <http://resource.geolba.ac.at/user/ebnmar> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Kressenberg-Formation"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/923>
+        :references  <http://resource.geolba.ac.at/ref/590> .
+
+<http://resource.geolba.ac.at/GeologicUnit/446>
+        :created  "2011-08-05T13:45:05.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/17>
+        :created  "2011-08-04T13:10:57.000Z"^^xsd:dateTime ;
+        <http://www.w3.org/2004/02/skos/core#narrower>
+                <http://resource.geolba.ac.at/GeologicUnit/403> .
+
+<http://resource.geolba.ac.at/GeologicUnit/627>
+        <http://resource.geolba.ac.at/PoolParty/schema/GBA/DataViewer>
+                true .
+
+<http://resource.geolba.ac.at/GeologicUnit/501>
+        :description  "Keine Daten in LithstratDB (Piller et al., 2004)"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/416>
+        :creator  <http://resource.geolba.ac.at/user/ebnmar> ;
+        :source   <http://palstrat.uni-graz.at/Stratigraphische_Tabelle_von_Oesterreich_2004.pdf> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/35> .
+
+<http://resource.geolba.ac.at/GeologicUnit/808>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2003/01/geo/wgs84_pos#long>
+                "15.23972222" .
+
+<http://resource.geolba.ac.at/GeologicUnit/89>
+        a            <http://www.w3.org/2004/02/skos/core#Concept> ;
+        :hasVersion  "11"^^xsd:int ;
+        <http://www.w3.org/2004/02/skos/core#narrower>
+                <http://resource.geolba.ac.at/GeologicUnit/620> .
+
+<http://resource.geolba.ac.at/GeologicUnit/205>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Flow"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/392>
+        :references  <http://resource.geolba.ac.at/ref/478> .
+
+<http://resource.geolba.ac.at/GeologicUnit/784>
+        :source  <http://palstrat.uni-graz.at/Stratigraphische_Tabelle_von_Oesterreich_2004.pdf> .
+
+<http://resource.geolba.ac.at/GeologicUnit/699>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Michelstetten-Formation"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/181>
+        :references  <http://resource.geolba.ac.at/ref/385> .
+
+<http://resource.geolba.ac.at/GeologicUnit/488>
+        :created  "2011-08-04T13:56:18.000Z"^^xsd:dateTime ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Gültigkeit: ungültig; Nicht formalisierter Arbeitsbegriff.; Chronostratigraphisches Alter: Llandlovery und unteres Wenlock.; Lithologie: Stark regional variierende Vorkommen von silikatischem Dolomit, rotem gebankten silikatischen Kalkstein,  knolligem silikatischen Kalkstein, Flaserkalk, schwarzen mikritischen Kalksteinen, stromatholitisch-, onkolithischem Dolomit, biogenreichen allodapischen Kalken sowie manchmal Einschlüsse von sandigem und vulkanischem (tuffigem) Material.; (Piller et al., 2014)"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/59>
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/189> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "[Laaber Decke]"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/754>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Parmasegg­-Formation"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/669>
+        :created  "2011-08-05T10:40:08.000Z"^^xsd:dateTime ;
+        :creator  <http://resource.geolba.ac.at/user/ebnmar> .
+
+<http://resource.geolba.ac.at/GeologicUnit/935>
+        :references  <http://resource.geolba.ac.at/ref/590> .
+
+<http://resource.geolba.ac.at/GeologicUnit/332>
+        <http://www.w3.org/2004/02/skos/core#related>
+                <http://resource.geolba.ac.at/GeologicUnit/314> .
+
+<http://resource.geolba.ac.at/GeologicUnit/90>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> .
+
+<http://resource.geolba.ac.at/GeologicUnit/247>
+        :created  "2015-11-25T14:43:20.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/639>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Klammkalk"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/513>
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/31> .
+
+<http://resource.geolba.ac.at/GeologicUnit/905>
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Gültigkeit: ungültig; Der Kaindorfer Dolomit wurde erstmals begutachtet in Thurner (1935); im Detail beschrieben in Neubauer (1979).; Chronostratigraphisches Alter: Emsium bis Eifelium (Neubauer, 1979: S 477); Nicht nur Emsium wie erwähnt im ASC 2004.; Lithologie: Hellgelbliche, grau verwitterte laminierte Dolomite (Schichten 40 - 60 cm dick), karbonatische Phyllite, glimmerhaltiger Marmor.; (Piller et al., 2014)"@de ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Ursch Dolomite (Kaindorf Dolomite)"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/428>
+        :creator  <http://resource.geolba.ac.at/user/ebnmar> ;
+        :source   <http://palstrat.uni-graz.at/Stratigraphische_Tabelle_von_Oesterreich_2004.pdf> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/31> .
+
+<http://resource.geolba.ac.at/GeologicUnit/60>
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/189> .
+
+<http://resource.geolba.ac.at/GeologicUnit/796>
+        :source  <http://palstrat.uni-graz.at/Stratigraphische_Tabelle_von_Oesterreich_2004.pdf> .
+
+<http://resource.geolba.ac.at/GeologicUnit/670>
+        :created  "2011-08-05T14:58:49.000Z"^^xsd:dateTime ;
+        :creator  <http://resource.geolba.ac.at/user/ebnmar> .
+
+<http://resource.geolba.ac.at/GeologicUnit/193>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Dietersdorf Formation"@en ;
+        <http://www.w3.org/2004/02/skos/core#related>
+                <http://resource.geolba.ac.at/GeologicUnit/411> .
+
+<http://resource.geolba.ac.at/GeologicUnit/585>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Heigger Formation"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/30>
+        <http://www.w3.org/2004/02/skos/core#narrower>
+                <http://resource.geolba.ac.at/GeologicUnit/410> , <http://resource.geolba.ac.at/GeologicUnit/792> , <http://resource.geolba.ac.at/GeologicUnit/400> , <http://resource.geolba.ac.at/GeologicUnit/793> .
+
+<http://resource.geolba.ac.at/GeologicUnit/766>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Pitzenberg Gravel"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/640>
+        :created  "2011-08-04T16:42:33.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/163>
+        :description  "Fossils: Conodonts, dacryoconarides (in b); c) crinoids and stromatoporoids.; Origin facies: Pelagic environment; c) allodapic deposits.; Biostratigraphy: Based on conodonts.; Thickness: a) ~30 m; b) 200 – 250 m; c) 40 m.; (Piller et al., 2014)" ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Validity: Invalid, informal working term (Schönlaub, 1982a: 390-393).; Chronostratigraphic age: Lower Devonian: a) Lochkovian; b) Pragian – upper Emsian (middle Dalejeum).; Lithology: a) in basal parts subordinate thin platy black limestones; b) variegated flaser- and banded limestones and reddish calcareous schists; c) within (b) occasionally layers of grey organodetritic limestones; d) stocks of metasomatic siderite-ankerite mineralizations.; (Piller et al., 2014: 22)"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/555>
+        :created  "2011-08-05T10:09:21.000Z"^^xsd:dateTime ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Grafensteigkalk"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/947>
+        :references  <http://resource.geolba.ac.at/ref/590> .
+
+<http://resource.geolba.ac.at/GeologicUnit/821>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Schichten von Freistadt Kefermarkt"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/610>
+        <http://www.w3.org/2004/02/skos/core#altLabel>
+                "Fohnsdorfer Muschelkalk"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/259>
+        :created  "2011-06-06T14:30:11.000Z"^^xsd:dateTime .
+
+<historyEvent:dca5f159-90aa-4734-835f-2cb193100acd>
+        :creator  <http://resource.geolba.ac.at/user/horchr> .
+
+<http://resource.geolba.ac.at/GeologicUnit/314>
+        <http://www.w3.org/2004/02/skos/core#related>
+                <http://resource.geolba.ac.at/GeologicUnit/332> .
+
+<http://resource.geolba.ac.at/GeologicUnit/706>
+        :references  <http://resource.geolba.ac.at/ref/590> .
+
+<http://resource.geolba.ac.at/GeologicUnit/72>
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/189> .
+
+<http://resource.geolba.ac.at/GeologicUnit/893>
+        :created  "2014-03-05T14:16:38.000Z"^^xsd:dateTime ;
+        :creator  <http://resource.geolba.ac.at/user/doblor> .
+
+<http://resource.geolba.ac.at/GeologicUnit/229>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Creta di Collina Formation"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/103>
+        :hasVersion  "13"^^xsd:int .
+
+<http://resource.geolba.ac.at/GeologicUnit/682>
+        :creator  <http://resource.geolba.ac.at/user/ebnmar> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/17> .
+
+<http://resource.geolba.ac.at/GeologicUnit/42>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "[St. Veit/Ybbsitz Klippen zone, Arosa unit]"@en , "[St. Veiter/Ybbsitzer Klippenzone Arosa Einheit]"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/260>
+        :created  "2011-06-06T14:30:11.000Z"^^xsd:dateTime ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/119> .
+
+<http://resource.geolba.ac.at/GeologicUnit/652>
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Validity: Invalid; known since Frech (1887); facies described by Kreutzer (1990); name was introduced by Kreutzer (1992a: p. 271); included within the summary of the Variscan carbonate sequences in the Carnic Alps (Kreutzer, 1992b).; Chronostratigraphic age: Uppermost Frasnian – Famennian.; Lithology: Dark brachiopod-rich limestone (rhynchonellids) with sparry lithoclastic layers (Kreutzer, 1992b: p. 32).; (Piller et al., 2014)"@en ;
+        <http://www.w3.org/2004/02/skos/core#related>
+                <http://resource.geolba.ac.at/GeologicUnit/229> .
+
+<http://resource.geolba.ac.at/GeologicUnit/567>
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "The Grund Formation is predominated by strongly disturbed, marly, clayey silts with thin sand selvages containing characteristic foraminifera of the lower Badenian. Large intercalations of sand with characteristic, high diverse, mostly (synchronously) allochthonous molluscan fauna (cf. Roetzel et al. 1999a). More frequently, intercalations of corallinacea limestone are recognizable towards the upper part of the Grund Formation. Facies and lithology of lower Badenian sediments in the western part of the district Weinviertel, especially the Grund Formation and the Gaindorf Formation, must be seen in context to the filling of the same aged submarine delta sediments of the Hollenburg Karlstetten Formation and the deposition of the lower Badenian in the Kremser Bucht and Wachau. (Roetzel, 2003:3)"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/12>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/72> .
+
+<http://resource.geolba.ac.at/GeologicUnit/441>
+        :creator  <http://resource.geolba.ac.at/user/ebnmar> .
+
+<http://resource.geolba.ac.at/GeologicUnit/748>
+        :created  "2011-08-05T13:17:27.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/230>
+        :description  "Fossils: Cephalopods, conodonts, foraminifers, ostracods, tentaculites (dacryoconarids; Schönlaub et al., 2004: p. 53).; Origin facies: Marine limestone, pelagic unit (Pelagic Carbonate Facies).; Biostratigraphy: Serratus and kitabicus conodont zones (Pölsler, 1969b).; Thickness: 40 – 60 m.; (Piller et al., 2014)" .
+
+<http://resource.geolba.ac.at/GeologicUnit/622>
+        :created  "2011-08-05T11:04:16.000Z"^^xsd:dateTime ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/46> .
+
+<http://resource.geolba.ac.at/GeologicUnit/929>
+        <http://www.w3.org/2003/01/geo/wgs84_pos#long>
+                "13.82305556" .
+
+<http://resource.geolba.ac.at/GeologicUnit/411>
+        <http://resource.geolba.ac.at/PoolParty/schema/GBA/DataViewer>
+                true .
+
+<http://resource.geolba.ac.at/GeologicUnit/803>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> .
+
+<http://resource.geolba.ac.at/GeologicUnit/84>
+        :created  "2011-08-05T14:14:22.000Z"^^xsd:dateTime ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/188> .
+
+<http://resource.geolba.ac.at/GeologicUnit/718>
+        :references  <http://resource.geolba.ac.at/ref/590> .
+
+<http://resource.geolba.ac.at/GeologicUnit/200>
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Bei aufeinander folgenden Formationen können zwei oder mehrere Formationen auf Grund gemeinsamer  ithologischer Merkmale zu einer Gruppe zusammengefaßt werden. Das Typusprofil der Gruppe setzt sich aus den Typusprofilen der die Gruppe aufbauenden Formationen zusammen (Steininger und Piller, 1999; NACSN, 2005)."@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/115>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Anthropogenic deposit"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/694>
+        :creator  <http://resource.geolba.ac.at/user/ebnmar> .
+
+<http://resource.geolba.ac.at/GeologicUnit/507>
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Keine Daten in LithstratDB (Piller et al., 2004)"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/483>
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Keine Daten in LithstratDB (Piller et al., 2004)"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/54>
+        <http://www.w3.org/2004/02/skos/core#narrower>
+                <http://resource.geolba.ac.at/GeologicUnit/657> .
+
+<http://resource.geolba.ac.at/GeologicUnit/398>
+        <http://dbpedia.org/ontology/colourHexCode>
+                "#66CC33" .
+
+<http://resource.geolba.ac.at/GeologicUnit/272>
+        :created  "2011-06-06T14:30:11.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/187>
+        <http://www.w3.org/2004/02/skos/core#altLabel>
+                "Steinbrunn gravel terrace"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/579>
+        <http://www.w3.org/2003/01/geo/wgs84_pos#long>
+                "15.43611111" .
+
+<http://resource.geolba.ac.at/GeologicUnit/845>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> .
+
+<http://resource.geolba.ac.at/GeologicUnit/242>
+        :created  "2015-11-25T14:01:23.000Z"^^xsd:dateTime ;
+        :creator  <http://resource.geolba.ac.at/user/haivik> .
+
+<http://resource.geolba.ac.at/GeologicUnit/634>
+        :created  "2011-08-05T15:54:01.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/549>
+        :created  "2011-08-05T16:06:17.000Z"^^xsd:dateTime ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Gosau Group"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/900>
+        a         <http://www.w3.org/2004/02/skos/core#Concept> ;
+        :created  "2011-08-05T13:51:25.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/815>
+        a            <http://www.w3.org/2004/02/skos/core#Concept> ;
+        :references  <http://resource.geolba.ac.at/ref/478> , <http://resource.geolba.ac.at/ref/74> .
+
+<http://resource.geolba.ac.at/GeologicUnit/338>
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Ablagerung, die durch Einwirkung von Wind gebildet wurde (Neuendorf et al., 2005)."@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/791>
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Gültigkeit: ungültig; Bekannt seit Frech (1887); Zwei verschiedene Kalksteinfazien werden unterschieden, nämlich der neritische Rauchkofel-Kalk und der pelagische Rauchkofel-Kalk (Schönlaub, 1980b: Abb. 3; Schönlaub, 1985a: Abb. 10); Chronostratigraphisches Alter: Lochkovium bis Pragium; Lithologie: Dunkler Plattenkalk, lithoklastischer Kalk, dunkler Knollenkalk, Mega-Konglomerat Horizont (nur neritische Einheit), gut gebankte dunkelgraue Crinoidenkalke. (Piller et al., 2014)"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/604>
+        a            <http://www.w3.org/2004/02/skos/core#Concept> ;
+        :hasVersion  "1"^^xsd:int .
+
+<http://resource.geolba.ac.at/GeologicUnit/495>
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Keine Daten in LithstratDB (Piller et al., 2004)"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/66>
+        <http://www.w3.org/2004/02/skos/core#narrower>
+                <http://resource.geolba.ac.at/GeologicUnit/69> , <http://resource.geolba.ac.at/GeologicUnit/67> , <http://resource.geolba.ac.at/GeologicUnit/68> .
+
+<http://resource.geolba.ac.at/GeologicUnit/761>
+        :created  "2011-08-05T14:37:22.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/284>
+        :created  "2011-06-06T14:30:11.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/199>
+        :source  <http://www.stratigraphy.org/index.php/ics-stratigraphicguide> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>
+                <http://resource.geolba.ac.at/GeologicUnit/200> .
+
+<http://resource.geolba.ac.at/GeologicUnit/550>
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/35> .
+
+<http://resource.geolba.ac.at/GeologicUnit/465>
+        :source  <http://palstrat.uni-graz.at/Stratigraphische_Tabelle_von_Oesterreich_2004.pdf> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Cak conglomerate"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/857>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> .
+
+<http://resource.geolba.ac.at/GeologicUnit/254>
+        :created  "2011-06-06T14:30:11.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/user/Thesaurus-Redaktionsteam-thesaurusgeologie.ac.at>
+        a       <http://schema.semantic-web.at/users/LocalUser> ;
+        <http://schema.semantic-web.at/users/username>
+                "Thesaurus-Redaktionsteam; thesaurus@geologie.ac.at" ;
+        <http://semantic-web.com/rdfmapper/checksum>
+                "lHlnlQ1iqtaVJhIshoIFEp+Cosk=" .
+
+<http://resource.geolba.ac.at/GeologicUnit/646>
+        :creator  <http://resource.geolba.ac.at/user/horchr> .
+
+<http://resource.geolba.ac.at/GeologicUnit/912>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> .
+
+<http://resource.geolba.ac.at/GeologicUnit/435>
+        :created  "2011-08-05T12:31:57.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/827>
+        a            <http://www.w3.org/2004/02/skos/core#Concept> ;
+        :references  <http://resource.geolba.ac.at/ref/478> .
+
+<http://resource.geolba.ac.at/GeologicUnit/701>
+        :hasVersion  "1"^^xsd:int .
+
+<http://resource.geolba.ac.at/GeologicUnit/224>
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "The Waldbach Complex is a lithostratigraphic part of the Vorau Nappe and is illustrated in the geological map GK50 Blatt 135 Birkfeld. The major lithological part are mica-schists, hornblende gneisses and orthogneisses. A change of the degree of the metamorphism in the covering permo-mesozoic meta-sediments can be observed. This leads to the assumption that the metamorphism of the Waldbach Complex is a result of a pre-alpine event. Schuster R. & Ilickovic T. (2015)."@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/616>
+        a            <http://www.w3.org/2004/02/skos/core#Concept> ;
+        :hasVersion  "1"^^xsd:int .
+
+<http://resource.geolba.ac.at/GeologicUnit/592>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Hochmoos-Formation"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/984>
+        :references  <http://resource.geolba.ac.at/ref/590> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Hällritz-Formation"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/78>
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/74> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>
+                <http://resource.geolba.ac.at/GeologicUnit/665> , <http://resource.geolba.ac.at/GeologicUnit/671> , <http://resource.geolba.ac.at/GeologicUnit/527> .
+
+<http://resource.geolba.ac.at/GeologicUnit/899>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Untere Bunte Schiefer"@en , "Untere Bunte Schiefer"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/381>
+        :source  <http://palstrat.uni-graz.at/Stratigraphische_Tabelle_von_Oesterreich_2004.pdf> .
+
+<http://resource.geolba.ac.at/GeologicUnit/773>
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Gültigkeit: ungültig; Der Name 'Plotta-Formation' wurde eingeführt und beschrieben in Schönlaub et al. (1991); Chronostratigraphisches Alter: Tournaisium; Lithologie: Nicht durchgehende Silcretelagen (Kieselkrusten) bestehend aus schwach gebankte Brekzie oder massigem und laminiertem Hornstein (Schönlaub et al., 1991). (Piller et al., 2014)"@de ;
+        <http://www.w3.org/2004/02/skos/core#related>
+                <http://resource.geolba.ac.at/GeologicUnit/242> .
+
+<http://resource.geolba.ac.at/GeologicUnit/296>
+        :created  "2011-06-06T14:30:11.000Z"^^xsd:dateTime ;
+        <http://www.w3.org/2004/02/skos/core#narrower>
+                <http://resource.geolba.ac.at/GeologicUnit/300> .
+
+<http://resource.geolba.ac.at/GeologicUnit/109>
+        a         <http://www.w3.org/2004/02/skos/core#Concept> ;
+        :created  "2012-01-02T12:14:04.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/688>
+        :source  <http://palstrat.uni-graz.at/Stratigraphische_Tabelle_von_Oesterreich_2004.pdf> .
+
+<http://resource.geolba.ac.at/GeologicUnit/954>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Zweiersdorf-Formation"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/477>
+        :created  "2011-08-05T09:18:50.000Z"^^xsd:dateTime ;
+        :creator  <http://resource.geolba.ac.at/user/ebnmar> ;
+        :source   <http://palstrat.uni-graz.at/Stratigraphische_Tabelle_von_Oesterreich_2004.pdf> .
+
+<http://resource.geolba.ac.at/GeologicUnit/869>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> .
+
+<http://resource.geolba.ac.at/GeologicUnit/351>
+        :created  "2011-06-06T14:30:11.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/743>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Opponitzer Schichten"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/266>
+        :created  "2011-06-06T14:30:11.000Z"^^xsd:dateTime ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Schotter innerhalb einer fluviatilen Terrasse."@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/140>
+        :description  "Type section: Ancient quarry of Aich (Schönlaub, 1971c: Fig. 1, 2; p. 289) some hundred meters NNW of Treibach-Althofen (N 46°52'46'' / E 14°28'03'').; Fossils: Radiolarians.; Origin facies: Marine siliciclastis, pelagic unit.; Thickness: Approx. 15 m.; (Piller et al., 2014)" .
+
+<http://resource.geolba.ac.at/GeologicUnit/532>
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Keine Daten in LithstratDB (Piller et al., 2004)"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/924>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Weissenegg Formation"@en , "Weissenegg-Formation"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/18>
+        <http://www.w3.org/2004/02/skos/core#narrower>
+                <http://resource.geolba.ac.at/GeologicUnit/440> , <http://resource.geolba.ac.at/GeologicUnit/693> .
+
+<http://resource.geolba.ac.at/GeologicUnit/839>
+        a             <http://www.w3.org/2004/02/skos/core#Concept> ;
+        :description  "Fossils: Conodonts.; Origin facies: Pelagic marine deposits dominated by shales, siliceous shales, tuffs and volcanites; note wrong colour code in the ASC 2004.; Thickness: Few cm to 20 m (following Loeschke & Rolser, 1971).; (Piller et al., 2014)" ;
+        :references   <http://resource.geolba.ac.at/ref/478> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/26> .
+
+<http://resource.geolba.ac.at/GeologicUnit/713>
+        :hasVersion  "1"^^xsd:int ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Lower Cretaceous turbiditic limestone successions of the „Rhenodanubian Flyschzone“ formerly have been called Neokom-Flysch. (after Aberer & Braumüller, 1956)"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/236>
+        :created  "2015-11-25T08:22:47.000Z"^^xsd:dateTime ;
+        <http://www.w3.org/2004/02/skos/core#hiddenLabel>
+                "Kellerkrat"@en , "Kellerkrat"@de ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Kellergrat-Formation"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/628>
+        a            <http://www.w3.org/2004/02/skos/core#Concept> ;
+        :hasVersion  "1"^^xsd:int .
+
+<http://resource.geolba.ac.at/GeologicUnit/110>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "The Draxel Complex outcrops in the Draxelnock-Klampfererköpfl crest area and is located in the Hölltor-Hochalm-Göss Nappe. It consists of (garnet-) micaschists with alternating quartz and feldspar content. Typical of these metasediments are cyclical alternations between feldspar and quartz-rich micaschists with thicknesses on the order of decimetres and thin, dark, mica-dominated, garnet-bearing layers on the order of centimetres. Because of these alternations and locally observable gradations, these metasediments are presumed to correlate with Lower Carboniferous flysch formations. Aplitic injection occurs only sporadically in the metasedimentary rocks of the Draxel Complex. A Late Palaeozoic age is therefore assumed for its formation. There are also very rare occurrences of migmatites and amphibolites. The thickness of the (garnet-) micaschist is usually a few tens of meters. In certain areas, thin (on the order of centimetres to decimetres) layers of graphitic quartzite are intercalated. The primary components of the aggregate are consistently biotite, muscovite, quartz, albite and oligoclase or andesine (depending on the Alpine overprinting) and chlorite. Copious amounts of garnet porphyroblasts and some of epidote and graphite can be observed (adapted from Schuster et al., 2006)."@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/502>
+        a            <http://www.w3.org/2004/02/skos/core#Concept> ;
+        :references  <http://resource.geolba.ac.at/ref/590> .
+
+<http://resource.geolba.ac.at/GeologicUnit/870>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> .
+
+<http://resource.geolba.ac.at/GeologicUnit/206>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> .
+
+<http://resource.geolba.ac.at/GeologicUnit/393>
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/21> .
+
+<http://resource.geolba.ac.at/GeologicUnit/785>
+        :created  "2011-08-05T14:46:42.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/966>
+        :created  "2017-01-18T10:00:56.000Z"^^xsd:dateTime ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Die Sachrang-Subformation besteht aus bituminösen, schwärzlichgrauen bis dunkelbraunen, feinblättrigen Tonsteinen und Kalkmergeln und ist in unterschiedlichen Mächtigkeiten an mehreren Lokationen in den Kalkalpen aufgeschlossen (siehe EBLI, 1997). (aus Arbeitstagung 2011 der Geologischen Bundesanstalt: Neumeister et al., 2011: 128)   "@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/489>
+        :creator  <http://resource.geolba.ac.at/user/ebnmar> ;
+        :source   <http://palstrat.uni-graz.at/Stratigraphische_Tabelle_von_Oesterreich_2004.pdf> .
+
+<http://resource.geolba.ac.at/GeologicUnit/840>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/31> , <http://resource.geolba.ac.at/GeologicUnit/33> .
+
+<http://resource.geolba.ac.at/GeologicUnit/363>
+        :created  "2011-06-06T14:30:11.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/278>
+        :created  "2011-06-06T14:30:11.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/544>
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Keine Daten in LithstratDB (Piller et al., 2004)"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/936>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> .
+
+<http://resource.geolba.ac.at/user/doblor>
+        a       <http://schema.semantic-web.at/users/LocalUser> ;
+        <http://schema.semantic-web.at/users/username>
+                "doblor" ;
+        <http://semantic-web.com/rdfmapper/checksum>
+                "GwKSXsISoC0ucqsr9Y9LQaOzgqs=" .
+
+<http://resource.geolba.ac.at/GeologicUnit/333>
+        :hasVersion  "21"^^xsd:int ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Solifluktionssediment"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/725>
+        :hasVersion  "4"^^xsd:int ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Nötsch-Formation"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/122>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> .
+
+<http://resource.geolba.ac.at/GeologicUnit/490>
+        :creator  <http://resource.geolba.ac.at/user/ebnmar> ;
+        :source   <http://palstrat.uni-graz.at/Stratigraphische_Tabelle_von_Oesterreich_2004.pdf> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/21> .
+
+<http://resource.geolba.ac.at/GeologicUnit/882>
+        a         <http://www.w3.org/2004/02/skos/core#Concept> ;
+        :created  "2011-08-05T15:22:02.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/218>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> .
+
+<http://resource.geolba.ac.at/GeologicUnit/671>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Langenlois Terrace"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/586>
+        :created  "2011-08-05T09:46:48.000Z"^^xsd:dateTime ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/35> .
+
+<http://resource.geolba.ac.at/GeologicUnit/31>
+        <http://www.w3.org/2004/02/skos/core#narrower>
+                <http://resource.geolba.ac.at/GeologicUnit/428> .
+
+<http://resource.geolba.ac.at/GeologicUnit/852>
+        :created  "2011-08-05T13:42:11.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/375>
+        :created  "2011-06-06T14:30:11.000Z"^^xsd:dateTime ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Einbruch an der Erdoberfläche als Folge von Hohlraumbildungen im Untergrund, die überwiegend durch Lösungsvorgänge im Wasser entstanden (Martin & Eiblmaier, 2003)."@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/641>
+        a            <http://www.w3.org/2004/02/skos/core#Concept> ;
+        :hasVersion  "1"^^xsd:int .
+
+<http://resource.geolba.ac.at/GeologicUnit/adms/0.1/publisher/1>
+        a       :Agent ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Geological Survey of Austria"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/556>
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Keine Daten in LithstratDB (Piller et al., 2004)"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/948>
+        a         <http://www.w3.org/2004/02/skos/core#Concept> ;
+        :created  "2011-08-05T14:54:34.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/737>
+        :hasVersion  "1"^^xsd:int .
+
+<http://resource.geolba.ac.at/GeologicUnit/611>
+        :created     "2011-08-05T14:29:38.000Z"^^xsd:dateTime ;
+        :references  <http://resource.geolba.ac.at/ref/478> .
+
+<http://resource.geolba.ac.at/GeologicUnit/526>
+        a            <http://www.w3.org/2004/02/skos/core#Concept> ;
+        :references  <http://resource.geolba.ac.at/ref/590> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/63> .
+
+<http://resource.geolba.ac.at/GeologicUnit/918>
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Validity: Valid; first denomination and formalization by Schönlaub (1985: p. 46). Note that Schönlaub & Forke (2005: p. 17) renamed the formation in Colendiaul Formation.; Chronostratigraphic age: Since direct fossil evidence is missing, the age can only be inferred from conodonts and fusulinids occurring in the overlying beds. They indicate an equivalent of the lower Kasimovian Stage (Forke & Samankassou, 2000; Schönlaub & Forke, 2007). At locality Tomritsch in the basal deposits also plants of Cantabrian age occur suggesting an overall late Moscovian to early Kasimvovian age for the formation of the Waidegg Formation (Collendiaul Formation).; Lithology: Up to 20 m thick lydite breccias and conglomerates which are clast-supported in the lower and matrix-supported in the upper part.; (Piller et al., 2014)"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/707>
+        :references  <http://resource.geolba.ac.at/ref/900> ;
+        <http://www.w3.org/2003/01/geo/wgs84_pos#long>
+                "14.45083333" .
+
+<http://resource.geolba.ac.at/GeologicUnit/315>
+        :hasVersion  "6"^^xsd:int .
+
+<http://resource.geolba.ac.at/GeologicUnit/894>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Tyrnaueralm Formation"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/104>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Woisken Komplex"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/291>
+        :created  "2011-06-06T14:30:11.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/683>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Losenstein-Formation"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/472>
+        :references  <http://resource.geolba.ac.at/ref/900> ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Gültigkeit: ungültig; Diese Einheit wurde in Schmidt (1930) als 'Pfannspitzstreifen' bezeichnet; Detaillierte Beschreibung  in Hubich & Loeschke (1993).; Chronostratigraphisches Alter: Basierend auf Zirkonkristallen wird Ordovizium in Hubich & Loeschke (1993: S 366) vorgeschlagen.; Lithologie:  Porphyr mit häufig dünnen Zwischenlagen aus Phyllitschiefern. Nach Heinisch (1981) und Hubich & Loeschke (1993) umfasst der Comelico-Porphyroid pyroklastische Strom-Ablagerungen (Ignimbrite) mit rhyodazitischer und dazitischer Zusammensetzung.; (Piller et al,. 2014)"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/864>
+        :references  <http://resource.geolba.ac.at/ref/478> .
+
+<http://resource.geolba.ac.at/GeologicUnit/387>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Arzberg Limestone"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/779>
+        :created  "2011-08-05T15:21:19.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/261>
+        :creator  <http://resource.geolba.ac.at/user/ebnmar> .
+
+<http://resource.geolba.ac.at/GeologicUnit/653>
+        a            <http://www.w3.org/2004/02/skos/core#Concept> ;
+        :hasVersion  "2"^^xsd:int .
+
+<http://resource.geolba.ac.at/GeologicUnit/176>
+        :creator  <http://resource.geolba.ac.at/user/horchr> .
+
+<http://resource.geolba.ac.at/GeologicUnit/749>
+        :hasVersion  "1"^^xsd:int .
+
+<http://resource.geolba.ac.at/GeologicUnit/231>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Fleons Formation"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/623>
+        :created     "2014-03-05T13:32:23.000Z"^^xsd:dateTime ;
+        :references  <http://resource.geolba.ac.at/ref/474> ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Gültigkeit: ungültig; Lithologisch gut beschriebene Einheit (Daurer & Schönlaub, 1978: 82-87, Loescke et al., 1990: 348-351) unsicheren Alters  und tektonischer Positionierung. Die Einheit wurde von Daurer & Schönlaub (1978: 82-87) an die Basis der Norischen Decke gestellt - nach Neubauer et al. (1994: 67-68) handelt es sich um einen Teil der Kaintaleck-Vöstenhof-Decke; Chronostratigraphisches Alter: Ordovizium oder post-devonisch. Letzteres ist abhängig von der Genauigkeit der Korrelation zwischen dem Kalwang-Konglomerat und dem Konglomerat am Frauenberg (Neubauer, 1985: 46-60; Neubauer et al., 1994: 67-68).; Lithologie: Grünschiefer (Metatuffe, Chlorit-Aktinolith-Epidot Schiefer), Konglomerat mit Komponenten (quarzreiche Metagranitoide sowie Albit-Granitgneise und Quarz) in Grünschiefer oder quarzreicher, sandiger Matrix,  glimmerführender Marmor (Piller et al., 2014: 16-17)."@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/538>
+        :references  <http://resource.geolba.ac.at/ref/1004> ;
+        <http://www.w3.org/2003/01/geo/wgs84_pos#long>
+                "14.9275" .
+
+<http://resource.geolba.ac.at/GeologicUnit/804>
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/80> .
+
+<http://resource.geolba.ac.at/GeologicUnit/327>
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/295> .
+
+<http://resource.geolba.ac.at/GeologicUnit/719>
+        :hasVersion  "18"^^xsd:int ;
+        <http://resource.geolba.ac.at/PoolParty/schema/GBA/DataViewer>
+                true ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/87> ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Die Ablagerungen der Niederterrasse (Penck & Brückner, 1909) bestehen aus schwach geschichteten groben, sandführenden Kiesen. Sie entstanden durch fluviale Akkumulation eines verzweigten Flussnetzes (braided river system) und sind in mehr oder weniger allen vergletscherten und nicht vergletscherten Tälern verbreitet. Die Zusammensetzung der Kiese spiegelt die Lithologie der jeweiligen Einzugsgebiete wider. Die Ablagerungen der Niederterrasse werden mit der Marinen Isotopenstufe (MIS) 2 und 3 und daher mit dem mittleren und späten Würm korreliert. (Van Husen & Reitner, 2011)."@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/116>
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/295> .
+
+<http://resource.geolba.ac.at/GeologicUnit/508>
+        <http://www.w3.org/2003/01/geo/wgs84_pos#lat>
+                "47.42611111" .
+
+<http://resource.geolba.ac.at/GeologicUnit/adms/0.1/publisher>
+        a       :Agent ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Geologische Bundesanstalt"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/55>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "[Penninikum (Flyschzone)]"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/484>
+        :created  "2011-08-05T14:43:10.000Z"^^xsd:dateTime ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Age (estimated): Eocene; (Piller et al., 2004; LithstratDB)"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/876>
+        :references  <http://resource.geolba.ac.at/ref/478> ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Typusgebiet: Raum Fürstenfeld-Fehring; (Piller et al., 2004; LithstratDB)"@de ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Taborer Schotter"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/750>
+        :hasVersion  "1"^^xsd:int .
+
+<http://resource.geolba.ac.at/GeologicUnit/273>
+        :creator  <http://resource.geolba.ac.at/user/ebnmar> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/267> .
+
+<http://resource.geolba.ac.at/GeologicUnit/665>
+        a            <http://www.w3.org/2004/02/skos/core#Concept> ;
+        :hasVersion  "1"^^xsd:int .
+
+<http://resource.geolba.ac.at/GeologicUnit/188>
+        <http://www.w3.org/2004/02/skos/core#narrower>
+                <http://resource.geolba.ac.at/GeologicUnit/444> .
+
+<http://resource.geolba.ac.at/GeologicUnit/931>
+        :created     "2011-08-05T09:23:55.000Z"^^xsd:dateTime ;
+        :hasVersion  "1"^^xsd:int ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Age (verified): Ladinian- Cordevolian; Lithology: Limestone; Type Area: Wetterstein Mountains; (Piller et al., 2004; LithstratDB)"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Wettersteinkalk"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/369>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Debris flow deposits"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/243>
+        a         <http://www.w3.org/2004/02/skos/core#Concept> ;
+        :created  "2015-11-25T14:13:43.000Z"^^xsd:dateTime ;
+        <http://www.w3.org/2003/01/geo/wgs84_pos#long>
+                "12.981111" .
+
+<http://resource.geolba.ac.at/GeologicUnit/816>
+        :description  "Type section: No type section was explicitely nominated. The formation was described due to the situation in the Schattberg area (Mittlerer Schattberg: N 47°21'47'' / E 12°37'38''; öK50-UTM, map sheet 3220 Mittersill, öK50-BMN, map sheet 123 Zell am See).; Origin facies: Basinal siliciclastic proximal turbidite facies in which the coarse grained intercalations are channel deposits of submarine fans (Heinisch et al, 1988).; Thickness: > 450 m.; (Piller et al., 2014)" ;
+        :references   <http://resource.geolba.ac.at/ref/900> .
+
+<http://resource.geolba.ac.at/GeologicUnit/97>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Gaugen-Komplex"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/605>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Holzer-Formation"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/213>
+        <http://resource.geolba.ac.at/PoolParty/schema/GBA/DataViewer>
+                true ;
+        <http://www.w3.org/2004/02/skos/core#narrower>
+                <http://resource.geolba.ac.at/GeologicUnit/143> .
+
+<http://resource.geolba.ac.at/GeologicUnit/792>
+        :created     "2011-08-04T17:17:03.000Z"^^xsd:dateTime ;
+        :references  <http://resource.geolba.ac.at/ref/590> ;
+        <http://www.w3.org/2004/02/skos/core#scopeNote>
+                "MILLER, H. 1965 S. 189f. Einen guten Überblick über die historische Entwicklung des Begriffes gibt KUBANEK 1969, S. 5ff."@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/581>
+        :creator  <http://resource.geolba.ac.at/user/doblor> .
+
+<http://resource.geolba.ac.at/GeologicUnit/973>
+        a         <http://www.w3.org/2004/02/skos/core#Concept> ;
+        :created  "2017-02-23T07:26:24.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/67>
+        <http://www.w3.org/2004/02/skos/core#narrower>
+                <http://resource.geolba.ac.at/GeologicUnit/552> .
+
+<http://resource.geolba.ac.at/GeologicUnit/496>
+        :created  "2011-08-05T14:43:47.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/888>
+        :references  <http://resource.geolba.ac.at/ref/478> ;
+        <http://www.w3.org/2004/02/skos/core#notation>
+                "975" ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Treßdorfer Kalk"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/762>
+        :hasVersion  "1"^^xsd:int ;
+        :references  <http://resource.geolba.ac.at/ref/529> .
+
+<http://resource.geolba.ac.at/GeologicUnit/285>
+        :creator  <http://resource.geolba.ac.at/user/ebnmar> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/277> .
+
+<http://resource.geolba.ac.at/GeologicUnit/677>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Lithologie: Kalk; Lithologische Beschreibung: Kalk; ; (Piller et al., 2004; LithstratDB)"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/551>
+        :references  <http://resource.geolba.ac.at/ref/590> .
+
+<http://resource.geolba.ac.at/GeologicUnit/943>
+        :hasVersion  "1"^^xsd:int .
+
+<http://resource.geolba.ac.at/GeologicUnit/858>
+        <http://www.w3.org/2004/02/skos/core#scopeNote>
+                "THALHAMMER (1982) unterschied einen Liegend-Anteil und einen Hangend-Anteil, vergleichbar z. T. der Hackensteiner Formation. Ersterer wird hier als Schattleitner Member, Letzterer als Aibel Member bezeichnet. Die Formation überlagert an ihrem Ostrand tektonisch die Hochschlag-Formation und wird von der Dornerkogel-Formation überlagert."@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/340>
+        :hasVersion  "7"^^xsd:int .
+
+<http://resource.geolba.ac.at/GeologicUnit/255>
+        :created  "2011-06-06T14:30:11.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/647>
+        :references  <http://resource.geolba.ac.at/ref/478> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/81> .
+
+<http://resource.geolba.ac.at/GeologicUnit/436>
+        :created  "2011-08-05T11:42:32.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/828>
+        :references  <http://resource.geolba.ac.at/ref/900> ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Gültigkeit: gültig; Erste Beschreibung in Clar (1874: 'Schöcklkalk'); Formalisiert in Flügel (2000: S 42; Schöckelkalk-Formation; Namensänderung nach Schöckel-Formation in Ebner et al. (2001).; Chronostratigraphisches Alter: Vermutlich Eifelium bis Givetium.; Lithologie: Blau weiße, hauptsächlich gut gebankte gebänderte Kalke (Piller et al., 2014)."@de ;
+        <http://www.w3.org/2004/02/skos/core#notation>
+                "617" .
+
+<http://resource.geolba.ac.at/GeologicUnit/702>
+        :hasVersion  "5"^^xsd:int .
+
+<http://resource.geolba.ac.at/GeologicUnit/225>
+        <http://www.w3.org/2004/02/skos/core#hiddenLabel>
+                "Aldikola"@en , "Aldikola"@de , "Altikola"@en , "Altikola"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/617>
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/190> .
+
+<http://resource.geolba.ac.at/GeologicUnit/406>
+        :references  <http://resource.geolba.ac.at/ref/900> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/20> .
+
+<http://resource.geolba.ac.at/user/Thesaurus-Editorial-Team-thesaurusgeologie.ac.at>
+        a       <http://schema.semantic-web.at/users/LocalUser> ;
+        <http://schema.semantic-web.at/users/username>
+                "Thesaurus Editorial Team; thesaurus@geologie.ac.at" ;
+        <http://semantic-web.com/rdfmapper/checksum>
+                "saTzbrXW2UXMCbAZlPOZ+L4uoCc=" .
+
+<http://resource.geolba.ac.at/GeologicUnit/985>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Gültigkeit: gültig. Hinweis: Die Piesenkopf-Formation wird von der dickbankigen Kalkgraben-Formation überlagert. Der beste Aufschluss dazu befindet sich im Röthenbachtal (Halblech, Deutschland) auf einer Höhe von 970 m. Chronostratigraphisches Alter: Untercampanium (Zone CC18) und reicht bis ins obere Mittelcampanium (Zone CC21). Lithologie: Sedimentzyklen aus Kalk-, Kalkmergel- und Tonsteinen. Typisch für die Kalkgraben-Formation sind bis zu 2 m mächtige Lagen von hellgrauen, plattig brechenden Kalkmergeln („Zementmergel“), die in den Turbiditen den Abschnitt d der Bouma-Abfolge repräsentieren. Gegen das Liegende gehen die Kalkmergellagen in mikritische Kalkbänke über, die an ihrer Basis oft noch Silt- bis Feinsandkomponenten erkennen lassen. (Egger & Schwerd, 2008)"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/79>
+        <http://www.w3.org/2004/02/skos/core#narrower>
+                <http://resource.geolba.ac.at/GeologicUnit/94> .
+
+<http://resource.geolba.ac.at/GeologicUnit/382>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Aptychenkalk"@en , "Aptychenkalk"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/774>
+        :hasVersion  "1"^^xsd:int ;
+        <http://www.w3.org/2003/01/geo/wgs84_pos#long>
+                "15.01527778" .
+
+<http://resource.geolba.ac.at/GeologicUnit/297>
+        :creator  <http://resource.geolba.ac.at/user/ebnmar> .
+
+<http://resource.geolba.ac.at/GeologicUnit/689>
+        a         <http://www.w3.org/2004/02/skos/core#Concept> ;
+        :created  "2011-08-05T13:11:23.000Z"^^xsd:dateTime ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Keine Daten in LithstratDB (Piller et al., 2004)"@de ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Malmurainza-Abfolge"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/171>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Hausruck-Formation"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/563>
+        :references  <http://resource.geolba.ac.at/ref/590> ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Validity: Invalid; first denomination as 'Grenzlandbänke' by Heritsch et al. (1934: p. 178).; Chronostratigraphic age: Originally correlated to the middle Asselian, the Grenzland Fm. seems to represent the entire Asselian plus part of the Sakmarian (Forke, 2002).; Lithology: Clastic marine sequence characterized by oncolithic limestone intercalations containing large (0.5 - 1 cm) spherical fusulinids. Quartz conglomerates are less common and comparably thinner than in the Auernig Group.; (Piller et al., 2014)"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/955>
+        :hasVersion  "1"^^xsd:int .
+
+<http://resource.geolba.ac.at/GeologicUnit/352>
+        :hasVersion  "7"^^xsd:int ;
+        <http://resource.geolba.ac.at/PoolParty/schema/GBA/DataViewer>
+                true .
+
+<http://resource.geolba.ac.at/GeologicUnit/267>
+        :created  "2011-06-06T14:30:11.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/659>
+        a         <http://www.w3.org/2004/02/skos/core#Concept> ;
+        :created  "2011-08-05T13:45:22.000Z"^^xsd:dateTime ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/71> .
+
+<http://resource.geolba.ac.at/GeologicUnit/141>
+        <http://xmlns.com/foaf/0.1/depiction>
+                <http://www.geologie.ac.at/images/thesaurus/riffkalk.jpg> .
+
+<http://resource.geolba.ac.at/GeologicUnit/925>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Weisswasser Formation"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/80>
+        <http://www.w3.org/2004/02/skos/core#narrower>
+                <http://resource.geolba.ac.at/GeologicUnit/685> , <http://resource.geolba.ac.at/GeologicUnit/420> .
+
+<http://resource.geolba.ac.at/GeologicUnit/322>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Bergsturzwall"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/714>
+        :created     "2011-08-05T13:11:29.000Z"^^xsd:dateTime ;
+        :hasVersion  "1"^^xsd:int .
+
+<http://resource.geolba.ac.at/GeologicUnit/237>
+        <http://www.w3.org/2003/01/geo/wgs84_pos#lat>
+                "46.607806" .
+
+<http://resource.geolba.ac.at/GeologicUnit/690>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> .
+
+<http://resource.geolba.ac.at/GeologicUnit/503>
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/46> .
+
+<http://resource.geolba.ac.at/GeologicUnit/418>
+        :references  <http://resource.geolba.ac.at/ref/478> ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Alter (gesichert): Cordevolium; Alter (vermutet): Ladinium; Typusgebiet: südlich von Abfaltersbach; (Piller et al., 2004; LithstratDB)"@de ;
+        <http://www.w3.org/2004/02/skos/core#notation>
+                "2935" .
+
+<http://resource.geolba.ac.at/GeologicUnit/786>
+        :hasVersion  "1"^^xsd:int .
+
+<http://resource.geolba.ac.at/GeologicUnit/660>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/81> .
+
+<http://resource.geolba.ac.at/GeologicUnit/183>
+        :created  "2014-02-20T12:53:28.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/575>
+        :references  <http://resource.geolba.ac.at/ref/590> .
+
+<http://resource.geolba.ac.at/GeologicUnit/967>
+        :contributor  <http://resource.geolba.ac.at/user/horchr> .
+
+<http://resource.geolba.ac.at/GeologicUnit/20>
+        :created  "2011-08-04T15:27:45.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/841>
+        :references  <http://resource.geolba.ac.at/ref/900> .
+
+<http://resource.geolba.ac.at/GeologicUnit/364>
+        :hasVersion  "6"^^xsd:int ;
+        <http://resource.geolba.ac.at/PoolParty/schema/GBA/DataViewer>
+                true ;
+        <http://www.w3.org/2004/02/skos/core#related>
+                <http://resource.geolba.ac.at/GeologicUnit/363> .
+
+<http://resource.geolba.ac.at/GeologicUnit/756>
+        :created  "2011-08-05T16:16:08.000Z"^^xsd:dateTime ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Parndorfer Terrasse"@de , "Parndorf Terrace"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/279>
+        :created  "2011-06-06T14:30:11.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/630>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Kehr-Formation"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/937>
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Der Formationsname geht aus den Wolfpassinger Schichten (Stur, 1894) hervor und fasst Lithologien zusammen, die wegen ihrer geringen Mächtigkeit, Ausdehnung, tektonischen Zerstückelung und der schlechten Aufschlussverhältnisse nicht im Einzelnen abzugrenzen sind. Es ist eine Abfolge von kalkigen und siliziklastischen Flyschgesteinen, die mit den vergleichbaren Vorkommen der Flyschzone bei Wien große Übereinstimmung zeigen und dort vom Barremium bis ins Albium, möglicherweise auch bis ins Cenomanium reichen (Grün et al., 1972). (Schnabel et. al, 2013:272)"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/334>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Periglacial block field"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/726>
+        :hasVersion  "1"^^xsd:int .
+
+<http://resource.geolba.ac.at/GeologicUnit/249>
+        <http://www.w3.org/2004/02/skos/core#altLabel>
+                "Uggwaserie"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/600>
+        :creator  <http://resource.geolba.ac.at/user/schmar> ;
+        <http://www.w3.org/2004/02/skos/core#notation>
+                "1899" .
+
+<http://resource.geolba.ac.at/GeologicUnit/515>
+        :references  <http://resource.geolba.ac.at/ref/900> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Fleons Greywacke"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/491>
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/52> .
+
+<http://resource.geolba.ac.at/GeologicUnit/883>
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Graue, graugrüne, selten rote, dünnbankige Kieselkalke und plattige Kieselmergel mit zahlreichen Radiolarien. Neben Radiolariten sind klastische, aus dem kalkalpinen Untergrund stammende karbonatische Lagen eingeschaltet. Diese bestehen aus laminierten Silt- und Feinsandlagen und gradierten Brekzien (Turbidite) oder aus Grobbrekzienbänken mit bis zu 0,5 m großen Komponenten (Olisthostrome) (Schlager & Schlager, 1970: 3ff., Schlager & Schlager, 1973: 69ff.). Im Dünnschliff: Radiolarien führende Biomikrite – Wackestones bis Packestones. Chronostratigraphie: an der Basis - oberstes Oxfordium bis unteres Kimmeridgium. Top - tektonisch begrenzt, Kimmeridgium/Tithonium? Maximale Mächtigkeit beträgt ca. 30 bis 40 m. (Bryda et al., 2013: 86)"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/280>
+        :created  "2011-06-06T14:30:11.000Z"^^xsd:dateTime ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Lateral moraine"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/672>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> .
+
+<http://resource.geolba.ac.at/GeologicUnit/587>
+        :references  <http://resource.geolba.ac.at/ref/590> .
+
+<http://resource.geolba.ac.at/GeologicUnit/461>
+        :created  "2011-08-05T12:37:56.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/853>
+        <http://resource.geolba.ac.at/PoolParty/schema/GBA/DataViewer>
+                true .
+
+<http://resource.geolba.ac.at/GeologicUnit/376>
+        a            <http://www.w3.org/2004/02/skos/core#Concept> ;
+        :hasVersion  "9"^^xsd:int .
+
+<http://resource.geolba.ac.at/GeologicUnit/768>
+        <http://resource.geolba.ac.at/PoolParty/schema/GBA/DataViewer>
+                true ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/48> , <http://resource.geolba.ac.at/GeologicUnit/47> .
+
+<http://resource.geolba.ac.at/GeologicUnit/250>
+        <http://www.w3.org/2003/01/geo/wgs84_pos#lat>
+                "46.613611" .
+
+<http://resource.geolba.ac.at/GeologicUnit/557>
+        :created  "2011-08-05T15:23:42.000Z"^^xsd:dateTime ;
+        <http://www.w3.org/2004/02/skos/core#altLabel>
+                "Granitztaler Schichten (Blockschutt, Schotter)"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/949>
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/80> .
+
+<http://resource.geolba.ac.at/GeologicUnit/431>
+        :references  <http://resource.geolba.ac.at/ref/478> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Älterer Schlier"@de , "Older Clay Marl"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/823>
+        :created  "2011-08-05T15:21:26.000Z"^^xsd:dateTime ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Alter (gesichert): Pannonium; Typusgebiet: Friedberg-Pinkafelder Becken (E-Steirisches Becken); (Piller et al., 2004; LithstratDB)"@de ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Loipersdorf/Unterlamm Beds"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/346>
+        <http://www.w3.org/2004/02/skos/core#narrower>
+                <http://resource.geolba.ac.at/GeologicUnit/122> , <http://resource.geolba.ac.at/GeologicUnit/123> .
+
+<http://resource.geolba.ac.at/GeologicUnit/738>
+        :hasVersion  "1"^^xsd:int .
+
+<http://resource.geolba.ac.at/GeologicUnit/612>
+        :created  "2011-08-05T14:44:11.000Z"^^xsd:dateTime ;
+        <http://www.w3.org/2004/02/skos/core#narrower>
+                <http://resource.geolba.ac.at/GeologicUnit/179> , <http://resource.geolba.ac.at/GeologicUnit/180> , <http://resource.geolba.ac.at/GeologicUnit/181> , <http://resource.geolba.ac.at/GeologicUnit/182> , <http://resource.geolba.ac.at/GeologicUnit/184> , <http://resource.geolba.ac.at/GeologicUnit/183> , <http://resource.geolba.ac.at/GeologicUnit/185> , <http://resource.geolba.ac.at/GeologicUnit/177> , <http://resource.geolba.ac.at/GeologicUnit/178> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Innviertel-Gruppe"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/316>
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "A geological feature formed by a mass movement (Neuendorf et al., 2005)."@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/980>
+        :created  "2017-02-23T07:27:35.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/74>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "[Alpine Vortiefe]"@de .
+
+<http://resource.geolba.ac.at/user/haivik>
+        a       <http://schema.semantic-web.at/users/LocalUser> ;
+        <http://schema.semantic-web.at/users/username>
+                "haivik" ;
+        <http://semantic-web.com/rdfmapper/checksum>
+                "+4rf35mbelqQt7HBt4aB1CUgAyA=" .
+
+<http://resource.geolba.ac.at/user/Thesaurus-Redaktionsteamthesaurusgeologie.ac.at>
+        a       <http://schema.semantic-web.at/users/LocalUser> ;
+        <http://schema.semantic-web.at/users/username>
+                "Thesaurus-Redaktionsteam:thesaurus@geologie.ac.at" ;
+        <http://semantic-web.com/rdfmapper/checksum>
+                "Hv+xeMUD00+XLX3I5Blae7OrDqg=" .
+
+<http://resource.geolba.ac.at/GeologicUnit/292>
+        :created  "2011-06-06T14:30:11.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/684>
+        a            <http://www.w3.org/2004/02/skos/core#Concept> ;
+        :references  <http://resource.geolba.ac.at/ref/478> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/28> ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Alter (gesichert): Julium; Lithologische Beschreibung: TOLLMANN 1976 S. 147: Der Lunzer Sandstein besteht in der Hauptmasse aus feinkörnigem, grauem, braun verwitterndem Quarzsandstein und zeigt in reich entwickelten Profilen dieser Faziesregion eine Dreigliederung in den Lunzer Hauptsandstein im Liegenden, in die steinkohlenführenden Lunzer Schiefertone im Mittelabschnitt und in den nur mäßig mächtigen Lunzer Hangendsandstein im Oberteil.; ; (Piller et al., 2004; LithstratDB)"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/44>
+        <http://www.w3.org/2004/02/skos/core#narrower>
+                <http://resource.geolba.ac.at/GeologicUnit/457> , <http://resource.geolba.ac.at/GeologicUnit/456> , <http://resource.geolba.ac.at/GeologicUnit/465> , <http://resource.geolba.ac.at/GeologicUnit/596> , <http://resource.geolba.ac.at/GeologicUnit/595> .
+
+<http://resource.geolba.ac.at/GeologicUnit/865>
+        <http://www.w3.org/2003/01/geo/wgs84_pos#long>
+                "14.46638889" .
+
+<http://resource.geolba.ac.at/GeologicUnit/388>
+        a            <http://www.w3.org/2004/02/skos/core#Concept> ;
+        :creator     <http://resource.geolba.ac.at/user/doblor> ;
+        :hasVersion  "2"^^xsd:int ;
+        <http://www.w3.org/2003/01/geo/wgs84_pos#long>
+                "13.11722222" ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Auernig Group"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/177>
+        :created  "2014-02-18T09:11:51.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/14>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> .
+
+<http://resource.geolba.ac.at/GeologicUnit/443>
+        :references  <http://resource.geolba.ac.at/ref/478> , <http://resource.geolba.ac.at/ref/900> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/25> ;
+        <http://www.w3.org/2004/02/skos/core#notation>
+                "1925" .
+
+<http://resource.geolba.ac.at/GeologicUnit/358>
+        <http://www.w3.org/2004/02/skos/core#narrower>
+                <http://resource.geolba.ac.at/GeologicUnit/118> .
+
+<http://resource.geolba.ac.at/user/Geological-Survey-of-Austria>
+        a       <http://schema.semantic-web.at/users/LocalUser> ;
+        <http://schema.semantic-web.at/users/username>
+                "Geological Survey of Austria" ;
+        <http://semantic-web.com/rdfmapper/checksum>
+                "x4K81HzZK8JtkCA4RDpTae5pDzA=" .
+
+<http://resource.geolba.ac.at/GeologicUnit/624>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Kambühel Formation"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/413>
+        :created  "2011-08-04T17:08:00.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/805>
+        :created  "2011-08-04T15:38:24.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/86>
+        <http://www.w3.org/2004/02/skos/core#narrower>
+                <http://resource.geolba.ac.at/GeologicUnit/800> , <http://resource.geolba.ac.at/GeologicUnit/938> .
+
+<http://resource.geolba.ac.at/GeologicUnit/328>
+        <http://www.w3.org/2004/02/skos/core#related>
+                <http://resource.geolba.ac.at/GeologicUnit/264> .
+
+<http://resource.geolba.ac.at/GeologicUnit/509>
+        :hasVersion  "1"^^xsd:int .
+
+<http://resource.geolba.ac.at/GeologicUnit/117>
+        :created  "2012-01-10T13:19:35.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/696>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/22> .
+
+<http://resource.geolba.ac.at/GeologicUnit/570>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Hackensteiner Formation"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/962>
+        :created  "2016-02-02T08:01:47.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/56>
+        :source  <http://palstrat.uni-graz.at/Stratigraphische_Tabelle_von_Oesterreich_2004.pdf> .
+
+<http://resource.geolba.ac.at/GeologicUnit/877>
+        :created  "2011-08-05T13:22:18.000Z"^^xsd:dateTime ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/60> .
+
+<http://resource.geolba.ac.at/GeologicUnit/751>
+        :created  "2011-08-05T15:21:05.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/666>
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/190> .
+
+<http://resource.geolba.ac.at/GeologicUnit/540>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Glaukonit-Sandstein"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/189>
+        <http://www.w3.org/2004/02/skos/core#narrower>
+                <http://resource.geolba.ac.at/GeologicUnit/33> , <http://resource.geolba.ac.at/GeologicUnit/31> , <http://resource.geolba.ac.at/GeologicUnit/30> , <http://resource.geolba.ac.at/GeologicUnit/37> , <http://resource.geolba.ac.at/GeologicUnit/36> , <http://resource.geolba.ac.at/GeologicUnit/35> , <http://resource.geolba.ac.at/GeologicUnit/28> , <http://resource.geolba.ac.at/GeologicUnit/27> , <http://resource.geolba.ac.at/GeologicUnit/26> .
+
+<http://resource.geolba.ac.at/GeologicUnit/26>
+        <http://www.w3.org/2004/02/skos/core#narrower>
+                <http://resource.geolba.ac.at/GeologicUnit/839> , <http://resource.geolba.ac.at/GeologicUnit/841> , <http://resource.geolba.ac.at/GeologicUnit/825> .
+
+<http://resource.geolba.ac.at/GeologicUnit/847>
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Typusgebiet: Sievering; (Piller et al., 2004; LithstratDB)"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/721>
+        :created  "2011-08-04T15:37:50.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/636>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Kirchbach Limestone"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/244>
+        :created  "2015-11-25T14:20:28.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/user/ebnmar>
+        a       <http://schema.semantic-web.at/users/LocalUser> ;
+        <http://schema.semantic-web.at/users/username>
+                "ebnmar" ;
+        <http://semantic-web.com/rdfmapper/checksum>
+                "1EpBxtOKzIYv93XRFUN7bZ2lpkQ=" .
+
+<http://resource.geolba.ac.at/GeologicUnit/510>
+        :hasVersion  "1"^^xsd:int .
+
+<http://resource.geolba.ac.at/user/horchr>
+        a       <http://schema.semantic-web.at/users/LocalUser> ;
+        <http://schema.semantic-web.at/users/username>
+                "horchr" ;
+        <http://semantic-web.com/rdfmapper/checksum>
+                "/P7A1SLPTqPTjA2lbRGJfem92Vg=" .
+
+<http://resource.geolba.ac.at/GeologicUnit/902>
+        <http://www.w3.org/2004/02/skos/core#altLabel>
+                "Unterer Pseudoschwagerinenkalk"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/425>
+        :created  "2011-08-05T10:59:59.000Z"^^xsd:dateTime ;
+        <http://resource.geolba.ac.at/PoolParty/schema/GBA/GBA_Status>
+                1 .
+
+<http://resource.geolba.ac.at/GeologicUnit/817>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Schattloch Phyllites"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/98>
+        :references  <http://resource.geolba.ac.at/ref/798> .
+
+<http://resource.geolba.ac.at/GeologicUnit/793>
+        :references  <http://resource.geolba.ac.at/ref/1001> ;
+        <http://resource.geolba.ac.at/PoolParty/schema/GBA/DataViewer>
+                true .
+
+<http://resource.geolba.ac.at/GeologicUnit/190>
+        <http://www.w3.org/2004/02/skos/core#narrower>
+                <http://resource.geolba.ac.at/GeologicUnit/25> .
+
+<http://resource.geolba.ac.at/GeologicUnit/68>
+        :source  <http://palstrat.uni-graz.at/Stratigraphische_Tabelle_von_Oesterreich_2004.pdf> ;
+        <http://www.w3.org/2004/02/skos/core#narrower>
+                <http://resource.geolba.ac.at/GeologicUnit/453> .
+
+<http://resource.geolba.ac.at/GeologicUnit/497>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Eggenburg Group"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/889>
+        :created  "2011-08-05T11:09:48.000Z"^^xsd:dateTime ;
+        <http://resource.geolba.ac.at/PoolParty/schema/GBA/DataViewer>
+                true .
+
+<http://resource.geolba.ac.at/GeologicUnit/678>
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/189> .
+
+<http://resource.geolba.ac.at/GeologicUnit/160>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Orthoceratid Limestone (E-GWZ)"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/552>
+        :created  "2011-08-05T13:45:10.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/467>
+        :references  <http://resource.geolba.ac.at/ref/478> .
+
+<http://resource.geolba.ac.at/GeologicUnit/38>
+        <http://www.w3.org/2004/02/skos/core#narrower>
+                <http://resource.geolba.ac.at/GeologicUnit/826> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "[Southern Alps]"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/859>
+        :created  "2011-08-05T14:59:16.000Z"^^xsd:dateTime ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Alter (gesichert): Kiscellium - Eggenburgium; Lithologie: Grobsand; Lithologische Beschreibung: Wechsellagerung von bunten, schlecht sortierten, feldspat- und pelitreichen, fossilarmen Grobsanden, Schotter und Silten. Stellenweise treten Lignitflötze auf.; Typusgebiet: Horner Becken; (Piller et al., 2004; LithstratDB)"@de ;
+        <http://www.w3.org/2004/02/skos/core#notation>
+                "1013" .
+
+<http://resource.geolba.ac.at/GeologicUnit/341>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Cover sand"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/256>
+        <http://www.w3.org/2004/02/skos/core#related>
+                <http://resource.geolba.ac.at/GeologicUnit/259> , <http://resource.geolba.ac.at/GeologicUnit/258> .
+
+<http://resource.geolba.ac.at/GeologicUnit/130>
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Gültigkeit: ungültig; Nicht formalisierter informeller Arbeitsbegriff.; Chronostratigraphisches Alter: unterstes Silur.; Lithologie: Schiefer mit Geröllen, Lyditen und basische Vulkaniten. Die Sequenz beginnt mit 'fining upward' Konglomeraten, welche übergehen in einen feinsandigen Horizont, gefolgt von Konglomeraten. Die 'porphyroidische' Matrix der tieferen Lagen in der Sequenz wechselt nach oben hin in eine tonig-sandige. Nach oben hin verringert sich auch die Anzahl an porphyroidischen Geröllen. (Mostler, 1968).; (Piller et al., 2014)"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/890>
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Validity: Valid; first nomination by Rumpf (1874), formal description by Ratschbacher (1984: 428).; Chronostratigraphic age: Uppermost Visean – Serpukhovian.; Lithology: Bedded, partly fossiliferous limestone marbles with metapelitic and rare metapsammitic/psephitic intercalations. Locally lenses of pure limestone marbles of greater thickness (Ratschbacher, 1984: 428).; (Piller et al., 2014: 28)."@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/311>
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/310> ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "A ridge or hill parallel to the ice-flow direction that is made up of material from a lateral moraine (BWG  2003)."@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Seitenmoränenwall"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/703>
+        :references  <http://resource.geolba.ac.at/ref/590> .
+
+<http://resource.geolba.ac.at/GeologicUnit/226>
+        <http://www.w3.org/2004/02/skos/core#related>
+                <http://resource.geolba.ac.at/GeologicUnit/399> .
+
+<http://resource.geolba.ac.at/GeologicUnit/618>
+        <http://dbpedia.org/ontology/colourHexCode>
+                "#99994C" .
+
+<http://resource.geolba.ac.at/GeologicUnit/407>
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Typusgebiet: E-Steirisches Becken; (Piller et al., 2004; LithstratDB)"@de ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Limnetic Series"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/986>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Piesenkopf Formation"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/383>
+        :references  <http://resource.geolba.ac.at/ref/590> .
+
+<http://resource.geolba.ac.at/GeologicUnit/298>
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/296> .
+
+<http://resource.geolba.ac.at/GeologicUnit/564>
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/41> , <http://resource.geolba.ac.at/GeologicUnit/42> , <http://resource.geolba.ac.at/GeologicUnit/40> .
+
+<http://resource.geolba.ac.at/GeologicUnit/479>
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/86> .
+
+<http://resource.geolba.ac.at/GeologicUnit/745>
+        :creator  <http://resource.geolba.ac.at/user/schmar> .
+
+<http://resource.geolba.ac.at/GeologicUnit/142>
+        a             <http://www.w3.org/2004/02/skos/core#Concept> ;
+        :description  "Fossils: Brachiopods, chitinozoans, conodonts, crinoids, trilobites.; Origin facies: Marine limestone, pelagic unit.; Biostratigraphy: Staurognathoides and celloni conodont zones (Moshammer, 1989: p. 625).; Thickness: Approx. 15 m.; (Piller et al., 2014)" .
+
+<http://resource.geolba.ac.at/GeologicUnit/800>
+        :references  <http://resource.geolba.ac.at/ref/590> .
+
+<http://resource.geolba.ac.at/GeologicUnit/81>
+        :source  <http://palstrat.uni-graz.at/Stratigraphische_Tabelle_von_Oesterreich_2004.pdf> .
+
+<http://resource.geolba.ac.at/GeologicUnit/715>
+        :references  <http://resource.geolba.ac.at/ref/590> .
+
+<http://resource.geolba.ac.at/GeologicUnit/238>
+        :description  "[en]: Depositional environment: The carbonate clasts and nodules of the Kirchbach Formation derived from a shelf area indicating different shallow water platform settings. This platform, however, has totally been reworked. The occurrences of allochthonous bioclasts of packstone, wackestone, rudstone, floatstone, ooids and peloids in a micritic matrix indicate the transport of material from different high-energy shallow-water environments by submarine slides, turbidity currents or down-slope mass movements into a deep marine realm. In conclusion, they may represent fan deposits. Fossil content: Brachiopods, bryozoans, calcareous algae, cephalopods, fragments of crinoids and echinoids, conodonts, small foraminifers, heterocorals, microproblematica, molluscs, ostracods, plant remains, trilobites. Boundaries: Underlying units – Hochwipfel Formation (unconformable contact); Overlying units – Hochwipfel Formation (unconformable contact); Lateral units – Hochwipfel Formation. (Schönlaub et al., 2015c)" .
+
+<http://resource.geolba.ac.at/GeologicUnit/419>
+        :created  "2011-08-05T15:05:30.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/51>
+        :created  "2011-08-05T11:24:24.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/395>
+        <http://www.w3.org/2004/02/skos/core#notation>
+                "1191" .
+
+<http://resource.geolba.ac.at/GeologicUnit/184>
+        :created  "2014-02-20T14:46:44.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/968>
+        <http://www.w3.org/2004/02/skos/core#topConceptOf>
+                <http://resource.geolba.ac.at/GeologicUnit/967> .
+
+<http://resource.geolba.ac.at/GeologicUnit/21>
+        <http://www.w3.org/2004/02/skos/core#narrower>
+                <http://resource.geolba.ac.at/GeologicUnit/490> .
+
+<http://resource.geolba.ac.at/GeologicUnit/631>
+        :hasVersion  "3"^^xsd:int ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Kellergrat-Riffkalk"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/420>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Aderklaa-Formation"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/812>
+        :references  <http://resource.geolba.ac.at/ref/590> ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Age (estimated): Eggenburgian - Ottnangian; (Piller et al., 2004; LithstratDB)"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/93>
+        :created  "2011-08-05T16:03:19.000Z"^^xsd:dateTime ;
+        :source   <http://palstrat.uni-graz.at/Stratigraphische_Tabelle_von_Oesterreich_2004.pdf> .
+
+<http://resource.geolba.ac.at/GeologicUnit/727>
+        :references  <http://resource.geolba.ac.at/ref/590> .
+
+<http://resource.geolba.ac.at/GeologicUnit/601>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Hohenauer Wiese Formation"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/516>
+        :created  "2011-08-05T14:36:44.000Z"^^xsd:dateTime ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/75> .
+
+<http://resource.geolba.ac.at/GeologicUnit/908>
+        :created  "2011-08-05T12:34:29.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/63>
+        :created  "2011-08-05T12:56:56.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/588>
+        :references  <http://resource.geolba.ac.at/ref/900> .
+
+<http://resource.geolba.ac.at/GeologicUnit/33>
+        :created  "2011-08-04T17:42:31.000Z"^^xsd:dateTime ;
+        :source   <http://palstrat.uni-graz.at/Stratigraphische_Tabelle_von_Oesterreich_2004.pdf> .
+
+<http://resource.geolba.ac.at/GeologicUnit/854>
+        :created  "2011-08-04T13:57:08.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/377>
+        :created  "2011-06-07T13:23:40.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/769>
+        <http://www.w3.org/2004/02/skos/core#scopeNote>
+                "In typischer Ausbildung kommt der Plattenkalk nach AMMON's Ansicht (1879, S. 47) in der Umgebung von Garmisch-Partenkirchen  vor. Er publiziert auch ein Profil N von Garmisch an der Straße die nach Farchant und Murnau führt und sich von der sogenannten Sensenschmiede bis zur Schwaige erstreckt und durch fünf Steinbrüche aufgeschlossen war. Als große Rarität beschreibt LEUCHS (1927) einen Plesiolepidotus dorsalis aus dem Plattenkalk am Nordostfuße des Pendling bei Kufstein."@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/251>
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/25> .
+
+<http://resource.geolba.ac.at/GeologicUnit/643>
+        :hasVersion  "1"^^xsd:int .
+
+<http://resource.geolba.ac.at/GeologicUnit/166>
+        :references  <http://resource.geolba.ac.at/ref/900> .
+
+<http://resource.geolba.ac.at/GeologicUnit/432>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Althofen Limestone Breccia"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/824>
+        :references  <http://resource.geolba.ac.at/ref/590> .
+
+<http://resource.geolba.ac.at/GeologicUnit/347>
+        <http://www.w3.org/2004/02/skos/core#altLabel>
+                "Sumpfboden"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/739>
+        :references  <http://resource.geolba.ac.at/ref/590> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Olching Formation"@en .
+
+<http://resource.geolba.ac.at/user/Thesaurus-Editorial-Teamthesaurusgeologie.ac.at>
+        a       <http://schema.semantic-web.at/users/LocalUser> ;
+        <http://schema.semantic-web.at/users/username>
+                "Thesaurus Editorial Team:thesaurus@geologie.ac.at" ;
+        <http://semantic-web.com/rdfmapper/checksum>
+                "G0bsc8rxWjKrtY5PqvrXci3CtkE=" .
+
+<http://resource.geolba.ac.at/GeologicUnit/136>
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Gültigkeit: ungültig; Erste Erwähnung in Lipold (1856b) und Teller (1898); Später beschrieben in Kollmann (1938) und Kupsch et al. (1971); Biostratigraphie in Schulze (1968).; Chronostratigraphisches Alter: Tournasium.; Lithologie: grauer laminierter Kalk (rötlich braun verwittert), grauer spatiger Kalk.; (Piller et al., 2014)"@de ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Limestones"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/528>
+        :created  "2014-02-12T09:37:01.000Z"^^xsd:dateTime ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Gültigkeit: ungültig; Einige Bereiche am Gamskofel wurden bereits in Bandel (1972) vermessen; Fazies des Gamskofel-Kalkes wurde verzeichnet in Schönlaub (1985a: S 43); Gut beschrieben in Kreutzer (1990, 1992a); Die Einheit wurde später aufgenommen in die Zusammenfassung der Variszischen Karbonatsequenzen in den Karnischen Alpen (Kreutzer, 1992b: S 26-27); Chronostratigraphisches Alter: Pragium bis Givetium(?); Lithologie: Algenlaminit mit Amphiporenkalk und Loferitschichten. (Piller et al., 2014) "@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/402>
+        :references  <http://resource.geolba.ac.at/ref/590> .
+
+<http://resource.geolba.ac.at/GeologicUnit/709>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Mühldorf Beds"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/896>
+        :hasVersion  "2"^^xsd:int ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Validity: Invalid; already mentioned by Stache (1884) as Knollenkalk; first described by Gaertner (1931); further observed by Vai (1971) and Schönlaub (1971a, 1979, 1985a); later included within the summary of the Variscan carbonate sequences in the Carnic Alps (Kreutzer 1992b); Chronostratigraphic age: Upper Ordovician (Katian); Lithology: Gray to colored flaser limestone with bioclastic debris layers (Kreutzer, 1992b). (Piller et al., 2014)"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/770>
+        :description  "Fossils: Brachiopods, conodonts, crinoids, orthocerids, ostracods, tentaculites, trilobites.; Origin facies: Marine limestone, pelagic unit.; Biostratigraphy: Eosteinhornensis, woschmidti, delta, and pesavis conodont zones (Schulze, 1968; Tessensohn, 1974b; Moshammer, 1989).; Thickness: Approx. 40 m.; (Piller et al., 2014)" .
+
+<http://resource.geolba.ac.at/GeologicUnit/106>
+        :hasVersion  "10"^^xsd:int .
+
+<http://resource.geolba.ac.at/GeologicUnit/adms/0.1>
+        a            <http://www.w3.org/ns/adms#SemanticAsset> ;
+        :created     "2019-08-02T06:42:36.963Z"^^xsd:dateTime ;
+        :identifier  <urn:uuid:1E14B16C-BD28-0001-8DF2-3B49BD301BB3> , <urn:uuid:1E148C7A-9756-0001-B03C-EE107CF9F650> ;
+        :license     <https://creativecommons.org/licenses/by-sa/4.0/> ;
+        :modified    "2019-04-02T08:00:22.000Z"^^xsd:dateTime , "2019-07-11T06:21:43.692Z"^^xsd:dateTime , "2019-11-04T15:20:05.001Z"^^xsd:dateTime ;
+        :title       "Geologic Units"@en , "Geologische Einheiten"@de ;
+        <http://www.w3.org/ns/adms#metadataPublisher>
+                <http://resource.geolba.ac.at/GeologicUnit/adms/0.1/publisher/1> , <http://resource.geolba.ac.at/GeologicUnit/adms/0.1/publisher> ;
+        <http://www.w3.org/ns/rad#keyword>
+                "Geologische Einheiten auf Karten der Geologischen Bundesanstalt"@de , "Geologic Units from Maps of the Geological Survey of Austria"@en ;
+        <http://www.w3.org/ns/rad#version>
+                "0.1"^^xsd:double , 1.0E-1 ;
+        <http://xmlns.com/foaf/0.1/homepage>
+                <http://resource.geolba.ac.at/PoolParty/wiki/GeologicUnit> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Geological Survey of Austria"@en , "Geologische Bundesanstalt"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/45>
+        :source  <http://palstrat.uni-graz.at/Stratigraphische_Tabelle_von_Oesterreich_2004.pdf> .
+
+<http://resource.geolba.ac.at/GeologicUnit/866>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Steinalm-Formation"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/740>
+        :references  <http://resource.geolba.ac.at/ref/590> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Ollersbach Conglomerate"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/178>
+        :references  <http://resource.geolba.ac.at/ref/902> , <http://resource.geolba.ac.at/ref/905> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Braunau-Formation"@de ;
+        <http://www.w3.org/2004/02/skos/core#scopeNote>
+                "Ehemals Braunauer Schlier"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/921>
+        :references  <http://resource.geolba.ac.at/ref/478> .
+
+<http://resource.geolba.ac.at/GeologicUnit/15>
+        :title  "Lithostratigraphic Units"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/444>
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/56> .
+
+<http://resource.geolba.ac.at/GeologicUnit/836>
+        :references  <http://resource.geolba.ac.at/ref/590> .
+
+<http://resource.geolba.ac.at/GeologicUnit/233>
+        :description  "[de]: Ablagerungsmilieu: Seichtmarine Siliklastika (Schönlaub, 1971). Fossilienbestand: Brachiopoden, Bryozoa, Echinodermen. Angrenzende Einheiten: Unterliegende Einheit - ?; Überlagernde Einheit - Wolayer-Formation (Konformer Kontakt); Laterale Einheiten -Fleons-Formation, Valbertad-Formation. (Schönlaub, 2015b)" ;
+        :references   <http://resource.geolba.ac.at/ref/971> .
+
+<http://resource.geolba.ac.at/GeologicUnit/625>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Kanzelfels Nagelfluh"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/148>
+        a         <http://www.w3.org/2004/02/skos/core#Collection> ;
+        :creator  <http://resource.geolba.ac.at/user/schmar> ;
+        <http://www.w3.org/2004/02/skos/core#member>
+                <http://resource.geolba.ac.at/GeologicUnit/697> , <http://resource.geolba.ac.at/GeologicUnit/442> , <http://resource.geolba.ac.at/GeologicUnit/438> , <http://resource.geolba.ac.at/GeologicUnit/430> , <http://resource.geolba.ac.at/GeologicUnit/575> , <http://resource.geolba.ac.at/GeologicUnit/577> , <http://resource.geolba.ac.at/GeologicUnit/445> , <http://resource.geolba.ac.at/GeologicUnit/563> , <http://resource.geolba.ac.at/GeologicUnit/580> , <http://resource.geolba.ac.at/GeologicUnit/582> , <http://resource.geolba.ac.at/GeologicUnit/578> , <http://resource.geolba.ac.at/GeologicUnit/448> , <http://resource.geolba.ac.at/GeologicUnit/566> , <http://resource.geolba.ac.at/GeologicUnit/440> , <http://resource.geolba.ac.at/GeologicUnit/436> , <http://resource.geolba.ac.at/GeologicUnit/449> , <http://resource.geolba.ac.at/GeologicUnit/696> , <http://resource.geolba.ac.at/GeologicUnit/569> , <http://resource.geolba.ac.at/GeologicUnit/441> , <http://resource.geolba.ac.at/GeologicUnit/698> , <http://resource.geolba.ac.at/GeologicUnit/561> , <http://resource.geolba.ac.at/GeologicUnit/574> , <http://resource.geolba.ac.at/GeologicUnit/444> , <http://resource.geolba.ac.at/GeologicUnit/699> , <http://resource.geolba.ac.at/GeologicUnit/562> , <http://resource.geolba.ac.at/GeologicUnit/432> , <http://resource.geolba.ac.at/GeologicUnit/451> , <http://resource.geolba.ac.at/GeologicUnit/447> , <http://resource.geolba.ac.at/GeologicUnit/565> , <http://resource.geolba.ac.at/GeologicUnit/433> , <http://resource.geolba.ac.at/GeologicUnit/435> , <http://resource.geolba.ac.at/GeologicUnit/572> , <http://resource.geolba.ac.at/GeologicUnit/695> , <http://resource.geolba.ac.at/GeologicUnit/568> , <http://resource.geolba.ac.at/GeologicUnit/573> , <http://resource.geolba.ac.at/GeologicUnit/443> , <http://resource.geolba.ac.at/GeologicUnit/439> , <http://resource.geolba.ac.at/GeologicUnit/431> , <http://resource.geolba.ac.at/GeologicUnit/576> , <http://resource.geolba.ac.at/GeologicUnit/450> , <http://resource.geolba.ac.at/GeologicUnit/446> , <http://resource.geolba.ac.at/GeologicUnit/564> , <http://resource.geolba.ac.at/GeologicUnit/581> , <http://resource.geolba.ac.at/GeologicUnit/583> , <http://resource.geolba.ac.at/GeologicUnit/434> , <http://resource.geolba.ac.at/GeologicUnit/579> , <http://resource.geolba.ac.at/GeologicUnit/694> , <http://resource.geolba.ac.at/GeologicUnit/567> , <http://resource.geolba.ac.at/GeologicUnit/584> , <http://resource.geolba.ac.at/GeologicUnit/437> .
+
+<http://resource.geolba.ac.at/GeologicUnit/414>
+        :references  <http://resource.geolba.ac.at/ref/590> .
+
+<http://resource.geolba.ac.at/GeologicUnit/806>
+        :creator  <http://resource.geolba.ac.at/user/ebnmar> ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Keine Daten in LithstratDB (Piller et al., 2004)"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/329>
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "A terrace remnant (formed in bedrock) of a broad, flat, valley floor, which now stands above the present drainage as a result of down-cutting due to base-level change (Neuendorf et al., 2005)."@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/118>
+        :created  "2012-01-10T13:40:38.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/963>
+        :creator  <http://resource.geolba.ac.at/user/haivik> .
+
+<http://resource.geolba.ac.at/GeologicUnit/486>
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Validity: Informal unit; first observed by Hoffmann (1877); detailed description is provided by Pollak (1962) and Schönlaub (1994, 2000a).; Chronostratigraphic age: Lochkovian-Eifelian; Lithology: Bedded and bright massive dolomite, shale, grey and black bedded limestone.; (Piller et al., 2014)"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/57>
+        :source  <http://palstrat.uni-graz.at/Stratigraphische_Tabelle_von_Oesterreich_2004.pdf> .
+
+<http://resource.geolba.ac.at/GeologicUnit/752>
+        :references  <http://resource.geolba.ac.at/ref/590> .
+
+<http://resource.geolba.ac.at/GeologicUnit/thesaurus/qualityReport>
+        <http://schema.semantic-web.at/ppt/3.2/quality/lastChecked>
+                "2020-09-23T08:16:25.360Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/933>
+        :references  <http://resource.geolba.ac.at/ref/478> ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Validity: Invalid. Lithostratigraphic unit used since Cathrein (1877) in terms of a formation but not formalized. Well characterized by Mostler (1968).; Chronostratigraphic age: Ordovician (pre-Hirnantian).; Lithology: Monotonous sequence of light grey argillaceous and silty schists, and sandstones. The existence of extended Ordovician basaltic metavolcanics as suggested by Mostler (1968, 1984) is difficult to decide due to the lack of fossils and the severe Alpine tectonics (Heinisch, 1986; Schönlaub & Heinisch, 1993). Nevertheless pebbles of greenstones within the level of the 'geröllführende Porphyroide' are a hint to Ordovician basic volcanics (Mostler, 1968).; (Piller et al., 2014)"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/27>
+        :references  <http://resource.geolba.ac.at/ref/590> .
+
+<http://resource.geolba.ac.at/GeologicUnit/456>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Bündner Schiefer"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/848>
+        :references  <http://resource.geolba.ac.at/ref/590> .
+
+<http://resource.geolba.ac.at/GeologicUnit/511>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Feldbach-Formation"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/903>
+        :created     "2014-02-12T08:50:15.000Z"^^xsd:dateTime ;
+        :references  <http://resource.geolba.ac.at/ref/900> ;
+        :source      <http://palstrat.uni-graz.at/Stratigraphische_Tabelle_von_Oesterreich_2004.pdf> .
+
+<http://resource.geolba.ac.at/GeologicUnit/426>
+        :references  <http://resource.geolba.ac.at/ref/590> .
+
+<http://resource.geolba.ac.at/GeologicUnit/818>
+        :creator  <http://resource.geolba.ac.at/user/ebnmar> ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Keine Daten in LithstratDB (Piller et al., 2004)"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/99>
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Der Bundschuh-Orthogneis ist siliziumreich (ca. 75 Gew.-%) und lässt sich chemisch als peraluminöser Granit- bis Alkaligranit-Gneis klassifizieren. Auffallend sind niedrige Gehalte an Sr, Rb, Ba und Zr. Auf Grund der Spurenelementverteilung handelt es sich sehr wahrscheinlich um einen syn-kollisionären Granit. Rb-Sr-Gesamtgesteinsisochronen von Proben aus verschiedenen Orthogneiskörpern ergaben kein eindeutiges Alter, sondern mehrere, etwa parallele Isochronen mit Werten von 314–397 Ma. Rb-Sr-Muskovitalter der gleichen Proben ergaben Alter von 350–370 Ma. Diese Daten wurden als Hinweis auf eine variszische Überprägung eines primär vorvariszischen Granites interpretiert. Zirkone aus dem Bundschuh-Orthogneis lieferten ein Alter von ca. 470 Ma (Schuster et al., 2006)."@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/215>
+        :created  "2015-08-14T15:59:23.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/607>
+        :description  "Type section: No type section defined. Flügel (2000) selected a type region at Hubenhalt, northwest of Fladnitz öK50-BMN, map sheet 134 Passail (N 47°19'15'' / E 015°26'40''), approx. 40 km north of Graz.; Fossils: Conodonts and corals.; Origin facies: Deeper marine environment with restricted water circulation (Hubauer, 1986).; Thickness: 130 - 250 m.; (Piller et al., 2014)" ;
+        :references   <http://resource.geolba.ac.at/ref/478> ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Gültigkeit: gültig; Erste Beschreibung in Penecke (1890: 'Kalke und Kalkschiefer der Hubenhalt', formalisiert in Flügel (2000: S 44-45; Hubenhalt-Formation).; Chronostratigraphisches Alter: Pragium bis Emsium.; Lithologie: Verschiedene plattige bis schiefrige Kalksteine und Dolomite mit Sandsteineinschlüssen.; (Piller et al., 2014)"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/794>
+        :created  "2011-08-05T09:23:26.000Z"^^xsd:dateTime .
+
+<http://resource.geolba.ac.at/GeologicUnit/191>
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/188> .
+
+<http://resource.geolba.ac.at/GeologicUnit/583>
+        <http://www.w3.org/2004/02/skos/core#scopeNote>
+                "H. EMMRICH führte den Begriff Hauptdolomit als Erster in seiner Beschreibung über die \"geognostischen Verhältnisse Südtyrols\"  (1846, S. 299) in die geologische Literatur ein. Auch 1855 verwendet er den Namen (S. 448) wieder ohne ihn zu definieren und stellt ihn stratigraphisch unter die Gervillienschichten bzw. Schichten von Kössen (\"   ...   der Hauptdolomit, welcher die Hauptmasse der Lienzer Alpen zusammensetzt und nochmals nördlich am Rauhkofel auftritt  ...  \".  PICHLER (1866, S. 78) setzt Hauptdolomit und Seefelder Schichten gleich; (\"Entschiedener Hauptdolomit (Seefelder Schichten) finden sich erst weiter auswärts im Isarthale,  ...  . Von MÜLLER-JUNGBLUTH (1968, S. 230ff.) wurde folgende Gliederung des Hauptdolomites durchgeführt:  Unterer Hauptdolomit,  Mittlerer Hauptdolomit, bituminöser Hauptdolomit und Oberer Hauptdolomit."@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/69>
+        :source  <http://palstrat.uni-graz.at/Stratigraphische_Tabelle_von_Oesterreich_2004.pdf> .
+
+<http://resource.geolba.ac.at/GeologicUnit/764>
+        :references  <http://resource.geolba.ac.at/ref/590> .
+
+<http://resource.geolba.ac.at/GeologicUnit/679>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Linz-Melk-Formation"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/161>
+        :created  "2013-11-26T08:49:11.000Z"^^xsd:dateTime ;
+        :creator  <http://resource.geolba.ac.at/user/schmar> .
+
+<http://resource.geolba.ac.at/GeologicUnit/39>
+        :references  <http://resource.geolba.ac.at/ref/590> .
+
+<http://resource.geolba.ac.at/GeologicUnit/523>
+        :references  <http://resource.geolba.ac.at/ref/590> .
+
+<http://resource.geolba.ac.at/GeologicUnit/915>
+        :source  <http://palstrat.uni-graz.at/Stratigraphische_Tabelle_von_Oesterreich_2004.pdf> .
+
+<http://resource.geolba.ac.at/GeologicUnit/438>
+        :hasVersion  "1"^^xsd:int ;
+        :references  <http://resource.geolba.ac.at/ref/590> .
+
+<http://resource.geolba.ac.at/GeologicUnit/312>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Grundmoränenwall"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/70>
+        :source  <http://palstrat.uni-graz.at/Stratigraphische_Tabelle_von_Oesterreich_2004.pdf> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "[Gießhübl]"@en , "[Gießhübl]"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/704>
+        <http://www.w3.org/2004/02/skos/core#notation>
+                "2006" .
+
+<http://resource.geolba.ac.at/GeologicUnit/227>
+        <http://www.w3.org/2004/02/skos/core#hiddenLabel>
+                "Celon"@en , "Celon"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/101>
+        :created  "2012-01-02T12:05:43.000Z"^^xsd:dateTime ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/207> .
+
+<http://resource.geolba.ac.at/GeologicUnit/408>
+        :creator  <http://resource.geolba.ac.at/user/ebnmar> .
+
+<http://resource.geolba.ac.at/GeologicUnit/40>
+        :references  <http://resource.geolba.ac.at/ref/590> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "[Waschberg Unit]"@en .
+
+<http://resource.geolba.ac.at/GeologicUnit/861>
+        :references  <http://resource.geolba.ac.at/ref/590> .
+
+<http://resource.geolba.ac.at/GeologicUnit/384>
+        <http://www.w3.org/2004/02/skos/core#altLabel>
+                "Arlbergschichten"@de ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://resource.geolba.ac.at/GeologicUnit/33> .
+
+<http://resource.geolba.ac.at/GeologicUnit/776>
+        :references  <http://resource.geolba.ac.at/ref/590> .
+
+<http://resource.geolba.ac.at/GeologicUnit/299>
+        :references  <http://resource.geolba.ac.at/ref/22> .
+
+<http://resource.geolba.ac.at/GeologicUnit/565>
+        <http://www.w3.org/2004/02/skos/core#related>
+                <http://resource.geolba.ac.at/GeologicUnit/159> .
+
+<http://resource.geolba.ac.at/GeologicUnit/957>
+        :references  <http://resource.geolba.ac.at/ref/478> .
+
+<http://resource.geolba.ac.at/GeologicUnit/831>
+        :creator  <http://resource.geolba.ac.at/user/ebnmar> .
+
+<http://resource.geolba.ac.at/GeologicUnit/354>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Hangablagerung"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/746>
+        a               <http://www.w3.org/2004/02/skos/core#Concept> ;
+        rdfs:label      "Orthocerenkalke (Flaserkalke)"@de ;
+        :isReplacedBy   <http://resource.geolba.ac.at/GeologicUnit/160> ;
+        owl:deprecated  true .
+
+<http://resource.geolba.ac.at/GeologicUnit/143>
+        <http://www.w3.org/2003/01/geo/wgs84_pos#lat>
+                "47.25027778" .
+
+<http://resource.geolba.ac.at/GeologicUnit/535>
+        :references  <http://resource.geolba.ac.at/ref/590> .
+
+<http://resource.geolba.ac.at/GeologicUnit/927>
+        :source  <http://palstrat.uni-graz.at/Stratigraphische_Tabelle_von_Oesterreich_2004.pdf> .
+
+<http://resource.geolba.ac.at/GeologicUnit/801>
+        :creator  <http://resource.geolba.ac.at/user/ebnmar> .
+
+<http://resource.geolba.ac.at/GeologicUnit/82>
+        :source  <http://palstrat.uni-graz.at/Stratigraphische_Tabelle_von_Oesterreich_2004.pdf> .
+
+<http://resource.geolba.ac.at/GeologicUnit/716>
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Neuhofen­-Formation"@de .
+
+<http://resource.geolba.ac.at/GeologicUnit/239>
+        :references  <http://resource.geolba.ac.at/ref/957> .

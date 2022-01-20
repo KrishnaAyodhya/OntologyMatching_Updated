@@ -527,6 +527,23 @@
         <http://purl.org/dc/terms/creator>
                 <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> .
 
+<http://utep.eagle-i.net/i/00000136-f03c-2687-8626-74df80000000>
+        a       <http://purl.obolibrary.org/obo/ERO_0000394> ;
+        <http://eagle-i.org/ont/app/1.0/feeforservice>
+                "true" ;
+        <http://eagle-i.org/ont/app/1.0/servicefeeURL>
+                "http://science.utep.edu/bbrc/General/cellhtspolicies" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://utep.eagle-i.net/i/00000134-aa21-2db4-bfc0-fe9780000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000543>
+                <http://purl.obolibrary.org/obo/OBI_0600024> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> .
+
 <http://utep.eagle-i.net/i/00000134-afa8-1e0f-bfc0-fe9780000000>
         a           <http://xmlns.com/foaf/0.1/Person> ;
         rdfs:label  "Aguilera, Renato, Ph.D." ;
@@ -551,29 +568,6 @@
         <http://purl.org/dc/terms/modified>
                 "2012-03-29T12:45:49.009-05:00"^^xsd:dateTime .
 
-<http://utep.eagle-i.net/i/00000136-f03c-2687-8626-74df80000000>
-        a       <http://purl.obolibrary.org/obo/ERO_0000394> ;
-        <http://eagle-i.org/ont/app/1.0/feeforservice>
-                "true" ;
-        <http://eagle-i.org/ont/app/1.0/servicefeeURL>
-                "http://science.utep.edu/bbrc/General/cellhtspolicies" ;
-        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
-                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
-        <http://purl.obolibrary.org/obo/ERO_0000390>
-                <http://utep.eagle-i.net/i/00000134-aa21-2db4-bfc0-fe9780000000> ;
-        <http://purl.obolibrary.org/obo/ERO_0000543>
-                <http://purl.obolibrary.org/obo/OBI_0600024> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
-        <http://purl.org/dc/terms/creator>
-                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> .
-
-<http://eagle-i.org/ont/repo/1.0/WorkflowState>
-        a                owl:Class ;
-        rdfs:comment     "Controlled vocabulary describing workflow state." ;
-        rdfs:label       "Workflow State" ;
-        rdfs:subClassOf  owl:Thing .
-
 <http://utep.eagle-i.net/i/00000134-c86a-3580-bfc0-fe9780000000>
         a       <http://purl.obolibrary.org/obo/ERO_0000395> ;
         <http://eagle-i.org/ont/app/1.0/feeforservice>
@@ -586,6 +580,12 @@
                 <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
         <http://purl.org/dc/terms/creator>
                 <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> .
+
+<http://eagle-i.org/ont/repo/1.0/WorkflowState>
+        a                owl:Class ;
+        rdfs:comment     "Controlled vocabulary describing workflow state." ;
+        rdfs:label       "Workflow State" ;
+        rdfs:subClassOf  owl:Thing .
 
 <http://utep.eagle-i.net/i/00000134-af7e-be01-bfc0-fe9780000000>
         a           <http://purl.obolibrary.org/obo/ERO_0000819> ;
@@ -1379,6 +1379,20 @@
         rdfs:label       "Named Graph Type" ;
         rdfs:subClassOf  owl:Thing .
 
+<http://utep.eagle-i.net/i/00000136-f004-94cd-8626-74df80000000>
+        <http://eagle-i.org/ont/app/1.0/feeforservice>
+                "true" ;
+        <http://eagle-i.org/ont/app/1.0/servicefeeURL>
+                "http://science.utep.edu/bbrc/General/cellhtspolicies" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000390>
+                <http://utep.eagle-i.net/i/00000134-aa21-2db4-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> .
+
 <http://utep.eagle-i.net/i/00000134-af75-88ad-bfc0-fe9780000000>
         a       <http://purl.obolibrary.org/obo/ERO_0000819> ;
         <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
@@ -1398,20 +1412,6 @@
         a       <http://xmlns.com/foaf/0.1/Person> ;
         <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
                 <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
-        <http://purl.org/dc/terms/creator>
-                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> .
-
-<http://utep.eagle-i.net/i/00000136-f004-94cd-8626-74df80000000>
-        <http://eagle-i.org/ont/app/1.0/feeforservice>
-                "true" ;
-        <http://eagle-i.org/ont/app/1.0/servicefeeURL>
-                "http://science.utep.edu/bbrc/General/cellhtspolicies" ;
-        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
-                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
-        <http://purl.obolibrary.org/obo/ERO_0000390>
-                <http://utep.eagle-i.net/i/00000134-aa21-2db4-bfc0-fe9780000000> ;
         <http://purl.org/dc/terms/contributor>
                 <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
         <http://purl.org/dc/terms/creator>
