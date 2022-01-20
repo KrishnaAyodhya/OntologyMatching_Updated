@@ -6,29 +6,19 @@
 @prefix geos: <http://www.opengis.net/ont/geosparql#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 
-#:reader
- #a deer:FileModelReader ;
-# deer:fromPath "F:/ontologyPGmatching/matching/Sparql.n3";
- #fcage:hasOutput :ontologyMatcher;
-#.
 
 :reader
  a deer:FileModelReader ;
- deer:fromPath "jsontordfoutput.ttl";
- fcage:hasOutput :kgmatcher ; 
+ deer:fromPath "Test1.ttl";
 .
 
-:kgmatcher
-  a deer:KGMatchingOperator ;
-  fcage:hasInput :reader ;
-  deer:matchingApproach "LIMES" ;
- . 
+
 
 
 :ontologyMatcher
  a deer:OntologyMatchingOperator ;
  deer:typeOfMap "Classes";
- fcage:hasInput :kgmatcher ;
+ fcage:hasInput :reader ;
 .
 
  

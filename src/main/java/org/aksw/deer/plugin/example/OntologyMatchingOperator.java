@@ -93,7 +93,7 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 		 * e.printStackTrace(); }
 		 */
 		System.out.println("-----------------------------------Safe apply-----------------------------------");
-		System.out.println(models);
+		
 		Model model = models.get(0);
 		HashMap<Resource, RDFNode> objectSubjectMap = new HashMap<>();
 		// NodeIterator listObjects = model.listObjects(); // Objects

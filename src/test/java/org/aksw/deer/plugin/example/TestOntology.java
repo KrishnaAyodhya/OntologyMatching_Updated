@@ -17,7 +17,7 @@ import org.semanticweb.owlapi.model.OWLOntologyCreationException;
 
 public class TestOntology {
 
-	@Test
+	//@Test
 	public void testParameterless() throws OWLOntologyCreationException {
 
 		OntologyMatchingOperator onto = new OntologyMatchingOperator();
@@ -31,7 +31,7 @@ public class TestOntology {
 
 	}
 
-	@Test
+	//@Test
 	public void testConfiguration() {
 		String url = Objects
 				.requireNonNull(TestOntology.class.getClassLoader().getResource("configuration.ttl"))

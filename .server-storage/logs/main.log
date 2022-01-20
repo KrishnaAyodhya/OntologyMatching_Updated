@@ -1,9 +1,14 @@
-2022-01-10T20:05:57,060 [main] INFO org.aksw.deer.DeerController 211 - Trying to read DEER configuration from file D:\Workspaces\KGFusion-OntologyMatching-UpdatedOntoMatch\KGFusion-OntologyMatching-UpdatedOntoMatch\src\test\resources\configuration.ttl...
-2022-01-10T20:05:57,930 [main] INFO org.aksw.deer.DeerController 216 - Loading D:\Workspaces\KGFusion-OntologyMatching-UpdatedOntoMatch\KGFusion-OntologyMatching-UpdatedOntoMatch\src\test\resources\configuration.ttl is done in 790ms.
-2022-01-10T20:05:57,930 [main] INFO org.aksw.faraday_cage.engine.FaradayCageContext 130 - Starting Faraday-Cage engine... runId: a82826ab-3823-4fe0-893b-04073ddb844c
-2022-01-10T20:05:57,930 [main] INFO org.aksw.faraday_cage.engine.FaradayCageContext 131 - Building execution model...
-2022-01-10T20:05:58,850 [main] INFO org.aksw.faraday_cage.engine.FaradayCageContext 137 - Configuration shape validated using SHACL after 917ms.
-2022-01-10T20:05:58,880 [main] INFO org.aksw.faraday_cage.engine.AdjacencyMatrix 95 - 
-urn:example:plugin-demo/reader 0 0
+2022-01-20T13:30:34,248 [main] INFO org.aksw.deer.plugin.example.OntologyMatchingPlugin 18 - WelcomePlugin.start()
+2022-01-20T13:30:34,818 [main] INFO org.aksw.deer.DeerController 211 - Trying to read DEER configuration from file D:\Workspaces\KGFusion-OntologyMatching-UpdatedOntoMatch\KGFusion-OntologyMatching-UpdatedOntoMatch\src\test\resources\configuration.ttl...
+2022-01-20T13:30:35,390 [main] INFO org.aksw.deer.DeerController 216 - Loading D:\Workspaces\KGFusion-OntologyMatching-UpdatedOntoMatch\KGFusion-OntologyMatching-UpdatedOntoMatch\src\test\resources\configuration.ttl is done in 567ms.
+2022-01-20T13:30:35,397 [main] INFO org.aksw.faraday_cage.engine.FaradayCageContext 130 - Starting Faraday-Cage engine... runId: 3969daa9-587a-4348-82dc-1e8ef9e5348e
+2022-01-20T13:30:35,398 [main] INFO org.aksw.faraday_cage.engine.FaradayCageContext 131 - Building execution model...
+2022-01-20T13:30:36,617 [main] INFO org.aksw.faraday_cage.engine.FaradayCageContext 137 - Configuration shape validated using SHACL after 1217ms.
+2022-01-20T13:30:36,655 [main] INFO org.aksw.faraday_cage.engine.AdjacencyMatrix 95 - 
+urn:example:plugin-demo/reader 0 1
+urn:example:plugin-demo/ontologyMatcher 1 1
+urn:example:plugin-demo/writer 1 0
 
-2022-01-10T20:05:58,885 [main] INFO org.aksw.faraday_cage.engine.FaradayCageContext 145 - Execution graph built after 948ms.
+2022-01-20T13:30:36,664 [main] INFO org.aksw.faraday_cage.engine.FaradayCageContext 145 - Execution graph built after 1265ms.
+2022-01-20T13:30:36,683 [main] INFO org.aksw.faraday_cage.engine.FaradayCageContext 148 - Execution graph compiled after 1283ms.
+2022-01-20T13:30:36,685 [main] INFO org.aksw.faraday_cage.engine.FaradayCageContext 116 - Starting execution...
