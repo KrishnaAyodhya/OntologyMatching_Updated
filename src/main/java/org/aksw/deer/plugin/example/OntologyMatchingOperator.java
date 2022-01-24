@@ -113,27 +113,23 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 		HashMap<String, String> endpointsMap = new HashMap<>();
 
 		for (Resource subjectEndpoint : subjectsKey) {
-			if (fileNameCounter == 5)  break;
+			if (fileNameCounter == 10)  break;
 			try {
-				// Dbpedia model
+				// First model
 				Model model1 = QueryExecutionFactory
 						.sparqlService(getRedirectedUrl(subjectEndpoint.toString()), new_query).execConstruct();
 				model1.write(new FileOutputStream("endpoint_1_" + fileNameCounter + ".ttl"), "TTL"); // file_name1 -
 				System.out.println("------------------------------------");
-				// OutputStream out = new FileOutputStream("endpoint_1_" + fileNameCounter +
-				// ".ttl");
+				
+				
 				// RDFDataMgr.write(out, model1, Lang.TURTLE); // Endpoint1
 				endpointsMap.put("endpoint_1_" + fileNameCounter + ".ttl", subjectEndpoint.toString());
 
-				// Yago model
-				// endpointStr = "https://yago-knowledge.org/sparql/query";
+				// Second model
 				Model model2 = QueryExecutionFactory
 						.sparqlService(getRedirectedUrl(objectSubjectMap.get(subjectEndpoint).toString()), new_query)
 						.execConstruct();
 				model2.write(new FileOutputStream("endpoint_2_" + fileNameCounter + ".ttl"), "TTL");
-				// OutputStream out1 = new FileOutputStream("endpoint_2_" + fileNameCounter +
-				// ".ttl");
-				// RDFDataMgr.write(out1, model2, Lang.TURTLE);
 				endpointsMap.put("endpoint_2_" + fileNameCounter + ".ttl",
 						objectSubjectMap.get(subjectEndpoint).toString());
 
@@ -159,49 +155,49 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 		for (i = 1; i <= fileNameCounter-1; i++) {
 
 			try {
-				switch (Integer.parseInt(typeOfMap)) {
-				case 0:
-					if (Integer.parseInt(typeOfMap) == classesMapID) {
+				switch (typeOfMap) {
+				case "Classes":
+					
 						System.out.println(
 								"-----------------------------------Classes Mapping-----------------------------------");
 						listModel.add(UsingLogMapMatcher("endpoint_1_" + i + ".ttl", "endpoint_2_" + i + ".ttl",
 								classesMapID, endpointsMap.get("endpoint_1_" + i + ".ttl"),
 								endpointsMap.get("endpoint_2_" + i + ".ttl")));
-					}
+					
 					break;
-				case 1:
-					if (Integer.parseInt(typeOfMap) == dataPropertyMapID) {
+				case "Data Property":
+					
 						System.out.println(
 								"-----------------------------------Data Property Mapping-----------------------------------");
 						listModel.add(UsingLogMapMatcher("endpoint_1_" + i + ".ttl", "endpoint_2_" + i + ".ttl",
 								dataPropertyMapID, endpointsMap.get("endpoint_1_" + i + ".ttl"),
 								endpointsMap.get("endpoint_2_" + i + ".ttl")));
-					}
-					break;
-				case 2:
+					
+					
+				case "Object Property":
 
-					if (Integer.parseInt(typeOfMap) == objectPropertyMapID) {
+					
 						System.out.println(
 								"-----------------------------------Object Property Mapping-----------------------------------");
 						listModel.add(UsingLogMapMatcher("endpoint_1_" + i + ".ttl", "endpoint_2_" + i + ".ttl",
 								objectPropertyMapID, endpointsMap.get("endpoint_1_" + i + ".ttl"),
 								endpointsMap.get("endpoint_2_" + i + ".ttl")));
-					}
+					
 					break;
 				
 
 				default:
-					if (Integer.parseInt(typeOfMap) == classesMapID) {
+					
 						System.out.println(
 								"-----------------------------------Classes Mapping-----------------------------------");
 						listModel.add(UsingLogMapMatcher("endpoint_1_" + i + ".ttl", "endpoint_2_" + i + ".ttl",
 								classesMapID, endpointsMap.get("endpoint_1_" + i + ".ttl"),
 								endpointsMap.get("endpoint_2_" + i + ".ttl")));
-					}
+					
 				}
 
 			} catch (OWLOntologyCreationException e) {
-				// TODO Auto-generated catch block
+				
 				e.printStackTrace();
 			}
 

@@ -17,8 +17,7 @@
 
 :ontologyMatcher
  a deer:OntologyMatchingOperator ;
-
- deer:typeOfMap "0";
+ deer:typeOfMap "Classes";
  fcage:hasInput :reader ;
 .
 
