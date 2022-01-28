@@ -5,6 +5,12 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sesame: <http://www.openrdf.org/schema/sesame#> .
 
+<http://eagle-i.org/ont/repo/1.0/NGType_Workspace>
+        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/NamedGraphType> ;
+        rdf:value     "workspace" ;
+        rdfs:comment  "Data objects meant to be invisible to the public" ;
+        rdfs:label    "Workspace" .
+
 <http://hunter-cuny.eagle-i.net/i/00000143-0245-4e22-b9b0-07b180000000>
         a           <http://purl.obolibrary.org/obo/ERO_0000071> ;
         rdfs:label  "Nikon Elements Imaging software" ;
@@ -929,13 +935,6 @@
         <http://purl.org/dc/terms/modified>
                 "2015-06-23T14:42:54.062-05:00"^^xsd:dateTime .
 
-<http://eagle-i.org/ont/repo/1.0/workspace>
-        a             owl:ObjectProperty ;
-        rdfs:comment  "Home workspace of resources capable of using this transition" ;
-        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/WorkflowTransition> ;
-        rdfs:label    "Workspace" ;
-        rdfs:range    <http://eagle-i.org/ont/repo/1.0/NamedGraph> .
-
 <http://hunter-cuny.eagle-i.net/i/00000136-7e37-a19f-949b-425080000000>
         a           <http://purl.obolibrary.org/obo/OBI_0001110> ;
         rdfs:label  "Applied BioSystems 7500 Real-Time PCR System" ;
@@ -955,6 +954,13 @@
                 <http://hunter-cuny.eagle-i.net/i/00000136-7e05-fb04-949b-425080000000> ;
         <http://purl.org/dc/terms/modified>
                 "2012-04-04T12:07:51.161-05:00"^^xsd:dateTime .
+
+<http://eagle-i.org/ont/repo/1.0/workspace>
+        a             owl:ObjectProperty ;
+        rdfs:comment  "Home workspace of resources capable of using this transition" ;
+        rdfs:domain   <http://eagle-i.org/ont/repo/1.0/WorkflowTransition> ;
+        rdfs:label    "Workspace" ;
+        rdfs:range    <http://eagle-i.org/ont/repo/1.0/NamedGraph> .
 
 <http://hunter-cuny.eagle-i.net/i/00000136-8896-ce6f-949b-425080000000>
         a           <http://purl.obolibrary.org/obo/OBI_0001126> ;
@@ -1827,9 +1833,3 @@
         rdf:value     "internal" ;
         rdfs:comment  "Contains data that is only to be used internally by repository, such as administrative metadata" ;
         rdfs:label    "Internal Use Only" .
-
-<http://eagle-i.org/ont/repo/1.0/NGType_Workspace>
-        a             owl:Thing , <http://eagle-i.org/ont/repo/1.0/NamedGraphType> ;
-        rdf:value     "workspace" ;
-        rdfs:comment  "Data objects meant to be invisible to the public" ;
-        rdfs:label    "Workspace" .

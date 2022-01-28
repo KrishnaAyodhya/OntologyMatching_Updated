@@ -10,7 +10,6 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Set;
 
@@ -29,6 +28,8 @@ import org.apache.jena.rdf.model.ReifiedStatement;
 import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.rdf.model.Statement;
 import org.apache.jena.rdf.model.StmtIterator;
+import org.apache.jena.riot.Lang;
+import org.apache.jena.riot.RDFDataMgr;
 import org.pf4j.Extension;
 import org.semanticweb.owlapi.apibinding.OWLManager;
 import org.semanticweb.owlapi.model.MissingImportHandlingStrategy;
@@ -59,10 +60,8 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 	public static final Property SELECTOR = DEER.property("selector");
 	public static final Property SPARQL_CONSTRUCT_QUERY = DEER.property("sparqlConstructQuery");
 	private static int fileNameCounter = 1;
-	private static int numberOfMatches = 1;
 
 	public static final Property TYPEOFMAP = DEER.property("typeOfMap");
-	public static final Property MACTHING_LIBRARY = DEER.property("matching_Library");
 
 	public OntologyMatchingOperator() throws OWLOntologyCreationException {
 
@@ -72,7 +71,7 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 	@Override
 	public ValidatableParameterMap createParameterMap() { // 2
 		return ValidatableParameterMap.builder().declareProperty(SELECTOR).declareProperty(SPARQL_CONSTRUCT_QUERY)
-				.declareProperty(TYPEOFMAP).declareProperty(MACTHING_LIBRARY)
+				.declareProperty(TYPEOFMAP)
 				.declareValidationShape(getValidationModelFor(OntologyMatchingOperator.class)).build();
 	}
 
@@ -94,7 +93,7 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 		 * e.printStackTrace(); }
 		 */
 		System.out.println("-----------------------------------Safe apply-----------------------------------");
-
+		
 		Model model = models.get(0);
 		HashMap<Resource, RDFNode> objectSubjectMap = new HashMap<>();
 		// NodeIterator listObjects = model.listObjects(); // Objects
@@ -111,33 +110,30 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 		Set<Resource> subjectsKey = objectSubjectMap.keySet();
 
 		// Map for storing End-point and file names
-		LinkedHashMap<String, String> endpointsMap = new LinkedHashMap<>();
+		HashMap<String, String> endpointsMap = new HashMap<>();
 
 		for (Resource subjectEndpoint : subjectsKey) {
-			if (fileNameCounter == 10)
-				break;
+			if (fileNameCounter == 10)  break;
 			try {
-				System.out.println("------------------------------------");
-				// First model
+				// Dbpedia model
 				Model model1 = QueryExecutionFactory
 						.sparqlService(getRedirectedUrl(subjectEndpoint.toString()), new_query).execConstruct();
-				
-				// Second model
+				model1.write(new FileOutputStream("endpoint_1_" + fileNameCounter + ".ttl"), "TTL"); // file_name1 -
+				System.out.println("------------------------------------");
+				endpointsMap.put("endpoint_1_" + fileNameCounter + ".ttl", subjectEndpoint.toString());
+
+				// Yago model
+
 				Model model2 = QueryExecutionFactory
 						.sparqlService(getRedirectedUrl(objectSubjectMap.get(subjectEndpoint).toString()), new_query)
 						.execConstruct();
-				
-				model1.write(new FileOutputStream("endpoint_1_" + fileNameCounter + ".ttl"), "TTL"); // file_name1 -
 				model2.write(new FileOutputStream("endpoint_2_" + fileNameCounter + ".ttl"), "TTL");
+				endpointsMap.put("endpoint_2_" + fileNameCounter + ".ttl",
+						objectSubjectMap.get(subjectEndpoint).toString());
 
-				endpointsMap.put("endpoint_1_" + fileNameCounter + ".ttl", subjectEndpoint.toString());
-				endpointsMap.put("endpoint_2_" + fileNameCounter + ".ttl", objectSubjectMap.get(subjectEndpoint).toString());
-				
-				System.out.println(endpointsMap + " %%%%%%%%% ");
-				
 				fileNameCounter++;
 			} catch (Exception e) {
-				System.out.println("Exception caught for the Subject : " + subjectEndpoint + " ,Exception name : " + e);
+				System.out.println("Subject : " + subjectEndpoint + ",Exception name : " + e);
 			}
 		}
 
@@ -150,77 +146,63 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 		List<Model> listModel = new ArrayList<>();
 
 		String typeOfMap = getParameterMap().getOptional(TYPEOFMAP).map(RDFNode::asLiteral).map(Literal::getString)
-				.orElse("did not find type of map");
-		String library_Matching = getParameterMap().getOptional(MACTHING_LIBRARY).map(RDFNode::asLiteral)
-				.map(Literal::getString).orElse("did not find which libarary to used for Matching");
+				.orElse("did not able to find type of map");
 
-		System.out.println("-----TypeOfMap---- " + typeOfMap + "******");
-		System.out.println("-----Library for Matching----" + library_Matching + "*********");
-		if (endpointsMap.isEmpty()) {
-			System.out.println("-------endpointsMap.size-----------   " + endpointsMap.size());
-		} else {
-			for (i = 1; i <= fileNameCounter - 1 && (endpointsMap.size() > 2); i++) {
+		System.out.println("-----TypeOfMap---- "+ typeOfMap+ "^^^^^^^^^");
+		
+		for (i = 1; i <= fileNameCounter-1; i++) {
 
-				try {
-					switch (typeOfMap) {
-					case "Classes":
-
-						System.out.println("----------------Classes Mapping------------------------");
+			try {
+				switch (typeOfMap) {
+				case "Classes":
+					
+						System.out.println(
+								"-----------------------------------Classes Mapping-----------------------------------");
 						listModel.add(UsingLogMapMatcher("endpoint_1_" + i + ".ttl", "endpoint_2_" + i + ".ttl",
 								classesMapID, endpointsMap.get("endpoint_1_" + i + ".ttl"),
-								endpointsMap.get("endpoint_2_" + i + ".ttl"),i));
-						System.out.println("endpoint_1_" + i + ".ttl" +" Endpoint :: " + endpointsMap.get("endpoint_1_" + i + ".ttl"));
-						System.out.println("endpoint_2_" + i + ".ttl" +" Endpoint :: " + endpointsMap.get("endpoint_2_" + i + ".ttl"));
-						System.out.println("Model output " +listModel);
-						break;
-
-					case "Data Property":
-
-						System.out.println("--------Data Property Mapping--------------");
+								endpointsMap.get("endpoint_2_" + i + ".ttl")));
+					
+					break;
+				case "Data Property":
+					
+						System.out.println(
+								"-----------------------------------Data Property Mapping-----------------------------------");
 						listModel.add(UsingLogMapMatcher("endpoint_1_" + i + ".ttl", "endpoint_2_" + i + ".ttl",
 								dataPropertyMapID, endpointsMap.get("endpoint_1_" + i + ".ttl"),
-								endpointsMap.get("endpoint_2_" + i + ".ttl"),i));
-						break;
+								endpointsMap.get("endpoint_2_" + i + ".ttl")));
+					
+					
+				case "Object Property":
 
-					case "Object Property":
-
-						System.out.println("-------------Object Property Mapping---------------");
+					
+						System.out.println(
+								"-----------------------------------Object Property Mapping-----------------------------------");
 						listModel.add(UsingLogMapMatcher("endpoint_1_" + i + ".ttl", "endpoint_2_" + i + ".ttl",
 								objectPropertyMapID, endpointsMap.get("endpoint_1_" + i + ".ttl"),
-								endpointsMap.get("endpoint_2_" + i + ".ttl"),i));
-						break;
+								endpointsMap.get("endpoint_2_" + i + ".ttl")));
+					
+					break;
+				
 
-					default:
-
-						System.out.println("------------------Classes Mapping-------------------");
+				default:
+					
+						System.out.println(
+								"-----------------------------------Classes Mapping-----------------------------------");
 						listModel.add(UsingLogMapMatcher("endpoint_1_" + i + ".ttl", "endpoint_2_" + i + ".ttl",
 								classesMapID, endpointsMap.get("endpoint_1_" + i + ".ttl"),
-								endpointsMap.get("endpoint_2_" + i + ".ttl"), i));
-
-					}
-
-				} catch (OWLOntologyCreationException e) {
-
-					e.printStackTrace();
+								endpointsMap.get("endpoint_2_" + i + ".ttl")));
+					
 				}
 
-			}
-		}
-
-		try (OutputStream out = new FileOutputStream("MappingOutputFinal" +   ".ttl")) {
-			for (Iterator iterator = listModel.iterator(); iterator.hasNext();) {
-				Model model2 = (Model) iterator.next();
-				model2.write(out, "TURTLE");
-				model2.write(System.out, "TURTLE");
+			} catch (OWLOntologyCreationException e) {
 				
+				e.printStackTrace();
 			}
-			
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
-			e.printStackTrace();
+
 		}
-		
+		// create an empty Model
+		// Model model = ModelFactory.createDefaultModel();
+		// return List.of(model);
 		return listModel;
 	}
 
@@ -276,7 +258,7 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 
 				fileNameCounter++;
 			} catch (Exception e) {
-				System.out.println("Subject : " + subjectEndpoint + " ,Exception name : " + e);
+				System.out.println("Subject : " + subjectEndpoint + ",Exception name : " + e);
 			}
 		}
 
@@ -347,7 +329,7 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 
 	}
 
-	public Model UsingLogMapMatcher(String file1, String file2, int a, String endpoint1, String endpoint2, int fileCounter)
+	public Model UsingLogMapMatcher(String file1, String file2, int a, String endpoint1, String endpoint2)
 			throws OWLOntologyCreationException {
 
 		// Log Map variables
@@ -429,10 +411,10 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 				// Output format
 				System.out.println("---------------output format-------------------");
 				String deer = "https://w3id.org/deer/";
-				
-				final Resource matchResource = model.createResource(deer + "Match_" + numberOfMatches);
+				int numberOfMatches = 1;
+				final Resource matchResource = model.createResource(deer + "Match " + numberOfMatches);
 				final Property matchProperty = model.createProperty(deer, "found");
-				
+				numberOfMatches++;
 
 				Resource resource = model.createResource(next.getIRIStrEnt1());
 				// Property related = model.createProperty("https://w3id.org/deer/matchesWith");
@@ -472,8 +454,7 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 
 				model.add(matchResource, matchProperty, createReifiedStatement);
 			}
-			
-			try (OutputStream out = new FileOutputStream("MappingOutput" + fileCounter + ".ttl")) {
+			try (OutputStream out = new FileOutputStream("MappingOutput" + a + ".ttl")) {
 				model.write(out, "TURTLE");
 				model.write(System.out, "TURTLE");
 			} catch (FileNotFoundException e) {
@@ -483,15 +464,51 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 			}
 
 		}
-		numberOfMatches++;
 
 		if (typeOfMapping == a) {
 			System.out.println("Number of mappings computed by LogMap: " + logmap2_mappings.size());
 			System.out.println("-----------------------------------");
 		}
 
+		/*
+		 * Set<MappingObjectStr> overEstimationOfMappings =
+		 * logmap2.getOverEstimationOfMappings(); iterator =
+		 * overEstimationOfMappings.iterator();
+		 * 
+		 * // Returns elements of the LogMap while (iterator.hasNext()) { // Generates
+		 * IRIs of matched classes // Structuralconfidence, Lexicalconfidence and
+		 * confidence values // if properties are matched MappingObjectStr next =
+		 * iterator.next(); if (next.getTypeOfMapping() == a) { String iriStrEnt1 =
+		 * next.getIRIStrEnt1(); String iriStrEnt2 = next.getIRIStrEnt2();
+		 * System.out.println("URL of ontology 1 : " + iriStrEnt1);
+		 * System.out.println("URL of ontology 2 : " + iriStrEnt2); System.out.println(
+		 * "Structural Mappings of two ontologies : " +
+		 * next.getStructuralConfidenceMapping());
+		 * System.out.println("Confidence value of the mapping : " +
+		 * next.getConfidence()); System.out.println("LexicalConfidnce of the labels:" +
+		 * next.getLexicalConfidenceMapping());
+		 * System.out.println("dataProperty in the ontologies:" +
+		 * next.isDataPropertyMapping());
+		 * System.out.println("objectProperty in the ontologies:" +
+		 * next.isObjectPropertyMapping()); // System.out.println(next.DATAPROPERTIES);
+		 * // System.out.println(next.OBJECTPROPERTIES);
+		 * 
+		 * System.out.println("Type of mapping : " + next.getTypeOfMapping()); }
+		 */
 		return model;
 
 	}
 
+	// Output file
+	/*
+	 * try (OutputStream out = new FileOutputStream("MappingOutput"+a+".ttl")) {
+	 * model.write(out, "TURTLE"); model.write(System.out, "TURTLE"); } catch
+	 * (FileNotFoundException e) { e.printStackTrace(); } catch (IOException e) {
+	 * e.printStackTrace(); }
+	 * 
+	 * } catch (Exception e) { e.printStackTrace(); }
+	 * 
+	 * 
+	 * }
+	 */
 }

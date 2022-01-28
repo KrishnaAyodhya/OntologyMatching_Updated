@@ -7,46 +7,41 @@
 @prefix owl:   <http://www.w3.org/2002/07/owl#> .
 @prefix dbnary: <http://kaiko.getalp.org/dbnary#> .
 @prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix dbnary-deu: <http://kaiko.getalp.org/dbnary/deu/> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_акция__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_3_ангажирам__Глагол__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_5_анулирам__Глагол__1>
+dbnary-deu:__tr_ara_12_Strand__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-nvarchar-literal-fn
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_отбор__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_2_акцент__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_вълнение__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_затвор__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_2_администратор__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_2_Balkon__Substantiv__1
         a       dbnary:Translation .
 
 owl:allValuesFrom  a  rdf:Property .
 
-dct:modified  a  rdf:Property , owl:AnnotationProperty .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_парабола__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_11_Trottoir__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_3_ангажирам__Глагол__1>
+dct:modified  a  rdf:Property , owl:AnnotationProperty .
+
+dbnary-deu:__tr_afr_1_null__Adjektiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Ingolstadt__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_1_schweflige_Säure__Substantiv__1
         a       dbnary:Translation .
 
 owl:disjointWith  a  rdf:Property .
+
+dbnary-deu:__tr_ara_1_Iran__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_1_Richter__Substantiv__1
+        a       dbnary:Translation .
 
 virtrdf:DefaultQuadMap-O
         a       virtrdf:QuadMapValue .
@@ -54,31 +49,28 @@ virtrdf:DefaultQuadMap-O
 rdfdf:sql-nvarchar-uri-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_1_банкет__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_befehlen__Verb__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_2_топ__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_бордей__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Sohn__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-doubleprecision-nullable
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_бесен__Прилагателно_име__1>
-        a       dbnary:Translation .
-
 owl:equivalentProperty
         a       rdf:Property .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_вътрешен__Прилагателно_име__1>
+dbnary-deu:__tr_afr_1_Banane__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_аскет__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_als_2_Periodensystem__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_5_ангажирам__Глагол__1>
+dbnary-deu:__tr_ara_1_Mut__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_15_Spargel__Substantiv__1
         a       dbnary:Translation .
 
 virtrdf:DefaultServiceMap-G-col-G
@@ -87,37 +79,31 @@ virtrdf:DefaultServiceMap-G-col-G
 rdfdf:sql-varchar-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
+dbnary-deu:__tr_ara_19_Papagei__Substantiv__1
+        a       dbnary:Translation .
+
 rdfdf:sql-datetime-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_трапец__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Halbmond__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_анулирам__Глагол__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_бюро__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Brasilien__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-date-literal
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_аромат__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ang_1_Indien__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sinv-iid-nonblank-nullable
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_1_ароматен__Прилагателно_име__1>
+dbnary-deu:__tr_ara_1_Hure__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_парà__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_пример__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_2_анулирам__Глагол__1>
+dbnary-deu:__tr_ara_17_Geburtstag__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-nvarchar-dt
@@ -126,103 +112,85 @@ rdfdf:sql-nvarchar-dt
 virtrdf:DefaultQuadStorage
         a       virtrdf:QuadStorage .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_14_анулирам__Глагол__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_1_безумен__Прилагателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_7_ангажирам__Глагол__1>
+dbnary-deu:__tr_ara_1_Berufung__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-varchar-fixedlang-x-any-nullable
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_цветен__Прилагателно_име__1>
+dbnary-deu:__tr_ara_1_Kommentar__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_2_издигам__Глагол__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_1_бесен__Прилагателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_8_анулирам__Глагол__1>
+dbnary-deu:__tr_ara_10_orange__Adjektiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-varchar-uri-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_апел__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Schwester__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_1_бесен__Прилагателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_2_вътрешен__Прилагателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_кормило__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_банкет__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_2_затвор__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_2_колело__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Russisch__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-numeric-nullable
         a       virtrdf:QuadMapFormat .
 
+dbnary-deu:__tr_ara_1_Nachbeben__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ang_6_um__Präposition__1
+        a       dbnary:Translation .
+
 rdfdf:singlepart-literal-fn-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_1_захващам__Глагол__1>
+dbnary-deu:__tr_ang_5_um__Präposition__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_арматура__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Inka__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_1_Hefe__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Ostern__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:zeropart-uri-nullable
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_темане__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Rheinland-Pfalz__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_4_затвор__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Burundi__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_шев__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Liter__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_администратор__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Italien__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Ideologie__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-longvarchar-dt
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_2_ангажирам__Глагол__1>
-        a       dbnary:Translation .
-
 rdfdf:sql-longvarchar
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_1_познавам__Глагол__1>
+dbnary-deu:__tr_ara_13_griechisch__Adjektiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_2_анулирам__Глагол__1>
+dbnary-deu:__tr_ara_15_Papagei__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_2_вълнение__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ang_1_geben__Verb__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_2_предписание__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_авария__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Acht__Substantiv__1
         a       dbnary:Translation .
 
 owl:AnnotationProperty
@@ -230,16 +198,13 @@ owl:AnnotationProperty
 
 rdfdf:sinv-nullable  a  virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_1_ароматен__Прилагателно_име__1>
+dbnary-deu:__tr_ara_1_Hoden__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_шев__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Lenz__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_4_анулирам__Глагол__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_2_волан__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Schnurrbart__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-date-nullable
@@ -247,31 +212,37 @@ rdfdf:sql-date-nullable
 
 owl:Class  a    rdfs:Class .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_3_затвор__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_amh_1_Universität__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_бозайник__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ang_1_braun__Adjektiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_акцент__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ace_1_Periodensystem__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_1_безумен__Прилагателно_име__1>
+dbnary-deu:__tr_ara_12_Trottoir__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_3_арматура__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_amh_1_Indien__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_захващам__Глагол__1>
+dbnary-deu:__tr_ara_1_Paris__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_bel_1_експанзивен__Прилагателно_име__1>
+dbnary-deu:__tr_ara_1_Dämon__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_2_вътрешен__Прилагателно_име__1>
+dbnary-deu:__tr_ara_1_Ahmad__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_2_шев__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_13_orange__Adjektiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_amh_1_Wüste__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Periodensystem__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-date-nullable-SuperFormats
@@ -286,47 +257,47 @@ rdfdf:sinv-iid-nonblank-nullable-SuperFormats
 rdfdf:sql-numeric-uri-fn
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_1_бал__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
 virtrdf:SyncToQuads  a  virtrdf:QuadStorage .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_3_познавам__Глагол__1>
+dbnary-deu:__tr_ara_1_Bruder__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_4_zeichnen__Verb__1
         a       dbnary:Translation .
 
 rdfdf:default-iid  a  virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_2_бюро__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
 owl:equivalentClass  a  rdf:Property .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_2_принадлежност__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
 
 rdfdf:sql-longnvarchar-fixedlang-x-any
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_нарочен__Прилагателно_име__1>
+dbnary-deu:__tr_afr_1_Eiche__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-longvarbinary-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_вълнение__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Magen__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_злодей__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ang_1_Aserbaidschan__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_1_акорд__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Alphabet__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_1_предписание__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Fluss__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Gänsehaut__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-nvarchar-lang
         a       virtrdf:QuadMapFormat .
+
+dbnary-deu:__tr_afr_1_Baumwolle__Substantiv__1
+        a       dbnary:Translation .
 
 rdfdf:zeropart-uri-fn-nullable
         a       virtrdf:QuadMapFormat .
@@ -334,16 +305,13 @@ rdfdf:zeropart-uri-fn-nullable
 rdfdf:sql-longnvarchar-lang
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_4_затвор__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_18_Geburtstag__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_1_бой__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Küche__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_агрегат__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_3_парабола__Съществително_нарицателно_име__1>
+<http://kaiko.getalp.org/dbnary/deu/__tr_ara_1_Ende_gut,_alles_gut__Sprichwort__1>
         a       dbnary:Translation .
 
 rdfdf:sql-numeric-literal-nullable-SuperFormats
@@ -352,19 +320,49 @@ rdfdf:sql-numeric-literal-nullable-SuperFormats
 virtrdf:DefaultServiceMap-ft-conds
         a       virtrdf:array-of-string .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_1_пример__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_13_Orange__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_затвор__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Portugiesisch__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_3_Eiche__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ang_1_Warschau__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Bleistift__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Organisation__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_13_viel__Adjektiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_11_Kunst__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Fahrt__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-longvarbinary
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_1_бюро__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Belgien__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_безсмислен__Прилагателно_име__1>
+dbnary-deu:__tr_ara_1_Herz__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_1_übersetzen__Verb__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ang_1_träumen__Verb__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Papagei__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:singlepart-literal-fn
@@ -373,10 +371,13 @@ rdfdf:singlepart-literal-fn
 virtrdf:DefaultServiceMap-ft
         a       virtrdf:QuadMapFText .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_2_колело__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_5_zeichnen__Verb__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_1_аспирация__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Kommunismus__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_18_Orange__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-varchar-uri-nullable
@@ -385,61 +386,67 @@ rdfdf:sql-varchar-uri-nullable
 rdfdf:sql-varchar-dt-nullable
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_акорд__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_3_автомат__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
 rdfdf:sql-integer-literal-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_блюдо__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_14_griechisch__Adjektiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_1_Äthiopien__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-datetime-literal-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_2_бесен__Прилагателно_име__1>
-        a       dbnary:Translation .
-
 rdfdf:sql-varchar-uri-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
+
+dbnary-deu:__tr_ara_1_Schlaf__Substantiv__1
+        a       dbnary:Translation .
 
 rdfdf:sql-date-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_вход__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Hof__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_вътрешен__Прилагателно_име__1>
+dbnary-deu:__tr_ara_1_Neptun__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_1_администратор__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Ali__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_1_анулирам__Глагол__1>
+dbnary-deu:__tr_ara_1_Indien__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_1_Schwester__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Diskussion__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ang_1_Berlin__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-datetime-literal-fn
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_4_затвор__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_2_Brandenburg__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_2_акорд__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Mais__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_1_предписание__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Pluto__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_колело__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_13_Trottoir__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_1_аромат__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_als_1_Europa__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_аспирация__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Aserbaidschan__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-time  a  virtrdf:QuadMapFormat .
@@ -447,7 +454,7 @@ rdfdf:sql-time  a  virtrdf:QuadMapFormat .
 rdfdf:sql-longnvarchar-dt-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_3_герой__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Irak__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-time-nullable
@@ -456,58 +463,67 @@ rdfdf:sql-time-nullable
 owl:SymmetricProperty
         a       rdfs:Class .
 
+dbnary-deu:__tr_ara_1_Beruf__Substantiv__1
+        a       dbnary:Translation .
+
 rdfdf:sql-time-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_мента__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Aubergine__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_1_аромат__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Papst__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_2_анализ__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_10_Acht__Substantiv__3
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_1_примирявам__Глагол__1>
+dbnary-deu:__tr_afr_1_Berliner__Adjektiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_2_блюдо__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_2_бордей__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Kredit__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:zeropart-uri-fn-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_пример__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Bauer__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_1_Tulpe__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Mauer__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Dialekt__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_6_zeichnen__Verb__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_13_Papagei__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Geige__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_2_Schwester__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-varchar-fixedlang-x-any-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_3_авария__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_13_Balkon__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_1_цветен__Прилагателно_име__1>
+dbnary-deu:__tr_ara_1_Höhe__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_1_вълнение__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_автомат__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_бал__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Bolivien__Substantiv__1
         a       dbnary:Translation .
 
 ns5:sparql  a   sd:Service .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_3_анулирам__Глагол__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_2_откачам__Глагол__1>
-        a       dbnary:Translation .
 
 rdfdf:sql-numeric-literal
         a       virtrdf:QuadMapFormat .
@@ -515,43 +531,34 @@ rdfdf:sql-numeric-literal
 virtrdf:DefaultQuadMap-S-cols
         a       virtrdf:array-of-QuadMapColumn .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_откачам__Глагол__1>
+dbnary-deu:__tr_afr_1_Tansania__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ell_1_акцент__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ang_1_Schwester__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_3_топ__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Museum__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_3_парабола__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Nest__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_колело__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_abk_1_Rad__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_2_администратор__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Indien__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_5_затвор__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Kreide__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_блюдо__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ang_1_Lenz__Substantiv__1
         a       dbnary:Translation .
 
 virtrdf:DefaultServiceMap-geo
         a       virtrdf:QuadMapFText .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_град__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_борба__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_апатичен__Прилагателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_предписание__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Taschenlampe__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-doubleprecision-uri-fn
@@ -560,72 +567,66 @@ rdfdf:sql-doubleprecision-uri-fn
 rdfdf:singlepart-uri-fn-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_примирявам__Глагол__1>
+dbnary-deu:__tr_ara_1_Architektur__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_захващам__Глагол__1>
+dbnary-deu:__tr_ara_1_Liter__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_бой__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_18_Balkon__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_2_банкет__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Abenteuer__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_блюдо__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Hummel__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_lat_1_сбит__Прилагателно_име__1>
+dbnary-deu:__tr_afr_1_lachen__Verb__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_примирявам__Глагол__1>
+dbnary-deu:__tr_ara_1_Indonesien__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_1_аскет__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Geometrie__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_3_познавам__Глагол__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_администратор__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ang_2_Schwester__Substantiv__1
         a       dbnary:Translation .
 
 virtrdf:DefaultQuadMap-O-cols
         a       virtrdf:array-of-QuadMapColumn .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_2_примирявам__Глагол__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_бой__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_bitte__Adverb__1
         a       dbnary:Translation .
 
 rdfdf:default  a  virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_1_затвор__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_7_zeichnen__Verb__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_3_акция__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Elektronegativität__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_блян__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_klein__Adjektiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_шев__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_15_griechisch__Adjektiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-longnvarchar-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_китка__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
+rdfdf:sql-nvarchar-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_hye_1_непокорен__Прилагателно_име__1>
+dbnary-deu:__tr_afr_1_Atom__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sinv-iid  a  virtrdf:QuadMapFormat .
 
-rdfdf:sql-nvarchar-literal-nullable-SuperFormats
-        a       virtrdf:array-of-QuadMapFormat .
+dbnary-deu:__tr_amh_1_Geburtstag__Substantiv__1
+        a       dbnary:Translation .
 
 rdfdf:sql-integer-uri-fn
         a       virtrdf:QuadMapFormat .
@@ -633,40 +634,52 @@ rdfdf:sql-integer-uri-fn
 rdfdf:sql-numeric-literal-fn
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_12_анулирам__Глагол__1>
+dbnary-deu:__tr_ara_1_Albtraum__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_10_zeichnen__Verb__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_13_Strand__Substantiv__1
         a       dbnary:Translation .
 
 virtrdf:DefaultServiceMap-P
         a       virtrdf:QuadMapValue .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_2_бой__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Museum__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_6_анулирам__Глагол__1>
+dbnary-deu:__tr_ara_1_Hamburg__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-varchar-literal-fn-nullable
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_1_цветен__Прилагателно_име__1>
+dbnary-deu:__tr_ang_1_Handball__Substantiv__2
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_волан__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Objekt__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ang_1_Europa__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-integer-uri-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_2_колело__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Peru__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-varchar-literal-nullable
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_нарочен__Прилагателно_име__1>
+dbnary-deu:__tr_afr_1_Universität__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_3_затвор__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Georgien__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Fleisch__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-numeric-uri
@@ -674,51 +687,60 @@ rdfdf:sql-numeric-uri
 
 owl:unionOf  a  rdf:Property .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_аскет__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_2_Gänsehaut__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_1_топ__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Eiche__Substantiv__1
         a       dbnary:Translation .
 
 rdfs:seeAlso  a  owl:AnnotationProperty .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_антре__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ang_1_fallen__Verb__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_2_блян__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Acht__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Fluor__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-nvarchar-uri
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_кормило__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Referendum__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Bart__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-doubleprecision-literal
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_принадлежност__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
 rdfdf:sql-datetime-literal
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_2_безумен__Прилагателно_име__1>
+dbnary-deu:__tr_ara_1_Dresden__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_1_Italien__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_1_Feldsteinkirche__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ang_1_Tochter__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Küche__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-date-literal-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_ключ__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_8_zeichnen__Verb__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_пример__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_1_авария__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_2_аскет__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Brombeere__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-datetime  a  virtrdf:QuadMapFormat .
@@ -729,163 +751,115 @@ virtrdf:DefaultQuadMap-pquad
 rdfdf:sql-datetime-uri-fn-nullable
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_анализ__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_3_шев__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Kohlrübe__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-nvarchar-literal-fn-nullable
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_примирявам__Глагол__1>
+dbnary-deu:__tr_afr_1_Hirsch__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_2_бордей__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_2_ароматен__Прилагателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_2_бозайник__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_11_zeichnen__Verb__1
         a       dbnary:Translation .
 
 rdfdf:sql-longvarchar-lang-nullable
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_4_шев__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_бюро__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
 owl:priorVersion  a  owl:OntologyProperty , rdf:Property .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_6_затвор__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Pädiatrie__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_китка__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Acht__Substantiv__3
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_парà__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Berlin__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_1_акцент__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_München__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_затвор__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_11_orange__Adjektiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ady_1_Fußball__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Gerste__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:singlepart-uri-fn-nullable
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_апел__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Spargel__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_3_говорител__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_2_Molekül__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_познавам__Глагол__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_3_шев__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Antonym__Substantiv__1
         a       dbnary:Translation .
 
 rdfs:isDefinedBy  a  owl:AnnotationProperty .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_качвам__Глагол__1>
+dbnary-deu:__tr_afr_1_Huf__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_ароматен__Прилагателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_бордей__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_3_намирам__Глагол__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_2_намирам__Глагол__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_авария__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_abk_1_Lenz__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-nvarchar-literal-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_аспирация__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_4_шев__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
 rdfdf:zeropart-literal-fn-nullable
         a       virtrdf:QuadMapFormat .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_2_вътрешен__Прилагателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_2_банкет__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
 
 virtrdf:DefaultServiceMap-pquad
         a       virtrdf:QuadMapATable .
 
+dbnary-deu:__tr_ara_1_Dinosaurier__Substantiv__1
+        a       dbnary:Translation .
+
 rdfdf:default-nullable
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_издигам__Глагол__1>
+dbnary-deu:__tr_afr_1_Wüste__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_борба__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_12_zeichnen__Verb__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_акцент__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Philosophie__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_2_агрегат__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_14_Spargel__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_агрегат__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_London__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ara_1_злодей__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Berlin__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_свитък__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Alkohol__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_бал__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_orange__Adjektiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_банкет__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_бордей__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_1_колело__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_18_Papagei__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-varchar-uri-fn-nullable
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_откачам__Глагол__1>
+dbnary-deu:__tr_ara_1_Orange__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-date  a  virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_откачам__Глагол__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_ангажирам__Глагол__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_2_качвам__Глагол__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_2_бесен__Прилагателно_име__1>
+dbnary-deu:__tr_amh_1_Mais__Substantiv__1
         a       dbnary:Translation .
 
 owl:imports  a  rdf:Property , owl:OntologyProperty .
@@ -893,61 +867,79 @@ owl:imports  a  rdf:Property , owl:OntologyProperty .
 rdfdf:sql-nvarchar-literal
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_3_затвор__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Portugal__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:multipart-literal-fn-nullable
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_2_блюдо__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_топ__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_ursprünglich__Adjektiv__1
         a       dbnary:Translation .
 
 virtrdf:DefaultQuadMap-G
         a       virtrdf:QuadMapValue .
 
+dbnary-deu:__tr_ara_1_Schneemann__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_1_Abdomen__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_1_Island__Substantiv__1
+        a       dbnary:Translation .
+
 rdfdf:default-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_1_бюро__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Region__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_4_ангажирам__Глагол__1>
+dbnary-deu:__tr_ara_1_Argentinien__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_1_администратор__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ang_1_Atom__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_1_бозайник__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Abendessen__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_бал__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Irak__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_als_1_Afghanistan__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:zeropart-uri-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
+dbnary-deu:__tr_afr_13_zeichnen__Verb__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Armenien__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_14_Orange__Substantiv__1
+        a       dbnary:Translation .
+
 rdfdf:sql-date-uri-fn-nullable
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_банкет__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Platz__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_2_бесен__Прилагателно_име__1>
+dbnary-deu:__tr_ara_1_Igel__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-varchar-literal-fn
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_затвор__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Dreieck__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_5_затвор__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Albanien__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_2_бесен__Прилагателно_име__1>
+dbnary-deu:__tr_ara_1_Aglossie__Substantiv__1
         a       dbnary:Translation .
 
 owl:Ontology  a  rdfs:Class .
@@ -955,16 +947,16 @@ owl:Ontology  a  rdfs:Class .
 rdfdf:sql-varchar-literal
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_принадлежност__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ang_1_frieren__Verb__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_6_ангажирам__Глагол__1>
+dbnary-deu:__tr_ara_1_Regensburg__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_издигам__Глагол__1>
+dbnary-deu:__tr_ara_1_Essen__Substantiv__2
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_бой__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Apotheke__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-varchar-dt-nullable-SuperFormats
@@ -973,131 +965,143 @@ rdfdf:sql-varchar-dt-nullable-SuperFormats
 rdfdf:sql-numeric-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_акция__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Baden-Württemberg__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_2_аромат__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_автомат__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_1_вход__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_3_качвам__Глагол__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_цветен__Прилагателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_1_шев__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Atlantik__Substantiv__1
         a       dbnary:Translation .
 
 owl:Nothing  a  owl:Class .
 
+dbnary-deu:__tr_ara_1_Etymologie__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Axiom__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_19_Orange__Substantiv__1
+        a       dbnary:Translation .
+
 rdfdf:sql-time-literal-fn
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_3_авария__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Orange__Substantiv__2
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_копнеж__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Glühwürmchen__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_анулирам__Глагол__1>
+dbnary-deu:__tr_afr_1_Prokaryot__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_герой__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Düsseldorf__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:multipart-uri-fn-nullable
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ara_1_експанзивен__Прилагателно_име__1>
+dbnary-deu:__tr_ara_1_Portugiesisch__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Hafer__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-nvarchar-uri-fn
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_откачам__Глагол__1>
-        a       dbnary:Translation .
-
 rdfdf:sql-numeric-literal-fn-nullable
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_откачам__Глагол__1>
+dbnary-deu:__tr_ara_1_Molekül__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_1_ангажирам__Глагол__1>
+dbnary-deu:__tr_ara_1_Boden__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_автомат__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Bulgarien__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_3_затвор__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_alt_1_Lenz__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_2_вход__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Schüler__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_4_герой__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_2_Geländewagen__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_2_анулирам__Глагол__1>
+dbnary-deu:__tr_ara_1_Guyana__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_1_Laser__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Balkon__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:multipart-literal-nullable
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_epo_1_град__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Motorrad__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_парабола__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Kirche__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_1_безсмислен__Прилагателно_име__1>
+dbnary-deu:__tr_ara_1_Cousin__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_5_автомат__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Europa__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_2_шев__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Religion__Substantiv__1
         a       dbnary:Translation .
 
 owl:differentFrom  a  rdf:Property .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_3_ангажирам__Глагол__1>
+dbnary-deu:__tr_afr_1_Geburtstag__Substantiv__1
         a       dbnary:Translation .
 
-rdfdf:sql-date-uri-fn
-        a       virtrdf:QuadMapFormat .
+dbnary-deu:__tr_ara_1_Algorithmus__Substantiv__1
+        a       dbnary:Translation .
 
 rdfdf:sql-date-literal-fn-nullable
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_вход__Съществително_нарицателно_име__1>
+rdfdf:sql-date-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+dbnary-deu:__tr_afr_1_Gehirn__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_2_примирявам__Глагол__1>
+dbnary-deu:__tr_ara_1_Friese__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_4_авария__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_11_Acht__Substantiv__3
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_4_качвам__Глагол__1>
+dbnary-deu:__tr_ara_1_Adam__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_1_колело__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Krankheit__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_2_принадлежност__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_14_Balkon__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-numeric-literal-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_10_анулирам__Глагол__1>
+dbnary-deu:__tr_ara_1_Neffe__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Kultur__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_1_Schweden__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Datum__Substantiv__1
         a       dbnary:Translation .
 
 virtrdf:DefaultQuadMap-S
@@ -1109,55 +1113,40 @@ rdfdf:sql-longnvarchar
 rdfdf:sql-longvarchar-lang
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_предписание__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Pinguin__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_шев__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Helsinki__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_4_анулирам__Глагол__1>
+dbnary-deu:__tr_ara_1_Karte__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_апел__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Literatur__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_2_пример__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Aserbaidschan__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_безсмислен__Прилагателно_име__1>
+dbnary-deu:__tr_ara_1_Hauptstadt__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_2_познавам__Глагол__1>
+dbnary-deu:__tr_afr_1_Hamburg__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_антика__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_нарочен__Прилагателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_1_волан__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_1_акорд__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_акция__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Bronze__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-varchar-literal-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_3_шев__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Alge__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-longnvarchar-dt-nullable
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_отбор__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_2_примирявам__Глагол__1>
+dbnary-deu:__tr_afr_3_Schneemann__Substantiv__1
         a       dbnary:Translation .
 
 owl:DeprecatedProperty
@@ -1166,147 +1155,120 @@ owl:DeprecatedProperty
 rdfdf:sql-varchar-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
+dbnary-deu:__tr_ara_1_Kurdisch__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_19_Balkon__Substantiv__1
+        a       dbnary:Translation .
+
 rdfdf:sql-nvarchar  a  virtrdf:QuadMapFormat .
+
+dbnary-deu:__tr_ara_1_Elixier__Substantiv__1
+        a       dbnary:Translation .
 
 virtrdf:DefaultServiceMap-P-cols
         a       virtrdf:array-of-QuadMapColumn .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_2_бал__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
 rdfdf:sql-longvarchar-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_безумен__Прилагателно_име__1>
+dbnary-deu:__tr_afr_2_Eiche__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_5_затвор__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_3_китка__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Medizin__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-integer-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_1_бордей__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Acht__Substantiv__3
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_2_Küche__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-doubleprecision-literal-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_парабола__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Arschloch__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_2_авария__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_1_анализ__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_zeichnen__Verb__1
         a       dbnary:Translation .
 
 rdfdf:sql-nvarchar-fixedlang-x-any-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_безумен__Прилагателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_акорд__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_волан__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Geburtstag__Substantiv__1
         a       dbnary:Translation .
 
 owl:TransitiveProperty
         a       rdfs:Class .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_2_издигам__Глагол__1>
+dbnary-deu:__tr_ara_1_Hypothese__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_2_цветен__Прилагателно_име__1>
+dbnary-deu:__tr_als_1_Hauptstadt__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Ahorn__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_1_Aids__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-integer-uri-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_1_издигам__Глагол__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_колело__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_2_блян__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_4_затвор__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Bhutan__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-datetime-literal-fn-nullable
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_2_акцент__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Karikatur__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_топ__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Bayern__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_2_цветен__Прилагателно_име__1>
+dbnary-deu:__tr_ara_12_Papagei__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_антре__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_amh_1_Gesundheit__Substantiv__1
         a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_експанзивен__Прилагателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_2_волан__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_аромат__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-rdfdf:sql-numeric-uri-nullable
-        a       virtrdf:QuadMapFormat .
 
 owl:InverseFunctionalProperty
         a       rdfs:Class .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_апатичен__Прилагателно_име__1>
+rdfdf:sql-numeric-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbnary-deu:__tr_afr_2_Geburtstag__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_4_намирам__Глагол__1>
+dbnary-deu:__tr_ara_1_Gruß__Substantiv__1
         a       dbnary:Translation .
 
 virtrdf:DefaultQuadMap-ft
         a       virtrdf:QuadMapFText .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_1_банкет__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ang_1_Kuckuck__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_1_безумен__Прилагателно_име__1>
+dbnary-deu:__tr_afr_2_Acht__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_3_намирам__Глагол__1>
+dbnary-deu:__tr_ara_10_viel__Adjektiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_2_откачам__Глагол__1>
+dbnary-deu:__tr_ara_1_Jupiter__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_ароматен__Прилагателно_име__1>
+dbnary-deu:__tr_afr_1_Türkisch__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_бесен__Прилагателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_3_копнеж__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_блян__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_анализ__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_анулирам__Глагол__1>
+dbnary-deu:__tr_ang_1_Wikiwörterbuch__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-varchar-lang-nullable-SuperFormats
@@ -1315,75 +1277,66 @@ rdfdf:sql-varchar-lang-nullable-SuperFormats
 rdfdf:sinv-iid-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_джин__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Essig__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_топ__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Führerschein__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_вълнение__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Lehrer__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_2_zeichnen__Verb__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_1_lateinisch__Adjektiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-time-uri-fn-nullable
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_примирявам__Глагол__1>
-        a       dbnary:Translation .
-
 rdfdf:sql-doubleprecision-literal-fn-nullable
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_ключ__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Huf__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_5_затвор__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_блян__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_2_бозайник__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_französisch__Adjektiv__1
         a       dbnary:Translation .
 
 virtrdf:DefaultQuadMap-atables
         a       virtrdf:array-of-QuadMapATable .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_1_бой__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ang_1_weiß__Adjektiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_вътрешен__Прилагателно_име__1>
+dbnary-deu:__tr_als_1_Periodensystem__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_принадлежност__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Osten__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-longvarchar-fixedlang-x-any-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-rdfdf:multipart-uri  a  virtrdf:QuadMapFormat .
-
 rdfdf:default-iid-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_озверявам__Глагол__1>
+dbnary-deu:__tr_amh_2_Genozid__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_2_затвор__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_1_безсмислен__Прилагателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_6_авария__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
+rdfdf:multipart-uri  a  virtrdf:QuadMapFormat .
 
 rdfdf:sql-integer-uri
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_1_парабола__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Fußball__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_1_издигам__Глагол__1>
+dbnary-deu:__tr_ara_11_viel__Adjektiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_1_wir__Personalpronomen__1
         a       dbnary:Translation .
 
 rdfdf:sql-longvarchar-fixedlang-x-any
@@ -1398,49 +1351,49 @@ rdfdf:sql-integer-literal-fn
 rdfdf:sql-longvarbinary-nullable
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_1_аскет__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Eisvogel__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_арматура__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Aachen__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_1_шев__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Rätsel__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_2_издигам__Глагол__1>
+dbnary-deu:__tr_afr_2_guten_Tag__Wortverbindung__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_бюро__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ang_4_um__Präposition__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_2_предписание__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Laser__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Pilz__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ang_3_um__Präposition__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_als_1_Armenien__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_3_zeichnen__Verb__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_1_Abfahrt__Substantiv__1
         a       dbnary:Translation .
 
 virtrdf:DefaultQuadMap-S-col-S
         a       virtrdf:QuadMapColumn .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_1_издигам__Глагол__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_2_парà__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_1_вътрешен__Прилагателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_1_ароматен__Прилагателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_1_бордей__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_2_бой__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Gesetz__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-date-literal-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_бал__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_2_Führerschein__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:zeropart-literal-nullable
@@ -1449,7 +1402,19 @@ rdfdf:zeropart-literal-nullable
 rdfdf:sql-varchar-fixedlang-x-any
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_2_авария__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Lied__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Saturn__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Erdnuss__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Algerien__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Bukarest__Substantiv__1
         a       dbnary:Translation .
 
 owl:intersectionOf  a  rdf:Property .
@@ -1457,81 +1422,78 @@ owl:intersectionOf  a  rdf:Property .
 rdfdf:sql-longvarchar-nullable
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_2_вътрешен__Прилагателно_име__1>
-        a       dbnary:Translation .
-
 rdfdf:sql-longnvarchar-fixedlang-x-any-nullable
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_вълнение__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Psychologie__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Herr__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-nvarchar-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_2_откачам__Глагол__1>
+dbnary-deu:__tr_afr_3_Geburtstag__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_2_аромат__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_dünken__Verb__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_2_акцент__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_10_Orange__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_парабола__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Bakterie__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_3_анализ__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Kirgisistan__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_бой__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_12_viel__Adjektiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_аскет__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_rund__Adjektiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_говорител__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_17_Spargel__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_1_вътрешен__Прилагателно_име__1>
+dbnary-deu:__tr_afr_1_Russisch__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_1_принадлежност__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_авария__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_amh_1_Welt__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-numeric-uri-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_кормило__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_akz_2_übersetzen__Verb__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_1_банкет__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Russland__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_akz_1_Medizin__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-doubleprecision
         a       virtrdf:QuadMapFormat .
 
+dbnary-deu:__tr_ang_1_singen__Verb__1
+        a       dbnary:Translation .
+
 rdfdf:sql-nvarchar-fixedlang-x-any-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_3_шев__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Ostern__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_блюдо__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_1_предписание__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_6_затвор__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Molekül__Substantiv__1
         a       dbnary:Translation .
 
 owl:Restriction  a  rdfs:Class .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_1_вътрешен__Прилагателно_име__1>
+dbnary-deu:__tr_ara_1_Moskau__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-integer  a  virtrdf:QuadMapFormat .
@@ -1539,103 +1501,124 @@ rdfdf:sql-integer  a  virtrdf:QuadMapFormat .
 rdfdf:sql-datetime-uri-fn
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_акцент__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_15_Orange__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Münster__Substantiv__2
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ang_1_grün__Adjektiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_1_Kambodscha__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-longvarchar-dt-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_3_парабола__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Trottoir__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_2_топ__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ang_1_Hauptstadt__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-integer-literal-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_акция__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Lettland__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sinv-iid-nonblank
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_4_качвам__Глагол__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_1_акорд__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_abk_1_Periodensystem__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-time-literal-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_бордей__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_1_блюдо__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_2_предписание__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
 owl:DataRange  a  rdfs:Class .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_2_герой__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Tochter__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_авария__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Paris__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_2_администратор__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ang_1_Stockholm__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_безсмислен__Прилагателно_име__1>
+dbnary-deu:__tr_amh_1_Papagei__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_главоч__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Nordsee__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_2_вход__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Menge__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ang_1_Hase__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_13_Spargel__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-varchar-dt-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
+dbnary-deu:__tr_afr_1_Russische_Föderation__Substantiv__1
+        a       dbnary:Translation .
+
 rdfdf:default-iid-nonblank-nullable
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_анулирам__Глагол__1>
+dbnary-deu:__tr_ara_1_Rechteck__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_hye_1_злодей__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Alge__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sinv-iid-nullable
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_безумен__Прилагателно_име__1>
+dbnary-deu:__tr_afr_1_Tsunami__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_акцент__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Nichte__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_1_tschüs__Grußformel__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_16_orange__Adjektiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-numeric  a  virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_5_герой__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Bruder__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_17_Papagei__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Schmetterling__Substantiv__1
         a       dbnary:Translation .
 
 owl:AllDifferent  a  rdfs:Class .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_1_вълнение__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Paraguay__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_банкет__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Knie__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_захващам__Глагол__1>
+dbnary-deu:__tr_akk_1_Glück__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_цветен__Прилагателно_име__1>
+dbnary-deu:__tr_ara_10_Balkon__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_1_Kommentar__Substantiv__1
         a       dbnary:Translation .
 
 owl:minCardinality  a  rdf:Property .
@@ -1646,133 +1629,124 @@ rdfdf:default-SuperFormats
 rdfdf:sql-varchar-nullable
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_4_шев__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_amh_1_Apotheke__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Kommunikation__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-longvarchar-dt-nullable
         a       virtrdf:QuadMapFormat .
 
+dbnary-deu:__tr_ara_10_Geburtstag__Substantiv__1
+        a       dbnary:Translation .
+
 rdfdf:multipart-uri-nullable
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_2_захващам__Глагол__1>
+dbnary-deu:__tr_afr_1_Nachbeben__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_5_качвам__Глагол__1>
+dbnary-deu:__tr_ara_1_Farbe__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-longnvarchar-nullable
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_2_предписание__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Frosch__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_арматура__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Heimat__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_аромат__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Blatt__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_2_принадлежност__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Eritrea__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_2_вход__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Kambodscha__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_3_автомат__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Geschichte__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-datetime-nullable
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_вход__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
 rdfs:label  a   owl:AnnotationProperty .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_непокорен__Прилагателно_име__1>
+dbnary-deu:__tr_amh_1_Rhein__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_ангажирам__Глагол__1>
+dbnary-deu:__tr_ara_15_Balkon__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Kuwait__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Bremen__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ang_1_Essig__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-doubleprecision-literal-fn
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_1_примирявам__Глагол__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_2_анализ__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ang_1_Papagei__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-doubleprecision-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_2_акорд__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Partei__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_познавам__Глагол__1>
+dbnary-deu:__tr_afr_1_Zoo__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_китка__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_1_бал__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_вълнение__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_3_познавам__Глагол__1>
+dbnary-deu:__tr_ara_1_Revolution__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-numeric-uri-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_апел__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Billard__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_въобще__Наречие__1>
+dbnary-deu:__tr_afr_1_Asien__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_бозайник__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Psychologie__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_2_трапец__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Baumwolle__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_2_парабола__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_2_Penis__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Hoffnung__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_10_Strand__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Carbonsäure__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:singlepart-uri-fn
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_акорд__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_4_китка__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_1_бой__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_2_ароматен__Прилагателно_име__1>
+dbnary-deu:__tr_als_1_Aserbaidschan__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-nvarchar-dt-nullable
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_3_топ__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_бал__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
 virtrdf:DefaultQuadMap-P
         a       virtrdf:QuadMapValue .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_3_авария__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
 
 owl:maxCardinality  a  rdf:Property .
 
@@ -1782,7 +1756,7 @@ rdfdf:sql-nvarchar-uri-SuperFormats
 rdfdf:sql-varchar-uri
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_акорд__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Russische_Föderation__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-integer-uri-nullable
@@ -1791,7 +1765,7 @@ rdfdf:sql-integer-uri-nullable
 rdfdf:sql-longnvarchar-lang-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_2_бал__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Papst__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-time-literal-nullable
@@ -1800,66 +1774,87 @@ rdfdf:sql-time-literal-nullable
 rdfdf:sql-datetime-literal-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_топ__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_amh_1_Russland__Substantiv__1
         a       dbnary:Translation .
 
 virtrdf:DefaultQuadMap
         a       virtrdf:QuadMap .
 
+dbnary-deu:__tr_afr_1_Uganda__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_1_Gänsehaut__Substantiv__1
+        a       dbnary:Translation .
+
 virtrdf:DefaultServiceMap-O
         a       virtrdf:QuadMapValue .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_1_пример__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Grammatik__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:default-iid-nonblank-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_1_аскет__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Gewürz__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_принадлежност__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Erdbeben__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_amh_1_Hefe__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-integer-uri-fn-nullable
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_3_топ__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Boulevard__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_бунар__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ang_1_Armenien__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_1_пример__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Ingenieur__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_1_блян__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_11_Geburtstag__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_2_колело__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Augsburg__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Gesundheit__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Bevölkerung__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_1_Markus__Substantiv__1
         a       dbnary:Translation .
 
 owl:oneOf  a    rdf:Property .
 
+dbnary-deu:__tr_afr_1_Kreide__Substantiv__1
+        a       dbnary:Translation .
+
 rdfdf:default-iid-nonblank
         a       virtrdf:QuadMapFormat .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_2_шев__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_4_авария__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_1_познавам__Глагол__1>
-        a       dbnary:Translation .
 
 rdfdf:sql-time-uri-fn
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_2_ароматен__Прилагателно_име__1>
+dbnary-deu:__tr_ara_11_Spargel__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_3_главоч__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_guten_Tag__Wortverbindung__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_1_Fußball__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_1_Axt__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_1_Schaf__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:default-iid-SuperFormats
@@ -1869,28 +1864,37 @@ owl:incompatibleWith  a  owl:OntologyProperty , rdf:Property .
 
 owl:DeprecatedClass  a  rdfs:Class .
 
+dbnary-deu:__tr_ara_1_Medizin__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Bach__Substantiv__1
+        a       dbnary:Translation .
+
 rdfdf:sql-nvarchar-lang-nullable
         a       virtrdf:QuadMapFormat .
 
+dbnary-deu:__tr_afr_1_Hummel__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Punkt__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_abk_1_Georgien__Substantiv__1
+        a       dbnary:Translation .
+
 owl:versionInfo  a  owl:AnnotationProperty , rdf:Property .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_1_аромат__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Alphabet__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:default-iid-nullable
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_1_авария__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Herr__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-longvarchar-fixedlang-x-any-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_джин__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_антика__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
 
 virtrdf:DefaultQuadMap-P-cols
         a       virtrdf:array-of-QuadMapColumn .
@@ -1901,47 +1905,26 @@ rdfdf:sql-nvarchar-dt-nullable-SuperFormats
 rdfdf:sql-varchar-literal-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_2_цветен__Прилагателно_име__1>
+dbnary-deu:__tr_ara_1_Meerjungfrau__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_аспирация__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Mittelfinger__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_борба__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Acht__Substantiv__2
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_1_блян__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Afghanistan__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:multipart-literal
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_блян__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_2_анализ__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_1_акцент__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_анулирам__Глагол__1>
+dbnary-deu:__tr_amh_1_Wikiwörterbuch__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-time-literal-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_1_парабола__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_1_волан__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_2_парабола__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_1_аспирация__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
 
 rdfdf:sql-integer-literal-fn-nullable
         a       virtrdf:QuadMapFormat .
@@ -1955,46 +1938,31 @@ virtrdf:DefaultQuadMap-P-col-P
 virtrdf:DefaultServiceStorage
         a       virtrdf:QuadStorage .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_3_анулирам__Глагол__1>
-        a       dbnary:Translation .
-
 rdfdf:multipart-uri-fn-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
 virtrdf:DefaultQuadMap-G-cols
         a       virtrdf:array-of-QuadMapColumn .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_15_анулирам__Глагол__1>
+dbnary-deu:__tr_ara_1_Rangierbahnhof__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_1_бюро__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Fenster__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_агрегат__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Fabrik__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-longnvarchar-lang-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_администратор__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Aubergine__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_2_аскет__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Schneemann__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_9_анулирам__Глагол__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_копнеж__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_захващам__Глагол__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_ароматен__Прилагателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_анализ__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Warschau__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-numeric-literal-nullable
@@ -2006,150 +1974,120 @@ rdfdf:multipart-literal-fn-nullable-SuperFormats
 rdfdf:sql-varchar-lang-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_2_захващам__Глагол__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_1_озверявам__Глагол__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_1_блюдо__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Flöte__Substantiv__1
         a       dbnary:Translation .
 
 virtrdf:DefaultServiceMap-atables
         a       virtrdf:array-of-QuadMapATable .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_2_вълнение__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_11_Papagei__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_намирам__Глагол__1>
+dbnary-deu:__tr_ara_1_Elektron__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_аскет__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Mönch__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_2_бюро__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Laizismus__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_трогателен__Прилагателно_име__1>
+dbnary-deu:__tr_ara_1_Kamel__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_парà__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Manier__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_волан__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Kenia__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-nvarchar-uri-fn-nullable
         a       virtrdf:QuadMapFormat .
 
+dbnary-deu:__tr_ara_1_Gefühl__Substantiv__1
+        a       dbnary:Translation .
+
 rdfdf:sql-longvarchar-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_2_познавам__Глагол__1>
+dbnary-deu:__tr_ara_1_Estland__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_трапец__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_2_Aubergine__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_ароматен__Прилагателно_име__1>
+dbnary-deu:__tr_afr_1_Kohlrübe__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_вход__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_akk_1_Tür__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_безсмислен__Прилагателно_име__1>
+dbnary-deu:__tr_afr_1_Regensburg__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_аромат__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Islamwissenschaft__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_2_цветен__Прилагателно_име__1>
+dbnary-deu:__tr_ara_12_Geburtstag__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_аскет__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Hase__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_антре__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_бюро__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_1_затвор__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_вътрешен__Прилагателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_1_принадлежност__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_безсмислен__Прилагателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_5_авария__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_11_Orange__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-longnvarchar-fixedlang-x-any-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_вътрешен__Прилагателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_ангажирам__Глагол__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_анализ__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_бесен__Прилагателно_име__1>
-        a       dbnary:Translation .
-
 virtrdf:DefaultServiceMap-S-col-S
         a       virtrdf:QuadMapColumn .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_колело__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Nordsee__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_1_затвор__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Bauer__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_безумен__Прилагателно_име__1>
+dbnary-deu:__tr_ara_1_Essigsäure__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_1_анулирам__Глагол__1>
+dbnary-deu:__tr_ara_14_orange__Adjektiv__1
         a       dbnary:Translation .
 
 rdfdf:zeropart-uri-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
+
+dbnary-deu:__tr_ara_1_Dieb__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Asien__Substantiv__1
+        a       dbnary:Translation .
 
 ns8:owl  a      owl:Ontology .
 
 rdfdf:sql-longvarchar-fixedlang-x-any-nullable
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_1_топ__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
 rdfdf:singlepart-uri-fn-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_принцеса__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_amh_1_Genozid__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_антика__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_2_акорд__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_3_Aubergine__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-varchar-fixedlang-x-any-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-owl:distinctMembers  a  rdf:Property .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_3_акция__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_16_Orange__Substantiv__1
         a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Freund__Substantiv__1
+        a       dbnary:Translation .
+
+owl:distinctMembers  a  rdf:Property .
 
 dct:created  a  rdf:Property .
 
@@ -2164,114 +2102,129 @@ rdfdf:sql-time-literal
 virtrdf:DefaultQuadMap-O-col-O
         a       virtrdf:QuadMapColumn .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_1_авария__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_2_блюдо__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_бесен__Прилагателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_1_парабола__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_автомат__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_10_Sex__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-varchar  a  virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_2_издигам__Глагол__1>
+dbnary-deu:__tr_ang_1_Schuh__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_издигам__Глагол__1>
+dbnary-deu:__tr_ara_1_Erfurt__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_3_град__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Essen__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_топ__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_miau__Interjektion__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_град__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_London__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_2_принадлежност__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Polnisch__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_главоч__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_2_Schneemann__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_1_акцент__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_amh_1_Schwiegertochter__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_2_бал__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Passau__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_2_бордей__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Orange__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_2_топ__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_2_tschüs__Grußformel__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_апатичен__Прилагателно_име__1>
+dbnary-deu:__tr_afr_1_Hauptstadt__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_hye_1_експанзивен__Прилагателно_име__1>
+dbnary-deu:__tr_afr_2_Alge__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_3_авария__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Petra__Substantiv__2
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_2_бордей__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Rumänien__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_1_познавам__Глагол__1>
+dbnary-deu:__tr_ara_1_Jordanien__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_2_вход__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_17_orange__Adjektiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_принадлежност__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Afghanistan__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_2_бой__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_19_Geburtstag__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Ecuador__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ady_1_Ahorn__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_amh_1_Trottoir__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:multipart-uri-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_шев__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Interesse__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_11_Balkon__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-datetime-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_администратор__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_2_Kohlrübe__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ron_1_почва__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_16_Spargel__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Georgien__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_1_Rhein__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-nvarchar-nullable
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_аромат__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_13_Geburtstag__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_2_банкет__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Pflicht__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_2_безсмислен__Прилагателно_име__1>
+dbnary-deu:__tr_ara_1_Onkel__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_4_копнеж__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Armenien__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_авария__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Regenwurm__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_аспирация__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Kunst__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Hänfling__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_1_Handball__Substantiv__2
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_1_Albanien__Substantiv__1
         a       dbnary:Translation .
 
 owl:complementOf  a  rdf:Property .
@@ -2279,34 +2232,43 @@ owl:complementOf  a  rdf:Property .
 rdfdf:sql-longnvarchar-dt-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_3_анализ__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Abelmoschus__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_2_банкет__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ang_1_Schaf__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Glühwürmchen__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-nvarchar-literal-nullable
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_1_вход__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_16_Balkon__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_познавам__Глагол__1>
+dbnary-deu:__tr_amh_1_Periodensystem__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_2_примирявам__Глагол__1>
+dbnary-deu:__tr_ara_1_Oheim__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_1_захващам__Глагол__1>
+dbnary-deu:__tr_afr_1_Erdbeere__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_акцент__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Hirsch__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-date-literal-fn
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_3_познавам__Глагол__1>
+dbnary-deu:__tr_amh_1_Fluss__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_amh_1_Lied__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_acf_1_Strand__Substantiv__1
         a       dbnary:Translation .
 
 owl:OntologyProperty  a  rdfs:Class .
@@ -2314,147 +2276,189 @@ owl:OntologyProperty  a  rdfs:Class .
 rdfdf:zeropart-literal-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_2_акорд__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ang_1_Religion__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_2_пример__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Wikiwörterbuch__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Betriebssystem__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sinv-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_борба__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Papier__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_1_ангажирам__Глагол__1>
+dbnary-deu:__tr_afr_1_Bach__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_11_Strand__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_1_Venus__Substantiv__1
         a       dbnary:Translation .
 
 virtrdf:DefaultQuadMap-G-col-G
         a       virtrdf:QuadMapColumn .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_3_парабола__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_12_Spargel__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_предписание__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ang_1_Gehirn__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_говорител__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Leipzig__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_3_затвор__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Balkon__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_1_волан__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Niederlande__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Sache__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Eid__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_16_Papagei__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-integer-literal-nullable
         a       virtrdf:QuadMapFormat .
 
+dbnary-deu:__tr_afr_1_Österreich__Substantiv__1
+        a       dbnary:Translation .
+
 rdfdf:sql-integer-literal
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_4_шев__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_1_вълнение__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Schreibtisch__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-datetime-literal-nullable
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_1_анализ__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Katar__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Hölle__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Logik__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_10_Kunst__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-longnvarchar-fixedlang-x-any-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_бордей__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ang_1_Russland__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_бунар__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_2_Glühwürmchen__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Fuß__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_1_Neffe__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_amh_1_Tansania__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_1_Ritter__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:zeropart-uri  a  virtrdf:QuadMapFormat .
 
+dbnary-deu:__tr_ara_14_Strand__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_1_null__Numerale__1
+        a       dbnary:Translation .
+
 rdfdf:multipart-literal-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_1_анулирам__Глагол__1>
+dbnary-deu:__tr_afr_3_Kohlrübe__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_13_анулирам__Глагол__1>
+dbnary-deu:__tr_ara_1_Held__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_трапец__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_14_Geburtstag__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_2_безсмислен__Прилагателно_име__1>
+dbnary-deu:__tr_afr_2_Kreide__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_7_анулирам__Глагол__1>
+dbnary-deu:__tr_ara_1_Billard__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-longnvarchar-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_2_познавам__Глагол__1>
+dbnary-deu:__tr_ara_1_Richter__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_ангажирам__Глагол__1>
+dbnary-deu:__tr_ara_1_Portugal__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_afr_1_експанзивен__Прилагателно_име__1>
+dbnary-deu:__tr_amh_1_Papst__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_предписание__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_качвам__Глагол__1>
+dbnary-deu:__tr_ara_1_Ozean__Substantiv__1
         a       dbnary:Translation .
 
 dct:extent  a   rdf:Property .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_цветен__Прилагателно_име__1>
+dbnary-deu:__tr_afr_1_Strand__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_1_безсмислен__Прилагателно_име__1>
+dbnary-deu:__tr_ara_1_Bahrain__Substantiv__1
         a       dbnary:Translation .
 
 owl:someValuesFrom  a  rdf:Property .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_агрегат__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Geschmack__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sinv-iid-nonblank-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_2_безумен__Прилагателно_име__1>
+dbnary-deu:__tr_afr_2_Hummel__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:zeropart-literal-fn-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_банкет__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Island__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Bangladesch__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_9_zeichnen__Verb__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_16_griechisch__Adjektiv__1
         a       dbnary:Translation .
 
 virtrdf:DefaultServiceMap-geo-conds
         a       virtrdf:array-of-string .
 
+dbnary-deu:__tr_afr_1_Wirtschaft__Substantiv__1
+        a       dbnary:Translation .
+
 owl:inverseOf  a  rdf:Property .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_издигам__Глагол__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_3_парабола__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_намирам__Глагол__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_1_откачам__Глагол__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_намирам__Глагол__1>
+dbnary-deu:__tr_afr_2_Herr__Substantiv__1
         a       dbnary:Translation .
 
 owl:backwardCompatibleWith
@@ -2463,106 +2467,97 @@ owl:backwardCompatibleWith
 virtrdf:DefaultServiceMap
         a       virtrdf:QuadMap .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_1_бал__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
 rdfdf:zeropart-literal-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_1_бесен__Прилагателно_име__1>
+dbnary-deu:__tr_ara_10_griechisch__Adjektiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_1_Geländewagen__Substantiv__1
         a       dbnary:Translation .
 
 owl:DatatypeProperty  a  rdfs:Class .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_апатичен__Прилагателно_име__1>
-        a       dbnary:Translation .
-
 owl:Thing  a    owl:Class .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_2_шев__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Ungarn__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ang_1_Wal__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:default-iid-nonblank-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_2_китка__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Literatur__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-nvarchar-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_2_блян__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Estland__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-longnvarchar-lang-nullable
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_3_анулирам__Глагол__1>
+dbnary-deu:__tr_ara_1_Palladium__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_1_принадлежност__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Apotheke__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_2_парабола__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Dieb__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ara_1_непокорен__Прилагателно_име__1>
+dbnary-deu:__tr_ara_1_Automobil__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_2_топ__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Rhombus__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Reggae__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_1_Brandenburg__Substantiv__1
         a       dbnary:Translation .
 
 owl:cardinality  a  rdf:Property .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_3_авария__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
 rdfdf:sinv-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_16_анулирам__Глагол__1>
+dbnary-deu:__tr_afr_1_Weihnachtsbaum__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_2_безсмислен__Прилагателно_име__1>
+dbnary-deu:__tr_afr_1_Penis__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_1_агрегат__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Hase__Substantiv__3
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_волан__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_12_orange__Adjektiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_2_пример__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Papagei__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_1_колело__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_gewinnen__Verb__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_2_безумен__Прилагателно_име__1>
+dbnary-deu:__tr_afr_1_Bayern__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_качвам__Глагол__1>
+dbnary-deu:__tr_akz_1_übersetzen__Verb__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_2_главоч__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Orange__Substantiv__2
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_2_бюро__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Amsel__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_говорител__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_2_затвор__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_захващам__Глагол__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_бой__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_познавам__Глагол__1>
+dbnary-deu:__tr_amh_1_Burundi__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-nvarchar-fixedlang-x-any
@@ -2574,192 +2569,231 @@ rdfdf:sql-nvarchar-lang-nullable-SuperFormats
 owl:FunctionalProperty
         a       rdfs:Class .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_2_бал__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Oder__Substantiv__2
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_волан__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_3_Glühwürmchen__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_1_Sirup__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Rhein__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-doubleprecision-literal-nullable
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_аспирация__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
 virtrdf:DefaultServiceMap-P-col-P
         a       virtrdf:QuadMapColumn .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_пример__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Religion__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_администратор__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Niederlande__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_антре__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_10_Spargel__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_1_анализ__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Hefe__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_3_топ__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Lehrer__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_3_познавам__Глагол__1>
+dbnary-deu:__tr_ara_1_Europa__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_15_Geburtstag__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ang_2_um__Präposition__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_4_Kohlrübe__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ang_1_um__Präposition__1
         a       dbnary:Translation .
 
 owl:ObjectProperty  a  rdfs:Class .
 
+dbnary-deu:__tr_ang_1_Rhein__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_1_Chile__Substantiv__1
+        a       dbnary:Translation .
+
 virtrdf:DefaultServiceMap-G
         a       virtrdf:QuadMapValue .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_издигам__Глагол__1>
-        a       dbnary:Translation .
 
 rdfdf:sql-numeric-uri-fn-nullable
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_вход__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Lebensmittel__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_1_откачам__Глагол__1>
+dbnary-deu:__tr_ara_14_Papagei__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_12_Orange__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-varchar-lang-nullable
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_5_затвор__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_amh_1_Warschau__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_колело__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_2_аромат__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_2_кормило__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_2_бюро__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_бюро__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-rdfdf:sql-varchar-lang
-        a       virtrdf:QuadMapFormat .
-
-rdfdf:sinv  a   virtrdf:QuadMapFormat .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_3_качвам__Глагол__1>
+dbnary-deu:__tr_ara_1_Gehirn__Substantiv__1
         a       dbnary:Translation .
 
 virtrdf:DefaultServiceMap-S-cols
         a       virtrdf:array-of-QuadMapColumn .
 
+rdfdf:sql-varchar-lang
+        a       virtrdf:QuadMapFormat .
+
 rdfdf:sql-time-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sinv  a   virtrdf:QuadMapFormat .
+
+dbnary-deu:__tr_afr_1_Periodensystem__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_1_Rangierbahnhof__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_2_gewinnen__Verb__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_1_Quacksalberei__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ang_1_Adalbert__Substantiv__1
+        a       dbnary:Translation .
 
 rdfdf:sql-doubleprecision-literal-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_2_безумен__Прилагателно_име__1>
+dbnary-deu:__tr_amh_2_Kirche__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_3_топ__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Antarktis__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_2_анулирам__Глагол__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_1_откачам__Глагол__1>
+dbnary-deu:__tr_ara_15_orange__Adjektiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-longvarbinary-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_парабола__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ang_1_backen__Verb__1
         a       dbnary:Translation .
 
 virtrdf:DefaultServiceStorage-UserMaps
         a       virtrdf:array-of-QuadMap .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_бозайник__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Helsinki__Substantiv__1
         a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_пример__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-rdfdf:sql-time-literal-fn-nullable
-        a       virtrdf:QuadMapFormat .
 
 rdfdf:sql-varchar-uri-fn
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_цветен__Прилагателно_име__1>
+rdfdf:sql-time-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbnary-deu:__tr_afr_1_Stockholm__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_17_Orange__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_11_griechisch__Adjektiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_1_Aachen__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Hausaufgabe__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Dattel__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Morgen__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:singlepart-literal-fn-nullable
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ell_2_акцент__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_акорд__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_нарочен__Прилагателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_1_захващам__Глагол__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_1_цветен__Прилагателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_1_бозайник__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
 virtrdf:DefaultServiceMap-O-cols
         a       virtrdf:array-of-QuadMapColumn .
+
+dbnary-deu:__tr_ara_1_Kataster__Substantiv__1
+        a       dbnary:Translation .
 
 rdfdf:sinv-iid-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
+dbnary-deu:__tr_ara_1_Rad__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_10_Trottoir__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_10_Papagei__Substantiv__1
+        a       dbnary:Translation .
+
 rdfdf:sql-nvarchar-dt-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_3_шев__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ang_1_lachen__Verb__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_1_Algerien__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-longnvarchar-dt
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_град__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_1_администратор__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Großmutter__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-nvarchar-fixedlang-x-any-nullable
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_анализ__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_свитък__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Belgien__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-doubleprecision-uri-fn-nullable
         a       virtrdf:QuadMapFormat .
 
+dbnary-deu:__tr_afr_3_gewinnen__Verb__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_2_Orange__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Programmiersprache__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_amh_1_Äthiopien__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_3_tschüs__Grußformel__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_1_Bakterie__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_ara_1_Kasachstan__Substantiv__1
+        a       dbnary:Translation .
+
 rdfdf:sql-doubleprecision-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_познавам__Глагол__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_4_автомат__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
 
 virtrdf:DefaultServiceMap-O-col-O
         a       virtrdf:QuadMapColumn .
@@ -2767,25 +2801,34 @@ virtrdf:DefaultServiceMap-O-col-O
 rdfdf:sql-integer-nullable
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_2_затвор__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Briefmarke__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_арматура__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Brunei__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_1_блюдо__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_gut__Adjektiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_2_пример__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Russland__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_1_вход__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_12_Balkon__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_1_Dattel__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_amh_1_Söldner__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-nvarchar-uri-nullable
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_2_град__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Brandenburg__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_5_Kohlrübe__Substantiv__1
         a       dbnary:Translation .
 
 owl:sameAs  a   rdf:Property .
@@ -2793,7 +2836,7 @@ owl:sameAs  a   rdf:Property .
 rdfdf:multipart-uri-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_5_авария__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_16_Geburtstag__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-nvarchar-lang-SuperFormats
@@ -2801,6 +2844,9 @@ rdfdf:sql-nvarchar-lang-SuperFormats
 
 virtrdf:DefaultQuadMap-geo
         a       virtrdf:QuadMapFText .
+
+dbnary-deu:__tr_amh_1_Tulpe__Substantiv__1
+        a       dbnary:Translation .
 
 owl:onProperty  a  rdf:Property .
 
@@ -2812,28 +2858,22 @@ virtrdf:DefaultServiceMap-S
 rdfdf:zeropart-literal
         a       virtrdf:QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_главоч__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Fluss__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:multipart-literal-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_3_анулирам__Глагол__1>
+dbnary-deu:__tr_ara_17_Balkon__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_затвор__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_4_затвор__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_2_парабола__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_amh_1_Aids__Substantiv__1
         a       dbnary:Translation .
 
 virtrdf:DefaultQuadStorage-UserMaps
         a       virtrdf:array-of-QuadMap .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_1_шев__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Lettland__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:singlepart-literal-fn-nullable-SuperFormats
@@ -2843,83 +2883,44 @@ owl:hasValue  a  rdf:Property .
 
 rdfs:Class  a   owl:Class .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_2_бой__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_2_авария__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
 virtrdf:SyncToQuads-UserMaps
         a       virtrdf:array-of-QuadMap .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_rus_2_познавам__Глагол__1>
+dbnary-deu:__tr_ara_1_Essig__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_примирявам__Глагол__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_2_аромат__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_ангажирам__Глагол__1>
+dbnary-deu:__tr_ara_1_Banane__Substantiv__1
         a       dbnary:Translation .
 
 virtrdf:DefaultServiceMap-G-cols
         a       virtrdf:array-of-QuadMapColumn .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_бозайник__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
 rdfdf:sql-longvarchar-lang-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_1_бордей__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_1_Mais__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_1_топ__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_anal__Adjektiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_3_блян__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Donau__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_1_блюдо__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_ara_12_griechisch__Adjektiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_блян__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_предписание__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_1_примирявам__Глагол__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_2_захващам__Глагол__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_1_безумен__Прилагателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_2_авария__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_fra_3_анализ__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_deu_2_ароматен__Прилагателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_spa_2_акцент__Съществително_нарицателно_име__1>
-        a       dbnary:Translation .
-
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_11_анулирам__Глагол__1>
+dbnary-deu:__tr_afr_1_Führerschein__Substantiv__1
         a       dbnary:Translation .
 
 rdfdf:sql-longvarchar-dt-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_ita_2_волан__Съществително_нарицателно_име__1>
+dbnary-deu:__tr_afr_1_Ostsee__Substantiv__1
         a       dbnary:Translation .
 
-<http://kaiko.getalp.org/dbnary/bul/__tr_eng_2_бесен__Прилагателно_име__1>
+dbnary-deu:__tr_afr_1_Gesundheit__Substantiv__1
+        a       dbnary:Translation .
+
+dbnary-deu:__tr_afr_1_München__Substantiv__1
         a       dbnary:Translation .

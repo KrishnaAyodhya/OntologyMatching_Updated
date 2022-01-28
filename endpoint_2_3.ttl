@@ -69,8 +69,6 @@ gvp:aat2203_associated_with
 aat:300129788-list-300129789
         a       rdf:List .
 
-[ a       rdf:List ] .
-
 skos:relatedMatch  a  owl:SymmetricProperty , rdf:Property .
 
 gvp:aat2878_preceded-source_for
@@ -82,10 +80,14 @@ schema:foundationLocation
 aat:300179538-list-300225875
         a       rdf:List .
 
+[ a       rdf:List ] .
+
 iso:SplitNonPreferredTerm
         a       rdfs:Class .
 
 dct:modified  a  rdf:Property .
+
+[ a       rdf:List ] .
 
 aat:300106792-list-300020661
         a       rdf:List .
@@ -98,14 +100,12 @@ aat:300020854-list-300020851
 
 owl:disjointWith  a  rdf:Property .
 
-aat:300107699-list-300019601
-        a       rdf:List .
-
 cc:license  a   rdf:Property .
 
 rdf:Seq  a      rdfs:Class .
 
-[ a       ptop:PropChain ] .
+aat:300107699-list-300019601
+        a       rdf:List .
 
 gvp:ulan1309_advisor_of
         a       rdf:Property .
@@ -115,8 +115,6 @@ aat:300020353-list-300020355
 
 aat:300016641-list-300016642
         a       rdf:List .
-
-[ a       ptop:PropChain ] .
 
 ptop:TypeRestr  a  rdfs:Class .
 
@@ -175,6 +173,8 @@ aat:300019201-list-300019202
 aat:300210941-list-300233429
         a       rdf:List .
 
+[ a       ptop:PropChain ] .
+
 skos:notation  a  rdf:Property .
 
 gvp:tgn3104_is_location_of
@@ -193,8 +193,6 @@ skos:ConceptScheme  a  rdfs:Class .
 
 aat:300015682-list-300015683
         a       rdf:List .
-
-[ a       rdf:List ] .
 
 gvp:ulan2575_directed_by
         a       rdf:Property .
@@ -237,6 +235,8 @@ aat:300055633-list-300378912
 aat:300065299-list-300055815
         a       rdf:List .
 
+[ a       rdfs:Class ] .
+
 aat:300016617-list-300386138
         a       rdf:List .
 
@@ -264,13 +264,11 @@ foaf:name  a    rdf:Property .
 aat:300105686-list-300021091
         a       rdf:List .
 
-gvp:ulan1554_adoptive_parent_of
-        a       rdf:Property .
-
 owl:AllDisjointClasses
         a       rdfs:Class .
 
-[ a       rdf:List ] .
+gvp:ulan1554_adoptive_parent_of
+        a       rdf:Property .
 
 gvp:ulan1541_spouse_of
         a       owl:SymmetricProperty , rdf:Property .
@@ -347,8 +345,6 @@ gvp:aat2900_miscellaneous_relationship
 aat:300020760-list-300106913
         a       rdf:List .
 
-[ a       ptop:PropChain ] .
-
 aat:300194586-list-300191358
         a       rdf:List .
 
@@ -399,8 +395,6 @@ aat:300023505-list-300023508
 
 gvp:placeTypeNonPreferred
         a       rdf:Property .
-
-[ a       ptop:PropChain ] .
 
 schema:elevation  a  rdf:Property .
 
@@ -472,6 +466,8 @@ ptop:restriction  a  rdf:Property .
 aat:300016652-list-300016657
         a       rdf:List .
 
+[ a       rdf:List ] .
+
 gvp:ulan1222_appointee_of
         a       rdf:Property .
 
@@ -490,7 +486,11 @@ aat:300002098-list-300131140
 aat:300016967-list-300016970
         a       rdf:List .
 
+[ a       rdf:List ] .
+
 void:classPartition  a  rdf:Property .
+
+[ a       ptop:PropChain ] .
 
 gvp:aat2849_involves  a  rdf:Property .
 
@@ -499,8 +499,6 @@ skos:narrowerTransitive
 
 aat:300056130-list-300056134
         a       rdf:List .
-
-[ a       rdf:List ] .
 
 aat:300046300-list-300127008
         a       rdf:List .
@@ -514,8 +512,6 @@ gvp:aat2807_derived_from_common_source
 aat:300017001-list-300017005
         a       rdf:List .
 
-[ a       ptop:PropChain ] .
-
 aat:300028051-list-300220521
         a       rdf:List .
 
@@ -526,6 +522,8 @@ bio:Event  a    rdfs:Class .
 
 aat:300016685-list-300016686
         a       rdf:List .
+
+[ a       rdf:List ] .
 
 gvp:Hierarchy  a  rdfs:Class .
 
@@ -565,12 +563,12 @@ gvp:aat2884_involved_with
 gvp:ulan1412_predecessor_of
         a       rdf:Property .
 
-[ a       ptop:PropChain ] .
-
 gvp:ulan2676_teacher_at
         a       rdf:Property .
 
 owl:unionOf  a  rdf:Property .
+
+[ a       rdf:List ] .
 
 gvp:ulan2829_student_was
         a       rdf:Property .
@@ -606,6 +604,8 @@ gvp:aat2803_example_of
 skos:OrderedCollection
         a       rdfs:Class .
 
+[ a       rdf:List ] .
+
 gvp:aat2285_practiced-studied_by
         a       rdf:Property .
 
@@ -623,6 +623,8 @@ prov:used  a    rdf:Property .
 
 gvp:ulan1582_ancestor_of
         a       rdf:Property .
+
+[ a       ptop:PropChain ] .
 
 gvp:Infer_isoBroaderGeneric
         a       ptop:PropRestr .
@@ -794,6 +796,8 @@ aat:300129747-list-300129759
 aat:300126079-list-300126082
         a       rdf:List .
 
+[ a       ptop:PropChain ] .
+
 gvp:ulan1573_ward_of  a  rdf:Property .
 
 gvp:aat2206_caused_by-requires
@@ -934,9 +938,9 @@ skos:Concept  a  rdfs:Class .
 aat:300128590-list-300128597
         a       rdf:List .
 
-bibo:DocumentPart  a  rdfs:Class .
-
 [ a       rdf:List ] .
+
+bibo:DocumentPart  a  rdfs:Class .
 
 gvp:aat2428_produces  a  rdf:Property .
 
@@ -980,19 +984,15 @@ gvp:tgn3510_historical_connection
 aat:300037680-list-300048628
         a       rdf:List .
 
-aat:300037592-list-300037593
-        a       rdf:List .
-
 gvp:ulan1218_employee_was
         a       rdf:Property .
 
-[ a       rdf:List ] .
+aat:300037592-list-300037593
+        a       rdf:List .
 
 skos:altLabel  a  rdf:Property .
 
 foaf:nick  a    rdf:Property .
-
-[ a       ptop:PropChain ] .
 
 gvp:aat2829_used-required_for
         a       rdf:Property .
@@ -1080,8 +1080,6 @@ aat:300264897-list-300018409
 
 gvp:aat2326_create  a  rdf:Property .
 
-[ a       rdfs:Class ] .
-
 aat:300015647-list-300262582
         a       rdf:List .
 
@@ -1120,8 +1118,6 @@ aat:300017399-list-300017400
 
 gvp:aat2845_used-located_in
         a       rdf:Property .
-
-[ a       ptop:PropChain ] .
 
 aat:300164603-list-300056242
         a       rdf:List .
@@ -1165,6 +1161,8 @@ gvp:aat2505_locus-setting_for
 
 gvp:broaderGeneric  a  rdf:Property .
 
+[ a       ptop:PropChain ] .
+
 gvp:aat2828_use-require
         a       rdf:Property .
 
@@ -1199,28 +1197,30 @@ skos:definition  a  rdf:Property .
 
 bibo:locator  a  rdf:Property .
 
-[ a       rdfs:Class ] .
-
 gvp:ulan2841_performer_was
         a       rdf:Property .
-
-[ a       rdf:List ] .
 
 gvp:ulan1211_artist_to
         a       rdf:Property .
 
 gvp:estStart  a  rdf:Property .
 
-[ a       ptop:PropChain ] .
-
 aat:300311120-list-300130257
         a       rdf:List .
+
+[ a       rdf:List ] .
 
 gvp:tgn3102_coextensive_with
         a       owl:SymmetricProperty , rdf:Property .
 
+[ a       rdf:List ] .
+
 gvp:aat2815_composed_of
         a       rdf:Property .
+
+[ a       ptop:PropChain ] .
+
+[ a       rdfs:Class ] .
 
 aat:300266513-list-300266512
         a       rdf:List .
@@ -1245,6 +1245,8 @@ gvp:placeTypePreferred
 gvp:aat2398_focuses_on
         a       rdf:Property .
 
+[ a       ptop:PropChain ] .
+
 aat:300020276-list-300020279
         a       rdf:List .
 
@@ -1253,8 +1255,6 @@ aat:300017008-list-300017006
 
 aat:300017280-list-300017299
         a       rdf:List .
-
-[ a       rdf:List ] .
 
 aat:300229483-list-300263228
         a       rdf:List .
@@ -1276,6 +1276,8 @@ aat:300194694-list-300191372
 aat:300106723-list-300106724
         a       rdf:List .
 
+[ a       ptop:PropChain ] .
+
 gvp:aat2562_locus-setting_for
         a       rdf:Property .
 
@@ -1296,7 +1298,7 @@ aat:300019106-list-300019107
 
 gvp:Subject  a  rdfs:Class .
 
-[ a       ptop:PropChain ] .
+[ a       rdf:List ] .
 
 aat:300016636-list-300016637
         a       rdf:List .
@@ -1308,10 +1310,6 @@ gvp:aat2419_used_for  a  rdf:Property .
 wgs:SpatialThing  a  rdfs:Class .
 
 gvp:aat2416_requires  a  rdf:Property .
-
-[ a       ptop:PropChain ] .
-
-[ a       rdf:List ] .
 
 schema:Event  a  rdfs:Class .
 
@@ -1345,12 +1343,12 @@ gvp:aat2814_constituent_of
 aat:300107202-list-300020256
         a       rdf:List .
 
-[ a       ptop:PropChain ] .
-
 aat:300189814-list-300223178
         a       rdf:List .
 
 schema:nationality  a  rdf:Property .
+
+[ a       ptop:PropChain ] .
 
 aat:300127575-list-300127576
         a       rdf:List .
@@ -1426,7 +1424,7 @@ gvp:ulan2828_student_at
 gvp:ulan1521_cousin_of
         a       owl:SymmetricProperty , rdf:Property .
 
-[ a       rdfs:Class ] .
+[ a       rdf:List ] .
 
 gvp:ulan2584_chaired_by
         a       rdf:Property .
@@ -1450,7 +1448,7 @@ gvp:tgn3005_possibly_identified_as
 gvp:ulan1322_school_was
         a       rdf:Property .
 
-[ a       rdf:List ] .
+[ a       ptop:PropChain ] .
 
 gvp:aat2211_produce  a  rdf:Property .
 
@@ -1470,6 +1468,8 @@ gvp:aat2415_required_for
 gvp:aat2335_associated_with
         a       rdf:Property .
 
+[ a       ptop:PropChain ] .
+
 gvp:aat2809_coexisted_with
         a       owl:SymmetricProperty , rdf:Property .
 
@@ -1482,13 +1482,17 @@ aat:300003230-list-300073815
 aat:300001332-list-300001337
         a       rdf:List .
 
+[ a       rdfs:Class ] .
+
 gvp:ulan2696_leader_of
         a       rdf:Property .
 
-gvp:aat2853_involve  a  rdf:Property .
-
 aat:300016697-list-300016698
         a       rdf:List .
+
+gvp:aat2853_involve  a  rdf:Property .
+
+[ a       rdfs:Class ] .
 
 skos:mappingRelation  a  rdf:Property .
 
@@ -1509,8 +1513,6 @@ gvp:aat2852_involved_with
 aat:300404264-list-300404265
         a       rdf:List .
 
-[ a       rdf:List ] .
-
 void:entities  a  rdf:Property .
 
 aat:300021516-list-300264429
@@ -1527,6 +1529,8 @@ aat:300042513-list-300195429
 schema:deathPlace  a  rdf:Property .
 
 wgs:long  a     rdf:Property .
+
+[ a       rdf:List ] .
 
 aat:300107629-list-300019576
         a       rdf:List .
@@ -1572,17 +1576,17 @@ dc:format  a    rdf:Property .
 aat:300013533-list-300013535
         a       rdf:List .
 
-[ a       rdf:List ] .
-
 gvp:aat2425_produces  a  rdf:Property .
 
 gvp:aat2601_possessed_by-existing_in
         a       rdf:Property .
 
-skos:scopeNote  a  rdf:Property .
-
 gvp:aat2558_reflected_in
         a       rdf:Property .
+
+skos:scopeNote  a  rdf:Property .
+
+[ a       ptop:PropChain ] .
 
 aat:300106920-list-300106924
         a       rdf:List .
@@ -1622,6 +1626,8 @@ aat:300245451-list-300245805
 aat:300232781-list-300232786
         a       rdf:List .
 
+[ a       rdf:List ] .
+
 aat:300041273-list-300178549
         a       rdf:List .
 
@@ -1647,8 +1653,6 @@ gvp:ulan1101_teacher_of
 
 gvp:aat2882_reflect  a  rdf:Property .
 
-[ a       ptop:PropChain ] .
-
 aat:300000202-list-300000203
         a       rdf:List .
 
@@ -1671,6 +1675,8 @@ gvp:ulan2650_publisher_was
 
 gvp:aat2321_used_by  a  rdf:Property .
 
+[ a       rdf:List ] .
+
 schema:GeoShape  a  rdfs:Class .
 
 schema:description  a  rdf:Property .
@@ -1687,8 +1693,6 @@ rdf:Bag  a      rdfs:Class .
 
 aat:300212527-list-300220406
         a       rdf:List .
-
-[ a       rdf:List ] .
 
 aat:300259074-list-300310172
         a       rdf:List .
@@ -1776,9 +1780,6 @@ gvp:aat2817_derived-made_from
 owl:qualifiedCardinality
         a       rdf:Property .
 
-aat:300017120-list-300017121
-        a       rdf:List .
-
 gvp:ulan2578_trustee_of
         a       rdf:Property .
 
@@ -1788,7 +1789,8 @@ aat:300011183-list-300011185
 aat:300010797-list-300010799
         a       rdf:List .
 
-[ a       rdf:List ] .
+aat:300017120-list-300017121
+        a       rdf:List .
 
 gvp:aat2612_possessed_by-existing_in
         a       rdf:Property .
@@ -1858,12 +1860,16 @@ aat:300001892-list-300001894
 aat:300106660-list-300018567
         a       rdf:List .
 
+[ a       rdf:List ] .
+
 gvp:parentStringAbbrev
         a       rdf:Property .
 
 dct:creator  a  rdf:Property .
 
 gvp:tgn3402_moved_to  a  rdf:Property .
+
+[ a       ptop:PropChain ] .
 
 gvp:broaderPreferredExtended
         a       rdf:Property .
@@ -1872,13 +1878,11 @@ skos:changeNote  a  rdf:Property .
 
 gvp:tgn3301_ally_of  a  owl:SymmetricProperty , rdf:Property .
 
-aat:300108579-list-300015733
-        a       rdf:List .
-
 gvp:ulan1318_member_was
         a       rdf:Property .
 
-[ a       rdf:List ] .
+aat:300108579-list-300015733
+        a       rdf:List .
 
 void:classes  a  rdf:Property .
 
@@ -1901,8 +1905,6 @@ gvp:biography  a  rdf:Property .
 void:class  a   rdf:Property .
 
 wgs:alt  a      rdf:Property .
-
-[ a       ptop:PropChain ] .
 
 aat:300024341-list-300024347
         a       rdf:List .
@@ -1935,8 +1937,6 @@ aat:300259362-list-300259363
 
 aat:300020079-list-300020080
         a       rdf:List .
-
-[ a       rdf:List ] .
 
 gvp:tgn3006_formerly_identified_as
         a       owl:SymmetricProperty .
@@ -2072,8 +2072,6 @@ skos:broaderTransitive
 gvp:ulan1542_consort_of
         a       rdf:Property .
 
-[ a       rdf:List ] .
-
 aat:300227809-list-300227810
         a       rdf:List .
 
@@ -2092,6 +2090,8 @@ dct:language  a  rdf:Property .
 gvp:broaderInstantialExtended
         a       rdf:Property .
 
+[ a       rdf:List ] .
+
 aat:300019576-list-300019577
         a       rdf:List .
 
@@ -2100,6 +2100,8 @@ gvp:Infer_broaderPreferredExtended
 
 aat:300192630-list-300191997
         a       rdf:List .
+
+[ a       rdfs:Class ] .
 
 aat:300015668-list-300015669
         a       rdf:List .
@@ -2114,8 +2116,6 @@ gvp:aat2848_involved_in
         a       rdf:Property .
 
 dct:description  a  rdf:Property .
-
-[ a       rdfs:Class ] .
 
 gvp:termKind  a  rdf:Property .
 
@@ -2169,8 +2169,6 @@ skos:inScheme  a  rdf:Property .
 gvp:ulan1205_client_of
         a       rdf:Property .
 
-[ a       rdf:List ] .
-
 dc:date  a      rdf:Property .
 
 gvp:ulan1308_assisted_by
@@ -2194,8 +2192,6 @@ gvp:ulan1314_partner_was
 
 gvp:ulan1306_performs_with
         a       owl:SymmetricProperty , rdf:Property .
-
-[ a       rdf:List ] .
 
 aat:300232962-list-300232963
         a       rdf:List .
@@ -2230,11 +2226,13 @@ rdf:Alt  a      rdfs:Class .
 aat:300019942-list-300107778
         a       rdf:List .
 
+aat:300020537-list-300107343
+        a       rdf:List .
+
 gvp:Infer_isoBroaderInstantial
         a       ptop:PropRestr .
 
-aat:300020537-list-300107343
-        a       rdf:List .
+[ a       rdf:List ] .
 
 gvp:ulan1413_administration_overlaps_with
         a       owl:SymmetricProperty , rdf:Property .
@@ -2290,17 +2288,15 @@ aat:300010269-list-300056297
 gvp:ulan2778_owner_of
         a       rdf:Property .
 
-[ a       rdf:List ] .
-
 owl:cardinality  a  rdf:Property .
 
 aat:300310284-list-300310656
         a       rdf:List .
 
-[ a       rdf:List ] .
-
 aat:300020656-list-300379854
         a       rdf:List .
+
+[ a       rdf:List ] .
 
 aat:300020541-list-300107346
         a       rdf:List .
@@ -2312,8 +2308,6 @@ aat:300013332-list-300013333
 
 owl:FunctionalProperty
         a       rdfs:Class .
-
-[ a       ptop:PropChain ] .
 
 iso:broaderGeneric  a  rdf:Property .
 
@@ -2348,6 +2342,8 @@ gvp:ulan1303_collaborated_with
 aat:300000283-list-300000316
         a       rdf:List .
 
+[ a       rdf:List ] .
+
 aat:300263527-list-300263528
         a       rdf:List .
 
@@ -2363,8 +2359,6 @@ aat:300127748-list-300127750
 
 aat:300106580-list-300018529
         a       rdf:List .
-
-[ a       rdf:List ] .
 
 gvp:nationalityNonPreferred
         a       rdf:Property .
@@ -2389,6 +2383,8 @@ gvp:aat2408_locus-setting_for
 
 aat:300006084-list-300006085
         a       rdf:List .
+
+[ a       ptop:PropChain ] .
 
 gvp:aat2329_involves  a  rdf:Property .
 
@@ -2423,6 +2419,8 @@ aat:300006495-list-300252225
 gvp:ulan1108_influenced_by
         a       rdf:Property .
 
+[ a       rdf:List ] .
+
 aat:300311123-list-300127490
         a       rdf:List .
 
@@ -2439,8 +2437,6 @@ aat:300233610-list-300233613
 
 gvp:ulan1214_court_artist_was
         a       rdf:Property .
-
-[ a       rdfs:Class ] .
 
 gvp:ulan1547_romantic_partner_of
         a       owl:SymmetricProperty , rdf:Property .
@@ -2474,6 +2470,8 @@ aat:300018523-list-300018524
 
 gvp:qualifier  a  rdf:Property .
 
+[ a       ptop:PropChain ] .
+
 gvp:ulan1512_parent_of
         a       rdf:Property .
 
@@ -2497,8 +2495,6 @@ gvp:ulan1552_parent_by_marriage_of
 aat:300016983-list-300016984
         a       rdf:List .
 
-[ a       rdf:List ] .
-
 gvp:ulan1307_assistant_of
         a       rdf:Property .
 
@@ -2517,6 +2513,8 @@ rdf:first  a    rdf:Property .
 
 aat:300199635-list-300053220
         a       rdf:List .
+
+[ a       rdf:List ] .
 
 gvp:aat2281_have_counterpart
         a       owl:SymmetricProperty , rdf:Property .
@@ -2587,6 +2585,8 @@ aat:300011498-list-300011500
 
 aat:300016964-list-300016965
         a       rdf:List .
+
+[ a       rdf:List ] .
 
 aat:300004800-list-300004810
         a       rdf:List .

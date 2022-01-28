@@ -1,0 +1,71 @@
+<https://w3id.org/deer/Match_6>
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <https://id.kb.se/vocab/ConceptScheme> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://id.sgcb.mcu.es/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://libris.kb.se/sparql> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "1.0"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <https://id.kb.se/vocab/ConceptCollection> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://id.sgcb.mcu.es/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://libris.kb.se/sparql> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "0.4"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <https://id.kb.se/vocab/ClassificationScheme> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://id.sgcb.mcu.es/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://libris.kb.se/sparql> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "0.4"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <https://id.kb.se/vocab/Concept> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://id.sgcb.mcu.es/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://libris.kb.se/sparql> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "1.0"
+                                       ] ;
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <https://id.kb.se/vocab/TopicScheme> ;
+                                         <https://w3id.org/deer/ObjectEndPoint>
+                                                 <http://id.sgcb.mcu.es/sparql> ;
+                                         <https://w3id.org/deer/SubjectEndPoint>
+                                                 <http://libris.kb.se/sparql> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "0.4"
+                                       ] .
