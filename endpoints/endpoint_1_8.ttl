@@ -14,8 +14,6 @@
 <http://eagle-i.org/ont/app/1.0/preferredDefinition>
         rdfs:range  xsd:string .
 
-[ a       owl:Class ] .
-
 <http://purl.obolibrary.org/obo/ero/dev/disease-import.owl>
         a       owl:Ontology .
 
@@ -101,8 +99,6 @@
 
 <http://purl.obolibrary.org/obo/ERO_0000578>
         rdfs:range  xsd:string .
-
-[ a       owl:Class ] .
 
 <http://purl.obolibrary.org/obo/ERO_0000156>
         a       owl:Class .
@@ -221,17 +217,19 @@
 <http://purl.obolibrary.org/obo/ero/dev/mp-imports.owl>
         a       owl:Ontology .
 
-<http://purl.obolibrary.org/obo/ERO_0000054>
-        rdfs:range  xsd:string .
-
 <http://eagle-i.org/ont/repo/1.0/hasWorkflowOwner>
         a             owl:ObjectProperty ;
         rdfs:comment  "Current owner (claimant) of the workflow state of this instance" ;
         rdfs:label    "workflow owner" ;
         rdfs:range    <http://eagle-i.org/ont/repo/1.0/Agent> .
 
+<http://purl.obolibrary.org/obo/ERO_0000054>
+        rdfs:range  xsd:string .
+
 <http://purl.obolibrary.org/obo/CL_0000548>
         a       owl:Class .
+
+[ a       owl:Class ] .
 
 <http://purl.obolibrary.org/obo/ERO_0001839>
         a       owl:Class .
@@ -241,8 +239,6 @@
 
 <http://purl.obolibrary.org/obo/OBI_0400115>
         a       owl:Class .
-
-[ a       owl:Class ] .
 
 <http://purl.obolibrary.org/obo/ERO_0002111>
         rdfs:range  xsd:string .
@@ -362,8 +358,6 @@
 <http://purl.obolibrary.org/obo/ERO_0000555>
         rdfs:range  xsd:string .
 
-[ a       owl:Class ] .
-
 <http://purl.obolibrary.org/obo/ERO_0001526>
         rdfs:range  xsd:string .
 
@@ -403,8 +397,6 @@
 
 <http://eagle-i.org/ont/app/1.0/CTbriefsummary>
         rdfs:range  xsd:string .
-
-[ a       owl:Class ] .
 
 <http://purl.obolibrary.org/obo/ERO_0000230>
         a       owl:Class .
@@ -457,8 +449,6 @@
         rdfs:range          <http://eagle-i.org/ont/repo/1.0/Agent> ;
         rdfs:subPropertyOf  <http://eagle-i.org/ont/repo/1.0/hasAnyAccess> .
 
-[ a       owl:Class ] .
-
 <http://purl.obolibrary.org/obo/ERO_0000272>
         a       owl:Class .
 
@@ -474,13 +464,11 @@
 <http://purl.obolibrary.org/obo/ERO_0002189>
         rdfs:range  xsd:string .
 
-<http://purl.obolibrary.org/obo/ERO_0000242>
-        a       owl:Class .
-
 <http://eagle-i.org/ont/app/1.0/RootResource>
         a       owl:Class .
 
-[ a       owl:Class ] .
+<http://purl.obolibrary.org/obo/ERO_0000242>
+        a       owl:Class .
 
 <http://eagle-i.org/ont/repo/1.0/NamedGraph>
         a                owl:Class ;
@@ -699,8 +687,6 @@
 <http://purl.obolibrary.org/obo/OBI_0400116>
         a       owl:Class .
 
-[ a       owl:Class ] .
-
 <http://eagle-i.org/ont/repo/1.0/action>
         a             owl:DatatypeProperty ;
         rdfs:comment  "fully qualified class name of Java class implementing action" ;
@@ -715,6 +701,8 @@
 
 <http://purl.obolibrary.org/obo/ERO_0000097>
         a       owl:Class .
+
+[ a       owl:Class ] .
 
 <http://purl.obolibrary.org/obo/ERO_0000278>
         a       owl:Class .
@@ -742,6 +730,8 @@
 
 <http://purl.obolibrary.org/obo/ERO_0002009>
         a       owl:Class .
+
+[ a       owl:Class ] .
 
 <http://purl.obolibrary.org/obo/ERO_0000430>
         a       owl:Class .
@@ -779,6 +769,29 @@
 <http://eagle-i.org/ont/app/1.0/CTbiospecimenretention>
         rdfs:range  xsd:string .
 
+[ a       owl:Class ] .
+
+<http://purl.obolibrary.org/obo/ERO_0000020>
+        a       owl:Class .
+
+<http://cau.eagle-i.net/i/00000136-59de-ff9a-982a-4eef80000000>
+        a           <http://vivoweb.org/ontology/core#CoreLaboratory> ;
+        rdfs:label  "CCRTD- Histology Core" ;
+        <http://eagle-i.org/ont/app/1.0/resource_description>
+                "\"The mission of the CCRTD Research Support Core Facilities is to provide the scientists of CCRTD, Clark Atlanta University, and Atlanta University Center with access to modern technology, resources, and instruments essential for cutting-edge research in molecular biology, genomics, proteomics, cell biology, and biological imaging.\"" ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://www.ccrtd.cau.edu/CoreFacilities.aspx" ;
+        <http://purl.org/dc/terms/contributor>
+                <http://cau.eagle-i.net/i/00000135-8d21-51bc-ecf8-187780000000> ;
+        <http://purl.org/dc/terms/created>
+                "2012-03-28T10:17:14.516-05:00"^^xsd:dateTime ;
+        <http://purl.org/dc/terms/creator>
+                <http://cau.eagle-i.net/i/00000136-5493-e232-982a-4eef80000000> ;
+        <http://purl.org/dc/terms/modified>
+                "2013-01-31T09:35:12.699-06:00"^^xsd:dateTime .
+
 <http://cau.eagle-i.net/i/00000136-59da-82d7-982a-4eef80000000>
         a           <http://purl.obolibrary.org/obo/ERO_0001701> ;
         rdfs:label  "Custom BioGenic Systems Cryosytems 6001 Storage" ;
@@ -806,29 +819,6 @@
                 <http://cau.eagle-i.net/i/00000136-5496-916a-982a-4eef80000000> ;
         <http://purl.org/dc/terms/modified>
                 "2012-09-12T10:34:41.179-05:00"^^xsd:dateTime .
-
-<http://purl.obolibrary.org/obo/ERO_0000020>
-        a       owl:Class .
-
-<http://cau.eagle-i.net/i/00000136-59de-ff9a-982a-4eef80000000>
-        a           <http://vivoweb.org/ontology/core#CoreLaboratory> ;
-        rdfs:label  "CCRTD- Histology Core" ;
-        <http://eagle-i.org/ont/app/1.0/resource_description>
-                "\"The mission of the CCRTD Research Support Core Facilities is to provide the scientists of CCRTD, Clark Atlanta University, and Atlanta University Center with access to modern technology, resources, and instruments essential for cutting-edge research in molecular biology, genomics, proteomics, cell biology, and biological imaging.\"" ;
-        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
-                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
-        <http://purl.obolibrary.org/obo/ERO_0000480>
-                "http://www.ccrtd.cau.edu/CoreFacilities.aspx" ;
-        <http://purl.org/dc/terms/contributor>
-                <http://cau.eagle-i.net/i/00000135-8d21-51bc-ecf8-187780000000> ;
-        <http://purl.org/dc/terms/created>
-                "2012-03-28T10:17:14.516-05:00"^^xsd:dateTime ;
-        <http://purl.org/dc/terms/creator>
-                <http://cau.eagle-i.net/i/00000136-5493-e232-982a-4eef80000000> ;
-        <http://purl.org/dc/terms/modified>
-                "2013-01-31T09:35:12.699-06:00"^^xsd:dateTime .
-
-[ a       owl:Class ] .
 
 owl:Thing  a    owl:Class .
 
@@ -860,8 +850,6 @@ owl:Thing  a    owl:Class .
 <http://purl.obolibrary.org/obo/ERO_0000243>
         a       owl:Class .
 
-[ a       owl:Class ] .
-
 <http://purl.obolibrary.org/obo/OBI_0000410>
         a       owl:Class .
 
@@ -876,8 +864,6 @@ owl:Thing  a    owl:Class .
 
 <http://eagle-i.org/ont/app/1.0/referencedTaxonomyIRI>
         rdfs:range  xsd:string .
-
-[ a       owl:Class ] .
 
 <http://cau.eagle-i.net/i/00000135-abe7-77c7-ecf8-187780000000>
         a           <http://vivoweb.org/ontology/core#CoreLaboratory> ;
@@ -952,6 +938,10 @@ owl:Thing  a    owl:Class .
 <http://purl.obolibrary.org/obo/ERO_0000074>
         a       owl:Class .
 
+[ a       owl:Class ] .
+
+[ a       owl:Class ] .
+
 <http://purl.obolibrary.org/obo/ERO_0000255>
         a       owl:Class .
 
@@ -1006,10 +996,10 @@ owl:Thing  a    owl:Class .
 <http://purl.obolibrary.org/obo/BFO_0000015>
         a       owl:Class .
 
-[ a       owl:Class ] .
-
 <http://purl.obolibrary.org/obo/ERO_0000111>
         a       owl:Class .
+
+[ a       owl:Class ] .
 
 <http://purl.obolibrary.org/obo/ERO_0000394>
         a       owl:Class .
@@ -1022,8 +1012,6 @@ owl:Thing  a    owl:Class .
 
 <http://purl.obolibrary.org/obo/ERO_0001576>
         a       owl:Class .
-
-[ a       owl:Class ] .
 
 <http://purl.obolibrary.org/obo/ERO_0000279>
         a       owl:Class .
@@ -1097,8 +1085,6 @@ owl:Thing  a    owl:Class .
 
 <http://purl.obolibrary.org/obo/ERO_0000431>
         a       owl:Class .
-
-[ a       owl:Class ] .
 
 <http://purl.obolibrary.org/obo/ERO_0000220>
         a       owl:Class .
@@ -1219,6 +1205,8 @@ owl:Thing  a    owl:Class .
 <http://purl.obolibrary.org/obo/ERO_0000274>
         a       owl:Class .
 
+[ a       owl:Class ] .
+
 <http://purl.obolibrary.org/obo/ERO_0000244>
         a       owl:Class .
 
@@ -1241,6 +1229,8 @@ owl:Thing  a    owl:Class .
 <http://purl.obolibrary.org/obo/ERO_0000160>
         a       owl:Class .
 
+[ a       owl:Class ] .
+
 <http://purl.obolibrary.org/obo/ERO_0000075>
         a       owl:Class .
 
@@ -1252,6 +1242,8 @@ owl:Thing  a    owl:Class .
         rdf:value     "ontology" ;
         rdfs:comment  "Contains Ontology applicable to data objects" ;
         rdfs:label    "Ontology" .
+
+[ a       owl:Class ] .
 
 <http://purl.obolibrary.org/obo/ERO_0000045>
         rdfs:range  xsd:string .
@@ -1287,8 +1279,6 @@ owl:Thing  a    owl:Class .
 
 <http://purl.obolibrary.org/obo/ERO_0001987>
         rdfs:range  xsd:string .
-
-[ a       owl:Class ] .
 
 <http://eagle-i.org/ont/repo/1.0/Agent>
         a                owl:Class ;
@@ -1439,6 +1429,8 @@ owl:Thing  a    owl:Class .
 <http://purl.obolibrary.org/obo/ERO_0001529>
         rdfs:range  xsd:string .
 
+[ a       owl:Class ] .
+
 <http://eagle-i.org/ont/repo/1.0/hasPrincipalName>
         a             owl:DatatypeProperty ;
         rdfs:comment  "Indicates the authenticated login principal bound to this Person or Agent" ;
@@ -1524,6 +1516,8 @@ owl:Thing  a    owl:Class .
 <http://purl.obolibrary.org/obo/ERO_0000782>
         rdfs:range  xsd:string .
 
+[ a       owl:Class ] .
+
 <http://purl.obolibrary.org/obo/ERO_0000571>
         rdfs:range  xsd:string .
 
@@ -1544,8 +1538,6 @@ owl:Thing  a    owl:Class .
 
 <http://purl.obolibrary.org/obo/ERO_0000541>
         rdfs:range  xsd:string .
-
-[ a       owl:Class ] .
 
 <http://purl.obolibrary.org/obo/ERO_0000245>
         a       owl:Class .
@@ -1580,8 +1572,6 @@ owl:Thing  a    owl:Class .
                 <http://cau.eagle-i.net/i/00000136-5493-960e-982a-4eef80000000> ;
         <http://purl.org/dc/terms/modified>
                 "2012-10-22T08:57:44.169-05:00"^^xsd:dateTime .
-
-[ a       owl:Class ] .
 
 <http://purl.obolibrary.org/obo/ERO_0000215>
         a       owl:Class .
@@ -1666,11 +1656,13 @@ owl:Thing  a    owl:Class .
 <http://purl.obolibrary.org/obo/OGMS_0000073>
         a       owl:Class .
 
+<http://purl.obolibrary.org/obo/ERO_0000016>
+        a       owl:Class .
+
 <http://purl.obolibrary.org/obo/ERO_0002103>
         a       owl:Class .
 
-<http://purl.obolibrary.org/obo/ERO_0000016>
-        a       owl:Class .
+[ a       owl:Class ] .
 
 <http://purl.obolibrary.org/obo/ERO_0000595>
         a       owl:Class .
@@ -1680,6 +1672,8 @@ owl:Thing  a    owl:Class .
 
 <http://eagle-i.org/ont/repo/1.0/Role_Curator>
         a       owl:Thing .
+
+[ a       owl:Class ] .
 
 <http://cau.eagle-i.net/i/00000135-ab90-dd54-ecf8-187780000000>
         a           <http://vivoweb.org/ontology/core#Center> ;
@@ -1740,8 +1734,6 @@ owl:Thing  a    owl:Class .
 
 <http://purl.obolibrary.org/obo/OBI_0001057>
         a       owl:Class .
-
-[ a       owl:Class ] .
 
 <http://purl.obolibrary.org/obo/ero/dev/go-imports.owl>
         a       owl:Ontology .
@@ -1888,6 +1880,8 @@ owl:Thing  a    owl:Class .
 
 <http://eagle-i.org/ont/app/1.0/rangeConstraint>
         rdfs:range  xsd:string .
+
+[ a       owl:Class ] .
 
 <http://purl.obolibrary.org/obo/ERO_0002025>
         a       owl:Class .
@@ -2095,13 +2089,17 @@ owl:Thing  a    owl:Class .
 <http://purl.obolibrary.org/obo/ero/dev/mp-imports-app.owl>
         a       owl:Ontology .
 
-[ a       owl:Class ] .
-
 <http://purl.obolibrary.org/obo/ERO_0000162>
         a       owl:Class .
 
+[ a       owl:Class ] .
+
+[ a       owl:Class ] .
+
 <http://purl.obolibrary.org/obo/ERO_0001525>
         rdfs:range  xsd:string .
+
+[ a       owl:Class ] .
 
 <http://cau.eagle-i.net/i/00000136-54f2-8df1-982a-4eef80000000>
         a           <http://purl.obolibrary.org/obo/OBI_0000272> ;
@@ -2121,3 +2119,5 @@ owl:Thing  a    owl:Class .
 
 <http://purl.obolibrary.org/obo/ERO_0000017>
         a       owl:Class .
+
+[ a       owl:Class ] .

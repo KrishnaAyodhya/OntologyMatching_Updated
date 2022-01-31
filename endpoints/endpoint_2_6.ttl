@@ -1,0 +1,711 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://id.loc.gov/authorities/sh85078904#concept>
+        skos:prefLabel  "Lungs--Diseases"@en .
+
+<http://id.loc.gov/authorities/sh85119471#concept>
+        skos:prefLabel  "Security, International"@en .
+
+<http://data.bnf.fr/ark:/12148/cb12098921p>
+        skos:prefLabel  "Poésie érotique"@fr .
+
+<http://id.sgcb.mcu.es/Autoridades/LEM201010327/concept>
+        a                 skos:Concept ;
+        dcterms:created   "2010-11-20T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2013-06-27T12:46:13+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:altLabel     "Psicología criminal"@es ;
+        skos:closeMatch   <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015005843/concept> , <http://lemag.sgcb.mcu.es/Autoridades/LEMAG201301226/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015005844/concept> ;
+        skos:inScheme     <http://id.sgcb.mcu.es/Autoridades/conceptScheme> , <http://id.sgcb.mcu.es/Autoridades/subjectsNames> ;
+        skos:prefLabel    "Delincuentes-Psicología"@es ;
+        skos:related      <http://id.sgcb.mcu.es/Autoridades/LEM201010237/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201009392/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201007692/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201007664/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201000677/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201007469/concept> .
+
+<http://data.bnf.fr/ark:/12148/cb122535943>
+        skos:prefLabel  "Méiose"@fr .
+
+<http://id.sgcb.mcu.es/Autoridades/LEM201008673/concept>
+        a                 skos:Concept ;
+        dcterms:created   "2010-11-20T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2013-06-27T12:44:03+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:altLabel     "Teatro-Decorados"@es , "Escenografía teatral"@es , "Teatro-Puesta en escena"@es ;
+        skos:broader      <http://id.sgcb.mcu.es/Autoridades/LEM201010670/concept> ;
+        skos:closeMatch   <http://lemag.sgcb.mcu.es/Autoridades/LEMAG201304076/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015009476/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015009475/concept> ;
+        skos:inScheme     <http://id.sgcb.mcu.es/Autoridades/conceptScheme> , <http://id.sgcb.mcu.es/Autoridades/subjectsNames> ;
+        skos:narrower     <http://id.sgcb.mcu.es/Autoridades/LEM201001230/concept> ;
+        skos:prefLabel    "Teatro-Escenografía"@es ;
+        skos:related      <http://id.sgcb.mcu.es/Autoridades/LEM201001937/concept> .
+
+<http://id.sgcb.mcu.es/Autoridades/LEM201001270/concept>
+        a                 skos:Concept ;
+        dcterms:created   "2010-11-20T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2013-06-27T12:33:16+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:broader      <http://id.sgcb.mcu.es/Autoridades/LEM201008064/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201007130/concept> ;
+        skos:closeMatch   <http://lemac.sgcb.mcu.es/Autoridades/LEMAC201235628/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015008547/concept> , <http://d-nb.info/gnd/4311467-2> , <http://d-nb.info/gnd/4227473-4> , <http://d-nb.info/gnd/4255907-8> , <http://id.loc.gov/authorities/sh85142341#concept> , <http://lemag.sgcb.mcu.es/Autoridades/LEMAG201304303/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015008548/concept> , <http://data.bnf.fr/ark:/12148/cb119412981> ;
+        skos:inScheme     <http://id.sgcb.mcu.es/Autoridades/subjectsNames> , <http://id.sgcb.mcu.es/Autoridades/conceptScheme> ;
+        skos:prefLabel    "Barnices"@es ;
+        skos:related      <http://id.sgcb.mcu.es/Autoridades/LEM201007138/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201005760/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201001271/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201011468/concept> .
+
+<http://id.loc.gov/authorities/sh85075797#concept>
+        skos:prefLabel  "Leghorn chicken"@en .
+
+<http://lemag.sgcb.mcu.es/Autoridades/LEMAG201300859/concept>
+        a                 skos:Concept ;
+        dcterms:created   "2013-06-17T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2013-06-27T12:06:14+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:closeMatch   <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015009473/concept> , <http://lemac.sgcb.mcu.es/Autoridades/LEMAC201223056/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201001937/concept> , <http://id.loc.gov/authorities/sh85088107#concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015009474/concept> ;
+        skos:inScheme     <http://lemag.sgcb.mcu.es/Autoridades/subjectsNames> , <http://lemag.sgcb.mcu.es/Autoridades/conceptScheme> ;
+        skos:prefLabel    "Cine-Escenografía"@gl ;
+        skos:related      <http://lemag.sgcb.mcu.es/Autoridades/LEMAG201301665/concept> .
+
+<http://id.loc.gov/authorities/sh85111866#concept>
+        skos:prefLabel  "Reconstruction (1939-1951)"@en .
+
+<http://id.sgcb.mcu.es/Autoridades/geographicNames>
+        a               skos:ConceptScheme ;
+        rdfs:comment    "Esquema de encabezamientos topograficos." ;
+        skos:prefLabel  "Esquema de encabezamientos topográficos" .
+
+<http://data.bnf.fr/ark:/12148/cb11941969c>
+        skos:prefLabel  "Mixtèques"@fr .
+
+<http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015063755/concept>
+        a                 skos:Concept ;
+        dcterms:created   "2000-06-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2015-09-27T19:06:15"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        owl:sameAs        <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015063756/concept> ;
+        skos:broader      <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015063751/concept> ;
+        skos:closeMatch   <http://id.sgcb.mcu.es/Autoridades/LEM201016909/concept> ;
+        skos:inScheme     <http://lemav.sgcb.mcu.es/Autoridades/conceptScheme> , <http://lemav.sgcb.mcu.es/Autoridades/geographicNames> ;
+        skos:prefLabel    "Poitiers"@es .
+
+<http://id.loc.gov/authorities/sh85090170#concept>
+        skos:prefLabel  "Native language"@en .
+
+<http://id.sgcb.mcu.es/Autoridades/LEM201006031/concept>
+        a                 skos:Concept ;
+        dcterms:created   "2010-11-20T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2013-06-27T12:40:21+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:closeMatch   <http://id.loc.gov/authorities/sh85083346#concept> , <http://data.bnf.fr/ark:/12148/cb122535943> , <http://d-nb.info/gnd/4169347-4> ;
+        skos:inScheme     <http://id.sgcb.mcu.es/Autoridades/subjectsNames> , <http://id.sgcb.mcu.es/Autoridades/conceptScheme> ;
+        skos:prefLabel    "Meiosis"@es ;
+        skos:related      <http://id.sgcb.mcu.es/Autoridades/LEM201001767/concept> .
+
+<http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015006312/concept>
+        a                 skos:Concept ;
+        dcterms:created   "1999-12-15T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2015-09-27T18:50:53"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        owl:sameAs        <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015006311/concept> ;
+        skos:broader      <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015009686/concept> ;
+        skos:closeMatch   <http://data.bnf.fr/ark:/12148/cb119772414> , <http://lemac.sgcb.mcu.es/Autoridades/LEMAC201207301/concept> , <http://lemag.sgcb.mcu.es/Autoridades/LEMAG201303854/concept> , <http://d-nb.info/gnd/4131233-8> , <http://id.sgcb.mcu.es/Autoridades/LEM201008064/concept> , <http://id.loc.gov/authorities/sh85027504#concept> ;
+        skos:inScheme     <http://lemav.sgcb.mcu.es/Autoridades/conceptScheme> , <http://lemav.sgcb.mcu.es/Autoridades/subjectsNames> ;
+        skos:narrower     <http://lemav.cb.mcu.es/Autoridades/LEMAV2015002780/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015008548/concept> , <http://lemav.cb.mcu.es/Autoridades/LEMAV2015008548/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015382882/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015002780/concept> , <http://lemav.cb.mcu.es/Autoridades/LEMAV2015382882/concept> ;
+        skos:prefLabel    "Estaldurak"@eu ;
+        skos:related      <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015007256/concept> .
+
+<http://id.sgcb.mcu.es/Autoridades/LEM201000782/concept>
+        a                 skos:Concept ;
+        dcterms:created   "2010-11-20T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2013-06-27T12:32:32+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:altLabel     "Ardeidae"@es ;
+        skos:broader      <http://id.sgcb.mcu.es/Autoridades/LEM201009975/concept> ;
+        skos:closeMatch   <http://id.loc.gov/authorities/sh85006977#concept> , <http://data.bnf.fr/ark:/12148/cb122595429> ;
+        skos:inScheme     <http://id.sgcb.mcu.es/Autoridades/subjectsNames> , <http://id.sgcb.mcu.es/Autoridades/conceptScheme> ;
+        skos:narrower     <http://id.sgcb.mcu.es/Autoridades/LEM201004092/concept> ;
+        skos:prefLabel    "Ardeidos"@es .
+
+<http://id.sgcb.mcu.es/Autoridades/conceptScheme>
+        a               skos:ConceptScheme ;
+        rdfs:comment    "Esquema general de encabezamientos de materia." ;
+        owl:sameAs      <http://id.sgcb.mcu.es> ;
+        skos:prefLabel  "Lista de encabezamientos de materia"@es .
+
+<http://id.sgcb.mcu.es/Autoridades/LEM201007875/concept>
+        a                 skos:Concept ;
+        dcterms:created   "2010-11-20T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2013-06-27T12:42:50+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:altLabel     "Revestimientos metálicos"@es ;
+        skos:broader      <http://id.sgcb.mcu.es/Autoridades/LEM201007531/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201008064/concept> ;
+        skos:closeMatch   <http://id.loc.gov/authorities/sh85084043#concept> , <http://data.bnf.fr/ark:/12148/cb11944565m> ;
+        skos:inScheme     <http://id.sgcb.mcu.es/Autoridades/conceptScheme> , <http://id.sgcb.mcu.es/Autoridades/subjectsNames> ;
+        skos:narrower     <http://id.sgcb.mcu.es/Autoridades/LEM201012526/concept> ;
+        skos:prefLabel    "Recubrimientos metálicos"@es ;
+        skos:related      <http://id.sgcb.mcu.es/Autoridades/LEM201006091/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201007876/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201004075/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201011718/concept> ;
+        skos:scopeNote    "Úsase para obras sobre los metales o aleaciones aplicados a las superficies de los objetos con fines de decoracion, protección, etc.:"@es .
+
+<http://id.sgcb.mcu.es/Autoridades/LEM201001767/concept>
+        a                 skos:Concept ;
+        dcterms:created   "2010-11-20T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2013-06-27T12:34:02+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:broader      <http://id.sgcb.mcu.es/Autoridades/LEM201009701/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201201556/concept> ;
+        skos:closeMatch   <http://d-nb.info/gnd/4067537-3> , <http://data.bnf.fr/ark:/12148/cb11958045s> , <http://lemac.sgcb.mcu.es/Autoridades/LEMAC201205792/concept> , <http://id.loc.gov/authorities/sh85021678#concept> , <http://lemag.sgcb.mcu.es/Autoridades/LEMAG201300789/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015012064/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015012063/concept> ;
+        skos:inScheme     <http://id.sgcb.mcu.es/Autoridades/conceptScheme> , <http://id.sgcb.mcu.es/Autoridades/subjectsNames> ;
+        skos:narrower     <http://id.sgcb.mcu.es/Autoridades/LEM201001772/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201006041/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201001768/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201006488/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201003498/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201010247/concept> ;
+        skos:prefLabel    "Células"@es ;
+        skos:related      <http://id.sgcb.mcu.es/Autoridades/LEM201006031/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201002000/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201004472/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201008002/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201004898/concept> .
+
+<http://data.bnf.fr/ark:/12148/cb119772414>
+        skos:prefLabel  "Revêtements"@fr .
+
+<http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015005843/concept>
+        a                 skos:Concept ;
+        dcterms:created   "1999-12-15T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2015-09-27T18:50:21"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        owl:sameAs        <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015005844/concept> ;
+        skos:altLabel     "Psicología criminal"@es ;
+        skos:closeMatch   <http://lemag.sgcb.mcu.es/Autoridades/LEMAG201301226/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201010327/concept> ;
+        skos:inScheme     <http://lemav.sgcb.mcu.es/Autoridades/conceptScheme> , <http://lemav.sgcb.mcu.es/Autoridades/subjectsNames> ;
+        skos:prefLabel    "Delincuentes-Psicología"@es ;
+        skos:related      <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015006505/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015250451/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015388937/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015005845/concept> .
+
+<http://id.sgcb.mcu.es/Autoridades/LEM201012942/concept>
+        a                 skos:Concept ;
+        dcterms:created   "2010-11-20T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2013-06-27T12:49:04+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:closeMatch   <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015010788/concept> , <http://lemag.sgcb.mcu.es/Autoridades/LEMAG201304082/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015010787/concept> ;
+        skos:inScheme     <http://id.sgcb.mcu.es/Autoridades/conceptScheme> , <http://id.sgcb.mcu.es/Autoridades/subjectsNames> ;
+        skos:narrower     <http://id.sgcb.mcu.es/Autoridades/LEM201008694/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201000328/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201001288/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201008696/concept> ;
+        skos:prefLabel    "Tejidos"@es ;
+        skos:related      <http://id.sgcb.mcu.es/Autoridades/LEM201008064/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201003201/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201003798/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201008617/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201007447/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201200849/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201004770/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201005866/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201002392/concept> .
+
+<http://data.bnf.fr/ark:/12148/cb12267832j>
+        skos:prefLabel  "Papavéracées"@fr .
+
+<http://id.sgcb.mcu.es/Autoridades/LEM201001203/concept>
+        a                 skos:Concept ;
+        dcterms:created   "2010-11-20T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2013-06-27T12:33:10+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:broader      <http://id.sgcb.mcu.es/Autoridades/LEM201008064/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201001226/concept> ;
+        skos:closeMatch   <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015002780/concept> , <http://lemac.sgcb.mcu.es/Autoridades/LEMAC201234382/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015002779/concept> , <http://id.loc.gov/authorities/sh85135352#concept> , <http://data.bnf.fr/ark:/12148/cb119731129> , <http://d-nb.info/gnd/4017536-4> , <http://data.bnf.fr/ark:/12148/cb11977297r> , <http://d-nb.info/gnd/4146142-3> ;
+        skos:inScheme     <http://id.sgcb.mcu.es/Autoridades/conceptScheme> , <http://id.sgcb.mcu.es/Autoridades/subjectsNames> ;
+        skos:prefLabel    "Azulejos"@es ;
+        skos:related      <http://id.sgcb.mcu.es/Autoridades/LEM201001807/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201009941/concept> .
+
+<http://id.sgcb.mcu.es/Autoridades/LEM201005269/concept>
+        a                 skos:Concept ;
+        dcterms:created   "2010-11-20T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2013-06-27T12:39:18+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:broader      <http://id.sgcb.mcu.es/Autoridades/LEM201005260/concept> ;
+        skos:closeMatch   <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015008748/concept> , <http://id.loc.gov/authorities/sh85043610#concept> , <http://lemag.sgcb.mcu.es/Autoridades/LEMAG201302548/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015008747/concept> ;
+        skos:inScheme     <http://id.sgcb.mcu.es/Autoridades/subjectsNames> , <http://id.sgcb.mcu.es/Autoridades/conceptScheme> ;
+        skos:narrower     <http://id.sgcb.mcu.es/Autoridades/LEM201005255/concept> ;
+        skos:prefLabel    "Lengua española-Morfología"@es ;
+        skos:related      <http://id.sgcb.mcu.es/Autoridades/LEM201005286/concept> .
+
+<http://id.loc.gov/authorities/sh85060451#concept>
+        skos:prefLabel  "Herons"@en .
+
+<http://d-nb.info/gnd/4131233-8>
+        rdfs:label  "Auskleidung" .
+
+<http://id.sgcb.mcu.es/Autoridades/LEM201010670/concept>
+        a                 skos:Concept ;
+        dcterms:created   "2010-11-20T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2013-06-27T12:46:36+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:broader      <http://id.sgcb.mcu.es/Autoridades/LEM201000894/concept> ;
+        skos:closeMatch   <http://lemag.sgcb.mcu.es/Autoridades/LEMAG201301665/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015009477/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015009478/concept> ;
+        skos:inScheme     <http://id.sgcb.mcu.es/Autoridades/subjectsNames> , <http://id.sgcb.mcu.es/Autoridades/conceptScheme> ;
+        skos:narrower     <http://id.sgcb.mcu.es/Autoridades/LEM201008673/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201008729/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201001937/concept> ;
+        skos:prefLabel    "Escenografía"@es .
+
+<http://id.sgcb.mcu.es/Autoridades/LEM201001937/concept>
+        a                 skos:Concept ;
+        dcterms:created   "2010-11-20T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2013-06-27T12:34:18+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:altLabel     "Decorados cinematográficos"@es , "Cine-Decorados"@es , "Escenografía cinematográfica"@es ;
+        skos:broader      <http://id.sgcb.mcu.es/Autoridades/LEM201010670/concept> ;
+        skos:closeMatch   <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015009473/concept> , <http://lemag.sgcb.mcu.es/Autoridades/LEMAG201300859/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015009474/concept> , <http://id.loc.gov/authorities/sh85088107#concept> , <http://lemac.sgcb.mcu.es/Autoridades/LEMAC201223056/concept> ;
+        skos:inScheme     <http://id.sgcb.mcu.es/Autoridades/conceptScheme> , <http://id.sgcb.mcu.es/Autoridades/subjectsNames> ;
+        skos:prefLabel    "Cine-Escenografía"@es ;
+        skos:related      <http://id.sgcb.mcu.es/Autoridades/LEM201001943/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201002874/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201008673/concept> .
+
+<http://id.sgcb.mcu.es/Autoridades/LEM201004092/concept>
+        a                 skos:Concept ;
+        dcterms:created   "2010-11-20T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2013-06-27T12:37:34+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:altLabel     "Ardea"@es ;
+        skos:broader      <http://id.sgcb.mcu.es/Autoridades/LEM201000782/concept> ;
+        skos:closeMatch   <http://d-nb.info/gnd/4202113-3> , <http://id.loc.gov/authorities/sh85060451#concept> , <http://data.bnf.fr/ark:/12148/cb12305026v> ;
+        skos:inScheme     <http://id.sgcb.mcu.es/Autoridades/subjectsNames> , <http://id.sgcb.mcu.es/Autoridades/conceptScheme> ;
+        skos:prefLabel    "Garzas"@es .
+
+<http://id.sgcb.mcu.es/Autoridades/LEM201002874/concept>
+        a                 skos:Concept ;
+        dcterms:created   "2010-11-20T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2013-06-27T12:35:43+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:closeMatch   <http://id.loc.gov/authorities/sh85088028#concept> , <http://data.bnf.fr/ark:/12148/cb12043440b> , <http://d-nb.info/gnd/4154351-8> ;
+        skos:inScheme     <http://id.sgcb.mcu.es/Autoridades/subjectsNames> , <http://id.sgcb.mcu.es/Autoridades/conceptScheme> ;
+        skos:prefLabel    "Directores artísticos de cine"@es ;
+        skos:related      <http://id.sgcb.mcu.es/Autoridades/LEM201001937/concept> .
+
+<http://data.bnf.fr/ark:/12148/cb11932069x>
+        skos:prefLabel  "Incendies -- Extinction"@fr .
+
+<http://lemac.sgcb.mcu.es/Autoridades/LEMAC201223056/concept>
+        a                 skos:Concept ;
+        dcterms:created   "1992-03-05T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2012-12-30T00:00:00+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:altLabel     "Decorats (Cinematografia)"@ca , "Decorats cinematogràfics"@ca , "Escenografia (Cinematografia)"@ca , "Cinematografia-Decorats"@ca ;
+        skos:closeMatch   <http://id.loc.gov/authorities/sh85088107#concept> , <http://data.bnf.fr/ark:/12148/cb11931709r> , <http://id.sgcb.mcu.es/Autoridades/LEM201001937/concept> , <http://lemac.sgcb.mcu.es/Autoridades/LEMAC201223056/concept> , <http://d-nb.info/gnd/4154353-1> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015009474/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015009473/concept> , <http://lemag.sgcb.mcu.es/Autoridades/LEMAG201300859/concept> ;
+        skos:inScheme     <http://lemac.sgcb.mcu.es/Autoridades/subjectsNames> , <http://lemac.sgcb.mcu.es/Autoridades/conceptScheme> ;
+        skos:narrower     <http://lemac.sgcb.mcu.es/Autoridades/LEMAC201232713/concept> , <http://lemac.sgcb.mcu.es/Autoridades/LEMAC201222994/concept> ;
+        skos:prefLabel    "Cinematografia-Escenografia i decorats"@ca ;
+        skos:related      <http://lemac.sgcb.mcu.es/Autoridades/LEMAC201223028/concept> .
+
+<http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015008705/concept>
+        a                 skos:Concept ;
+        dcterms:created   "1999-12-15T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2015-09-27T18:53:38"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        owl:sameAs        <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015008706/concept> ;
+        skos:closeMatch   <http://id.loc.gov/authorities/sh85043556#concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201005260/concept> , <http://lemag.sgcb.mcu.es/Autoridades/LEMAG201302540/concept> ;
+        skos:inScheme     <http://lemav.sgcb.mcu.es/Autoridades/subjectsNames> , <http://lemav.sgcb.mcu.es/Autoridades/conceptScheme> ;
+        skos:narrower     <http://lemav.cb.mcu.es/Autoridades/LEMAV2015008747/concept> , <http://lemav.cb.mcu.es/Autoridades/LEMAV2015008743/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015008743/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015008747/concept> , <http://lemav.cb.mcu.es/Autoridades/LEMAV2015008749/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015008749/concept> ;
+        skos:prefLabel    "Lengua española-Gramática"@es ;
+        skos:related      <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015000977/concept> .
+
+<http://lemac.sgcb.mcu.es/Autoridades/LEMAC201229039/concept>
+        a                 skos:Concept ;
+        dcterms:created   "1989-07-27T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2012-12-30T00:00:00+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:altLabel     "Guerra Mundial II, 1939-1945-Reconstrucció"@ca ;
+        skos:broader      <http://lemac.sgcb.mcu.es/Autoridades/LEMAC201227686/concept> , <http://lemac.sgcb.mcu.es/Autoridades/LEMAC201218316/concept> , <http://lemac.sgcb.mcu.es/Autoridades/LEMAC201218318/concept> ;
+        skos:closeMatch   <http://lemac.sgcb.mcu.es/Autoridades/LEMAC201229039/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201007870/concept> , <http://d-nb.info/gnd/4421423-6> , <http://id.loc.gov/authorities/sh85111866#concept> , <http://data.bnf.fr/ark:/12148/cb119550243> ;
+        skos:inScheme     <http://lemac.sgcb.mcu.es/Autoridades/subjectsNames> , <http://lemac.sgcb.mcu.es/Autoridades/conceptScheme> ;
+        skos:prefLabel    "Reconstrucció (1939-1951)"@ca .
+
+<http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015009474/concept>
+        a                 skos:Concept ;
+        dcterms:created   "1999-12-15T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2015-09-27T18:54:32"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        owl:sameAs        <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015009473/concept> ;
+        skos:broader      <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015009478/concept> ;
+        skos:closeMatch   <http://lemac.sgcb.mcu.es/Autoridades/LEMAC201223056/concept> , <http://lemag.sgcb.mcu.es/Autoridades/LEMAG201300859/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201001937/concept> , <http://id.loc.gov/authorities/sh85088107#concept> ;
+        skos:inScheme     <http://lemav.sgcb.mcu.es/Autoridades/conceptScheme> , <http://lemav.sgcb.mcu.es/Autoridades/subjectsNames> ;
+        skos:prefLabel    "Zinema-Eszenografia"@eu .
+
+<http://id.sgcb.mcu.es/Autoridades/LEM201011667/concept>
+        a                 skos:Concept ;
+        dcterms:created   "2010-11-20T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2013-06-27T12:47:39+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:altLabel     "Construcción-Materiales"@es ;
+        skos:broader      <http://id.sgcb.mcu.es/Autoridades/LEM201010122/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201200867/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201005930/concept> ;
+        skos:closeMatch   <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015009686/concept> , <http://lemag.sgcb.mcu.es/Autoridades/LEMAG201302732/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015009685/concept> ;
+        skos:inScheme     <http://id.sgcb.mcu.es/Autoridades/subjectsNames> , <http://id.sgcb.mcu.es/Autoridades/conceptScheme> ;
+        skos:narrower     <http://id.sgcb.mcu.es/Autoridades/LEM201000982/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201007101/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201008100/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201000779/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201009337/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201003598/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201009411/concept> ;
+        skos:prefLabel    "Materiales de construcción"@es ;
+        skos:related      <http://id.sgcb.mcu.es/Autoridades/LEM201001807/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201004529/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201008021/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201000822/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201004531/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201011221/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201002276/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201011470/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201200044/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201011593/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201000293/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201008064/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201001526/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201011668/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201009926/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201003795/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201009385/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201201782/concept> .
+
+<http://data.bnf.fr/ark:/12148/cb12273036z>
+        skos:prefLabel  "Culture des talayots"@fr .
+
+<http://id.sgcb.mcu.es/Autoridades/LEM201005260/concept>
+        a                 skos:Concept ;
+        dcterms:created   "2010-11-20T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2013-06-27T12:39:17+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:closeMatch   <http://id.loc.gov/authorities/sh85043556#concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015008706/concept> , <http://lemag.sgcb.mcu.es/Autoridades/LEMAG201302540/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015008705/concept> ;
+        skos:inScheme     <http://id.sgcb.mcu.es/Autoridades/conceptScheme> , <http://id.sgcb.mcu.es/Autoridades/subjectsNames> ;
+        skos:narrower     <http://id.sgcb.mcu.es/Autoridades/LEM201005286/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201200965/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201005269/concept> ;
+        skos:prefLabel    "Lengua española-Gramática"@es ;
+        skos:related      <http://id.sgcb.mcu.es/Autoridades/LEM201005292/concept> .
+
+<http://id.sgcb.mcu.es/Autoridades/LEM201003458/concept>
+        a                 skos:Concept ;
+        dcterms:created   "2010-11-20T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2013-06-27T12:36:37+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:altLabel     "Esmalte industrial"@es , "Esmalte vítreo"@es , "Esmalte vidriado"@es ;
+        skos:broader      <http://id.sgcb.mcu.es/Autoridades/LEM201008064/concept> ;
+        skos:closeMatch   <http://id.loc.gov/authorities/sh85042962#concept> , <http://lemac.sgcb.mcu.es/Autoridades/LEMAC201211486/concept> , <http://data.bnf.fr/ark:/12148/cb12356253k> , <http://d-nb.info/gnd/4152058-0> , <http://data.bnf.fr/ark:/12148/cb119364857> , <http://d-nb.info/gnd/4152060-9> ;
+        skos:inScheme     <http://id.sgcb.mcu.es/Autoridades/conceptScheme> , <http://id.sgcb.mcu.es/Autoridades/subjectsNames> ;
+        skos:prefLabel    "Esmaltes (Producto químico)"@es ;
+        skos:related      <http://id.sgcb.mcu.es/Autoridades/LEM201001807/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201010705/concept> ;
+        skos:scopeNote    "Úsase para obras técnicas sobre el esmalte industrial. Para obras sobre los esmaltes como objetos artísticos y sobre el arte del esmalte véase: Esmaltes"@es .
+
+<http://id.sgcb.mcu.es/Autoridades/LEM201008064/concept>
+        a                 skos:Concept ;
+        dcterms:created   "2010-11-20T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2013-06-27T12:43:07+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:altLabel     "Recubrimientos"@es , "Enlucidos"@es , "Materiales de revestimiento"@es ;
+        skos:broader      <http://id.sgcb.mcu.es/Autoridades/LEM201005930/concept> ;
+        skos:closeMatch   <http://d-nb.info/gnd/4131233-8> , <http://id.loc.gov/authorities/sh85027504#concept> , <http://lemag.sgcb.mcu.es/Autoridades/LEMAG201303854/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015006311/concept> , <http://data.bnf.fr/ark:/12148/cb119772414> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015006312/concept> , <http://lemac.sgcb.mcu.es/Autoridades/LEMAC201207301/concept> ;
+        skos:inScheme     <http://id.sgcb.mcu.es/Autoridades/conceptScheme> , <http://id.sgcb.mcu.es/Autoridades/subjectsNames> ;
+        skos:narrower     <http://id.sgcb.mcu.es/Autoridades/LEM201007138/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201007875/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201001203/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201003458/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201001226/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201001270/concept> ;
+        skos:prefLabel    "Revestimientos"@es ;
+        skos:related      <http://id.sgcb.mcu.es/Autoridades/LEM201011667/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201012942/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201002494/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201005935/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201003691/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201002914/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201006953/concept> .
+
+<http://id.sgcb.mcu.es/Autoridades/LEM201002494/concept>
+        a                 skos:Concept ;
+        dcterms:created   "2010-11-20T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2013-06-27T12:35:08+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:altLabel     "Tejados"@es ;
+        skos:closeMatch   <http://lemag.sgcb.mcu.es/Autoridades/LEMAG201301163/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015005331/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015005332/concept> , <http://data.bnf.fr/ark:/12148/cb11933612v> , <http://id.loc.gov/authorities/sh85115332#concept> , <http://d-nb.info/gnd/4010843-0> , <http://lemac.sgcb.mcu.es/Autoridades/LEMAC201229930/concept> ;
+        skos:inScheme     <http://id.sgcb.mcu.es/Autoridades/subjectsNames> , <http://id.sgcb.mcu.es/Autoridades/conceptScheme> ;
+        skos:narrower     <http://id.sgcb.mcu.es/Autoridades/LEM201010301/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201009725/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201010258/concept> ;
+        skos:prefLabel    "Cubiertas (Construcción)"@es ;
+        skos:related      <http://id.sgcb.mcu.es/Autoridades/LEM201010122/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201003593/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201008064/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201003920/concept> .
+
+<http://d-nb.info/gnd/4202113-3>
+        rdfs:label  "Reiher" .
+
+<http://id.loc.gov/authorities/sh85084584#concept>
+        skos:prefLabel  "Mexico--History--European intervention, 1861-1867"@en .
+
+<http://id.loc.gov/authorities/sh85088107#concept>
+        skos:prefLabel  "Motion pictures--Setting and scenery"@en .
+
+<http://d-nb.info/gnd/4169347-4>
+        rdfs:label  "Meiose" .
+
+<http://id.sgcb.mcu.es/Autoridades/LEM201006953/concept>
+        a                 skos:Concept ;
+        dcterms:created   "2010-11-20T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2013-06-27T12:41:37+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:altLabel     "Firmes"@es ;
+        skos:broader      <http://id.sgcb.mcu.es/Autoridades/LEM201009855/concept> ;
+        skos:closeMatch   <http://data.bnf.fr/ark:/12148/cb12526922z> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015005336/concept> , <http://d-nb.info/gnd/4153537-6> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015005335/concept> , <http://lemac.sgcb.mcu.es/Autoridades/LEMAC201225894/concept> , <http://lemag.sgcb.mcu.es/Autoridades/LEMAG201303337/concept> , <http://data.bnf.fr/ark:/12148/cb119327644> , <http://id.loc.gov/authorities/sh85098835#concept> ;
+        skos:inScheme     <http://id.sgcb.mcu.es/Autoridades/conceptScheme> , <http://id.sgcb.mcu.es/Autoridades/subjectsNames> ;
+        skos:narrower     <http://id.sgcb.mcu.es/Autoridades/LEM201006955/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201006954/concept> ;
+        skos:prefLabel    "Pavimentos"@es ;
+        skos:related      <http://id.sgcb.mcu.es/Autoridades/LEM201001561/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201008064/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201010122/concept> .
+
+<http://id.sgcb.mcu.es/Autoridades/LEM201007692/concept>
+        a                 skos:Concept ;
+        dcterms:created   "2010-11-20T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2013-06-27T12:42:35+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:altLabel     "Psiquiatría médicolegal"@es , "Psiquiatría jurídica"@es , "Psiquiatría forense"@es ;
+        skos:broader      <http://id.sgcb.mcu.es/Autoridades/LEM201011691/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201007688/concept> ;
+        skos:closeMatch   <http://lemag.sgcb.mcu.es/Autoridades/LEMAG201303661/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015006506/concept> , <http://d-nb.info/gnd/4047678-9> , <http://d-nb.info/gnd/4020335-9> , <http://data.bnf.fr/ark:/12148/cb11963399j> , <http://lemac.sgcb.mcu.es/Autoridades/LEMAC201213859/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015006505/concept> , <http://id.loc.gov/authorities/sh85050558#concept> ;
+        skos:inScheme     <http://id.sgcb.mcu.es/Autoridades/conceptScheme> , <http://id.sgcb.mcu.es/Autoridades/subjectsNames> ;
+        skos:prefLabel    "Psiquiatría legal"@es ;
+        skos:related      <http://id.sgcb.mcu.es/Autoridades/LEM201011284/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201010327/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201003295/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201007664/concept> .
+
+<http://id.sgcb.mcu.es/Autoridades/LEM201002914/concept>
+        a                 skos:Concept ;
+        dcterms:created   "2010-11-20T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2013-06-27T12:35:46+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:altLabel     "Solventes"@es ;
+        skos:closeMatch   <http://id.loc.gov/authorities/sh85124746#concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015005312/concept> , <http://d-nb.info/gnd/4036160-3> , <http://lemag.sgcb.mcu.es/Autoridades/LEMAG201301381/concept> , <http://data.bnf.fr/ark:/12148/cb11959458g> , <http://lemac.sgcb.mcu.es/Autoridades/LEMAC201231911/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015005311/concept> ;
+        skos:inScheme     <http://id.sgcb.mcu.es/Autoridades/conceptScheme> , <http://id.sgcb.mcu.es/Autoridades/subjectsNames> ;
+        skos:narrower     <http://id.sgcb.mcu.es/Autoridades/LEM201010443/concept> ;
+        skos:prefLabel    "Disolventes"@es ;
+        skos:related      <http://id.sgcb.mcu.es/Autoridades/LEM201001299/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201007138/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201008064/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201008493/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201004049/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201003681/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201007527/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201008492/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201003680/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201007536/concept> .
+
+<http://id.sgcb.mcu.es/Autoridades/LEM201001226/concept>
+        a                 skos:Concept ;
+        dcterms:created   "2010-11-20T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2013-06-27T12:33:12+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:broader      <http://id.sgcb.mcu.es/Autoridades/LEM201008064/concept> ;
+        skos:closeMatch   <http://id.loc.gov/authorities/sh85049182#concept> ;
+        skos:inScheme     <http://id.sgcb.mcu.es/Autoridades/conceptScheme> , <http://id.sgcb.mcu.es/Autoridades/subjectsNames> ;
+        skos:narrower     <http://id.sgcb.mcu.es/Autoridades/LEM201001203/concept> ;
+        skos:prefLabel    "Baldosas"@es ;
+        skos:related      <http://id.sgcb.mcu.es/Autoridades/LEM201001807/concept> .
+
+<http://id.sgcb.mcu.es/Autoridades/LEM201005286/concept>
+        a                 skos:Concept ;
+        dcterms:created   "2010-11-20T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2013-06-27T12:39:19+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:broader      <http://id.sgcb.mcu.es/Autoridades/LEM201005260/concept> ;
+        skos:closeMatch   <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015008749/concept> , <http://lemag.sgcb.mcu.es/Autoridades/LEMAG201302561/concept> , <http://lemac.sgcb.mcu.es/Autoridades/LEMAC201211716/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015008750/concept> , <http://id.loc.gov/authorities/sh85043737#concept> ;
+        skos:inScheme     <http://id.sgcb.mcu.es/Autoridades/subjectsNames> , <http://id.sgcb.mcu.es/Autoridades/conceptScheme> ;
+        skos:narrower     <http://id.sgcb.mcu.es/Autoridades/LEM201005240/concept> ;
+        skos:prefLabel    "Lengua española-Sintaxis"@es ;
+        skos:related      <http://id.sgcb.mcu.es/Autoridades/LEM201005246/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201005234/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201005269/concept> .
+
+<http://id.loc.gov/authorities/sh85083346#concept>
+        skos:prefLabel  "Meiosis"@en .
+
+<http://lemag.sgcb.mcu.es/Autoridades/LEMAG201303854/concept>
+        a                 skos:Concept ;
+        dcterms:created   "2013-06-17T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2013-06-27T12:10:02+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:closeMatch   <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015006312/concept> , <http://id.loc.gov/authorities/sh85027504#concept> , <http://data.bnf.fr/ark:/12148/cb119772414> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015006311/concept> , <http://lemac.sgcb.mcu.es/Autoridades/LEMAC201207301/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201008064/concept> , <http://d-nb.info/gnd/4131233-8> ;
+        skos:inScheme     <http://lemag.sgcb.mcu.es/Autoridades/conceptScheme> , <http://lemag.sgcb.mcu.es/Autoridades/subjectsNames> ;
+        skos:prefLabel    "Revestimentos"@gl ;
+        skos:related      <http://lemag.sgcb.mcu.es/Autoridades/LEMAG201302732/concept> .
+
+<http://id.sgcb.mcu.es/Autoridades/LEM201009392/concept>
+        a                 skos:Concept ;
+        dcterms:created   "2010-11-20T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2013-06-27T12:45:08+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:altLabel     "Psicología patológica"@es ;
+        skos:broader      <http://id.sgcb.mcu.es/Autoridades/LEM201012112/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201201465/concept> ;
+        skos:closeMatch   <http://lemag.sgcb.mcu.es/Autoridades/LEMAG201303652/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015011899/concept> , <http://d-nb.info/gnd/4047724-1> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015011900/concept> , <http://id.loc.gov/authorities/sh85108479#concept> , <http://data.bnf.fr/ark:/12148/cb119420396> , <http://lemac.sgcb.mcu.es/Autoridades/LEMAC201228380/concept> ;
+        skos:inScheme     <http://id.sgcb.mcu.es/Autoridades/conceptScheme> , <http://id.sgcb.mcu.es/Autoridades/subjectsNames> ;
+        skos:narrower     <http://id.sgcb.mcu.es/Autoridades/LEM201002152/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201007676/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201010353/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201004469/concept> ;
+        skos:prefLabel    "Psicopatología"@es ;
+        skos:related      <http://id.sgcb.mcu.es/Autoridades/LEM201012463/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201007651/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201000399/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201012677/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201012167/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201007677/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201007688/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201008494/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201003261/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201010327/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201007664/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201005996/concept> ;
+        skos:scopeNote    "Úsase para obras sobre la descripción sistemática de las enfermedades mentales. Para obras sobre los aspectos clínicos y terapéuticos de las enfermedades mentales véase: Psiquiatría"@es .
+
+<http://id.sgcb.mcu.es/Autoridades/LEM201001943/concept>
+        a                 skos:Concept ;
+        dcterms:created   "2010-11-20T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2013-06-27T12:34:18+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:altLabel     "Cine-Realización"@es , "Cine-Dirección"@es , "Dirección cinematográfica"@es , "Realización cinematográfica"@es , "Producción cinematográfica"@es ;
+        skos:closeMatch   <http://id.loc.gov/authorities/sh85088104#concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015000266/concept> , <http://lemag.sgcb.mcu.es/Autoridades/LEMAG201300861/concept> , <http://lemac.sgcb.mcu.es/Autoridades/LEMAC201223051/concept> , <http://data.bnf.fr/ark:/12148/cb13162764n> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015000265/concept> ;
+        skos:inScheme     <http://id.sgcb.mcu.es/Autoridades/subjectsNames> , <http://id.sgcb.mcu.es/Autoridades/conceptScheme> ;
+        skos:narrower     <http://id.sgcb.mcu.es/Autoridades/LEM201002360/concept> ;
+        skos:prefLabel    "Cine-Producción y dirección"@es ;
+        skos:related      <http://id.sgcb.mcu.es/Autoridades/LEM201004727/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201001937/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201001940/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201010460/concept> .
+
+<http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015006311/concept>
+        a                 skos:Concept ;
+        dcterms:created   "1999-12-15T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2015-09-27T18:50:53"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        owl:sameAs        <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015006312/concept> ;
+        skos:broader      <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015009685/concept> ;
+        skos:closeMatch   <http://id.sgcb.mcu.es/Autoridades/LEM201008064/concept> , <http://d-nb.info/gnd/4131233-8> , <http://data.bnf.fr/ark:/12148/cb119772414> , <http://lemag.sgcb.mcu.es/Autoridades/LEMAG201303854/concept> , <http://lemac.sgcb.mcu.es/Autoridades/LEMAC201207301/concept> , <http://id.loc.gov/authorities/sh85027504#concept> ;
+        skos:inScheme     <http://lemav.sgcb.mcu.es/Autoridades/subjectsNames> , <http://lemav.sgcb.mcu.es/Autoridades/conceptScheme> ;
+        skos:narrower     <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015382881/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015002779/concept> , <http://lemav.cb.mcu.es/Autoridades/LEMAV2015002779/concept> , <http://lemav.cb.mcu.es/Autoridades/LEMAV2015008547/concept> , <http://lemav.cb.mcu.es/Autoridades/LEMAV2015382881/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015008547/concept> ;
+        skos:prefLabel    "Revestimientos"@es ;
+        skos:related      <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015007255/concept> .
+
+<http://id.sgcb.mcu.es/Autoridades/LEM201010237/concept>
+        a                 skos:Concept ;
+        dcterms:created   "2010-11-20T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2013-06-27T12:46:07+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:closeMatch   <http://lemac.sgcb.mcu.es/Autoridades/LEMAC201209073/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015010443/concept> , <http://id.loc.gov/authorities/sh89002994#concept> , <http://lemag.sgcb.mcu.es/Autoridades/LEMAG201301128/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015010444/concept> ;
+        skos:inScheme     <http://id.sgcb.mcu.es/Autoridades/subjectsNames> , <http://id.sgcb.mcu.es/Autoridades/conceptScheme> ;
+        skos:narrower     <http://id.sgcb.mcu.es/Autoridades/LEM201003518/concept> ;
+        skos:prefLabel    "Criminología"@es ;
+        skos:related      <http://id.sgcb.mcu.es/Autoridades/LEM201200378/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201010327/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201002595/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201000677/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201010385/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201007465/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201010321/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201008463/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201003067/concept> .
+
+<http://id.loc.gov/authorities/sh85112947#concept>
+        skos:prefLabel  "Representative government and representation"@en .
+
+<http://d-nb.info/gnd/4150698-4>
+        rdfs:label  "Drittwiderspruchsklage" .
+
+<http://id.sgcb.mcu.es/Autoridades/LEM201012937/concept>
+        a                skos:Concept ;
+        skos:altLabel    "Técnica"@es ;
+        skos:closeMatch  <http://id.loc.gov/authorities/sh85133147#concept> , <http://lemag.sgcb.mcu.es/Autoridades/LEMAG201304085/concept> , <http://lemac.sgcb.mcu.es/Autoridades/LEMAC201233850/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015010020/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015010019/concept> ;
+        skos:inScheme    <http://id.sgcb.mcu.es/Autoridades/conceptScheme> ;
+        skos:prefLabel   "Tecnología"@es .
+
+<http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015063756/concept>
+        a                 skos:Concept ;
+        dcterms:created   "2000-06-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2015-09-27T19:06:15"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        owl:sameAs        <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015063755/concept> ;
+        skos:broader      <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015063752/concept> ;
+        skos:closeMatch   <http://id.sgcb.mcu.es/Autoridades/LEM201016909/concept> ;
+        skos:inScheme     <http://lemav.sgcb.mcu.es/Autoridades/conceptScheme> , <http://lemav.sgcb.mcu.es/Autoridades/geographicNames> ;
+        skos:prefLabel    "Poitiers"@eu .
+
+<http://id.sgcb.mcu.es/Autoridades/LEM201007469/concept>
+        a                 skos:Concept ;
+        dcterms:created   "2010-11-20T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2013-06-27T12:42:17+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:altLabel     "Psicología penitenciaria"@es ;
+        skos:closeMatch   <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015294968/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015250451/concept> , <http://id.loc.gov/authorities/sh85106939#concept> , <http://lemac.sgcb.mcu.es/Autoridades/LEMAC201227987/concept> , <http://data.bnf.fr/ark:/12148/cb133191958> ;
+        skos:inScheme     <http://id.sgcb.mcu.es/Autoridades/subjectsNames> , <http://id.sgcb.mcu.es/Autoridades/conceptScheme> ;
+        skos:prefLabel    "Presos-Psicología"@es ;
+        skos:related      <http://id.sgcb.mcu.es/Autoridades/LEM201010327/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201003518/concept> .
+
+<http://d-nb.info/gnd/4183130-5>
+        rdfs:label  "Stereotypisierung" .
+
+<http://id.sgcb.mcu.es/Autoridades/LEM201005292/concept>
+        a                 skos:Concept ;
+        dcterms:created   "2010-11-20T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2013-06-27T12:39:20+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:closeMatch   <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015000977/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015000978/concept> , <http://lemac.sgcb.mcu.es/Autoridades/LEMAC201211728/concept> , <http://id.loc.gov/authorities/sh85043755#concept> ;
+        skos:inScheme     <http://id.sgcb.mcu.es/Autoridades/conceptScheme> , <http://id.sgcb.mcu.es/Autoridades/subjectsNames> ;
+        skos:prefLabel    "Lengua española-Uso"@es ;
+        skos:related      <http://id.sgcb.mcu.es/Autoridades/LEM201005248/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201005260/concept> .
+
+<http://id.sgcb.mcu.es/Autoridades/LEM201000677/concept>
+        a                 skos:Concept ;
+        dcterms:created   "2010-11-20T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2013-06-27T12:32:22+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:altLabel     "Antropometría criminal"@es ;
+        skos:closeMatch   <http://lemag.sgcb.mcu.es/Autoridades/LEMAG201300192/concept> , <http://d-nb.info/gnd/4165722-6> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015005846/concept> , <http://data.bnf.fr/ark:/12148/cb119810551> , <http://d-nb.info/gnd/4165723-8> , <http://id.loc.gov/authorities/sh85034032#concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015005845/concept> ;
+        skos:inScheme     <http://id.sgcb.mcu.es/Autoridades/subjectsNames> , <http://id.sgcb.mcu.es/Autoridades/conceptScheme> ;
+        skos:prefLabel    "Antropología criminal"@es ;
+        skos:related      <http://id.sgcb.mcu.es/Autoridades/LEM201010326/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201200378/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201000691/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201010237/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201010327/concept> .
+
+<http://id.sgcb.mcu.es/Autoridades/LEM201200965/concept>
+        a                 skos:Concept ;
+        dcterms:created   "2012-04-29T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2013-06-27T12:55:00+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:broader      <http://id.sgcb.mcu.es/Autoridades/LEM201005260/concept> ;
+        skos:closeMatch   <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015008743/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015008744/concept> , <http://lemag.sgcb.mcu.es/Autoridades/LEMAG201302522/concept> ;
+        skos:inScheme     <http://id.sgcb.mcu.es/Autoridades/conceptScheme> , <http://id.sgcb.mcu.es/Autoridades/subjectsNames> ;
+        skos:prefLabel    "Lengua española-Análisis gramatical"@es ;
+        skos:scopeNote    "Pueden usarse además los distintos tipos de análisis: Análisis morfológico, Análisis sintáctico, etc. "@es .
+
+<http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015005844/concept>
+        a                 skos:Concept ;
+        dcterms:created   "1999-12-15T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2015-09-27T18:50:21"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        owl:sameAs        <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015005843/concept> ;
+        skos:altLabel     "Psikologia kriminala"@eu ;
+        skos:closeMatch   <http://id.sgcb.mcu.es/Autoridades/LEM201010327/concept> , <http://lemag.sgcb.mcu.es/Autoridades/LEMAG201301226/concept> ;
+        skos:inScheme     <http://lemav.sgcb.mcu.es/Autoridades/conceptScheme> , <http://lemav.sgcb.mcu.es/Autoridades/subjectsNames> ;
+        skos:prefLabel    "Delitugileak-Psikologia"@eu ;
+        skos:related      <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015006506/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015388939/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015005846/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015294968/concept> .
+
+<http://lemac.sgcb.mcu.es/Autoridades/LEMAC201207301/concept>
+        a                 skos:Concept ;
+        dcterms:created   "1989-07-27T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2012-12-30T00:00:00+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:broader      <http://lemac.sgcb.mcu.es/Autoridades/LEMAC201221654/concept> ;
+        skos:closeMatch   <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015006311/concept> , <http://data.bnf.fr/ark:/12148/cb119772414> , <http://d-nb.info/gnd/4131233-8> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015006312/concept> , <http://lemac.sgcb.mcu.es/Autoridades/LEMAC201207301/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201008064/concept> , <http://lemag.sgcb.mcu.es/Autoridades/LEMAG201303854/concept> , <http://id.loc.gov/authorities/sh85027504#concept> ;
+        skos:inScheme     <http://lemac.sgcb.mcu.es/Autoridades/conceptScheme> , <http://lemac.sgcb.mcu.es/Autoridades/subjectsNames> ;
+        skos:narrower     <http://lemac.sgcb.mcu.es/Autoridades/LEMAC201213274/concept> , <http://lemac.sgcb.mcu.es/Autoridades/LEMAC201205863/concept> , <http://lemac.sgcb.mcu.es/Autoridades/LEMAC201235628/concept> , <http://lemac.sgcb.mcu.es/Autoridades/LEMAC201234298/concept> , <http://lemac.sgcb.mcu.es/Autoridades/LEMAC201228182/concept> ;
+        skos:prefLabel    "Revestiments"@ca ;
+        skos:related      <http://lemac.sgcb.mcu.es/Autoridades/LEMAC201234301/concept> , <http://lemac.sgcb.mcu.es/Autoridades/LEMAC201207300/concept> .
+
+<http://id.sgcb.mcu.es/Autoridades/LEM201005930/concept>
+        a                 skos:Concept ;
+        dcterms:created   "2010-11-20T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2013-06-27T12:40:13+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:altLabel     "Materiales industriales"@es , "Ingeniería-Materiales"@es , "Industria-Materiales"@es ;
+        skos:closeMatch   <http://lemac.sgcb.mcu.es/Autoridades/LEMAC201221654/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015003920/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015003919/concept> , <http://id.loc.gov/authorities/sh2002006405#concept> , <http://lemag.sgcb.mcu.es/Autoridades/LEMAG201302728/concept> ;
+        skos:inScheme     <http://id.sgcb.mcu.es/Autoridades/subjectsNames> , <http://id.sgcb.mcu.es/Autoridades/conceptScheme> ;
+        skos:narrower     <http://id.sgcb.mcu.es/Autoridades/LEM201011668/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201008064/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201009383/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201006625/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201005931/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201007222/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201005938/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201005933/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201011667/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201005941/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201005935/concept> ;
+        skos:prefLabel    "Materiales"@es ;
+        skos:related      <http://id.sgcb.mcu.es/Autoridades/LEM201005942/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201005948/concept> ;
+        skos:scopeNote    "Úsase para los estudios de conjunto sobre los materiales que se emplean en la ingeniería y en la industria.:"@es .
+
+<http://id.sgcb.mcu.es/Autoridades/LEM201016909/concept>
+        a                 skos:Concept ;
+        dcterms:created   "2010-11-20T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2013-06-27T12:53:33+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:broader      <http://id.sgcb.mcu.es/Autoridades/LEM201016822/concept> ;
+        skos:closeMatch   <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015063756/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015063755/concept> ;
+        skos:inScheme     <http://id.sgcb.mcu.es/Autoridades/conceptScheme> , <http://id.sgcb.mcu.es/Autoridades/geographicNames> ;
+        skos:prefLabel    "Poitiers"@es .
+
+<http://id.loc.gov/authorities/sh85010062#concept>
+        skos:prefLabel  "Autogenic training"@en .
+
+<http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015009473/concept>
+        a                 skos:Concept ;
+        dcterms:created   "1999-12-15T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2015-09-27T18:54:32"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        owl:sameAs        <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015009474/concept> ;
+        skos:broader      <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015009477/concept> ;
+        skos:closeMatch   <http://id.loc.gov/authorities/sh85088107#concept> , <http://lemac.sgcb.mcu.es/Autoridades/LEMAC201223056/concept> , <http://lemag.sgcb.mcu.es/Autoridades/LEMAG201300859/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201001937/concept> ;
+        skos:inScheme     <http://lemav.sgcb.mcu.es/Autoridades/subjectsNames> , <http://lemav.sgcb.mcu.es/Autoridades/conceptScheme> ;
+        skos:prefLabel    "Cine-Escenografía"@es .
+
+<http://id.sgcb.mcu.es/Autoridades/LEM201007664/concept>
+        a                 skos:Concept ;
+        dcterms:created   "2010-11-20T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2013-06-27T12:42:33+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:altLabel     "Psicología forense"@es , "Psicología jurídica"@es ;
+        skos:closeMatch   <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015388939/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015388937/concept> , <http://id.loc.gov/authorities/sh85108475#concept> ;
+        skos:inScheme     <http://id.sgcb.mcu.es/Autoridades/subjectsNames> , <http://id.sgcb.mcu.es/Autoridades/conceptScheme> ;
+        skos:prefLabel    "Psicología legal"@es ;
+        skos:related      <http://id.sgcb.mcu.es/Autoridades/LEM201009392/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201007692/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201010327/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201010354/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201012453/concept> .
+
+<http://id.sgcb.mcu.es/Autoridades/LEM201016822/concept>
+        a                 skos:Concept ;
+        dcterms:created   "2010-11-20T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2013-06-27T12:53:28+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:broader      <http://id.sgcb.mcu.es/Autoridades/LEM201016908/concept> ;
+        skos:closeMatch   <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015063752/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015063751/concept> ;
+        skos:inScheme     <http://id.sgcb.mcu.es/Autoridades/geographicNames> , <http://id.sgcb.mcu.es/Autoridades/conceptScheme> ;
+        skos:narrower     <http://id.sgcb.mcu.es/Autoridades/LEM201016909/concept> ;
+        skos:prefLabel    "Vienne (Departamento)"@es .
+
+<http://lemag.sgcb.mcu.es/Autoridades/LEMAG201301226/concept>
+        a                 skos:Concept ;
+        dcterms:created   "2013-06-17T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2013-06-27T12:06:44+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:altLabel     "Psicoloxia criminal"@gl ;
+        skos:closeMatch   <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015005843/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015005844/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201010327/concept> ;
+        skos:inScheme     <http://lemag.sgcb.mcu.es/Autoridades/subjectsNames> , <http://lemag.sgcb.mcu.es/Autoridades/conceptScheme> ;
+        skos:prefLabel    "Delincuentes-Psicoloxia"@gl ;
+        skos:related      <http://lemag.sgcb.mcu.es/Autoridades/LEMAG201303661/concept> , <http://lemag.sgcb.mcu.es/Autoridades/LEMAG201301128/concept> , <http://lemag.sgcb.mcu.es/Autoridades/LEMAG201303652/concept> , <http://lemag.sgcb.mcu.es/Autoridades/LEMAG201300192/concept> .
+
+<http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015008706/concept>
+        a                 skos:Concept ;
+        dcterms:created   "1999-12-15T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2015-09-27T18:53:38"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        owl:sameAs        <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015008705/concept> ;
+        skos:closeMatch   <http://lemag.sgcb.mcu.es/Autoridades/LEMAG201302540/concept> , <http://id.loc.gov/authorities/sh85043556#concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201005260/concept> ;
+        skos:inScheme     <http://lemav.sgcb.mcu.es/Autoridades/subjectsNames> , <http://lemav.sgcb.mcu.es/Autoridades/conceptScheme> ;
+        skos:narrower     <http://lemav.cb.mcu.es/Autoridades/LEMAV2015008750/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015008750/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015008748/concept> , <http://lemav.cb.mcu.es/Autoridades/LEMAV2015008744/concept> , <http://lemav.cb.mcu.es/Autoridades/LEMAV2015008748/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015008744/concept> ;
+        skos:prefLabel    "Espainiera-Gramatika"@eu ;
+        skos:related      <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015000978/concept> .
+
+<http://lemag.sgcb.mcu.es/Autoridades/LEMAG201302540/concept>
+        a                 skos:Concept ;
+        dcterms:created   "2013-06-17T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2013-06-27T12:08:22+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:closeMatch   <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015008706/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015008705/concept> , <http://id.loc.gov/authorities/sh85043556#concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201005260/concept> ;
+        skos:inScheme     <http://lemag.sgcb.mcu.es/Autoridades/subjectsNames> , <http://lemag.sgcb.mcu.es/Autoridades/conceptScheme> ;
+        skos:prefLabel    "Lingua española-Gramática"@gl ;
+        skos:related      <http://lemag.sgcb.mcu.es/Autoridades/LEMAG201302522/concept> , <http://lemag.sgcb.mcu.es/Autoridades/LEMAG201302548/concept> , <http://lemag.sgcb.mcu.es/Autoridades/LEMAG201302561/concept> .
+
+<http://d-nb.info/gnd/4421423-6>
+        rdfs:label  "Nachkriegszeit" .
+
+<http://id.sgcb.mcu.es/Autoridades/LEM201003691/concept>
+        a                 skos:Concept ;
+        dcterms:created   "2010-11-20T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2013-06-27T12:36:58+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:altLabel     "Edificios-Fachadas"@es ;
+        skos:broader      <http://id.sgcb.mcu.es/Autoridades/LEM201011865/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201010523/concept> ;
+        skos:closeMatch   <http://data.bnf.fr/ark:/12148/cb11938010q> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015007256/concept> , <http://id.loc.gov/authorities/sh85046782#concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015007255/concept> , <http://d-nb.info/gnd/4153765-8> , <http://lemac.sgcb.mcu.es/Autoridades/LEMAC201212786/concept> , <http://d-nb.info/gnd/4016507-3> ;
+        skos:inScheme     <http://id.sgcb.mcu.es/Autoridades/conceptScheme> , <http://id.sgcb.mcu.es/Autoridades/subjectsNames> ;
+        skos:prefLabel    "Fachadas"@es ;
+        skos:related      <http://id.sgcb.mcu.es/Autoridades/LEM201008064/concept> .
+
+<http://id.loc.gov/authorities/sh85029403#concept>
+        skos:prefLabel  "Composition (Music)"@en .
+
+<http://id.loc.gov/authorities/sh85043556#concept>
+        skos:prefLabel  "English language--Grammar"@en .
+
+<http://id.sgcb.mcu.es/Autoridades/LEM201007138/concept>
+        a                 skos:Concept ;
+        dcterms:created   "2010-11-20T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2013-06-27T12:41:52+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:altLabel     "Pintura (Producto químico)"@es ;
+        skos:broader      <http://id.sgcb.mcu.es/Autoridades/LEM201008064/concept> ;
+        skos:closeMatch   <http://id.loc.gov/authorities/sh85096623#concept> , <http://data.bnf.fr/ark:/12148/cb11932943q> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015382882/concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015382881/concept> , <http://lemac.sgcb.mcu.es/Autoridades/LEMAC201225225/concept> ;
+        skos:inScheme     <http://id.sgcb.mcu.es/Autoridades/subjectsNames> , <http://id.sgcb.mcu.es/Autoridades/conceptScheme> ;
+        skos:prefLabel    "Pinturas (Producto químico)"@es ;
+        skos:related      <http://id.sgcb.mcu.es/Autoridades/LEM201007130/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201010046/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201001270/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201007876/concept> , <http://id.sgcb.mcu.es/Autoridades/LEM201002914/concept> .
+
+<http://data.bnf.fr/ark:/12148/cb12305026v>
+        skos:prefLabel  "Hérons"@fr .
+
+<http://id.loc.gov/authorities/sh85009219#concept>
+        skos:prefLabel  "Atlantis (Legendary place)"@en .
+
+<http://id.sgcb.mcu.es/Autoridades/LEM201005935/concept>
+        a                 skos:Concept ;
+        dcterms:created   "2010-11-20T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2013-06-27T12:40:13+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:altLabel     "Composites"@es ;
+        skos:broader      <http://id.sgcb.mcu.es/Autoridades/LEM201005930/concept> ;
+        skos:closeMatch   <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015408209/concept> , <http://data.bnf.fr/ark:/12148/cb119401259> , <http://lemac.sgcb.mcu.es/Autoridades/LEMAC201207858/concept> , <http://id.loc.gov/authorities/sh85029397#concept> , <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015353886/concept> , <http://d-nb.info/gnd/4062670-2> ;
+        skos:inScheme     <http://id.sgcb.mcu.es/Autoridades/conceptScheme> , <http://id.sgcb.mcu.es/Autoridades/subjectsNames> ;
+        skos:narrower     <http://id.sgcb.mcu.es/Autoridades/LEM201007224/concept> ;
+        skos:prefLabel    "Materiales compuestos"@es ;
+        skos:related      <http://id.sgcb.mcu.es/Autoridades/LEM201008064/concept> .
+
+<http://id.sgcb.mcu.es/Autoridades/LEM201007870/concept>
+        a                 skos:Concept ;
+        dcterms:created   "2010-11-20T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dcterms:modified  "2013-06-27T12:42:49+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:altLabel     "Reconstrucción postbélica, 1939-1951"@es , "Guerra mundial, 1939-1945-Reconstrucción"@es ;
+        skos:closeMatch   <http://data.bnf.fr/ark:/12148/cb119550243> , <http://lemac.sgcb.mcu.es/Autoridades/LEMAC201229039/concept> , <http://id.loc.gov/authorities/sh85111866#concept> , <http://d-nb.info/gnd/4421423-6> ;
+        skos:inScheme     <http://id.sgcb.mcu.es/Autoridades/conceptScheme> , <http://id.sgcb.mcu.es/Autoridades/subjectsNames> ;
+        skos:prefLabel    "Reconstrucción, 1939-1951"@es .
+
+<http://id.loc.gov/authorities/sh85027504#concept>
+        skos:prefLabel  "Coatings"@en .
+
+<http://data.bnf.fr/ark:/12148/cb119550243>
+        skos:prefLabel  "Reconstruction d'après-guerre (2e guerre mondiale)"@fr .
+
+<http://d-nb.info/gnd/4002730-2>
+        rdfs:label  "Arbeitslosigkeit" .

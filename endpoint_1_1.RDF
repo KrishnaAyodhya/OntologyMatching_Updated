@@ -1,0 +1,1122 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://resource.geosciml.org/ontology/timescale/gts#"
+    xmlns:j.1="http://def.isotc211.org/iso19108/2006/TemporalReferenceSystem#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.2="http://resource.geosciml.org/ontology/timescale/thors#"
+    xmlns:j.3="http://rdfs.org/ns/void#"
+    xmlns:j.4="http://purl.org/dc/terms/"
+    xmlns:j.5="http://www.w3.org/2006/time#"
+    xmlns:j.6="http://rdf-vocabulary.ddialliance.org/xkos#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.7="http://www.w3.org/2004/02/skos/core#"
+    xmlns:j.8="http://purl.org/vocab/vann/"
+    xmlns:j.9="http://xmlns.com/foaf/0.1/">
+  <rdfs:Datatype rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"/>
+    <rdfs:subClassOf>
+      <rdfs:Class rdf:about="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <rdfs:Class rdf:about="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    </rdfs:subClassOf>
+    <rdf:type>
+      <rdfs:Class rdf:about="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    </rdf:type>
+    <rdf:type>
+      <rdfs:Class rdf:about="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    </rdf:type>
+  </rdfs:Datatype>
+  <rdfs:Class rdf:about="http://www.w3.org/2000/01/rdf-schema#Resource">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://www.w3.org/2006/time#ProperInterval">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#List">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://resource.geosciml.org/ontology/timescale/gts#Age">
+    <rdfs:subClassOf rdf:resource="http://resource.geosciml.org/ontology/timescale/gts#Age"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://www.w3.org/2000/01/rdf-schema#Container">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://def.isotc211.org/iso19108/2006/TemporalReferenceSystem#TM_CoordinateSystem">
+    <rdfs:subClassOf rdf:resource="http://def.isotc211.org/iso19108/2006/TemporalReferenceSystem#TM_CoordinateSystem"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://resource.geosciml.org/ontology/timescale/gts#GeochronologicEra">
+    <rdfs:subClassOf rdf:resource="http://resource.geosciml.org/ontology/timescale/gts#GeochronologicEra"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://www.w3.org/2006/time#TRS">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/time#TRS"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://www.w3.org/2004/02/skos/core#Collection">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://www.w3.org/2000/01/rdf-schema#Class">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://www.w3.org/2000/01/rdf-schema#Datatype">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://www.w3.org/2000/01/rdf-schema#Literal">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Alt">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Alt"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <j.5:TRS rdf:about="http://resource.geosciml.org/classifier/cgi/geologicage/ma">
+    <owl:sameAs>
+      <rdfs:Resource rdf:about="http://www.opengis.net/def/crs/OGC/0/ChronometricGeologicTime"/>
+    </owl:sameAs>
+    <rdfs:seeAlso>
+      <rdfs:Resource rdf:about="https://en.wikipedia.org/wiki/Year#SI_prefix_multipliers"/>
+    </rdfs:seeAlso>
+    <j.4:description xml:lang="en">Temporal position expressed numerically scaled in millions of years increasing backwards from the present.&#xD;
+&#xD;
+Positions in geologic time are conventionally denoted in millions of years, measured backwards from the present.</j.4:description>
+    <j.1:TM_CoordinateSystem.origin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2000-01-01T00:00:00</j.1:TM_CoordinateSystem.origin>
+    <j.1:TM_CoordinateSystem.interval xml:lang="en">Ma</j.1:TM_CoordinateSystem.interval>
+    <rdfs:label xml:lang="en">Millions of years ago</rdfs:label>
+    <j.7:definition xml:lang="en">Temporal position expressed numerically scaled in millions of years increasing backwards from the present</j.7:definition>
+    <rdfs:comment xml:lang="en">Positions in geologic time are conventionally denoted in millions of years, measured backwards from the present. </rdfs:comment>
+    <rdf:type rdf:resource="http://def.isotc211.org/iso19108/2006/TemporalReferenceSystem#TM_CoordinateSystem"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:seeAlso>
+      <rdfs:Resource rdf:about="https://doi.org/10.1351%2FPAC-REC-09-01-22"/>
+    </rdfs:seeAlso>
+    <j.7:prefLabel xml:lang="en">Millions of years ago</j.7:prefLabel>
+  </j.5:TRS>
+  <rdfs:Resource rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+  </rdfs:Resource>
+  <rdfs:Resource rdf:about="http://resource.geosciml.org/classifier/cgi/geologicage/bp">
+    <j.1:TM_CoordinateSystem.interval>a</j.1:TM_CoordinateSystem.interval>
+    <j.7:prefLabel xml:lang="en">Years before present (1950)</j.7:prefLabel>
+    <j.7:definition xml:lang="en">Temporal position expressed numerically scaled in years increasing backwards relative to 1950</j.7:definition>
+    <j.4:description xml:lang="en">Temporal position expressed numerically scaled in years increasing backwards relative to 1950.&#xD;
+&#xD;
+Positions in archeologic and 'recent' geologic time are conventionally denoted in years, measured backwards from the present, which is fixed to 1950 when the precision requires it.</j.4:description>
+    <rdfs:seeAlso>
+      <rdfs:Resource rdf:about="https://en.wikipedia.org/wiki/Before_Present"/>
+    </rdfs:seeAlso>
+    <rdfs:label xml:lang="en">Years before present (1950)</rdfs:label>
+    <j.1:TM_CoordinateSystem.interval>365.24219265d</j.1:TM_CoordinateSystem.interval>
+    <j.1:TM_CoordinateSystem.origin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >1950-01-01T00:00:00</j.1:TM_CoordinateSystem.origin>
+    <rdfs:comment xml:lang="en">Positions in archeologic and 'recent' geologic time are conventionally denoted in years, measured backwards from the present, which is fixed to 1950 when the precision requires it</rdfs:comment>
+    <rdf:type rdf:resource="http://def.isotc211.org/iso19108/2006/TemporalReferenceSystem#TM_CoordinateSystem"/>
+    <j.1:TM_CoordinateSystem.interval>31556925.445s</j.1:TM_CoordinateSystem.interval>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TRS"/>
+  </rdfs:Resource>
+  <j.0:Epoch rdf:about="http://resource.geosciml.org/classifier/ics/ischart/MiddleJurassic">
+    <j.5:intervalIn>
+      <j.0:Period rdf:about="http://resource.geosciml.org/classifier/ics/ischart/Jurassic">
+        <j.7:prefLabel xml:lang="et">Juura</j.7:prefLabel>
+        <rdf:type rdf:resource="http://resource.geosciml.org/ontology/timescale/gts#GeochronologicEra"/>
+        <j.7:prefLabel xml:lang="da">Jurassisk</j.7:prefLabel>
+        <j.5:intervalStartedBy rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/LowerJurassic"/>
+        <j.5:intervalIn>
+          <j.0:GeochronologicEra rdf:about="http://resource.geosciml.org/classifier/ics/ischart/Mesozoic">
+            <rdfs:comment xml:lang="en">older bound -251.902 +|-0.024 Ma</rdfs:comment>
+            <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Hauterivian"/>
+            <j.7:prefLabel xml:lang="hu">mezozoikum</j.7:prefLabel>
+            <j.7:prefLabel xml:lang="sk">mezozoikum</j.7:prefLabel>
+            <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Hettangian"/>
+            <j.7:prefLabel xml:lang="de">Mesozoikum</j.7:prefLabel>
+            <j.7:prefLabel xml:lang="no">Mesozoikum</j.7:prefLabel>
+            <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Induan"/>
+            <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/LowerTriassic"/>
+            <j.5:intervalDuring>
+              <j.5:ProperInterval rdf:about="http://resource.geosciml.org/classifier/ics/ischart/Phanerozoic">
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Jiangshanian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Jurassic"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Meghalayan"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Asselian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Capitanian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Drumian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Pliensbachian"/>
+                <j.5:intervalContains rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Mesozoic"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/UpperOrdovician"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Gzhelian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/LowerMississippian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Quaternary"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Mississippian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Llandovery"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Triassic"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/MiddleTriassic"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Givetian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Terreneuvian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Floian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Aptian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Guzhangian"/>
+                <j.7:notation rdf:datatype="http://resource.geosciml.org/ontology/timescale/gts#EraCode"
+                >a1.1</j.7:notation>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/UpperCretaceous"/>
+                <j.7:prefLabel xml:lang="it">fanerozoico</j.7:prefLabel>
+                <j.5:intervalMetBy rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Precambrian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Fortunian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/MiddlePleistocene"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/MiddleDevonian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Famennian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Sandbian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Tortonian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/CambrianStage4"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Paibian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Gorstian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Toarcian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Ludlow"/>
+                <rdfs:comment xml:lang="en">younger bound -0.0 Ma</rdfs:comment>
+                <j.7:prefLabel xml:lang="fi">Fanerotsoikum</j.7:prefLabel>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Albian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Greenlandian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Carnian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Furongian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Tremadocian"/>
+                <j.7:prefLabel xml:lang="bg">Фанерозой</j.7:prefLabel>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Cambrian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Wenlock"/>
+                <j.7:prefLabel xml:lang="nl">Phanerozoïcum</j.7:prefLabel>
+                <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Frasnian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Pragian"/>
+                <owl:sameAs rdf:resource="http://dbpedia.org/resource/Phanerozoic"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Neogene"/>
+                <j.7:prefLabel xml:lang="pt">Fanerozóico</j.7:prefLabel>
+                <j.5:hasBeginning rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BasePhanerozoic"/>
+                <j.7:prefLabel xml:lang="ja">顕生代</j.7:prefLabel>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/UpperMississippian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Homerian"/>
+                <j.0:rank rdf:resource="http://resource.geosciml.org/ontology/timescale/rank/Eon"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/MiddleJurassic"/>
+                <j.7:prefLabel xml:lang="lt">Fanerozojus</j.7:prefLabel>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Kimmeridgian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Sheinwoodian"/>
+                <j.7:narrower rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Mesozoic"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Wuchiapingian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/CambrianStage2"/>
+                <j.5:intervalMetBy rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Neoproterozoic"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Campanian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Eifelian"/>
+                <j.7:prefLabel xml:lang="zh">显生宙</j.7:prefLabel>
+                <j.7:prefLabel xml:lang="fr">Phanérozoïque</j.7:prefLabel>
+                <rdf:type rdf:resource="http://resource.geosciml.org/ontology/timescale/gts#Eon"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Olenekian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Bashkirian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Miocene"/>
+                <rdf:type rdf:resource="http://resource.geosciml.org/ontology/timescale/gts#GeochronologicEra"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Maastrichtian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Cenomanian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Messinian"/>
+                <j.7:narrower rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Paleozoic"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Devonian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Langhian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/UpperPennsylvanian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Aeronian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Danian"/>
+                <j.7:prefLabel xml:lang="en">Phanerozoic</j.7:prefLabel>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Oligocene"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Ludfordian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Thanetian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Ladinian"/>
+                <j.5:intervalStartedBy rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Paleozoic"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Valanginian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/MiddlePennsylvanian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Bajocian"/>
+                <j.7:prefLabel xml:lang="da">Phanerozoisk</j.7:prefLabel>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/LowerDevonian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Dapingian"/>
+                <rdfs:label xml:lang="en">Phanerozoic Eon</rdfs:label>
+                <j.7:prefLabel xml:lang="sl">fanerozoik</j.7:prefLabel>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Lutetian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Hauterivian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Permian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/UpperDevonian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Artinskian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Wuliuan"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Eocene"/>
+                <j.7:topConceptOf>
+                  <j.7:ConceptScheme rdf:about="http://resource.geosciml.org/vocabulary/timescale/gts2020">
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseBartonian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseCapitanian"/>
+                    <j.3:exampleResource rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseOrdovician"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseRhaetian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseEctasian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseNeoproterozoic"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BasePriabonian"/>
+                    <j.4:source xml:lang="en">Cohen, K.M., Finney, S.C., Gibbard, P.L. &amp; Fan, J.-X. (2013; updated) The ICS International Chronostratigraphic Chart. Episodes 36: 199-204.</j.4:source>
+                    <j.4:contributor xml:lang="en">S M Richard</j.4:contributor>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseEdiacaran"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseBathonian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseSerravallian"/>
+                    <j.7:changeNote xml:lang="en">2020-01-13 - fix errors in Permian/Carboniferous - see https://github.com/GeoscienceAustralia/geosciml.org/issues/3#issuecomment-560054965</j.7:changeNote>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BasePliocene"/>
+                    <j.3:rootResource>
+                      <j.7:Collection rdf:about="http://resource.geosciml.org/classifier/ics/ischart/">
+                        <j.7:member>
+                          <rdfs:Resource rdf:about="http://resource.geosciml.org/classifier/ics/ischart/GeochronologicEras">
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Epochs"/>
+                            <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Ages"/>
+                            <j.7:prefLabel xml:lang="en">GeochronologicEras (all ranks) in the International Chronostratigraphic Chart</j.7:prefLabel>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Periods"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Eons"/>
+                            <rdfs:label xml:lang="en">GeochronologicEras (all ranks) in the International Chronostratigraphic Chart</rdfs:label>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Eras"/>
+                            <j.6:depth rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger"
+                            >1</j.6:depth>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Sub-Periods"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Super-Eons"/>
+                          </rdfs:Resource>
+                        </j.7:member>
+                        <j.7:member>
+                          <rdfs:Resource rdf:about="http://resource.geosciml.org/classifier/ics/ischart/Boundaries">
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseEocene"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseJiangshanian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseEctasian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseCapitanian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseCryogenian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BasePennsylvanian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BasePliensbachian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseKimmeridgian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseEmsian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseProterozoic"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseCallovian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseConiacian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Present"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseCambrianStage10"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseThanetian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseJurassic"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseMiddleMississippian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseOligocene"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseTelychian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseDrumian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseTortonian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseLateDevonian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseCambrianSeries2"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseChanghsingian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseOlenekian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseNeogene"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseHomerian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseSelandian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseKatian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseMesoproterozoic"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/FormationOfEarth"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BasePiacenzian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseDarriwilian"/>
+                            <rdfs:label xml:lang="en">Boundaries in the International Chronostratigraphic Chart</rdfs:label>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseMaastrichtian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseFamennian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BasePragian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseAptian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BasePriabonian"/>
+                            <j.7:prefLabel xml:lang="en">Boundaries in the International Chronostratigraphic Chart</j.7:prefLabel>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseDevonian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseLateMississippian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseCambrianStage4"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseCalabrian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseMiaolingian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BasePridoli"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BasePhanerozoic"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseMessinian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseNorian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseTuronian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseCretaceous"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseGzhelian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseLatePleistocene"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseLutetian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseLanghian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseArchean"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseQuaternary"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseSinemurian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseMesozoic"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseRhaetian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseCampanian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseNorthgrippian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseStatherian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseMiddleDevonian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseAeronian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseMiddleTriassic"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseAlbian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BasePermian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseGuzhangian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseFurongian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseSakmarian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseEdiacaran"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BasePaleoarchean"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseValanginian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseLopingian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseKungurian"/>
+                            <j.7:memberList rdf:parseType="Resource">
+                            </j.7:memberList>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseLudfordian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseTithonian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseBurdigalian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseBartonian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseBajocian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseOrosirian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseCarboniferous"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseArtinskian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseMiddleOrdovician"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseGivetian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseCenozoic"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseChattian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseToarcian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseRhyacian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseLateCretaceous"/>
+                            <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#OrderedCollection"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseLateTriassic"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseLateJurassic"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseStenian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseSantonian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseMesoarchean"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseMiddleJurassic"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseBathonian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseBarremian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseWordian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseMiddlePleistocene"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseLateOrdovician"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseMeghalayan"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseCambrianStage2"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseOrdovician"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BasePliocene"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseNeoarchean"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseHolocene"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseGuadalupian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseLatePennsylvanian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseSilurian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseLudlow"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseLadinian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseNeoproterozoic"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseHirnantian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseHauterivian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseSerravallian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseFloian"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseWenlock"/>
+                            <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseMiddlePennsylvanian"/>
+                          </rdfs:Resource>
+                        </j.7:member>
+                        <j.7:prefLabel xml:lang="en">Geologic Timescale Elements in the International Chronostratigraphic Chart</j.7:prefLabel>
+                        <rdfs:label xml:lang="en">Geologic Timescale Elements in the International Chronostratigraphic Chart</rdfs:label>
+                        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+                      </j.7:Collection>
+                    </j.3:rootResource>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseLudlow"/>
+                    <j.4:rights xml:lang="en">Original version Copyright © 2020 International Commission on Stratigraphy</j.4:rights>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseOligocene"/>
+                    <j.7:changeNote xml:lang="en">1. THORS ontology updated to align with OWL-Time (instead of ISO 19108).&#xD;
+2. GTS ontology updated to use sam-lite (instead of OWL implementation of ISO 19156) with a lightweight SOSA alignment&#xD;
+3. Spatial data uses GeoSPARQL (instead of OWL implementation of ISO 19107)</j.7:changeNote>
+                    <j.7:changeNote xml:lang="en">2019-06-10 - This revision adjusts the nomenclature of units to use only chronologic terminology rather than stratigraphic terminology [e.g. Cambrian-Age 2 in place of Cambrian-Stage 2; Cambrian-Epoch 2 in place of Cambrian-Series 2; Early/Late in place of Lower/Upper (namely in application to Epoch/time units rather than their equivalent Series/stratigraphic units—e.g. Early Jurassic Epoch rather than Lower Jurassic Series)]; and the whole artefact is renamed ‘Geologic Time Scale’. &#xD;
+Also: changed samfl:shape --&gt; geo:hasGeometry</j.7:changeNote>
+                    <j.7:changeNote xml:lang="en">2017/02 - Paleogene: Base of Chattian: The numeric age is updated to that at the ratified GSSP (27.82 Ma; Nanno et al. exp. 2017; by request of Simonetti Monechi)</j.7:changeNote>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseHomerian"/>
+                    <j.3:feature rdf:resource="http://www.w3.org/ns/formats/Turtle"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseArchean"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseQuaternary"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseLateJurassic"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseMessinian"/>
+                    <j.2:component rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Precambrian"/>
+                    <j.7:changeNote xml:lang="en">2017-02-22 Added additional collections for eras of each rank;&#xD;
+classified rank-based collections using XKOS;&#xD;
+cleaned out legacy Base* instances that did not have links;&#xD;
+renamed *[GS]SP individuals to *SP;&#xD;
+removed all boundaries as TopConcepts, leaving on PreCambrian and Phanerozoic as TopConcepts</j.7:changeNote>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseHolocene"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseToarcian"/>
+                    <j.3:exampleResource rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Ordovician"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseChanghsingian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseCambrianSeries2"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseOrosirian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseCenozoic"/>
+                    <j.3:dataDump rdf:resource="https://github.com/CGI-IUGS/timescale-data/rdf/isc2020.ttl"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseGuzhangian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseLanghian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseNorian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseMesozoic"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseTithonian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseMaastrichtian"/>
+                    <j.3:exampleResource rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseOrdovicianSP"/>
+                    <rdfs:seeAlso rdf:resource="http://www.stratigraphy.org/GSSP/index.html"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BasePridoli"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseCryogenian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseHauterivian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseBurdigalian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseArtinskian"/>
+                    <j.4:subject rdf:resource="http://dbpedia.org/page/Geologic_time_scale"/>
+                    <j.4:creator xml:lang="en">Simon J D COX, CSIRO</j.4:creator>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseMiddleJurassic"/>
+                    <j.7:changeNote xml:lang="en">Added informal definition of chronometric temporal reference system - Millions of years, counting backwards from 1950</j.7:changeNote>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseCarboniferous"/>
+                    <j.3:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseCambrianStage2"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseCallovian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseNeoarchean"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseFloian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BasePragian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BasePermian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseKimmeridgian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseLateTriassic"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseSelandian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseFurongian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseMiddleTriassic"/>
+                    <j.7:altLabel xml:lang="en">International Chronostratigraphic Chart (2020)</j.7:altLabel>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseSilurian"/>
+                    <j.4:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseGuadalupian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseMiaolingian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseStenian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseLutetian"/>
+                    <j.3:uriSpace rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"
+                    >http://resource.geosciml.org/classifier/ics/ischart/</j.3:uriSpace>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseBarremian"/>
+                    <j.4:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+                    >2020-06-05</j.4:created>
+                    <rdfs:isDefinedBy rdf:resource="http://resource.geosciml.org/vocabulary/timescale/gts2020"/>
+                    <rdfs:seeAlso rdf:resource="https://stratigraphy.org/icschart/ChronostratChart2020-01.pdf"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseSakmarian"/>
+                    <j.3:vocabulary rdf:resource="http://resource.geosciml.org/ontology/timescale/gts"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseDevonian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseNeogene"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseFamennian"/>
+                    <j.4:contributor xml:lang="en">International Commission on Stratigraphy</j.4:contributor>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseDarriwilian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseLateMississippian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseMiddlePennsylvanian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseMiddlePleistocene"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseKatian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseCalabrian"/>
+                    <j.8:preferredNamespaceUri rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseEocene"/>
+                    <j.3:exampleResource rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseOrdovicianTime"/>
+                    <j.8:preferredNamespacePrefix xml:lang="en"
+                    >isc</j.8:preferredNamespacePrefix>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseCretaceous"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseGzhelian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseProterozoic"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseAlbian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseJiangshanian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseJurassic"/>
+                    <j.7:changeNote xml:lang="en">2020-01-13 - updated to 2019 version see http://stratigraphy.org/ICSchart/ChangeLog2012-2013-2014-2015-2016-2017-2018-2019.txt</j.7:changeNote>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseSantonian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseSinemurian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BasePliensbachian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BasePiacenzian"/>
+                    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+                    <j.7:changeNote xml:lang="en">2009-05-01 Introduced Holocene subdivisions, as shown in 2018 version from stratigraphy.org - see </j.7:changeNote>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BasePennsylvanian"/>
+                    <j.4:title xml:lang="en">Geologic Time Scale (2020)</j.4:title>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseLateDevonian"/>
+                    <j.7:changeNote xml:lang="en">2020-06-05 - updated to 2020 version see https://stratigraphy.org/icschart/ChangeLog2012-2013-2014-2015-2016-2017-2018-2019-2020.txt</j.7:changeNote>
+                    <j.4:contributor xml:lang="en">OneGeology Europe preferred labels merged in by S.M. Richard.</j.4:contributor>
+                    <j.4:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+                    >2020-06-12</j.4:modified>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseLatePennsylvanian"/>
+                    <j.7:prefLabel xml:lang="en">Geological Timescale (2020)</j.7:prefLabel>
+                    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+                    <j.7:changeNote xml:lang="en">2018-09-27 fixed some broken namespaces and prefixes, mostly related to SPARQL - some kind of search/replace error</j.7:changeNote>
+                    <rdfs:label xml:lang="en">Geologic Time Scale (2020)</rdfs:label>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseEmsian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseMesoproterozoic"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseHirnantian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseThanetian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseMiddleOrdovician"/>
+                    <rdfs:seeAlso rdf:resource="http://stratigraphy.org/GSSP/index.html"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseCampanian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseOrdovician"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseBajocian"/>
+                    <owl:sameAs rdf:resource="http://resource.geosciml.org/classifierscheme/ics/2020/ischart"/>
+                    <rdfs:seeAlso rdf:resource="http://resource.geosciml.org/vocabulary/timescale/gts2020"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseOlenekian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseLadinian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseChattian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseMiddleDevonian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseCambrianStage10"/>
+                    <j.3:vocabulary rdf:resource="http://resource.geosciml.org/ontology/timescale/thors"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseLateCretaceous"/>
+                    <j.7:changeNote xml:lang="en">2019-05-01 - Updated to 2018-08 version; &#xD;
+removed StratigraphicPoints, Ranks, TimePositions collections; &#xD;
+nested sub-collections in GeochronologicEra</j.7:changeNote>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseCambrianStage4"/>
+                    <j.4:rights xml:lang="en">RDF version Copyright © 2020 CSIRO, IUGS</j.4:rights>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseDrumian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseMesoarchean"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseLudfordian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseTelychian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BasePaleoarchean"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseLatePleistocene"/>
+                    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseStatherian"/>
+                    <j.4:replaces rdf:resource="http://resource.geosciml.org/vocabulary/timescale/gts2018"/>
+                    <j.4:description xml:lang="en">RDF representation of the Geologic Time Scale, as defined in the International Chronostratigraphic Chart (ICC) from the International Commission on Stratigraphy (ICS). The ICC embraces both chronostratigraphic (time-rock) units and their equivalent geochronologic (geologic-time) units, the former being related to the ‘Stratigraphic points’ referred to below, and the latter (geochronologic units) being employed in this RDF representation.</j.4:description>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BasePhanerozoic"/>
+                    <rdf:type rdf:resource="http://www.w3.org/2006/time#TRS"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseLateOrdovician"/>
+                    <j.3:vocabulary rdf:resource="http://resource.geosciml.org/ontology/timescale/rank"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseGivetian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseAeronian"/>
+                    <j.7:changeNote xml:lang="en">See &lt;http://stratigraphy.org/ICSchart/ChangeLog2012-2013-2014-2015-2016-2017-2018.txt&gt; for changes from prior versions</j.7:changeNote>
+                    <j.4:contributor xml:lang="en">Chinese and Japanese preferred labels from SKOS by Xiaogang Ma, adopted from Asian Multilingual Thesaurus of Geosciences.</j.4:contributor>
+                    <j.2:component rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Phanerozoic"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseConiacian"/>
+                    <rdfs:seeAlso rdf:resource="http://www.episodes.co.in/contents/2013/september/p199-204.pdf"/>
+                    <j.4:source xml:lang="en">International Chronostratigraphic Chart 2020</j.4:source>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseLopingian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseKungurian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseTortonian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseAptian"/>
+                    <rdfs:seeAlso rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/2020"/>
+                    <rdf:type rdf:resource="http://resource.geosciml.org/ontology/timescale/gts#GeologicTimescale"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseMiddleMississippian"/>
+                    <j.2:referencePoint rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseRhyacian"/>
+                  </j.7:ConceptScheme>
+                </j.7:topConceptOf>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Chattian"/>
+                <j.7:prefLabel xml:lang="no">Fanerozoikum</j.7:prefLabel>
+                <j.7:prefLabel xml:lang="cs">Fanerozoikum</j.7:prefLabel>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Berriasian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Paleocene"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Roadian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/CambrianStage10"/>
+                <j.7:prefLabel xml:lang="es">Fanerozoico</j.7:prefLabel>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Guadalupian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/MiddleMississippian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Rhuddanian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Ypresian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/LowerOrdovician"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Holocene"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/UpperTriassic"/>
+                <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/CambrianSeries2"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Wordian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Cisuralian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Cretaceous"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Burdigalian"/>
+                <j.7:narrowerTransitive>
+                  <j.0:Age rdf:about="http://resource.geosciml.org/classifier/ics/ischart/Aalenian">
+                    <j.7:prefLabel xml:lang="de">Aalénium</j.7:prefLabel>
+                    <j.7:prefLabel xml:lang="zh">阿连期</j.7:prefLabel>
+                    <rdfs:comment xml:lang="en">younger bound -170.3 +|-1.4 Ma</rdfs:comment>
+                    <j.7:broaderTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Phanerozoic"/>
+                    <j.7:prefLabel xml:lang="es">Aaleniense</j.7:prefLabel>
+                    <j.7:broaderTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Jurassic"/>
+                    <j.5:hasBeginning rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseMiddleJurassic"/>
+                    <j.5:intervalIn rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/MiddleJurassic"/>
+                    <j.7:prefLabel xml:lang="nl">Aaleniën</j.7:prefLabel>
+                    <j.7:prefLabel xml:lang="sl">aalenij</j.7:prefLabel>
+                    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+                    <j.5:intervalMetBy rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/LowerJurassic"/>
+                    <j.7:prefLabel xml:lang="da">Aalenien</j.7:prefLabel>
+                    <j.7:prefLabel xml:lang="lt">Alenis</j.7:prefLabel>
+                    <j.5:intervalStarts rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/MiddleJurassic"/>
+                    <j.7:prefLabel xml:lang="bg">пален</j.7:prefLabel>
+                    <j.7:prefLabel xml:lang="hu">aaleni</j.7:prefLabel>
+                    <owl:sameAs>
+                      <rdfs:Resource rdf:about="http://dbpedia.org/resource/Aalenian"/>
+                    </owl:sameAs>
+                    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+                    <j.7:prefLabel xml:lang="sk">álen</j.7:prefLabel>
+                    <j.5:intervalMeets rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Bajocian"/>
+                    <rdfs:label xml:lang="en">Aalenian Age</rdfs:label>
+                    <j.7:prefLabel xml:lang="pt">Aaleniano</j.7:prefLabel>
+                    <j.7:prefLabel xml:lang="sv">aalen</j.7:prefLabel>
+                    <j.7:prefLabel xml:lang="et">Aaleni</j.7:prefLabel>
+                    <j.7:prefLabel xml:lang="en">Aalenian</j.7:prefLabel>
+                    <j.7:notation rdf:datatype="http://resource.geosciml.org/ontology/timescale/gts#EraCode"
+                    >a1.1.2.2.2.4</j.7:notation>
+                    <j.7:prefLabel xml:lang="ja">アーレニアン期</j.7:prefLabel>
+                    <j.7:inScheme rdf:resource="http://resource.geosciml.org/vocabulary/timescale/gts2020"/>
+                    <j.7:broaderTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Mesozoic"/>
+                    <j.7:prefLabel xml:lang="it">aaleniano</j.7:prefLabel>
+                    <j.9:primaryTopicOf rdf:resource="http://sweetontology.net/stateTimeGeologic/Aalenian"/>
+                    <j.7:prefLabel xml:lang="fi">Aalen</j.7:prefLabel>
+                    <j.0:rank>
+                      <rdfs:Resource rdf:about="http://resource.geosciml.org/ontology/timescale/rank/Age"/>
+                    </j.0:rank>
+                    <j.7:prefLabel xml:lang="cs">Aalen</j.7:prefLabel>
+                    <j.7:broader rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/MiddleJurassic"/>
+                    <j.7:prefLabel xml:lang="no">Aalen</j.7:prefLabel>
+                    <j.7:prefLabel xml:lang="pl">Aalen</j.7:prefLabel>
+                    <j.7:prefLabel xml:lang="fr">Aalénien</j.7:prefLabel>
+                    <rdfs:comment xml:lang="en">older bound -174.1 +|-1.0 Ma</rdfs:comment>
+                    <j.5:intervalMetBy rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Toarcian"/>
+                    <j.5:hasEnd rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseBajocian"/>
+                    <rdf:type rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+                    <rdf:type rdf:resource="http://resource.geosciml.org/ontology/timescale/gts#GeochronologicEra"/>
+                  </j.0:Age>
+                </j.7:narrowerTransitive>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Oxfordian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/LowerTriassic"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/LowerPennsylvanian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/LowerJurassic"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Rupelian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Miaolingian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Kasimovian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Changhsingian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Tournaisian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Gelasian"/>
+                <rdfs:comment xml:lang="en">older bound -541.0 +|-1.0 Ma</rdfs:comment>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Selandian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Piacenzian"/>
+                <j.7:prefLabel xml:lang="pl">Fanerozoik</j.7:prefLabel>
+                <j.5:hasEnd rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Present"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Pridoli"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Hirnantian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/CambrianStage3"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Norian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Priabonian"/>
+                <j.7:inScheme rdf:resource="http://resource.geosciml.org/vocabulary/timescale/gts2020"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Sakmarian"/>
+                <j.7:narrower rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Cenozoic"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Pennsylvanian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Zanclean"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Hettangian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Calabrian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Induan"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Turonian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Bathonian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Coniacian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Moscovian"/>
+                <j.5:intervalMetBy rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Ediacaran"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Serravallian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Kungurian"/>
+                <j.5:intervalFinishedBy rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Cenozoic"/>
+                <j.9:primaryTopicOf rdf:resource="http://sweetontology.net/stateTimeGeologic/Phanerozoic"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Telychian"/>
+                <j.7:prefLabel xml:lang="de">Phanerozoikum</j.7:prefLabel>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Darriwilian"/>
+                <j.5:intervalMetBy rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Proterozoic"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Lopingian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/LowerCretaceous"/>
+                <j.7:prefLabel xml:lang="sv">fanerozoikum</j.7:prefLabel>
+                <j.7:prefLabel xml:lang="sk">fanerozoikum</j.7:prefLabel>
+                <j.7:prefLabel xml:lang="hu">fanerozoikum</j.7:prefLabel>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Pliocene"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Silurian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Katian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Lochkovian"/>
+                <j.7:prefLabel xml:lang="et">Fanerosoikum</j.7:prefLabel>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Paleogene"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Aquitanian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Sinemurian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Ordovician"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Pleistocene"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Barremian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Bartonian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/UpperPleistocene"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Visean"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Serpukhovian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/MiddleOrdovician"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Emsian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/UpperJurassic"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Santonian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Northgrippian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Anisian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Callovian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Tithonian"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Carboniferous"/>
+                <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Rhaetian"/>
+              </j.5:ProperInterval>
+            </j.5:intervalDuring>
+            <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Cenomanian"/>
+            <j.7:prefLabel xml:lang="bg">Мезозой</j.7:prefLabel>
+            <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Kimmeridgian"/>
+            <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+            <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/LowerCretaceous"/>
+            <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Santonian"/>
+            <rdfs:label xml:lang="en">Mesozoic Era</rdfs:label>
+            <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Norian"/>
+            <j.5:hasBeginning rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseMesozoic"/>
+            <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Oxfordian"/>
+            <j.7:narrower rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Triassic"/>
+            <j.7:narrower rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Cretaceous"/>
+            <rdf:type rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+            <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Valanginian"/>
+            <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Callovian"/>
+            <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Aalenian"/>
+            <j.5:intervalMetBy rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Changhsingian"/>
+            <rdfs:comment xml:lang="en">younger bound -66.0 Ma</rdfs:comment>
+            <j.5:intervalMetBy rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Paleozoic"/>
+            <j.5:intervalFinishedBy rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Cretaceous"/>
+            <j.7:prefLabel xml:lang="sl">mezozoik</j.7:prefLabel>
+            <j.5:intervalIn rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Phanerozoic"/>
+            <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/UpperTriassic"/>
+            <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Tithonian"/>
+            <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Barremian"/>
+            <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Berriasian"/>
+            <j.5:hasEnd rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseCenozoic"/>
+            <j.7:notation rdf:datatype="http://resource.geosciml.org/ontology/timescale/gts#EraCode"
+            >a1.1.2</j.7:notation>
+            <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Turonian"/>
+            <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Olenekian"/>
+            <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Pliensbachian"/>
+            <j.7:prefLabel xml:lang="pl">Mezozoik</j.7:prefLabel>
+            <j.7:prefLabel xml:lang="fr">Mésozoïque</j.7:prefLabel>
+            <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/UpperCretaceous"/>
+            <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+            <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Carnian"/>
+            <j.7:prefLabel xml:lang="lt">Mezozojus</j.7:prefLabel>
+            <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/MiddleJurassic"/>
+            <j.5:intervalMeets rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Paleocene"/>
+            <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Aptian"/>
+            <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/LowerJurassic"/>
+            <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Coniacian"/>
+            <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Anisian"/>
+            <j.7:prefLabel xml:lang="cs">Mezozoikum</j.7:prefLabel>
+            <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Rhaetian"/>
+            <j.7:broader rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Phanerozoic"/>
+            <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/UpperJurassic"/>
+            <j.7:prefLabel xml:lang="ja">中生代</j.7:prefLabel>
+            <j.7:prefLabel xml:lang="zh">中生代</j.7:prefLabel>
+            <j.5:intervalContains rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Jurassic"/>
+            <j.7:prefLabel xml:lang="fi">Mesotsoikum</j.7:prefLabel>
+            <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/MiddleTriassic"/>
+            <j.9:primaryTopicOf rdf:resource="http://sweetontology.net/stateTimeGeologic/Mesozoic"/>
+            <rdf:type rdf:resource="http://resource.geosciml.org/ontology/timescale/gts#Era"/>
+            <j.7:inScheme rdf:resource="http://resource.geosciml.org/vocabulary/timescale/gts2020"/>
+            <owl:sameAs rdf:resource="http://dbpedia.org/resource/Mesozoic"/>
+            <j.7:prefLabel xml:lang="sv">mesozoikum</j.7:prefLabel>
+            <j.7:prefLabel xml:lang="en">Mesozoic</j.7:prefLabel>
+            <j.7:prefLabel xml:lang="it">mesozoico</j.7:prefLabel>
+            <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Sinemurian"/>
+            <j.7:prefLabel xml:lang="pt">Mesozóico</j.7:prefLabel>
+            <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Campanian"/>
+            <j.7:prefLabel xml:lang="es">Mesozoico</j.7:prefLabel>
+            <j.5:intervalMetBy rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Lopingian"/>
+            <j.5:intervalMetBy rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Permian"/>
+            <j.7:prefLabel xml:lang="nl">Mesozoïcum</j.7:prefLabel>
+            <j.5:intervalStartedBy rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Triassic"/>
+            <j.5:intervalMeets rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Danian"/>
+            <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Maastrichtian"/>
+            <j.7:prefLabel xml:lang="et">Mesosoikum</j.7:prefLabel>
+            <j.7:prefLabel xml:lang="da">Mesozoisk</j.7:prefLabel>
+            <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Ladinian"/>
+            <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Bathonian"/>
+            <j.7:narrower rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Jurassic"/>
+            <j.5:intervalMeets rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Paleogene"/>
+            <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Albian"/>
+            <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Toarcian"/>
+            <j.5:intervalMeets rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Cenozoic"/>
+            <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Bajocian"/>
+            <j.0:rank rdf:resource="http://resource.geosciml.org/ontology/timescale/rank/Era"/>
+          </j.0:GeochronologicEra>
+        </j.5:intervalIn>
+        <j.7:notation rdf:datatype="http://resource.geosciml.org/ontology/timescale/gts#EraCode"
+        >a1.1.2.2</j.7:notation>
+        <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Toarcian"/>
+        <j.5:intervalMeets rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Berriasian"/>
+        <j.7:narrower rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/MiddleJurassic"/>
+        <j.7:prefLabel xml:lang="es">Jurásico</j.7:prefLabel>
+        <rdfs:comment xml:lang="en">younger bound -145.0 Ma</rdfs:comment>
+        <j.0:rank rdf:resource="http://resource.geosciml.org/ontology/timescale/rank/Period"/>
+        <j.7:prefLabel xml:lang="fr">Jurassique</j.7:prefLabel>
+        <j.9:primaryTopicOf rdf:resource="http://sweetontology.net/stateTimeGeologic/Jurassic"/>
+        <j.7:prefLabel xml:lang="hu">jura</j.7:prefLabel>
+        <j.7:prefLabel xml:lang="sl">jura</j.7:prefLabel>
+        <j.7:prefLabel xml:lang="sv">jura</j.7:prefLabel>
+        <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Sinemurian"/>
+        <j.7:prefLabel xml:lang="de">Jura</j.7:prefLabel>
+        <j.7:prefLabel xml:lang="cs">Jura</j.7:prefLabel>
+        <j.7:prefLabel xml:lang="fi">Jura</j.7:prefLabel>
+        <j.7:prefLabel xml:lang="lt">Jura</j.7:prefLabel>
+        <j.7:prefLabel xml:lang="nl">Jura</j.7:prefLabel>
+        <j.7:prefLabel xml:lang="no">Jura</j.7:prefLabel>
+        <j.7:prefLabel xml:lang="pl">Jura</j.7:prefLabel>
+        <j.7:prefLabel xml:lang="en">Jurassic</j.7:prefLabel>
+        <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Oxfordian"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <j.7:prefLabel xml:lang="sk">jura, jurský</j.7:prefLabel>
+        <j.5:hasBeginning rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseJurassic"/>
+        <j.7:inScheme rdf:resource="http://resource.geosciml.org/vocabulary/timescale/gts2020"/>
+        <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Kimmeridgian"/>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Jurassic"/>
+        <rdfs:label xml:lang="en">Jurassic Period</rdfs:label>
+        <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Bathonian"/>
+        <j.5:intervalDuring rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Mesozoic"/>
+        <j.7:prefLabel xml:lang="bg">Юра</j.7:prefLabel>
+        <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Tithonian"/>
+        <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Hettangian"/>
+        <j.7:narrower rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/UpperJurassic"/>
+        <j.7:prefLabel xml:lang="zh">侏罗纪</j.7:prefLabel>
+        <j.5:intervalMeets rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/LowerCretaceous"/>
+        <j.7:prefLabel xml:lang="pt">Jurássico</j.7:prefLabel>
+        <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Pliensbachian"/>
+        <rdf:type rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+        <j.5:intervalMeets rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Cretaceous"/>
+        <j.7:prefLabel xml:lang="it">giurassico</j.7:prefLabel>
+        <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Callovian"/>
+        <j.7:broaderTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Phanerozoic"/>
+        <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Bajocian"/>
+        <j.5:intervalContains rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/MiddleJurassic"/>
+        <j.7:narrowerTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Aalenian"/>
+        <j.5:intervalFinishedBy rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/UpperJurassic"/>
+        <j.5:intervalMetBy rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Triassic"/>
+        <j.7:narrower rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/LowerJurassic"/>
+        <j.7:prefLabel xml:lang="ja">ジュラ紀</j.7:prefLabel>
+        <rdfs:comment xml:lang="en">older bound -201.3 +|-0.2 Ma</rdfs:comment>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <j.5:intervalMetBy rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/UpperTriassic"/>
+        <j.5:intervalMetBy rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Rhaetian"/>
+        <j.5:hasEnd rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseCretaceous"/>
+        <j.7:broader rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Mesozoic"/>
+      </j.0:Period>
+    </j.5:intervalIn>
+    <j.5:intervalContains rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Bathonian"/>
+    <j.7:altLabel xml:lang="zh">中侏罗统</j.7:altLabel>
+    <j.5:intervalDuring rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Jurassic"/>
+    <j.7:inScheme rdf:resource="http://resource.geosciml.org/vocabulary/timescale/gts2020"/>
+    <j.7:prefLabel xml:lang="de">Mittlerer Jura</j.7:prefLabel>
+    <j.7:narrower rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Aalenian"/>
+    <j.7:prefLabel xml:lang="et">Kesk-Juura</j.7:prefLabel>
+    <j.7:prefLabel xml:lang="sl">srednja jura</j.7:prefLabel>
+    <j.7:prefLabel xml:lang="hu">középső-jura</j.7:prefLabel>
+    <j.7:prefLabel xml:lang="ja">中期ジュラ紀</j.7:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+    <j.7:prefLabel xml:lang="it">giurassico medio</j.7:prefLabel>
+    <j.7:notation rdf:datatype="http://resource.geosciml.org/ontology/timescale/gts#EraCode"
+    >a1.1.2.2.2</j.7:notation>
+    <j.5:hasEnd rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseLateJurassic"/>
+    <j.5:intervalMeets rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Oxfordian"/>
+    <j.7:narrower rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Callovian"/>
+    <j.7:prefLabel xml:lang="es">Jurásico Medio</j.7:prefLabel>
+    <j.7:broaderTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Mesozoic"/>
+    <j.7:prefLabel xml:lang="cs">Střední jura</j.7:prefLabel>
+    <j.7:narrower rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Bajocian"/>
+    <j.7:altLabel xml:lang="ja">ジュラ紀中期</j.7:altLabel>
+    <rdfs:label xml:lang="en">Middle Jurassic Epoch</rdfs:label>
+    <j.5:intervalMetBy rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/LowerJurassic"/>
+    <j.7:prefLabel xml:lang="fr">Jurassique moyen</j.7:prefLabel>
+    <rdfs:comment xml:lang="en">older bound -174.1 +|-1.0 Ma</rdfs:comment>
+    <j.7:prefLabel xml:lang="pt">Jurássico Médio</j.7:prefLabel>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/MiddleJurassic"/>
+    <j.0:rank rdf:resource="http://resource.geosciml.org/ontology/timescale/rank/Epoch"/>
+    <j.7:prefLabel xml:lang="no">Midtre jura</j.7:prefLabel>
+    <j.7:prefLabel xml:lang="lt">Vidurinė Jura</j.7:prefLabel>
+    <rdf:type rdf:resource="http://resource.geosciml.org/ontology/timescale/gts#GeochronologicEra"/>
+    <j.7:broaderTransitive rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Phanerozoic"/>
+    <j.5:intervalMetBy rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Toarcian"/>
+    <j.5:intervalMeets rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/UpperJurassic"/>
+    <j.7:prefLabel xml:lang="da">Mellem Jurassisk</j.7:prefLabel>
+    <j.5:hasBeginning rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseMiddleJurassic"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <j.7:prefLabel xml:lang="sv">mellersta jura</j.7:prefLabel>
+    <rdfs:comment xml:lang="en">younger bound -163.5 +|-1.0 Ma</rdfs:comment>
+    <j.7:prefLabel xml:lang="en">Middle Jurassic</j.7:prefLabel>
+    <j.7:narrower rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Bathonian"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <j.7:prefLabel xml:lang="fi">Keski-Jura</j.7:prefLabel>
+    <j.7:prefLabel xml:lang="bg">Средна Юра</j.7:prefLabel>
+    <j.5:intervalStartedBy rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Aalenian"/>
+    <j.5:intervalContains rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Bajocian"/>
+    <j.9:primaryTopicOf rdf:resource="http://sweetontology.net/stateTimeGeologic/MiddleJurassic"/>
+    <j.7:prefLabel xml:lang="zh">中侏罗世</j.7:prefLabel>
+    <j.5:intervalFinishedBy rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Callovian"/>
+    <j.7:prefLabel xml:lang="pl">Środkowa Jura</j.7:prefLabel>
+    <j.7:prefLabel xml:lang="sk">stredná jura</j.7:prefLabel>
+    <j.7:broader rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Jurassic"/>
+    <j.7:prefLabel xml:lang="nl">Midden Jura</j.7:prefLabel>
+  </j.0:Epoch>
+  <rdfs:Resource rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdfs:Resource>
+  <rdfs:Resource rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdfs:Resource>
+  <rdfs:Resource rdf:about="http://www.w3.org/2002/07/owl#sameAs">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdfs:Resource>
+  <rdfs:Resource rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#value"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdfs:Resource>
+  <rdfs:Resource rdf:about="http://def.isotc211.org/iso19108/2006/TemporalReferenceSystem#TM_CoordinateSystem.origin">
+    <rdfs:subPropertyOf rdf:resource="http://def.isotc211.org/iso19108/2006/TemporalReferenceSystem#TM_CoordinateSystem.origin"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdfs:Resource>
+  <rdfs:Resource rdf:about="http://def.isotc211.org/iso19108/2006/TemporalReferenceSystem#TM_CoordinateSystem.interval">
+    <rdfs:subPropertyOf rdf:resource="http://def.isotc211.org/iso19108/2006/TemporalReferenceSystem#TM_CoordinateSystem.interval"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdfs:Resource>
+  <rdfs:Resource rdf:about="http://www.w3.org/2004/02/skos/core#broader">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#broader"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdfs:Resource>
+  <rdfs:Resource rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdfs:Resource>
+  <rdfs:Resource rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#object">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#object"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdfs:Resource>
+  <rdfs:Resource rdf:about="http://www.w3.org/2000/01/rdf-schema#domain">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdfs:Resource>
+  <rdfs:Resource rdf:about="http://www.w3.org/2004/02/skos/core#definition">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#definition"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdfs:Resource>
+  <rdfs:Resource rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdfs:Resource>
+  <rdfs:Resource rdf:about="http://www.w3.org/2004/02/skos/core#member">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#member"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdfs:Resource>
+  <rdfs:Resource rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#first">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#first"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdfs:Resource>
+  <rdfs:Resource rdf:about="http://www.w3.org/2004/02/skos/core#inScheme">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdfs:Resource>
+  <rdfs:Resource rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdfs:Resource>
+  <rdfs:Resource rdf:about="http://www.w3.org/2004/02/skos/core#broaderTransitive">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#broaderTransitive"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdfs:Resource>
+  <rdfs:Resource rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdfs:Resource>
+  <rdfs:Resource rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#rest">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#rest"/>
+    <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdfs:Resource>
+  <rdfs:Resource rdf:about="http://www.w3.org/2000/01/rdf-schema#range">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#range"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdfs:Resource>
+  <rdfs:Resource rdf:about="http://purl.org/dc/terms/description">
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/description"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdfs:Resource>
+  <rdfs:Resource rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#subject">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#subject"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdfs:Resource>
+  <rdfs:Resource rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdfs:Resource>
+  <rdfs:Resource rdf:about="http://www.w3.org/2000/01/rdf-schema#member">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#member"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdfs:Resource>
+  <rdfs:Resource rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdfs:Resource>
+  <rdfs:Resource rdf:about="http://www.w3.org/2000/01/rdf-schema#subPropertyOf">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#subPropertyOf"/>
+    <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdfs:Resource>
+  <rdfs:Resource rdf:about="http://resource.geosciml.org/ontology/timescale/gts#rank">
+    <rdfs:subPropertyOf rdf:resource="http://resource.geosciml.org/ontology/timescale/gts#rank"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdfs:Resource>
+</rdf:RDF>

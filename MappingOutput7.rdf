@@ -1,0 +1,156 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="https://w3id.org/deer/">
+  <rdf:Description rdf:about="https://w3id.org/deer/Match_7">
+    <j.0:found>
+      <rdf:Statement>
+        <j.0:ObjectEndPoint rdf:resource="http://libris.kb.se/sparql"/>
+        <j.0:SubjectEndPoint rdf:resource="http://semanticweb.cs.vu.nl/dss/sparql/"/>
+        <j.0:confidenceValue>0.4</j.0:confidenceValue>
+        <rdf:object rdf:resource="https://id.kb.se/vocab/MediaObject"/>
+        <rdf:predicate rdf:resource="https://w3id.org/deer/matchesWith"/>
+        <rdf:subject rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+      </rdf:Statement>
+    </j.0:found>
+    <j.0:found>
+      <rdf:Statement>
+        <j.0:ObjectEndPoint rdf:resource="http://libris.kb.se/sparql"/>
+        <j.0:SubjectEndPoint rdf:resource="http://semanticweb.cs.vu.nl/dss/sparql/"/>
+        <j.0:confidenceValue>1.0</j.0:confidenceValue>
+        <rdf:object rdf:resource="https://id.kb.se/vocab/ObjectProperty"/>
+        <rdf:predicate rdf:resource="https://w3id.org/deer/matchesWith"/>
+        <rdf:subject rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+      </rdf:Statement>
+    </j.0:found>
+    <j.0:found>
+      <rdf:Statement>
+        <j.0:ObjectEndPoint rdf:resource="http://libris.kb.se/sparql"/>
+        <j.0:SubjectEndPoint rdf:resource="http://semanticweb.cs.vu.nl/dss/sparql/"/>
+        <j.0:confidenceValue>1.0</j.0:confidenceValue>
+        <rdf:object rdf:resource="https://id.kb.se/vocab/Container"/>
+        <rdf:predicate rdf:resource="https://w3id.org/deer/matchesWith"/>
+        <rdf:subject rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
+      </rdf:Statement>
+    </j.0:found>
+    <j.0:found>
+      <rdf:Statement>
+        <j.0:ObjectEndPoint rdf:resource="http://libris.kb.se/sparql"/>
+        <j.0:SubjectEndPoint rdf:resource="http://semanticweb.cs.vu.nl/dss/sparql/"/>
+        <j.0:confidenceValue>1.0</j.0:confidenceValue>
+        <rdf:object rdf:resource="https://id.kb.se/vocab/Resource"/>
+        <rdf:predicate rdf:resource="https://w3id.org/deer/matchesWith"/>
+        <rdf:subject rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+      </rdf:Statement>
+    </j.0:found>
+    <j.0:found>
+      <rdf:Statement>
+        <j.0:ObjectEndPoint rdf:resource="http://libris.kb.se/sparql"/>
+        <j.0:SubjectEndPoint rdf:resource="http://semanticweb.cs.vu.nl/dss/sparql/"/>
+        <j.0:confidenceValue>0.4</j.0:confidenceValue>
+        <rdf:object rdf:resource="https://id.kb.se/vocab/SymmetricProperty"/>
+        <rdf:predicate rdf:resource="https://w3id.org/deer/matchesWith"/>
+        <rdf:subject rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+      </rdf:Statement>
+    </j.0:found>
+    <j.0:found>
+      <rdf:Statement>
+        <j.0:ObjectEndPoint rdf:resource="http://libris.kb.se/sparql"/>
+        <j.0:SubjectEndPoint rdf:resource="http://semanticweb.cs.vu.nl/dss/sparql/"/>
+        <j.0:confidenceValue>0.4</j.0:confidenceValue>
+        <rdf:object rdf:resource="https://id.kb.se/vocab/DatatypeProperty"/>
+        <rdf:predicate rdf:resource="https://w3id.org/deer/matchesWith"/>
+        <rdf:subject rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+      </rdf:Statement>
+    </j.0:found>
+    <j.0:found>
+      <rdf:Statement>
+        <j.0:ObjectEndPoint rdf:resource="http://libris.kb.se/sparql"/>
+        <j.0:SubjectEndPoint rdf:resource="http://semanticweb.cs.vu.nl/dss/sparql/"/>
+        <j.0:confidenceValue>1.0</j.0:confidenceValue>
+        <rdf:object rdf:resource="https://id.kb.se/vocab/Person"/>
+        <rdf:predicate rdf:resource="https://w3id.org/deer/matchesWith"/>
+        <rdf:subject rdf:resource="http://purl.org/collections/nl/dss/elbing/Person"/>
+      </rdf:Statement>
+    </j.0:found>
+    <j.0:found>
+      <rdf:Statement>
+        <j.0:ObjectEndPoint rdf:resource="http://libris.kb.se/sparql"/>
+        <j.0:SubjectEndPoint rdf:resource="http://semanticweb.cs.vu.nl/dss/sparql/"/>
+        <j.0:confidenceValue>0.4</j.0:confidenceValue>
+        <rdf:object rdf:resource="https://id.kb.se/vocab/Object"/>
+        <rdf:predicate rdf:resource="https://w3id.org/deer/matchesWith"/>
+        <rdf:subject rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+      </rdf:Statement>
+    </j.0:found>
+    <j.0:found>
+      <rdf:Statement>
+        <j.0:ObjectEndPoint rdf:resource="http://libris.kb.se/sparql"/>
+        <j.0:SubjectEndPoint rdf:resource="http://semanticweb.cs.vu.nl/dss/sparql/"/>
+        <j.0:confidenceValue>0.4</j.0:confidenceValue>
+        <rdf:object rdf:resource="https://id.kb.se/vocab/ObjectCount"/>
+        <rdf:predicate rdf:resource="https://w3id.org/deer/matchesWith"/>
+        <rdf:subject rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+      </rdf:Statement>
+    </j.0:found>
+    <j.0:found>
+      <rdf:Statement>
+        <j.0:ObjectEndPoint rdf:resource="http://libris.kb.se/sparql"/>
+        <j.0:SubjectEndPoint rdf:resource="http://semanticweb.cs.vu.nl/dss/sparql/"/>
+        <j.0:confidenceValue>0.4</j.0:confidenceValue>
+        <rdf:object rdf:resource="https://id.kb.se/vocab/StructuredProperty"/>
+        <rdf:predicate rdf:resource="https://w3id.org/deer/matchesWith"/>
+        <rdf:subject rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+      </rdf:Statement>
+    </j.0:found>
+    <j.0:found>
+      <rdf:Statement>
+        <j.0:ObjectEndPoint rdf:resource="http://libris.kb.se/sparql"/>
+        <j.0:SubjectEndPoint rdf:resource="http://semanticweb.cs.vu.nl/dss/sparql/"/>
+        <j.0:confidenceValue>0.8</j.0:confidenceValue>
+        <rdf:object rdf:resource="https://id.kb.se/vocab/Agent"/>
+        <rdf:predicate rdf:resource="https://w3id.org/deer/matchesWith"/>
+        <rdf:subject rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+      </rdf:Statement>
+    </j.0:found>
+    <j.0:found>
+      <rdf:Statement>
+        <j.0:ObjectEndPoint rdf:resource="http://libris.kb.se/sparql"/>
+        <j.0:SubjectEndPoint rdf:resource="http://semanticweb.cs.vu.nl/dss/sparql/"/>
+        <j.0:confidenceValue>0.6</j.0:confidenceValue>
+        <rdf:object rdf:resource="https://id.kb.se/vocab/CODEN"/>
+        <rdf:predicate rdf:resource="https://w3id.org/deer/matchesWith"/>
+        <rdf:subject rdf:resource="http://www.geonames.org/ontology#Code"/>
+      </rdf:Statement>
+    </j.0:found>
+    <j.0:found>
+      <rdf:Statement>
+        <j.0:ObjectEndPoint rdf:resource="http://libris.kb.se/sparql"/>
+        <j.0:SubjectEndPoint rdf:resource="http://semanticweb.cs.vu.nl/dss/sparql/"/>
+        <j.0:confidenceValue>1.0</j.0:confidenceValue>
+        <rdf:object rdf:resource="https://id.kb.se/vocab/Concept"/>
+        <rdf:predicate rdf:resource="https://w3id.org/deer/matchesWith"/>
+        <rdf:subject rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      </rdf:Statement>
+    </j.0:found>
+    <j.0:found>
+      <rdf:Statement>
+        <j.0:ObjectEndPoint rdf:resource="http://libris.kb.se/sparql"/>
+        <j.0:SubjectEndPoint rdf:resource="http://semanticweb.cs.vu.nl/dss/sparql/"/>
+        <j.0:confidenceValue>1.0</j.0:confidenceValue>
+        <rdf:object rdf:resource="http://id.loc.gov/ontologies/bibframe/Person"/>
+        <rdf:predicate rdf:resource="https://w3id.org/deer/matchesWith"/>
+        <rdf:subject rdf:resource="http://purl.org/collections/nl/dss/elbing/Person"/>
+      </rdf:Statement>
+    </j.0:found>
+    <j.0:found>
+      <rdf:Statement>
+        <j.0:ObjectEndPoint rdf:resource="http://libris.kb.se/sparql"/>
+        <j.0:SubjectEndPoint rdf:resource="http://semanticweb.cs.vu.nl/dss/sparql/"/>
+        <j.0:confidenceValue>1.0</j.0:confidenceValue>
+        <rdf:object rdf:resource="https://id.kb.se/vocab/Agent"/>
+        <rdf:predicate rdf:resource="https://w3id.org/deer/matchesWith"/>
+        <rdf:subject rdf:resource="http://purl.org/dc/terms/Agent"/>
+      </rdf:Statement>
+    </j.0:found>
+  </rdf:Description>
+</rdf:RDF>

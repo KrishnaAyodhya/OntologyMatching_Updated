@@ -1,0 +1,2232 @@
+@prefix rdfdf: <http://www.openlinksw.com/virtrdf-data-formats#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix marc:  <https://id.kb.se/marc/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix kbv:   <https://id.kb.se/vocab/> .
+@prefix bf2:   <http://id.loc.gov/ontologies/bibframe/> .
+
+foaf:topic_interest  a  rdf:Property .
+
+kbv:SubjectStatement  a  owl:Class .
+
+kbv:MusicDistributorNumber
+        a       owl:Class .
+
+marc:ItemInformationBasicBibliographicUnit
+        a       owl:Class .
+
+kbv:Jurisdiction  a  owl:Class .
+
+rdfdf:sql-nvarchar-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+marc:BindingInformationNote
+        a       owl:Class .
+
+owl:allValuesFrom  a  rdf:Property .
+
+dct:modified  a  rdf:Property .
+
+owl:disjointWith  a  rdf:Property .
+
+kbv:VideoFormat  a  owl:Class .
+
+kbv:SweCRIS  a  owl:Class .
+
+foaf:familyName  a  rdf:Property .
+
+kbv:Family  a   owl:Class .
+
+marc:AddedEntryGeographicName
+        a       owl:Class .
+
+virtrdf:DefaultQuadMap-O
+        a       virtrdf:QuadMapValue .
+
+rdfdf:sql-nvarchar-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-doubleprecision-nullable
+        a       virtrdf:QuadMapFormat .
+
+kbv:ShelfMarkUdc  a  owl:Class .
+
+kbv:Enumeration  a  owl:Class .
+
+owl:equivalentProperty
+        a       rdf:Property .
+
+dct:isReplacedBy  a  rdf:Property .
+
+kbv:EncodedBitrate  a  owl:Class .
+
+marc:WithNote  a  owl:Class .
+
+kbv:issuedWith  a  owl:SymmetricProperty .
+
+foaf:gender  a  owl:FunctionalProperty , rdf:Property .
+
+virtrdf:DefaultServiceMap-G-col-G
+        a       virtrdf:QuadMapColumn .
+
+rdfdf:sql-varchar-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+kbv:STRN  a     owl:Class .
+
+rdfdf:sql-datetime-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+foaf:status  a  rdf:Property .
+
+rdfdf:sql-date-literal
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sinv-iid-nonblank-nullable
+        a       virtrdf:QuadMapFormat .
+
+kbv:SeriesMembership  a  owl:Class .
+
+foaf:holdsAccount  a  rdf:Property .
+
+kbv:Mount  a    owl:Class .
+
+rdfdf:sql-nvarchar-dt
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:DefaultQuadStorage
+        a       virtrdf:QuadStorage .
+
+kbv:MusicPlate  a  owl:Class .
+
+rdfdf:sql-varchar-fixedlang-x-any-nullable
+        a       virtrdf:QuadMapFormat .
+
+marc:FundingInformationNote
+        a       owl:Class .
+
+rdfdf:sql-varchar-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+marc:TypeOfReportAndPeriodCoveredNote
+        a       owl:Class .
+
+kbv:ShelfMarkNlm  a  owl:Class .
+
+rdfdf:sql-numeric-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:singlepart-literal-fn-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdf:subject  a  rdf:Property .
+
+kbv:TrackConfig  a  owl:Class .
+
+kbv:membershipResource
+        a       owl:FunctionalProperty .
+
+owl:propertyChainAxiom
+        a       rdf:Property .
+
+kbv:MovingImageInstance
+        a       owl:Class .
+
+rdfdf:zeropart-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+kbv:ISAN  a     owl:Class .
+
+rdf:predicate  a  rdf:Property .
+
+kbv:PrimaryProduction
+        a       owl:Class .
+
+kbv:FontSize  a  owl:Class .
+
+dct:alternative  a  rdf:Property .
+
+dct:abstract  a  rdf:Property .
+
+kbv:GeographicSubdivision
+        a       owl:Class .
+
+rdfdf:sql-longvarchar-dt
+        a       virtrdf:QuadMapFormat .
+
+marc:GeographicClassification
+        a       owl:Class .
+
+rdfdf:sql-longvarchar
+        a       virtrdf:QuadMapFormat .
+
+kbv:Serial  a   owl:Class .
+
+kbv:PostalRegistration
+        a       owl:Class .
+
+marc:NationalIssnCentre
+        a       owl:Class .
+
+kbv:Manufacture  a  owl:Class .
+
+rdfdf:sinv-nullable  a  virtrdf:QuadMapFormat .
+
+rdf:direction  a  rdf:Property .
+
+marc:LocationOfOriginalsDuplicatesNote
+        a       owl:Class .
+
+rdfdf:sql-date-nullable
+        a       virtrdf:QuadMapFormat .
+
+foaf:name  a    rdf:Property .
+
+kbv:Text  a     owl:Class .
+
+kbv:FileSize  a  owl:Class .
+
+foaf:fundedBy  a  rdf:Property .
+
+kbv:SourceDataNotFound
+        a       owl:Class .
+
+kbv:ScopusID  a  owl:Class .
+
+kbv:Chronology  a  owl:Class .
+
+rdfdf:sql-date-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-integer-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sinv-iid-nonblank-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-numeric-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:SyncToQuads  a  virtrdf:QuadStorage .
+
+kbv:Fingerprint  a  owl:Class .
+
+kbv:SubCollection  a  owl:Class .
+
+rdfdf:default-iid  a  virtrdf:QuadMapFormat .
+
+kbv:ArchivalUnit  a  owl:Class .
+
+kbv:BibliographicAgent
+        a       owl:Class .
+
+owl:equivalentClass  a  rdf:Property .
+
+rdfdf:sql-longnvarchar-fixedlang-x-any
+        a       virtrdf:QuadMapFormat .
+
+kbv:Audio  a    owl:Class .
+
+owl:onDataRange  a  rdf:Property .
+
+marc:GovernmentDocumentClassificationNumber
+        a       owl:Class .
+
+rdfdf:sql-longvarbinary-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+kbv:Slice  a    owl:Class .
+
+marc:AddedEntryHierarchicalPlaceName
+        a       owl:Class .
+
+foaf:givenName  a  rdf:Property .
+
+kbv:AppliedMaterial  a  owl:Class .
+
+kbv:DOI  a      owl:Class .
+
+rdfdf:sql-nvarchar-lang
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:zeropart-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longnvarchar-lang
+        a       virtrdf:QuadMapFormat .
+
+marc:SubtitlesOrCaptions
+        a       owl:Class .
+
+kbv:ProjectedImageInstance
+        a       owl:Class .
+
+kbv:Classification  a  owl:Class .
+
+rdfdf:sql-numeric-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultServiceMap-ft-conds
+        a       virtrdf:array-of-string .
+
+kbv:LCCN  a     owl:Class .
+
+marc:GeographicAreaCode
+        a       owl:Class .
+
+kbv:VideoCharacteristic
+        a       owl:Class .
+
+dct:coverage  a  rdf:Property .
+
+marc:LinearScale  a  owl:Class .
+
+rdfdf:sql-longvarbinary
+        a       virtrdf:QuadMapFormat .
+
+kbv:PartialCollectionView
+        a       owl:Class .
+
+rdf:rest  a     rdf:Property .
+
+dct:educationLevel  a  rdf:Property .
+
+kbv:ContentType  a  owl:Class .
+
+rdfdf:singlepart-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:DefaultServiceMap-ft
+        a       virtrdf:QuadMapFText .
+
+foaf:member  a  rdf:Property .
+
+rdfdf:sql-varchar-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+kbv:DirectContainer  a  owl:Class .
+
+rdfdf:sql-varchar-dt-nullable
+        a       virtrdf:QuadMapFormat .
+
+marc:Bib880  a  owl:Class .
+
+kbv:Note  a     owl:Class .
+
+dbpedia:August_Strindberg
+        a       owl:Thing .
+
+rdfdf:sql-integer-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+marc:LocationOfOtherArchivalMaterialsNote
+        a       owl:Class .
+
+rdfdf:sql-datetime-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+foaf:made  a    rdf:Property .
+
+rdfdf:sql-varchar-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dct:temporal  a  rdf:Property .
+
+rdfdf:sql-date-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+kbv:PartitiveRelationship
+        a       owl:Class .
+
+foaf:maker  a   rdf:Property .
+
+owl:hasSelf  a  rdf:Property .
+
+dct:isReferencedBy  a  rdf:Property .
+
+marc:SeeFromTracingGeographicName
+        a       owl:Class .
+
+rdfdf:sql-datetime-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+kbv:Topic  a    owl:Class .
+
+kbv:Review  a   owl:Class .
+
+kbv:PublisherNumber  a  owl:Class .
+
+marc:ComputerFileCharacteristics
+        a       owl:Class .
+
+rdf:type  a     rdf:Property .
+
+rdfdf:sql-time  a  virtrdf:QuadMapFormat .
+
+rdfdf:sql-longnvarchar-dt-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+kbv:MusicInstrument  a  owl:Class .
+
+marc:SeeAlsoFromTracingFormSubdivision
+        a       owl:Class .
+
+rdfdf:sql-time-nullable
+        a       virtrdf:QuadMapFormat .
+
+kbv:ConceptCollection
+        a       owl:Class .
+
+kbv:MediaObject  a  owl:Class .
+
+kbv:Music  a    owl:Class .
+
+rdfdf:sql-time-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+kbv:Subdivision  a  owl:Class .
+
+marc:BiographicalOrHistoricalData
+        a       owl:Class .
+
+rdfdf:zeropart-uri-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+kbv:ManuscriptCartography
+        a       owl:Class .
+
+kbv:ClassificationDdc
+        a       owl:Class .
+
+marc:ReproductionNote
+        a       owl:Class .
+
+kbv:PMID  a     owl:Class .
+
+rdfdf:sql-varchar-fixedlang-x-any-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dct:isRequiredBy  a  rdf:Property .
+
+kbv:Visual  a   owl:Class .
+
+dct:requires  a  rdf:Property .
+
+rdfdf:sql-numeric-literal
+        a       virtrdf:QuadMapFormat .
+
+marc:AngularScale  a  owl:Class .
+
+kbv:Class  a    owl:Class .
+
+virtrdf:DefaultQuadMap-S-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+marc:TypeOfComputerFileOrDataNote
+        a       owl:Class .
+
+marc:ComplexSeeAlsoReferenceName
+        a       owl:Class .
+
+kbv:ISBN13  a   owl:Class .
+
+kbv:SoundCharacteristic
+        a       owl:Class .
+
+kbv:Collaboration  a  owl:Class .
+
+kbv:Electronic  a  owl:Class .
+
+virtrdf:DefaultServiceMap-geo
+        a       virtrdf:QuadMapFText .
+
+kbv:ConceptScheme  a  owl:Class .
+
+kbv:TechnicalNote  a  owl:Class .
+
+kbv:EntityContainer  a  owl:Class .
+
+rdfdf:sql-doubleprecision-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:singlepart-uri-fn-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+kbv:ColorContent  a  owl:Class .
+
+kbv:QualifiedRole  a  owl:Class .
+
+kbv:Affiliation  a  owl:Class .
+
+foaf:depiction  a  rdf:Property .
+
+kbv:Hdl  a      owl:Class .
+
+foaf:workInfoHomepage
+        a       rdf:Property .
+
+virtrdf:DefaultQuadMap-O-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+kbv:DescriptionAuthentication
+        a       owl:Class .
+
+kbv:UsageAndAccessPolicy
+        a       owl:Class .
+
+kbv:ISRC  a     owl:Class .
+
+kbv:SpineTitle  a  owl:Class .
+
+kbv:Event  a    owl:Class .
+
+rdfdf:default  a  virtrdf:QuadMapFormat .
+
+kbv:StillImageInstance
+        a       owl:Class .
+
+foaf:img  a     rdf:Property .
+
+rdfdf:sql-longnvarchar-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+kbv:MetadataLicensor  a  owl:Class .
+
+rdfdf:sinv-iid  a  virtrdf:QuadMapFormat .
+
+rdfdf:sql-nvarchar-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-integer-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-numeric-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:DefaultServiceMap-P
+        a       virtrdf:QuadMapValue .
+
+kbv:GTIN14  a   owl:Class .
+
+marc:OtherIdentifier  a  owl:Class .
+
+rdfdf:sql-varchar-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+kbv:SICI  a     owl:Class .
+
+rdfdf:sql-integer-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-varchar-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+kbv:Bitstream  a  owl:Class .
+
+rdfdf:sql-numeric-uri
+        a       virtrdf:QuadMapFormat .
+
+owl:unionOf  a  rdf:Property .
+
+kbv:OperatingSystem  a  owl:Class .
+
+rdfdf:sql-nvarchar-uri
+        a       virtrdf:QuadMapFormat .
+
+kbv:Frequency  a  owl:Class .
+
+dct:accrualPeriodicity
+        a       rdf:Property .
+
+rdfdf:sql-doubleprecision-literal
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-datetime-literal
+        a       virtrdf:QuadMapFormat .
+
+kbv:MusicNotation  a  owl:Class .
+
+kbv:Cartography  a  owl:Class .
+
+kbv:TactileNotation  a  owl:Class .
+
+kbv:FileType  a  owl:Class .
+
+rdfdf:sql-date-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+foaf:focus  a   rdf:Property .
+
+kbv:Sublocation  a  owl:Class .
+
+rdfdf:sql-datetime  a  virtrdf:QuadMapFormat .
+
+rdfdf:sql-datetime-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:DefaultQuadMap-pquad
+        a       virtrdf:QuadMapATable .
+
+kbv:FilePackage  a  owl:Class .
+
+kbv:UPC  a      owl:Class .
+
+rdfdf:sql-nvarchar-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longvarchar-lang-nullable
+        a       virtrdf:QuadMapFormat .
+
+kbv:DigitalReproduction
+        a       owl:Class .
+
+kbv:Nationality  a  owl:Class .
+
+rdfdf:singlepart-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+kbv:CopyrightNumber  a  owl:Class .
+
+kbv:PatentNumber  a  owl:Class .
+
+kbv:Globe  a    owl:Class .
+
+kbv:SMDBNumber  a  owl:Class .
+
+kbv:StructuredProperty
+        a       owl:Class .
+
+kbv:Creation  a  owl:Class .
+
+marc:EnumeratedTerm  a  owl:Class .
+
+kbv:Geographic  a  owl:Class .
+
+foaf:geekcode  a  rdf:Property .
+
+marc:CharacterSetsPresent
+        a       owl:Class .
+
+marc:Hold948  a  owl:Class .
+
+kbv:ProgrammingLanguage
+        a       owl:Class .
+
+marc:ClassificationNumbersAssignedInCanada
+        a       owl:Class .
+
+rdfdf:sql-nvarchar-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+marc:Libretto  a  owl:Class .
+
+rdfdf:zeropart-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+kbv:URN  a      owl:Class .
+
+virtrdf:DefaultServiceMap-pquad
+        a       virtrdf:QuadMapATable .
+
+dct:dateSubmitted  a  rdf:Property .
+
+rdfdf:default-nullable
+        a       virtrdf:QuadMapFormat .
+
+dct:valid  a    rdf:Property .
+
+kbv:Publication  a  owl:Class .
+
+kbv:Dimensions  a  owl:Class .
+
+foaf:thumbnail  a  rdf:Property .
+
+rdfdf:sql-varchar-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+kbv:PrimaryBulkProduction
+        a       owl:Class .
+
+foaf:homepage  a  owl:InverseFunctionalProperty , rdf:Property .
+
+rdfdf:sql-date  a  virtrdf:QuadMapFormat .
+
+kbv:MovementNotation  a  owl:Class .
+
+rdfdf:sql-nvarchar-literal
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:multipart-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+kbv:Local  a    owl:Class .
+
+virtrdf:DefaultQuadMap-G
+        a       virtrdf:QuadMapValue .
+
+foaf:aimChatID  a  rdf:Property , owl:InverseFunctionalProperty .
+
+rdfdf:default-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dct:isFormatOf  a  rdf:Property .
+
+foaf:msnChatID  a  owl:InverseFunctionalProperty , rdf:Property .
+
+rdfdf:zeropart-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+kbv:ComplexSubject  a  owl:Class .
+
+rdfdf:sql-date-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+foaf:title  a   rdf:Property .
+
+rdfdf:sql-varchar-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+marc:LocalSubjectAndHeading
+        a       owl:Class .
+
+kbv:Part  a     owl:Class .
+
+kbv:URI  a      owl:Class .
+
+kbv:ISMN  a     owl:Class .
+
+rdfdf:sql-varchar-literal
+        a       virtrdf:QuadMapFormat .
+
+kbv:Instance  a  owl:Class .
+
+foaf:pastProject  a  rdf:Property .
+
+kbv:Integrating  a  owl:Class .
+
+foaf:phone  a   rdf:Property .
+
+rdfdf:sql-varchar-dt-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-numeric-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+kbv:ISBN  a     owl:Class .
+
+kbv:Software  a  owl:Class .
+
+owl:Nothing  a  owl:Class .
+
+kbv:VideoRecordingNumber
+        a       owl:Class .
+
+foaf:weblog  a  rdf:Property , owl:InverseFunctionalProperty .
+
+kbv:MovingImage  a  owl:Class .
+
+kbv:KitInstance  a  owl:Class .
+
+rdfdf:sql-time-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+kbv:Source  a   owl:Class .
+
+owl:onClass  a  rdf:Property .
+
+kbv:AccessPolicy  a  owl:Class .
+
+kbv:LibrisIIINumber  a  owl:Class .
+
+rdfdf:multipart-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+kbv:Duration  a  owl:Class .
+
+kbv:Continuing  a  owl:Class .
+
+rdfdf:sql-nvarchar-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+kbv:Record  a   owl:Class .
+
+rdfdf:sql-numeric-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+kbv:Concept  a  owl:Class .
+
+foaf:interest  a  rdf:Property .
+
+marc:EstablishedHeadingLinkingEntryCorporateName
+        a       owl:Class .
+
+kbv:Ambiguity  a  owl:Class .
+
+rdfdf:multipart-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+marc:SungOrSpokenText
+        a       owl:Class .
+
+owl:members  a  rdf:Property .
+
+kbv:AccessibilityFeatureType
+        a       owl:Class .
+
+kbv:Monograph  a  owl:Class .
+
+kbv:PresentationFormat
+        a       owl:Class .
+
+owl:differentFrom  a  rdf:Property .
+
+kbv:Datatype  a  owl:Class .
+
+dct:accrualPolicy  a  rdf:Property .
+
+rdfdf:sql-date-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-date-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+foaf:tipjar  a  rdf:Property .
+
+kbv:PrimaryPublication
+        a       owl:Class .
+
+dct:rights  a   rdf:Property .
+
+marc:CumulativeIndexFindingAidsNote
+        a       owl:Class .
+
+dct:title  a    rdf:Property .
+
+kbv:FormerTitle  a  owl:Class .
+
+kbv:Corporation  a  owl:Class .
+
+owl:disjointUnionOf  a  rdf:Property .
+
+kbv:ISI  a      owl:Class .
+
+rdfdf:sql-numeric-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+foaf:nick  a    rdf:Property .
+
+kbv:TermCollection  a  owl:Class .
+
+kbv:Multipart  a  owl:Class .
+
+rdfdf:sql-longnvarchar
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:DefaultQuadMap-S
+        a       virtrdf:QuadMapValue .
+
+kbv:ClassificationLcc
+        a       owl:Class .
+
+rdfdf:sql-longvarchar-lang
+        a       virtrdf:QuadMapFormat .
+
+kbv:MusicEnsemble  a  owl:Class .
+
+kbv:MusicVoice  a  owl:Class .
+
+kbv:Document  a  owl:Class .
+
+rdfdf:sql-varchar-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+foaf:workplaceHomepage
+        a       rdf:Property .
+
+kbv:AcquisitionSource
+        a       owl:Class .
+
+kbv:RegionalEncoding  a  owl:Class .
+
+rdfdf:sql-longnvarchar-dt-nullable
+        a       virtrdf:QuadMapFormat .
+
+kbv:SymmetricProperty
+        a       owl:Class .
+
+kbv:DescriptionConventions
+        a       owl:Class .
+
+kbv:AccessModeType  a  owl:Class .
+
+rdfdf:sql-varchar-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+kbv:Representation  a  owl:Class .
+
+rdfdf:sql-nvarchar  a  virtrdf:QuadMapFormat .
+
+virtrdf:DefaultServiceMap-P-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+rdfdf:sql-longvarchar-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-integer-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+marc:LibraryOfCongressCopyIssueOffprintStatement
+        a       owl:Class .
+
+marc:ParticipantOrPerformerNote
+        a       owl:Class .
+
+marc:TermsGoverningUseAndReproductionNote
+        a       owl:Class .
+
+kbv:Identity  a  owl:Class .
+
+marc:Field  a   owl:Class .
+
+kbv:ReportNumber  a  owl:Class .
+
+kbv:EncodingFormat  a  owl:Class .
+
+dct:mediator  a  rdf:Property .
+
+kbv:Unit  a     owl:Class .
+
+rdfdf:sql-doubleprecision-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+owl:annotatedTarget  a  rdf:Property .
+
+rdfdf:sql-nvarchar-fixedlang-x-any-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+kbv:Dataset  a  owl:Class .
+
+marc:Hold951  a  owl:Class .
+
+kbv:SupplementaryContent
+        a       owl:Class .
+
+kbv:File  a     owl:Class .
+
+rdfdf:sql-integer-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-datetime-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+kbv:CartographicObjectType
+        a       owl:Class .
+
+kbv:RemoteSensingImage
+        a       owl:Class .
+
+kbv:Endeavour  a  owl:Class .
+
+kbv:Generation  a  owl:Class .
+
+kbv:TypeOfFamily  a  owl:Class .
+
+foaf:icqChatID  a  owl:InverseFunctionalProperty , rdf:Property .
+
+kbv:NotatedMusicInstance
+        a       owl:Class .
+
+foaf:page  a    rdf:Property .
+
+marc:NameOfUnit  a  owl:Class .
+
+rdfdf:sql-numeric-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+dct:accessRights  a  rdf:Property .
+
+virtrdf:DefaultQuadMap-ft
+        a       virtrdf:QuadMapFText .
+
+kbv:TemporalSubdivision
+        a       owl:Class .
+
+dct:rightsHolder  a  rdf:Property .
+
+kbv:ImageBitDepth  a  owl:Class .
+
+kbv:ProjectionCharacteristic
+        a       owl:Class .
+
+kbv:Cartographic  a  owl:Class .
+
+owl:maxQualifiedCardinality
+        a       rdf:Property .
+
+rdfdf:sql-varchar-lang-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sinv-iid-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+kbv:DataCatalog  a  owl:Class .
+
+kbv:Ringgold  a  owl:Class .
+
+kbv:MusicPublisherNumber
+        a       owl:Class .
+
+rdfdf:sql-time-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-doubleprecision-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+kbv:StockNumber  a  owl:Class .
+
+foaf:logo  a    rdf:Property , owl:InverseFunctionalProperty .
+
+kbv:Relationship  a  owl:Class .
+
+dct:format  a   rdf:Property .
+
+foaf:knows  a   rdf:Property .
+
+virtrdf:DefaultQuadMap-atables
+        a       virtrdf:array-of-QuadMapATable .
+
+foaf:membershipClass  a  rdf:Property .
+
+kbv:Reproduction  a  owl:Class .
+
+marc:TextualHoldingsIndexes
+        a       owl:Class .
+
+rdfdf:sql-longvarchar-fixedlang-x-any-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:default-iid-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:multipart-uri  a  virtrdf:QuadMapFormat .
+
+kbv:ObjectCount  a  owl:Class .
+
+kbv:GeographicCoverage
+        a       owl:Class .
+
+marc:BibliographyEtcNote
+        a       owl:Class .
+
+kbv:Object  a   owl:Class .
+
+owl:hasKey  a   rdf:Property .
+
+kbv:Person  a   owl:Class .
+
+rdfdf:sql-integer-uri
+        a       virtrdf:QuadMapFormat .
+
+marc:TextualPhysicalFormDesignator
+        a       owl:Class .
+
+kbv:DatatypeProperty  a  owl:Class .
+
+rdfdf:sql-longvarchar-fixedlang-x-any
+        a       virtrdf:QuadMapFormat .
+
+kbv:Checksum  a  owl:Class .
+
+rdfdf:sql-date-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+marc:ReprintReissueAndOriginalPublication
+        a       owl:Class .
+
+rdfdf:sql-integer-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longvarbinary-nullable
+        a       virtrdf:QuadMapFormat .
+
+kbv:ProjectedImage  a  owl:Class .
+
+dct:isPartOf  a  rdf:Property .
+
+kbv:ContentAccessibility
+        a       owl:Class .
+
+dct:issued  a   rdf:Property .
+
+marc:MusicalPresentationStatement
+        a       owl:Class .
+
+kbv:UsePolicy  a  owl:Class .
+
+marc:OtherAttributes  a  owl:Class .
+
+owl:annotatedProperty
+        a       rdf:Property .
+
+marc:DataQualityNote  a  owl:Class .
+
+kbv:ClassificationScheme
+        a       owl:Class .
+
+virtrdf:DefaultQuadMap-S-col-S
+        a       virtrdf:QuadMapColumn .
+
+kbv:AddedTitlePageTitle
+        a       owl:Class .
+
+kbv:PlayingSpeed  a  owl:Class .
+
+kbv:MusicMedium  a  owl:Class .
+
+foaf:surname  a  rdf:Property .
+
+dct:publisher  a  rdf:Property .
+
+kbv:Item  a     owl:Class .
+
+rdfdf:sql-date-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:zeropart-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-varchar-fixedlang-x-any
+        a       virtrdf:QuadMapFormat .
+
+kbv:SourceData  a  owl:Class .
+
+owl:withRestrictions  a  rdf:Property .
+
+marc:SystemDetailsNote
+        a       owl:Class .
+
+kbv:insertedContentRelation
+        a       owl:FunctionalProperty .
+
+owl:intersectionOf  a  rdf:Property .
+
+rdfdf:sql-longvarchar-nullable
+        a       virtrdf:QuadMapFormat .
+
+dct:dateCopyrighted  a  rdf:Property .
+
+rdfdf:sql-longnvarchar-fixedlang-x-any-nullable
+        a       virtrdf:QuadMapFormat .
+
+foaf:dnaChecksum  a  rdf:Property .
+
+kbv:Availability  a  owl:Class .
+
+rdfdf:sql-nvarchar-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+foaf:myersBriggs  a  rdf:Property .
+
+kbv:MixedMaterial  a  owl:Class .
+
+kbv:Occupation  a  owl:Class .
+
+rdfdf:sql-numeric-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+kbv:ItemAvailability  a  owl:Class .
+
+kbv:Print  a    owl:Class .
+
+marc:OwnershipAndCustodialHistory
+        a       owl:Class .
+
+rdfdf:sql-doubleprecision
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-nvarchar-fixedlang-x-any-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+kbv:ShelfMarkSequence
+        a       owl:Class .
+
+kbv:IntendedAudience  a  owl:Class .
+
+kbv:Capture  a  owl:Class .
+
+dct:identifier  a  rdf:Property .
+
+marc:ImmediateSourceOfAcquisitionNote
+        a       owl:Class .
+
+rdfdf:sql-integer  a  virtrdf:QuadMapFormat .
+
+kbv:CopyrightRegistration
+        a       owl:Class .
+
+rdfdf:sql-datetime-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+kbv:Copyright  a  owl:Class .
+
+kbv:Bibliography  a  owl:Class .
+
+marc:CopyAndVersionIdentificationNote
+        a       owl:Class .
+
+marc:HistoryReference
+        a       owl:Class .
+
+kbv:Statistics  a  owl:Class .
+
+rdfdf:sql-longvarchar-dt-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+kbv:MediaType  a  owl:Class .
+
+rdfdf:sql-integer-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+kbv:Arrangement  a  owl:Class .
+
+kbv:GenerationProcess
+        a       owl:Class .
+
+kbv:Subject  a  owl:Class .
+
+foaf:topic  a   rdf:Property .
+
+rdfdf:sinv-iid-nonblank
+        a       virtrdf:QuadMapFormat .
+
+kbv:GrooveCharacteristic
+        a       owl:Class .
+
+rdfdf:sql-time-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dct:type  a     rdf:Property .
+
+kbv:TitlePortion  a  owl:Class .
+
+kbv:Agent  a    owl:Class .
+
+marc:CountryOfPublishingProducingEntityCode
+        a       owl:Class .
+
+kbv:Resource  a  owl:Class .
+
+marc:EnumerationAndChronologyBasicBibliographicUnit
+        a       owl:Class .
+
+rdfdf:sql-varchar-dt-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:default-iid-nonblank-nullable
+        a       virtrdf:QuadMapFormat .
+
+dct:conformsTo  a  rdf:Property .
+
+rdfdf:sinv-iid-nullable
+        a       virtrdf:QuadMapFormat .
+
+kbv:SearchMapping  a  owl:Class .
+
+rdfdf:sql-numeric  a  virtrdf:QuadMapFormat .
+
+kbv:Resolution  a  owl:Class .
+
+kbv:CODEN  a    owl:Class .
+
+foaf:lastName  a  rdf:Property .
+
+kbv:IndirectContainer
+        a       owl:Class .
+
+owl:minCardinality  a  rdf:Property .
+
+rdfdf:default-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+kbv:ISWC  a     owl:Class .
+
+rdfdf:sql-varchar-nullable
+        a       virtrdf:QuadMapFormat .
+
+dct:audience  a  rdf:Property .
+
+kbv:PrimaryProvisionActivity
+        a       owl:Class .
+
+rdfdf:sql-longvarchar-dt-nullable
+        a       virtrdf:QuadMapFormat .
+
+marc:TimePeriodOfContent
+        a       owl:Class .
+
+rdfdf:multipart-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+marc:SeeFromTracingGeneralSubdivision
+        a       owl:Class .
+
+kbv:Embodiment  a  owl:Class .
+
+kbv:ManuscriptNotatedMusic
+        a       owl:Class .
+
+kbv:ClassificationUdc
+        a       owl:Class .
+
+rdfdf:sql-longnvarchar-nullable
+        a       virtrdf:QuadMapFormat .
+
+marc:subField  a  rdf:Property .
+
+kbv:TopicScheme  a  owl:Class .
+
+marc:ForeignMARCInformationField
+        a       owl:Class .
+
+rdf:language  a  rdf:Property .
+
+foaf:theme  a   rdf:Property .
+
+marc:SeeFromTracingFormSubdivision
+        a       owl:Class .
+
+marc:AssociatedPlace  a  owl:Class .
+
+rdfdf:sql-datetime-nullable
+        a       virtrdf:QuadMapFormat .
+
+dct:contributor  a  rdf:Property .
+
+kbv:Kit  a      owl:Class .
+
+marc:TextualHoldingsSupplementaryMaterial
+        a       owl:Class .
+
+kbv:LibrisNumber  a  owl:Class .
+
+owl:onProperties  a  rdf:Property .
+
+kbv:ParallelTitle  a  owl:Class .
+
+kbv:Observation  a  owl:Class .
+
+kbv:IssuanceType  a  owl:Class .
+
+rdfdf:sql-doubleprecision-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+owl:annotatedSource  a  rdf:Property .
+
+rdfdf:sql-doubleprecision-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+kbv:ResourceView  a  owl:Class .
+
+kbv:IssueNumber  a  owl:Class .
+
+kbv:Multimedia  a  owl:Class .
+
+kbv:ComponentPart  a  owl:Class .
+
+kbv:CORDIS  a   owl:Class .
+
+rdfdf:sql-numeric-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+kbv:ClassificationNlm
+        a       owl:Class .
+
+kbv:LicenseAgreementBoundDescription
+        a       owl:Class .
+
+rdfdf:singlepart-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+marc:SerialWork  a  owl:Class .
+
+kbv:Projection  a  owl:Class .
+
+rdfdf:sql-nvarchar-dt-nullable
+        a       virtrdf:QuadMapFormat .
+
+foaf:skypeID  a  rdf:Property .
+
+marc:MainEntry  a  owl:Class .
+
+virtrdf:DefaultQuadMap-P
+        a       virtrdf:QuadMapValue .
+
+owl:maxCardinality  a  rdf:Property .
+
+rdfdf:sql-nvarchar-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-varchar-uri
+        a       virtrdf:QuadMapFormat .
+
+kbv:PrimaryContribution
+        a       owl:Class .
+
+marc:BindingInformation
+        a       owl:Class .
+
+rdfdf:sql-integer-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+kbv:DiscoveryCapture  a  owl:Class .
+
+rdfdf:sql-longnvarchar-lang-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+kbv:GenreFormScheme  a  owl:Class .
+
+rdfdf:sql-time-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+kbv:TitlePart  a  owl:Class .
+
+rdfdf:sql-datetime-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+kbv:MatrixNumber  a  owl:Class .
+
+marc:FormOfMusicalCompositionCode
+        a       owl:Class .
+
+kbv:SearchTemplate  a  owl:Class .
+
+kbv:BaseMaterial  a  owl:Class .
+
+virtrdf:DefaultQuadMap
+        a       virtrdf:QuadMap .
+
+virtrdf:DefaultServiceMap-O
+        a       virtrdf:QuadMapValue .
+
+rdfdf:default-iid-nonblank-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+marc:IssuingBodyNote  a  owl:Class .
+
+kbv:ShelfMarkDdc  a  owl:Class .
+
+rdfdf:sql-integer-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+owl:datatypeComplementOf
+        a       rdf:Property .
+
+kbv:Status  a   owl:Class .
+
+foaf:primaryTopic  a  rdf:Property , owl:FunctionalProperty .
+
+kbv:ShelfMark  a  owl:Class .
+
+kbv:otherEdition  a  owl:SymmetricProperty .
+
+owl:oneOf  a    rdf:Property .
+
+rdfdf:default-iid-nonblank
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-time-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+kbv:RecordingCapture  a  owl:Class .
+
+kbv:Collection  a  owl:Class .
+
+rdfdf:default-iid-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+marc:SpecialCodedDates
+        a       owl:Class .
+
+kbv:DissertationIdentifier
+        a       owl:Class .
+
+rdfdf:sql-nvarchar-lang-nullable
+        a       virtrdf:QuadMapFormat .
+
+kbv:Scale  a    owl:Class .
+
+kbv:ISNI  a     owl:Class .
+
+rdfdf:sql-longvarchar-fixedlang-x-any-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:default-iid-nullable
+        a       virtrdf:QuadMapFormat .
+
+marc:NationalAgriculturalLibraryCallNumber
+        a       owl:Class .
+
+kbv:Embargo  a  owl:Class .
+
+kbv:GenreSubdivision  a  owl:Class .
+
+owl:sourceIndividual  a  rdf:Property .
+
+kbv:hasFilePackage  a  owl:Class .
+
+virtrdf:DefaultQuadMap-P-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+dct:subject  a  rdf:Property .
+
+rdfdf:sql-nvarchar-dt-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-varchar-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+kbv:VariantTitle  a  owl:Class .
+
+dct:instructionalMethod
+        a       rdf:Property .
+
+rdfdf:multipart-literal
+        a       virtrdf:QuadMapFormat .
+
+kbv:VideoRecording  a  owl:Class .
+
+rdfdf:sql-time-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+foaf:sha1  a    rdf:Property .
+
+foaf:currentProject  a  rdf:Property .
+
+rdfdf:sql-integer-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-numeric-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultQuadMap-P-col-P
+        a       virtrdf:QuadMapColumn .
+
+virtrdf:DefaultServiceStorage
+        a       virtrdf:QuadStorage .
+
+kbv:Dissertation  a  owl:Class .
+
+rdfdf:multipart-uri-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultQuadMap-G-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+foaf:givenname  a  rdf:Property .
+
+kbv:AudioTake  a  owl:Class .
+
+dct:tableOfContents  a  rdf:Property .
+
+owl:qualifiedCardinality
+        a       rdf:Property .
+
+rdfdf:sql-longnvarchar-lang-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dct:available  a  rdf:Property .
+
+kbv:Temporal  a  owl:Class .
+
+foaf:Document  a  owl:Class .
+
+rdfdf:sql-numeric-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+kbv:EAN  a      owl:Class .
+
+rdfdf:multipart-literal-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-varchar-lang-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultServiceMap-atables
+        a       virtrdf:array-of-QuadMapATable .
+
+kbv:DataService  a  owl:Class .
+
+kbv:AdministrativeHistoryNote
+        a       owl:Class .
+
+kbv:ProjectionSpeed  a  owl:Class .
+
+kbv:TextInstance  a  owl:Class .
+
+kbv:ReductionRatio  a  owl:Class .
+
+rdfdf:sql-nvarchar-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+marc:LanguageNote  a  owl:Class .
+
+rdfdf:sql-longvarchar-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+kbv:Barcode  a  owl:Class .
+
+dct:creator  a  rdf:Property .
+
+kbv:Notation  a  owl:Class .
+
+dct:bibliographicCitation
+        a       rdf:Property .
+
+kbv:Microform  a  owl:Class .
+
+marc:NumberingPeculiaritiesNote
+        a       owl:Class .
+
+marc:ItemInformationSupplementaryMaterial
+        a       owl:Class .
+
+rdfdf:sql-longnvarchar-fixedlang-x-any-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+kbv:CaptionTitle  a  owl:Class .
+
+dct:provenance  a  rdf:Property .
+
+kbv:Standard  a  owl:Class .
+
+marc:EstablishedHeadingLinkingEntryChronologicalTerm
+        a       owl:Class .
+
+virtrdf:DefaultServiceMap-S-col-S
+        a       virtrdf:QuadMapColumn .
+
+rdfdf:zeropart-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-longvarchar-fixedlang-x-any-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:singlepart-uri-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+kbv:Script  a   owl:Class .
+
+kbv:StructuredValue  a  owl:Class .
+
+foaf:account  a  rdf:Property .
+
+kbv:RetentionPolicy  a  owl:Class .
+
+rdfdf:sql-varchar-fixedlang-x-any-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+owl:distinctMembers  a  rdf:Property .
+
+dct:created  a  rdf:Property .
+
+rdfdf:sql-longvarchar-lang-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+foaf:accountServiceHomepage
+        a       rdf:Property .
+
+rdfdf:sql-varchar-dt  a  virtrdf:QuadMapFormat .
+
+rdfdf:sql-time-literal
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:DefaultQuadMap-O-col-O
+        a       virtrdf:QuadMapColumn .
+
+rdfdf:sql-varchar  a  virtrdf:QuadMapFormat .
+
+kbv:Meeting  a  owl:Class .
+
+marc:DistributionAndProduction
+        a       owl:Class .
+
+kbv:FieldOfActivity  a  owl:Class .
+
+marc:CollectionClass  a  owl:Class .
+
+marc:OriginalVersionNote
+        a       owl:Class .
+
+kbv:Container  a  owl:Class .
+
+kbv:ISTC  a     owl:Class .
+
+kbv:Language  a  owl:Class .
+
+owl:minQualifiedCardinality
+        a       rdf:Property .
+
+foaf:firstName  a  rdf:Property .
+
+marc:EstablishedHeadingLinkingEntryUniformTitle
+        a       owl:Class .
+
+kbv:relatedTo  a  owl:SymmetricProperty .
+
+kbv:MusicFormat  a  owl:Class .
+
+kbv:Tactile  a  owl:Class .
+
+kbv:RecordingMethod  a  owl:Class .
+
+kbv:AdminMetadata  a  owl:Class .
+
+kbv:NonMusicalAudio  a  owl:Class .
+
+kbv:GenreForm  a  owl:Class .
+
+rdfdf:multipart-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-datetime-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dct:medium  a   rdf:Property .
+
+dct:accrualMethod  a  rdf:Property .
+
+kbv:otherPhysicalFormat
+        a       owl:SymmetricProperty .
+
+foaf:mbox  a    rdf:Property , owl:InverseFunctionalProperty .
+
+dct:source  a   rdf:Property .
+
+kbv:MachineModel  a  owl:Class .
+
+rdf:value  a    rdf:Property .
+
+kbv:hasIntellectualEntity
+        a       owl:Class .
+
+kbv:PlaybackChannels  a  owl:Class .
+
+kbv:Contribution  a  owl:Class .
+
+kbv:Emulsion  a  owl:Class .
+
+rdfdf:sql-nvarchar-nullable
+        a       virtrdf:QuadMapFormat .
+
+marc:EstablishedHeadingLinkingEntryMeetingName
+        a       owl:Class .
+
+owl:targetValue  a  rdf:Property .
+
+foaf:mbox_sha1sum  a  rdf:Property , owl:InverseFunctionalProperty .
+
+kbv:AccessModeSufficient
+        a       owl:Class .
+
+kbv:TranslatedTitle  a  owl:Class .
+
+dct:hasFormat  a  rdf:Property .
+
+foaf:depicts  a  rdf:Property .
+
+owl:complementOf  a  rdf:Property .
+
+rdfdf:sql-longnvarchar-dt-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+kbv:WorldCatNumber  a  owl:Class .
+
+rdfdf:sql-nvarchar-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+foaf:family_name  a  rdf:Property .
+
+foaf:isPrimaryTopicOf
+        a       rdf:Property , owl:InverseFunctionalProperty .
+
+kbv:hasEquivalent  a  owl:SymmetricProperty .
+
+rdfdf:sql-date-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+dct:language  a  rdf:Property .
+
+dct:hasPart  a  rdf:Property .
+
+kbv:ToCEntry  a  owl:Class .
+
+kbv:Illustration  a  owl:Class .
+
+kbv:SoundRecording  a  owl:Class .
+
+foaf:schoolHomepage  a  rdf:Property .
+
+foaf:birthday  a  owl:FunctionalProperty , rdf:Property .
+
+kbv:PlaybackCharacteristic
+        a       owl:Class .
+
+rdfdf:zeropart-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+kbv:AccessibilityHazardType
+        a       owl:Class .
+
+owl:assertionProperty
+        a       rdf:Property .
+
+kbv:VIAF  a     owl:Class .
+
+marc:hasLocationOfOtherArchivalMaterialsNote
+        a       owl:Class .
+
+rdfdf:sinv-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+kbv:Library  a  owl:Class .
+
+virtrdf:DefaultQuadMap-G-col-G
+        a       virtrdf:QuadMapColumn .
+
+kbv:RunningTitle  a  owl:Class .
+
+marc:RecordType  a  owl:Class .
+
+foaf:accountName  a  rdf:Property .
+
+dct:description  a  rdf:Property .
+
+rdfdf:sql-integer-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+kbv:DistinctiveTitle  a  owl:Class .
+
+rdfdf:sql-integer-literal
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-datetime-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+kbv:Summary  a  owl:Class .
+
+rdfdf:sql-longnvarchar-fixedlang-x-any-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+kbv:Place  a    owl:Class .
+
+owl:propertyDisjointWith
+        a       rdf:Property .
+
+rdfdf:zeropart-uri  a  virtrdf:QuadMapFormat .
+
+kbv:EncodingLevel  a  owl:Class .
+
+kbv:CollectiveTitle  a  owl:Class .
+
+kbv:TableOfContents  a  owl:Class .
+
+marc:Bib976  a  owl:Class .
+
+kbv:FundRef  a  owl:Class .
+
+rdfdf:multipart-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+kbv:ShelfMarkLcc  a  owl:Class .
+
+kbv:StillImage  a  owl:Class .
+
+kbv:Organization  a  owl:Class .
+
+kbv:KeyTitle  a  owl:Class .
+
+rdfdf:sql-longnvarchar-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+marc:AddedEntry  a  owl:Class .
+
+kbv:NumberingOfSerials
+        a       owl:Class .
+
+kbv:CarrierType  a  owl:Class .
+
+marc:AdditionalPhysicalFormAvailableNote
+        a       owl:Class .
+
+kbv:ObjectProperty  a  owl:Class .
+
+kbv:RecordingMedium  a  owl:Class .
+
+dct:extent  a   rdf:Property .
+
+owl:someValuesFrom  a  rdf:Property .
+
+rdfdf:sinv-iid-nonblank-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:zeropart-literal-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultServiceMap-geo-conds
+        a       virtrdf:array-of-string .
+
+marc:TextualHoldingsBasicBibliographicUnit
+        a       owl:Class .
+
+owl:inverseOf  a  rdf:Property .
+
+marc:OtherCartographicScale
+        a       owl:Class .
+
+kbv:Country  a  owl:Class .
+
+marc:Hold949  a  owl:Class .
+
+kbv:ImmediateAcquisition
+        a       owl:Class .
+
+owl:targetIndividual  a  rdf:Property .
+
+kbv:ManuscriptText  a  owl:Class .
+
+marc:CreationProductionCreditsNote
+        a       owl:Class .
+
+kbv:ProvisionActivity
+        a       owl:Class .
+
+foaf:openid  a  owl:InverseFunctionalProperty , rdf:Property .
+
+virtrdf:DefaultServiceMap
+        a       virtrdf:QuadMap .
+
+rdfdf:zeropart-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+kbv:Aggregate  a  owl:Class .
+
+dct:hasVersion  a  rdf:Property .
+
+kbv:SystemNumber  a  owl:Class .
+
+owl:Thing  a    owl:Class .
+
+rdfdf:default-iid-nonblank-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-nvarchar-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-longnvarchar-lang-nullable
+        a       virtrdf:QuadMapFormat .
+
+kbv:NBN  a      owl:Class .
+
+dct:replaces  a  rdf:Property .
+
+kbv:AspectRatio  a  owl:Class .
+
+owl:cardinality  a  rdf:Property .
+
+kbv:LcOverseasAcq  a  owl:Class .
+
+rdfdf:sinv-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+kbv:Relation  a  owl:Class .
+
+kbv:OnlineAvailability
+        a       owl:Class .
+
+dct:isVersionOf  a  rdf:Property .
+
+marc:SourceOfDescriptionNote
+        a       owl:Class .
+
+marc:NumberOfInstrumentsOrVoicesCode
+        a       owl:Class .
+
+marc:SeeAlsoFromTracingChronologicalTerm
+        a       owl:Class .
+
+rdfdf:sql-nvarchar-fixedlang-x-any
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-nvarchar-lang-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+foaf:plan  a    rdf:Property .
+
+kbv:BroadcastCapture  a  owl:Class .
+
+rdfdf:sql-doubleprecision-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:DefaultServiceMap-P-col-P
+        a       virtrdf:QuadMapColumn .
+
+dct:date  a     rdf:Property .
+
+kbv:WikidataID  a  owl:Class .
+
+kbv:SerialComponentPart
+        a       owl:Class .
+
+marc:PublicationsAboutDescribedMaterialsNote
+        a       owl:Class .
+
+virtrdf:DefaultServiceMap-G
+        a       virtrdf:QuadMapValue .
+
+kbv:SoundContent  a  owl:Class .
+
+rdfdf:sql-numeric-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-varchar-lang-nullable
+        a       virtrdf:QuadMapFormat .
+
+dct:license  a  rdf:Property .
+
+kbv:ISO  a      owl:Class .
+
+kbv:ShelfMarkStatusType
+        a       owl:Class .
+
+kbv:Layout  a   owl:Class .
+
+kbv:Map  a      owl:Class .
+
+dct:references  a  rdf:Property .
+
+kbv:CartographicDataType
+        a       owl:Class .
+
+foaf:age  a     rdf:Property , owl:FunctionalProperty .
+
+kbv:TopicSubdivision  a  owl:Class .
+
+kbv:ISSNL  a    owl:Class .
+
+kbv:Digitization  a  owl:Class .
+
+kbv:EIDR  a     owl:Class .
+
+rdfdf:sql-varchar-lang
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sinv  a   virtrdf:QuadMapFormat .
+
+virtrdf:DefaultServiceMap-S-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+rdfdf:sql-time-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-doubleprecision-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+owl:onDatatype  a  rdf:Property .
+
+kbv:Polarity  a  owl:Class .
+
+marc:FormerTitleComplexityNote
+        a       owl:Class .
+
+kbv:BroadcastStandard
+        a       owl:Class .
+
+kbv:Role  a     owl:Class .
+
+marc:EnumeratedClass  a  owl:Class .
+
+rdfdf:sql-longvarbinary-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+kbv:GRID  a     owl:Class .
+
+virtrdf:DefaultServiceStorage-UserMaps
+        a       virtrdf:array-of-QuadMap .
+
+dct:relation  a  rdf:Property .
+
+rdfdf:sql-time-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-varchar-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+kbv:BookFormat  a  owl:Class .
+
+marc:SeeFromTracingChronologicalTerm
+        a       owl:Class .
+
+kbv:CreatorCount  a  owl:Class .
+
+foaf:based_near  a  rdf:Property .
+
+kbv:ProductionMethod  a  owl:Class .
+
+kbv:SystemRequirement
+        a       owl:Class .
+
+rdfdf:singlepart-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+dct:dateAccepted  a  rdf:Property .
+
+kbv:Title  a    owl:Class .
+
+kbv:OpenAccessAvailability
+        a       owl:Class .
+
+virtrdf:DefaultServiceMap-O-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+rdfdf:sinv-iid-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+kbv:BiographicalNote  a  owl:Class .
+
+rdfdf:sql-nvarchar-dt-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-longnvarchar-dt
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-nvarchar-fixedlang-x-any-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-doubleprecision-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+kbv:ISSN  a     owl:Class .
+
+rdfdf:sql-doubleprecision-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultServiceMap-O-col-O
+        a       virtrdf:QuadMapColumn .
+
+rdfdf:sql-integer-nullable
+        a       virtrdf:QuadMapFormat .
+
+kbv:AbbreviatedTitle  a  owl:Class .
+
+kbv:Distribution  a  owl:Class .
+
+kbv:NotatedMovement  a  owl:Class .
+
+kbv:StudyNumber  a  owl:Class .
+
+kbv:EnumerationAndChronology
+        a       owl:Class .
+
+kbv:Manuscript  a  owl:Class .
+
+dct:spatial  a  rdf:Property .
+
+kbv:Work  a     owl:Class .
+
+rdfdf:sql-nvarchar-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+kbv:TapeConfig  a  owl:Class .
+
+owl:sameAs  a   rdf:Property .
+
+kbv:Archival  a  owl:Class .
+
+rdf:first  a    rdf:Property .
+
+rdfdf:multipart-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+foaf:publications  a  rdf:Property .
+
+rdfdf:sql-nvarchar-lang-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultQuadMap-geo
+        a       virtrdf:QuadMapFText .
+
+kbv:ORCID  a    owl:Class .
+
+owl:onProperty  a  rdf:Property .
+
+kbv:DataDistribution  a  owl:Class .
+
+kbv:AudioIssueNumber  a  owl:Class .
+
+kbv:Ansi  a     owl:Class .
+
+virtrdf:DefaultServiceMap-S
+        a       virtrdf:QuadMapValue .
+
+rdfdf:zeropart-literal
+        a       virtrdf:QuadMapFormat .
+
+kbv:CoverArt  a  owl:Class .
+
+rdf:object  a   rdf:Property .
+
+rdfdf:multipart-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+marc:ActionNote  a  owl:Class .
+
+marc:LinkingEntryComplexityNote
+        a       owl:Class .
+
+marc:GPOItemNumber  a  owl:Class .
+
+kbv:Identifier  a  owl:Class .
+
+kbv:CoverTitle  a  owl:Class .
+
+virtrdf:DefaultQuadStorage-UserMaps
+        a       virtrdf:array-of-QuadMap .
+
+rdfdf:singlepart-literal-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+owl:hasValue  a  rdf:Property .
+
+rdfs:Class  a   owl:Class .
+
+foaf:yahooChatID  a  rdf:Property , owl:InverseFunctionalProperty .
+
+virtrdf:SyncToQuads-UserMaps
+        a       virtrdf:array-of-QuadMap .
+
+kbv:DigitalCharacteristic
+        a       owl:Class .
+
+virtrdf:DefaultServiceMap-G-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+foaf:jabberID  a  owl:InverseFunctionalProperty , rdf:Property .
+
+rdfdf:sql-longvarchar-lang-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+kbv:Production  a  owl:Class .
+
+bf2:Person  a   owl:Class .
+
+kbv:Extent  a   owl:Class .
+
+kbv:NotatedMusic  a  owl:Class .
+
+rdfdf:sql-longvarchar-dt-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .

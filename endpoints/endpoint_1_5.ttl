@@ -30,15 +30,11 @@ ns14:d742252641cac6c9d036c6bc0318f6a0-date-ran
 ns20:2056a8a65a54ae61110987d021b52f88
         a       ns19:Feature .
 
-[ a       ns13:before ] .
-
 rdfdf:sql-nvarchar-literal-fn
         a       virtrdf:QuadMapFormat .
 
 ns14:18acb083729926bdde9987dc649fd440-date-ran
         a       ns13:Instant .
-
-[ a       ns24:creator ] .
 
 ns20:fd5a8c68d3579add2a8baadb59af4a28
         a       ns19:Feature .
@@ -48,14 +44,14 @@ ns14:3f2e721bebe4e6d46dcd676488e00073-date-created
 
 owl:allValuesFrom  a  rdf:Property .
 
+[ a       ns24:creator ] .
+
 owl:disjointWith  a  rdf:Property .
 
-[ a       owl:Restriction ] .
+[ a       ns13:before ] .
 
 ns20:b3fbae9e3d26161312da24dc8285c73a
         a       ns19:Feature .
-
-[ a       ns13:before ] .
 
 ns20:4b9d4c193fc2fc94201dffa27e7c72df
         a       ns19:Feature .
@@ -92,6 +88,8 @@ ns20:77c9664b22a66df82edddcf3d0561c5f
 ns14:aee99a0eec7cd6ce2a89a5b2a7d6c202-date-ran
         a       ns13:Instant .
 
+[ a       owl:Restriction ] .
+
 ns20:ad19c8d8d108539d7a385c64837abe78
         a       ns19:Feature .
 
@@ -116,16 +114,12 @@ ns21:6371fc1121ad161e8365feca9b398fcd
 rdfdf:sql-integer-literal-fn-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-[ a       ns13:before ] .
-
 rdfdf:sql-datetime-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
 [ a       ns13:before ] .
 
-[ a       ns13:before ] .
-
-[ a       owl:Restriction ] .
+[ a       ns24:creator ] .
 
 ns21:c1094c766e4631b86c789e54ef2560c2
         a       ns19:Feature .
@@ -140,8 +134,6 @@ ns9:postalCode  a  owl:DatatypeProperty .
 
 ns20:79cbb3fe31928d13e17796bc3fefa491
         a       ns19:Feature .
-
-[ a       owl:Restriction ] .
 
 ns20:858b73311f509af89f44abea4ce28fb2
         a       ns19:Feature .
@@ -162,6 +154,8 @@ rdfdf:sql-varchar-uri-fn-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
 skos:notation  a  owl:DatatypeProperty .
+
+[ a       owl:Restriction ] .
 
 rdfdf:sql-varchar-uri-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
@@ -190,6 +184,8 @@ ns21:f45f9a66a736a62fd23c33a40d292af8
 rdfdf:zeropart-uri-nullable
         a       virtrdf:QuadMapFormat .
 
+[ a       ns13:before ] .
+
 ns14:0bafdc19b6982a7c1f537f2f61343663-date-ran
         a       ns13:Instant .
 
@@ -207,18 +203,20 @@ rdfdf:sql-longvarchar
 ns14:e9a2157353f604e4c49d076741919d48-date-ran
         a       ns13:Instant .
 
+[ a       ns13:before ] .
+
 ns20:15a0de28b39b557286287ac4836e0469
         a       ns19:Feature .
 
 owl:AnnotationProperty
         a       rdfs:Class .
 
-[ a       ns13:before ] .
-
 ns14:e0eb2dbff0a3f413b715448690deba2b-date-ran
         a       ns13:Instant .
 
 rdfdf:sinv-nullable  a  virtrdf:QuadMapFormat .
+
+[ a       owl:Restriction ] .
 
 rdfdf:sql-date-nullable
         a       virtrdf:QuadMapFormat .
@@ -241,7 +239,7 @@ ns20:4ab739080d3d547ad2ea369a40b4d327
 ns20:cfd2a0e16d24107f4aeba4cfb7523e9d
         a       ns19:Feature .
 
-[ a       owl:Restriction ] .
+[ a       ns24:creator ] .
 
 ns14:16f491d69f193346ed0e2384c99ddf0e-date-ran
         a       ns13:Instant .
@@ -255,13 +253,13 @@ ns14:3aee3f5c32938cfc4499139693261622-date-created
 ns14:b3eaa6086b40dab9737e2409ebab9582-date-ran
         a       ns13:Instant .
 
+[ a       ns13:before ] .
+
 ns14:8db8662d755029cbe47a2e43e0e1114c-date-created
         a       ns13:Instant .
 
 ns20:e4bd5f80908a4b2a163ca2045b07014c
         a       ns19:Feature .
-
-[ a       ns13:before ] .
 
 ns20:1c1e55b56cac345abc6483d0cf32a05b
         a       ns19:Feature .
@@ -282,10 +280,6 @@ rdfdf:sql-numeric-uri-fn
         a       virtrdf:QuadMapFormat .
 
 virtrdf:SyncToQuads  a  virtrdf:QuadStorage .
-
-[ a       ns13:before ] .
-
-[ a       ns13:before ] .
 
 ns20:b6f24202449986994ab04fbf7a1a580a
         a       ns19:Feature .
@@ -310,6 +304,8 @@ ns9:parentFeature  a  owl:TransitiveProperty , owl:ObjectProperty .
 
 ns14:9b7d10022e0d4aef20db232633e61dbb-date-ran
         a       ns13:Instant .
+
+[ a       ns13:before ] .
 
 ns14:0365e199420e7f683b143dff6ead9d09-date-created
         a       ns13:Instant .
@@ -353,6 +349,8 @@ ns14:31691270d9e4fab7ccc53afc12a6ac71-date-created
 ns20:6761b5eb7a47a0ee9482dfa6fa00ecee
         a       ns19:Feature .
 
+[ a       ns13:before ] .
+
 ns20:f05cf6d2498343b69d800192447271d6
         a       ns19:Feature .
 
@@ -373,8 +371,12 @@ ns20:e8bb4259887b9bcfd915538ebe8041ae
 ns14:31a9ccc96477d777afb1478b9331d7b0-date-ran
         a       ns13:Instant .
 
+[ a       ns13:before ] .
+
 rdfdf:sql-longvarbinary
         a       virtrdf:QuadMapFormat .
+
+[ a       ns13:before ] .
 
 ns14:3a4ce575c1b95ca5d31495d7ac8ff27b-date-created
         a       ns13:Instant .
@@ -384,8 +386,6 @@ ns20:fa15958f56864909e1c8dc0947b23bfe
 
 ns20:4e55dea65d9a43dc4290e951c8bc7983
         a       ns19:Feature .
-
-[ a       ns13:before ] .
 
 ns14:f8aad23bf5469757e0aabd4ee3ea4a74-date-ran
         a       ns13:Instant .
@@ -426,6 +426,8 @@ ns20:71b50df0b76e3f96e30e37e77b0995f2
 ns20:6946d77de763091f223ec8a9a574951c
         a       ns19:Feature .
 
+[ a       owl:Restriction ] .
+
 rdfdf:sql-varchar-uri-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
@@ -444,21 +446,21 @@ ns14:4d2edcc9a98ea62aa73bdba50483ed6e-date-ran
 ns20:92ae9282cde725bd86da21cb3e3226c6
         a       ns19:Feature .
 
+[ a       owl:Restriction ] .
+
 ns20:2a6db917056e5bfc8d27e7b757a3cd64
         a       ns19:Feature .
 
-[ a       ns13:before ] .
-
 ns14:3614c7a4c63766a044b27b1e594d0b90-date-ran
         a       ns13:Instant .
+
+[ a       ns13:before ] .
 
 ns14:1df1197af0396b92a0e6e3eac66c527e-date-ran
         a       ns13:Instant .
 
 ns14:e98cbc7ce08eac4d52069652b5f3d5ad-date-ran
         a       ns13:Instant .
-
-[ a       owl:Restriction ] .
 
 ns9:neighbouringFeatures
         a       owl:ObjectProperty .
@@ -471,12 +473,8 @@ rdfdf:sql-time  a  virtrdf:QuadMapFormat .
 rdfdf:sql-longnvarchar-dt-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-[ a       ns13:before ] .
-
 rdfdf:sql-time-nullable
         a       virtrdf:QuadMapFormat .
-
-[ a       owl:Restriction ] .
 
 owl:SymmetricProperty
         a       rdfs:Class .
@@ -496,8 +494,6 @@ ns14:76cfd7a16874e049a8c233d1ef3b4437-date-ran
 ns14:4f575ffc4b6fba8316658d12d493cd8b-date-created
         a       ns13:Instant .
 
-[ a       ns13:before ] .
-
 ns20:9800aca25032a3375f1b33358eda606b
         a       ns19:Feature .
 
@@ -507,12 +503,12 @@ ns20:d4c026e2e46809c6d3fc1577eddb53ae
 rdfdf:zeropart-uri-fn-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
+ns20:432f9634d1bf9001e5554963eb37970a
+        a       ns19:Feature .
+
 [ a       owl:Restriction ] .
 
 [ a       ns13:before ] .
-
-ns20:432f9634d1bf9001e5554963eb37970a
-        a       ns19:Feature .
 
 rdfdf:sql-numeric-literal
         a       virtrdf:QuadMapFormat .
@@ -520,20 +516,16 @@ rdfdf:sql-numeric-literal
 virtrdf:DefaultQuadMap-S-cols
         a       virtrdf:array-of-QuadMapColumn .
 
-[ a       ns13:before ] .
-
-[ a       ns13:before ] .
-
 ns20:60bae535e3c35e4140f02d22b9bed247
         a       ns19:Feature .
 
 ns14:187e4ec2300bcd45650455bf0aa110e2-date-ran
         a       ns13:Instant .
 
-[ a       ns13:before ] .
-
 ns14:0365e199420e7f683b143dff6ead9d09-date-ran
         a       ns13:Instant .
+
+[ a       ns13:before ] .
 
 ns20:dfc8fd99d9721707719514735d1bae5b
         a       ns19:Feature .
@@ -543,8 +535,6 @@ ns20:24bffbccd62b650256a0e5fec9bc2a9a
 
 ns14:33c9c4b2ae76c06b6bb8d54cfd5e5219-date-ran
         a       ns13:Instant .
-
-[ a       owl:Restriction ] .
 
 ns20:a4ee7da24c381d3dfef2c09607c71566
         a       ns19:Feature .
@@ -567,10 +557,12 @@ ns14:75a6059b0724cd6fdad6c87df0faa622-date-created
 ns14:41b6f1684ed7707b84f1c880fc93bcf5-date-created
         a       ns13:Instant .
 
+[ a       ns13:before ] .
+
 virtrdf:DefaultQuadMap-O-cols
         a       virtrdf:array-of-QuadMapColumn .
 
-[ a       owl:Restriction ] .
+[ a       ns13:before ] .
 
 ns21:7c7e696ae8d2f068dc6a1e0d6db5e814
         a       ns19:Feature .
@@ -590,8 +582,6 @@ ns14:b0bbace561ad7ec8b5fdf47d65961ee1-date-ran
 
 rdfdf:sql-longnvarchar-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
-
-[ a       ns24:creator ] .
 
 rdfdf:sql-nvarchar-literal-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
@@ -622,14 +612,22 @@ ns14:a4b9ca8208672102af2bfabf03b7f91c-date-created
 ns14:1e9559fcb9ea0b8e578cf9dcbadfb175-date-ran
         a       ns13:Instant .
 
+[ a       ns13:before ] .
+
 rdfdf:sql-varchar-literal-fn-nullable
         a       virtrdf:QuadMapFormat .
 
 ns14:a4b9ca8208672102af2bfabf03b7f91c-date-ran
         a       ns13:Instant .
 
+[ a       ns13:before ] .
+
+[ a       ns13:before ] .
+
 ns14:1ef5524123f8d134fb4c8e89e1e04cca-date-created
         a       ns13:Instant .
+
+[ a       ns13:before ] .
 
 rdfdf:sql-integer-uri-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
@@ -665,25 +663,21 @@ ns14:a6fe5cf6667da36489fe795219aa21dd-date-ran
 
 ns22:Muninn  a  foaf:Organization .
 
-[ a       ns13:before ] .
-
 ns14:7575b50730286c31f9aead75930cd0bb-date-created
         a       ns13:Instant .
 
 rdfdf:sql-nvarchar-uri
         a       virtrdf:QuadMapFormat .
 
-[ a       owl:Restriction ] .
-
 ns9:alternateName  a  owl:DatatypeProperty .
 
 ns14:a5f627ec332cc1ffe83030acd7a1c98c-date-created
         a       ns13:Instant .
 
-[ a       ns13:before ] .
-
 ns20:5d41e222ee30c6b6d66ad701ef988fcb
         a       ns19:Feature .
+
+[ a       ns13:before ] .
 
 rdfdf:sql-datetime  a  virtrdf:QuadMapFormat .
 
@@ -703,8 +697,6 @@ ns9:nearbyFeatures  a  owl:ObjectProperty .
 ns14:ad0d298d88012db9cb63f0718e565358-date-created
         a       ns13:Instant .
 
-[ a       ns13:before ] .
-
 ns21:47c1f30599e5948935c9e302882c7eb6
         a       ns19:Feature .
 
@@ -720,16 +712,20 @@ owl:priorVersion  a  rdf:Property , owl:OntologyProperty .
 ns20:bd201c07fe021aa75636d2f591a5e6d3
         a       ns19:Feature .
 
+[ a       ns13:before ] .
+
 ns20:dce8acce84faeab38b2d0aa10ea4088b
         a       ns19:Feature .
-
-[ a       ns13:before ] .
 
 ns20:4594b06acd0a9cc573893cfb211e0a36
         a       ns19:Feature .
 
+[ a       ns13:before ] .
+
 ns14:77437d5fe9279c0cdbdc563febbd66bc-date-ran
         a       ns13:Instant .
+
+[ a       ns13:before ] .
 
 ns14:9a40a07d7d169d4cfef1220c0e52cf94-date-ran
         a       ns13:Instant .
@@ -750,8 +746,6 @@ ns14:db77902da3b1bd6d3b34a3525b4dc4d9-date-created
 ns14:0c4cc89d19eb7e70a0544ca46407c81e-date-ran
         a       ns13:Instant .
 
-[ a       ns13:before ] .
-
 rdfdf:sql-nvarchar-literal-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
@@ -761,12 +755,8 @@ rdfdf:zeropart-literal-fn-nullable
 ns14:ad1aef8d1eb9d1b27454e657f8f1d659-date-created
         a       ns13:Instant .
 
-[ a       ns13:before ] .
-
 virtrdf:DefaultServiceMap-pquad
         a       virtrdf:QuadMapATable .
-
-[ a       ns13:before ] .
 
 rdfdf:default-nullable
         a       virtrdf:QuadMapFormat .
@@ -795,6 +785,8 @@ ns14:1df1197af0396b92a0e6e3eac66c527e-date-created
 ns14:a9fa68645232f2c9bff2bc5689fcbe80-date-ran
         a       ns13:Instant .
 
+[ a       owl:Restriction ] .
+
 ns20:90f0486414ea6eb47ca0436a2eba4cc9
         a       ns19:Feature .
 
@@ -809,6 +801,8 @@ ns20:6b41005daa607b0bb426e403df4c7c34
 
 ns14:2c5b90a4dec1f816aacefe092ee7c554-date-created
         a       ns13:Instant .
+
+[ a       ns13:before ] .
 
 ns14:bbb1dd072f4778c564aae9979eda501b-date-created
         a       ns13:Instant .
@@ -832,6 +826,8 @@ rdfdf:sql-date  a  virtrdf:QuadMapFormat .
 
 owl:imports  a  rdf:Property , owl:OntologyProperty .
 
+[ a       ns13:before ] .
+
 rdfdf:sql-nvarchar-literal
         a       virtrdf:QuadMapFormat .
 
@@ -847,8 +843,6 @@ ns21:0c44da22502ed343deb43c5670b32ea4
 rdfdf:default-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-[ a       ns13:before ] .
-
 ns14:a48d2f547289e6986ef66a8a1c3a4613-date-created
         a       ns13:Instant .
 
@@ -859,6 +853,8 @@ ns9:long  a     owl:DatatypeProperty .
 
 ns20:0a76d64b2ce6a1203f62ac23c62a4ff4
         a       ns19:Feature .
+
+[ a       ns13:before ] .
 
 ns20:9f839300a28fa3be77c0ce526e6e9cb6
         a       ns19:Feature .
@@ -872,16 +868,18 @@ ns14:0fdc4d70b24451af52c3dbb3307219b0-date-created
 ns14:62fba56f0bd336dc5839e6dc01c0e2e2-date-ran
         a       ns13:Instant .
 
+[ a       ns13:before ] .
+
 ns21:3e982c3b9445e82064e8ae5d14d004e0
         a       ns19:Feature .
 
 ns20:a42729fbc46ac39d2191e9783ea43739
         a       ns19:Feature .
 
+[ a       ns13:before ] .
+
 rdfdf:sql-varchar-literal-fn
         a       virtrdf:QuadMapFormat .
-
-[ a       ns13:before ] .
 
 ns14:4fae4d9596c5e3962401c55ba8c51e0e-date-ran
         a       ns13:Instant .
@@ -903,6 +901,8 @@ rdfdf:sql-varchar-literal
 ns14:9515e76ddea1752dc3205068d8bd5f0c-date-ran
         a       ns13:Instant .
 
+[ a       ns13:before ] .
+
 rdfdf:sql-varchar-dt-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
@@ -916,6 +916,8 @@ owl:Nothing  a  owl:Class .
 
 ns14:f362f305d097b9af854bca083394eb91-date-ran
         a       ns13:Instant .
+
+[ a       ns13:before ] .
 
 [ a       ns13:before ] .
 
@@ -934,12 +936,10 @@ ns20:689b079feba01d6a92ce231ceaa3c8b2
 rdfdf:multipart-uri-fn-nullable
         a       virtrdf:QuadMapFormat .
 
-[ a       ns13:before ] .
-
-[ a       ns13:before ] .
-
 rdfdf:sql-nvarchar-uri-fn
         a       virtrdf:QuadMapFormat .
+
+[ a       ns13:before ] .
 
 rdfdf:sql-numeric-literal-fn-nullable
         a       virtrdf:QuadMapFormat .
@@ -953,6 +953,8 @@ ns14:a6fe5cf6667da36489fe795219aa21dd-date-created
 ns14:423f065f60a156d6fb52310f8d2a4245-date-created
         a       ns13:Instant .
 
+[ a       ns13:before ] .
+
 ns20:9ae64666354b510421cff891922abe05
         a       ns19:Feature .
 
@@ -961,23 +963,23 @@ ns9:L   a       ns9:Class .
 ns12:ForwardToPublisher
         a       ns11:Permission .
 
+[ a       owl:Restriction ] .
+
 ns21:73a944a767adcf9ff9b0390ba317e0d1
         a       ns19:Feature .
 
 ns21:01c01fde1a2619dde05dc118a83597b5
         a       ns19:Feature .
 
-[ a       owl:Restriction ] .
-
-[ a       owl:Restriction ] .
-
 rdfdf:multipart-literal-nullable
         a       virtrdf:QuadMapFormat .
+
+[ a       owl:Restriction ] .
 
 ns14:5a38522648f78f2066d7a49a67e42ab6-date-created
         a       ns13:Instant .
 
-[ a       ns24:creator ] .
+[ a       ns13:before ] .
 
 ns12:ForwardToOriginal
         a       ns11:Permission .
@@ -989,6 +991,8 @@ ns14:66376a20cda95431b49df2ff19a9f879-date-created
 
 ns20:c135c3f53f94cd2ee62553393230e5dc
         a       ns19:Feature .
+
+[ a       owl:Restriction ] .
 
 ns20:f04d81a9c0222f53b86e4b2e2fdb35f4
         a       ns19:Feature .
@@ -1014,12 +1018,8 @@ rdfdf:sql-longnvarchar
 rdfdf:sql-longvarchar-lang
         a       virtrdf:QuadMapFormat .
 
-[ a       ns13:before ] .
-
 ns20:ceb1b481c1126b22995f70f825b2cd8d
         a       ns19:Feature .
-
-[ a       ns13:before ] .
 
 ns14:25a57121d39392bdd499e2a87d57d161-date-created
         a       ns13:Instant .
@@ -1029,6 +1029,8 @@ ns9:parentADM4  a  owl:ObjectProperty .
 ns14:aee99a0eec7cd6ce2a89a5b2a7d6c202-date-created
         a       ns13:Instant .
 
+[ a       ns13:before ] .
+
 ns14:0e3d8a92da48fbbe914fa6c41c464f3c-date-ran
         a       ns13:Instant .
 
@@ -1037,15 +1039,11 @@ ns21:b98bde4a2708ef1b2479471ec7d196d4
 
 ns9:population  a  owl:DatatypeProperty .
 
-[ a       ns13:before ] .
-
 rdfdf:sql-varchar-literal-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
 ns14:58494599f6d83847303e398732b2834a-date-created
         a       ns13:Instant .
-
-[ a       ns13:before ] .
 
 ns20:8f00b65e86f6be678d71fe7dcc74975f
         a       ns19:Feature .
@@ -1077,6 +1075,8 @@ rdfdf:sql-varchar-nullable-SuperFormats
 rdfdf:sql-integer-literal-fn-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
+[ a       ns13:before ] .
+
 ns9:lat  a      owl:DatatypeProperty .
 
 ns21:3b3c7657f0fe106e1283a896bacb6f8d
@@ -1090,12 +1090,12 @@ virtrdf:DefaultServiceMap-P-cols
 rdfdf:sql-longvarchar-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-[ a       ns13:before ] .
-
 ns9:parentCountry  a  owl:ObjectProperty .
 
 ns14:5a38522648f78f2066d7a49a67e42ab6-date-ran
         a       ns13:Instant .
+
+[ a       ns13:before ] .
 
 ns14:ed565b2ccff459431e21963228ba12f1-date-created
         a       ns13:Instant .
@@ -1117,6 +1117,10 @@ ns14:4f575ffc4b6fba8316658d12d493cd8b-date-ran
 ns21:c5bc731a648da88935b01875c27e7637
         a       ns19:Feature .
 
+[ a       owl:Restriction ] .
+
+[ a       ns13:before ] .
+
 [ a       ns13:before ] .
 
 owl:TransitiveProperty
@@ -1133,6 +1137,10 @@ rdfdf:sql-integer-uri-nullable-SuperFormats
 ns14:a0079f27548c1a57c845de6f45dcbc7b-date-created
         a       ns13:Instant .
 
+[ a       ns13:before ] .
+
+[ a       owl:Restriction ] .
+
 ns14:2d61dc2e6db86f360df1d66e28eedfd0-date-ran
         a       ns13:Instant .
 
@@ -1142,7 +1150,7 @@ ns20:421c97001dd7d69e756539aca83f0b4c
 ns14:dd2f566580d1412b8f82a8e8af18a01f-date-created
         a       ns13:Instant .
 
-[ a       ns13:before ] .
+[ a       owl:Restriction ] .
 
 ns20:66dff9ab81b3443e997c6083da24e178
         a       ns19:Feature .
@@ -1164,10 +1172,10 @@ ns9:Code  a     owl:Class .
 ns21:80be4cbb8c4d914acd9230b114bc96f6
         a       ns19:Feature .
 
+[ a       ns13:before ] .
+
 ns21:758cef468642916c98416f0f1eb5ddbf
         a       ns19:Feature .
-
-[ a       ns13:before ] .
 
 ns14:6e4c6a4a37af51b1225142609171802d-date-created
         a       ns13:Instant .
@@ -1199,6 +1207,10 @@ virtrdf:DefaultQuadMap-ft
 ns14:ad1aef8d1eb9d1b27454e657f8f1d659-date-ran
         a       ns13:Instant .
 
+[ a       ns13:before ] .
+
+[ a       owl:Restriction ] .
+
 ns20:f9b96d5e9b4da3b5794a9a41153d0590
         a       ns19:Feature .
 
@@ -1213,6 +1225,8 @@ ns14:8975d33f3c0b183580ba81501e1fabf4-date-ran
 
 ns14:3c13fd490cb28fcc6860c22648ad5159-date-created
         a       ns13:Instant .
+
+[ a       ns24:creator ] .
 
 ns20:9708ba6a1f1ca1cc72283015a5286fc5
         a       ns19:Feature .
@@ -1246,10 +1260,6 @@ ns21:d27e12f9fe312de6007da49160a7eda0
 ns14:1811ca898fe9e72b2706f779d023a9fc-date-ran
         a       ns13:Instant .
 
-[ a       ns13:before ] .
-
-[ a       ns13:before ] .
-
 ns14:2b96f476edbe13213e350c81d08c9efe-date-created
         a       ns13:Instant .
 
@@ -1264,6 +1274,8 @@ ns14:2b3985a35b8be3463c05de65dde4878d-date-ran
 
 ns14:f4cd600b893df012572f0371286b6680-date-created
         a       ns13:Instant .
+
+[ a       ns13:before ] .
 
 ns20:60f3c609b4e95e77e7d146dc16cf2c44
         a       ns19:Feature .
@@ -1282,8 +1294,6 @@ ns14:98121481b142aab218229f64c9098318-date-created
 ns14:873f4617a8793f045490a673d38adede-date-ran
         a       ns13:Instant .
 
-[ a       owl:Restriction ] .
-
 rdfdf:sql-integer-uri
         a       virtrdf:QuadMapFormat .
 
@@ -1293,11 +1303,15 @@ ns14:cd2a5b3b43e8b8c9e487669ae04be2de-date-created
 ns20:c137ff2b8b61d031782f000db98943e8
         a       ns19:Feature .
 
+[ a       ns13:before ] .
+
 rdfdf:sql-integer-literal-fn
         a       virtrdf:QuadMapFormat .
 
 ns14:d934dce7c1f7375120b7612a12493696-date-created
         a       ns13:Instant .
+
+[ a       owl:Restriction ] .
 
 rdfdf:sql-longvarbinary-nullable
         a       virtrdf:QuadMapFormat .
@@ -1309,8 +1323,6 @@ ns23:Schep  a   foaf:Person .
 
 ns20:90cc35f9278c0431367ebfc0b1b1cea3
         a       ns19:Feature .
-
-[ a       ns13:before ] .
 
 ns14:3608666524bcd67f7f8ff3cbffac56f1-date-ran
         a       ns13:Instant .
@@ -1345,8 +1357,6 @@ virtrdf:DefaultQuadMap-S-col-S
 
 ns9:locationMap  a  owl:ObjectProperty .
 
-[ a       ns13:before ] .
-
 ns20:a88c2425234feb9b18a5986f98ad39c2
         a       ns19:Feature .
 
@@ -1367,17 +1377,11 @@ ns14:9ec5b10fc75f85595b4420f01c49294a-date-created
 rdfdf:zeropart-literal-nullable
         a       virtrdf:QuadMapFormat .
 
-[ a       ns24:creator ] .
-
-[ a       ns13:before ] .
-
 ns14:877ab2244c66d213edff659f6793868e-date-created
         a       ns13:Instant .
 
 ns14:f4cd600b893df012572f0371286b6680-date-ran
         a       ns13:Instant .
-
-[ a       ns13:before ] .
 
 owl:intersectionOf  a  rdf:Property .
 
@@ -1396,8 +1400,6 @@ ns14:4b9b694766cc080f1958074dcb1eb1cf-date-ran
 rdfdf:sql-nvarchar-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-[ a       ns13:before ] .
-
 ns20:f20c17179023283fe420577f1226b37a
         a       ns19:Feature .
 
@@ -1413,6 +1415,10 @@ ns14:8960148a24b54a396b297e41bda92705-date-created
 ns20:30845559a31aaeda518a96e1218c1f00
         a       ns19:Feature .
 
+[ a       ns13:before ] .
+
+[ a       ns13:before ] .
+
 rdfdf:sql-numeric-uri-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
@@ -1421,8 +1427,6 @@ ns20:6466566d27887881f07d986b4e6c8943
 
 ns20:d79f4d2b456fa9fca12907d81c7fcdba
         a       ns19:Feature .
-
-[ a       owl:Restriction ] .
 
 ns14:01dfc0e94f849e16358b634bb788948e-date-ran
         a       ns13:Instant .
@@ -1436,7 +1440,7 @@ ns21:d45b29ac29c312f9a4c19726d947dfd8
 ns14:fd9ce29fe8186514ff9c35ef1be03f4f-date-ran
         a       ns13:Instant .
 
-[ a       ns24:creator ] .
+[ a       ns13:before ] .
 
 owl:Restriction  a  rdfs:Class .
 
@@ -1447,20 +1451,14 @@ rdfdf:sql-integer  a  virtrdf:QuadMapFormat .
 ns20:e3f26c78bbd3d47fe19220190dbd52f2
         a       ns19:Feature .
 
-[ a       ns13:before ] .
-
 ns14:741d631449b2a554ad3945e399495f4c-date-created
         a       ns13:Instant .
 
 ns14:b88f3a51a0d085b110e5c01a3ece5817-date-ran
         a       ns13:Instant .
 
-[ a       ns13:before ] .
-
 rdfdf:sql-longvarchar-dt-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
-
-[ a       ns13:before ] .
 
 rdfdf:sql-integer-literal-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
@@ -1468,12 +1466,10 @@ rdfdf:sql-integer-literal-nullable-SuperFormats
 ns14:8a5e2d267eba0b11903fc56dae1b0176-date-created
         a       ns13:Instant .
 
+[ a       ns13:before ] .
+
 rdfdf:sinv-iid-nonblank
         a       virtrdf:QuadMapFormat .
-
-[ a       owl:Restriction ] .
-
-[ a       owl:Restriction ] .
 
 ns20:628098702dd5822fcf75e8b286bae71f
         a       ns19:Feature .
@@ -1516,10 +1512,14 @@ ns21:16f7aee19ab0adaf5ec220e3788a9232
 ns14:b83aeca0170dfbe7d0cddb26e9fa5a10-date-created
         a       ns13:Instant .
 
-ns20:ba199cd91b577748a3de878ee3557f7f
-        a       ns19:Feature .
+[ a       ns13:before ] .
 
 [ a       ns13:before ] .
+
+[ a       ns13:before ] .
+
+ns20:ba199cd91b577748a3de878ee3557f7f
+        a       ns19:Feature .
 
 ns9:officialName  a  owl:DatatypeProperty .
 
@@ -1546,12 +1546,12 @@ ns20:0bbca7d1466755bef2f9cc5c2bb1fb44
 ns20:5ba9f9f01151c2876b29dbd4c0e946a5
         a       ns19:Feature .
 
-[ a       ns13:before ] .
-
 ns20:bb14d56e2d95634ef28303c99ecda094
         a       ns19:Feature .
 
 rdfdf:sql-numeric  a  virtrdf:QuadMapFormat .
+
+[ a       ns13:before ] .
 
 ns14:76d678671defbadac01ee427dccc81d6-date-ran
         a       ns13:Instant .
@@ -1563,8 +1563,6 @@ ns20:dae391462824d9cc0f1bd4f753d93bed
         a       ns19:Feature .
 
 owl:AllDifferent  a  rdfs:Class .
-
-[ a       ns13:before ] .
 
 ns20:f32bac5c1c81ef79a6dfb0bcb5ad4ce0
         a       ns19:Feature .
@@ -1583,8 +1581,6 @@ rdfdf:default-SuperFormats
 rdfdf:sql-varchar-nullable
         a       virtrdf:QuadMapFormat .
 
-[ a       owl:Restriction ] .
-
 rdfdf:sql-longvarchar-dt-nullable
         a       virtrdf:QuadMapFormat .
 
@@ -1601,8 +1597,6 @@ ns14:4b1228832eefb7da3d1509e420c00088-date-created
         a       ns13:Instant .
 
 ns15:bernard-vatant  a  foaf:Person .
-
-[ a       ns13:before ] .
 
 ns14:0e3d8a92da48fbbe914fa6c41c464f3c-date-created
         a       ns13:Instant .
@@ -1653,10 +1647,6 @@ ns21:6e53dcf7ccf335db5851d841fe4ba06c
 ns14:740a40761089d2feaca271b518c744fb-date-created
         a       ns13:Instant .
 
-[ a       ns13:before ] .
-
-[ a       ns13:before ] .
-
 rdfdf:sql-numeric-uri-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
@@ -1669,6 +1659,8 @@ rdfdf:sql-numeric-uri-fn-SuperFormats
 ns14:4cf2223db9a9b069c35ede0c636e218a-date-ran
         a       ns13:Instant .
 
+[ a       ns13:before ] .
+
 ns14:6137d8097c28b39a13692685cb4b60aa-date-created
         a       ns13:Instant .
 
@@ -1676,8 +1668,6 @@ ns20:bca3d6c423c7658977b763b9c96cb177
         a       ns19:Feature .
 
 ns18:Document  a  owl:Class .
-
-[ a       ns13:before ] .
 
 ns20:ccf89145b72f0ac393eb087ae4d84000
         a       ns19:Feature .
@@ -1702,6 +1692,8 @@ rdfdf:sql-varchar-uri
 ns20:1fe27f3511bc3156aeca37dd7ab282e6
         a       ns19:Feature .
 
+[ a       owl:Restriction ] .
+
 ns20:e81fc09a22b7b4c8105b22d642b515f4
         a       ns19:Feature .
 
@@ -1715,8 +1707,6 @@ rdfdf:sql-integer-uri-nullable
 
 rdfdf:sql-longnvarchar-lang-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
-
-[ a       owl:Class ] .
 
 rdfdf:sql-nvarchar-literal-fn-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
@@ -1754,10 +1744,10 @@ ns14:6108f40de0d71684d27793f86751a2cc-date-created
 rdfdf:sql-integer-uri-fn-nullable
         a       virtrdf:QuadMapFormat .
 
+[ a       ns13:before ] .
+
 ns14:b2d94104bc9524dbf327553cf7422961-date-created
         a       ns13:Instant .
-
-[ a       ns13:before ] .
 
 ns14:b18c3bf9306c9281503d345843fbf4c8-date-created
         a       ns13:Instant .
@@ -1776,12 +1766,16 @@ rdfdf:sql-nvarchar-literal-fn-nullable-SuperFormats
 ns20:7a9fd1d3c2d3154889887d79ad5e6444
         a       ns19:Feature .
 
+[ a       ns13:before ] .
+
 rdfdf:default-iid-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
 owl:incompatibleWith  a  rdf:Property , owl:OntologyProperty .
 
 owl:DeprecatedClass  a  rdfs:Class .
+
+[ a       ns13:before ] .
 
 rdfdf:sql-nvarchar-lang-nullable
         a       virtrdf:QuadMapFormat .
@@ -1813,6 +1807,10 @@ ns9:U   a       ns9:Class .
 virtrdf:DefaultQuadMap-P-cols
         a       virtrdf:array-of-QuadMapColumn .
 
+[ a       ns13:before ] .
+
+[ a       ns13:before ] .
+
 ns21:0aa41a5a1d595c2ddb1ddf25d3ade097
         a       ns19:Feature .
 
@@ -1827,8 +1825,6 @@ ns14:f588c47d90f9a71b4ad52d1bb6cb04f0-date-created
 
 ns20:7eedb900d9b34fbff871167a79291b33
         a       ns19:Feature .
-
-[ a       ns13:before ] .
 
 ns21:0ace56159e312da569e67d61eb7e630e
         a       ns19:Feature .
@@ -1850,8 +1846,6 @@ ns14:ccf5b2369909dc6813e5f67b87554fc2-date-created
 
 ns20:fe954b72d63edc923a0536b53644500c
         a       ns19:Feature .
-
-[ a       ns13:before ] .
 
 rdfdf:sql-integer-literal-fn-nullable
         a       virtrdf:QuadMapFormat .
@@ -1883,14 +1877,20 @@ ns20:aaed28ee93a25bd95d60ebdc6bbd366d
 rdfdf:sql-longnvarchar-lang-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
+[ a       ns13:before ] .
+
 ns14:6fd9688c127f99647b0751d90c12d72a-date-created
         a       ns13:Instant .
+
+[ a       owl:Restriction ] .
 
 ns14:96d0c9f910dd6a4ef4ee901785027a4c-date-ran
         a       ns13:Instant .
 
 ns14:10757e14e01853362286ca2803ed8928-date-created
         a       ns13:Instant .
+
+[ a       owl:Restriction ] .
 
 rdfdf:sql-numeric-literal-nullable
         a       virtrdf:QuadMapFormat .
@@ -1900,6 +1900,8 @@ rdfdf:multipart-literal-fn-nullable-SuperFormats
 
 rdfdf:sql-varchar-lang-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
+
+[ a       owl:Restriction ] .
 
 ns21:d4f62403d2ce77a63e6bb34322fb2295
         a       ns19:Feature .
@@ -1913,10 +1915,10 @@ virtrdf:DefaultServiceMap-atables
 ns20:8f1b95de81ecc83b8604be143eba7db4
         a       ns19:Feature .
 
+[ a       ns13:before ] .
+
 ns14:24015498dc8d9e800c22190fdc20d6ab-date-ran
         a       ns13:Instant .
-
-[ a       owl:Restriction ] .
 
 rdfdf:sql-nvarchar-uri-fn-nullable
         a       virtrdf:QuadMapFormat .
@@ -1930,10 +1932,12 @@ ns20:e0efab21df26137344929702eaa5f798
 rdfdf:sql-longvarchar-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
+[ a       ns13:before ] .
+
 ns20:891832e495036c84b20ffbcbff451015
         a       ns19:Feature .
 
-[ a       owl:Restriction ] .
+[ a       ns13:before ] .
 
 ns14:6e4c6a4a37af51b1225142609171802d-date-ran
         a       ns13:Instant .
@@ -1970,6 +1974,8 @@ virtrdf:DefaultServiceMap-S-col-S
 ns14:99f286bcd268db23598607bcd7da3eb5-date-created
         a       ns13:Instant .
 
+[ a       ns13:before ] .
+
 ns14:86781b5ffbe42a36e1e0ce07648e68cf-date-ran
         a       ns13:Instant .
 
@@ -1994,6 +2000,8 @@ ns14:744486cca8ea0f345a3641debdd955e2-date-ran
 
 ns14:6bc30cf479ca46d06b66978ca1ca5ba1-date-created
         a       ns13:Instant .
+
+[ a       owl:Restriction ] .
 
 owl:distinctMembers  a  rdf:Property .
 
@@ -2041,8 +2049,6 @@ ns9:locatedIn  a  owl:ObjectProperty .
 
 [ a       ns13:before ] .
 
-[ a       ns13:before ] .
-
 ns14:651247d9677f154ef45c905f81c3ec57-date-ran
         a       ns13:Instant .
 
@@ -2052,16 +2058,22 @@ ns14:e0eb2dbff0a3f413b715448690deba2b-date-created
 ns14:edfbe7bc4494fadf118ed5a065d9b5dc-date-created
         a       ns13:Instant .
 
+[ a       ns24:creator ] .
+
 ns9:name  a     owl:DatatypeProperty .
 
 ns20:c5752751197fc8c5db1cbda13dcacfe7
         a       ns19:Feature .
+
+[ a       ns13:before ] .
 
 ns20:6d8a9bb978913c7783a61510c1de08bd
         a       ns19:Feature .
 
 ns14:b2bf785728dcb6ff2fbe82e040b46f9a-date-ran
         a       ns13:Instant .
+
+[ a       ns13:before ] .
 
 [ a       ns13:before ] .
 
@@ -2094,10 +2106,6 @@ ns20:7a3ca6dd75bb32734bf7022c59021380
 
 [ a       ns13:before ] .
 
-[ a       ns13:before ] .
-
-[ a       ns13:before ] .
-
 ns14:77c7b1eeaaacaf01abc57f9079a7eb37-date-ran
         a       ns13:Instant .
 
@@ -2106,6 +2114,8 @@ rdfdf:sql-nvarchar-nullable
 
 ns21:6dc434860388e305932adeb13f7e6546
         a       ns19:Feature .
+
+[ a       ns13:before ] .
 
 ns21:bc082aed5a091abbdfae848266cccc53
         a       ns19:Feature .
@@ -2117,10 +2127,6 @@ ns14:24015498dc8d9e800c22190fdc20d6ab-date-created
 
 ns20:3b16277eb1422619f4579a87d92f41a2
         a       ns19:Feature .
-
-[ a       ns13:before ] .
-
-[ a       ns13:before ] .
 
 ns14:6d53e1a415b9e0f2c25c5d3b4d9d3efb-date-created
         a       ns13:Instant .
@@ -2181,23 +2187,19 @@ ns14:e92624262b8bcece60149297f605d47c-date-created
 ns14:ba4925cc83501b869f99274c3df76b77-date-ran
         a       ns13:Instant .
 
-[ a       ns13:before ] .
-
-[ a       owl:Restriction ] .
-
 rdfdf:zeropart-literal-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
 ns14:35a97d4ce61565d5874493512cfea2de-date-ran
         a       ns13:Instant .
 
-[ a       ns13:before ] .
-
 rdfdf:sinv-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
 ns14:c194370269aa0c0e76777b9eebc06398-date-ran
         a       ns13:Instant .
+
+[ a       owl:Restriction ] .
 
 ns14:f85eb949ea31fe1a46979beff6d30f6b-date-ran
         a       ns13:Instant .
@@ -2213,8 +2215,6 @@ virtrdf:DefaultQuadMap-G-col-G
 
 ns14:456367b7d7c5619216f9f2ba20ce8968-date-ran
         a       ns13:Instant .
-
-[ a       ns13:before ] .
 
 ns21:bc2cf3c7f9d133071065f190d46c4d44
         a       ns19:Feature .
@@ -2246,16 +2246,18 @@ ns14:e641b18115969d4dfadb18d80d3c2d8b-date-ran
 rdfdf:sql-integer-literal
         a       virtrdf:QuadMapFormat .
 
+[ a       ns13:before ] .
+
 ns14:cea8579c0b3df2f54f178d10ec338c0c-date-created
         a       ns13:Instant .
+
+[ a       ns13:before ] .
 
 ns20:ca6ab3bc3d22972f4aec6ad8f04b6cd1
         a       ns19:Feature .
 
 ns14:d88a9a6a572375425ff0e06839bcd45c-date-ran
         a       ns13:Instant .
-
-[ a       ns13:before ] .
 
 ns20:184ca5d571f95690d27b007a98ad355a
         a       ns19:Feature .
@@ -2265,11 +2267,9 @@ ns20:ed55cdf1b19d39f6cdc29c4a5f8d7f51
 
 [ a       ns13:before ] .
 
-[ a       ns13:before ] .
-
-[ a       owl:Restriction ] .
-
 rdfdf:zeropart-uri  a  virtrdf:QuadMapFormat .
+
+[ a       ns13:before ] .
 
 ns14:b70d7613087bc4ba436b6c1edcdc9244-date-ran
         a       ns13:Instant .
@@ -2283,8 +2283,6 @@ ns14:ee8aa114a5ffa3a31732c64eaa076d98-date-created
 ns20:08d35fbe18e8e14d0b346096f56e5767
         a       ns19:Feature .
 
-[ a       owl:Restriction ] .
-
 ns20:f08921032060261b5c7ef1195fa1c5d6
         a       ns19:Feature .
 
@@ -2293,8 +2291,6 @@ rdfdf:multipart-literal-nullable-SuperFormats
 
 ns14:45a08aa710e3afbc33a8d0ac472077e8-date-ran
         a       ns13:Instant .
-
-[ a       ns13:before ] .
 
 ns14:0f02168fb215d30cd5fc26f92c8f5660-date-ran
         a       ns13:Instant .
@@ -2310,8 +2306,6 @@ ns14:7a6c6af184f7111a218cc17f0cac7e73-date-created
 
 rdfdf:sql-longnvarchar-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
-
-[ a       ns13:before ] .
 
 ns21:b5e69c5b4a856578827663e33609c121
         a       ns19:Feature .
@@ -2338,6 +2332,8 @@ owl:inverseOf  a  rdf:Property .
 
 ns11:Work  a    owl:Class .
 
+[ a       owl:Restriction ] .
+
 [ a       ns13:before ] .
 
 [ a       ns13:before ] .
@@ -2347,8 +2343,6 @@ owl:backwardCompatibleWith
 
 ns14:d2d38537b5de57a891f28dc326c819ce-date-created
         a       ns13:Instant .
-
-[ a       ns13:before ] .
 
 ns14:9ec5b10fc75f85595b4420f01c49294a-date-ran
         a       ns13:Instant .
@@ -2360,6 +2354,8 @@ ns3:sparql  a   sd:Service .
 
 rdfdf:zeropart-literal-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
+
+[ a       ns13:before ] .
 
 ns9:A   a       ns9:Class .
 
@@ -2391,6 +2387,8 @@ rdfdf:sql-longnvarchar-lang-nullable
 ns14:c6a74a9e5a6463ddf2e8c71f42ba9e29-date-ran
         a       ns13:Instant .
 
+[ a       ns13:before ] .
+
 ns14:5a703dff355d8eb7d54eb961004ef230-date-created
         a       ns13:Instant .
 
@@ -2405,17 +2403,11 @@ ns20:f6949cf33e1b7045d90fdf423ff4e9cf
 rdfdf:sinv-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-[ a       ns13:before ] .
-
 ns14:4cf2223db9a9b069c35ede0c636e218a-date-created
         a       ns13:Instant .
 
 ns14:e466854757c164aee2b4639720a0523c-date-ran
         a       ns13:Instant .
-
-[ a       ns13:before ] .
-
-[ a       ns13:before ] .
 
 ns14:110d6f0404025ace583e7f2782462128-date-ran
         a       ns13:Instant .
@@ -2447,10 +2439,10 @@ ns9:WikipediaArticle  a  owl:Class .
 ns21:3244a0123d2a2bfeb17071421cce5aef
         a       ns19:Feature .
 
-[ a       ns13:before ] .
-
 virtrdf:DefaultServiceMap-P-col-P
         a       virtrdf:QuadMapColumn .
+
+[ a       ns13:before ] .
 
 [ a       ns13:before ] .
 
@@ -2486,24 +2478,24 @@ virtrdf:DefaultServiceMap-G
 ns14:a0cc480d6844c05df2c270740112e3b0-date-ran
         a       ns13:Instant .
 
-[ a       ns13:before ] .
-
 rdfdf:sql-numeric-uri-fn-nullable
         a       virtrdf:QuadMapFormat .
 
 ns14:a48d2f547289e6986ef66a8a1c3a4613-date-ran
         a       ns13:Instant .
 
+[ a       ns13:before ] .
+
 rdfdf:sql-varchar-lang-nullable
         a       virtrdf:QuadMapFormat .
+
+[ a       owl:Restriction ] .
 
 ns14:2c5b90a4dec1f816aacefe092ee7c554-date-ran
         a       ns13:Instant .
 
 ns21:61a65c7c0720524d2c96fb3d00639790
         a       ns19:Feature .
-
-[ a       ns13:before ] .
 
 [ a       ns13:before ] .
 
@@ -2542,6 +2534,8 @@ rdfdf:sql-integer-uri-fn-SuperFormats
 ns14:414bcb301b8a8705e8db07d793e32222-date-created
         a       ns13:Instant .
 
+[ a       owl:Restriction ] .
+
 ns14:9c436774e8bfd428cc8f2ac3bf14d60e-date-ran
         a       ns13:Instant .
 
@@ -2557,11 +2551,15 @@ virtrdf:DefaultServiceStorage-UserMaps
 rdfdf:sql-nvarchar-uri-fn-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
+[ a       owl:Class ] .
+
 ns20:fd1dc79a50293eab3f7e516014793033
         a       ns19:Feature .
 
 ns14:84e2e50161a83de7a2a01861043c189f-date-ran
         a       ns13:Instant .
+
+[ a       ns13:before ] .
 
 ns20:55a1e73e61395d7692eba5a04b42cd44
         a       ns19:Feature .
@@ -2578,8 +2576,6 @@ rdfdf:sql-varchar-uri-fn
 ns20:bde2d1bac44768b0ca2858c855da960d
         a       ns19:Feature .
 
-[ a       owl:Restriction ] .
-
 ns14:92a8a6f0daead853ed6e2e7ca748d7c9-date-ran
         a       ns13:Instant .
 
@@ -2588,6 +2584,8 @@ ns21:6c05df80fe18bdc0b584fc004281ecb3
 
 ns14:f4dcbfc1947eda8672746d556321cfef-date-created
         a       ns13:Instant .
+
+[ a       ns13:before ] .
 
 [ a       ns13:before ] .
 
@@ -2609,7 +2607,7 @@ rdfdf:sinv-iid-SuperFormats
 rdfdf:sql-nvarchar-dt-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
-[ a       owl:Restriction ] .
+[ a       ns13:before ] .
 
 ns20:abeb4b55717a8680dfc189fd878e1e13
         a       ns19:Feature .
@@ -2633,6 +2631,10 @@ ns21:48c0b0160b8ca9e29ee4cf19b8b6e191
 
 ns21:fdeef7f0439135c5d64f5c3a43d570dc
         a       ns19:Feature .
+
+[ a       ns13:before ] .
+
+[ a       ns13:before ] .
 
 ns20:57086e5106ae7b68489aeb530dfea473
         a       ns19:Feature .
@@ -2680,6 +2682,8 @@ owl:sameAs  a   rdf:Property .
 rdfdf:multipart-uri-nullable-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
 
+[ a       ns13:before ] .
+
 ns14:d510894b1cd555ae4e93e2c2d2bf6111-date-ran
         a       ns13:Instant .
 
@@ -2701,8 +2705,6 @@ virtrdf:DefaultServiceMap-S
 
 rdfdf:zeropart-literal
         a       virtrdf:QuadMapFormat .
-
-[ a       ns13:before ] .
 
 rdfdf:multipart-literal-SuperFormats
         a       virtrdf:array-of-QuadMapFormat .
@@ -2730,8 +2732,6 @@ ns20:6649d390b2c91c0716509fdfba1e7b02
 virtrdf:SyncToQuads-UserMaps
         a       virtrdf:array-of-QuadMap .
 
-[ a       ns13:before ] .
-
 ns9:H   a       ns9:Class .
 
 virtrdf:DefaultServiceMap-G-cols
@@ -2752,8 +2752,6 @@ ns20:2ef2f3707ae9d284b171ecbc95ca80bf
 ns20:776582fb1764fca9206943a2398bd963
         a       ns19:Feature .
 
-[ a       ns13:before ] .
-
 ns20:18f952d73c51e4055e0be0c2769dfe54
         a       ns19:Feature .
 
@@ -2762,6 +2760,8 @@ rdfdf:sql-longvarchar-dt-nullable-SuperFormats
 
 ns20:e4ac2449134fe9445d0f83bab71d6011
         a       ns19:Feature .
+
+[ a       ns13:before ] .
 
 ns20:70624935037e71a2571cef599d0023ea
         a       ns19:Feature .

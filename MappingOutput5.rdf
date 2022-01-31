@@ -1,0 +1,286 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="https://w3id.org/deer/">
+  <rdf:Description rdf:about="https://w3id.org/deer/Match_5">
+    <j.0:found>
+      <rdf:Statement>
+        <j.0:ObjectEndPoint rdf:resource="http://dbpedia.org/sparql"/>
+        <j.0:SubjectEndPoint rdf:resource="http://rdf.muninn-project.org/sparql"/>
+        <j.0:confidenceValue>0.4</j.0:confidenceValue>
+        <rdf:object rdf:resource="http://www.openlinksw.com/schemas/virtrdf#QuadMapColumn"/>
+        <rdf:predicate rdf:resource="https://w3id.org/deer/matchesWith"/>
+        <rdf:subject rdf:resource="http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn"/>
+      </rdf:Statement>
+    </j.0:found>
+    <j.0:found>
+      <rdf:Statement>
+        <j.0:ObjectEndPoint rdf:resource="http://dbpedia.org/sparql"/>
+        <j.0:SubjectEndPoint rdf:resource="http://rdf.muninn-project.org/sparql"/>
+        <j.0:confidenceValue>1.0</j.0:confidenceValue>
+        <rdf:object rdf:resource="http://www.openlinksw.com/schemas/virtrdf#QuadMapValue"/>
+        <rdf:predicate rdf:resource="https://w3id.org/deer/matchesWith"/>
+        <rdf:subject rdf:resource="http://www.openlinksw.com/schemas/virtrdf#QuadMap"/>
+      </rdf:Statement>
+    </j.0:found>
+    <j.0:found>
+      <rdf:Statement>
+        <j.0:ObjectEndPoint rdf:resource="http://dbpedia.org/sparql"/>
+        <j.0:SubjectEndPoint rdf:resource="http://rdf.muninn-project.org/sparql"/>
+        <j.0:confidenceValue>0.4</j.0:confidenceValue>
+        <rdf:object rdf:resource="http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn"/>
+        <rdf:predicate rdf:resource="https://w3id.org/deer/matchesWith"/>
+        <rdf:subject rdf:resource="http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable"/>
+      </rdf:Statement>
+    </j.0:found>
+    <j.0:found>
+      <rdf:Statement>
+        <j.0:ObjectEndPoint rdf:resource="http://dbpedia.org/sparql"/>
+        <j.0:SubjectEndPoint rdf:resource="http://rdf.muninn-project.org/sparql"/>
+        <j.0:confidenceValue>1.0</j.0:confidenceValue>
+        <rdf:object rdf:resource="http://www.openlinksw.com/schemas/virtrdf#QuadMap"/>
+        <rdf:predicate rdf:resource="https://w3id.org/deer/matchesWith"/>
+        <rdf:subject rdf:resource="http://www.openlinksw.com/schemas/virtrdf#QuadMapValue"/>
+      </rdf:Statement>
+    </j.0:found>
+    <j.0:found>
+      <rdf:Statement>
+        <j.0:ObjectEndPoint rdf:resource="http://dbpedia.org/sparql"/>
+        <j.0:SubjectEndPoint rdf:resource="http://rdf.muninn-project.org/sparql"/>
+        <j.0:confidenceValue>0.4</j.0:confidenceValue>
+        <rdf:object rdf:resource="http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat"/>
+        <rdf:predicate rdf:resource="https://w3id.org/deer/matchesWith"/>
+        <rdf:subject rdf:resource="http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat"/>
+      </rdf:Statement>
+    </j.0:found>
+    <j.0:found>
+      <rdf:Statement>
+        <j.0:ObjectEndPoint rdf:resource="http://dbpedia.org/sparql"/>
+        <j.0:SubjectEndPoint rdf:resource="http://rdf.muninn-project.org/sparql"/>
+        <j.0:confidenceValue>0.4</j.0:confidenceValue>
+        <rdf:object rdf:resource="http://www.openlinksw.com/schemas/virtrdf#QuadMap"/>
+        <rdf:predicate rdf:resource="https://w3id.org/deer/matchesWith"/>
+        <rdf:subject rdf:resource="http://www.openlinksw.com/schemas/virtrdf#QuadMapATable"/>
+      </rdf:Statement>
+    </j.0:found>
+    <j.0:found>
+      <rdf:Statement>
+        <j.0:ObjectEndPoint rdf:resource="http://dbpedia.org/sparql"/>
+        <j.0:SubjectEndPoint rdf:resource="http://rdf.muninn-project.org/sparql"/>
+        <j.0:confidenceValue>0.4</j.0:confidenceValue>
+        <rdf:object rdf:resource="http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable"/>
+        <rdf:predicate rdf:resource="https://w3id.org/deer/matchesWith"/>
+        <rdf:subject rdf:resource="http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat"/>
+      </rdf:Statement>
+    </j.0:found>
+    <j.0:found>
+      <rdf:Statement>
+        <j.0:ObjectEndPoint rdf:resource="http://dbpedia.org/sparql"/>
+        <j.0:SubjectEndPoint rdf:resource="http://rdf.muninn-project.org/sparql"/>
+        <j.0:confidenceValue>0.4</j.0:confidenceValue>
+        <rdf:object rdf:resource="http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat"/>
+        <rdf:predicate rdf:resource="https://w3id.org/deer/matchesWith"/>
+        <rdf:subject rdf:resource="http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn"/>
+      </rdf:Statement>
+    </j.0:found>
+    <j.0:found>
+      <rdf:Statement>
+        <j.0:ObjectEndPoint rdf:resource="http://dbpedia.org/sparql"/>
+        <j.0:SubjectEndPoint rdf:resource="http://rdf.muninn-project.org/sparql"/>
+        <j.0:confidenceValue>0.4</j.0:confidenceValue>
+        <rdf:object rdf:resource="http://www.openlinksw.com/schemas/virtrdf#QuadMapValue"/>
+        <rdf:predicate rdf:resource="https://w3id.org/deer/matchesWith"/>
+        <rdf:subject rdf:resource="https://www.geonames.org/ontology#Map"/>
+      </rdf:Statement>
+    </j.0:found>
+    <j.0:found>
+      <rdf:Statement>
+        <j.0:ObjectEndPoint rdf:resource="http://dbpedia.org/sparql"/>
+        <j.0:SubjectEndPoint rdf:resource="http://rdf.muninn-project.org/sparql"/>
+        <j.0:confidenceValue>0.4</j.0:confidenceValue>
+        <rdf:object rdf:resource="http://www.openlinksw.com/schemas/virtrdf#QuadMapATable"/>
+        <rdf:predicate rdf:resource="https://w3id.org/deer/matchesWith"/>
+        <rdf:subject rdf:resource="http://www.openlinksw.com/schemas/virtrdf#QuadMap"/>
+      </rdf:Statement>
+    </j.0:found>
+    <j.0:found>
+      <rdf:Statement>
+        <j.0:ObjectEndPoint rdf:resource="http://dbpedia.org/sparql"/>
+        <j.0:SubjectEndPoint rdf:resource="http://rdf.muninn-project.org/sparql"/>
+        <j.0:confidenceValue>0.4</j.0:confidenceValue>
+        <rdf:object rdf:resource="http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMap"/>
+        <rdf:predicate rdf:resource="https://w3id.org/deer/matchesWith"/>
+        <rdf:subject rdf:resource="http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable"/>
+      </rdf:Statement>
+    </j.0:found>
+    <j.0:found>
+      <rdf:Statement>
+        <j.0:ObjectEndPoint rdf:resource="http://dbpedia.org/sparql"/>
+        <j.0:SubjectEndPoint rdf:resource="http://rdf.muninn-project.org/sparql"/>
+        <j.0:confidenceValue>0.4</j.0:confidenceValue>
+        <rdf:object rdf:resource="http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMap"/>
+        <rdf:predicate rdf:resource="https://w3id.org/deer/matchesWith"/>
+        <rdf:subject rdf:resource="http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat"/>
+      </rdf:Statement>
+    </j.0:found>
+    <j.0:found>
+      <rdf:Statement>
+        <j.0:ObjectEndPoint rdf:resource="http://dbpedia.org/sparql"/>
+        <j.0:SubjectEndPoint rdf:resource="http://rdf.muninn-project.org/sparql"/>
+        <j.0:confidenceValue>0.4</j.0:confidenceValue>
+        <rdf:object rdf:resource="http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat"/>
+        <rdf:predicate rdf:resource="https://w3id.org/deer/matchesWith"/>
+        <rdf:subject rdf:resource="http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat"/>
+      </rdf:Statement>
+    </j.0:found>
+    <j.0:found>
+      <rdf:Statement>
+        <j.0:ObjectEndPoint rdf:resource="http://dbpedia.org/sparql"/>
+        <j.0:SubjectEndPoint rdf:resource="http://rdf.muninn-project.org/sparql"/>
+        <j.0:confidenceValue>0.4</j.0:confidenceValue>
+        <rdf:object rdf:resource="http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn"/>
+        <rdf:predicate rdf:resource="https://w3id.org/deer/matchesWith"/>
+        <rdf:subject rdf:resource="http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMap"/>
+      </rdf:Statement>
+    </j.0:found>
+    <j.0:found>
+      <rdf:Statement>
+        <j.0:ObjectEndPoint rdf:resource="http://dbpedia.org/sparql"/>
+        <j.0:SubjectEndPoint rdf:resource="http://rdf.muninn-project.org/sparql"/>
+        <j.0:confidenceValue>0.4</j.0:confidenceValue>
+        <rdf:object rdf:resource="http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMap"/>
+        <rdf:predicate rdf:resource="https://w3id.org/deer/matchesWith"/>
+        <rdf:subject rdf:resource="http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn"/>
+      </rdf:Statement>
+    </j.0:found>
+    <j.0:found>
+      <rdf:Statement>
+        <j.0:ObjectEndPoint rdf:resource="http://dbpedia.org/sparql"/>
+        <j.0:SubjectEndPoint rdf:resource="http://rdf.muninn-project.org/sparql"/>
+        <j.0:confidenceValue>0.4</j.0:confidenceValue>
+        <rdf:object rdf:resource="http://www.openlinksw.com/schemas/virtrdf#QuadMap"/>
+        <rdf:predicate rdf:resource="https://w3id.org/deer/matchesWith"/>
+        <rdf:subject rdf:resource="http://www.openlinksw.com/schemas/virtrdf#QuadStorage"/>
+      </rdf:Statement>
+    </j.0:found>
+    <j.0:found>
+      <rdf:Statement>
+        <j.0:ObjectEndPoint rdf:resource="http://dbpedia.org/sparql"/>
+        <j.0:SubjectEndPoint rdf:resource="http://rdf.muninn-project.org/sparql"/>
+        <j.0:confidenceValue>0.4</j.0:confidenceValue>
+        <rdf:object rdf:resource="http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat"/>
+        <rdf:predicate rdf:resource="https://w3id.org/deer/matchesWith"/>
+        <rdf:subject rdf:resource="http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable"/>
+      </rdf:Statement>
+    </j.0:found>
+    <j.0:found>
+      <rdf:Statement>
+        <j.0:ObjectEndPoint rdf:resource="http://dbpedia.org/sparql"/>
+        <j.0:SubjectEndPoint rdf:resource="http://rdf.muninn-project.org/sparql"/>
+        <j.0:confidenceValue>0.4</j.0:confidenceValue>
+        <rdf:object rdf:resource="http://www.openlinksw.com/schemas/virtrdf#QuadMapATable"/>
+        <rdf:predicate rdf:resource="https://w3id.org/deer/matchesWith"/>
+        <rdf:subject rdf:resource="http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable"/>
+      </rdf:Statement>
+    </j.0:found>
+    <j.0:found>
+      <rdf:Statement>
+        <j.0:ObjectEndPoint rdf:resource="http://dbpedia.org/sparql"/>
+        <j.0:SubjectEndPoint rdf:resource="http://rdf.muninn-project.org/sparql"/>
+        <j.0:confidenceValue>0.4</j.0:confidenceValue>
+        <rdf:object rdf:resource="http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn"/>
+        <rdf:predicate rdf:resource="https://w3id.org/deer/matchesWith"/>
+        <rdf:subject rdf:resource="http://www.openlinksw.com/schemas/virtrdf#QuadMapColumn"/>
+      </rdf:Statement>
+    </j.0:found>
+    <j.0:found>
+      <rdf:Statement>
+        <j.0:ObjectEndPoint rdf:resource="http://dbpedia.org/sparql"/>
+        <j.0:SubjectEndPoint rdf:resource="http://rdf.muninn-project.org/sparql"/>
+        <j.0:confidenceValue>0.4</j.0:confidenceValue>
+        <rdf:object rdf:resource="http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable"/>
+        <rdf:predicate rdf:resource="https://w3id.org/deer/matchesWith"/>
+        <rdf:subject rdf:resource="http://www.openlinksw.com/schemas/virtrdf#QuadMapATable"/>
+      </rdf:Statement>
+    </j.0:found>
+    <j.0:found>
+      <rdf:Statement>
+        <j.0:ObjectEndPoint rdf:resource="http://dbpedia.org/sparql"/>
+        <j.0:SubjectEndPoint rdf:resource="http://rdf.muninn-project.org/sparql"/>
+        <j.0:confidenceValue>0.4</j.0:confidenceValue>
+        <rdf:object rdf:resource="http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable"/>
+        <rdf:predicate rdf:resource="https://w3id.org/deer/matchesWith"/>
+        <rdf:subject rdf:resource="http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMap"/>
+      </rdf:Statement>
+    </j.0:found>
+    <j.0:found>
+      <rdf:Statement>
+        <j.0:ObjectEndPoint rdf:resource="http://dbpedia.org/sparql"/>
+        <j.0:SubjectEndPoint rdf:resource="http://rdf.muninn-project.org/sparql"/>
+        <j.0:confidenceValue>0.4</j.0:confidenceValue>
+        <rdf:object rdf:resource="http://www.openlinksw.com/schemas/virtrdf#QuadStorage"/>
+        <rdf:predicate rdf:resource="https://w3id.org/deer/matchesWith"/>
+        <rdf:subject rdf:resource="http://www.openlinksw.com/schemas/virtrdf#QuadMapValue"/>
+      </rdf:Statement>
+    </j.0:found>
+    <j.0:found>
+      <rdf:Statement>
+        <j.0:ObjectEndPoint rdf:resource="http://dbpedia.org/sparql"/>
+        <j.0:SubjectEndPoint rdf:resource="http://rdf.muninn-project.org/sparql"/>
+        <j.0:confidenceValue>0.4</j.0:confidenceValue>
+        <rdf:object rdf:resource="http://www.openlinksw.com/schemas/virtrdf#QuadMap"/>
+        <rdf:predicate rdf:resource="https://w3id.org/deer/matchesWith"/>
+        <rdf:subject rdf:resource="https://www.geonames.org/ontology#Map"/>
+      </rdf:Statement>
+    </j.0:found>
+    <j.0:found>
+      <rdf:Statement>
+        <j.0:ObjectEndPoint rdf:resource="http://dbpedia.org/sparql"/>
+        <j.0:SubjectEndPoint rdf:resource="http://rdf.muninn-project.org/sparql"/>
+        <j.0:confidenceValue>0.4</j.0:confidenceValue>
+        <rdf:object rdf:resource="http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn"/>
+        <rdf:predicate rdf:resource="https://w3id.org/deer/matchesWith"/>
+        <rdf:subject rdf:resource="http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat"/>
+      </rdf:Statement>
+    </j.0:found>
+    <j.0:found>
+      <rdf:Statement>
+        <j.0:ObjectEndPoint rdf:resource="http://dbpedia.org/sparql"/>
+        <j.0:SubjectEndPoint rdf:resource="http://rdf.muninn-project.org/sparql"/>
+        <j.0:confidenceValue>0.4</j.0:confidenceValue>
+        <rdf:object rdf:resource="http://www.openlinksw.com/schemas/virtrdf#QuadMapValue"/>
+        <rdf:predicate rdf:resource="https://w3id.org/deer/matchesWith"/>
+        <rdf:subject rdf:resource="http://www.openlinksw.com/schemas/virtrdf#QuadStorage"/>
+      </rdf:Statement>
+    </j.0:found>
+    <j.0:found>
+      <rdf:Statement>
+        <j.0:ObjectEndPoint rdf:resource="http://dbpedia.org/sparql"/>
+        <j.0:SubjectEndPoint rdf:resource="http://rdf.muninn-project.org/sparql"/>
+        <j.0:confidenceValue>0.4</j.0:confidenceValue>
+        <rdf:object rdf:resource="http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat"/>
+        <rdf:predicate rdf:resource="https://w3id.org/deer/matchesWith"/>
+        <rdf:subject rdf:resource="http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMap"/>
+      </rdf:Statement>
+    </j.0:found>
+    <j.0:found>
+      <rdf:Statement>
+        <j.0:ObjectEndPoint rdf:resource="http://dbpedia.org/sparql"/>
+        <j.0:SubjectEndPoint rdf:resource="http://rdf.muninn-project.org/sparql"/>
+        <j.0:confidenceValue>0.4</j.0:confidenceValue>
+        <rdf:object rdf:resource="http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable"/>
+        <rdf:predicate rdf:resource="https://w3id.org/deer/matchesWith"/>
+        <rdf:subject rdf:resource="http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn"/>
+      </rdf:Statement>
+    </j.0:found>
+    <j.0:found>
+      <rdf:Statement>
+        <j.0:ObjectEndPoint rdf:resource="http://dbpedia.org/sparql"/>
+        <j.0:SubjectEndPoint rdf:resource="http://rdf.muninn-project.org/sparql"/>
+        <j.0:confidenceValue>0.4</j.0:confidenceValue>
+        <rdf:object rdf:resource="http://www.openlinksw.com/schemas/virtrdf#QuadStorage"/>
+        <rdf:predicate rdf:resource="https://w3id.org/deer/matchesWith"/>
+        <rdf:subject rdf:resource="http://www.openlinksw.com/schemas/virtrdf#QuadMap"/>
+      </rdf:Statement>
+    </j.0:found>
+  </rdf:Description>
+</rdf:RDF>

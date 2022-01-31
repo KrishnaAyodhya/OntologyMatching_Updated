@@ -1529,14 +1529,14 @@
         <http://purl.org/dc/terms/creator>
                 <http://utep.eagle-i.net/i/00000134-57a6-3f8d-bfc0-fe9780000000> .
 
-<http://xmlns.com/foaf/0.1/Person>
-        rdfs:subClassOf  owl:Thing .
-
 <http://eagle-i.org/ont/repo/1.0/actionParameter>
         a             owl:DatatypeProperty ;
         rdfs:comment  "Transition-specific parameter to give action method" ;
         rdfs:domain   <http://eagle-i.org/ont/repo/1.0/WorkflowTransition> ;
         rdfs:label    "action parameter" .
+
+<http://xmlns.com/foaf/0.1/Person>
+        rdfs:subClassOf  owl:Thing .
 
 <http://utep.eagle-i.net/i/00000136-0890-a3fe-f687-036180000000>
         a           <http://xmlns.com/foaf/0.1/Person> ;

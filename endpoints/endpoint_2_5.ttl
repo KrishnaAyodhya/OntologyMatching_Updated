@@ -1,0 +1,2302 @@
+@prefix ns6:   <http://linkedopencommerce.com/schemas/icecat/v1/> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix rdfdf: <http://www.openlinksw.com/virtrdf-data-formats#> .
+@prefix dbp:   <http://dbpedia.org/property/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+dbp:designatedOther2Date
+        a       rdf:Property .
+
+dbp:label12Size  a  rdf:Property .
+
+rdfdf:sql-nvarchar-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+dbp:died  a     rdf:Property .
+
+dbp:opinionannouncement
+        a       rdf:Property .
+
+owl:allValuesFrom  a  rdf:Property .
+
+dbp:announcedDate  a  rdf:Property .
+
+owl:disjointWith  a  rdf:Property .
+
+dbp:flagImage  a  rdf:Property .
+
+dbp:construction  a  rdf:Property .
+
+dbp:cpu  a      rdf:Property .
+
+dbo:fuelCapacity  a  owl:FunctionalProperty .
+
+virtrdf:DefaultQuadMap-O
+        a       virtrdf:QuadMapValue .
+
+dbp:1y  a       rdf:Property .
+
+rdfdf:sql-nvarchar-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:map2Image  a  rdf:Property .
+
+rdfdf:sql-nvarchar-fixeddt-x-stub-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-doubleprecision-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbp:bronzeNed  a  rdf:Property .
+
+owl:equivalentProperty
+        a       rdf:Property .
+
+dbp:lon2Min  a  rdf:Property .
+
+virtrdf:DefaultServiceMap-G-col-G
+        a       virtrdf:QuadMapColumn .
+
+rdfdf:sql-varchar-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:4data  a    rdf:Property .
+
+rdfdf:sql-datetime-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:designatedOther2Color
+        a       rdf:Property .
+
+dbp:chamber2Leader5Type
+        a       rdf:Property .
+
+dbo:installedCapacity
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-date-literal
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sinv-iid-nonblank-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbp:designatedOther2Number
+        a       rdf:Property .
+
+rdfdf:sql-nvarchar-dt
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:DefaultQuadStorage
+        a       virtrdf:QuadStorage .
+
+dbp:mixtureRatio  a  rdf:Property .
+
+dbp:labelSized  a  rdf:Property .
+
+dbp:headerCaption  a  rdf:Property .
+
+dbp:extratropical  a  rdf:Property .
+
+dbp:aircraftGeneral  a  rdf:Property .
+
+rdfdf:sql-varchar-fixedlang-x-any-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-varchar-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:chairperson  a  rdf:Property .
+
+rdfdf:sql-numeric-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:singlepart-literal-fn-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:conflict  a  rdf:Property .
+
+dbp:camerlengo  a  rdf:Property .
+
+dbp:affiliation1Title
+        a       rdf:Property .
+
+dbp:homeState  a  rdf:Property .
+
+dbp:effectsType  a  rdf:Property .
+
+dbp:localTimeC  a  rdf:Property .
+
+dbp:editors  a  rdf:Property .
+
+rdfdf:zeropart-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbo:latestReleaseDate
+        a       owl:FunctionalProperty .
+
+dbp:aliases  a  rdf:Property .
+
+dbp:magnitudeD  a  rdf:Property .
+
+dbp:began  a    rdf:Property .
+
+dbp:14th  a     rdf:Property .
+
+dbp:combatant  a  rdf:Property .
+
+dbp:lline  a    rdf:Property .
+
+rdfdf:sql-longvarchar-dt
+        a       virtrdf:QuadMapFormat .
+
+dbp:mapLabel  a  rdf:Property .
+
+rdfdf:sql-longvarchar
+        a       virtrdf:QuadMapFormat .
+
+dbp:spanM  a    rdf:Property .
+
+dbp:icd  a      rdf:Property .
+
+dbp:firstYear  a  rdf:Property .
+
+rdfdf:sinv-nullable  a  virtrdf:QuadMapFormat .
+
+dbp:dean  a     rdf:Property .
+
+dbp:liststyle  a  rdf:Property .
+
+dbp:label13Size  a  rdf:Property .
+
+rdfdf:sql-date-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbp:designatedOther1Abbr
+        a       rdf:Property .
+
+dbp:asOf  a     rdf:Property .
+
+dbp:coaRes  a   rdf:Property .
+
+dbp:evFootnote  a  rdf:Property .
+
+dbp:currentCommanderLabel
+        a       rdf:Property .
+
+dbp:heaterVoltage  a  rdf:Property .
+
+rdfdf:sql-date-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:holiday  a  rdf:Property .
+
+rdfdf:sql-integer-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sinv-iid-nonblank-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-numeric-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+dbp:campaignbox  a  rdf:Property .
+
+virtrdf:SyncToQuads  a  virtrdf:QuadStorage .
+
+rdfdf:default-iid  a  virtrdf:QuadMapFormat .
+
+dbp:hurricaneSeason  a  rdf:Property .
+
+dbp:candidates  a  rdf:Property .
+
+owl:equivalentClass  a  rdf:Property .
+
+dbp:barwidth  a  rdf:Property .
+
+rdfdf:sql-longnvarchar-fixedlang-x-any
+        a       virtrdf:QuadMapFormat .
+
+dbp:designation2Type  a  rdf:Property .
+
+dbp:firstDate  a  rdf:Property .
+
+rdfdf:sql-longvarbinary-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:complete  a  rdf:Property .
+
+dbp:busRoutes  a  rdf:Property .
+
+dbp:loser  a    rdf:Property .
+
+rdfdf:sql-nvarchar-lang
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:zeropart-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbp:chamber2Leader6Type
+        a       rdf:Property .
+
+rdfdf:sql-longnvarchar-lang
+        a       virtrdf:QuadMapFormat .
+
+dbp:3loc  a     rdf:Property .
+
+dbo:averageAnnualGeneration
+        a       owl:FunctionalProperty .
+
+rdfdf:sql-numeric-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultServiceMap-ft-conds
+        a       virtrdf:array-of-string .
+
+dbp:emptyWeightKg  a  rdf:Property .
+
+dbp:imprints  a  rdf:Property .
+
+dbp:length2Mi  a  rdf:Property .
+
+dbp:hidepartycol  a  rdf:Property .
+
+dbp:nextLine  a  rdf:Property .
+
+dbp:localDateC  a  rdf:Property .
+
+dbp:fantasy  a  rdf:Property .
+
+rdfdf:sql-longvarbinary
+        a       virtrdf:QuadMapFormat .
+
+dbp:fleet  a    rdf:Property .
+
+dbp:books  a    rdf:Property .
+
+dbp:nextCensus  a  rdf:Property .
+
+dbp:diseasesdb  a  rdf:Property .
+
+rdfdf:singlepart-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:DefaultServiceMap-ft
+        a       virtrdf:QuadMapFText .
+
+rdfdf:sql-varchar-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:default-iid-blank-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-varchar-dt-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-integer-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:fastUnit  a  rdf:Property .
+
+virtrdf:TmpQuadMap-atables
+        a       virtrdf:array-of-QuadMapATable .
+
+rdfdf:sql-datetime-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:incumbent  a  rdf:Property .
+
+rdfdf:sql-varchar-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-date-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:meshid  a   rdf:Property .
+
+dbp:lengthM  a  rdf:Property .
+
+dbp:google  a   rdf:Property .
+
+dbp:2a  a       rdf:Property .
+
+rdfdf:sql-datetime-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+dbp:nrhp  a     rdf:Property .
+
+dbp:compact  a  rdf:Property .
+
+dbp:milesFirst  a  rdf:Property .
+
+rdfdf:sql-time  a  virtrdf:QuadMapFormat .
+
+rdfdf:sql-longnvarchar-dt-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:default-iid-blank
+        a       virtrdf:QuadMapFormat .
+
+dbp:backcolor  a  rdf:Property .
+
+rdfdf:sql-time-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-time-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:homestate  a  rdf:Property .
+
+dbp:maxVoltage  a  rdf:Property .
+
+virtrdf:TmpQuadMap-O  a  virtrdf:QuadMapValue .
+
+virtrdf:TmpQuadMap-S-col-S
+        a       virtrdf:QuadMapColumn .
+
+dbo:co2Emission  a  owl:FunctionalProperty .
+
+dbp:fuelType  a  rdf:Property .
+
+rdfdf:zeropart-uri-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:mapDotLabelPosition
+        a       rdf:Property .
+
+dbp:fault  a    rdf:Property .
+
+dbp:ended  a    rdf:Property .
+
+rdfdf:sql-varchar-fixedlang-x-any-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:2blank  a   rdf:Property .
+
+dbp:cycloneseason  a  rdf:Property .
+
+dbp:dateStart  a  rdf:Property .
+
+dbp:editorInChief  a  rdf:Property .
+
+rdfdf:sql-numeric-literal
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:DefaultQuadMap-S-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+dbo:weight  a   owl:FunctionalProperty .
+
+rdfdf:sql-longvarchar-fixeddt-x-stub-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbp:ohl  a      rdf:Property .
+
+dbp:gs  a       rdf:Property .
+
+dbp:footnote  a  rdf:Property .
+
+dbp:3pp  a      rdf:Property .
+
+dbp:heaterCurrent  a  rdf:Property .
+
+dbp:governor  a  rdf:Property .
+
+virtrdf:DefaultServiceMap-geo
+        a       virtrdf:QuadMapFText .
+
+dbp:commanderInChief  a  rdf:Property .
+
+dbp:commemorates  a  rdf:Property .
+
+rdfdf:sql-doubleprecision-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:singlepart-uri-fn-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:cite  a     rdf:Property .
+
+dbp:disabled  a  rdf:Property .
+
+dbp:isBladed  a  rdf:Property .
+
+dbp:halign  a   rdf:Property .
+
+dbp:fileno  a   rdf:Property .
+
+virtrdf:DefaultQuadMap-O-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+dbp:bridgeSigns  a  rdf:Property .
+
+dbp:loss  a     rdf:Property .
+
+dbp:flagTemplate  a  rdf:Property .
+
+rdfdf:default  a  virtrdf:QuadMapFormat .
+
+dbp:houseMajority  a  rdf:Property .
+
+dbp:lat2Min  a  rdf:Property .
+
+dbp:label9Size  a  rdf:Property .
+
+dbp:3blank  a   rdf:Property .
+
+rdfdf:sql-longnvarchar-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:i   a       rdf:Property .
+
+rdfdf:sql-nvarchar-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sinv-iid  a  virtrdf:QuadMapFormat .
+
+dbp:combustionChamber
+        a       rdf:Property .
+
+rdfdf:sql-integer-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-numeric-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+dbp:anssUrl  a  rdf:Property .
+
+virtrdf:DefaultServiceMap-P
+        a       virtrdf:QuadMapValue .
+
+dbp:newspaper  a  rdf:Property .
+
+dbp:launchYear  a  rdf:Property .
+
+rdfdf:sql-varchar-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbp:chamber1Alt  a  rdf:Property .
+
+rdfdf:sql-longnvarchar-fixeddt-x-stub-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:electorate  a  rdf:Property .
+
+dbp:koHangul  a  rdf:Property .
+
+dbo:wheelbase  a  owl:FunctionalProperty .
+
+dbp:locationSpecial  a  rdf:Property .
+
+rdfdf:sql-integer-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:congregationsType
+        a       rdf:Property .
+
+rdfdf:sql-varchar-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbp:mr  a       rdf:Property .
+
+dbp:followed  a  rdf:Property .
+
+rdfdf:sql-numeric-uri
+        a       virtrdf:QuadMapFormat .
+
+owl:unionOf  a  rdf:Property .
+
+rdfdf:sql-nvarchar-fixeddt-x-stub-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:eng1Number  a  rdf:Property .
+
+dbp:br  a       rdf:Property .
+
+rdfdf:sql-nvarchar-uri
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-doubleprecision-literal
+        a       virtrdf:QuadMapFormat .
+
+dbp:lon18Deg  a  rdf:Property .
+
+rdfdf:sql-datetime-literal
+        a       virtrdf:QuadMapFormat .
+
+dbp:eng1Name  a  rdf:Property .
+
+dbp:1data  a    rdf:Property .
+
+dbp:majoritypercent  a  rdf:Property .
+
+rdfdf:sql-date-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:begin  a    rdf:Property .
+
+rdfdf:sql-datetime  a  virtrdf:QuadMapFormat .
+
+dbp:heightMetric  a  rdf:Property .
+
+virtrdf:DefaultQuadMap-pquad
+        a       virtrdf:QuadMapATable .
+
+rdfdf:sql-datetime-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbp:distribution  a  rdf:Property .
+
+rdfdf:sql-nvarchar-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbp:ends  a     rdf:Property .
+
+dbp:anssUrlA  a  rdf:Property .
+
+rdfdf:sql-longvarchar-lang-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longvarchar-fixeddt-x-stub
+        a       virtrdf:QuadMapFormat .
+
+owl:priorVersion  a  rdf:Property .
+
+dbp:lon16Deg  a  rdf:Property .
+
+dbp:edgeCount  a  rdf:Property .
+
+rdfdf:sql-varchar-literal-fixedlang-x-any-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:singlepart-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbp:fetchwikidata  a  rdf:Property .
+
+dbp:nolinkindex  a  rdf:Property .
+
+dbp:3p  a       rdf:Property .
+
+dbp:maxTakeoffWeightKg
+        a       rdf:Property .
+
+dbp:lat  a      rdf:Property .
+
+dbp:imageLink  a  rdf:Property .
+
+dbp:arch  a     rdf:Property .
+
+dbp:callsign  a  rdf:Property .
+
+dbp:deaths  a   rdf:Property .
+
+dbp:method  a   rdf:Property .
+
+dbp:lon14Deg  a  rdf:Property .
+
+dbp:incumbentPresident
+        a       rdf:Property .
+
+dbp:generation  a  rdf:Property .
+
+dbp:gsl  a      rdf:Property .
+
+rdfdf:sql-nvarchar-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:zeropart-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbp:freeAward  a  rdf:Property .
+
+virtrdf:DefaultServiceMap-pquad
+        a       virtrdf:QuadMapATable .
+
+dbp:fiveSeasons  a  rdf:Property .
+
+rdfdf:default-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbp:aux  a      rdf:Property .
+
+dbp:ghl  a      rdf:Property .
+
+dbp:directort  a  rdf:Property .
+
+dbp:electionYear  a  rdf:Property .
+
+dbp:competitors  a  rdf:Property .
+
+dbp:8ave  a     rdf:Property .
+
+dbp:lon12Deg  a  rdf:Property .
+
+dbp:le  a       rdf:Property .
+
+dbp:landslide  a  rdf:Property .
+
+rdfdf:sql-nvarchar-fixeddt-x-stub-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbo:torqueOutput  a  owl:FunctionalProperty .
+
+dbp:discuss  a  rdf:Property .
+
+dbp:legislature  a  rdf:Property .
+
+dbp:chamber1ImageCaption
+        a       rdf:Property .
+
+dbp:2y  a       rdf:Property .
+
+dbp:deputy  a   rdf:Property .
+
+rdfdf:sql-varchar-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbp:magnitudeA  a  rdf:Property .
+
+dbp:nations  a  rdf:Property .
+
+dbp:bloomberg  a  rdf:Property .
+
+rdfdf:sql-date  a  virtrdf:QuadMapFormat .
+
+dbo:topSpeed  a  owl:FunctionalProperty .
+
+owl:imports  a  rdf:Property .
+
+rdfdf:sql-nvarchar-literal
+        a       virtrdf:QuadMapFormat .
+
+dbp:6ave  a     rdf:Property .
+
+rdfdf:multipart-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbp:dateEnd  a  rdf:Property .
+
+dbp:delegateCount  a  rdf:Property .
+
+dbp:lon10Deg  a  rdf:Property .
+
+dbp:joindissent  a  rdf:Property .
+
+dbp:activity  a  rdf:Property .
+
+virtrdf:DefaultQuadMap-G
+        a       virtrdf:QuadMapValue .
+
+rdfdf:default-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbo:marketCapitalisation
+        a       owl:FunctionalProperty .
+
+dbp:metacritic  a  rdf:Property .
+
+dbp:houseControl  a  rdf:Property .
+
+dbp:obverseCaption  a  rdf:Property .
+
+dbp:labelsize  a  rdf:Property .
+
+rdfdf:zeropart-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:label20Size  a  rdf:Property .
+
+dbp:distLy  a   rdf:Property .
+
+rdfdf:sql-date-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbp:lspan  a    rdf:Property .
+
+dbp:structure1Res  a  rdf:Property .
+
+dbp:garage  a   rdf:Property .
+
+rdfdf:sql-varchar-fixeddt-x-stub-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-varchar-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+dbp:canarsie  a  rdf:Property .
+
+rdfdf:default-iid-blank-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-varchar-literal
+        a       virtrdf:QuadMapFormat .
+
+dbp:classAAmplificationFactor
+        a       rdf:Property .
+
+dbp:majorShrine  a  rdf:Property .
+
+dbp:cycle  a    rdf:Property .
+
+rdfdf:sql-varchar-dt-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-numeric-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:inService  a  rdf:Property .
+
+dbp:firstCase  a  rdf:Property .
+
+dbp:electedMps  a  rdf:Property .
+
+dbp:brands  a   rdf:Property .
+
+dbp:dissolution  a  rdf:Property .
+
+rdfdf:sql-time-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+dbp:depth  a    rdf:Property .
+
+dbp:firstFlight  a  rdf:Property .
+
+dbp:label5Size  a  rdf:Property .
+
+rdfdf:sql-varchar-literal-fixedlang-x-any
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:multipart-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbp:coupling  a  rdf:Property .
+
+dbp:commemorated  a  rdf:Property .
+
+rdfdf:sql-nvarchar-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-numeric-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbp:mile  a     rdf:Property .
+
+virtrdf:TmpQuadMap-P-col-P
+        a       virtrdf:QuadMapColumn .
+
+virtrdf:TmpQuadMap-P-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+dbo:length  a   owl:FunctionalProperty .
+
+rdfdf:multipart-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbo:width  a    owl:FunctionalProperty .
+
+dbp:formeroperator  a  rdf:Property .
+
+dbp:lifetimeAchievement
+        a       rdf:Property .
+
+dbp:labelColord  a  rdf:Property .
+
+dbp:causes  a   rdf:Property .
+
+dbp:governorMapCaption
+        a       rdf:Property .
+
+dbp:casus  a    rdf:Property .
+
+owl:differentFrom  a  rdf:Property .
+
+dbp:designatedOther1Name
+        a       rdf:Property .
+
+dbp:landmarks  a  rdf:Property .
+
+dbo:restingDate  a  owl:FunctionalProperty .
+
+rdfdf:sql-date-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-date-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+dbp:firstStormFormed  a  rdf:Property .
+
+dbp:firstround  a  rdf:Property .
+
+dbp:image5Size  a  rdf:Property .
+
+dbp:lon20Deg  a  rdf:Property .
+
+dbp:interiorcaption  a  rdf:Property .
+
+rdfdf:sql-numeric-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:emergency  a  rdf:Property .
+
+dbp:casualtiesLabel  a  rdf:Property .
+
+virtrdf:DefaultQuadMap-S
+        a       virtrdf:QuadMapValue .
+
+rdfdf:sql-longnvarchar
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longvarchar-lang
+        a       virtrdf:QuadMapFormat .
+
+dbp:faceList  a  rdf:Property .
+
+dbp:merger  a   rdf:Property .
+
+dbp:metal2Fe  a  rdf:Property .
+
+dbp:k   a       rdf:Property .
+
+rdfdf:sql-varchar-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:houseMapCaption  a  rdf:Property .
+
+dbp:houseMinority  a  rdf:Property .
+
+dbp:hullType  a  rdf:Property .
+
+rdfdf:sql-longnvarchar-dt-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbp:lat18Deg  a  rdf:Property .
+
+rdfdf:sql-varchar-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-nvarchar  a  virtrdf:QuadMapFormat .
+
+dbp:labelPosd  a  rdf:Property .
+
+virtrdf:DefaultServiceMap-P-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+rdfdf:sql-longvarchar-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:operatorlogo  a  rdf:Property .
+
+dbp:accNote  a  rdf:Property .
+
+dbp:nsted  a    rdf:Property .
+
+dbp:brokeGround  a  rdf:Property .
+
+rdfdf:sql-nvarchar-fixeddt-x-stub
+        a       virtrdf:QuadMapFormat .
+
+dbp:generalContractor
+        a       rdf:Property .
+
+dbp:ev  a       rdf:Property .
+
+dbp:markerColour  a  rdf:Property .
+
+rdfdf:sql-integer-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-doubleprecision-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:lat16Deg  a  rdf:Property .
+
+virtrdf:TmpQuadMap-O-col-O
+        a       virtrdf:QuadMapColumn .
+
+dbp:label6Size  a  rdf:Property .
+
+rdfdf:sql-nvarchar-fixedlang-x-any-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:ll  a       rdf:Property .
+
+dbp:appmag1Passband  a  rdf:Property .
+
+dbp:concessions  a  rdf:Property .
+
+dbp:minSpeed  a  rdf:Property .
+
+dbp:dn  a       rdf:Property .
+
+rdfdf:sql-integer-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:aux2t  a    rdf:Property .
+
+dbp:3a  a       rdf:Property .
+
+rdfdf:sql-datetime-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbp:timeshiftService  a  rdf:Property .
+
+dbp:goldNed  a  rdf:Property .
+
+dbp:keel  a     rdf:Property .
+
+dbp:5th  a      rdf:Property .
+
+dbp:deputyGovernmentHead
+        a       rdf:Property .
+
+dbp:anssUrlC  a  rdf:Property .
+
+dbp:lat14Deg  a  rdf:Property .
+
+dbp:cf  a       rdf:Property .
+
+dbp:nextCongress  a  rdf:Property .
+
+dbp:bpmf  a     rdf:Property .
+
+dbp:higher  a   rdf:Property .
+
+rdfdf:sql-numeric-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbp:engvar  a   rdf:Property .
+
+virtrdf:DefaultQuadMap-ft
+        a       virtrdf:QuadMapFText .
+
+dbp:jerome  a   rdf:Property .
+
+dbp:designatedOther2Name
+        a       rdf:Property .
+
+dbp:governorSeatsContested
+        a       rdf:Property .
+
+rdfdf:sql-varchar-literal-fixedlang-x-any-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-varchar-lang-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sinv-iid-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:flagYear  a  rdf:Property .
+
+dbp:backgroundColor  a  rdf:Property .
+
+dbp:lat12Deg  a  rdf:Property .
+
+dbp:boxwidth  a  rdf:Property .
+
+virtrdf:TmpQuadMap-G  a  virtrdf:QuadMapValue .
+
+rdfdf:sql-time-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbp:clans  a    rdf:Property .
+
+rdfdf:sql-doubleprecision-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbp:illustrators  a  rdf:Property .
+
+dbp:infob  a    rdf:Property .
+
+dbp:fullName  a  rdf:Property .
+
+dbp:documentName  a  rdf:Property .
+
+dbp:epe  a      rdf:Property .
+
+virtrdf:DefaultQuadMap-atables
+        a       virtrdf:array-of-QuadMapATable .
+
+dbp:chiefMinister  a  rdf:Property .
+
+dbp:cellList  a  rdf:Property .
+
+dbp:lat10Deg  a  rdf:Property .
+
+rdfdf:sql-longvarchar-fixedlang-x-any-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:default-iid-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:multipart-uri  a  virtrdf:QuadMapFormat .
+
+dbp:majoritySeats  a  rdf:Property .
+
+dbp:events  a   rdf:Property .
+
+rdfdf:sql-varchar-fixeddt-x-stub-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:lg  a       rdf:Property .
+
+dbp:diameterInch  a  rdf:Property .
+
+rdfdf:sql-integer-uri
+        a       virtrdf:QuadMapFormat .
+
+dbp:localTimeB  a  rdf:Property .
+
+rdfdf:sql-longvarchar-fixedlang-x-any
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-date-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-integer-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longvarbinary-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbp:magnitudeC  a  rdf:Property .
+
+dbp:classAAnodeVoltage
+        a       rdf:Property .
+
+dbp:o.a.lLength  a  rdf:Property .
+
+dbp:angularDist  a  rdf:Property .
+
+dbp:nolegend  a  rdf:Property .
+
+dbp:foreshocks  a  rdf:Property .
+
+dbp:ballots  a  rdf:Property .
+
+dbp:appmag4Passband  a  rdf:Property .
+
+dbp:houseSeatsContested
+        a       rdf:Property .
+
+virtrdf:DefaultQuadMap-S-col-S
+        a       virtrdf:QuadMapColumn .
+
+dbp:label7Size  a  rdf:Property .
+
+dbp:analog  a   rdf:Property .
+
+virtrdf:TmpQuadMap-G-col-G
+        a       virtrdf:QuadMapColumn .
+
+dbp:cand  a     rdf:Property .
+
+dbp:marksize  a  rdf:Property .
+
+dbp:grid  a     rdf:Property .
+
+rdfdf:sql-date-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:zeropart-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-varchar-fixedlang-x-any
+        a       virtrdf:QuadMapFormat .
+
+dbp:desc  a     rdf:Property .
+
+owl:intersectionOf  a  rdf:Property .
+
+rdfdf:sql-longvarchar-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbp:numberOfAnchors  a  rdf:Property .
+
+dbp:nocty  a    rdf:Property .
+
+rdfdf:sql-longnvarchar-fixedlang-x-any-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbp:basin  a    rdf:Property .
+
+dbp:helipad  a  rdf:Property .
+
+rdfdf:sql-nvarchar-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:inline  a   rdf:Property .
+
+dbp:delegate  a  rdf:Property .
+
+dbp:ages  a     rdf:Property .
+
+rdfdf:sql-numeric-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:dissipated  a  rdf:Property .
+
+dbp:ceremony  a  rdf:Property .
+
+dbp:prosite  a  rdf:Property .
+
+rdfdf:sql-doubleprecision
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-nvarchar-fixedlang-x-any-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-longnvarchar-fixeddt-x-stub-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:TmpQuadMap-S  a  virtrdf:QuadMapValue .
+
+rdfdf:sql-integer  a  virtrdf:QuadMapFormat .
+
+rdfdf:sql-datetime-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+dbp:hiltType  a  rdf:Property .
+
+dbp:lon3Min  a  rdf:Property .
+
+dbp:hanja  a    rdf:Property .
+
+dbp:homeTown  a  rdf:Property .
+
+dbp:broadway  a  rdf:Property .
+
+dbp:maxFiringRange  a  rdf:Property .
+
+rdfdf:sql-longvarchar-dt-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:label17Size  a  rdf:Property .
+
+rdfdf:sql-longvarchar-fixeddt-x-stub-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-integer-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:bestNonFeature  a  rdf:Property .
+
+dbp:curr  a     rdf:Property .
+
+dbp:localDateB  a  rdf:Property .
+
+rdfdf:sinv-iid-nonblank
+        a       virtrdf:QuadMapFormat .
+
+dbp:ceilingM  a  rdf:Property .
+
+dbp:gslterm  a  rdf:Property .
+
+dbp:4p  a       rdf:Property .
+
+rdfdf:sql-time-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:lat20Deg  a  rdf:Property .
+
+dbp:closingDate  a  rdf:Property .
+
+dbp:identificationSymbol6Label
+        a       rdf:Property .
+
+dbp:altitude  a  rdf:Property .
+
+dbp:mainOrgan  a  rdf:Property .
+
+dbp:electoralVoteOther
+        a       rdf:Property .
+
+dbp:classImagesize  a  rdf:Property .
+
+dbp:label2Size  a  rdf:Property .
+
+rdfdf:sql-varchar-dt-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:default-iid-nonblank-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sinv-iid-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbp:active  a   rdf:Property .
+
+dbp:exit  a     rdf:Property .
+
+dbp:northCustomStation
+        a       rdf:Property .
+
+dbp:acting  a   rdf:Property .
+
+dbp:launched  a  rdf:Property .
+
+rdfdf:sql-numeric  a  virtrdf:QuadMapFormat .
+
+dbp:livery  a   rdf:Property .
+
+dbp:lengthMi  a  rdf:Property .
+
+dbp:beforeColor  a  rdf:Property .
+
+dbo:netIncome  a  owl:FunctionalProperty .
+
+dbp:foundedBy  a  rdf:Property .
+
+dbp:nationalOrigin  a  rdf:Property .
+
+dbp:inactive  a  rdf:Property .
+
+dbp:label8Size  a  rdf:Property .
+
+dbp:namesake  a  rdf:Property .
+
+dbp:colorcode  a  rdf:Property .
+
+dbp:mostPopulous  a  rdf:Property .
+
+dbp:designatedPahistoricCp
+        a       rdf:Property .
+
+owl:minCardinality  a  rdf:Property .
+
+rdfdf:default-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-varchar-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbp:headmaster  a  rdf:Property .
+
+rdfdf:sql-longvarchar-dt-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:multipart-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbp:conditions  a  rdf:Property .
+
+dbp:3y  a       rdf:Property .
+
+dbp:docket  a   rdf:Property .
+
+rdfdf:sql-longnvarchar-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbp:maxSpeedKmh  a  rdf:Property .
+
+virtrdf:TmpQuadStorage
+        a       virtrdf:QuadStorage .
+
+rdfdf:sql-datetime-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbp:inputs  a   rdf:Property .
+
+dbp:nopct  a    rdf:Property .
+
+dbp:cathodeType  a  rdf:Property .
+
+rdfdf:sql-doubleprecision-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-doubleprecision-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbo:acceleration  a  owl:FunctionalProperty .
+
+dbp:canonizedBy  a  rdf:Property .
+
+dbp:fujitascale  a  rdf:Property .
+
+dbp:onset  a    rdf:Property .
+
+dbp:formerMembersNumber
+        a       rdf:Property .
+
+dbp:ln  a       rdf:Property .
+
+rdfdf:sql-numeric-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:isolation  a  rdf:Property .
+
+dbp:dateRatified  a  rdf:Property .
+
+dbp:mpsub  a    rdf:Property .
+
+dbp:dp  a       rdf:Property .
+
+dbo:birthYear  a  owl:FunctionalProperty .
+
+dbp:charges  a  rdf:Property .
+
+dbp:label18Size  a  rdf:Property .
+
+rdfdf:singlepart-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-varchar-fixeddt-x-stub
+        a       virtrdf:QuadMapFormat .
+
+dbp:markTitle  a  rdf:Property .
+
+dbp:concourse  a  rdf:Property .
+
+rdfdf:sql-nvarchar-dt-nullable
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:DefaultQuadMap-P
+        a       virtrdf:QuadMapValue .
+
+owl:maxCardinality  a  rdf:Property .
+
+rdfdf:sql-nvarchar-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-varchar-uri
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-integer-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbp:label3Size  a  rdf:Property .
+
+rdfdf:sql-longnvarchar-lang-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:4pp  a      rdf:Property .
+
+rdfdf:sql-time-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbp:commonName  a  rdf:Property .
+
+rdfdf:sql-datetime-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:divisions  a  rdf:Property .
+
+dbp:dPn  a      rdf:Property .
+
+dbp:flattening  a  rdf:Property .
+
+dbp:houseNetChange  a  rdf:Property .
+
+virtrdf:DefaultQuadMap
+        a       virtrdf:QuadMap .
+
+virtrdf:DefaultServiceMap-O
+        a       virtrdf:QuadMapValue .
+
+rdfdf:default-iid-nonblank-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:arrivalDate  a  rdf:Property .
+
+dbp:appmag  a   rdf:Property .
+
+dbo:birthDate  a  owl:FunctionalProperty .
+
+rdfdf:sql-integer-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:TmpQuadStorage-UserMaps
+        a       virtrdf:array-of-QuadMap .
+
+dbp:electoralVoteOthers
+        a       rdf:Property .
+
+owl:oneOf  a    rdf:Property .
+
+rdfdf:default-iid-nonblank
+        a       virtrdf:QuadMapFormat .
+
+dbp:neededVotes  a  rdf:Property .
+
+dbp:maxDissipation  a  rdf:Property .
+
+dbp:ghlterm  a  rdf:Property .
+
+dbp:diameterIn  a  rdf:Property .
+
+rdfdf:sql-time-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+dbp:equino  a   rdf:Property .
+
+dbp:canonizedPlace  a  rdf:Property .
+
+dbp:decade  a   rdf:Property .
+
+dbp:affected  a  rdf:Property .
+
+dbp:compactnav  a  rdf:Property .
+
+dbp:maxSpeed  a  rdf:Property .
+
+dbp:net  a      rdf:Property .
+
+rdfdf:default-iid-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+owl:incompatibleWith  a  rdf:Property .
+
+dbp:termLimits  a  rdf:Property .
+
+rdfdf:sql-nvarchar-lang-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbp:crossPlatform  a  rdf:Property .
+
+dbp:image3Size  a  rdf:Property .
+
+dbo:redline  a  owl:FunctionalProperty .
+
+dbp:memory  a   rdf:Property .
+
+dbp:ig  a       rdf:Property .
+
+dbp:mapDotMark  a  rdf:Property .
+
+dbp:multiline  a  rdf:Property .
+
+owl:versionInfo  a  rdf:Property .
+
+rdfdf:default-iid-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbp:imageLeft  a  rdf:Property .
+
+rdfdf:sql-longvarchar-fixedlang-x-any-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:span  a     rdf:Property .
+
+dbp:aircraftHelicopterObservation
+        a       rdf:Property .
+
+virtrdf:DefaultQuadMap-P-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+dbp:metal  a    rdf:Property .
+
+dbp:map2Caption  a  rdf:Property .
+
+rdfdf:sql-nvarchar-dt-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-varchar-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:entrylevelorstep  a  rdf:Property .
+
+dbp:4blank  a   rdf:Property .
+
+dbp:locationOfDocument
+        a       rdf:Property .
+
+rdfdf:multipart-literal
+        a       virtrdf:QuadMapFormat .
+
+dbp:numemployees  a  rdf:Property .
+
+dbp:graphics  a  rdf:Property .
+
+rdfdf:sql-time-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-integer-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-numeric-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultQuadMap-P-col-P
+        a       virtrdf:QuadMapColumn .
+
+virtrdf:DefaultServiceStorage
+        a       virtrdf:QuadStorage .
+
+rdfdf:multipart-uri-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultQuadMap-G-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+dbp:smart  a    rdf:Property .
+
+dbp:designatedOther1Link
+        a       rdf:Property .
+
+dbp:designation2Offname
+        a       rdf:Property .
+
+dbo:powerOutput  a  owl:FunctionalProperty .
+
+dbp:label19Size  a  rdf:Property .
+
+rdfdf:sql-longnvarchar-lang-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:maxCurrent  a  rdf:Property .
+
+dbp:membersNumber  a  rdf:Property .
+
+dbp:atcSuffix  a  rdf:Property .
+
+rdfdf:sql-numeric-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:multipart-literal-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-varchar-lang-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:finalists  a  rdf:Property .
+
+dbp:available  a  rdf:Property .
+
+dbp:5data  a    rdf:Property .
+
+virtrdf:DefaultServiceMap-atables
+        a       virtrdf:array-of-QuadMapATable .
+
+dbp:lawsapplied  a  rdf:Property .
+
+dbp:label4Size  a  rdf:Property .
+
+dbp:aux3t  a    rdf:Property .
+
+dbp:4a  a       rdf:Property .
+
+dbp:5blank  a   rdf:Property .
+
+dbp:monumentName  a  rdf:Property .
+
+rdfdf:sql-nvarchar-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbp:magazineIssue  a  rdf:Property .
+
+rdfdf:sql-longvarchar-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:leastPopulous  a  rdf:Property .
+
+rdfdf:sql-longnvarchar-fixeddt-x-stub-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbp:ld  a       rdf:Property .
+
+dbp:dat16E  a   rdf:Property .
+
+dbp:houses  a   rdf:Property .
+
+dbp:classAAnodeResistance
+        a       rdf:Property .
+
+dbp:1MinWinds  a  rdf:Property .
+
+dbp:curator  a  rdf:Property .
+
+dbp:nextNorth  a  rdf:Property .
+
+dbp:lat3Min  a  rdf:Property .
+
+dbp:chamber2ImageCaption
+        a       rdf:Property .
+
+dbp:chamber2Alt  a  rdf:Property .
+
+rdfdf:sql-longnvarchar-fixedlang-x-any-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:minister1Ministryhead
+        a       rdf:Property .
+
+dbp:bacteriaStrain  a  rdf:Property .
+
+virtrdf:DefaultServiceMap-S-col-S
+        a       virtrdf:QuadMapColumn .
+
+virtrdf:TmpQuadMap  a  virtrdf:QuadMap .
+
+dbp:locationSigned  a  rdf:Property .
+
+dbp:humor  a    rdf:Property .
+
+dbp:1p  a       rdf:Property .
+
+rdfdf:zeropart-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:1blank  a   rdf:Property .
+
+rdfdf:sql-longvarchar-fixedlang-x-any-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:singlepart-uri-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:vacant  a   rdf:Property .
+
+dbp:imageTop  a  rdf:Property .
+
+rdfdf:sql-varchar-fixedlang-x-any-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:lon19Deg  a  rdf:Property .
+
+dbo:displacement  a  owl:FunctionalProperty .
+
+dbp:ministersType  a  rdf:Property .
+
+owl:distinctMembers  a  rdf:Property .
+
+dbo:deathYear  a  owl:FunctionalProperty .
+
+rdfdf:sql-longvarchar-lang-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-varchar-dt  a  virtrdf:QuadMapFormat .
+
+rdfdf:sql-time-literal
+        a       virtrdf:QuadMapFormat .
+
+dbp:aftershocks  a  rdf:Property .
+
+virtrdf:DefaultQuadMap-O-col-O
+        a       virtrdf:QuadMapColumn .
+
+dbo:height  a   owl:FunctionalProperty .
+
+dbp:label14Size  a  rdf:Property .
+
+dbp:designatedOther2Abbr
+        a       rdf:Property .
+
+rdfdf:sql-varchar  a  virtrdf:QuadMapFormat .
+
+dbp:disease  a  rdf:Property .
+
+dbp:designatedOther2NumPosition
+        a       rdf:Property .
+
+dbp:classImage  a  rdf:Property .
+
+dbp:electedMembers  a  rdf:Property .
+
+dbp:lon17Deg  a  rdf:Property .
+
+dbp:designatedOther2Link
+        a       rdf:Property .
+
+rdfdf:sql-varchar-fixeddt-x-stub-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:2pp  a      rdf:Property .
+
+dbp:maxspeed  a  rdf:Property .
+
+dbp:departments  a  rdf:Property .
+
+dbp:chamber2Image  a  rdf:Property .
+
+virtrdf:TmpQuadMap-P  a  virtrdf:QuadMapValue .
+
+dbo:deathDate  a  owl:FunctionalProperty .
+
+dbo:foalDate  a  owl:FunctionalProperty .
+
+dbp:lon15Deg  a  rdf:Property .
+
+dbp:leaderSince  a  rdf:Property .
+
+dbp:commonname  a  rdf:Property .
+
+dbp:map  a      rdf:Property .
+
+rdfdf:multipart-uri-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:impact  a   rdf:Property .
+
+rdfdf:sql-datetime-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:langs  a    rdf:Property .
+
+foaf:mbox  a    owl:InverseFunctionalProperty .
+
+dbp:hiderefcol  a  rdf:Property .
+
+rdfdf:sql-nvarchar-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbp:long  a     rdf:Property .
+
+dbp:inflated  a  rdf:Property .
+
+dbp:layoutArtist  a  rdf:Property .
+
+dbp:diagnosis  a  rdf:Property .
+
+foaf:mbox_sha1sum  a  owl:InverseFunctionalProperty .
+
+dbp:governorNetChange
+        a       rdf:Property .
+
+dbp:mapName  a  rdf:Property .
+
+dbp:lon13Deg  a  rdf:Property .
+
+dbp:labelWidth  a  rdf:Property .
+
+dbp:dir  a      rdf:Property .
+
+owl:complementOf  a  rdf:Property .
+
+rdfdf:sql-longnvarchar-dt-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:massSpecial  a  rdf:Property .
+
+dbp:nextTournament  a  rdf:Property .
+
+rdfdf:sql-nvarchar-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbp:governance  a  rdf:Property .
+
+dbp:commanders  a  rdf:Property .
+
+rdfdf:sql-date-literal-fn
+        a       virtrdf:QuadMapFormat .
+
+dbp:electoralVote  a  rdf:Property .
+
+dbp:7ave  a     rdf:Property .
+
+dbp:lon11Deg  a  rdf:Property .
+
+dbp:invalid  a  rdf:Property .
+
+dbp:interiorimage  a  rdf:Property .
+
+dbp:effectLabel  a  rdf:Property .
+
+rdfdf:zeropart-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:accessible  a  rdf:Property .
+
+dbp:goalkeeper  a  rdf:Property .
+
+dbp:beginningDate  a  rdf:Property .
+
+rdfdf:sinv-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:label15Size  a  rdf:Property .
+
+rdfdf:sql-longnvarchar-fixeddt-x-stub
+        a       virtrdf:QuadMapFormat .
+
+dbp:englishReleaseDate
+        a       rdf:Property .
+
+virtrdf:DefaultQuadMap-G-col-G
+        a       virtrdf:QuadMapColumn .
+
+dbp:litcolor  a  rdf:Property .
+
+dbp:18th  a     rdf:Property .
+
+rdfdf:sql-integer-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbp:dateCreated  a  rdf:Property .
+
+dbp:chamber2ImageSize
+        a       rdf:Property .
+
+dbp:authors  a  rdf:Property .
+
+dbp:mapsize  a  rdf:Property .
+
+rdfdf:sql-integer-literal
+        a       virtrdf:QuadMapFormat .
+
+dbp:hull  a     rdf:Property .
+
+dbp:homeStation  a  rdf:Property .
+
+rdfdf:sql-datetime-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+ns6:hasProductId  a  owl:InverseFunctionalProperty .
+
+rdfdf:sql-longnvarchar-fixedlang-x-any-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbo:retirementDate  a  owl:FunctionalProperty .
+
+rdfdf:zeropart-uri  a  virtrdf:QuadMapFormat .
+
+dbp:movements  a  rdf:Property .
+
+dbp:classABiasVoltage
+        a       rdf:Property .
+
+dbp:full  a     rdf:Property .
+
+rdfdf:multipart-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:anssUrlB  a  rdf:Property .
+
+dbp:dissent  a  rdf:Property .
+
+dbp:4y  a       rdf:Property .
+
+dbp:lonMin  a   rdf:Property .
+
+dbp:lastStormDissipated
+        a       rdf:Property .
+
+rdfdf:sql-longnvarchar-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:RdfDebuggerSingletone
+        a       virtrdf:RdfDebugger .
+
+dbp:commissioningDate
+        a       rdf:Property .
+
+owl:someValuesFrom  a  rdf:Property .
+
+dbo:fuelConsumption  a  owl:FunctionalProperty .
+
+rdfdf:sinv-iid-nonblank-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:ohlterm  a  rdf:Property .
+
+rdfdf:zeropart-literal-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:designation2Free1name
+        a       rdf:Property .
+
+virtrdf:DefaultServiceMap-geo-conds
+        a       virtrdf:array-of-string .
+
+dbp:condition  a  rdf:Property .
+
+owl:inverseOf  a  rdf:Property .
+
+dbp:hallOfFame  a  rdf:Property .
+
+dbp:fastest  a  rdf:Property .
+
+dbp:hardware  a  rdf:Property .
+
+dbp:6th  a      rdf:Property .
+
+dbp:dual  a     rdf:Property .
+
+dbp:nidx  a     rdf:Property .
+
+owl:backwardCompatibleWith
+        a       rdf:Property .
+
+dbp:infoa  a    rdf:Property .
+
+virtrdf:DefaultServiceMap
+        a       virtrdf:QuadMap .
+
+dbp:label10Size  a  rdf:Property .
+
+dbp:key  a      rdf:Property .
+
+rdfdf:zeropart-literal-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:aftermath  a  rdf:Property .
+
+dbp:designatedOther1Textcolor
+        a       rdf:Property .
+
+dbp:delisted  a  rdf:Property .
+
+rdfdf:default-iid-nonblank-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:groundbreakingDate
+        a       rdf:Property .
+
+rdfdf:sql-nvarchar-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-longnvarchar-lang-nullable
+        a       virtrdf:QuadMapFormat .
+
+virtrdf:TmpQuadMap-S-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+dbp:freeAwardType  a  rdf:Property .
+
+dbp:designation2Number
+        a       rdf:Property .
+
+dbp:label16Size  a  rdf:Property .
+
+dbp:1a  a       rdf:Property .
+
+dbp:areas  a    rdf:Property .
+
+dbp:module  a   rdf:Property .
+
+dbp:lf  a       rdf:Property .
+
+owl:cardinality  a  rdf:Property .
+
+dbp:latMin  a   rdf:Property .
+
+rdfdf:sinv-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:classBefore  a  rdf:Property .
+
+dbp:areaRank  a  rdf:Property .
+
+dbp:localTimeA  a  rdf:Property .
+
+dbp:designation2Date  a  rdf:Property .
+
+dbp:lat19Deg  a  rdf:Property .
+
+dbp:acmaBsl  a  rdf:Property .
+
+dbp:magnitudeB  a  rdf:Property .
+
+dbp:bladeType  a  rdf:Property .
+
+dbo:populationTotal  a  owl:FunctionalProperty .
+
+dbp:map2Size  a  rdf:Property .
+
+dbp:axisUnitless  a  rdf:Property .
+
+rdfdf:sql-nvarchar-fixedlang-x-any
+        a       virtrdf:QuadMapFormat .
+
+dbp:2data  a    rdf:Property .
+
+rdfdf:sql-nvarchar-lang-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:label1Size  a  rdf:Property .
+
+dbp:leader4Type  a  rdf:Property .
+
+dbp:occasion  a  rdf:Property .
+
+rdfdf:sql-doubleprecision-literal-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbp:numStaff  a  rdf:Property .
+
+dbp:lw  a       rdf:Property .
+
+dbp:joinmajority  a  rdf:Property .
+
+virtrdf:TmpQuadMap-O-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+dbp:maxSpeedMach  a  rdf:Property .
+
+virtrdf:DefaultServiceMap-P-col-P
+        a       virtrdf:QuadMapColumn .
+
+dbp:lat17Deg  a  rdf:Property .
+
+dbp:left  a     rdf:Property .
+
+dbp:controllers  a  rdf:Property .
+
+virtrdf:DefaultServiceMap-G
+        a       virtrdf:QuadMapValue .
+
+rdfdf:sql-numeric-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbp:keypeople  a  rdf:Property .
+
+dbp:ko  a       rdf:Property .
+
+dbp:nominee  a  rdf:Property .
+
+rdfdf:sql-varchar-lang-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbp:onlysourced  a  rdf:Property .
+
+rdfdf:default-iid-blank-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:commissionRange  a  rdf:Property .
+
+dbp:fontColor  a  rdf:Property .
+
+dbo:diameter  a  owl:FunctionalProperty .
+
+dbp:classImagealt  a  rdf:Property .
+
+dbp:classAScreenVoltage
+        a       rdf:Property .
+
+dbp:linecol  a  rdf:Property .
+
+dbp:2ave  a     rdf:Property .
+
+rdfdf:sql-varchar-lang
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sinv  a   virtrdf:QuadMapFormat .
+
+virtrdf:DefaultServiceMap-S-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+rdfdf:sql-time-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:lat15Deg  a  rdf:Property .
+
+rdfdf:sql-doubleprecision-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:blankData  a  rdf:Property .
+
+dbp:damage  a   rdf:Property .
+
+rdfdf:sql-longvarbinary-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultServiceStorage-UserMaps
+        a       virtrdf:array-of-QuadMap .
+
+dbp:designation2Free2name
+        a       rdf:Property .
+
+dbo:zipCode  a  owl:FunctionalProperty .
+
+rdfdf:sql-time-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-varchar-uri-fn
+        a       virtrdf:QuadMapFormat .
+
+dbp:la  a       rdf:Property .
+
+dbp:length2Km  a  rdf:Property .
+
+dbp:fuel  a     rdf:Property .
+
+dbp:lexington  a  rdf:Property .
+
+dbp:appmag3Passband  a  rdf:Property .
+
+dbp:layout  a   rdf:Property .
+
+dbp:label11Size  a  rdf:Property .
+
+dbp:lat13Deg  a  rdf:Property .
+
+rdfdf:singlepart-literal-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbp:constellation  a  rdf:Property .
+
+dbp:backgroundArtist  a  rdf:Property .
+
+dbp:numberOfBooks  a  rdf:Property .
+
+virtrdf:DefaultServiceMap-O-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+dbp:localDateA  a  rdf:Property .
+
+rdfdf:sinv-iid-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+rdfdf:sql-nvarchar-dt-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:contentLicense  a  rdf:Property .
+
+dbp:nextSouth  a  rdf:Property .
+
+virtrdf:TmpQuadMap-G-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+dbp:confirmedCases  a  rdf:Property .
+
+rdfdf:sql-longnvarchar-dt
+        a       virtrdf:QuadMapFormat .
+
+dbp:busStands  a  rdf:Property .
+
+dbp:classAfter  a  rdf:Property .
+
+dbp:lr  a       rdf:Property .
+
+dbp:effect  a   rdf:Property .
+
+dbp:populationRank  a  rdf:Property .
+
+rdfdf:sql-nvarchar-fixedlang-x-any-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-doubleprecision-uri-fn-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbp:lat11Deg  a  rdf:Property .
+
+dbp:coxeterGroup  a  rdf:Property .
+
+rdfdf:sql-doubleprecision-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultServiceMap-O-col-O
+        a       virtrdf:QuadMapColumn .
+
+rdfdf:sql-integer-nullable
+        a       virtrdf:QuadMapFormat .
+
+rdfdf:sql-longvarchar-fixeddt-x-stub-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:3data  a    rdf:Property .
+
+dbp:appmag2Passband  a  rdf:Property .
+
+virtrdf:TmpQuadMap-pquad
+        a       virtrdf:QuadMapATable .
+
+dbp:leader5Type  a  rdf:Property .
+
+dbp:chamber2Leader4Type
+        a       rdf:Property .
+
+dbp:closeDate  a  rdf:Property .
+
+dbp:omim  a     rdf:Property .
+
+dbp:md  a       rdf:Property .
+
+rdfdf:sql-nvarchar-uri-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbp:houseMap  a  rdf:Property .
+
+owl:sameAs  a   rdf:Property .
+
+rdfdf:multipart-uri-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbo:operatingIncome  a  owl:FunctionalProperty .
+
+rdfdf:sql-nvarchar-lang-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+virtrdf:DefaultQuadMap-geo
+        a       virtrdf:QuadMapFText .
+
+dbp:divisionname  a  rdf:Property .
+
+owl:onProperty  a  rdf:Property .
+
+dbp:keypoints  a  rdf:Property .
+
+virtrdf:DefaultServiceMap-S
+        a       virtrdf:QuadMapValue .
+
+rdfdf:zeropart-literal
+        a       virtrdf:QuadMapFormat .
+
+dbp:lfx  a      rdf:Property .
+
+dbp:governorMap  a  rdf:Property .
+
+rdfdf:multipart-literal-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:manuf  a    rdf:Property .
+
+dbp:scop  a     rdf:Property .
+
+dbp:gain  a     rdf:Property .
+
+dbp:classAAnodeCurrent
+        a       rdf:Property .
+
+dbp:complexity  a  rdf:Property .
+
+virtrdf:DefaultQuadStorage-UserMaps
+        a       virtrdf:array-of-QuadMap .
+
+dbp:memoryCard  a  rdf:Property .
+
+rdfdf:singlepart-literal-fn-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+owl:hasValue  a  rdf:Property .
+
+dbp:canonizedDate  a  rdf:Property .
+
+dbp:2p  a       rdf:Property .
+
+dbp:4th  a      rdf:Property .
+
+virtrdf:SyncToQuads-UserMaps
+        a       virtrdf:array-of-QuadMap .
+
+dbp:fleetnumbers  a  rdf:Property .
+
+virtrdf:DefaultServiceMap-G-cols
+        a       virtrdf:array-of-QuadMapColumn .
+
+rdfdf:sql-longvarchar-lang-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:begins  a   rdf:Property .
+
+dbp:isolationdate  a  rdf:Property .
+
+dbp:evprct  a   rdf:Property .
+
+dbp:designation2Free3name
+        a       rdf:Property .
+
+rdfdf:sql-varchar-literal-fixedlang-x-any-nullable
+        a       virtrdf:QuadMapFormat .
+
+dbp:afterColor  a  rdf:Property .
+
+dbp:primaryUser  a  rdf:Property .
+
+rdfdf:sql-longvarchar-dt-nullable-SuperFormats
+        a       virtrdf:array-of-QuadMapFormat .
+
+dbp:designatedOther1Color
+        a       rdf:Property .
