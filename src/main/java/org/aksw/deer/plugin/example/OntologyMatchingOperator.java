@@ -17,9 +17,6 @@ import java.util.Set;
 import org.aksw.deer.enrichments.AbstractParameterizedEnrichmentOperator;
 import org.aksw.deer.vocabulary.DEER;
 import org.aksw.faraday_cage.engine.ValidatableParameterMap;
-import org.aksw.jena_sparql_api.http.QueryExecutionHttpWrapper;
-import org.apache.jena.ontology.OntModel;
-import org.apache.jena.ontology.OntModelSpec;
 import org.apache.jena.query.QueryExecutionFactory;
 import org.apache.jena.rdf.model.Literal;
 import org.apache.jena.rdf.model.Model;
@@ -159,7 +156,7 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 
 				try {
 					switch (typeOfMap) {
-					case "Classes":
+					case "Class":
 
 						System.out.println("----------------Classes Mapping------------------------");
 						listModel.add(UsingLogMapMatcher("endpoint_1_" + i + ".rdf", "endpoint_2_" + i + ".rdf",
@@ -188,6 +185,13 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 								endpointsMap.get("endpoint_2_" + i + ".rdf"), i));
 						break;
 
+					case "Class and Data Property":
+						
+					case "Class and Object Property":
+						
+					case "Class and Data Property and and Data Property":
+						
+						
 					default:
 
 						System.out.println("------------------Classes Mapping-------------------");
@@ -234,7 +238,7 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 			for (Iterator<Model> iterator = listModel.iterator(); iterator.hasNext();) {
 				Model model2 = (Model) iterator.next();
 				model2.write(out, "TTL");
-				model2.write(System.out, "TTL");
+				//model2.write(System.out, "TTL");
 			}
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
@@ -311,6 +315,9 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 		// Variable for tracking Type of Mapping
 		int typeOfMapping = -1;
 
+		String deer = "https://w3id.org/deer/";
+		
+		
 		// Returns elements of the LogMap
 		while (iterator.hasNext()) {
 			// Generates IRIs of matched classes
@@ -319,11 +326,12 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 			MappingObjectStr next = iterator.next();
 			if (next.getTypeOfMapping() == a) {
 				typeOfMapping = next.getTypeOfMapping();
-
+				
+				// setting prefix for model
+				model.setNsPrefix("deer", deer);
 				// Output format
 				System.out.println("---------------output format-------------------");
-				String deer = "https://w3id.org/deer/";
-
+				
 				final Resource matchResource = model.createResource(deer + "Match_" + numberOfMatches);
 				final Property matchProperty = model.createProperty(deer, "found");
 
@@ -354,15 +362,16 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 				model.add(matchResource, matchProperty, createReifiedStatement);
 			}
 
-			try (OutputStream out = new FileOutputStream("MappingOutput" + fileCounter + ".ttl")) {
-				model.write(out, "TTL");
-				model.write(System.out, "TTL");
-			} catch (FileNotFoundException e) {
-				e.printStackTrace();
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
+			
 
+		}
+		try (OutputStream out = new FileOutputStream("MappingOutput" + fileCounter + ".ttl")) {
+			model.write(out, "TTL");
+			//model.write(System.out, "TTL");
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
 		}
 
 		if (typeOfMapping == a) {

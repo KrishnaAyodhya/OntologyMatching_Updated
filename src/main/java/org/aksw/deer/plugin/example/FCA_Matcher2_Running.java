@@ -26,9 +26,9 @@ import cn.ac.amss.semanticweb.matching.StructuralMatcher;
 import cn.ac.amss.semanticweb.model.ModelStorage;
 
 public class FCA_Matcher2_Running {
-	public void abc() throws IOException {
-		ModelStorage source = new ModelStorage("endpoint_2_2.rdf");
-		ModelStorage target = new ModelStorage("endpoint_1_2.rdf");
+	public static void main(String args[]) throws IOException {
+		ModelStorage source = new ModelStorage("datasets/3_FMA_overlapping_snomed.rdf");
+		ModelStorage target = new ModelStorage("datasets/3_SNOMED_overlapping_fma.rdf");
 
 		/************************** Lexical-level Matching ***************************/
 
@@ -55,10 +55,10 @@ public class FCA_Matcher2_Running {
 		matchedModel.addAll(fca.dataProperty(structuralMatcher, lexicalMatcher));
 
 		// Writing final output to File
-		try (OutputStream out = new FileOutputStream("MappingOutputFinalFCA" + ".ttl")) {
+		try (OutputStream out = new FileOutputStream("MappingOutputFinalFCA_SNOMED_overlapping_fma" + ".ttl")) {
 			for (Iterator<Model> iterator = matchedModel.iterator(); iterator.hasNext();) {
 				Model model2 = (Model) iterator.next();
-				model2.write(out, "TTL");
+				// model2.write(out, "TTL");
 				model2.write(System.out, "TTL");
 			}
 		} catch (FileNotFoundException e) {
@@ -107,7 +107,7 @@ public class FCA_Matcher2_Running {
 		}
 		try (OutputStream output = new FileOutputStream("MappingOutputLexicalMatcherClass" + ".ttl")) {
 			model1.write(output, "TURTLE");
-			model1.write(System.out, "TURTLE");
+			//model1.write(System.out, "TURTLE");
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (IOException e1) {
@@ -147,7 +147,7 @@ public class FCA_Matcher2_Running {
 		}
 		try (OutputStream output = new FileOutputStream("MappingOutputStructuralClassMappings" + ".ttl")) {
 			model2.write(output, "TURTLE");
-			model2.write(System.out, "TURTLE");
+		//	model2.write(System.out, "TURTLE");
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -196,7 +196,7 @@ public class FCA_Matcher2_Running {
 		}
 		try (OutputStream output = new FileOutputStream("MappingOutputLexicalObjectPropertyMappings" + ".ttl")) {
 			model1.write(output, "TURTLE");
-			model1.write(System.out, "TURTLE");
+			//model1.write(System.out, "TURTLE");
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (IOException e1) {
@@ -235,7 +235,7 @@ public class FCA_Matcher2_Running {
 		}
 		try (OutputStream output = new FileOutputStream("MappingOutputStructuralDataTypeMappings" + ".ttl")) {
 			model2.write(output, "TURTLE");
-			model2.write(System.out, "TURTLE");
+		 //  model2.write(System.out, "TURTLE");
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (IOException e1) {
@@ -281,7 +281,7 @@ public class FCA_Matcher2_Running {
 		}
 		try (OutputStream output = new FileOutputStream("MappingOutputLexicalDataPropertyMappings" + ".ttl")) {
 			model1.write(output, "TURTLE");
-			model1.write(System.out, "TURTLE");
+		//	model1.write(System.out, "TURTLE");
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (IOException e1) {
@@ -319,7 +319,7 @@ public class FCA_Matcher2_Running {
 		}
 		try (OutputStream output = new FileOutputStream("MappingOutputStructuralObjectTypeMappings" + ".ttl")) {
 			model2.write(output, "TURTLE");
-			model2.write(System.out, "TURTLE");
+		//	model2.write(System.out, "TURTLE");
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (IOException e1) {

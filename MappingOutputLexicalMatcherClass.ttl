@@ -1,0 +1,155 @@
+<https://w3id.org/deer/Match_23>
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://eagle-i.org/ont/repo/1.0/WorkflowState> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://eagle-i.org/ont/repo/1.0/WorkflowTransition> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "0.7714285714285716"
+                                       ] .
+
+<https://w3id.org/deer/Match_13>
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://eagle-i.org/ont/repo/1.0/NamedGraphType> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://eagle-i.org/ont/repo/1.0/NamedGraphType> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "1.0"
+                                       ] .
+
+<https://w3id.org/deer/Match_19>
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://eagle-i.org/ont/repo/1.0/Person> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://xmlns.com/foaf/0.1/Person> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "1.0"
+                                       ] .
+
+<https://w3id.org/deer/Match_22>
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://eagle-i.org/ont/repo/1.0/WorkflowTransition> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://eagle-i.org/ont/repo/1.0/WorkflowState> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "0.7714285714285716"
+                                       ] .
+
+<https://w3id.org/deer/Match_12>
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://eagle-i.org/ont/repo/1.0/WorkflowState> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://eagle-i.org/ont/repo/1.0/WorkflowState> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "1.0"
+                                       ] .
+
+<https://w3id.org/deer/Match_18>
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://eagle-i.org/ont/repo/1.0/Agent> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://xmlns.com/foaf/0.1/Agent> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "1.0"
+                                       ] .
+
+<https://w3id.org/deer/Match_21>
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://eagle-i.org/ont/repo/1.0/NamedGraph> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://eagle-i.org/ont/repo/1.0/NamedGraphType> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "0.8000000000000002"
+                                       ] .
+
+<https://w3id.org/deer/Match_17>
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://eagle-i.org/ont/repo/1.0/Role> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://eagle-i.org/ont/repo/1.0/Role> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "1.0"
+                                       ] .
+
+<https://w3id.org/deer/Match_20>
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://eagle-i.org/ont/repo/1.0/NamedGraphType> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://eagle-i.org/ont/repo/1.0/NamedGraph> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "0.8000000000000002"
+                                       ] .
+
+<https://w3id.org/deer/Match_16>
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://eagle-i.org/ont/repo/1.0/Person> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://eagle-i.org/ont/repo/1.0/Person> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "1.0"
+                                       ] .
+
+<https://w3id.org/deer/Match_15>
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://eagle-i.org/ont/repo/1.0/WorkflowTransition> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://eagle-i.org/ont/repo/1.0/WorkflowTransition> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "1.0"
+                                       ] .
+
+<https://w3id.org/deer/Match_24>
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://eagle-i.org/ont/repo/1.0/NamedGraph> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://eagle-i.org/ont/repo/1.0/NamedGraph> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "1.0"
+                                       ] .
+
+<https://w3id.org/deer/Match_14>
+        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                                 <http://eagle-i.org/ont/repo/1.0/Agent> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                                 <https://w3id.org/deer/matchesWith> ;
+                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                                 <http://eagle-i.org/ont/repo/1.0/Agent> ;
+                                         <https://w3id.org/deer/confidenceValue>
+                                                 "1.0"
+                                       ] .

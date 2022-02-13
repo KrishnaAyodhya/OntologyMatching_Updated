@@ -353,6 +353,8 @@ Positions in archeologic and 'recent' geologic time are conventionally denoted i
                             <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseOligocene"/>
                             <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseTelychian"/>
                             <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseDrumian"/>
+                            <j.7:memberList rdf:parseType="Resource">
+                            </j.7:memberList>
                             <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseTortonian"/>
                             <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseLateDevonian"/>
                             <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseCambrianSeries2"/>
@@ -409,8 +411,6 @@ Positions in archeologic and 'recent' geologic time are conventionally denoted i
                             <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseValanginian"/>
                             <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseLopingian"/>
                             <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseKungurian"/>
-                            <j.7:memberList rdf:parseType="Resource">
-                            </j.7:memberList>
                             <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseLudfordian"/>
                             <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseTithonian"/>
                             <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseBurdigalian"/>

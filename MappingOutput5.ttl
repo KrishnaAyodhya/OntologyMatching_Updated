@@ -1,393 +1,310 @@
-<https://w3id.org/deer/Match_5>
-        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#QuadMapATable> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                                                 <https://w3id.org/deer/matchesWith> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable> ;
-                                         <https://w3id.org/deer/ObjectEndPoint>
-                                                 <http://dbpedia.org/sparql> ;
-                                         <https://w3id.org/deer/SubjectEndPoint>
-                                                 <http://rdf.muninn-project.org/sparql> ;
-                                         <https://w3id.org/deer/confidenceValue>
-                                                 "0.4"
-                                       ] ;
-        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#QuadMapATable> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                                                 <https://w3id.org/deer/matchesWith> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#QuadMap> ;
-                                         <https://w3id.org/deer/ObjectEndPoint>
-                                                 <http://dbpedia.org/sparql> ;
-                                         <https://w3id.org/deer/SubjectEndPoint>
-                                                 <http://rdf.muninn-project.org/sparql> ;
-                                         <https://w3id.org/deer/confidenceValue>
-                                                 "0.4"
-                                       ] ;
-        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMap> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                                                 <https://w3id.org/deer/matchesWith> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable> ;
-                                         <https://w3id.org/deer/ObjectEndPoint>
-                                                 <http://dbpedia.org/sparql> ;
-                                         <https://w3id.org/deer/SubjectEndPoint>
-                                                 <http://rdf.muninn-project.org/sparql> ;
-                                         <https://w3id.org/deer/confidenceValue>
-                                                 "0.4"
-                                       ] ;
-        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                                                 <https://w3id.org/deer/matchesWith> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn> ;
-                                         <https://w3id.org/deer/ObjectEndPoint>
-                                                 <http://dbpedia.org/sparql> ;
-                                         <https://w3id.org/deer/SubjectEndPoint>
-                                                 <http://rdf.muninn-project.org/sparql> ;
-                                         <https://w3id.org/deer/confidenceValue>
-                                                 "0.4"
-                                       ] ;
-        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#QuadMap> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                                                 <https://w3id.org/deer/matchesWith> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                                                 <https://www.geonames.org/ontology#Map> ;
-                                         <https://w3id.org/deer/ObjectEndPoint>
-                                                 <http://dbpedia.org/sparql> ;
-                                         <https://w3id.org/deer/SubjectEndPoint>
-                                                 <http://rdf.muninn-project.org/sparql> ;
-                                         <https://w3id.org/deer/confidenceValue>
-                                                 "0.4"
-                                       ] ;
-        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#QuadMapValue> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                                                 <https://w3id.org/deer/matchesWith> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#QuadStorage> ;
-                                         <https://w3id.org/deer/ObjectEndPoint>
-                                                 <http://dbpedia.org/sparql> ;
-                                         <https://w3id.org/deer/SubjectEndPoint>
-                                                 <http://rdf.muninn-project.org/sparql> ;
-                                         <https://w3id.org/deer/confidenceValue>
-                                                 "0.4"
-                                       ] ;
-        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                                                 <https://w3id.org/deer/matchesWith> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> ;
-                                         <https://w3id.org/deer/ObjectEndPoint>
-                                                 <http://dbpedia.org/sparql> ;
-                                         <https://w3id.org/deer/SubjectEndPoint>
-                                                 <http://rdf.muninn-project.org/sparql> ;
-                                         <https://w3id.org/deer/confidenceValue>
-                                                 "0.4"
-                                       ] ;
-        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMap> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                                                 <https://w3id.org/deer/matchesWith> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> ;
-                                         <https://w3id.org/deer/ObjectEndPoint>
-                                                 <http://dbpedia.org/sparql> ;
-                                         <https://w3id.org/deer/SubjectEndPoint>
-                                                 <http://rdf.muninn-project.org/sparql> ;
-                                         <https://w3id.org/deer/confidenceValue>
-                                                 "0.4"
-                                       ] ;
-        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                                                 <https://w3id.org/deer/matchesWith> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#QuadMapATable> ;
-                                         <https://w3id.org/deer/ObjectEndPoint>
-                                                 <http://dbpedia.org/sparql> ;
-                                         <https://w3id.org/deer/SubjectEndPoint>
-                                                 <http://rdf.muninn-project.org/sparql> ;
-                                         <https://w3id.org/deer/confidenceValue>
-                                                 "0.4"
-                                       ] ;
-        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#QuadMap> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                                                 <https://w3id.org/deer/matchesWith> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#QuadStorage> ;
-                                         <https://w3id.org/deer/ObjectEndPoint>
-                                                 <http://dbpedia.org/sparql> ;
-                                         <https://w3id.org/deer/SubjectEndPoint>
-                                                 <http://rdf.muninn-project.org/sparql> ;
-                                         <https://w3id.org/deer/confidenceValue>
-                                                 "0.4"
-                                       ] ;
-        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                                                 <https://w3id.org/deer/matchesWith> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMap> ;
-                                         <https://w3id.org/deer/ObjectEndPoint>
-                                                 <http://dbpedia.org/sparql> ;
-                                         <https://w3id.org/deer/SubjectEndPoint>
-                                                 <http://rdf.muninn-project.org/sparql> ;
-                                         <https://w3id.org/deer/confidenceValue>
-                                                 "0.4"
-                                       ] ;
-        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                                                 <https://w3id.org/deer/matchesWith> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> ;
-                                         <https://w3id.org/deer/ObjectEndPoint>
-                                                 <http://dbpedia.org/sparql> ;
-                                         <https://w3id.org/deer/SubjectEndPoint>
-                                                 <http://rdf.muninn-project.org/sparql> ;
-                                         <https://w3id.org/deer/confidenceValue>
-                                                 "0.4"
-                                       ] ;
-        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                                                 <https://w3id.org/deer/matchesWith> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable> ;
-                                         <https://w3id.org/deer/ObjectEndPoint>
-                                                 <http://dbpedia.org/sparql> ;
-                                         <https://w3id.org/deer/SubjectEndPoint>
-                                                 <http://rdf.muninn-project.org/sparql> ;
-                                         <https://w3id.org/deer/confidenceValue>
-                                                 "0.4"
-                                       ] ;
-        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                                                 <https://w3id.org/deer/matchesWith> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> ;
-                                         <https://w3id.org/deer/ObjectEndPoint>
-                                                 <http://dbpedia.org/sparql> ;
-                                         <https://w3id.org/deer/SubjectEndPoint>
-                                                 <http://rdf.muninn-project.org/sparql> ;
-                                         <https://w3id.org/deer/confidenceValue>
-                                                 "0.4"
-                                       ] ;
-        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#QuadMapValue> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                                                 <https://w3id.org/deer/matchesWith> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#QuadMap> ;
-                                         <https://w3id.org/deer/ObjectEndPoint>
-                                                 <http://dbpedia.org/sparql> ;
-                                         <https://w3id.org/deer/SubjectEndPoint>
-                                                 <http://rdf.muninn-project.org/sparql> ;
-                                         <https://w3id.org/deer/confidenceValue>
-                                                 "1.0"
-                                       ] ;
-        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#QuadStorage> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                                                 <https://w3id.org/deer/matchesWith> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#QuadMap> ;
-                                         <https://w3id.org/deer/ObjectEndPoint>
-                                                 <http://dbpedia.org/sparql> ;
-                                         <https://w3id.org/deer/SubjectEndPoint>
-                                                 <http://rdf.muninn-project.org/sparql> ;
-                                         <https://w3id.org/deer/confidenceValue>
-                                                 "0.4"
-                                       ] ;
-        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                                                 <https://w3id.org/deer/matchesWith> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> ;
-                                         <https://w3id.org/deer/ObjectEndPoint>
-                                                 <http://dbpedia.org/sparql> ;
-                                         <https://w3id.org/deer/SubjectEndPoint>
-                                                 <http://rdf.muninn-project.org/sparql> ;
-                                         <https://w3id.org/deer/confidenceValue>
-                                                 "0.4"
-                                       ] ;
-        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                                                 <https://w3id.org/deer/matchesWith> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMap> ;
-                                         <https://w3id.org/deer/ObjectEndPoint>
-                                                 <http://dbpedia.org/sparql> ;
-                                         <https://w3id.org/deer/SubjectEndPoint>
-                                                 <http://rdf.muninn-project.org/sparql> ;
-                                         <https://w3id.org/deer/confidenceValue>
-                                                 "0.4"
-                                       ] ;
-        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#QuadMap> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                                                 <https://w3id.org/deer/matchesWith> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#QuadMapValue> ;
-                                         <https://w3id.org/deer/ObjectEndPoint>
-                                                 <http://dbpedia.org/sparql> ;
-                                         <https://w3id.org/deer/SubjectEndPoint>
-                                                 <http://rdf.muninn-project.org/sparql> ;
-                                         <https://w3id.org/deer/confidenceValue>
-                                                 "1.0"
-                                       ] ;
-        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#QuadMap> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                                                 <https://w3id.org/deer/matchesWith> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#QuadMapATable> ;
-                                         <https://w3id.org/deer/ObjectEndPoint>
-                                                 <http://dbpedia.org/sparql> ;
-                                         <https://w3id.org/deer/SubjectEndPoint>
-                                                 <http://rdf.muninn-project.org/sparql> ;
-                                         <https://w3id.org/deer/confidenceValue>
-                                                 "0.4"
-                                       ] ;
-        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                                                 <https://w3id.org/deer/matchesWith> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMap> ;
-                                         <https://w3id.org/deer/ObjectEndPoint>
-                                                 <http://dbpedia.org/sparql> ;
-                                         <https://w3id.org/deer/SubjectEndPoint>
-                                                 <http://rdf.muninn-project.org/sparql> ;
-                                         <https://w3id.org/deer/confidenceValue>
-                                                 "0.4"
-                                       ] ;
-        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                                                 <https://w3id.org/deer/matchesWith> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn> ;
-                                         <https://w3id.org/deer/ObjectEndPoint>
-                                                 <http://dbpedia.org/sparql> ;
-                                         <https://w3id.org/deer/SubjectEndPoint>
-                                                 <http://rdf.muninn-project.org/sparql> ;
-                                         <https://w3id.org/deer/confidenceValue>
-                                                 "0.4"
-                                       ] ;
-        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#QuadStorage> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                                                 <https://w3id.org/deer/matchesWith> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#QuadMapValue> ;
-                                         <https://w3id.org/deer/ObjectEndPoint>
-                                                 <http://dbpedia.org/sparql> ;
-                                         <https://w3id.org/deer/SubjectEndPoint>
-                                                 <http://rdf.muninn-project.org/sparql> ;
-                                         <https://w3id.org/deer/confidenceValue>
-                                                 "0.4"
-                                       ] ;
-        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#QuadMapColumn> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                                                 <https://w3id.org/deer/matchesWith> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn> ;
-                                         <https://w3id.org/deer/ObjectEndPoint>
-                                                 <http://dbpedia.org/sparql> ;
-                                         <https://w3id.org/deer/SubjectEndPoint>
-                                                 <http://rdf.muninn-project.org/sparql> ;
-                                         <https://w3id.org/deer/confidenceValue>
-                                                 "0.4"
-                                       ] ;
-        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                                                 <https://w3id.org/deer/matchesWith> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable> ;
-                                         <https://w3id.org/deer/ObjectEndPoint>
-                                                 <http://dbpedia.org/sparql> ;
-                                         <https://w3id.org/deer/SubjectEndPoint>
-                                                 <http://rdf.muninn-project.org/sparql> ;
-                                         <https://w3id.org/deer/confidenceValue>
-                                                 "0.4"
-                                       ] ;
-        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMap> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                                                 <https://w3id.org/deer/matchesWith> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn> ;
-                                         <https://w3id.org/deer/ObjectEndPoint>
-                                                 <http://dbpedia.org/sparql> ;
-                                         <https://w3id.org/deer/SubjectEndPoint>
-                                                 <http://rdf.muninn-project.org/sparql> ;
-                                         <https://w3id.org/deer/confidenceValue>
-                                                 "0.4"
-                                       ] ;
-        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                                                 <https://w3id.org/deer/matchesWith> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#QuadMapColumn> ;
-                                         <https://w3id.org/deer/ObjectEndPoint>
-                                                 <http://dbpedia.org/sparql> ;
-                                         <https://w3id.org/deer/SubjectEndPoint>
-                                                 <http://rdf.muninn-project.org/sparql> ;
-                                         <https://w3id.org/deer/confidenceValue>
-                                                 "0.4"
-                                       ] ;
-        <https://w3id.org/deer/found>  [ a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                                                 <http://www.openlinksw.com/schemas/virtrdf#QuadMapValue> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                                                 <https://w3id.org/deer/matchesWith> ;
-                                         <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                                                 <https://www.geonames.org/ontology#Map> ;
-                                         <https://w3id.org/deer/ObjectEndPoint>
-                                                 <http://dbpedia.org/sparql> ;
-                                         <https://w3id.org/deer/SubjectEndPoint>
-                                                 <http://rdf.muninn-project.org/sparql> ;
-                                         <https://w3id.org/deer/confidenceValue>
-                                                 "0.4"
-                                       ] .
+@prefix deer:  <https://w3id.org/deer/> .
+
+deer:Match_4  deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                            <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                    <http://www.openlinksw.com/schemas/virtrdf#QuadMapATable> ;
+                            <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                    deer:matchesWith ;
+                            <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                    <http://www.openlinksw.com/schemas/virtrdf#QuadMap> ;
+                            deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
+                            deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
+                            deer:confidenceValue  "0.4"
+                          ] ;
+        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                              <http://www.openlinksw.com/schemas/virtrdf#QuadMapValue> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                              deer:matchesWith ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                              <http://www.openlinksw.com/schemas/virtrdf#QuadMap> ;
+                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
+                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
+                      deer:confidenceValue  "1.0"
+                    ] ;
+        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                              deer:matchesWith ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMap> ;
+                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
+                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
+                      deer:confidenceValue  "0.4"
+                    ] ;
+        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                              deer:matchesWith ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> ;
+                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
+                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
+                      deer:confidenceValue  "0.4"
+                    ] ;
+        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                              <http://www.openlinksw.com/schemas/virtrdf#QuadMapValue> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                              deer:matchesWith ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                              <https://www.geonames.org/ontology#Map> ;
+                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
+                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
+                      deer:confidenceValue  "0.4"
+                    ] ;
+        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMap> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                              deer:matchesWith ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> ;
+                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
+                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
+                      deer:confidenceValue  "0.4"
+                    ] ;
+        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                              deer:matchesWith ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable> ;
+                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
+                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
+                      deer:confidenceValue  "0.4"
+                    ] ;
+        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                              deer:matchesWith ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMap> ;
+                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
+                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
+                      deer:confidenceValue  "0.4"
+                    ] ;
+        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                              deer:matchesWith ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                              <http://www.openlinksw.com/schemas/virtrdf#QuadMapColumn> ;
+                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
+                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
+                      deer:confidenceValue  "0.4"
+                    ] ;
+        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                              deer:matchesWith ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                              <http://www.openlinksw.com/schemas/virtrdf#QuadMapATable> ;
+                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
+                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
+                      deer:confidenceValue  "0.4"
+                    ] ;
+        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                              deer:matchesWith ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMap> ;
+                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
+                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
+                      deer:confidenceValue  "0.4"
+                    ] ;
+        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                              <http://www.openlinksw.com/schemas/virtrdf#QuadMapValue> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                              deer:matchesWith ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                              <http://www.openlinksw.com/schemas/virtrdf#QuadStorage> ;
+                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
+                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
+                      deer:confidenceValue  "0.4"
+                    ] ;
+        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                              deer:matchesWith ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                              <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> ;
+                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
+                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
+                      deer:confidenceValue  "0.4"
+                    ] ;
+        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                              <http://www.openlinksw.com/schemas/virtrdf#QuadMap> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                              deer:matchesWith ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                              <http://www.openlinksw.com/schemas/virtrdf#QuadStorage> ;
+                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
+                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
+                      deer:confidenceValue  "0.4"
+                    ] ;
+        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                              deer:matchesWith ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn> ;
+                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
+                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
+                      deer:confidenceValue  "0.4"
+                    ] ;
+        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                              deer:matchesWith ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable> ;
+                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
+                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
+                      deer:confidenceValue  "0.4"
+                    ] ;
+        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                              deer:matchesWith ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn> ;
+                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
+                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
+                      deer:confidenceValue  "0.4"
+                    ] ;
+        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMap> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                              deer:matchesWith ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn> ;
+                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
+                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
+                      deer:confidenceValue  "0.4"
+                    ] ;
+        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                              deer:matchesWith ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> ;
+                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
+                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
+                      deer:confidenceValue  "0.4"
+                    ] ;
+        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                              <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                              deer:matchesWith ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> ;
+                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
+                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
+                      deer:confidenceValue  "0.4"
+                    ] ;
+        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                              <http://www.openlinksw.com/schemas/virtrdf#QuadMapATable> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                              deer:matchesWith ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable> ;
+                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
+                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
+                      deer:confidenceValue  "0.4"
+                    ] ;
+        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                              <http://www.openlinksw.com/schemas/virtrdf#QuadMap> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                              deer:matchesWith ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                              <http://www.openlinksw.com/schemas/virtrdf#QuadMapATable> ;
+                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
+                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
+                      deer:confidenceValue  "0.4"
+                    ] ;
+        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                              <http://www.openlinksw.com/schemas/virtrdf#QuadMap> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                              deer:matchesWith ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                              <https://www.geonames.org/ontology#Map> ;
+                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
+                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
+                      deer:confidenceValue  "0.4"
+                    ] ;
+        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                              <http://www.openlinksw.com/schemas/virtrdf#QuadMapColumn> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                              deer:matchesWith ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn> ;
+                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
+                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
+                      deer:confidenceValue  "0.4"
+                    ] ;
+        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMap> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                              deer:matchesWith ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable> ;
+                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
+                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
+                      deer:confidenceValue  "0.4"
+                    ] ;
+        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                              <http://www.openlinksw.com/schemas/virtrdf#QuadMap> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                              deer:matchesWith ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                              <http://www.openlinksw.com/schemas/virtrdf#QuadMapValue> ;
+                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
+                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
+                      deer:confidenceValue  "1.0"
+                    ] ;
+        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                              <http://www.openlinksw.com/schemas/virtrdf#QuadStorage> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                              deer:matchesWith ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                              <http://www.openlinksw.com/schemas/virtrdf#QuadMap> ;
+                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
+                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
+                      deer:confidenceValue  "0.4"
+                    ] ;
+        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                              <http://www.openlinksw.com/schemas/virtrdf#QuadStorage> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                              deer:matchesWith ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                              <http://www.openlinksw.com/schemas/virtrdf#QuadMapValue> ;
+                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
+                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
+                      deer:confidenceValue  "0.4"
+                    ] .
