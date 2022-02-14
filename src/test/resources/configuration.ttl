@@ -12,13 +12,11 @@
  deer:fromPath "Test.ttl";
 .
 
-
-
-
 :ontologyMatcher
  a deer:OntologyMatchingOperator ;
  deer:typeOfMap "Classes";
  deer:matching_Library "logmap";
+ deer:typeofKGMatch "Limes";
  fcage:hasInput :reader ;
 .
 

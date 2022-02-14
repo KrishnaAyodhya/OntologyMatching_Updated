@@ -26,16 +26,9 @@ public class StdOutModelWriter extends AbstractModelWriter {
   @Override
   protected List<Model> safeApply(List<Model> models) {
 	  
-	  System.out.println(" alph models: " + models );
-	  System.out.println(" alph models end: " );
-	  
-	  System.out.println(" alph models models.get(0): " +  models.get(0)); 
- 
     Writer writer = new StringWriter();
     models.get(0).write(writer, "TTL");
-    System.out.println("before -kd  : " + writer);
     System.out.println(writer);
-    System.out.println("after -kd : " + writer);
-     return models;
+    return models;
   }
 }

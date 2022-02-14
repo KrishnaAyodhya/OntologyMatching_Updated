@@ -1,27 +1,147 @@
 @prefix deer:  <https://w3id.org/deer/> .
-@prefix deer:  <https://w3id.org/deer/> .
 
-deer:Match_1  deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                            <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                                    <http://eagle-i.org/ont/repo/1.0/WorkflowState> ;
-                            <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                                    deer:matchesWith ;
-                            <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                                    <http://eagle-i.org/ont/repo/1.0/WorkflowTransition> ;
-                            deer:ObjectEndPoint   <http://tsu.eagle-i.net/sparqler/sparql> ;
-                            deer:SubjectEndPoint  <http://utep.eagle-i.net/sparqler/sparql> ;
-                            deer:confidenceValue  "0.4"
-                          ] ;
+deer:Match  deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                          <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                  <http://eagle-i.org/ont/app/1.0/Agent> ;
+                          <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                  deer:matchesWith ;
+                          <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                  <http://xmlns.com/foaf/0.1/Agent> ;
+                          deer:ObjectEndPoint   <http://tsu.eagle-i.net/sparqler/sparql> ;
+                          deer:SubjectEndPoint  <http://utep.eagle-i.net/sparqler/sparql> ;
+                          deer:confidenceValue  "0.6"
+                        ] ;
+        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                              <http://purl.org/dc/terms/Agent> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                              deer:matchesWith ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                              <http://purl.org/dc/terms/Agent> ;
+                      deer:ObjectEndPoint   <http://tsu.eagle-i.net/sparqler/sparql> ;
+                      deer:SubjectEndPoint  <http://utep.eagle-i.net/sparqler/sparql> ;
+                      deer:confidenceValue  "0.6"
+                    ] ;
         deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
                       <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
                               <http://xmlns.com/foaf/0.1/Agent> ;
                       <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
                               deer:matchesWith ;
                       <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://xmlns.com/foaf/0.1/Agent> ;
+                              <http://eagle-i.org/ont/repo/1.0/Agent> ;
                       deer:ObjectEndPoint   <http://tsu.eagle-i.net/sparqler/sparql> ;
                       deer:SubjectEndPoint  <http://utep.eagle-i.net/sparqler/sparql> ;
                       deer:confidenceValue  "0.6"
+                    ] ;
+        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                              <http://eagle-i.org/ont/app/1.0/Agent> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                              deer:matchesWith ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                              <http://eagle-i.org/ont/repo/1.0/Agent> ;
+                      deer:ObjectEndPoint   <http://tsu.eagle-i.net/sparqler/sparql> ;
+                      deer:SubjectEndPoint  <http://utep.eagle-i.net/sparqler/sparql> ;
+                      deer:confidenceValue  "1.0"
+                    ] ;
+        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                              <http://eagle-i.org/ont/app/1.0/Agent> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                              deer:matchesWith ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                              <http://eagle-i.org/ont/app/1.0/Agent> ;
+                      deer:ObjectEndPoint   <http://tsu.eagle-i.net/sparqler/sparql> ;
+                      deer:SubjectEndPoint  <http://utep.eagle-i.net/sparqler/sparql> ;
+                      deer:confidenceValue  "0.6"
+                    ] ;
+        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                              <http://xmlns.com/foaf/0.1/Agent> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                              deer:matchesWith ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                              <http://purl.org/dc/terms/Agent> ;
+                      deer:ObjectEndPoint   <http://tsu.eagle-i.net/sparqler/sparql> ;
+                      deer:SubjectEndPoint  <http://utep.eagle-i.net/sparqler/sparql> ;
+                      deer:confidenceValue  "1.0"
+                    ] ;
+        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                              <http://eagle-i.org/ont/repo/1.0/Agent> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                              deer:matchesWith ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                              <http://purl.org/dc/terms/Agent> ;
+                      deer:ObjectEndPoint   <http://tsu.eagle-i.net/sparqler/sparql> ;
+                      deer:SubjectEndPoint  <http://utep.eagle-i.net/sparqler/sparql> ;
+                      deer:confidenceValue  "0.6"
+                    ] ;
+        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                              <http://eagle-i.org/ont/app/1.0/Person> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                              deer:matchesWith ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                              <http://eagle-i.org/ont/repo/1.0/Person> ;
+                      deer:ObjectEndPoint   <http://tsu.eagle-i.net/sparqler/sparql> ;
+                      deer:SubjectEndPoint  <http://utep.eagle-i.net/sparqler/sparql> ;
+                      deer:confidenceValue  "0.6"
+                    ] ;
+        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                              <http://xmlns.com/foaf/0.1/Person> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                              deer:matchesWith ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                              <http://eagle-i.org/ont/repo/1.0/Person> ;
+                      deer:ObjectEndPoint   <http://tsu.eagle-i.net/sparqler/sparql> ;
+                      deer:SubjectEndPoint  <http://utep.eagle-i.net/sparqler/sparql> ;
+                      deer:confidenceValue  "0.6"
+                    ] ;
+        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                              <http://eagle-i.org/ont/repo/1.0/Agent> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                              deer:matchesWith ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                              <http://xmlns.com/foaf/0.1/Agent> ;
+                      deer:ObjectEndPoint   <http://tsu.eagle-i.net/sparqler/sparql> ;
+                      deer:SubjectEndPoint  <http://utep.eagle-i.net/sparqler/sparql> ;
+                      deer:confidenceValue  "0.4"
+                    ] ;
+        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                              <http://xmlns.com/foaf/0.1/Person> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                              deer:matchesWith ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                              <http://eagle-i.org/ont/app/1.0/Person> ;
+                      deer:ObjectEndPoint   <http://tsu.eagle-i.net/sparqler/sparql> ;
+                      deer:SubjectEndPoint  <http://utep.eagle-i.net/sparqler/sparql> ;
+                      deer:confidenceValue  "0.6"
+                    ] ;
+        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                              <http://eagle-i.org/ont/app/1.0/Person> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                              deer:matchesWith ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                              <http://xmlns.com/foaf/0.1/Person> ;
+                      deer:ObjectEndPoint   <http://tsu.eagle-i.net/sparqler/sparql> ;
+                      deer:SubjectEndPoint  <http://utep.eagle-i.net/sparqler/sparql> ;
+                      deer:confidenceValue  "0.6"
+                    ] ;
+        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                              <http://eagle-i.org/ont/repo/1.0/WorkflowState> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                              deer:matchesWith ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                              <http://eagle-i.org/ont/repo/1.0/WorkflowTransition> ;
+                      deer:ObjectEndPoint   <http://tsu.eagle-i.net/sparqler/sparql> ;
+                      deer:SubjectEndPoint  <http://utep.eagle-i.net/sparqler/sparql> ;
+                      deer:confidenceValue  "0.4"
                     ] ;
         deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
                       <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
@@ -36,11 +156,11 @@ deer:Match_1  deer:found  [ a                     <http://www.w3.org/1999/02/22-
                     ] ;
         deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
                       <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://eagle-i.org/ont/repo/1.0/Agent> ;
+                              <http://eagle-i.org/ont/repo/1.0/Person> ;
                       <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
                               deer:matchesWith ;
                       <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://eagle-i.org/ont/repo/1.0/Agent> ;
+                              <http://eagle-i.org/ont/app/1.0/Person> ;
                       deer:ObjectEndPoint   <http://tsu.eagle-i.net/sparqler/sparql> ;
                       deer:SubjectEndPoint  <http://utep.eagle-i.net/sparqler/sparql> ;
                       deer:confidenceValue  "0.6"
@@ -62,39 +182,6 @@ deer:Match_1  deer:found  [ a                     <http://www.w3.org/1999/02/22-
                       <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
                               deer:matchesWith ;
                       <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://eagle-i.org/ont/app/1.0/Person> ;
-                      deer:ObjectEndPoint   <http://tsu.eagle-i.net/sparqler/sparql> ;
-                      deer:SubjectEndPoint  <http://utep.eagle-i.net/sparqler/sparql> ;
-                      deer:confidenceValue  "0.6"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://xmlns.com/foaf/0.1/Agent> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://purl.org/dc/terms/Agent> ;
-                      deer:ObjectEndPoint   <http://tsu.eagle-i.net/sparqler/sparql> ;
-                      deer:SubjectEndPoint  <http://utep.eagle-i.net/sparqler/sparql> ;
-                      deer:confidenceValue  "1.0"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://purl.org/dc/terms/Agent> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://eagle-i.org/ont/repo/1.0/Agent> ;
-                      deer:ObjectEndPoint   <http://tsu.eagle-i.net/sparqler/sparql> ;
-                      deer:SubjectEndPoint  <http://utep.eagle-i.net/sparqler/sparql> ;
-                      deer:confidenceValue  "0.6"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://eagle-i.org/ont/repo/1.0/Person> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
                               <http://xmlns.com/foaf/0.1/Person> ;
                       deer:ObjectEndPoint   <http://tsu.eagle-i.net/sparqler/sparql> ;
                       deer:SubjectEndPoint  <http://utep.eagle-i.net/sparqler/sparql> ;
@@ -102,22 +189,11 @@ deer:Match_1  deer:found  [ a                     <http://www.w3.org/1999/02/22-
                     ] ;
         deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
                       <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://xmlns.com/foaf/0.1/Person> ;
+                              <http://purl.org/dc/terms/Agent> ;
                       <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
                               deer:matchesWith ;
                       <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://eagle-i.org/ont/repo/1.0/Person> ;
-                      deer:ObjectEndPoint   <http://tsu.eagle-i.net/sparqler/sparql> ;
-                      deer:SubjectEndPoint  <http://utep.eagle-i.net/sparqler/sparql> ;
-                      deer:confidenceValue  "0.6"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://eagle-i.org/ont/app/1.0/Agent> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://xmlns.com/foaf/0.1/Agent> ;
+                              <http://eagle-i.org/ont/repo/1.0/Agent> ;
                       deer:ObjectEndPoint   <http://tsu.eagle-i.net/sparqler/sparql> ;
                       deer:SubjectEndPoint  <http://utep.eagle-i.net/sparqler/sparql> ;
                       deer:confidenceValue  "0.6"
@@ -139,40 +215,18 @@ deer:Match_1  deer:found  [ a                     <http://www.w3.org/1999/02/22-
                       <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
                               deer:matchesWith ;
                       <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://xmlns.com/foaf/0.1/Agent> ;
-                      deer:ObjectEndPoint   <http://tsu.eagle-i.net/sparqler/sparql> ;
-                      deer:SubjectEndPoint  <http://utep.eagle-i.net/sparqler/sparql> ;
-                      deer:confidenceValue  "0.4"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://eagle-i.org/ont/app/1.0/Person> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://xmlns.com/foaf/0.1/Person> ;
+                              <http://eagle-i.org/ont/repo/1.0/Agent> ;
                       deer:ObjectEndPoint   <http://tsu.eagle-i.net/sparqler/sparql> ;
                       deer:SubjectEndPoint  <http://utep.eagle-i.net/sparqler/sparql> ;
                       deer:confidenceValue  "0.6"
                     ] ;
         deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
                       <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                              <http://eagle-i.org/ont/repo/1.0/Agent> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                              deer:matchesWith ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
                               <http://eagle-i.org/ont/app/1.0/Agent> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://purl.org/dc/terms/Agent> ;
-                      deer:ObjectEndPoint   <http://tsu.eagle-i.net/sparqler/sparql> ;
-                      deer:SubjectEndPoint  <http://utep.eagle-i.net/sparqler/sparql> ;
-                      deer:confidenceValue  "0.6"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://xmlns.com/foaf/0.1/Person> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://eagle-i.org/ont/app/1.0/Person> ;
                       deer:ObjectEndPoint   <http://tsu.eagle-i.net/sparqler/sparql> ;
                       deer:SubjectEndPoint  <http://utep.eagle-i.net/sparqler/sparql> ;
                       deer:confidenceValue  "0.6"
@@ -183,36 +237,14 @@ deer:Match_1  deer:found  [ a                     <http://www.w3.org/1999/02/22-
                       <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
                               deer:matchesWith ;
                       <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://eagle-i.org/ont/repo/1.0/Agent> ;
+                              <http://xmlns.com/foaf/0.1/Agent> ;
                       deer:ObjectEndPoint   <http://tsu.eagle-i.net/sparqler/sparql> ;
                       deer:SubjectEndPoint  <http://utep.eagle-i.net/sparqler/sparql> ;
                       deer:confidenceValue  "0.6"
                     ] ;
         deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
                       <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://eagle-i.org/ont/repo/1.0/Agent> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
                               <http://eagle-i.org/ont/app/1.0/Agent> ;
-                      deer:ObjectEndPoint   <http://tsu.eagle-i.net/sparqler/sparql> ;
-                      deer:SubjectEndPoint  <http://utep.eagle-i.net/sparqler/sparql> ;
-                      deer:confidenceValue  "0.6"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://purl.org/dc/terms/Agent> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://eagle-i.org/ont/app/1.0/Agent> ;
-                      deer:ObjectEndPoint   <http://tsu.eagle-i.net/sparqler/sparql> ;
-                      deer:SubjectEndPoint  <http://utep.eagle-i.net/sparqler/sparql> ;
-                      deer:confidenceValue  "1.0"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://eagle-i.org/ont/repo/1.0/Agent> ;
                       <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
                               deer:matchesWith ;
                       <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
@@ -227,78 +259,34 @@ deer:Match_1  deer:found  [ a                     <http://www.w3.org/1999/02/22-
                       <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
                               deer:matchesWith ;
                       <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://purl.org/dc/terms/Agent> ;
-                      deer:ObjectEndPoint   <http://tsu.eagle-i.net/sparqler/sparql> ;
-                      deer:SubjectEndPoint  <http://utep.eagle-i.net/sparqler/sparql> ;
-                      deer:confidenceValue  "0.6"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
                               <http://eagle-i.org/ont/app/1.0/Agent> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://eagle-i.org/ont/app/1.0/Agent> ;
-                      deer:ObjectEndPoint   <http://tsu.eagle-i.net/sparqler/sparql> ;
-                      deer:SubjectEndPoint  <http://utep.eagle-i.net/sparqler/sparql> ;
-                      deer:confidenceValue  "0.6"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://eagle-i.org/ont/app/1.0/Person> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://eagle-i.org/ont/repo/1.0/Person> ;
-                      deer:ObjectEndPoint   <http://tsu.eagle-i.net/sparqler/sparql> ;
-                      deer:SubjectEndPoint  <http://utep.eagle-i.net/sparqler/sparql> ;
-                      deer:confidenceValue  "0.6"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://eagle-i.org/ont/app/1.0/Agent> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://eagle-i.org/ont/repo/1.0/Agent> ;
                       deer:ObjectEndPoint   <http://tsu.eagle-i.net/sparqler/sparql> ;
                       deer:SubjectEndPoint  <http://utep.eagle-i.net/sparqler/sparql> ;
                       deer:confidenceValue  "1.0"
                     ] .
 @prefix deer:  <https://w3id.org/deer/> .
 
-deer:Match_2  deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                            <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                                    <http://www.w3.org/2000/01/rdf-schema#Class> ;
-                            <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                                    deer:matchesWith ;
-                            <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                                    <http://www.w3.org/2002/07/owl#Class> ;
-                            deer:ObjectEndPoint   <http://vocab.getty.edu/sparql> ;
-                            deer:SubjectEndPoint  <http://kaiko.getalp.org/sparql> ;
-                            deer:confidenceValue  "1.0"
-                          ] ;
+deer:Match  deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                          <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                                  <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+                          <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                                  deer:matchesWith ;
+                          <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                                  <http://www.w3.org/2002/07/owl#TransitiveProperty> ;
+                          deer:ObjectEndPoint   <http://vocab.getty.edu/sparql> ;
+                          deer:SubjectEndPoint  <http://kaiko.getalp.org/sparql> ;
+                          deer:confidenceValue  "0.4"
+                        ] ;
         deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
                       <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
                               <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
                       <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
                               deer:matchesWith ;
                       <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+                              <http://www.w3.org/2002/07/owl#ObjectProperty> ;
                       deer:ObjectEndPoint   <http://vocab.getty.edu/sparql> ;
                       deer:SubjectEndPoint  <http://kaiko.getalp.org/sparql> ;
                       deer:confidenceValue  "0.4"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://www.w3.org/2002/07/owl#Class> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://www.w3.org/2000/01/rdf-schema#Class> ;
-                      deer:ObjectEndPoint   <http://vocab.getty.edu/sparql> ;
-                      deer:SubjectEndPoint  <http://kaiko.getalp.org/sparql> ;
-                      deer:confidenceValue  "1.0"
                     ] ;
         deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
                       <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
@@ -307,6 +295,28 @@ deer:Match_2  deer:found  [ a                     <http://www.w3.org/1999/02/22-
                               deer:matchesWith ;
                       <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
                               <http://www.w3.org/2002/07/owl#OntologyProperty> ;
+                      deer:ObjectEndPoint   <http://vocab.getty.edu/sparql> ;
+                      deer:SubjectEndPoint  <http://kaiko.getalp.org/sparql> ;
+                      deer:confidenceValue  "0.4"
+                    ] ;
+        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                              <http://www.w3.org/2000/01/rdf-schema#Class> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                              deer:matchesWith ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                              <http://www.w3.org/2002/07/owl#Class> ;
+                      deer:ObjectEndPoint   <http://vocab.getty.edu/sparql> ;
+                      deer:SubjectEndPoint  <http://kaiko.getalp.org/sparql> ;
+                      deer:confidenceValue  "1.0"
+                    ] ;
+        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                              <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                              deer:matchesWith ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                              <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
                       deer:ObjectEndPoint   <http://vocab.getty.edu/sparql> ;
                       deer:SubjectEndPoint  <http://kaiko.getalp.org/sparql> ;
                       deer:confidenceValue  "0.4"
@@ -328,28 +338,6 @@ deer:Match_2  deer:found  [ a                     <http://www.w3.org/1999/02/22-
                       <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
                               deer:matchesWith ;
                       <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://www.w3.org/2002/07/owl#ObjectProperty> ;
-                      deer:ObjectEndPoint   <http://vocab.getty.edu/sparql> ;
-                      deer:SubjectEndPoint  <http://kaiko.getalp.org/sparql> ;
-                      deer:confidenceValue  "0.4"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
-                      deer:ObjectEndPoint   <http://vocab.getty.edu/sparql> ;
-                      deer:SubjectEndPoint  <http://kaiko.getalp.org/sparql> ;
-                      deer:confidenceValue  "0.4"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
                               <http://www.w3.org/2002/07/owl#DeprecatedProperty> ;
                       deer:ObjectEndPoint   <http://vocab.getty.edu/sparql> ;
                       deer:SubjectEndPoint  <http://kaiko.getalp.org/sparql> ;
@@ -361,7 +349,7 @@ deer:Match_2  deer:found  [ a                     <http://www.w3.org/1999/02/22-
                       <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
                               deer:matchesWith ;
                       <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://www.w3.org/2002/07/owl#TransitiveProperty> ;
+                              <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
                       deer:ObjectEndPoint   <http://vocab.getty.edu/sparql> ;
                       deer:SubjectEndPoint  <http://kaiko.getalp.org/sparql> ;
                       deer:confidenceValue  "0.4"
@@ -379,6 +367,17 @@ deer:Match_2  deer:found  [ a                     <http://www.w3.org/1999/02/22-
                     ] ;
         deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
                       <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+                              <http://www.w3.org/2002/07/owl#AllDisjointClasses> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+                              deer:matchesWith ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+                              <http://www.w3.org/2002/07/owl#DeprecatedClass> ;
+                      deer:ObjectEndPoint   <http://vocab.getty.edu/sparql> ;
+                      deer:SubjectEndPoint  <http://kaiko.getalp.org/sparql> ;
+                      deer:confidenceValue  "0.4"
+                    ] ;
+        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
                               <http://www.w3.org/2000/01/rdf-schema#Datatype> ;
                       <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
                               deer:matchesWith ;
@@ -390,748 +389,12 @@ deer:Match_2  deer:found  [ a                     <http://www.w3.org/1999/02/22-
                     ] ;
         deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
                       <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://www.w3.org/2002/07/owl#AllDisjointClasses> ;
+                              <http://www.w3.org/2002/07/owl#Class> ;
                       <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
                               deer:matchesWith ;
                       <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://www.w3.org/2002/07/owl#DeprecatedClass> ;
+                              <http://www.w3.org/2000/01/rdf-schema#Class> ;
                       deer:ObjectEndPoint   <http://vocab.getty.edu/sparql> ;
                       deer:SubjectEndPoint  <http://kaiko.getalp.org/sparql> ;
-                      deer:confidenceValue  "0.4"
-                    ] .
-@prefix deer:  <https://w3id.org/deer/> .
-@prefix deer:  <https://w3id.org/deer/> .
-
-deer:Match_4  deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                            <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                                    <http://www.openlinksw.com/schemas/virtrdf#QuadMapATable> ;
-                            <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                                    deer:matchesWith ;
-                            <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                                    <http://www.openlinksw.com/schemas/virtrdf#QuadMap> ;
-                            deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
-                            deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
-                            deer:confidenceValue  "0.4"
-                          ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://www.openlinksw.com/schemas/virtrdf#QuadMapValue> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://www.openlinksw.com/schemas/virtrdf#QuadMap> ;
-                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
-                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
-                      deer:confidenceValue  "1.0"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMap> ;
-                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
-                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
-                      deer:confidenceValue  "0.4"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> ;
-                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
-                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
-                      deer:confidenceValue  "0.4"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://www.openlinksw.com/schemas/virtrdf#QuadMapValue> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <https://www.geonames.org/ontology#Map> ;
-                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
-                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
-                      deer:confidenceValue  "0.4"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMap> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> ;
-                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
-                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
-                      deer:confidenceValue  "0.4"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable> ;
-                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
-                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
-                      deer:confidenceValue  "0.4"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMap> ;
-                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
-                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
-                      deer:confidenceValue  "0.4"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://www.openlinksw.com/schemas/virtrdf#QuadMapColumn> ;
-                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
-                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
-                      deer:confidenceValue  "0.4"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://www.openlinksw.com/schemas/virtrdf#QuadMapATable> ;
-                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
-                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
-                      deer:confidenceValue  "0.4"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMap> ;
-                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
-                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
-                      deer:confidenceValue  "0.4"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://www.openlinksw.com/schemas/virtrdf#QuadMapValue> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://www.openlinksw.com/schemas/virtrdf#QuadStorage> ;
-                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
-                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
-                      deer:confidenceValue  "0.4"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> ;
-                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
-                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
-                      deer:confidenceValue  "0.4"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://www.openlinksw.com/schemas/virtrdf#QuadMap> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://www.openlinksw.com/schemas/virtrdf#QuadStorage> ;
-                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
-                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
-                      deer:confidenceValue  "0.4"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn> ;
-                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
-                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
-                      deer:confidenceValue  "0.4"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable> ;
-                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
-                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
-                      deer:confidenceValue  "0.4"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn> ;
-                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
-                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
-                      deer:confidenceValue  "0.4"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMap> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn> ;
-                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
-                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
-                      deer:confidenceValue  "0.4"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> ;
-                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
-                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
-                      deer:confidenceValue  "0.4"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapFormat> ;
-                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
-                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
-                      deer:confidenceValue  "0.4"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://www.openlinksw.com/schemas/virtrdf#QuadMapATable> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable> ;
-                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
-                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
-                      deer:confidenceValue  "0.4"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://www.openlinksw.com/schemas/virtrdf#QuadMap> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://www.openlinksw.com/schemas/virtrdf#QuadMapATable> ;
-                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
-                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
-                      deer:confidenceValue  "0.4"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://www.openlinksw.com/schemas/virtrdf#QuadMap> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <https://www.geonames.org/ontology#Map> ;
-                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
-                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
-                      deer:confidenceValue  "0.4"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://www.openlinksw.com/schemas/virtrdf#QuadMapColumn> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapColumn> ;
-                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
-                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
-                      deer:confidenceValue  "0.4"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMap> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://www.openlinksw.com/schemas/virtrdf#array-of-QuadMapATable> ;
-                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
-                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
-                      deer:confidenceValue  "0.4"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://www.openlinksw.com/schemas/virtrdf#QuadMap> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://www.openlinksw.com/schemas/virtrdf#QuadMapValue> ;
-                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
-                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
-                      deer:confidenceValue  "1.0"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://www.openlinksw.com/schemas/virtrdf#QuadStorage> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://www.openlinksw.com/schemas/virtrdf#QuadMap> ;
-                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
-                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
-                      deer:confidenceValue  "0.4"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://www.openlinksw.com/schemas/virtrdf#QuadStorage> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://www.openlinksw.com/schemas/virtrdf#QuadMapValue> ;
-                      deer:ObjectEndPoint   <http://dbpedia.org/sparql> ;
-                      deer:SubjectEndPoint  <http://rdf.muninn-project.org/sparql> ;
-                      deer:confidenceValue  "0.4"
-                    ] .
-@prefix deer:  <https://w3id.org/deer/> .
-
-deer:Match_5  deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                            <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                                    <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
-                            <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                                    deer:matchesWith ;
-                            <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                                    <https://id.kb.se/vocab/ConceptScheme> ;
-                            deer:ObjectEndPoint   <http://id.sgcb.mcu.es/sparql> ;
-                            deer:SubjectEndPoint  <http://libris.kb.se/sparql> ;
-                            deer:confidenceValue  "1.0"
-                          ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <https://id.kb.se/vocab/ConceptCollection> ;
-                      deer:ObjectEndPoint   <http://id.sgcb.mcu.es/sparql> ;
-                      deer:SubjectEndPoint  <http://libris.kb.se/sparql> ;
-                      deer:confidenceValue  "0.4"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <https://id.kb.se/vocab/ClassificationScheme> ;
-                      deer:ObjectEndPoint   <http://id.sgcb.mcu.es/sparql> ;
-                      deer:SubjectEndPoint  <http://libris.kb.se/sparql> ;
-                      deer:confidenceValue  "0.4"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://www.w3.org/2004/02/skos/core#Concept> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <https://id.kb.se/vocab/Concept> ;
-                      deer:ObjectEndPoint   <http://id.sgcb.mcu.es/sparql> ;
-                      deer:SubjectEndPoint  <http://libris.kb.se/sparql> ;
-                      deer:confidenceValue  "1.0"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <https://id.kb.se/vocab/TopicScheme> ;
-                      deer:ObjectEndPoint   <http://id.sgcb.mcu.es/sparql> ;
-                      deer:SubjectEndPoint  <http://libris.kb.se/sparql> ;
-                      deer:confidenceValue  "0.4"
-                    ] .
-@prefix deer:  <https://w3id.org/deer/> .
-
-deer:Match_6  deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                            <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                                    <https://id.kb.se/vocab/Person> ;
-                            <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                                    deer:matchesWith ;
-                            <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                                    <http://purl.org/collections/nl/dss/Person> ;
-                            deer:ObjectEndPoint   <http://libris.kb.se/sparql> ;
-                            deer:SubjectEndPoint  <http://semanticweb.cs.vu.nl/dss/sparql/> ;
-                            deer:confidenceValue  "1.0"
-                          ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <https://id.kb.se/vocab/ProvisionActivity> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://www.w3.org/ns/prov#Activity> ;
-                      deer:ObjectEndPoint   <http://libris.kb.se/sparql> ;
-                      deer:SubjectEndPoint  <http://semanticweb.cs.vu.nl/dss/sparql/> ;
-                      deer:confidenceValue  "0.4"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://id.loc.gov/ontologies/bibframe/Person> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://purl.org/collections/nl/dss/Person> ;
-                      deer:ObjectEndPoint   <http://libris.kb.se/sparql> ;
-                      deer:SubjectEndPoint  <http://semanticweb.cs.vu.nl/dss/sparql/> ;
-                      deer:confidenceValue  "1.0"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <https://id.kb.se/vocab/FieldOfActivity> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://www.w3.org/ns/prov#Activity> ;
-                      deer:ObjectEndPoint   <http://libris.kb.se/sparql> ;
-                      deer:SubjectEndPoint  <http://semanticweb.cs.vu.nl/dss/sparql/> ;
-                      deer:confidenceValue  "0.4"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <https://id.kb.se/vocab/CODEN> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://www.geonames.org/ontology#Code> ;
-                      deer:ObjectEndPoint   <http://libris.kb.se/sparql> ;
-                      deer:SubjectEndPoint  <http://semanticweb.cs.vu.nl/dss/sparql/> ;
-                      deer:confidenceValue  "0.6"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://id.loc.gov/ontologies/bibframe/Person> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://purl.org/collections/nl/dss/elbing/Person> ;
-                      deer:ObjectEndPoint   <http://libris.kb.se/sparql> ;
-                      deer:SubjectEndPoint  <http://semanticweb.cs.vu.nl/dss/sparql/> ;
-                      deer:confidenceValue  "1.0"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <https://id.kb.se/marc/ActionNote> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://www.w3.org/ns/prov#Activity> ;
-                      deer:ObjectEndPoint   <http://libris.kb.se/sparql> ;
-                      deer:SubjectEndPoint  <http://semanticweb.cs.vu.nl/dss/sparql/> ;
-                      deer:confidenceValue  "0.4"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <https://id.kb.se/vocab/Person> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://purl.org/collections/nl/dss/elbing/Person> ;
-                      deer:ObjectEndPoint   <http://libris.kb.se/sparql> ;
-                      deer:SubjectEndPoint  <http://semanticweb.cs.vu.nl/dss/sparql/> ;
-                      deer:confidenceValue  "1.0"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <https://id.kb.se/vocab/Document> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://xmlns.com/foaf/0.1/Document> ;
-                      deer:ObjectEndPoint   <http://libris.kb.se/sparql> ;
-                      deer:SubjectEndPoint  <http://semanticweb.cs.vu.nl/dss/sparql/> ;
-                      deer:confidenceValue  "1.0"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <https://id.kb.se/vocab/Concept> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://www.w3.org/2004/02/skos/core#Concept> ;
-                      deer:ObjectEndPoint   <http://libris.kb.se/sparql> ;
-                      deer:SubjectEndPoint  <http://semanticweb.cs.vu.nl/dss/sparql/> ;
                       deer:confidenceValue  "1.0"
                     ] .
-@prefix deer:  <https://w3id.org/deer/> .
-
-deer:Match_7  deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                            <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                                    <http://purl.org/dc/terms/Agent> ;
-                            <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                                    deer:matchesWith ;
-                            <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                                    <http://eagle-i.org/ont/repo/1.0/Agent> ;
-                            deer:ObjectEndPoint   <http://msm.eagle-i.net/sparqler/sparql> ;
-                            deer:SubjectEndPoint  <http://cau.eagle-i.net/sparqler/sparql> ;
-                            deer:confidenceValue  "0.6"
-                          ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://eagle-i.org/ont/repo/1.0/Agent> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://xmlns.com/foaf/0.1/Agent> ;
-                      deer:ObjectEndPoint   <http://msm.eagle-i.net/sparqler/sparql> ;
-                      deer:SubjectEndPoint  <http://cau.eagle-i.net/sparqler/sparql> ;
-                      deer:confidenceValue  "0.4"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://eagle-i.org/ont/repo/1.0/Agent> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://eagle-i.org/ont/app/1.0/Agent> ;
-                      deer:ObjectEndPoint   <http://msm.eagle-i.net/sparqler/sparql> ;
-                      deer:SubjectEndPoint  <http://cau.eagle-i.net/sparqler/sparql> ;
-                      deer:confidenceValue  "0.6"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://xmlns.com/foaf/0.1/Agent> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://xmlns.com/foaf/0.1/Agent> ;
-                      deer:ObjectEndPoint   <http://msm.eagle-i.net/sparqler/sparql> ;
-                      deer:SubjectEndPoint  <http://cau.eagle-i.net/sparqler/sparql> ;
-                      deer:confidenceValue  "0.6"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://eagle-i.org/ont/app/1.0/Agent> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://eagle-i.org/ont/repo/1.0/Agent> ;
-                      deer:ObjectEndPoint   <http://msm.eagle-i.net/sparqler/sparql> ;
-                      deer:SubjectEndPoint  <http://cau.eagle-i.net/sparqler/sparql> ;
-                      deer:confidenceValue  "0.6"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://xmlns.com/foaf/0.1/Agent> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://eagle-i.org/ont/app/1.0/Agent> ;
-                      deer:ObjectEndPoint   <http://msm.eagle-i.net/sparqler/sparql> ;
-                      deer:SubjectEndPoint  <http://cau.eagle-i.net/sparqler/sparql> ;
-                      deer:confidenceValue  "0.6"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://xmlns.com/foaf/0.1/Person> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://eagle-i.org/ont/repo/1.0/Person> ;
-                      deer:ObjectEndPoint   <http://msm.eagle-i.net/sparqler/sparql> ;
-                      deer:SubjectEndPoint  <http://cau.eagle-i.net/sparqler/sparql> ;
-                      deer:confidenceValue  "0.6"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://eagle-i.org/ont/app/1.0/Agent> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://xmlns.com/foaf/0.1/Agent> ;
-                      deer:ObjectEndPoint   <http://msm.eagle-i.net/sparqler/sparql> ;
-                      deer:SubjectEndPoint  <http://cau.eagle-i.net/sparqler/sparql> ;
-                      deer:confidenceValue  "0.6"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://vivoweb.org/ontology/core#CoreLaboratory> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://vivoweb.org/ontology/core#Laboratory> ;
-                      deer:ObjectEndPoint   <http://msm.eagle-i.net/sparqler/sparql> ;
-                      deer:SubjectEndPoint  <http://cau.eagle-i.net/sparqler/sparql> ;
-                      deer:confidenceValue  "0.4"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://eagle-i.org/ont/repo/1.0/Agent> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://purl.org/dc/terms/Agent> ;
-                      deer:ObjectEndPoint   <http://msm.eagle-i.net/sparqler/sparql> ;
-                      deer:SubjectEndPoint  <http://cau.eagle-i.net/sparqler/sparql> ;
-                      deer:confidenceValue  "0.6"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://eagle-i.org/ont/app/1.0/Person> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://eagle-i.org/ont/repo/1.0/Person> ;
-                      deer:ObjectEndPoint   <http://msm.eagle-i.net/sparqler/sparql> ;
-                      deer:SubjectEndPoint  <http://cau.eagle-i.net/sparqler/sparql> ;
-                      deer:confidenceValue  "0.6"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://eagle-i.org/ont/repo/1.0/Agent> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://eagle-i.org/ont/repo/1.0/Agent> ;
-                      deer:ObjectEndPoint   <http://msm.eagle-i.net/sparqler/sparql> ;
-                      deer:SubjectEndPoint  <http://cau.eagle-i.net/sparqler/sparql> ;
-                      deer:confidenceValue  "0.6"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://eagle-i.org/ont/app/1.0/Agent> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://purl.org/dc/terms/Agent> ;
-                      deer:ObjectEndPoint   <http://msm.eagle-i.net/sparqler/sparql> ;
-                      deer:SubjectEndPoint  <http://cau.eagle-i.net/sparqler/sparql> ;
-                      deer:confidenceValue  "0.6"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://xmlns.com/foaf/0.1/Agent> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://eagle-i.org/ont/repo/1.0/Agent> ;
-                      deer:ObjectEndPoint   <http://msm.eagle-i.net/sparqler/sparql> ;
-                      deer:SubjectEndPoint  <http://cau.eagle-i.net/sparqler/sparql> ;
-                      deer:confidenceValue  "1.0"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://eagle-i.org/ont/repo/1.0/WorkflowState> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://eagle-i.org/ont/repo/1.0/WorkflowTransition> ;
-                      deer:ObjectEndPoint   <http://msm.eagle-i.net/sparqler/sparql> ;
-                      deer:SubjectEndPoint  <http://cau.eagle-i.net/sparqler/sparql> ;
-                      deer:confidenceValue  "0.4"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://eagle-i.org/ont/repo/1.0/WorkflowTransition> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://eagle-i.org/ont/repo/1.0/WorkflowState> ;
-                      deer:ObjectEndPoint   <http://msm.eagle-i.net/sparqler/sparql> ;
-                      deer:SubjectEndPoint  <http://cau.eagle-i.net/sparqler/sparql> ;
-                      deer:confidenceValue  "0.4"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://purl.org/dc/terms/Agent> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://eagle-i.org/ont/app/1.0/Agent> ;
-                      deer:ObjectEndPoint   <http://msm.eagle-i.net/sparqler/sparql> ;
-                      deer:SubjectEndPoint  <http://cau.eagle-i.net/sparqler/sparql> ;
-                      deer:confidenceValue  "0.6"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://xmlns.com/foaf/0.1/Agent> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://purl.org/dc/terms/Agent> ;
-                      deer:ObjectEndPoint   <http://msm.eagle-i.net/sparqler/sparql> ;
-                      deer:SubjectEndPoint  <http://cau.eagle-i.net/sparqler/sparql> ;
-                      deer:confidenceValue  "0.6"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://xmlns.com/foaf/0.1/Person> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://eagle-i.org/ont/app/1.0/Person> ;
-                      deer:ObjectEndPoint   <http://msm.eagle-i.net/sparqler/sparql> ;
-                      deer:SubjectEndPoint  <http://cau.eagle-i.net/sparqler/sparql> ;
-                      deer:confidenceValue  "0.6"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://eagle-i.org/ont/app/1.0/Person> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://xmlns.com/foaf/0.1/Person> ;
-                      deer:ObjectEndPoint   <http://msm.eagle-i.net/sparqler/sparql> ;
-                      deer:SubjectEndPoint  <http://cau.eagle-i.net/sparqler/sparql> ;
-                      deer:confidenceValue  "0.6"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://eagle-i.org/ont/repo/1.0/Person> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://eagle-i.org/ont/app/1.0/Person> ;
-                      deer:ObjectEndPoint   <http://msm.eagle-i.net/sparqler/sparql> ;
-                      deer:SubjectEndPoint  <http://cau.eagle-i.net/sparqler/sparql> ;
-                      deer:confidenceValue  "0.6"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://purl.org/dc/terms/Agent> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://xmlns.com/foaf/0.1/Agent> ;
-                      deer:ObjectEndPoint   <http://msm.eagle-i.net/sparqler/sparql> ;
-                      deer:SubjectEndPoint  <http://cau.eagle-i.net/sparqler/sparql> ;
-                      deer:confidenceValue  "0.6"
-                    ] ;
-        deer:found  [ a                     <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
-                              <http://eagle-i.org/ont/repo/1.0/Person> ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
-                              deer:matchesWith ;
-                      <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
-                              <http://xmlns.com/foaf/0.1/Person> ;
-                      deer:ObjectEndPoint   <http://msm.eagle-i.net/sparqler/sparql> ;
-                      deer:SubjectEndPoint  <http://cau.eagle-i.net/sparqler/sparql> ;
-                      deer:confidenceValue  "0.6"
-                    ] .
-@prefix deer:  <https://w3id.org/deer/> .

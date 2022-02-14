@@ -26,7 +26,7 @@ import cn.ac.amss.semanticweb.matching.StructuralMatcher;
 import cn.ac.amss.semanticweb.model.ModelStorage;
 
 public class FCA_Matcher {
-	static int numberOfMatches=0;
+	final String deer = "https://w3id.org/deer/";
 
 	public List<Model> fcaInvoker(String file1, String file2, String subjectEndpoint, String ObjectEndpoint, int fileCounter,
 			String typeOfMap) throws IOException {
@@ -51,8 +51,7 @@ public class FCA_Matcher {
 		structuralMatcher.addAllSubjectAnchors(lexicalOntClassMappings);
 		structuralMatcher.addAllObjectAnchors(lexicalOntClassMappings);
 
-		// FCA_Matcher fca = new FCA_Matcher();
-
+		// Storing ArrayList of Matched Models
 		List<Model> matchedModel = new ArrayList<Model>();
 		
 		System.out.println("*********Inside FCA Matcher class ***********");
@@ -105,12 +104,13 @@ public class FCA_Matcher {
 
 		Model model1 = ModelFactory.createDefaultModel();
 		Iterator<MappingCell> iterrator = lexicalOntClassMappings.iterator();
+		
 		while (iterrator.hasNext()) {
 			MappingCell next = iterrator.next();
 
-			String deer = "https://w3id.org/deer/";
 			
-			final Resource matchResource = model1.createResource(deer + "Match_" + numberOfMatches);
+			
+			final Resource matchResource = model1.createResource(deer + "Match" );
 			final Property matchProperty = model1.createProperty(deer, "found");
 			
 
@@ -129,7 +129,7 @@ public class FCA_Matcher {
 
 			model1.add(matchResource, matchProperty, createReifiedStatement);
 			classMatching.add(model1);
-			if (!model1.isEmpty()) FCA_Matcher.numberOfMatches++;
+		
 		}
 		try (OutputStream output = new FileOutputStream("MappingOutputLexicalMatcherClass" + ".ttl")) {
 			model1.write(output, "TURTLE");
@@ -147,18 +147,17 @@ public class FCA_Matcher {
 		Iterator<MappingCell> iterrator3 = structuralOntClassMappings.iterator();
 		while (iterrator3.hasNext()) {
 			MappingCell next = iterrator3.next();
-			String deer = "https://w3id.org/deer/";
+			
 			// int numberOfMatches = 1;
-			final Resource matchResource = model2.createResource(deer + "Match_" + numberOfMatches);
+			final Resource matchResource = model2.createResource(deer + "Match" );
 			final Property matchProperty = model2.createProperty(deer, "found");
 			// numberOfMatches++;
 
 			Resource resource = model2.createResource(next.getEntity1());
-			// Property related = model.createProperty("https://w3id.org/deer/matchesWith");
+			
 			Property related = model2.createProperty(deer, "matchesWith");
 			Resource resource2 = model2.createResource(next.getEntity2());
-			// confidence
-			// Property confProp = model.createProperty("confidence");
+			
 			Property confProp = model2.createProperty(deer, "confidenceValue");
 			double confidence2 = next.getMeasure();
 			Literal confidence = model2.createLiteral(String.valueOf(confidence2));
@@ -171,7 +170,7 @@ public class FCA_Matcher {
 
 			model2.add(matchResource, matchProperty, createReifiedStatement);
 			classMatching.add(model2);
-			if (!model2.isEmpty()) numberOfMatches++;
+			
 
 		}
 		try (OutputStream output = new FileOutputStream("MappingOutputStructuralClassMappings" + ".ttl")) {
@@ -193,25 +192,21 @@ public class FCA_Matcher {
 
 		Model model1 = ModelFactory.createDefaultModel();
 		Iterator<MappingCell> iterrator1 = lexicalObjectPropertyMappings.iterator();
+		
 		while (iterrator1.hasNext()) {
-			// 1 2 3 4 5
+			
 			MappingCell next = iterrator1.next();
-			/*
-			 * System.out.println(next.getEntity1()); System.out.println(next.getEntity2());
-			 * //System.out.println(iterrator.next().getMeasure()); }
-			 */
-			String deer = "https://w3id.org/deer/";
-			// int numberOfMatches = 1;
-			final Resource matchResource = model1.createResource(deer + "Match_" +numberOfMatches);
+			
+			
+			
+			final Resource matchResource = model1.createResource(deer + "Match");
 			final Property matchProperty = model1.createProperty(deer, "found");
 			// numberOfMatches++;
 
 			Resource resource = model1.createResource(next.getEntity1());
-			// Property related = model.createProperty("https://w3id.org/deer/matchesWith");
+			
 			Property related = model1.createProperty(deer, "matchesWith");
 			Resource resource2 = model1.createResource(next.getEntity2());
-			// confidence
-			// Property confProp = model.createProperty("confidence");
 			Property confProp = model1.createProperty(deer, "confidenceValue");
 			double confidence2 = next.getMeasure();
 			Literal confidence = model1.createLiteral(String.valueOf(confidence2));
@@ -222,7 +217,6 @@ public class FCA_Matcher {
 
 			model1.add(matchResource, matchProperty, createReifiedStatement);
 			objectPropertyModel.add(model1);
-			if (!model1.isEmpty()) numberOfMatches++;
 		}
 		try (OutputStream output = new FileOutputStream("MappingOutputLexicalObjectPropertyMappings" + ".ttl")) {
 			model1.write(output, "TURTLE");
@@ -240,11 +234,10 @@ public class FCA_Matcher {
 		Iterator<MappingCell> iterrator4 = structuralDataTypeMappings.iterator();
 		while (iterrator4.hasNext()) {
 			MappingCell next = iterrator4.next();
-			String deer = "https://w3id.org/deer/";
-			// int numberOfMatches = 1;
-			final Resource matchResource = model2.createResource(deer + "Match_" + numberOfMatches);
+			
+			
+			final Resource matchResource = model2.createResource(deer + "Match" );
 			final Property matchProperty = model2.createProperty(deer, "found");
-			// numberOfMatches++;
 
 			Resource resource = model2.createResource(next.getEntity1());
 
@@ -262,7 +255,7 @@ public class FCA_Matcher {
 
 			model2.add(matchResource, matchProperty, createReifiedStatement);
 			objectPropertyModel.add(model2);
-			if (!model2.isEmpty()) numberOfMatches++;
+			
 		}
 		try (OutputStream output = new FileOutputStream("MappingOutputStructuralDataTypeMappings" + ".ttl")) {
 			model2.write(output, "TURTLE");
@@ -285,11 +278,12 @@ public class FCA_Matcher {
 
 		Model model1 = ModelFactory.createDefaultModel();
 		Iterator<MappingCell> iterrator2 = lexicalDataPropertyMappings.iterator();
+		
 		while (iterrator2.hasNext()) {
 			MappingCell next = iterrator2.next();
-			String deer = "https://w3id.org/deer/";
+			
 			// int numberOfMatches = 1;
-			final Resource matchResource = model1.createResource(deer + "Match_"+numberOfMatches);
+			final Resource matchResource = model1.createResource(deer + "Match");
 			final Property matchProperty = model1.createProperty(deer, "found");
 			// numberOfMatches++;
 
@@ -309,7 +303,7 @@ public class FCA_Matcher {
 
 			model1.add(matchResource, matchProperty, createReifiedStatement);
 			dataPropertyModel.add(model1);
-			if (!model1.isEmpty()) numberOfMatches++;
+			
 		}
 		try (OutputStream output = new FileOutputStream("MappingOutputLexicalDataPropertyMappings" + ".ttl")) {
 			model1.write(output, "TURTLE");
@@ -325,20 +319,18 @@ public class FCA_Matcher {
 		Model model2 = ModelFactory.createDefaultModel();
 		Iterator<MappingCell> iterrator5 = structuralObjectTypeMappings.iterator();
 		while (iterrator5.hasNext()) {
+			
 			MappingCell next = iterrator5.next();
-			String deer = "https://w3id.org/deer/";
-			// int numberOfMatches = 1;
-			final Resource matchResource = model2.createResource(deer + "Match_" + numberOfMatches);
+			
+			final Resource matchResource = model2.createResource(deer + "Match" );
 			final Property matchProperty = model2.createProperty(deer, "found");
-			// numberOfMatches++;
-
+			
 			Resource resource = model2.createResource(next.getEntity1());
-			// Property related = model.createProperty("https://w3id.org/deer/matchesWith");
+			
 			Property related = model2.createProperty(deer, "matchesWith");
 			Resource resource2 = model2.createResource(next.getEntity2());
-			// confidence
-			// Property confProp = model.createProperty("confidence");
 			Property confProp = model2.createProperty(deer, "confidenceValue");
+			
 			double confidence2 = next.getMeasure();
 			Literal confidence = model2.createLiteral(String.valueOf(confidence2));
 			Statement stmt2 = model2.createStatement(resource, related, resource2);
@@ -348,7 +340,7 @@ public class FCA_Matcher {
 
 			model2.add(matchResource, matchProperty, createReifiedStatement);
 			dataPropertyModel.add(model2);
-			if (!model2.isEmpty()) numberOfMatches++;
+			
 		}
 		try (OutputStream output = new FileOutputStream("MappingOutputStructuralObjectTypeMappings" + ".ttl")) {
 			model2.write(output, "TURTLE");
