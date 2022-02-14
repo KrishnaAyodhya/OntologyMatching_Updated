@@ -9,7 +9,7 @@
 
 :reader
  a deer:FileModelReader ;
- deer:fromPath "Test.ttl";
+ deer:fromPath "Test_Limes_Input.ttl";
 .
 
 :ontologyMatcher
