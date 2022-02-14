@@ -25,15 +25,21 @@ import cn.ac.amss.semanticweb.matching.MatcherFactory;
 import cn.ac.amss.semanticweb.matching.StructuralMatcher;
 import cn.ac.amss.semanticweb.model.ModelStorage;
 
+/**
+ * 
+ * @author Krishna Madhav and Sowmya Kamath Ramesh
+ *
+ */
 public class FCA_Matcher {
 	final String deer = "https://w3id.org/deer/";
 
-	public List<Model> fcaInvoker(String file1, String file2, String subjectEndpoint, String ObjectEndpoint, int fileCounter,
+	public List<Model> fcaInvoker(String file1, String file2, String subjectEndpoint, String objectEndpoint, int fileCounter,
 			String typeOfMap) throws IOException {
+		
 		ModelStorage source = new ModelStorage(file1);
 		ModelStorage target = new ModelStorage(file2);
 
-		/************************** Lexical-level Matching ***************************/
+		//************************** Lexical-level Matching ***************************/
 
 		LexicalMatcher lexicalMatcher = MatcherFactory.createLexicalMatcher();
 		Mapping lexicalOntClassMappings = new Mapping();
@@ -42,7 +48,7 @@ public class FCA_Matcher {
 		lexicalMatcher.setExtractType(true, true);
 		lexicalMatcher.mapOntClasses(lexicalOntClassMappings);
 
-		/************************* Structural-level Matching *************************/
+		//************************* Structural-level Matching *************************/
 		StructuralMatcher structuralMatcher = MatcherFactory.createStructuralMatcher();
 		structuralMatcher.setSourceTarget(source, target);
 		structuralMatcher.setExtractType(true, true);
@@ -54,41 +60,47 @@ public class FCA_Matcher {
 		// Storing ArrayList of Matched Models
 		List<Model> matchedModel = new ArrayList<Model>();
 		
-		System.out.println("*********Inside FCA Matcher class ***********");
+		
+		// Choosing Type of Ma
 		switch (typeOfMap) {
+		
 		case "Classes":
-			matchedModel = classMatching(lexicalOntClassMappings, structuralMatcher);
+			matchedModel = classMatching(lexicalOntClassMappings, structuralMatcher,subjectEndpoint,objectEndpoint);
 			
 			break;
 
 		case "dataProperty":
-			matchedModel = dataProperty(structuralMatcher, lexicalMatcher);
+			matchedModel = dataProperty(structuralMatcher, lexicalMatcher,subjectEndpoint,objectEndpoint);
 			
 			break;
 
 		case "objectProperty":
-			matchedModel = objectPropertyMatching(structuralMatcher, lexicalMatcher);
+			matchedModel = objectPropertyMatching(structuralMatcher, lexicalMatcher,subjectEndpoint,objectEndpoint);
 			
 			break;
 
 		case "Classes and dataProperty":
-			matchedModel = classMatching(lexicalOntClassMappings, structuralMatcher);
-			matchedModel.addAll(dataProperty(structuralMatcher, lexicalMatcher));
+			matchedModel = classMatching(lexicalOntClassMappings, structuralMatcher,subjectEndpoint,objectEndpoint);
+			matchedModel.addAll(dataProperty(structuralMatcher, lexicalMatcher,subjectEndpoint,objectEndpoint));
+			
 			break;
 			
 		case "Classes and objectProperty":
-			matchedModel = classMatching(lexicalOntClassMappings, structuralMatcher);
-			matchedModel.addAll(objectPropertyMatching(structuralMatcher, lexicalMatcher));
+			matchedModel = classMatching(lexicalOntClassMappings, structuralMatcher,subjectEndpoint,objectEndpoint);
+			matchedModel.addAll(objectPropertyMatching(structuralMatcher, lexicalMatcher, subjectEndpoint, objectEndpoint));
+			
 			break;
 			
 		case "Classes and dataProperty and objectProperty":
-			matchedModel = classMatching(lexicalOntClassMappings, structuralMatcher);
-			matchedModel.addAll(dataProperty(structuralMatcher, lexicalMatcher));
-			matchedModel.addAll(objectPropertyMatching(structuralMatcher, lexicalMatcher));
+			matchedModel = classMatching(lexicalOntClassMappings, structuralMatcher,subjectEndpoint,objectEndpoint);
+			matchedModel.addAll(dataProperty(structuralMatcher, lexicalMatcher,subjectEndpoint,objectEndpoint));
+			matchedModel.addAll(objectPropertyMatching(structuralMatcher, lexicalMatcher, subjectEndpoint, objectEndpoint));
+			
 			break;
 
 		default:
-			matchedModel = classMatching(lexicalOntClassMappings, structuralMatcher);
+			matchedModel = classMatching(lexicalOntClassMappings, structuralMatcher,subjectEndpoint,objectEndpoint);
+			
 			break;
 		}
 		
@@ -98,93 +110,118 @@ public class FCA_Matcher {
 		return matchedModel;
 	}
 
-	// Model and model3 are class matching
-	public List<Model> classMatching(Mapping lexicalOntClassMappings, StructuralMatcher structuralMatcher) {
+	
+	/**
+	 * Model created are for lexical and structural Class Matching
+	 * @param lexicalOntClassMappings
+	 * @param structuralMatcher
+	 * @param subjectEndpoint
+	 * @param objectEndpoint
+	 * @return
+	 */
+	
+	public List<Model> classMatching(Mapping lexicalOntClassMappings, StructuralMatcher structuralMatcher, String subjectEndpoint, String objectEndpoint) {
 		List<Model> classMatching = new ArrayList<Model>();
 
 		Model model1 = ModelFactory.createDefaultModel();
 		Iterator<MappingCell> iterrator = lexicalOntClassMappings.iterator();
 		
+		// Reification
 		while (iterrator.hasNext()) {
 			MappingCell next = iterrator.next();
 
+			// setting prefix for model
+			model1.setNsPrefix("deer", deer);			
 			
-			
-			final Resource matchResource = model1.createResource(deer + "Match" );
-			final Property matchProperty = model1.createProperty(deer, "found");
-			
+			final Resource matchResource = model1.createResource(deer + OntologyConstants.MATCH );
+			final Property matchProperty = model1.createProperty(deer, OntologyConstants.FOUND);
+			double confidence2 = next.getMeasure();
 
 			Resource resource = model1.createResource(next.getEntity1());
-			// Property related = model.createProperty("https://w3id.org/deer/matchesWith");
-			Property related = model1.createProperty(deer, "matchesWith");
+			
+			Property related = model1.createProperty(deer, OntologyConstants.MATCHES_WITH);
 			Resource resource2 = model1.createResource(next.getEntity2());
+			
 			// confidence
-			Property confProp = model1.createProperty(deer, "confidenceValue");
-			double confidence2 = next.getMeasure();
+			Property confProp = model1.createProperty(deer, OntologyConstants.CONFIDENCE_VALUE);
 			Literal confidence = model1.createLiteral(String.valueOf(confidence2));
-			Statement stmt2 = model1.createStatement(resource, related, resource2);
+			
+			Property spEP1 = model1.createProperty(deer, OntologyConstants.SUBJECT_ENDPOINT);
+			Resource sparqlEndPoint1 = model1.createResource(subjectEndpoint);
 
+			Property spEP2 = model1.createProperty(deer, OntologyConstants.OBJECT_ENDPOINT);
+			Resource sparqlEndPoint2 = model1.createResource(objectEndpoint);
+
+			Statement stmt2 = model1.createStatement(resource, related, resource2);
+			
 			ReifiedStatement createReifiedStatement = model1.createReifiedStatement(stmt2);
+			createReifiedStatement.addProperty(spEP1, sparqlEndPoint1);
+			createReifiedStatement.addProperty(spEP2, sparqlEndPoint2);
 			createReifiedStatement.addProperty(confProp, confidence);
 
 			model1.add(matchResource, matchProperty, createReifiedStatement);
 			classMatching.add(model1);
 		
 		}
-		try (OutputStream output = new FileOutputStream("MappingOutputLexicalMatcherClass" + ".ttl")) {
-			model1.write(output, "TURTLE");
-			model1.write(System.out, "TURTLE");
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} catch (IOException e1) {
-			e1.printStackTrace();
-		}
+		
 
 		Mapping structuralOntClassMappings = new Mapping();
 		structuralMatcher.mapOntClasses(structuralOntClassMappings);
 
 		Model model2 = ModelFactory.createDefaultModel();
 		Iterator<MappingCell> iterrator3 = structuralOntClassMappings.iterator();
+		
+		// Reification 
 		while (iterrator3.hasNext()) {
 			MappingCell next = iterrator3.next();
+
+			// setting prefix for model
+			model2.setNsPrefix("deer", deer);
 			
-			// int numberOfMatches = 1;
-			final Resource matchResource = model2.createResource(deer + "Match" );
-			final Property matchProperty = model2.createProperty(deer, "found");
-			// numberOfMatches++;
+			final Resource matchResource = model2.createResource(deer + OntologyConstants.MATCH );
+			final Property matchProperty = model2.createProperty(deer, OntologyConstants.FOUND);
 
 			Resource resource = model2.createResource(next.getEntity1());
 			
-			Property related = model2.createProperty(deer, "matchesWith");
+			Property related = model2.createProperty(deer, OntologyConstants.MATCHES_WITH);
 			Resource resource2 = model2.createResource(next.getEntity2());
 			
-			Property confProp = model2.createProperty(deer, "confidenceValue");
+			Property confProp = model2.createProperty(deer, OntologyConstants.CONFIDENCE_VALUE);
 			double confidence2 = next.getMeasure();
 			Literal confidence = model2.createLiteral(String.valueOf(confidence2));
+			
+			Property spEP1 = model2.createProperty(deer, OntologyConstants.SUBJECT_ENDPOINT);
+			Resource sparqlEndPoint1 = model2.createResource(subjectEndpoint);
+
+			Property spEP2 = model2.createProperty(deer, OntologyConstants.OBJECT_ENDPOINT);
+			Resource sparqlEndPoint2 = model2.createResource(objectEndpoint);
+			
 			Statement stmt2 = model2.createStatement(resource, related, resource2);
 
 			ReifiedStatement createReifiedStatement = model2.createReifiedStatement(stmt2);
 			createReifiedStatement.addProperty(confProp, confidence);
-			
-			
-
+			createReifiedStatement.addProperty(spEP1, sparqlEndPoint1);
+			createReifiedStatement.addProperty(spEP2, sparqlEndPoint2);
 			model2.add(matchResource, matchProperty, createReifiedStatement);
 			classMatching.add(model2);
 			
 
 		}
-		try (OutputStream output = new FileOutputStream("MappingOutputStructuralClassMappings" + ".ttl")) {
-			model2.write(output, "TURTLE");
-			model2.write(System.out, "TURTLE");
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+		
 		return classMatching;
 
 	}
 
-	/* Model 1 and Model 4 are Object property */
-	public List<Model> objectPropertyMatching(StructuralMatcher structuralMatcher, LexicalMatcher lexicalMatcher) {
+
+	/**
+	 * Model created are for lexical and structural Object Property Matching
+	 * @param structuralMatcher
+	 * @param lexicalMatcher
+	 * @param subjectEndpoint
+	 * @param objectEndpoint
+	 * @return
+	 */
+	public List<Model> objectPropertyMatching(StructuralMatcher structuralMatcher, LexicalMatcher lexicalMatcher, String subjectEndpoint, String objectEndpoint) {
 
 		List<Model> objectPropertyModel = new ArrayList<Model>();
 		Mapping lexicalObjectPropertyMappings = new Mapping();
@@ -193,84 +230,100 @@ public class FCA_Matcher {
 		Model model1 = ModelFactory.createDefaultModel();
 		Iterator<MappingCell> iterrator1 = lexicalObjectPropertyMappings.iterator();
 		
+		// Reification
 		while (iterrator1.hasNext()) {
 			
 			MappingCell next = iterrator1.next();
 			
+			// setting prefix for model
+			model1.setNsPrefix("deer", deer);
 			
-			
-			final Resource matchResource = model1.createResource(deer + "Match");
-			final Property matchProperty = model1.createProperty(deer, "found");
-			// numberOfMatches++;
+			final Resource matchResource = model1.createResource(deer + OntologyConstants.MATCH);
+			final Property matchProperty = model1.createProperty(deer, OntologyConstants.FOUND);
 
 			Resource resource = model1.createResource(next.getEntity1());
 			
-			Property related = model1.createProperty(deer, "matchesWith");
+			Property related = model1.createProperty(deer, OntologyConstants.MATCHES_WITH);
 			Resource resource2 = model1.createResource(next.getEntity2());
-			Property confProp = model1.createProperty(deer, "confidenceValue");
+			Property confProp = model1.createProperty(deer, OntologyConstants.CONFIDENCE_VALUE);
 			double confidence2 = next.getMeasure();
 			Literal confidence = model1.createLiteral(String.valueOf(confidence2));
+			
+			Property spEP1 = model1.createProperty(deer, OntologyConstants.SUBJECT_ENDPOINT);
+			Resource sparqlEndPoint1 = model1.createResource(subjectEndpoint);
+
+			Property spEP2 = model1.createProperty(deer, OntologyConstants.OBJECT_ENDPOINT);
+			Resource sparqlEndPoint2 = model1.createResource(objectEndpoint);
+			
 			Statement stmt2 = model1.createStatement(resource, related, resource2);
 
 			ReifiedStatement createReifiedStatement = model1.createReifiedStatement(stmt2);
 			createReifiedStatement.addProperty(confProp, confidence);
-
+			createReifiedStatement.addProperty(spEP1, sparqlEndPoint1);
+			createReifiedStatement.addProperty(spEP2, sparqlEndPoint2);
 			model1.add(matchResource, matchProperty, createReifiedStatement);
+			
 			objectPropertyModel.add(model1);
 		}
-		try (OutputStream output = new FileOutputStream("MappingOutputLexicalObjectPropertyMappings" + ".ttl")) {
-			model1.write(output, "TURTLE");
-			model1.write(System.out, "TURTLE");
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} catch (IOException e1) {
-			e1.printStackTrace();
-		}
 
+		// Structural Mappings
 		Mapping structuralDataTypeMappings = new Mapping();
 		structuralMatcher.mapDataTypeProperties(structuralDataTypeMappings);
 
 		Model model2 = ModelFactory.createDefaultModel();
 		Iterator<MappingCell> iterrator4 = structuralDataTypeMappings.iterator();
+		
+		// Reification
 		while (iterrator4.hasNext()) {
 			MappingCell next = iterrator4.next();
 			
+			// setting prefix for model
+			model2.setNsPrefix("deer", deer);
 			
-			final Resource matchResource = model2.createResource(deer + "Match" );
-			final Property matchProperty = model2.createProperty(deer, "found");
+			final Resource matchResource = model2.createResource(deer + OntologyConstants.MATCH );
+			final Property matchProperty = model2.createProperty(deer, OntologyConstants.FOUND);
 
 			Resource resource = model2.createResource(next.getEntity1());
 
-			Property related = model2.createProperty(deer, "matchesWith");
+			Property related = model2.createProperty(deer, OntologyConstants.MATCHES_WITH);
 			Resource resource2 = model2.createResource(next.getEntity2());
 			// confidence
 
-			Property confProp = model2.createProperty(deer, "confidenceValue");
+			Property confProp = model2.createProperty(deer, OntologyConstants.CONFIDENCE_VALUE);
 			double confidence2 = next.getMeasure();
 			Literal confidence = model2.createLiteral(String.valueOf(confidence2));
+			
+			Property spEP1 = model2.createProperty(deer, OntologyConstants.SUBJECT_ENDPOINT);
+			Resource sparqlEndPoint1 = model2.createResource(subjectEndpoint);
+
+			Property spEP2 = model2.createProperty(deer, OntologyConstants.OBJECT_ENDPOINT);
+			Resource sparqlEndPoint2 = model2.createResource(objectEndpoint);
+			
 			Statement stmt2 = model2.createStatement(resource, related, resource2);
 
 			ReifiedStatement createReifiedStatement = model2.createReifiedStatement(stmt2);
 			createReifiedStatement.addProperty(confProp, confidence);
+			createReifiedStatement.addProperty(spEP1, sparqlEndPoint1);
+			createReifiedStatement.addProperty(spEP2, sparqlEndPoint2);
 
 			model2.add(matchResource, matchProperty, createReifiedStatement);
 			objectPropertyModel.add(model2);
 			
 		}
-		try (OutputStream output = new FileOutputStream("MappingOutputStructuralDataTypeMappings" + ".ttl")) {
-			model2.write(output, "TURTLE");
-			model2.write(System.out, "TURTLE");
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} catch (IOException e1) {
-			e1.printStackTrace();
-		}
+		
 		return objectPropertyModel;
 
 	}
 
-	/* Model2 and Model 5 are data property */
-	public List<Model> dataProperty(StructuralMatcher structuralMatcher, LexicalMatcher lexicalMatcher) {
+	/**
+	 * Model created are for lexical and structural Data Propert Matching
+	 * @param structuralMatcher
+	 * @param lexicalMatcher
+	 * @param subjectEndpoint
+	 * @param objectEndpoint
+	 * @return
+	 */
+	public List<Model> dataProperty(StructuralMatcher structuralMatcher, LexicalMatcher lexicalMatcher, String subjectEndpoint, String objectEndpoint) {
 
 		List<Model> dataPropertyModel = new ArrayList<Model>();
 		Mapping lexicalDataPropertyMappings = new Mapping();
@@ -282,24 +335,34 @@ public class FCA_Matcher {
 		while (iterrator2.hasNext()) {
 			MappingCell next = iterrator2.next();
 			
-			// int numberOfMatches = 1;
-			final Resource matchResource = model1.createResource(deer + "Match");
-			final Property matchProperty = model1.createProperty(deer, "found");
-			// numberOfMatches++;
-
+			// setting prefix for model
+			model1.setNsPrefix("deer", deer);
+			
+			final Resource matchResource = model1.createResource(deer + OntologyConstants.MATCH);
+			final Property matchProperty = model1.createProperty(deer, OntologyConstants.FOUND);
+		
 			Resource resource = model1.createResource(next.getEntity1());
-			// Property related = model.createProperty("https://w3id.org/deer/matchesWith");
-			Property related = model1.createProperty(deer, "matchesWith");
+			
+			Property related = model1.createProperty(deer, OntologyConstants.MATCHES_WITH);
 			Resource resource2 = model1.createResource(next.getEntity2());
+		
 			// confidence
-			// Property confProp = model.createProperty("confidence");
-			Property confProp = model1.createProperty(deer, "confidenceValue");
+			Property confProp = model1.createProperty(deer, OntologyConstants.CONFIDENCE_VALUE);
 			double confidence2 = next.getMeasure();
 			Literal confidence = model1.createLiteral(String.valueOf(confidence2));
+			
+			Property spEP1 = model1.createProperty(deer, OntologyConstants.SUBJECT_ENDPOINT);
+			Resource sparqlEndPoint1 = model1.createResource(subjectEndpoint);
+
+			Property spEP2 = model1.createProperty(deer, OntologyConstants.OBJECT_ENDPOINT);
+			Resource sparqlEndPoint2 = model1.createResource(objectEndpoint);
+			
 			Statement stmt2 = model1.createStatement(resource, related, resource2);
 
 			ReifiedStatement createReifiedStatement = model1.createReifiedStatement(stmt2);
 			createReifiedStatement.addProperty(confProp, confidence);
+			createReifiedStatement.addProperty(spEP1, sparqlEndPoint1);
+			createReifiedStatement.addProperty(spEP2, sparqlEndPoint2);
 
 			model1.add(matchResource, matchProperty, createReifiedStatement);
 			dataPropertyModel.add(model1);
@@ -316,40 +379,48 @@ public class FCA_Matcher {
 
 		Mapping structuralObjectTypeMappings = new Mapping();
 		structuralMatcher.mapObjectProperties(structuralObjectTypeMappings);
+		
 		Model model2 = ModelFactory.createDefaultModel();
 		Iterator<MappingCell> iterrator5 = structuralObjectTypeMappings.iterator();
+		
+		// Reification
 		while (iterrator5.hasNext()) {
 			
 			MappingCell next = iterrator5.next();
 			
-			final Resource matchResource = model2.createResource(deer + "Match" );
-			final Property matchProperty = model2.createProperty(deer, "found");
+			// setting prefix for model
+			model2.setNsPrefix("deer", deer);
+			
+			final Resource matchResource = model2.createResource(deer + OntologyConstants.MATCH );
+			final Property matchProperty = model2.createProperty(deer, OntologyConstants.FOUND);
 			
 			Resource resource = model2.createResource(next.getEntity1());
 			
-			Property related = model2.createProperty(deer, "matchesWith");
+			Property related = model2.createProperty(deer, OntologyConstants.MATCHES_WITH);
 			Resource resource2 = model2.createResource(next.getEntity2());
-			Property confProp = model2.createProperty(deer, "confidenceValue");
+			Property confProp = model2.createProperty(deer, OntologyConstants.CONFIDENCE_VALUE);
 			
 			double confidence2 = next.getMeasure();
 			Literal confidence = model2.createLiteral(String.valueOf(confidence2));
+
+			Property spEP1 = model2.createProperty(deer, OntologyConstants.SUBJECT_ENDPOINT);
+			Resource sparqlEndPoint1 = model2.createResource(subjectEndpoint);
+
+			Property spEP2 = model2.createProperty(deer, OntologyConstants.OBJECT_ENDPOINT);
+			Resource sparqlEndPoint2 = model2.createResource(objectEndpoint);
+			
 			Statement stmt2 = model2.createStatement(resource, related, resource2);
 
 			ReifiedStatement createReifiedStatement = model2.createReifiedStatement(stmt2);
 			createReifiedStatement.addProperty(confProp, confidence);
+			createReifiedStatement.addProperty(spEP1, sparqlEndPoint1);
+			createReifiedStatement.addProperty(spEP2, sparqlEndPoint2);
 
 			model2.add(matchResource, matchProperty, createReifiedStatement);
 			dataPropertyModel.add(model2);
 			
 		}
-		try (OutputStream output = new FileOutputStream("MappingOutputStructuralObjectTypeMappings" + ".ttl")) {
-			model2.write(output, "TURTLE");
-			model2.write(System.out, "TURTLE");
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} catch (IOException e1) {
-			e1.printStackTrace();
-		}
+		
 		return dataPropertyModel;
 	}
 

@@ -11,24 +11,35 @@ import java.io.StringWriter;
 import java.io.Writer;
 import java.util.List;
 
+
+/**
+ * 
+ * @author Krishna Madhav and Sowmya Kamath Ramesh
+ *
+ */
 @Extension
 public class StdOutModelWriter extends AbstractModelWriter {
 
-  private static final Logger logger = LoggerFactory.getLogger(StdOutModelWriter.class);
+	private static final Logger logger = LoggerFactory.getLogger(StdOutModelWriter.class);
 
-  @Override
-  public ValidatableParameterMap createParameterMap() {
-    return ValidatableParameterMap.builder()
-      .declareValidationShape(getValidationModelFor(StdOutModelWriter.class))
-      .build();
-  }
+	@Override
+	public ValidatableParameterMap createParameterMap() {
+		return ValidatableParameterMap.builder().declareValidationShape(getValidationModelFor(StdOutModelWriter.class))
+				.build();
+	}
 
-  @Override
-  protected List<Model> safeApply(List<Model> models) {
-	  
-    Writer writer = new StringWriter();
-    models.get(0).write(writer, "TTL");
-    System.out.println(writer);
-    return models;
-  }
+	@Override
+	protected List<Model> safeApply(List<Model> models) {
+
+		System.out.println("Out*****1");
+		Writer writer = new StringWriter();
+		System.out.println("Out*****2");
+		if (!models.isEmpty()) {
+			models.get(0).write(writer, "TTL");
+		}
+		System.out.println("Out*****3");
+		System.out.println(writer);
+		System.out.println("Out*****4");
+		return models;
+	}
 }

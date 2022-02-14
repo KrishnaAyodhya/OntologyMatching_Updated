@@ -2296,14 +2296,14 @@
     >2019-08-02T06:42:36.963Z</date>
     <subject xml:lang="de">Geologische Einheiten auf Karten der Geologischen Bundesanstalt</subject>
     <title xml:lang="de">Geologische Einheiten</title>
-    <license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
-    <publisher rdf:resource="http://localhost/users/Geological-Survey-of-Austria"/>
     <j.8:feature>
       <j.8:TechnicalFeature>
         <format>application/rdf+xml</format>
         <rdfs:label>RDF/XML</rdfs:label>
       </j.8:TechnicalFeature>
     </j.8:feature>
+    <license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+    <publisher rdf:resource="http://localhost/users/Geological-Survey-of-Austria"/>
     <subject xml:lang="en">Geologic Units from Maps of the Geological Survey of Austria</subject>
     <description xml:lang="de">Das Thema Geologische Einheiten umfasst verschiedene als Punkte, Linien oder Flächen dargestellte Einheiten und Signaturen auf geologischen Karten. Derzeit sind neben den lithostratigraphischen Einheiten der „Stratigraphischen Tabelle von Österreich' (Piller et al., 2004) ebenso lithogenetische, allostratigraphische und geomorphologische Einheiten, sowie lithodemische Einheiten erfasst. Die meist geographischen, informellen Gliederungseinheiten der „Stratigraphischen Tabelle von Österreich', wurden zusätzlich noch mit eckigen Klammern gekennzeichnet und sollten nicht zur Attributierung verwendet werden.</description>
   </j.8:Dataset>

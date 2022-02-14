@@ -1180,21 +1180,6 @@
                 ] ;
         owl:versionInfo  "$Id: repository-ont.n3 19120 2015-04-30 05:13:28Z scheng $" .
 
-<http://utep.eagle-i.net/i/00000136-acba-a63d-8626-74df80000000>
-        a       <http://purl.obolibrary.org/obo/OBI_0400107> ;
-        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
-                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
-        <http://purl.obolibrary.org/obo/ERO_0000021>
-                <http://utep.eagle-i.net/i/00000136-08a0-b3b3-f687-036180000000> ;
-        <http://purl.obolibrary.org/obo/ERO_0000480>
-                "http://isoglyp.utep.edu/" ;
-        <http://purl.obolibrary.org/obo/RO_0001025>
-                <http://utep.eagle-i.net/i/00000134-aa20-7ae5-bfc0-fe9780000000> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
-        <http://purl.org/dc/terms/creator>
-                <http://utep.eagle-i.net/i/00000136-8296-62d0-8626-74df80000000> .
-
 <http://utep.eagle-i.net/i/00000136-f000-abfe-8626-74df80000000>
         a       <http://purl.obolibrary.org/obo/ERO_0000394> ;
         <http://eagle-i.org/ont/app/1.0/feeforservice>
@@ -1211,6 +1196,21 @@
                 <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
         <http://purl.org/dc/terms/creator>
                 <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> .
+
+<http://utep.eagle-i.net/i/00000136-acba-a63d-8626-74df80000000>
+        a       <http://purl.obolibrary.org/obo/OBI_0400107> ;
+        <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
+                <http://eagle-i.org/ont/repo/1.0/WFS_Published> ;
+        <http://purl.obolibrary.org/obo/ERO_0000021>
+                <http://utep.eagle-i.net/i/00000136-08a0-b3b3-f687-036180000000> ;
+        <http://purl.obolibrary.org/obo/ERO_0000480>
+                "http://isoglyp.utep.edu/" ;
+        <http://purl.obolibrary.org/obo/RO_0001025>
+                <http://utep.eagle-i.net/i/00000134-aa20-7ae5-bfc0-fe9780000000> ;
+        <http://purl.org/dc/terms/contributor>
+                <http://utep.eagle-i.net/i/00000135-e3d7-53a9-f687-036180000000> ;
+        <http://purl.org/dc/terms/creator>
+                <http://utep.eagle-i.net/i/00000136-8296-62d0-8626-74df80000000> .
 
 <http://utep.eagle-i.net/i/00000136-f05d-bedd-8626-74df80000000>
         a       <http://purl.obolibrary.org/obo/ERO_0000395> ;

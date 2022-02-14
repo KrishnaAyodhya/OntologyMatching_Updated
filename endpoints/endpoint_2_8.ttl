@@ -1152,6 +1152,9 @@
         <http://purl.org/dc/terms/contributor>
                 <http://msm.eagle-i.net/i/00000142-c445-189b-c468-451580000000> .
 
+<http://msm.eagle-i.net/i/0000012f-32d9-0530-38fa-ed3d80000000>
+        a       <http://purl.obolibrary.org/obo/ERO_0001551> .
+
 <http://msm.eagle-i.net/i/00000145-99f2-7c9c-54b6-90f080000000>
         a       <http://xmlns.com/foaf/0.1/Person> ;
         <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
@@ -1168,9 +1171,6 @@
 <http://msm.eagle-i.net/i/0000012a-2516-84b9-8251-adcb8000000a>
         <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>
                 <http://eagle-i.org/ont/repo/1.0/WFS_Published> .
-
-<http://msm.eagle-i.net/i/0000012f-32d9-0530-38fa-ed3d80000000>
-        a       <http://purl.obolibrary.org/obo/ERO_0001551> .
 
 <http://msm.eagle-i.net/i/0000012f-aae6-8492-df00-15fb80000000>
         <http://eagle-i.org/ont/repo/1.0/hasWorkflowState>

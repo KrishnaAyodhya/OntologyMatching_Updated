@@ -82,16 +82,13 @@
   <rdfs:Class rdf:about="http://xmlns.com/foaf/0.1/Document"/>
   <rdfs:Class rdf:about="http://www.w3.org/ns/adms#Asset"/>
   <rdfs:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Literal"/>
-  <rdfs:Class/>
   <rdfs:Class rdf:about="http://vocab.getty.edu/ontology#PhysAdminPlaceConcept"/>
   <rdfs:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
-  <rdfs:Class/>
   <rdfs:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
   <rdfs:Class rdf:about="http://www.w3.org/2004/02/skos/core#Collection"/>
   <rdfs:Class rdf:about="http://purl.org/iso25964/skos-thes#ConceptGroup"/>
   <rdfs:Class rdf:about="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   <rdfs:Class rdf:about="http://www.ontotext.com/proton/protontop#PropRestr"/>
-  <rdfs:Class/>
   <rdfs:Class rdf:about="http://vocab.getty.edu/ontology#PersonConcept"/>
   <rdfs:Class rdf:about="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
   <rdfs:Class rdf:about="http://www.w3.org/ns/prov#Modify"/>
@@ -103,6 +100,8 @@
   <rdfs:Class rdf:about="http://www.w3.org/ns/adms#AssetDistribution"/>
   <rdfs:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   <rdfs:Class rdf:about="http://purl.org/ontology/bibo/DocumentPart"/>
+  <rdfs:Class/>
+  <rdfs:Class/>
   <rdfs:Class rdf:about="http://vocab.getty.edu/ontology#Subject"/>
   <rdfs:Class rdf:about="http://vocab.getty.edu/ontology#GroupConcept"/>
   <rdfs:Class rdf:about="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
@@ -110,8 +109,8 @@
   <rdfs:Class rdf:about="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
   <rdfs:Class rdf:about="http://www.ontotext.com/proton/protontop#PropChainRestr"/>
   <rdfs:Class rdf:about="http://www.w3.org/2008/05/skos-xl#Label"/>
-  <rdfs:Class rdf:about="http://schema.org/Organization"/>
   <rdfs:Class/>
+  <rdfs:Class rdf:about="http://schema.org/Organization"/>
   <rdfs:Class rdf:about="http://schema.org/GeoShape"/>
   <rdfs:Class rdf:about="http://schema.org/Person"/>
   <rdfs:Class rdf:about="http://vocab.getty.edu/ontology#Biography"/>
@@ -119,15 +118,16 @@
   <rdfs:Class rdf:about="http://www.w3.org/ns/dcat#Dataset"/>
   <rdfs:Class rdf:about="http://purl.org/iso25964/skos-thes#SimpleNonPreferredTerm"/>
   <rdfs:Class rdf:about="http://www.ontotext.com/proton/protontop#PropChain"/>
-  <rdfs:Class/>
   <rdfs:Class rdf:about="http://www.w3.org/ns/prov#Create"/>
   <rdfs:Class rdf:about="http://xmlns.com/foaf/0.1/Organization"/>
   <rdfs:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  <rdfs:Class/>
   <rdfs:Class rdf:about="http://www.w3.org/2000/01/rdf-schema#Container"/>
   <rdfs:Class rdf:about="http://www.ontotext.com/proton/protontop#PropChainType2"/>
   <rdfs:Class rdf:about="http://purl.org/iso25964/skos-thes#SplitNonPreferredTerm"/>
   <rdfs:Class rdf:about="http://www.w3.org/ns/prov#Activity"/>
   <rdfs:Class rdf:about="http://purl.org/iso25964/skos-thes#PreferredTerm"/>
+  <rdfs:Class/>
   <rdfs:Class rdf:about="http://creativecommons.org/ns#License"/>
   <rdfs:Class rdf:about="http://purl.org/dc/terms/LicenseDocument"/>
   <rdfs:Class rdf:about="http://rdfs.org/ns/void#Linkset"/>
@@ -772,14 +772,15 @@
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300000705-list-300000706"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300016794-list-300016874"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300017008-list-300017006"/>
-  <rdf:List/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300233039-list-300233040"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300013109-list-300013110"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300017141-list-300017143"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300078048-list-300000992"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300018523-list-300018524"/>
+  <rdf:List/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300110008-list-300070083"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300047090-list-300047091"/>
+  <ptop:PropChain/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300128002-list-300128003"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300021037-list-300260970"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300016964-list-300016965"/>
@@ -787,11 +788,14 @@
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300017120-list-300017121"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300107224-list-300019246"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300018669-list-300134127"/>
+  <rdf:List/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300134334-list-300162056"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300018115-list-300182834"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300111912-list-300021006"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300106920-list-300106924"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300020167-list-300020168"/>
+  <ptop:PropChain/>
+  <ptop:PropChain/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300259074-list-300310172"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300106660-list-300018567"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300191763-list-300254203"/>
@@ -800,10 +804,12 @@
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300042513-list-300195429"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300020760-list-300106913"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300014254-list-300014255"/>
-  <ptop:PropChain/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300162380-list-300040824"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300020605-list-300020607"/>
+  <rdf:List/>
+  <ptop:PropChain/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300016629-list-300016632"/>
+  <rdf:List/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300121011-list-300015712"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300016619-list-300016628"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300138790-list-300053535"/>
@@ -811,6 +817,7 @@
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300133704-list-300004053"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300053203-list-300053471"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300025297-list-300025312"/>
+  <ptop:PropChain/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300011443-list-300011445"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300122241-list-300167845"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300019942-list-300107778"/>
@@ -821,6 +828,7 @@
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300163880-list-300005043"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300249665-list-300310224"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300174553-list-300019190"/>
+  <ptop:PropChain/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300126589-list-300126590"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300020669-list-300106792"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300010737-list-300010738"/>
@@ -832,49 +840,52 @@
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300021614-list-300021633"/>
   <ptop:PropChainType2 rdf:about="http://vocab.getty.edu/ontology#Infer_skosBroader_PropChainType2"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300230425-list-300137960"/>
+  <rdf:List/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300123013-list-300211844"/>
+  <ptop:PropChain/>
   <ptop:PropChainRestr rdf:about="http://vocab.getty.edu/ontology#Infer_broaderPreferredExtended"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300006460-list-300122445"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300023505-list-300023508"/>
+  <rdf:List/>
+  <ptop:PropChain/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300178802-list-300212133"/>
+  <rdf:List/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300008090-list-300008091"/>
   <ptop:PropRestr rdf:about="http://vocab.getty.edu/ontology#Infer_isoBroaderGeneric"/>
-  <ptop:PropChain/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300065299-list-300055815"/>
-  <rdf:List rdf:about="http://vocab.getty.edu/aat/300244126-list-300021715"/>
   <rdf:List/>
+  <rdf:List rdf:about="http://vocab.getty.edu/aat/300244126-list-300021715"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300015678-list-300015679"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300259362-list-300259363"/>
   <ptop:TypeRestr rdf:about="http://vocab.getty.edu/ontology#Infer_skosBroader_TypeRestr"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300020133-list-300263537"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300199635-list-300053220"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300106723-list-300106724"/>
-  <rdf:List/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300020041-list-300019446"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300016636-list-300016637"/>
+  <rdf:List/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300263188-list-300107675"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300037680-list-300048628"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300106924-list-300106928"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300195712-list-300196136"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300239147-list-300221283"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300019106-list-300019107"/>
-  <rdf:List rdf:about="http://vocab.getty.edu/aat/300004800-list-300004803"/>
   <rdf:List/>
+  <rdf:List rdf:about="http://vocab.getty.edu/aat/300004800-list-300004803"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300121012-list-300015719"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300020252-list-300110170"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300006495-list-300252225"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300025457-list-300236229"/>
-  <rdf:List/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300179538-list-300225875"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300020353-list-300020355"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300129747-list-300129759"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300008932-list-300132441"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300056348-list-300263951"/>
+  <rdf:List/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300019258-list-300106730"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300120043-list-300264783"/>
   <ptop:PropChainType2 rdf:about="http://vocab.getty.edu/ontology#Infer_broaderNonConcept_PropChainType2"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300056130-list-300056134"/>
-  <ptop:PropChain/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300209267-list-300253714"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300193227-list-300037283"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300019833-list-300107712"/>
@@ -883,7 +894,6 @@
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300000202-list-300000203"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300024341-list-300024347"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300020756-list-300020760"/>
-  <rdf:List/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300015650-list-300015651"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300107696-list-300107697"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300106605-list-300018558"/>
@@ -897,27 +907,23 @@
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300127642-list-300127657"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300024979-list-300192630"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300017396-list-300017397"/>
-  <rdf:List/>
-  <rdf:List/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300046300-list-300127008"/>
-  <ptop:PropChain/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300129211-list-300129212"/>
-  <rdf:List/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300053909-list-300053922"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300037769-list-300037771"/>
-  <ptop:PropChain/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300017267-list-300017361"/>
+  <rdf:List/>
+  <rdf:List/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300015667-list-300015668"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300263527-list-300263528"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300017313-list-300017331"/>
-  <ptop:PropChain/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300185916-list-300185933"/>
-  <rdf:List/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300018680-list-300018686"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300008347-list-300008350"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300194389-list-300200661"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300018353-list-300018354"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300013533-list-300013535"/>
+  <rdf:List/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300015668-list-300015669"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300128098-list-300128237"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300233021-list-300233022"/>
@@ -928,6 +934,7 @@
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300019201-list-300019202"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300194586-list-300191358"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300010797-list-300010799"/>
+  <rdf:List/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300018782-list-300018784"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300232954-list-300232955"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300015685-list-300015686"/>
@@ -935,16 +942,16 @@
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300162902-list-300161433"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300126079-list-300126082"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300250126-list-300310269"/>
-  <ptop:PropChain/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300018403-list-300018405"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300017437-list-300017442"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300107203-list-300107206"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300038418-list-300038421"/>
-  <rdf:List/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300250602-list-300250622"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300021516-list-300264429"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300017769-list-300017772"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300250308-list-300310456"/>
+  <ptop:PropChain/>
+  <rdf:List/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300016641-list-300016642"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300018478-list-300018480"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300017228-list-300017229"/>
@@ -958,25 +965,23 @@
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300020533-list-300263281"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300020355-list-300020375"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300020656-list-300379854"/>
-  <ptop:PropChain/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300018438-list-300018439"/>
   <ptop:PropChain/>
-  <ptop:PropChain/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300107580-list-300107582"/>
-  <rdf:List/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300019279-list-300106738"/>
+  <rdf:List/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300195432-list-300191652"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300015727-list-300015729"/>
-  <rdf:List/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300020306-list-300020308"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300018906-list-300018918"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300107750-list-300019584"/>
+  <rdf:List/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300195806-list-300196864"/>
+  <rdf:List/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300105686-list-300021091"/>
   <ptop:TypeRestr rdf:about="http://vocab.getty.edu/ontology#Infer_broaderNonConcept_TypeRestr"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300017280-list-300017299"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300017399-list-300017400"/>
-  <rdf:List/>
   <rdf:List rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300020063-list-300020071"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300055633-list-300378912"/>
@@ -997,16 +1002,16 @@
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300037592-list-300037593"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300000885-list-300445579"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300233610-list-300233613"/>
+  <ptop:PropChain/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300019267-list-300019270"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300018942-list-300018952"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300211801-list-300222181"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300016697-list-300016698"/>
+  <rdf:List/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300233611-list-300022737"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300016652-list-300016657"/>
-  <rdf:List/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300017001-list-300017005"/>
   <ptop:PropRestr rdf:about="http://vocab.getty.edu/ontology#Infer_isoBroaderPartitive"/>
-  <ptop:PropChain/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300042558-list-300205169"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300008217-list-300008219"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300020666-list-300020575"/>
@@ -1025,9 +1030,9 @@
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300106581-list-300018543"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300020079-list-300020080"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300017300-list-300017301"/>
-  <rdf:List/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300018324-list-300120431"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300018346-list-300264900"/>
+  <rdf:List/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300017167-list-300017170"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300010907-list-300249963"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300239001-list-300192907"/>
@@ -1047,6 +1052,7 @@
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300126788-list-300126789"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300011498-list-300011500"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300107633-list-300263188"/>
+  <ptop:PropChain/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300245451-list-300245805"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300002098-list-300131140"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300016983-list-300016984"/>
@@ -1055,6 +1061,7 @@
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300000283-list-300000285"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300019275-list-300019276"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300229483-list-300263228"/>
+  <ptop:PropChain/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300026877-list-300026878"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300192630-list-300191997"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300016923-list-300016924"/>
@@ -1079,41 +1086,35 @@
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300020799-list-300020802"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300107629-list-300019576"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300250163-list-300250169"/>
-  <rdf:List/>
-  <rdf:List/>
-  <rdf:List rdf:about="http://vocab.getty.edu/aat/300018332-list-300018333"/>
-  <rdf:List rdf:about="http://vocab.getty.edu/aat/300020060-list-300020063"/>
   <ptop:PropChain/>
+  <rdf:List rdf:about="http://vocab.getty.edu/aat/300018332-list-300018333"/>
+  <ptop:PropChain/>
+  <rdf:List rdf:about="http://vocab.getty.edu/aat/300020060-list-300020063"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300244546-list-300244547"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300021034-list-300192167"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300018953-list-300019028"/>
   <ptop:PropRestr rdf:about="http://vocab.getty.edu/ontology#Infer_isoBroaderInstantial"/>
-  <ptop:PropChain/>
-  <rdf:List/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300016967-list-300016970"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300255533-list-300248092"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300107699-list-300019601"/>
-  <rdf:List/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300005433-list-300122205"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300107946-list-300107952"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300107202-list-300020256"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300017498-list-300017500"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300107592-list-300020646"/>
-  <ptop:PropChain/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300129788-list-300129789"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300015682-list-300015683"/>
-  <rdf:List/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300018398-list-300018399"/>
   <rdfs:ContainerMembershipProperty rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#_1">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdfs:ContainerMembershipProperty>
-  <ptop:PropChain/>
+  <rdf:List/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300019273-list-300106751"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300018082-list-300107832"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300174552-list-300018744"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300227809-list-300227810"/>
-  <rdf:List rdf:about="http://vocab.getty.edu/aat/300210941-list-300233429"/>
   <rdf:List/>
+  <rdf:List rdf:about="http://vocab.getty.edu/aat/300210941-list-300233429"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300020224-list-300020226"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300212527-list-300220406"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300107591-list-300107595"/>
@@ -1123,7 +1124,6 @@
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300015702-list-300015703"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300232781-list-300232786"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300025975-list-300253357"/>
-  <rdf:List/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300015649-list-300015650"/>
   <rdf:List rdf:about="http://vocab.getty.edu/aat/300019935-list-300107802"/>
 </rdf:RDF>

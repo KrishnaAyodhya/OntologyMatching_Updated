@@ -1,6 +1,5 @@
 package org.aksw.deer.plugin.example;
 
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -20,31 +19,20 @@ import org.aksw.faraday_cage.engine.ValidatableParameterMap;
 import org.apache.jena.query.QueryExecutionFactory;
 import org.apache.jena.rdf.model.Literal;
 import org.apache.jena.rdf.model.Model;
-import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.Property;
 import org.apache.jena.rdf.model.RDFNode;
-import org.apache.jena.rdf.model.ReifiedStatement;
 import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.rdf.model.Statement;
 import org.apache.jena.rdf.model.StmtIterator;
 //import org.apache.jena.sparql.exec.http.QueryExecutionHTTP;
 import org.pf4j.Extension;
-import org.semanticweb.owlapi.apibinding.OWLManager;
-import org.semanticweb.owlapi.model.MissingImportHandlingStrategy;
-import org.semanticweb.owlapi.model.OWLOntology;
 import org.semanticweb.owlapi.model.OWLOntologyCreationException;
-import org.semanticweb.owlapi.model.OWLOntologyLoaderConfiguration;
-import org.semanticweb.owlapi.model.OWLOntologyManager;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import uk.ac.ox.krr.logmap2.LogMap2_Matcher;
-import uk.ac.ox.krr.logmap2.mappings.objects.MappingObjectStr;
-
 /**
- */
-/**
- * @author soumya
+ * 
+ * @author Krishna Madhav and Sowmya Kamath Ramesh
  *
  */
 @Extension
@@ -64,7 +52,6 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 
 	public static final Property TYPEOFMAP = DEER.property("typeOfMap");
 	public static final Property MACTHING_LIBRARY = DEER.property("matching_Library");
-	public static final Property TYPE_OF_KGMATCH = DEER.property("typeofKGMatch");
 
 	public OntologyMatchingOperator() throws OWLOntologyCreationException {
 
@@ -79,14 +66,16 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 	}
 
 	/**
-	 *
+	 * This method takes input List of Models. It parses through the model and
+	 * invokes LogMap or FCA depending upon configuration file
+	 * 
 	 */
 	@Override
-	protected List<Model> safeApply(List<Model> models) { // 3
-		// Model a = filterModel(models.get(0));
+	protected List<Model> safeApply(List<Model> models) {
 
 		System.out.println("-----------------------------------Safe apply-----------------------------------");
 
+		// Storing the model from previous phase in Model Object
 		Model model = models.get(0);
 
 		// List of Models for storing output of Logmap/FCA
@@ -96,9 +85,8 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 				.orElse("did not find type of map");
 		String library_Matching = getParameterMap().getOptional(MACTHING_LIBRARY).map(RDFNode::asLiteral)
 				.map(Literal::getString).orElse("did not find which libarary to used for Matching");
-		String typeofKGMatch = getParameterMap().getOptional(TYPE_OF_KGMATCH).map(RDFNode::asLiteral)
-				.map(Literal::getString).orElse("did not find type of KG Match");
 
+		// Storing the Jena model in HashMap and iterating through it
 		HashMap<Resource, RDFNode> objectSubjectMap = new HashMap<>();
 		StmtIterator listStatements = model.listStatements();
 
@@ -109,178 +97,222 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 
 		Set<Resource> subjectsKey = objectSubjectMap.keySet();
 
-		if (!typeofKGMatch.equalsIgnoreCase("Limes")) {
+		/*
+		 * This condition checks if output of KG Matching is from Limes as they contain
+		 * subjectEndpoint and objectEndPoints
+		 */
 
-		}
+		String endpointCheck = "http://";
+		if (subjectsKey.toString().contains(endpointCheck)) {
 
-		String new_query = "construct{?s ?p ?o}  where {?s ?p ?o} LIMIT 1000";
-		System.out.println("----------------------query---------------------");
+			String new_query = "construct{?s ?p ?o}  where {?s ?p ?o} LIMIT 1000";
+			System.out.println("----------------------query---------------------");
 
-		// Map for storing End-point and file names
-		LinkedHashMap<String, String> endpointsMap = new LinkedHashMap<>();
+			// Map for storing End-point and file names
+			LinkedHashMap<String, String> endpointsMap = new LinkedHashMap<>();
 
-		for (Resource subjectEndpoint : subjectsKey) {
-			if (fileNameCounter == 4)
+			for (Resource subjectEndpoint : subjectsKey) {
+				if (fileNameCounter == 4)
 
-				break;
-			try {
-				System.out.println("------------------------------------");
-				// First model
-				Model model1 = QueryExecutionFactory
-						.sparqlService(getRedirectedUrl(subjectEndpoint.toString()), new_query).execConstruct();
-
-				// Second model
-				Model model2 = QueryExecutionFactory
-						.sparqlService(getRedirectedUrl(objectSubjectMap.get(subjectEndpoint).toString()), new_query)
-						.execConstruct();
-
-				// file_name1
-				model1.write(new FileOutputStream("endpoint_1_" + fileNameCounter + ".rdf"), "RDF/XML");
-
-				// file_name2
-				model2.write(new FileOutputStream("endpoint_2_" + fileNameCounter + ".rdf"), "RDF/XML");
-
-				endpointsMap.put("endpoint_1_" + fileNameCounter + ".rdf", subjectEndpoint.toString());
-				endpointsMap.put("endpoint_2_" + fileNameCounter + ".rdf",
-						objectSubjectMap.get(subjectEndpoint).toString());
-
-				System.out.println(endpointsMap + " %%%%%%%%% ");
-
-				fileNameCounter++;
-			} catch (Exception e) {
-				System.out.println("Exception caught for the Subject : " + subjectEndpoint + " ,Exception name : " + e);
-			}
-		}
-
-		System.out.println("-----Library for Matching----" + library_Matching + "*********");
-
-		// Invoking LogMap matcher based on configuration file
-		if (!endpointsMap.isEmpty() && library_Matching.equalsIgnoreCase("Logmap")) {
-
-			LogMap_Matcher logMapObject = new LogMap_Matcher();
-			for (int fileCounterTemp = 1; fileCounterTemp <= fileNameCounter - 1
-					&& (endpointsMap.size() > 2); fileCounterTemp++) {
-
+					break;
 				try {
-					switch (typeOfMap) {
-					case "Class":
+					System.out.println("------------------------------------");
+					// First model
+					Model model1 = QueryExecutionFactory
+							.sparqlService(getRedirectedUrl(subjectEndpoint.toString()), new_query).execConstruct();
 
-						System.out.println("----------------Classes Mapping------------------------");
-						listModel.add(logMapObject.UsingLogMapMatcher("endpoint_1_" + fileCounterTemp + ".rdf",
-								"endpoint_2_" + fileCounterTemp + ".rdf", classesMapID,
-								endpointsMap.get("endpoint_1_" + fileCounterTemp + ".rdf"),
-								endpointsMap.get("endpoint_2_" + fileCounterTemp + ".rdf")));
+					// Second model
+					Model model2 = QueryExecutionFactory
+							.sparqlService(getRedirectedUrl(objectSubjectMap.get(subjectEndpoint).toString()),
+									new_query)
+							.execConstruct();
 
-						System.out.println("endpoint_1_" + fileCounterTemp + ".rdf" + " Endpoint :: "
-								+ endpointsMap.get("endpoint_1_" + fileCounterTemp + ".rdf"));
-						System.out.println("endpoint_2_" + fileCounterTemp + ".rdf" + " Endpoint :: "
-								+ endpointsMap.get("endpoint_2_" + fileCounterTemp + ".rdf"));
-						System.out.println("Model output " + listModel);
+					// Ontology file 1
+					model1.write(new FileOutputStream(OntologyConstants.ENDPOINTS_1 + fileNameCounter + OntologyConstants.FILE_FORMAT), "RDF/XML");
 
-						break;
+					// Ontology file 2
+					model2.write(new FileOutputStream(OntologyConstants.ENDPOINTS_2 + fileNameCounter + OntologyConstants.FILE_FORMAT), "RDF/XML");
 
-					case "Data Property":
+					// Storing the File name and Endpoints in HashMap
+					endpointsMap.put(OntologyConstants.ENDPOINTS_1 + fileNameCounter + OntologyConstants.FILE_FORMAT, subjectEndpoint.toString());
+					endpointsMap.put(OntologyConstants.ENDPOINTS_2 + fileNameCounter + OntologyConstants.FILE_FORMAT,
+							objectSubjectMap.get(subjectEndpoint).toString());
 
-						System.out.println("--------Data Property Mapping--------------");
-						listModel.add(logMapObject.UsingLogMapMatcher("endpoint_1_" + fileCounterTemp + ".rdf",
-								"endpoint_2_" + fileCounterTemp + ".rdf", dataPropertyMapID,
-								endpointsMap.get("endpoint_1_" + fileCounterTemp + ".rdf"),
-								endpointsMap.get("endpoint_2_" + fileCounterTemp + ".rdf")));
-						break;
+					System.out.println(endpointsMap + " %%%%%%%%% ");
 
-					case "Object Property":
+					fileNameCounter++;
+				} catch (Exception e) {
+					System.out.println(
+							"Exception caught for the Subject : " + subjectEndpoint + " ,Exception name : " + e);
+				}
+			}
 
-						System.out.println("-------------Object Property Mapping---------------");
-						listModel.add(logMapObject.UsingLogMapMatcher("endpoint_1_" + fileCounterTemp + ".rdf",
-								"endpoint_2_" + fileCounterTemp + ".rdf", objectPropertyMapID,
-								endpointsMap.get("endpoint_1_" + fileCounterTemp + ".rdf"),
-								endpointsMap.get("endpoint_2_" + fileCounterTemp + ".rdf")));
-						break;
+			System.out.println("-----Library for Matching----" + library_Matching + "*********");
 
-					case "Class and Data Property":
-						listModel.add(logMapObject.UsingLogMapMatcher("endpoint_1_" + fileCounterTemp + ".rdf",
-								"endpoint_2_" + fileCounterTemp + ".rdf", classesMapID,
-								endpointsMap.get("endpoint_1_" + fileCounterTemp + ".rdf"),
-								endpointsMap.get("endpoint_2_" + fileCounterTemp + ".rdf")));
+			// Invoking LogMap matcher based on configuration file
+			if (!endpointsMap.isEmpty() && library_Matching.equalsIgnoreCase("Logmap")) {
 
-						listModel.add(logMapObject.UsingLogMapMatcher("endpoint_1_" + fileCounterTemp + ".rdf",
-								"endpoint_2_" + fileCounterTemp + ".rdf", dataPropertyMapID,
-								endpointsMap.get("endpoint_1_" + fileCounterTemp + ".rdf"),
-								endpointsMap.get("endpoint_2_" + fileCounterTemp + ".rdf")));
+				LogMap_Matcher logMapObject = new LogMap_Matcher();
+				for (int fileCounterTemp = 1; fileCounterTemp <= fileNameCounter - 1
+						&& (endpointsMap.size() > 2); fileCounterTemp++) {
 
-						break;
+					try {
+						switch (typeOfMap) {
+						case "Class":
 
-					case "Class and Object Property":
+							// Class Matching
+							System.out.println("----------------Classes Mapping------------------------");
+							listModel.add(logMapObject.usingLogMapMatcher(OntologyConstants.ENDPOINTS_1 + fileCounterTemp + OntologyConstants.FILE_FORMAT,
+									OntologyConstants.ENDPOINTS_2 + fileCounterTemp + OntologyConstants.FILE_FORMAT, classesMapID,
+									endpointsMap.get(OntologyConstants.ENDPOINTS_1 + fileCounterTemp + OntologyConstants.FILE_FORMAT),
+									endpointsMap.get(OntologyConstants.ENDPOINTS_2 + fileCounterTemp + OntologyConstants.FILE_FORMAT)));
 
-						listModel.add(logMapObject.UsingLogMapMatcher("endpoint_1_" + fileCounterTemp + ".rdf",
-								"endpoint_2_" + fileCounterTemp + ".rdf", classesMapID,
-								endpointsMap.get("endpoint_1_" + fileCounterTemp + ".rdf"),
-								endpointsMap.get("endpoint_2_" + fileCounterTemp + ".rdf")));
-						listModel.add(logMapObject.UsingLogMapMatcher("endpoint_1_" + fileCounterTemp + ".rdf",
-								"endpoint_2_" + fileCounterTemp + ".rdf", objectPropertyMapID,
-								endpointsMap.get("endpoint_1_" + fileCounterTemp + ".rdf"),
-								endpointsMap.get("endpoint_2_" + fileCounterTemp + ".rdf")));
+							System.out.println(OntologyConstants.ENDPOINTS_1 + fileCounterTemp + OntologyConstants.FILE_FORMAT + " Endpoint :: "
+									+ endpointsMap.get(OntologyConstants.ENDPOINTS_1 + fileCounterTemp + OntologyConstants.FILE_FORMAT));
+							System.out.println(OntologyConstants.ENDPOINTS_2 + fileCounterTemp + OntologyConstants.FILE_FORMAT + " Endpoint :: "
+									+ endpointsMap.get(OntologyConstants.ENDPOINTS_2 + fileCounterTemp + OntologyConstants.FILE_FORMAT));
+							System.out.println("Model output " + listModel);
 
-						break;
-					case "Class and Object Property and Data Property":
-						listModel.add(logMapObject.UsingLogMapMatcher("endpoint_1_" + fileCounterTemp + ".rdf",
-								"endpoint_2_" + fileCounterTemp + ".rdf", classesMapID,
-								endpointsMap.get("endpoint_1_" + fileCounterTemp + ".rdf"),
-								endpointsMap.get("endpoint_2_" + fileCounterTemp + ".rdf")));
-						listModel.add(logMapObject.UsingLogMapMatcher("endpoint_1_" + fileCounterTemp + ".rdf",
-								"endpoint_2_" + fileCounterTemp + ".rdf", objectPropertyMapID,
-								endpointsMap.get("endpoint_1_" + fileCounterTemp + ".rdf"),
-								endpointsMap.get("endpoint_2_" + fileCounterTemp + ".rdf")));
-						listModel.add(logMapObject.UsingLogMapMatcher("endpoint_1_" + fileCounterTemp + ".rdf",
-								"endpoint_2_" + fileCounterTemp + ".rdf", dataPropertyMapID,
-								endpointsMap.get("endpoint_1_" + fileCounterTemp + ".rdf"),
-								endpointsMap.get("endpoint_2_" + fileCounterTemp + ".rdf")));
+							break;
 
-						break;
+						case "Data Property":
 
-					default:
+							// Data Property Matching
 
-						System.out.println("------------------Classes Mapping-------------------");
-						listModel.add(logMapObject.UsingLogMapMatcher("endpoint_1_" + fileCounterTemp + ".rdf",
-								"endpoint_2_" + fileCounterTemp + ".rdf", classesMapID,
-								endpointsMap.get("endpoint_1_" + fileCounterTemp + ".rdf"),
-								endpointsMap.get("endpoint_2_" + fileCounterTemp + ".rdf")));
+							listModel.add(logMapObject.usingLogMapMatcher(OntologyConstants.ENDPOINTS_1 + fileCounterTemp + OntologyConstants.FILE_FORMAT,
+									OntologyConstants.ENDPOINTS_2 + fileCounterTemp + OntologyConstants.FILE_FORMAT, dataPropertyMapID,
+									endpointsMap.get(OntologyConstants.ENDPOINTS_1 + fileCounterTemp + OntologyConstants.FILE_FORMAT),
+									endpointsMap.get(OntologyConstants.ENDPOINTS_2 + fileCounterTemp + OntologyConstants.FILE_FORMAT)));
+							break;
 
+						case "Object Property":
+
+							// Object Property Matching
+
+							listModel.add(logMapObject.usingLogMapMatcher(OntologyConstants.ENDPOINTS_1 + fileCounterTemp + OntologyConstants.FILE_FORMAT,
+									OntologyConstants.ENDPOINTS_2 + fileCounterTemp + OntologyConstants.FILE_FORMAT, objectPropertyMapID,
+									endpointsMap.get(OntologyConstants.ENDPOINTS_1 + fileCounterTemp + OntologyConstants.FILE_FORMAT),
+									endpointsMap.get(OntologyConstants.ENDPOINTS_2 + fileCounterTemp + OntologyConstants.FILE_FORMAT)));
+							break;
+
+						case "Class and Data Property":
+
+							listModel.add(logMapObject.usingLogMapMatcher(OntologyConstants.ENDPOINTS_1 + fileCounterTemp + OntologyConstants.FILE_FORMAT,
+									OntologyConstants.ENDPOINTS_2 + fileCounterTemp + OntologyConstants.FILE_FORMAT, classesMapID,
+									endpointsMap.get(OntologyConstants.ENDPOINTS_1 + fileCounterTemp + OntologyConstants.FILE_FORMAT),
+									endpointsMap.get(OntologyConstants.ENDPOINTS_2 + fileCounterTemp + OntologyConstants.FILE_FORMAT)));
+
+							listModel.add(logMapObject.usingLogMapMatcher(OntologyConstants.ENDPOINTS_1 + fileCounterTemp + OntologyConstants.FILE_FORMAT,
+									OntologyConstants.ENDPOINTS_2 + fileCounterTemp + OntologyConstants.FILE_FORMAT, dataPropertyMapID,
+									endpointsMap.get(OntologyConstants.ENDPOINTS_1 + fileCounterTemp + OntologyConstants.FILE_FORMAT),
+									endpointsMap.get(OntologyConstants.ENDPOINTS_2 + fileCounterTemp + OntologyConstants.FILE_FORMAT)));
+
+							break;
+
+						case "Class and Object Property":
+
+							listModel.add(logMapObject.usingLogMapMatcher(OntologyConstants.ENDPOINTS_1 + fileCounterTemp + OntologyConstants.FILE_FORMAT,
+									OntologyConstants.ENDPOINTS_2 + fileCounterTemp + OntologyConstants.FILE_FORMAT, classesMapID,
+									endpointsMap.get(OntologyConstants.ENDPOINTS_1 + fileCounterTemp + OntologyConstants.FILE_FORMAT),
+									endpointsMap.get(OntologyConstants.ENDPOINTS_2 + fileCounterTemp + OntologyConstants.FILE_FORMAT)));
+							listModel.add(logMapObject.usingLogMapMatcher(OntologyConstants.ENDPOINTS_1 + fileCounterTemp + OntologyConstants.FILE_FORMAT,
+									OntologyConstants.ENDPOINTS_2 + fileCounterTemp + OntologyConstants.FILE_FORMAT, objectPropertyMapID,
+									endpointsMap.get(OntologyConstants.ENDPOINTS_1 + fileCounterTemp + OntologyConstants.FILE_FORMAT),
+									endpointsMap.get(OntologyConstants.ENDPOINTS_2 + fileCounterTemp + OntologyConstants.FILE_FORMAT)));
+
+							break;
+						case "Class and Object Property and Data Property":
+
+							listModel.add(logMapObject.usingLogMapMatcher(OntologyConstants.ENDPOINTS_1 + fileCounterTemp + OntologyConstants.FILE_FORMAT,
+									OntologyConstants.ENDPOINTS_2 + fileCounterTemp + OntologyConstants.FILE_FORMAT, classesMapID,
+									endpointsMap.get(OntologyConstants.ENDPOINTS_1 + fileCounterTemp + OntologyConstants.FILE_FORMAT),
+									endpointsMap.get(OntologyConstants.ENDPOINTS_2 + fileCounterTemp + OntologyConstants.FILE_FORMAT)));
+							listModel.add(logMapObject.usingLogMapMatcher(OntologyConstants.ENDPOINTS_1 + fileCounterTemp + OntologyConstants.FILE_FORMAT,
+									OntologyConstants.ENDPOINTS_2 + fileCounterTemp + OntologyConstants.FILE_FORMAT, objectPropertyMapID,
+									endpointsMap.get(OntologyConstants.ENDPOINTS_1 + fileCounterTemp + OntologyConstants.FILE_FORMAT),
+									endpointsMap.get(OntologyConstants.ENDPOINTS_2 + fileCounterTemp + OntologyConstants.FILE_FORMAT)));
+							listModel.add(logMapObject.usingLogMapMatcher(OntologyConstants.ENDPOINTS_1 + fileCounterTemp + OntologyConstants.FILE_FORMAT,
+									OntologyConstants.ENDPOINTS_2 + fileCounterTemp + OntologyConstants.FILE_FORMAT, dataPropertyMapID,
+									endpointsMap.get(OntologyConstants.ENDPOINTS_1 + fileCounterTemp + OntologyConstants.FILE_FORMAT),
+									endpointsMap.get(OntologyConstants.ENDPOINTS_2 + fileCounterTemp + OntologyConstants.FILE_FORMAT)));
+
+							break;
+
+						default:
+
+							System.out.println("------------------Classes Mapping-------------------");
+							listModel.add(logMapObject.usingLogMapMatcher(OntologyConstants.ENDPOINTS_1 + fileCounterTemp + OntologyConstants.FILE_FORMAT,
+									OntologyConstants.ENDPOINTS_2 + fileCounterTemp + OntologyConstants.FILE_FORMAT, classesMapID,
+									endpointsMap.get(OntologyConstants.ENDPOINTS_1 + fileCounterTemp + OntologyConstants.FILE_FORMAT),
+									endpointsMap.get(OntologyConstants.ENDPOINTS_2 + fileCounterTemp + OntologyConstants.FILE_FORMAT)));
+
+						}
+
+					} catch (OWLOntologyCreationException e) {
+
+						e.printStackTrace();
 					}
 
-				} catch (OWLOntologyCreationException e) {
-
-					e.printStackTrace();
 				}
-
 			}
+
+			// Invoking FCA matcher based on configuration file
+			else if (!endpointsMap.isEmpty() && library_Matching.equalsIgnoreCase("FCA")) {
+
+				System.out.println("******************Detected that its FCA *************");
+
+				// Calling FCA for Matching Ontologies
+				FCA_Matcher fcaMatcher = new FCA_Matcher();
+
+				for (int i = 1; i < fileNameCounter - 1 && (endpointsMap.size() > 2); i++) {
+
+					try {
+						listModel.addAll(fcaMatcher.fcaInvoker(OntologyConstants.ENDPOINTS_1 + i + OntologyConstants.FILE_FORMAT, OntologyConstants.ENDPOINTS_2 + i + OntologyConstants.FILE_FORMAT,
+								endpointsMap.get(OntologyConstants.ENDPOINTS_1 + i + OntologyConstants.FILE_FORMAT),
+								endpointsMap.get(OntologyConstants.ENDPOINTS_2 + i + OntologyConstants.FILE_FORMAT), i, typeOfMap));
+					} catch (IOException e) {
+						e.printStackTrace();
+					}
+				}
+			}
+
 		}
 
-		// Invoking FCA matcher based on configuration file
-		else if (!endpointsMap.isEmpty() && library_Matching.equalsIgnoreCase("FCA")) {
+		
+		/*
+		 * This condition checks if output of KG Matching is other than Limes
+		 * 
+		 * This part of code is for future work as dataset corresponding to .NT files
+		 * were not working as they had invalid IRIs.
+		 * 
+		 */
 
-			System.out.println("******************Detected that its FCA *************");
-			// Calling FCA for Matching Ontologies
-			FCA_Matcher fcaMatcher = new FCA_Matcher();
+		if (!subjectsKey.toString().contains(endpointCheck)) {
+			System.out.println("Inside KGMatch other than Limes");
 
-			for (int i = 1; i < fileNameCounter - 1 && (endpointsMap.size() > 2); i++) {
+			LogMap_Matcher logMapObject = new LogMap_Matcher();
 
+			for (Resource subjectEndpoint : subjectsKey) {
 				try {
-					listModel.addAll(fcaMatcher.fcaInvoker("endpoint_1_" + i + ".rdf", "endpoint_2_" + i + ".rdf",
-							endpointsMap.get("endpoint_1_" + i + ".rdf"), endpointsMap.get("endpoint_2_" + i + ".rdf"),
-							i, typeOfMap));
-				} catch (IOException e) {
-					e.printStackTrace();
+
+					// Calling only class matching
+					// Similarly can be called for other combination of mappings
+					
+					logMapObject.usingLogMapMatcher_2(subjectEndpoint.toString(),
+							objectSubjectMap.get(subjectEndpoint).toString(), classesMapID);
+				} catch (OWLOntologyCreationException e) {
+					System.out.println(
+							"Exception caught for the Subject : " + subjectEndpoint + " ,Exception name : " + e);
 				}
 			}
 		}
 
 		// Writing final output to File
 
-		try (OutputStream out = new FileOutputStream("MappingOutputFinal" + ".ttl")) {
+		try (OutputStream out = new FileOutputStream("MatchingOutputFinal" + ".ttl")) {
 			for (Iterator<Model> iterator = listModel.iterator(); iterator.hasNext();) {
 				Model model2 = (Model) iterator.next();
-				model2.write(out, "TTL"); //
+				model2.write(out, "TTL");
 				model2.write(System.out, "TTL");
 			}
 		} catch (FileNotFoundException e) {
@@ -288,12 +320,17 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-
-		System.out.println(listModel);
+		
 		return listModel;
 	}
 
-	// HTTP redirection
+	/**
+	 * HTTP redirection
+	 * 
+	 * @param url
+	 * @return
+	 * @throws IOException
+	 */
 	public static String getRedirectedUrl(String url) throws IOException {
 		HttpURLConnection con = (HttpURLConnection) (new URL(url).openConnection());
 		con.setConnectTimeout(1000);

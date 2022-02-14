@@ -1,6 +1,0 @@
-<rdf:RDF
-    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-    xmlns:virtrdf="http://www.openlinksw.com/schemas/virtrdf#"
-    xmlns:rdfdf="http://www.openlinksw.com/virtrdf-data-formats#">
-  <virtrdf:QuadMapFormat rdf:about="http://www.openlinksw.com/virtrdf-data-formats#default-iid"/>
-</rdf:RDF>

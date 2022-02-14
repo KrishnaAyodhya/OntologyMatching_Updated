@@ -347,6 +347,8 @@ Positions in archeologic and 'recent' geologic time are conventionally denoted i
                             <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseConiacian"/>
                             <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Present"/>
                             <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseCambrianStage10"/>
+                            <j.7:memberList rdf:parseType="Resource">
+                            </j.7:memberList>
                             <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseThanetian"/>
                             <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseJurassic"/>
                             <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseMiddleMississippian"/>
@@ -370,8 +372,6 @@ Positions in archeologic and 'recent' geologic time are conventionally denoted i
                             <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseMaastrichtian"/>
                             <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseFamennian"/>
                             <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BasePragian"/>
-                            <j.7:memberList rdf:parseType="Resource">
-                            </j.7:memberList>
                             <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BaseAptian"/>
                             <j.7:member rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/BasePriabonian"/>
                             <j.7:prefLabel xml:lang="en">Boundaries in the International Chronostratigraphic Chart</j.7:prefLabel>
