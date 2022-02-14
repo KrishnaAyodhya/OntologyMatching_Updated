@@ -5,6 +5,11 @@ import org.pf4j.PluginWrapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+/**
+ * 
+ * @author Krishna Madhav and Sowmya Kamath Ramesh
+ *
+ */
 public class OntologyMatchingPlugin extends Plugin {
 
   private static final Logger logger = LoggerFactory.getLogger(OntologyMatchingPlugin.class);

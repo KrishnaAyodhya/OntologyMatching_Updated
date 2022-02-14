@@ -11,7 +11,6 @@ import java.io.StringWriter;
 import java.io.Writer;
 import java.util.List;
 
-
 /**
  * 
  * @author Krishna Madhav and Sowmya Kamath Ramesh
@@ -28,18 +27,19 @@ public class StdOutModelWriter extends AbstractModelWriter {
 				.build();
 	}
 
+	/**
+	 * Writes the output model
+	 */
 	@Override
 	protected List<Model> safeApply(List<Model> models) {
 
-		System.out.println("Out*****1");
 		Writer writer = new StringWriter();
-		System.out.println("Out*****2");
+
 		if (!models.isEmpty()) {
 			models.get(0).write(writer, "TTL");
 		}
-		System.out.println("Out*****3");
 		System.out.println(writer);
-		System.out.println("Out*****4");
+
 		return models;
 	}
 }

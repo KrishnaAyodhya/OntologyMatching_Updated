@@ -15,7 +15,7 @@
 :ontologyMatcher
  a deer:OntologyMatchingOperator ;
  deer:typeOfMap "Classes";
- deer:matching_Library "FCA";
+ deer:matching_Library "Logmap";
  fcage:hasInput :reader ;
 .
 

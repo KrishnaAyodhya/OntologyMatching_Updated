@@ -2,8 +2,8 @@ package org.aksw.deer.plugin.example;
 
 /**
  * 
- * @author Krishna Madhav and Sowmya Kamath Ramesh Constants Class
- * 
+ * @author Krishna Madhav and Sowmya Kamath Ramesh 
+ * Constants for Ontology Operator
  */
 
 public class OntologyConstants {

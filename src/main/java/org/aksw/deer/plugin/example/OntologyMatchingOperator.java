@@ -24,7 +24,6 @@ import org.apache.jena.rdf.model.RDFNode;
 import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.rdf.model.Statement;
 import org.apache.jena.rdf.model.StmtIterator;
-//import org.apache.jena.sparql.exec.http.QueryExecutionHTTP;
 import org.pf4j.Extension;
 import org.semanticweb.owlapi.model.OWLOntologyCreationException;
 import org.slf4j.Logger;
@@ -40,11 +39,6 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 
 	private static final Logger logger = LoggerFactory.getLogger(OntologyMatchingOperator.class);
 
-	public static final Property SUBJECT = DEER.property("subject");
-	public static final Property PREDICATE = DEER.property("predicate");
-	public static final Property OBJECT = DEER.property("object");
-	public static final Property SELECTOR = DEER.property("selector");
-	public static final Property SPARQL_CONSTRUCT_QUERY = DEER.property("sparqlConstructQuery");
 	private static int fileNameCounter = 1;
 	private final int classesMapID = 0;
 	private final int dataPropertyMapID = 1;
@@ -59,9 +53,8 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 	}
 
 	@Override
-	public ValidatableParameterMap createParameterMap() { // 2
-		return ValidatableParameterMap.builder().declareProperty(SELECTOR).declareProperty(SPARQL_CONSTRUCT_QUERY)
-				.declareProperty(TYPEOFMAP).declareProperty(MACTHING_LIBRARY)
+	public ValidatableParameterMap createParameterMap() {
+		return ValidatableParameterMap.builder().declareProperty(TYPEOFMAP).declareProperty(MACTHING_LIBRARY)
 				.declareValidationShape(getValidationModelFor(OntologyMatchingOperator.class)).build();
 	}
 
@@ -72,8 +65,6 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 	 */
 	@Override
 	protected List<Model> safeApply(List<Model> models) {
-
-		System.out.println("-----------------------------------Safe apply-----------------------------------");
 
 		// Storing the model from previous phase in Model Object
 		Model model = models.get(0);
@@ -106,17 +97,15 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 		if (subjectsKey.toString().contains(endpointCheck)) {
 
 			String new_query = "construct{?s ?p ?o}  where {?s ?p ?o} LIMIT 1000";
-			System.out.println("----------------------query---------------------");
 
 			// Map for storing End-point and file names
 			LinkedHashMap<String, String> endpointsMap = new LinkedHashMap<>();
 
 			for (Resource subjectEndpoint : subjectsKey) {
-				if (fileNameCounter == 4)
-
+				if (fileNameCounter == 10)
 					break;
 				try {
-					System.out.println("------------------------------------");
+					
 					// First model
 					Model model1 = QueryExecutionFactory
 							.sparqlService(getRedirectedUrl(subjectEndpoint.toString()), new_query).execConstruct();
@@ -138,7 +127,6 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 					endpointsMap.put(OntologyConstants.ENDPOINTS_2 + fileNameCounter + OntologyConstants.FILE_FORMAT,
 							objectSubjectMap.get(subjectEndpoint).toString());
 
-					System.out.println(endpointsMap + " %%%%%%%%% ");
 
 					fileNameCounter++;
 				} catch (Exception e) {
@@ -147,7 +135,6 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 				}
 			}
 
-			System.out.println("-----Library for Matching----" + library_Matching + "*********");
 
 			// Invoking LogMap matcher based on configuration file
 			if (!endpointsMap.isEmpty() && library_Matching.equalsIgnoreCase("Logmap")) {
@@ -161,17 +148,11 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 						case "Class":
 
 							// Class Matching
-							System.out.println("----------------Classes Mapping------------------------");
+							
 							listModel.add(logMapObject.usingLogMapMatcher(OntologyConstants.ENDPOINTS_1 + fileCounterTemp + OntologyConstants.FILE_FORMAT,
 									OntologyConstants.ENDPOINTS_2 + fileCounterTemp + OntologyConstants.FILE_FORMAT, classesMapID,
 									endpointsMap.get(OntologyConstants.ENDPOINTS_1 + fileCounterTemp + OntologyConstants.FILE_FORMAT),
 									endpointsMap.get(OntologyConstants.ENDPOINTS_2 + fileCounterTemp + OntologyConstants.FILE_FORMAT)));
-
-							System.out.println(OntologyConstants.ENDPOINTS_1 + fileCounterTemp + OntologyConstants.FILE_FORMAT + " Endpoint :: "
-									+ endpointsMap.get(OntologyConstants.ENDPOINTS_1 + fileCounterTemp + OntologyConstants.FILE_FORMAT));
-							System.out.println(OntologyConstants.ENDPOINTS_2 + fileCounterTemp + OntologyConstants.FILE_FORMAT + " Endpoint :: "
-									+ endpointsMap.get(OntologyConstants.ENDPOINTS_2 + fileCounterTemp + OntologyConstants.FILE_FORMAT));
-							System.out.println("Model output " + listModel);
 
 							break;
 
@@ -240,7 +221,6 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 
 						default:
 
-							System.out.println("------------------Classes Mapping-------------------");
 							listModel.add(logMapObject.usingLogMapMatcher(OntologyConstants.ENDPOINTS_1 + fileCounterTemp + OntologyConstants.FILE_FORMAT,
 									OntologyConstants.ENDPOINTS_2 + fileCounterTemp + OntologyConstants.FILE_FORMAT, classesMapID,
 									endpointsMap.get(OntologyConstants.ENDPOINTS_1 + fileCounterTemp + OntologyConstants.FILE_FORMAT),
@@ -258,8 +238,6 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 
 			// Invoking FCA matcher based on configuration file
 			else if (!endpointsMap.isEmpty() && library_Matching.equalsIgnoreCase("FCA")) {
-
-				System.out.println("******************Detected that its FCA *************");
 
 				// Calling FCA for Matching Ontologies
 				FCA_Matcher fcaMatcher = new FCA_Matcher();
@@ -288,7 +266,6 @@ public class OntologyMatchingOperator extends AbstractParameterizedEnrichmentOpe
 		 */
 
 		if (!subjectsKey.toString().contains(endpointCheck)) {
-			System.out.println("Inside KGMatch other than Limes");
 
 			LogMap_Matcher logMapObject = new LogMap_Matcher();
 

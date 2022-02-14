@@ -28,7 +28,7 @@ import cn.ac.amss.semanticweb.model.ModelStorage;
 /**
  * 
  * @author Krishna Madhav and Sowmya Kamath Ramesh
- *
+ * This class contains implementation of FCA Map
  */
 public class FCA_Matcher {
 	final String deer = "https://w3id.org/deer/";
@@ -61,7 +61,7 @@ public class FCA_Matcher {
 		List<Model> matchedModel = new ArrayList<Model>();
 		
 		
-		// Choosing Type of Ma
+		// Choosing Type of Map
 		switch (typeOfMap) {
 		
 		case "Classes":
@@ -104,7 +104,6 @@ public class FCA_Matcher {
 			break;
 		}
 		
-		System.out.println(matchedModel);
 		source.clear();
 		target.clear();
 		return matchedModel;
@@ -202,10 +201,10 @@ public class FCA_Matcher {
 			createReifiedStatement.addProperty(confProp, confidence);
 			createReifiedStatement.addProperty(spEP1, sparqlEndPoint1);
 			createReifiedStatement.addProperty(spEP2, sparqlEndPoint2);
+			
 			model2.add(matchResource, matchProperty, createReifiedStatement);
 			classMatching.add(model2);
 			
-
 		}
 		
 		return classMatching;
@@ -368,15 +367,7 @@ public class FCA_Matcher {
 			dataPropertyModel.add(model1);
 			
 		}
-		try (OutputStream output = new FileOutputStream("MappingOutputLexicalDataPropertyMappings" + ".ttl")) {
-			model1.write(output, "TURTLE");
-			model1.write(System.out, "TURTLE");
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} catch (IOException e1) {
-			e1.printStackTrace();
-		}
-
+		
 		Mapping structuralObjectTypeMappings = new Mapping();
 		structuralMatcher.mapObjectProperties(structuralObjectTypeMappings);
 		

@@ -24,11 +24,11 @@ import uk.ac.ox.krr.logmap2.mappings.objects.MappingObjectStr;
 /**
  * 
  * @author Krishna Madhav and Sowmya Kamath Ramesh
- *
+ * This class contains implementation of LogMap Matcher
  */
 public class LogMap_Matcher {
 
-	
+	// For Prefixing
 	final String deer = "https://w3id.org/deer/";
 	
 	/**
@@ -81,8 +81,7 @@ public class LogMap_Matcher {
 		// Adding Model
 		Model model = ModelFactory.createDefaultModel();
 
-		// Variable for tracking Type of Mapping
-		int typeOfMapping = -1;
+		
 
 		
 
@@ -91,7 +90,7 @@ public class LogMap_Matcher {
 			
 			MappingObjectStr next = iterator.next();
 			if (next.getTypeOfMapping() == a) {
-				typeOfMapping = next.getTypeOfMapping();
+				
 
 				// setting prefix for model
 				model.setNsPrefix("deer", deer);
@@ -192,9 +191,10 @@ public class LogMap_Matcher {
 				final Property matchProperty = model.createProperty(deer, OntologyConstants.FOUND);
 
 				Resource resource = model.createResource(next.getIRIStrEnt1());
-				// Property related = model.createProperty("https://w3id.org/deer/matchesWith");
+				
 				Property related = model.createProperty(deer, OntologyConstants.MATCHES_WITH);
 				Resource resource2 = model.createResource(next.getIRIStrEnt2());
+				
 				// confidence
 				Property confProp = model.createProperty(deer, OntologyConstants.CONFIDENCE_VALUE);
 				double confidence2 = next.getConfidence();
