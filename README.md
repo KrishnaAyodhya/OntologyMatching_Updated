@@ -1,30 +1,26 @@
-## Ontology Matching Operator
+# Ontology Matching Operator
 
-Requirements
-1. Java  (version 11+)
-2. Maven
+ 1. Clone this Project in local        
+ 2. If you get any error/warning in Eclipse (Plugin execution not covered by lifecycle configuration:) in POM.xml  <br /> Go to Windows --> Preferences --> Maven --> Errors/Warnings --> Change to "Warning" or "Ignore" for Plugin Execution.
+ 3. For Jars Installation, use `mvn initialize` or manually install using below commands: <br/>
+      a. **LogMap Jar Installation in Maven ::** `mvn install:install-file
+-Dfile=[path-to-jar-file-in-repo]
+-DgroupId=uk.ox.logmap
+-DartifactId=logmap-matcher 
+-Dversion=4.0 
+-Dpackaging=jar` <br/>
+      b. **FCA-Map Jar Installation in Maven ::** `mvn install:install-file -Dfile="[path-to-jar-file-in-repo]" -DgroupId=cn.ac.amss.semanticweb -DartifactId=FCA-Map -Dversion=1.1.0 -Dpackaging=jar` <br/>
 
-## **Running DEER**
-To bundle DEER as a single jar file, do
+4. Use `mvn clean package` in parent folder to generate the plugin under
+`./target/plugin-starter-${version}-plugin.jar`.
+Copy the plugin into a folder named `plugins/` in the working directory from which you
+want to invoke DEER and it will automatically be loaded.   
 
-mvn clean package shade:shade -Dmaven.test.skip=true
-Then execute it using
+5. To invoke it via DEER cli, use `java -jar deer-cli/target/deer-cli-${current-version}.jar path_to_config.ttl`   
 
-java -jar deer-cli/target/deer-cli-${current-version}.jar path_to_config.ttl
-## **Using Docker**
-The Docker image declares two volumes:
+## For Windows
 
-/plugins - this is where plugins are dynamically loaded from
-/data - this is where configuration as well as input/output data will reside
-For running DEER server in Docker, we expose port 8080. The image accepts the same arguments as the deer-cli.jar, i.e. to run a configuration at ./my-configuration:
-
-docker run -it --rm \
-   -v $(pwd)/plugins:/plugins \
-   -v $(pwd):/data dicegroup/deer:latest \
-   /data/my-configuration.ttl
-To run DEER server:
-
-docker run -it --rm \
-   -v $(pwd)/plugins:/plugins \
-   -p 8080:8080 \
-   -s
+### Docker command for Windows cmd
+```cmd
+docker run -it --rm  -v %cd%/plugins:/plugins -v %cd%/src/test/resources:/config dicegroup/deer:latest /config/configuration.ttl
+```
