@@ -1,3 +1,9 @@
+## Ontology Matching Operator
+
+Requirements
+1. Java  (version 11+)
+2. Maven
+
 ## **Running DEER**
 To bundle DEER as a single jar file, do
 
